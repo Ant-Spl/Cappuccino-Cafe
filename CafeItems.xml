@@ -164,7 +164,23 @@
 <wod id="3169" n="Static" g="Wall" t="Window1" cash="4000" gold="0" friends="0" goldNoFriends="0" releaseDate="1771271131" world="0" events="0" xp="0" level="5" />
 <wod id="3170" n="Static" g="Wall" t="Window2" cash="4000" gold="0" friends="0" goldNoFriends="0" releaseDate="1771271131" world="0" events="0" xp="0" level="5" />
 <wod id="3171" n="Static" g="Wall" t="Window3" cash="4000" gold="0" friends="0" goldNoFriends="0" releaseDate="1771271131" world="0" events="0" xp="0" level="5" />
-
+<wod id="3172" n="Static" g="Tile" t="Invisible" walkable="1" rotatetype="0" cash="30" gold="0" friends="0" goldNoFriends="0" releaseDate="1778691600" world="0" events="0" xp="0" level="5" />
+<wod id="3172" n="Static" g="Wall" t="Invisible" cash="100" gold="0" friends="0" goldNoFriends="0" releaseDate="1778691600" world="0" events="0" xp="0" level="5" />
+<wod id="3173" n="Basic" g="Chair" t="VipChairGreen" walkable="0" rotatetype="3" cash="950" gold="0" friends="0" goldNoFriends="0" releaseDate="1778698800" world="0" events="0" xp="0" level="5" />
+<wod id="3174" n="Basic" g="Chair" t="Dinergreen" walkable="0" rotatetype="3" cash="1600" gold="0" friends="0" goldNoFriends="0" releaseDate="1778698800" world="0" events="0" xp="0" level="1" />
+<wod id="3175" n="Basic" g="Deco" t="Drinkshelftrop" walkable="0" rotatetype="2" cash="25000" gold="0" friends="0" goldNoFriends="0" releaseDate="1778698800" world="0" events="0" xp="0" level="10" />
+<wod id="3176" n="Basic" g="Deco" t="Drinkshelfwhite" walkable="0" rotatetype="2" cash="0" gold="1" friends="0" goldNoFriends="0" releaseDate="1778698800" world="0" events="0" xp="0" level="5" />
+<wod id="3177" n="Basic" g="Deco" t="Drinkshelfblack" walkable="0" rotatetype="2" cash="0" gold="1" friends="0" goldNoFriends="0" releaseDate="1778698800" world="0" events="0" xp="0" level="5" />
+<wod id="3178" n="Basic" g="Stove" t="Dinerblack" walkable="0" rotatetype="3" cash="0" gold="4" friends="0" goldNoFriends="0" releaseDate="1778698800" world="0" events="0" xp="0" level="1" />
+<wod id="3179" n="Basic" g="Stove" t="Springpink" walkable="0" rotatetype="3" cash="15000" gold="0" friends="0" goldNoFriends="0" releaseDate="1778698800" world="0" events="0" xp="0" level="1" />
+<wod id="3180" n="Basic" g="Stove" t="Springblue" walkable="0" rotatetype="3" cash="15000" gold="0" friends="0" goldNoFriends="0" releaseDate="1778698800" world="0" events="0" xp="0" level="1" />
+<wod id="3181" n="Basic" g="Stove" t="Golden" walkable="0" rotatetype="3" cash="0" gold="99" friends="0" goldNoFriends="0" releaseDate="1778698800" world="0" events="0" xp="0" level="10" />
+<wod id="3182" n="Basic" g="Table" t="Daisygreen" walkable="0" rotatetype="1" cash="7500" gold="0" friends="0" goldNoFriends="0" releaseDate="1778698800" world="0" events="0" xp="0" level="1" />
+<wod id="3183" n="Basic" g="Table" t="VipGreenTable" walkable="0" rotatetype="1" cash="808" gold="0" friends="0" goldNoFriends="0" releaseDate="1778698800" world="0" events="0" xp="0" level="5" />
+<wod id="3184" n="Basic" g="Table" t="Dinersquaregreen" walkable="0" rotatetype="1" cash="1500" gold="0" friends="0" goldNoFriends="0" releaseDate="1778698800" world="0" events="0" xp="0" level="1" />
+<wod id="3185" n="Static" g="Wall" t="Basicwisteria" cash="20" gold="0" friends="0" goldNoFriends="0" releaseDate="1778698800" world="0" events="0" xp="0" level="1" />
+<wod id="3186" n="Static" g="Wall" t="Basicforest" cash="20" gold="0" friends="0" goldNoFriends="0" releaseDate="1778698800" world="0" events="0" xp="0" level="1" />
+<wod id="3187" n="Basic" g="Deco" t="Countryflag" walkable="0" rotatetype="2" cash="9999" gold="0" friends="0" goldNoFriends="0" releaseDate="1778698800" world="0" events="0" xp="0" level="5" />
 
 <wod id="4000" n="Animated" g="Deco" t="fJewelmaker" walkable="0" rotatetype="3" cash="0" gold="1" friends="0" goldNoFriends="0" releaseDate="1770082667" world="0" events="0" xp="0" level="5" />
 <wod id="4001" n="Animated" g="Deco" t="fSeamstress" walkable="0" rotatetype="3" cash="0" gold="1" friends="0" goldNoFriends="0" releaseDate="1770082667" world="0" events="0" xp="0" level="5" />
