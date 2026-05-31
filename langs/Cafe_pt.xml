@@ -465,6 +465,12 @@ Se você estocá-la, as porções existentes serão perdidas!" />
 		<text id="coop_title_28" name="COCOAFISSÃO" />
 		<text id="coop_desc_short_28" name="O verdadeiro amor é Chocolate!" />
 		<text id="coop_desc_long_28" name="Nao quer popularizar pratos de chocolate pelo bairro e vai pagar por isso. Por que não participar?" />
+		<text id="coop_title_29" name="CURRY FESTIVAL" />
+		<text id="coop_desc_short_29" name="There&apos;s an option for everyone!" />
+		<text id="coop_desc_long_29" name="A local Indian festival wants to hand out as much curry as possible to guests. Can you help?" />
+		<text id="coop_title_30" name="A MOUSE IN THE KITCHEN!" />
+		<text id="coop_desc_short_30" name="Don&apos;t let anyone see it!" />
+		<text id="coop_desc_long_30" name="A mouse was spotted in your Café and it wants fancy food to be served or it will ruin your business! Why does this feel familiar?" />
 	</coopmission>
 	<dialogs>
 		<text id="dialogwin_achievement_title" name="Conquistas" />
