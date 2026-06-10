@@ -894,7 +894,7 @@
 <wod id="2030" n="Basic" g="Achievement" t="Wheeloffortune" />
 <wod id="2101" n="Basic" g="Coop" t="1" events="0" maxMember="5" maxLevel="129" chips="1274" xp="21" gold="2" duration="2520" dishes="1204+20#1203+6#1202+2#2215+15" />
 <wod id="2102" n="Basic" g="Coop" t="2" events="0" maxMember="5" maxLevel="129" chips="4490" xp="141" gold="4" duration="4000" dishes="1210+30#1207+40#1206+50#2223+20"/>
-<wod id="2103" n="Basic" g="Coop" t="3" events="0" maxMember="5" maxLevel="129" chips="4937" xp="284" gold="8" duration="13040" dishes="1219+25#1218+25" />
+<wod id="2103" n="Basic" g="Coop" t="3" events="0" maxMember="5" maxLevel="129" chips="7212" xp="317" gold="8" duration="13040" dishes="1219+25#1218+25#1214+50" />
 <wod id="2104" n="Basic" g="Coop" t="4" events="0" maxMember="5" maxLevel="129" chips="2842" xp="130" gold="4" duration="9120" dishes="1208+15#1207+10#1206+15#1220+12" />
 <wod id="2105" n="Basic" g="Coop" t="5" events="0" maxMember="5" maxLevel="129" chips="2852" xp="159" gold="5" duration="6960" dishes="1203+20#1213+15#2222+10" />
 <wod id="2106" n="Basic" g="Coop" t="6" events="0" maxMember="5" maxLevel="129" chips="1654" xp="37" gold="1" duration="2160" dishes="1203+5#1201+40#1205+5#1217+8" />
