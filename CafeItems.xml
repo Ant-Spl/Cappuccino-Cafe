@@ -765,7 +765,7 @@
 
 <wod id="1254" n="Basic" g="Dish" t="Sandwich" events="0" xp="56" incomePerServing="50" servings="31" duration="15" level="45" dishcategory="5" requirements="1301+1#1305+1#1312+1#1327+1#1337+1#1406+1" />
 
-<wod id="2264" n="Basic" g="Dish" t="Shakshuka" events="0" xp="3977" incomePerServing="3" servings="681" duration="1440" level="46" dishcategory="1" requirements="1318+1#1313+1#1327+4#1311+1#1406+1" />
+<wod id="2264" n="Basic" g="Dish" t="Shakshuka" events="0" xp="3977" incomePerServing="1" servings="2041" duration="1440" level="46" dishcategory="1" requirements="1318+1#1313+1#1327+4#1311+1#1406+1" />
 
 <wod id="2256" n="Basic" g="Dish" t="Neapolitancake" events="0" xp="448" incomePerServing="6" servings="327" duration="120" level="47" dishcategory="0" requirements="1342+1#1307+1#1328+1#1312+1#1330+1#1408+1" />
 
