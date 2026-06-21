@@ -4,13 +4,10 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
   <title>Cappuccino Café DishDex</title>
-
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
-
   <link rel="stylesheet" href="style.css">
 </head>
 <body class="dark-theme">
@@ -25,12 +22,8 @@
               <h1>DishDex</h1>
             </div>
           </div>
-
-          <p class="subtitle" data-i18n="mainSubtitle">
-            Access information about all dishes!
-          </p>
+          <p class="subtitle" data-i18n="mainSubtitle">Access information about all dishes!</p>
         </div>
-
         <div class="status-card">
           <span id="loadStatus">Loading Café data...</span>
           <small id="dataSummary"></small>
@@ -43,7 +36,6 @@
             <h2 data-i18n="chooseMode">Choose a mode</h2>
             <p class="section-note" data-i18n="chooseModeNote">Select how you want to use DishDex.</p>
           </div>
-
           <div class="home-controls">
             <label class="language-select">
               <span data-i18n="languageLabel">🌐 Language</span>
@@ -52,7 +44,6 @@
                 <option value="pt">🇧🇷 Português</option>
               </select>
             </label>
-
             <label class="theme-toggle">
               <span data-i18n="darkTheme">Dark Theme</span>
               <input id="themeToggle" type="checkbox" checked>
@@ -60,21 +51,29 @@
           </div>
         </div>
 
-        <div class="mode-grid">
+        <div class="mode-grid four-mode-grid">
           <button id="openMyDex" class="mode-card" type="button">
             <img src="MyDex.png" alt="" class="mode-icon" onerror="this.style.display='none'">
             <span class="mode-title">MyDex</span>
-            <span class="mode-description" data-i18n="myDexDescription">
-              Access your personal DishDex based on your level, XP and available time.
-            </span>
+            <span class="mode-description" data-i18n="myDexDescription">Access your personal DishDex based on your level, XP and available time.</span>
           </button>
 
           <button id="openFullDishDex" class="mode-card" type="button">
             <img src="DishDex.png" alt="" class="mode-icon" onerror="this.style.display='none'">
             <span class="mode-title" data-i18n="fullDishDexTitle">Full DishDex</span>
-            <span class="mode-description" data-i18n="fullDishDexDescription">
-              Access the complete DishDex with all information.
-            </span>
+            <span class="mode-description" data-i18n="fullDishDexDescription">Access the complete DishDex with all information.</span>
+          </button>
+
+          <button id="openProfile" class="mode-card" type="button">
+            <img src="MyProfile.png" alt="" class="mode-icon" onerror="this.style.display='none'">
+            <span class="mode-title" data-i18n="myProfileTitle">My Profile</span>
+            <span class="mode-description" data-i18n="myProfileDescription">Save your chef name, level and default stove count.</span>
+          </button>
+
+          <button id="openMasteries" class="mode-card" type="button">
+            <img src="Masteries.png" alt="" class="mode-icon" onerror="this.style.display='none'">
+            <span class="mode-title" data-i18n="myMasteriesTitle">My Masteries</span>
+            <span class="mode-description" data-i18n="myMasteriesDescription">Register your dish mastery stars and apply them to MyDex.</span>
           </button>
         </div>
       </section>
@@ -94,23 +93,19 @@
 
       <section class="panel inputs-panel">
         <h2 data-i18n="myDexSettings">MyDex Settings</h2>
-
         <div class="input-grid">
           <label>
             <span data-i18n="playerLevel">Player Level</span>
             <input id="playerLevel" type="number" min="0" max="200" value="1">
           </label>
-
           <label>
             <span data-i18n="xpNeeded">XP Needed</span>
             <input id="xpNeeded" type="number" min="0" value="1000">
           </label>
-
           <label>
             <span data-i18n="availableStoves">Available Stoves</span>
             <input id="stoveCount" type="number" min="1" value="3">
           </label>
-
           <label>
             <span data-i18n="holidayMode">Include holiday foods?</span>
             <select id="holidayMode">
@@ -120,15 +115,11 @@
             </select>
           </label>
         </div>
-
-        <p class="hint" data-i18n="myDexHint">
-          Insert your data for personalized recommendations.
-        </p>
+        <p class="hint" data-i18n="myDexHint">Insert your data for personalized recommendations.</p>
       </section>
 
       <section class="panel">
         <h2 data-i18n="bestSummaryTitle">Best of Summary</h2>
-
         <div class="table-wrap">
           <table>
             <thead>
@@ -154,7 +145,6 @@
 
       <section class="panel">
         <h2 data-i18n="bestXpTitle">Best Dishes (XP)</h2>
-
         <div class="table-wrap">
           <table>
             <thead>
@@ -176,7 +166,6 @@
 
       <section class="panel">
         <h2 data-i18n="bestProfitTitle">Best Dishes (Profit)</h2>
-
         <div class="table-wrap">
           <table>
             <thead>
@@ -198,7 +187,6 @@
 
       <section class="panel">
         <h2 data-i18n="bestPortionsTitle">Best dishes (Portions)</h2>
-
         <div class="table-wrap">
           <table>
             <thead>
@@ -220,10 +208,7 @@
 
       <section class="panel">
         <h2 data-i18n="xpPlansTitle">XP Needed Plans</h2>
-        <p class="section-note" data-i18n="xpPlansNote">
-          Best level up plans to base your needs and availability.
-        </p>
-
+        <p class="section-note" data-i18n="xpPlansNote">Best level up plans to base your needs and availability.</p>
         <div class="table-wrap">
           <table>
             <thead>
@@ -248,19 +233,12 @@
       <section class="split-panels">
         <section class="panel">
           <h2 data-i18n="specialDishes">Special Dishes</h2>
-          <p class="section-note" data-i18n="specialDishesNote">
-            Special dishes are shown separately.
-          </p>
-
+          <p class="section-note" data-i18n="specialDishesNote">Special dishes are shown separately.</p>
           <div id="specialDishesBody" class="dish-card-grid"></div>
         </section>
-
         <section class="panel">
           <h2 data-i18n="holidayDishes">Holiday Dishes</h2>
-          <p class="section-note" data-i18n="holidayDishesNote">
-            Holiday dishes are shown separately. Auto mode uses Christmas and Easter seasons.
-          </p>
-
+          <p class="section-note" data-i18n="holidayDishesNote">Holiday dishes are shown separately. Auto mode uses Christmas and Easter seasons.</p>
           <div id="holidayDishesBody" class="dish-card-grid"></div>
         </section>
       </section>
@@ -277,10 +255,8 @@
           </div>
         </div>
       </header>
-
       <section class="panel">
         <h2 data-i18n="sortFullDishDex">Sort Full DishDex</h2>
-
         <div class="sort-grid">
           <label>
             <span data-i18n="sortBy">Sort by</span>
@@ -288,13 +264,9 @@
           </label>
         </div>
       </section>
-
       <section class="panel">
         <h2 data-i18n="availableDishDex">Available DishDex</h2>
-        <p class="section-note" data-i18n="availableDishDexNote">
-          Complete dish list with XP, profit, portions, time, category and requirements.
-        </p>
-
+        <p class="section-note" data-i18n="availableDishDexNote">Complete dish list with XP, profit, portions, time, category and requirements.</p>
         <div class="table-wrap">
           <table class="full-table">
             <thead>
@@ -317,6 +289,78 @@
               </tr>
             </thead>
             <tbody id="fullDishDexBody"></tbody>
+          </table>
+        </div>
+      </section>
+    </section>
+
+    <section id="profileScreen" class="screen hidden">
+      <header class="sub-hero">
+        <button class="back-button" type="button" data-back data-i18n="backButton">← Back</button>
+        <div class="title-row compact-title-row">
+          <img src="MyProfile.png" alt="" class="title-logo small-logo" onerror="this.style.display='none'">
+          <div>
+            <p class="eyebrow">Cappuccino Café</p>
+            <h1 data-i18n="myProfileTitle">My Profile</h1>
+          </div>
+        </div>
+      </header>
+      <section class="panel profile-panel">
+        <h2 data-i18n="profileSettingsTitle">Chef Profile</h2>
+        <p class="section-note" data-i18n="profileSettingsNote">Your level sets the default stove count from CafeLevelXp.xml. You can still change stoves in MyDex.</p>
+        <div class="input-grid profile-grid">
+          <label>
+            <span data-i18n="chefName">Chef name</span>
+            <input id="profileChefName" type="text" maxlength="40" autocomplete="off">
+          </label>
+          <label>
+            <span data-i18n="playerLevel">Player Level</span>
+            <input id="profileLevel" type="number" min="0" max="200" value="1">
+          </label>
+          <label>
+            <span data-i18n="availableStoves">Available Stoves</span>
+            <input id="profileStoves" type="number" min="1" value="3">
+          </label>
+        </div>
+        <p id="profileSaveStatus" class="hint"></p>
+      </section>
+    </section>
+
+    <section id="masteriesScreen" class="screen hidden">
+      <header class="sub-hero">
+        <button class="back-button" type="button" data-back data-i18n="backButton">← Back</button>
+        <div class="title-row compact-title-row">
+          <img src="Masteries.png" alt="" class="title-logo small-logo" onerror="this.style.display='none'">
+          <div>
+            <p class="eyebrow" data-i18n="masteriesEyebrow">Dish perks</p>
+            <h1 data-i18n="myMasteriesTitle">My Masteries</h1>
+          </div>
+        </div>
+      </header>
+      <section class="panel">
+        <div class="data-actions">
+          <button id="loadDataButton" type="button" class="action-button" data-i18n="loadData">Load data</button>
+          <button id="downloadDataButton" type="button" class="action-button" data-i18n="downloadData">Download data</button>
+          <button id="deleteDataButton" type="button" class="action-button danger-button" data-i18n="deleteData">Delete data</button>
+          <input id="dataFileInput" type="file" accept="application/json,.json" hidden>
+        </div>
+        <p id="masteryDataStatus" class="hint"></p>
+        <label class="search-label">
+          <span data-i18n="searchDish">Search dish</span>
+          <input id="masterySearch" type="search" autocomplete="off" placeholder="Search dish...">
+        </label>
+        <div class="table-wrap mastery-table-wrap">
+          <table class="mastery-table">
+            <thead>
+              <tr>
+                <th data-i18n="image">Image</th>
+                <th data-i18n="dish">Dish</th>
+                <th data-i18n="mastery">Mastery</th>
+                <th data-i18n="effects">Effects</th>
+                <th data-i18n="level">Level</th>
+              </tr>
+            </thead>
+            <tbody id="masteriesBody"></tbody>
           </table>
         </div>
       </section>
