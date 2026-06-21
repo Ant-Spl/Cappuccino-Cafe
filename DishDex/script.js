@@ -114,6 +114,7 @@ async function loadDishRecords() {
       duration,
       durationText: formatDuration(duration),
       servings,
+      servingsPerMin: duration > 0 ? servings / duration : 0,
       incomePerServing,
       ingredientCost,
       revenue,
@@ -170,21 +171,34 @@ function renderMyDex() {
   });
 
   const bestXpPerMin = findBestDish(regularCandidates, record => record.xpPerMin);
-  const highestRawXp = findBestDish(regularCandidates, record => record.xp);
-  const highestRawProfit = findBestDish(regularCandidates, record => record.profit);
-  const bestProfitPerMin = findBestDish(regularCandidates, record => record.profitPerMin);
 
-  const bestFastXp = findBestDish(
+  const bestFastXpPerMin = findBestDish(
     regularCandidates,
     record => record.xpPerMin,
     record => record.duration < 60
   );
 
-  const bestLongXpPerMin = findBestDish(
+  const bestRawXp = findBestDish(regularCandidates, record => record.xp);
+
+  const bestProfitPerMin = findBestDish(regularCandidates, record => record.profitPerMin);
+
+  const bestFastProfitPerMin = findBestDish(
     regularCandidates,
-    record => record.xpPerMin,
-    record => record.duration >= 480
+    record => record.profitPerMin,
+    record => record.duration < 60
   );
+
+  const bestRawProfit = findBestDish(regularCandidates, record => record.profit);
+
+  const bestPortionPerMin = findBestDish(regularCandidates, record => record.servingsPerMin);
+
+  const bestFastPortionPerMin = findBestDish(
+    regularCandidates,
+    record => record.servingsPerMin,
+    record => record.duration < 60
+  );
+
+  const bestRawPortion = findBestDish(regularCandidates, record => record.servings);
 
   const bestLongRawXp = findBestDish(
     regularCandidates,
@@ -192,17 +206,26 @@ function renderMyDex() {
     record => record.duration >= 480
   );
 
-  renderBestRegular([
+  renderBestXp([
     ['Best XP/min', bestXpPerMin],
-    ['Highest Raw XP', highestRawXp],
-    ['Highest Raw Profit', highestRawProfit],
-    ['Best Profit/min', bestProfitPerMin],
-    ['Best fast XP/min', bestFastXp],
-    ['Best long time XP/min', bestLongXpPerMin]
+    ['Best fast XP/min', bestFastXpPerMin],
+    ['Best raw XP', bestRawXp]
+  ]);
+
+  renderBestProfit([
+    ['Best profit/min', bestProfitPerMin],
+    ['Best fast profit/min', bestFastProfitPerMin],
+    ['Best raw profit', bestRawProfit]
+  ]);
+
+  renderBestPortions([
+    ['Best portion/min', bestPortionPerMin],
+    ['Best fast portion/min', bestFastPortionPerMin],
+    ['Raw best portion', bestRawPortion]
   ]);
 
   renderPlans(settings, [
-    ['Short-Time Plan', bestFastXp, 'Best XP/min under 1 hour.', 'row-short'],
+    ['Short-Time Plan', bestFastXpPerMin, 'Best XP/min under 1 hour.', 'row-short'],
     ['Long-Time Plan', bestLongRawXp, 'Best raw XP for 8h or more.', 'row-long']
   ]);
 
@@ -221,12 +244,12 @@ function getSettings() {
   };
 }
 
-function renderBestRegular(items) {
-  const body = document.getElementById('bestRegularBody');
+function renderBestXp(items) {
+  const body = document.getElementById('bestXpBody');
   const validItems = items.filter(item => item[1]);
 
   if (validItems.length === 0) {
-    body.innerHTML = emptyRow(10, 'No regular dishes available for this level/settings.');
+    body.innerHTML = emptyRow(8, 'No XP recommendations available for this level/settings.');
     return;
   }
 
@@ -242,8 +265,62 @@ function renderBestRegular(items) {
         <td>${number(record.level)}</td>
         <td>${number(record.xp)}</td>
         <td>${decimal(record.xpPerMin)}</td>
+        <td>${escapeHtml(record.durationText)}</td>
+        <td>${escapeHtml(record.categoryName)}</td>
+      </tr>
+    `;
+  }).join('');
+}
+
+function renderBestProfit(items) {
+  const body = document.getElementById('bestProfitBody');
+  const validItems = items.filter(item => item[1]);
+
+  if (validItems.length === 0) {
+    body.innerHTML = emptyRow(8, 'No profit recommendations available for this level/settings.');
+    return;
+  }
+
+  body.innerHTML = validItems.map(item => {
+    const label = item[0];
+    const record = item[1];
+
+    return `
+      <tr class="${categoryClass(record.categoryId)}">
+        <td>${imageHtml(record)}</td>
+        <td>${escapeHtml(label)}</td>
+        <td class="dish-name">${escapeHtml(record.dishName)}</td>
+        <td>${number(record.level)}</td>
         <td>${number(record.profit)}</td>
         <td>${decimal(record.profitPerMin)}</td>
+        <td>${escapeHtml(record.durationText)}</td>
+        <td>${escapeHtml(record.categoryName)}</td>
+      </tr>
+    `;
+  }).join('');
+}
+
+function renderBestPortions(items) {
+  const body = document.getElementById('bestPortionsBody');
+  const validItems = items.filter(item => item[1]);
+
+  if (validItems.length === 0) {
+    body.innerHTML = emptyRow(8, 'No portion recommendations available for this level/settings.');
+    return;
+  }
+
+  body.innerHTML = validItems.map(item => {
+    const label = item[0];
+    const record = item[1];
+
+    return `
+      <tr class="${categoryClass(record.categoryId)}">
+        <td>${imageHtml(record)}</td>
+        <td>${escapeHtml(label)}</td>
+        <td class="dish-name">${escapeHtml(record.dishName)}</td>
+        <td>${number(record.level)}</td>
+        <td>${number(record.servings)}</td>
+        <td>${decimal(record.servingsPerMin)}</td>
         <td>${escapeHtml(record.durationText)}</td>
         <td>${escapeHtml(record.categoryName)}</td>
       </tr>
