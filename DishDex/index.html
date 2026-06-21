@@ -1,60 +1,170 @@
+<!-- DishDex/index.html -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
   <title>Cappuccino Café DishDex</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      background: #fff8ef;
-      color: #3b2618;
-      padding: 24px;
-    }
 
-    .card {
-      background: white;
-      border: 2px solid #e8c9a8;
-      border-radius: 14px;
-      padding: 18px;
-      max-width: 760px;
-      box-shadow: 0 4px 12px rgba(0,0,0,0.08);
-    }
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
 
-    .ok {
-      color: #267a2f;
-      font-weight: bold;
-    }
-
-    .bad {
-      color: #b3261e;
-      font-weight: bold;
-    }
-
-    code {
-      background: #f4e6d4;
-      padding: 2px 5px;
-      border-radius: 4px;
-    }
-
-    pre {
-      background: #f4e6d4;
-      padding: 12px;
-      border-radius: 8px;
-      overflow-x: auto;
-    }
-  </style>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="card">
-    <h1>Cappuccino Café DishDex</h1>
-    <p>This page is testing if it can read the Café XML files.</p>
+  <main class="page">
+    <header class="hero">
+      <div>
+        <p class="eyebrow">Cappuccino Café</p>
+        <h1>DishDex</h1>
+        <p class="subtitle">
+          Find the best dishes for your level, XP grinding, profit, and cooking schedule.
+        </p>
+      </div>
 
-    <h2>Status</h2>
-    <div id="status">Loading...</div>
+      <div class="status-card">
+        <span id="loadStatus">Loading Café data...</span>
+        <small id="dataSummary"></small>
+      </div>
+    </header>
 
-    <h2>Details</h2>
-    <pre id="details"></pre>
-  </div>
+    <section class="panel inputs-panel">
+      <h2>MyDex Settings</h2>
+
+      <div class="input-grid">
+        <label>
+          <span>Player Level</span>
+          <input id="playerLevel" type="number" min="0" max="200" value="1">
+        </label>
+
+        <label>
+          <span>XP Needed</span>
+          <input id="xpNeeded" type="number" min="0" value="1000">
+        </label>
+
+        <label>
+          <span>Available Stoves</span>
+          <input id="stoveCount" type="number" min="1" value="3">
+        </label>
+
+        <label>
+          <span>Holiday Mode</span>
+          <select id="holidayMode">
+            <option value="Exclude">Exclude</option>
+            <option value="Include">Include</option>
+            <option value="Auto">Auto</option>
+          </select>
+        </label>
+      </div>
+
+      <p class="hint">
+        Inputs update instantly in your browser. No one else’s page is affected.
+      </p>
+    </section>
+
+    <section class="panel">
+      <h2>Best Regular Dishes</h2>
+      <p class="section-note">
+        Special premium foods are excluded from this section. Holiday dishes follow your Holiday Mode.
+      </p>
+
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>Image</th>
+              <th>Recommendation</th>
+              <th>Dish</th>
+              <th>Level</th>
+              <th>XP</th>
+              <th>XP/min</th>
+              <th>Profit</th>
+              <th>Profit/min</th>
+              <th>Duration</th>
+              <th>Category</th>
+            </tr>
+          </thead>
+          <tbody id="bestRegularBody"></tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="panel">
+      <h2>XP Needed Plans</h2>
+      <p class="section-note">
+        Dishes needed = XP needed ÷ dish XP. Batches = dishes needed ÷ available stoves.
+      </p>
+
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>Image</th>
+              <th>Plan</th>
+              <th>Dish</th>
+              <th>XP Each</th>
+              <th>Duration</th>
+              <th>Dishes Needed</th>
+              <th>Batches</th>
+              <th>Total Cook Time</th>
+              <th>Stoves</th>
+              <th>Note</th>
+            </tr>
+          </thead>
+          <tbody id="xpPlansBody"></tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="split-panels">
+      <section class="panel">
+        <h2>Special Dishes</h2>
+        <p class="section-note">
+          Premium/special economy dishes are shown separately.
+        </p>
+
+        <div id="specialDishesBody" class="dish-card-grid"></div>
+      </section>
+
+      <section class="panel">
+        <h2>Holiday Dishes</h2>
+        <p class="section-note">
+          Holiday dishes are shown separately. Auto mode uses Christmas and Easter seasons.
+        </p>
+
+        <div id="holidayDishesBody" class="dish-card-grid"></div>
+      </section>
+    </section>
+
+    <section class="panel">
+      <h2>Available DishDex</h2>
+      <p class="section-note">
+        All dishes available at your current level and settings.
+      </p>
+
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>Image</th>
+              <th>Dish</th>
+              <th>Level</th>
+              <th>XP</th>
+              <th>XP/min</th>
+              <th>Profit</th>
+              <th>Profit/min</th>
+              <th>Duration</th>
+              <th>Category</th>
+              <th>Type</th>
+            </tr>
+          </thead>
+          <tbody id="availableDishBody"></tbody>
+        </table>
+      </div>
+    </section>
+  </main>
 
   <script src="script.js"></script>
 </body>
