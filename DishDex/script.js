@@ -2,11 +2,18 @@
 
 const PATHS = {
   cafeItems: '../CafeItems.xml',
-  languageFiles: [
-    '../langs/Cafe_en.xml',
-    '../langs/cafe_en.xml',
-    '../Cafe_en.xml'
-  ],
+  languageFiles: {
+    en: [
+      '../langs/Cafe_en.xml',
+      '../langs/cafe_en.xml',
+      '../Cafe_en.xml'
+    ],
+    pt: [
+      '../langs/Cafe_pt.xml',
+      '../langs/cafe_pt.xml',
+      '../Cafe_pt.xml'
+    ]
+  },
   imageBase: '../dishimages/'
 };
 
@@ -23,83 +30,302 @@ const HOLIDAY_DISH_KEYS = [
 ];
 
 const CATEGORY_NAMES = {
-  '0': 'Dessert',
-  '1': 'Main Dish',
-  '2': 'Soup',
-  '3': 'Salad',
-  '4': 'Vegetarian',
-  '5': 'Snack'
+  en: {
+    '0': 'Dessert',
+    '1': 'Main Dish',
+    '2': 'Soup',
+    '3': 'Salad',
+    '4': 'Vegetarian',
+    '5': 'Snack'
+  },
+  pt: {
+    '0': 'Sobremesa',
+    '1': 'Prato principal',
+    '2': 'Sopa',
+    '3': 'Salada',
+    '4': 'Vegetariano',
+    '5': 'Lanche'
+  }
 };
 
-const TIME_BUCKETS = [
-  {
-    key: 'active',
-    recommendationLabel: 'Best active',
-    planLabel: 'Active-time plan',
-    note: 'Best XP/min for 10 minutes or less.',
-    matches: record => record.duration <= 10
+const I18N = {
+  en: {
+    mainSubtitle: 'Access information about all dishes!',
+    chooseMode: 'Choose a mode',
+    chooseModeNote: 'Select how you want to use DishDex.',
+    languageLabel: '🌐 Language',
+    darkTheme: 'Dark Theme',
+    myDexDescription: 'Access your personal DishDex based on your level, XP and available time.',
+    fullDishDexTitle: 'Full DishDex',
+    fullDishDexDescription: 'Access the complete DishDex with all information.',
+    backButton: '← Back',
+    personalRecommendations: 'Personal recommendations',
+    myDexSettings: 'MyDex Settings',
+    playerLevel: 'Player Level',
+    xpNeeded: 'XP Needed',
+    availableStoves: 'Available Stoves',
+    holidayMode: 'Holiday Mode',
+    exclude: 'Exclude',
+    include: 'Include',
+    auto: 'Auto',
+    myDexHint: 'Insert your data for personalized recommendations.',
+    bestXpTitle: 'Best Dishes (XP)',
+    bestProfitTitle: 'Best Dishes (Profit)',
+    bestPortionsTitle: 'Best dishes (Portions)',
+    image: 'Image',
+    recommendation: 'Recommendation',
+    dish: 'Dish',
+    level: 'Level',
+    duration: 'Duration',
+    category: 'Category',
+    profit: 'Profit',
+    profitMin: 'Profit/min',
+    portions: 'Portions',
+    portionsMin: 'Portions/min',
+    xpPlansTitle: 'XP Needed Plans',
+    xpPlansNote: 'Best level up plans to base your needs and availability.',
+    plan: 'Plan',
+    xpEach: 'XP Each',
+    dishesNeeded: 'Dishes Needed',
+    batches: 'Batches',
+    totalCookTime: 'Total Cook Time',
+    stoves: 'Stoves',
+    note: 'Note',
+    specialDishes: 'Special Dishes',
+    specialDishesNote: 'Special dishes are shown separately.',
+    holidayDishes: 'Holiday Dishes',
+    holidayDishesNote: 'Holiday dishes are shown separately. Auto mode uses Christmas and Easter seasons.',
+    completeDishList: 'Complete dish list',
+    sortFullDishDex: 'Sort Full DishDex',
+    sortBy: 'Sort by',
+    availableDishDex: 'Available DishDex',
+    availableDishDexNote: 'Complete dish list with XP, profit, portions, time, category and requirements.',
+    cost: 'Cost',
+    revenue: 'Revenue',
+    requirements: 'Requirements',
+    type: 'Type',
+    loadingXml: 'Loading Café XML...',
+    dataLoaded: 'Café data loaded!',
+    dishesReady: 'dishes ready',
+    noXpRecommendations: 'No XP recommendations available for this level/settings.',
+    noProfitRecommendations: 'No profit recommendations available for this level/settings.',
+    noPortionRecommendations: 'No portion recommendations available for this level/settings.',
+    noDishesAvailable: 'No dishes available.',
+    noAvailableDish: 'No available dish',
+    setXpAboveZero: 'Set XP Needed above 0.',
+    noDishMatchesPlan: 'No dish matches this plan.',
+    special: 'Special',
+    holiday: 'Holiday',
+    regular: 'Regular',
+    holidayActive: 'Holiday: Active',
+    holidayInactive: 'Holiday: Inactive',
+    profitLower: 'profit',
+    bestActive: 'Best active',
+    bestFast: 'Best fast',
+    bestShort: 'Best short',
+    bestMedium: 'Best medium',
+    bestLong: 'Best long',
+    bestVeryLong: 'Best very long',
+    bestDayOff: 'Best day-off',
+    metricXpMin: 'XP/min',
+    metricProfitMin: 'profit/min',
+    metricPortionMin: 'portion/min',
+    activePlan: 'Active-time plan',
+    fastPlan: 'Fast-time plan',
+    shortPlan: 'Short-time plan',
+    mediumPlan: 'Medium-time plan',
+    longPlan: 'Long-time plan',
+    veryLongPlan: 'Very-long time plan',
+    dayOffPlan: 'Day-off plan',
+    activeNote: 'Best XP/min for 10 minutes or less.',
+    fastNote: 'Best XP/min between 11 minutes and 1 hour.',
+    shortNote: 'Best XP/min between 1 h 1 min and 3 h.',
+    mediumNote: 'Best XP/min between 3 h 1 min and 6 h.',
+    longNote: 'Best XP/min between 6 h 1 min and 12 h.',
+    veryLongNote: 'Best XP/min between 12 h 1 min and 23 h.',
+    dayOffNote: 'Best XP/min for 23 h 1 min or more.',
+    sortStandard: 'Standard (level lowest to highest)',
+    sortLevelAsc: 'Level: low to high',
+    sortLevelDesc: 'Level: high to low',
+    sortNameAsc: 'Alphabetical A-Z',
+    sortNameDesc: 'Alphabetical Z-A',
+    sortCategory: 'Category',
+    sortDurationAsc: 'Time: low to high',
+    sortDurationDesc: 'Time: high to low',
+    sortProfitAsc: 'Raw Profit: low to high',
+    sortProfitDesc: 'Raw Profit: high to low',
+    sortXpAsc: 'Raw XP: low to high',
+    sortXpDesc: 'Raw XP: high to low',
+    sortProfitPerMinAsc: 'Profit/min: low to high',
+    sortProfitPerMinDesc: 'Profit/min: high to low',
+    sortXpPerMinAsc: 'XP/min: low to high',
+    sortXpPerMinDesc: 'XP/min: high to low',
+    sortServingsAsc: 'Portions: low to high',
+    sortServingsDesc: 'Portions: high to low',
+    sortServingsPerMinAsc: 'Portions/min: low to high',
+    sortServingsPerMinDesc: 'Portions/min: high to low'
   },
-  {
-    key: 'fast',
-    recommendationLabel: 'Best fast',
-    planLabel: 'Fast-time plan',
-    note: 'Best XP/min between 11 minutes and 1 hour.',
-    matches: record => record.duration >= 11 && record.duration <= 60
-  },
-  {
-    key: 'short',
-    recommendationLabel: 'Best short',
-    planLabel: 'Short-time plan',
-    note: 'Best XP/min between 1 h 1 min and 3 h.',
-    matches: record => record.duration >= 61 && record.duration <= 180
-  },
-  {
-    key: 'medium',
-    recommendationLabel: 'Best medium',
-    planLabel: 'Medium-time plan',
-    note: 'Best XP/min between 3 h 1 min and 6 h.',
-    matches: record => record.duration >= 181 && record.duration <= 360
-  },
-  {
-    key: 'long',
-    recommendationLabel: 'Best long',
-    planLabel: 'Long-time plan',
-    note: 'Best XP/min between 6 h 1 min and 12 h.',
-    matches: record => record.duration >= 361 && record.duration <= 720
-  },
-  {
-    key: 'veryLong',
-    recommendationLabel: 'Best very long',
-    planLabel: 'Very-long time plan',
-    note: 'Best XP/min between 12 h 1 min and 23 h.',
-    matches: record => record.duration >= 721 && record.duration <= 1380
-  },
-  {
-    key: 'dayOff',
-    recommendationLabel: 'Best day-off',
-    planLabel: 'Day-off plan',
-    note: 'Best XP/min for 23 h 1 min or more.',
-    matches: record => record.duration >= 1381
+
+  pt: {
+    mainSubtitle: 'Acesse informações sobre todos os pratos!',
+    chooseMode: 'Escolha um modo',
+    chooseModeNote: 'Selecione como você quer usar o DishDex.',
+    languageLabel: '🌐 Idioma',
+    darkTheme: 'Tema escuro',
+    myDexDescription: 'Acesse seu DishDex pessoal com base no seu nível, XP e tempo disponível.',
+    fullDishDexTitle: 'DishDex completo',
+    fullDishDexDescription: 'Acesse o DishDex completo com todas as informações.',
+    backButton: '← Voltar',
+    personalRecommendations: 'Recomendações pessoais',
+    myDexSettings: 'Configurações do MyDex',
+    playerLevel: 'Nível do jogador',
+    xpNeeded: 'XP necessário',
+    availableStoves: 'Fogões disponíveis',
+    holidayMode: 'Modo feriado',
+    exclude: 'Excluir',
+    include: 'Incluir',
+    auto: 'Auto',
+    myDexHint: 'Insira seus dados para recomendações personalizadas.',
+    bestXpTitle: 'Melhores pratos (XP)',
+    bestProfitTitle: 'Melhores pratos (Lucro)',
+    bestPortionsTitle: 'Melhores pratos (Porções)',
+    image: 'Imagem',
+    recommendation: 'Recomendação',
+    dish: 'Prato',
+    level: 'Nível',
+    duration: 'Duração',
+    category: 'Categoria',
+    profit: 'Lucro',
+    profitMin: 'Lucro/min',
+    portions: 'Porções',
+    portionsMin: 'Porções/min',
+    xpPlansTitle: 'Planos de XP necessário',
+    xpPlansNote: 'Melhores planos para subir de nível com base nas suas necessidades e disponibilidade.',
+    plan: 'Plano',
+    xpEach: 'XP por prato',
+    dishesNeeded: 'Pratos necessários',
+    batches: 'Rodadas',
+    totalCookTime: 'Tempo total',
+    stoves: 'Fogões',
+    note: 'Nota',
+    specialDishes: 'Pratos especiais',
+    specialDishesNote: 'Pratos especiais são exibidos separadamente.',
+    holidayDishes: 'Pratos de feriado',
+    holidayDishesNote: 'Pratos de feriado são exibidos separadamente. O modo Auto usa as épocas de Natal e Páscoa.',
+    completeDishList: 'Lista completa de pratos',
+    sortFullDishDex: 'Ordenar DishDex completo',
+    sortBy: 'Ordenar por',
+    availableDishDex: 'DishDex disponível',
+    availableDishDexNote: 'Lista completa de pratos com XP, lucro, porções, tempo, categoria e requisitos.',
+    cost: 'Custo',
+    revenue: 'Receita',
+    requirements: 'Requisitos',
+    type: 'Tipo',
+    loadingXml: 'Carregando XML do Café...',
+    dataLoaded: 'Dados do Café carregados!',
+    dishesReady: 'pratos prontos',
+    noXpRecommendations: 'Nenhuma recomendação de XP disponível para este nível/configuração.',
+    noProfitRecommendations: 'Nenhuma recomendação de lucro disponível para este nível/configuração.',
+    noPortionRecommendations: 'Nenhuma recomendação de porções disponível para este nível/configuração.',
+    noDishesAvailable: 'Nenhum prato disponível.',
+    noAvailableDish: 'Nenhum prato disponível',
+    setXpAboveZero: 'Defina o XP necessário acima de 0.',
+    noDishMatchesPlan: 'Nenhum prato combina com este plano.',
+    special: 'Especial',
+    holiday: 'Feriado',
+    regular: 'Normal',
+    holidayActive: 'Feriado: ativo',
+    holidayInactive: 'Feriado: inativo',
+    profitLower: 'lucro',
+    bestActive: 'Melhor ativo',
+    bestFast: 'Melhor rápido',
+    bestShort: 'Melhor curto',
+    bestMedium: 'Melhor médio',
+    bestLong: 'Melhor longo',
+    bestVeryLong: 'Melhor muito longo',
+    bestDayOff: 'Melhor folga',
+    metricXpMin: 'XP/min',
+    metricProfitMin: 'lucro/min',
+    metricPortionMin: 'porção/min',
+    activePlan: 'Plano ativo',
+    fastPlan: 'Plano rápido',
+    shortPlan: 'Plano curto',
+    mediumPlan: 'Plano médio',
+    longPlan: 'Plano longo',
+    veryLongPlan: 'Plano muito longo',
+    dayOffPlan: 'Plano de folga',
+    activeNote: 'Melhor XP/min para 10 minutos ou menos.',
+    fastNote: 'Melhor XP/min entre 11 minutos e 1 hora.',
+    shortNote: 'Melhor XP/min entre 1 h 1 min e 3 h.',
+    mediumNote: 'Melhor XP/min entre 3 h 1 min e 6 h.',
+    longNote: 'Melhor XP/min entre 6 h 1 min e 12 h.',
+    veryLongNote: 'Melhor XP/min entre 12 h 1 min e 23 h.',
+    dayOffNote: 'Melhor XP/min para 23 h 1 min ou mais.',
+    sortStandard: 'Padrão (nível menor para maior)',
+    sortLevelAsc: 'Nível: menor para maior',
+    sortLevelDesc: 'Nível: maior para menor',
+    sortNameAsc: 'Alfabética A-Z',
+    sortNameDesc: 'Alfabética Z-A',
+    sortCategory: 'Categoria',
+    sortDurationAsc: 'Tempo: menor para maior',
+    sortDurationDesc: 'Tempo: maior para menor',
+    sortProfitAsc: 'Lucro bruto: menor para maior',
+    sortProfitDesc: 'Lucro bruto: maior para menor',
+    sortXpAsc: 'XP bruto: menor para maior',
+    sortXpDesc: 'XP bruto: maior para menor',
+    sortProfitPerMinAsc: 'Lucro/min: menor para maior',
+    sortProfitPerMinDesc: 'Lucro/min: maior para menor',
+    sortXpPerMinAsc: 'XP/min: menor para maior',
+    sortXpPerMinDesc: 'XP/min: maior para menor',
+    sortServingsAsc: 'Porções: menor para maior',
+    sortServingsDesc: 'Porções: maior para menor',
+    sortServingsPerMinAsc: 'Porções/min: menor para maior',
+    sortServingsPerMinDesc: 'Porções/min: maior para menor'
   }
+};
+
+const SORT_OPTIONS = [
+  ['standard', 'sortStandard'],
+  ['level-asc', 'sortLevelAsc'],
+  ['level-desc', 'sortLevelDesc'],
+  ['name-asc', 'sortNameAsc'],
+  ['name-desc', 'sortNameDesc'],
+  ['category', 'sortCategory'],
+  ['duration-asc', 'sortDurationAsc'],
+  ['duration-desc', 'sortDurationDesc'],
+  ['profit-asc', 'sortProfitAsc'],
+  ['profit-desc', 'sortProfitDesc'],
+  ['xp-asc', 'sortXpAsc'],
+  ['xp-desc', 'sortXpDesc'],
+  ['profitPerMin-asc', 'sortProfitPerMinAsc'],
+  ['profitPerMin-desc', 'sortProfitPerMinDesc'],
+  ['xpPerMin-asc', 'sortXpPerMinAsc'],
+  ['xpPerMin-desc', 'sortXpPerMinDesc'],
+  ['servings-asc', 'sortServingsAsc'],
+  ['servings-desc', 'sortServingsDesc'],
+  ['servingsPerMin-asc', 'sortServingsPerMinAsc'],
+  ['servingsPerMin-desc', 'sortServingsPerMinDesc']
 ];
 
 let allDishRecords = [];
+let currentLanguage = 'en';
 
 document.addEventListener('DOMContentLoaded', main);
 
 async function main() {
   try {
     setupTheme();
+    setupLanguage();
     setupNavigation();
 
-    setStatus('Loading Café XML...', 'ok');
+    applyUiLanguage();
 
-    allDishRecords = await loadDishRecords();
+    setStatus(t('loadingXml'), 'ok');
 
-    setStatus('Café data loaded!', 'ok');
+    allDishRecords = await loadDishRecords(currentLanguage);
 
-    document.getElementById('dataSummary').textContent =
-      `${allDishRecords.length} dishes ready`;
+    setStatus(t('dataLoaded'), 'ok');
+    updateDataSummary();
 
     bindInputs();
     renderMyDex();
@@ -132,6 +358,48 @@ function setupTheme() {
   });
 }
 
+function setupLanguage() {
+  const select = document.getElementById('languageSelect');
+  const savedLanguage = localStorage.getItem('dishDexLanguage');
+
+  currentLanguage = savedLanguage || detectBrowserLanguage();
+  select.value = currentLanguage;
+
+  document.documentElement.lang = currentLanguage === 'pt' ? 'pt-BR' : 'en';
+
+  select.addEventListener('change', async () => {
+    currentLanguage = select.value;
+    localStorage.setItem('dishDexLanguage', currentLanguage);
+    document.documentElement.lang = currentLanguage === 'pt' ? 'pt-BR' : 'en';
+
+    applyUiLanguage();
+
+    try {
+      setStatus(t('loadingXml'), 'ok');
+      document.getElementById('dataSummary').textContent = '';
+
+      allDishRecords = await loadDishRecords(currentLanguage);
+
+      setStatus(t('dataLoaded'), 'ok');
+      updateDataSummary();
+
+      renderMyDex();
+      renderFullDishDex();
+
+    } catch (error) {
+      console.error(error);
+      setStatus('Could not load Café data.', 'bad');
+      document.getElementById('dataSummary').textContent = String(error.message || error);
+    }
+  });
+}
+
+function detectBrowserLanguage() {
+  const language = String(navigator.language || navigator.userLanguage || '').toLowerCase();
+
+  return language.startsWith('pt') ? 'pt' : 'en';
+}
+
 function setupNavigation() {
   document.getElementById('openMyDex').addEventListener('click', () => {
     showScreen('myDexScreen');
@@ -152,6 +420,44 @@ function setupNavigation() {
   document.getElementById('fullSortSelect').addEventListener('change', renderFullDishDex);
 }
 
+function applyUiLanguage() {
+  document.querySelectorAll('[data-i18n]').forEach(element => {
+    const key = element.getAttribute('data-i18n');
+
+    element.textContent = t(key);
+  });
+
+  populateSortSelect();
+}
+
+function populateSortSelect() {
+  const select = document.getElementById('fullSortSelect');
+
+  if (!select) return;
+
+  const previousValue = select.value || 'standard';
+
+  select.innerHTML = SORT_OPTIONS.map(option => {
+    const value = option[0];
+    const labelKey = option[1];
+
+    return `<option value="${escapeHtml(value)}">${escapeHtml(t(labelKey))}</option>`;
+  }).join('');
+
+  const hasPreviousValue = SORT_OPTIONS.some(option => option[0] === previousValue);
+
+  select.value = hasPreviousValue ? previousValue : 'standard';
+}
+
+function t(key) {
+  return I18N[currentLanguage]?.[key] || I18N.en[key] || key;
+}
+
+function updateDataSummary() {
+  document.getElementById('dataSummary').textContent =
+    `${allDishRecords.length} ${t('dishesReady')}`;
+}
+
 function showScreen(screenId) {
   document.querySelectorAll('.screen').forEach(screen => {
     screen.classList.add('hidden');
@@ -161,18 +467,72 @@ function showScreen(screenId) {
   window.scrollTo({ top: 0, behavior: 'smooth' });
 }
 
-async function loadDishRecords() {
+function getTimeBuckets() {
+  return [
+    {
+      key: 'active',
+      recommendationLabel: t('bestActive'),
+      planLabel: t('activePlan'),
+      note: t('activeNote'),
+      matches: record => record.duration <= 10
+    },
+    {
+      key: 'fast',
+      recommendationLabel: t('bestFast'),
+      planLabel: t('fastPlan'),
+      note: t('fastNote'),
+      matches: record => record.duration >= 11 && record.duration <= 60
+    },
+    {
+      key: 'short',
+      recommendationLabel: t('bestShort'),
+      planLabel: t('shortPlan'),
+      note: t('shortNote'),
+      matches: record => record.duration >= 61 && record.duration <= 180
+    },
+    {
+      key: 'medium',
+      recommendationLabel: t('bestMedium'),
+      planLabel: t('mediumPlan'),
+      note: t('mediumNote'),
+      matches: record => record.duration >= 181 && record.duration <= 360
+    },
+    {
+      key: 'long',
+      recommendationLabel: t('bestLong'),
+      planLabel: t('longPlan'),
+      note: t('longNote'),
+      matches: record => record.duration >= 361 && record.duration <= 720
+    },
+    {
+      key: 'veryLong',
+      recommendationLabel: t('bestVeryLong'),
+      planLabel: t('veryLongPlan'),
+      note: t('veryLongNote'),
+      matches: record => record.duration >= 721 && record.duration <= 1380
+    },
+    {
+      key: 'dayOff',
+      recommendationLabel: t('bestDayOff'),
+      planLabel: t('dayOffPlan'),
+      note: t('dayOffNote'),
+      matches: record => record.duration >= 1381
+    }
+  ];
+}
+
+async function loadDishRecords(languageCode) {
   const cafeItemsText = await fetchText(PATHS.cafeItems);
   const cafeItemsXml = parseLooseXml(cafeItemsText, 'CafeItems.xml');
 
-  const languageResult = await fetchFirstWorkingLanguageFile(PATHS.languageFiles);
-  const cafeEnXml = parseNormalOrLooseXml(languageResult.text, 'Cafe language XML');
+  const languageResult = await fetchFirstWorkingLanguageFile(PATHS.languageFiles[languageCode]);
+  const cafeLanguageXml = parseNormalOrLooseXml(languageResult.text, 'Cafe language XML');
 
   const wodNodes = Array.from(cafeItemsXml.getElementsByTagName('wod'));
   const dishNodes = wodNodes.filter(node => getAttr(node, 'g') === 'Dish');
   const ingredientNodes = wodNodes.filter(node => getAttr(node, 'g') === 'Ingredient');
 
-  const textNodes = Array.from(cafeEnXml.getElementsByTagName('text'));
+  const textNodes = Array.from(cafeLanguageXml.getElementsByTagName('text'));
 
   const recipeNameByDishKey = buildRecipeNameMap(textNodes);
   const ingredientNameByKey = buildIngredientNameMap(textNodes);
@@ -223,7 +583,7 @@ async function loadDishRecords() {
       profit,
       profitPerMin: duration > 0 ? profit / duration : 0,
       categoryId,
-      categoryName: CATEGORY_NAMES[String(categoryId)] || categoryId,
+      categoryName: getCategoryName(categoryId),
       requirements: formatRequirements(requirements, ingredientNameById),
       dishType: getDishType(dishKey),
       imageUrl: PATHS.imageBase + dishKey + '.png'
@@ -233,6 +593,12 @@ async function loadDishRecords() {
   records.sort(standardDishSort);
 
   return records;
+}
+
+function getCategoryName(categoryId) {
+  return CATEGORY_NAMES[currentLanguage]?.[String(categoryId)] ||
+    CATEGORY_NAMES.en[String(categoryId)] ||
+    String(categoryId);
 }
 
 function bindInputs() {
@@ -273,21 +639,21 @@ function renderMyDex() {
 
   renderBestXp(buildBucketRecommendations(
     regularCandidates,
-    'XP/min',
+    'metricXpMin',
     record => record.xpPerMin,
     'xp'
   ));
 
   renderBestProfit(buildBucketRecommendations(
     regularCandidates,
-    'profit/min',
+    'metricProfitMin',
     record => record.profitPerMin,
     'profit'
   ));
 
   renderBestPortions(buildBucketRecommendations(
     regularCandidates,
-    'portion/min',
+    'metricPortionMin',
     record => record.servingsPerMin,
     'portions'
   ));
@@ -298,10 +664,10 @@ function renderMyDex() {
   renderDishCards('holidayDishesBody', holidayDishes, 'Holiday');
 }
 
-function buildBucketRecommendations(records, metricLabel, scoreFunction, sectionKey) {
-  return TIME_BUCKETS.map((bucket, index) => {
+function buildBucketRecommendations(records, metricLabelKey, scoreFunction, sectionKey) {
+  return getTimeBuckets().map((bucket, index) => {
     return [
-      `${bucket.recommendationLabel} ${metricLabel}`,
+      `${bucket.recommendationLabel} ${t(metricLabelKey)}`,
       findBestDish(records, scoreFunction, bucket.matches),
       `best-${sectionKey}-${index + 1}`
     ];
@@ -309,7 +675,7 @@ function buildBucketRecommendations(records, metricLabel, scoreFunction, section
 }
 
 function buildXpPlans(records) {
-  return TIME_BUCKETS.map(bucket => {
+  return getTimeBuckets().map(bucket => {
     return [
       bucket.planLabel,
       findBestDish(records, record => record.xpPerMin, bucket.matches),
@@ -333,7 +699,7 @@ function renderBestXp(items) {
   const validItems = items.filter(item => item[1]);
 
   if (validItems.length === 0) {
-    body.innerHTML = emptyRow(8, 'No XP recommendations available for this level/settings.');
+    body.innerHTML = emptyRow(8, t('noXpRecommendations'));
     return;
   }
 
@@ -362,7 +728,7 @@ function renderBestProfit(items) {
   const validItems = items.filter(item => item[1]);
 
   if (validItems.length === 0) {
-    body.innerHTML = emptyRow(8, 'No profit recommendations available for this level/settings.');
+    body.innerHTML = emptyRow(8, t('noProfitRecommendations'));
     return;
   }
 
@@ -391,7 +757,7 @@ function renderBestPortions(items) {
   const validItems = items.filter(item => item[1]);
 
   if (validItems.length === 0) {
-    body.innerHTML = emptyRow(8, 'No portion recommendations available for this level/settings.');
+    body.innerHTML = emptyRow(8, t('noPortionRecommendations'));
     return;
   }
 
@@ -429,14 +795,14 @@ function renderPlans(settings, planItems) {
         <tr class="${rowClass}">
           <td></td>
           <td>${escapeHtml(planName)}</td>
-          <td class="dish-name">No available dish</td>
+          <td class="dish-name">${t('noAvailableDish')}</td>
           <td></td>
           <td></td>
           <td></td>
           <td></td>
           <td></td>
           <td>${number(settings.stoveCount)}</td>
-          <td class="note-cell">${settings.xpNeeded <= 0 ? 'Set XP Needed above 0.' : 'No dish matches this plan.'}</td>
+          <td class="note-cell">${settings.xpNeeded <= 0 ? t('setXpAboveZero') : t('noDishMatchesPlan')}</td>
         </tr>
       `;
     }
@@ -467,17 +833,17 @@ function renderDishCards(containerId, records, fallbackType) {
 
   if (records.length === 0) {
     container.innerHTML =
-      '<div class="empty">No dishes from this section are available at your level.</div>';
+      `<div class="empty">${escapeHtml(t('noDishesAvailable'))}</div>`;
     return;
   }
 
   container.innerHTML = records.map(record => {
-    let typeLabel = fallbackType;
+    let typeLabel = dishTypeLabel(fallbackType);
 
     if (fallbackType === 'Holiday') {
       typeLabel = isHolidayDishActive(record.dishKey, new Date())
-        ? 'Holiday: Active'
-        : 'Holiday: Inactive';
+        ? t('holidayActive')
+        : t('holidayInactive');
     }
 
     return `
@@ -485,8 +851,8 @@ function renderDishCards(containerId, records, fallbackType) {
         <div>${imageHtml(record)}</div>
         <div>
           <h3>${escapeHtml(record.dishName)}</h3>
-          <p>${escapeHtml(typeLabel)} · Level ${number(record.level)} · ${number(record.xp)} XP · ${escapeHtml(record.durationText)}</p>
-          <p>${number(record.profit)} profit · ${decimal(record.xpPerMin)} XP/min</p>
+          <p>${escapeHtml(typeLabel)} · ${t('level')} ${number(record.level)} · ${number(record.xp)} XP · ${escapeHtml(record.durationText)}</p>
+          <p>${number(record.profit)} ${t('profitLower')} · ${decimal(record.xpPerMin)} XP/min</p>
         </div>
       </article>
     `;
@@ -502,7 +868,7 @@ function renderFullDishDex() {
   const rows = getSortedFullDishDex(sortMode);
 
   if (rows.length === 0) {
-    body.innerHTML = emptyRow(15, 'No dishes available.');
+    body.innerHTML = emptyRow(15, t('noDishesAvailable'));
     return;
   }
 
@@ -523,7 +889,7 @@ function renderFullDishDex() {
         <td>${number(record.revenue)}</td>
         <td>${escapeHtml(record.categoryName)}</td>
         <td class="requirements-cell">${escapeHtml(record.requirements)}</td>
-        <td>${escapeHtml(record.dishType)}</td>
+        <td>${escapeHtml(dishTypeLabel(record.dishType))}</td>
       </tr>
     `;
   }).join('');
@@ -827,6 +1193,13 @@ function getDishType(dishKey) {
   return 'Regular';
 }
 
+function dishTypeLabel(type) {
+  if (type === 'Special') return t('special');
+  if (type === 'Holiday') return t('holiday');
+
+  return t('regular');
+}
+
 function shouldIncludeHolidayDish(dishKey, mode) {
   if (mode === 'Include') return true;
   if (mode === 'Exclude') return false;
@@ -894,6 +1267,13 @@ function formatDuration(totalMinutes) {
   const hours = Math.floor(roundedMinutes / 60);
   const minutes = roundedMinutes % 60;
 
+  if (currentLanguage === 'pt') {
+    if (hours === 0) return `${minutes} min`;
+    if (minutes === 0) return `${hours} h`;
+
+    return `${hours} h ${minutes} min`;
+  }
+
   if (hours === 0) return `${minutes} min`;
   if (minutes === 0) return `${hours} h`;
 
@@ -932,11 +1312,14 @@ function decodeEntities(text) {
 }
 
 function number(value) {
-  return Number(value || 0).toLocaleString('en-US');
+  return Number(value || 0).toLocaleString(currentLanguage === 'pt' ? 'pt-BR' : 'en-US');
 }
 
 function decimal(value) {
-  return Number(value || 0).toFixed(2);
+  return Number(value || 0).toLocaleString(currentLanguage === 'pt' ? 'pt-BR' : 'en-US', {
+    minimumFractionDigits: 2,
+    maximumFractionDigits: 2
+  });
 }
 
 function clampNumber(value, min, max) {
