@@ -120,7 +120,6 @@
 		<text id="alert_smoothiemaker_outofreach_copy" name="Non riesci a raggiungere il tuo frosty! Prova a spostare qualcosa!" />
 		<text id="alert_smoothiemaker_storage_copy" name="Ci sono ancora drink nel tuo frosty! Se lo metti via i drink rimasti andranno persi!" />
 		<text id="alert_stafffire_copy" name="Sei sicuro di voler mandar via il tuo fedele cameriere?" />
-		<text id="alert_stafffire_title" name="Licenziare il cameriere?" />
 		<text id="alert_stafffire_title" name="Conferma licenziamento" />
 		<text id="alert_staffhire_copy" name="Dai un nome al tuo cameriere." />
 		<text id="alert_staffhire_title" name="Assumi" />
