@@ -794,3 +794,67 @@ body.dark-theme #recommendedMasteriesBody .effect-check,
 body.dark-theme .recommended-masteries-table .effect-check {
   color: #17883a;
 }
+
+/* Dynamic time-of-day game background */
+
+body {
+  background: #15110e !important;
+  background-image: none !important;
+  isolation: isolate;
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+  background-image: var(--time-bg-image);
+  background-size: cover;
+  background-position: var(--time-bg-position, center center);
+  background-repeat: no-repeat;
+  transform: scale(1.01);
+}
+
+body::after {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+  background: rgba(18, 10, 5, 0.38);
+}
+
+body:not(.dark-theme)::after {
+  background: rgba(255, 245, 220, 0.18);
+}
+
+.page {
+  position: relative;
+  z-index: 1;
+}
+
+/* Put these files in the DishDex folder:
+   Morning.jpg, Day.jpg, Sunset.jpg, Night.jpg
+   Adjust background-position below if one image needs manual centering. */
+
+body.bg-morning {
+  --time-bg-image: url("Morning.jpg");
+  --time-bg-position: center center;
+}
+
+body.bg-day {
+  --time-bg-image: url("Day.jpg");
+  --time-bg-position: center center;
+}
+
+body.bg-sunset {
+  --time-bg-image: url("Sunset.jpg");
+  --time-bg-position: center center;
+}
+
+body.bg-night {
+  --time-bg-image: url("Night.jpg");
+  --time-bg-position: center center;
+}
+

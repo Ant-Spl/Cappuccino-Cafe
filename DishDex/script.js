@@ -450,6 +450,7 @@ document.addEventListener('DOMContentLoaded', main);
 
 async function main() {
   try {
+    setupTimeBackground();
     setupTheme();
     setupLanguage();
     setupNavigation();
@@ -481,6 +482,49 @@ async function main() {
     setStatus(t('couldNotLoadData'), 'bad');
     document.getElementById('dataSummary').textContent = String(error.message || error);
   }
+}
+
+function setupTimeBackground() {
+  applyTimeBackground();
+
+  // Re-check once per minute so the background can change while the page is open.
+  window.setInterval(applyTimeBackground, 60 * 1000);
+}
+
+function applyTimeBackground() {
+  const now = new Date();
+  const minutes = now.getHours() * 60 + now.getMinutes();
+
+  let backgroundClass = 'bg-night';
+
+  // Morning: 4:00 AM to 9:00 AM
+  if (minutes >= 4 * 60 && minutes <= 9 * 60) {
+    backgroundClass = 'bg-morning';
+  }
+
+  // Day: 9:01 AM to 4:45 PM
+  else if (minutes >= 9 * 60 + 1 && minutes <= 16 * 60 + 45) {
+    backgroundClass = 'bg-day';
+  }
+
+  // Sunset: 4:46 PM to 6:30 PM
+  else if (minutes >= 16 * 60 + 46 && minutes <= 18 * 60 + 30) {
+    backgroundClass = 'bg-sunset';
+  }
+
+  // Night: 6:31 PM to 3:59 AM
+  else {
+    backgroundClass = 'bg-night';
+  }
+
+  document.body.classList.remove(
+    'bg-morning',
+    'bg-day',
+    'bg-sunset',
+    'bg-night'
+  );
+
+  document.body.classList.add(backgroundClass);
 }
 
 function setupTheme() {
