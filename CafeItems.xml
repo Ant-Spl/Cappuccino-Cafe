@@ -351,6 +351,13 @@
 <wod id="4159" n="Basic" g="Table" t="Picnicdarkpurple" walkable="0" rotatetype="1" cash="1500" gold="0" friends="0" goldNoFriends="0" releaseDate="1781751600" world="0" events="0" xp="0" level="5" />
 <wod id="4160" n="Basic" g="Table" t="Picniclightblue" walkable="0" rotatetype="1" cash="1500" gold="0" friends="0" goldNoFriends="0" releaseDate="1781751600" world="0" events="0" xp="0" level="5" />
 <wod id="4161" n="Basic" g="Table" t="Picnicorange2" walkable="0" rotatetype="1" cash="1500" gold="0" friends="0" goldNoFriends="0" releaseDate="1781751600" world="0" events="0" xp="0" level="5" />
+<wod id="4162" n="Basic" g="Counter" t="Basicblack2" walkable="0" rotatetype="2" cash="500" gold="0" friends="0" goldNoFriends="0" releaseDate="1769300230" world="0" events="0" xp="0" level="1" />
+<wod id="4163" n="Basic" g="Stove" t="Basicblack" walkable="0" rotatetype="3" cash="1000" gold="0" friends="0" goldNoFriends="0" releaseDate="1771194004" world="0" events="0" xp="0" level="0" />
+<wod id="4164" n="Basic" g="Stove" t="Basicblue" walkable="0" rotatetype="3" cash="1000" gold="0" friends="0" goldNoFriends="0" releaseDate="1771194004" world="0" events="0" xp="0" level="0" />
+<wod id="4165" n="Basic" g="Stove" t="Basicpink" walkable="0" rotatetype="3" cash="1000" gold="0" friends="0" goldNoFriends="0" releaseDate="1771194004" world="0" events="0" xp="0" level="0" />
+<wod id="4166" n="Basic" g="Stove" t="Basicgreen" walkable="0" rotatetype="3" cash="1000" gold="0" friends="0" goldNoFriends="0" releaseDate="1771194004" world="0" events="0" xp="0" level="0" />
+<wod id="4167" n="Static" g="Wall" t="Chesswhitered" cash="800" gold="0" friends="0" goldNoFriends="0" releaseDate="1282748184" world="0" events="0" xp="0" level="1" />
+<wod id="4168" n="Static" g="Wall" t="Chesswhitegreen" cash="800" gold="0" friends="0" goldNoFriends="0" releaseDate="1282748184" world="0" events="0" xp="0" level="1" />
 <wod id="9518" n="Basic" g="Deco" t="Vanshelfwhite" walkable="0" rotatetype="2" cash="0" gold="5" friends="0" goldNoFriends="0" releaseDate="1781838000" world="0" events="0" xp="0" level="10" />
 <wod id="9519" n="Basic" g="Deco" t="Vanshelfblack" walkable="0" rotatetype="2" cash="0" gold="5" friends="0" goldNoFriends="0" releaseDate="1781838000" world="0" events="0" xp="0" level="10" />
 <wod id="9520" n="Basic" g="Deco" t="Ladycashierw" walkable="0" rotatetype="2" cash="18000" gold="0" friends="0" goldNoFriends="0" releaseDate="1781838000" world="0" events="0" xp="0" level="10" />
