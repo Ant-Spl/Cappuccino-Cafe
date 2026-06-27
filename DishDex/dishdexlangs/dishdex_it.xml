@@ -5,7 +5,7 @@
   <text id="activeNote" name="Miglior XP/min in 10 minuti o meno." />
   <text id="activePlan" name="All&apos;attivo" />
   <text id="activeWord" name="attivo" />
-  <text id="fastNote" name="Miglior XP/min tra gli 11 minuti e 1 ora." />
+  <text id="fastNote" name="Miglior XP/min tra gli 11 minuti e l&apos;1 ora." />
   <text id="fastPlan" name="Veloce" />
   <text id="fastWord" name="veloce" />
   <text id="shortNote" name="Miglior XP/min tra 1 ora e le 3 ore." />
@@ -38,26 +38,26 @@
   <text id="assignmentCopied" name="Assegnazione copiata!" />
   <text id="assignmentCopyFailed" name="Non è stato possibile copiare l&apos;assegnazione." />
   <text id="assignmentPlanTitle" name="Assegnazione piatti" />
-  <text id="auto" name="Auto" />
+  <text id="auto" name="Automatico" />
   <text id="availableDishDex" name="DishDex disponibile" />
-  <text id="availableDishDexNote" name="Lista dei piatti completa di XP, profitti, porzioni, tempi, categoria e requisiti." />
+  <text id="availableDishDexNote" name="Lista dei piatti - completa di XP, profitti, porzioni, tempi, categoria e requisiti." />
   <text id="availableStoves" name="Fornelli disponibili" />
   <text id="backButton" name="← Indietro" />
   <text id="baseRewards" name="Ricompense di base" />
   <text id="batches" name="Infornate" />
   <text id="benefit" name="Benefit" />
 
-  <text id="bestPortionsTitle" name="Migliori piatti (Porzioni)" />
-  <text id="bestProfitTitle" name="Migliori piatti (Profitti)" />
-  <text id="bestSummaryPortionMin" name="Miglior portioni/min" />
-  <text id="bestSummaryProfitMin" name="Miglior profitti/min" />
-  <text id="bestSummaryRawPortion" name="Miglior porzioni pure" />
-  <text id="bestSummaryRawProfit" name="Miglior profitti puri" />
-  <text id="bestSummaryRawXp" name="Miglior XP puri" />
+  <text id="bestPortionsTitle" name="Piatti migliori (Porzioni)" />
+  <text id="bestProfitTitle" name="Piatti migliori (Profitti)" />
+  <text id="bestSummaryPortionMin" name="Migliore per porzioni/min" />
+  <text id="bestSummaryProfitMin" name="Migliore per profitti/min" />
+  <text id="bestSummaryRawPortion" name="Migliore per porzioni pure" />
+  <text id="bestSummaryRawProfit" name="Migliore per profitti puri" />
+  <text id="bestSummaryRawXp" name="Migliore per XP puri" />
   <text id="bestSummaryTitle" name="Riassunto dei migliori" />
-  <text id="bestSummaryXpMin" name="Miglior XP/min" />
+  <text id="bestSummaryXpMin" name="Migliore per XP/min" />
 
-  <text id="bestXpTitle" name="Migliori piatti (XP)" />
+  <text id="bestXpTitle" name="Piatti migliori (XP)" />
   <text id="bronze" name="Bronzo" />
   <text id="bronzeDeadline" name="Tempo per il Bronzo" />
   <text id="cannotCookDish" name="Non si può cucinare" />
@@ -70,8 +70,8 @@
   <text id="chooseMode" name="Scegli una modalità" />
   <text id="chooseModeNote" name="Seleziona in che modo vuoi usare DishDex." />
   <text id="clearChef" name="Reimposta Chef" />
-  <text id="clearCookTime" name="Reimposta obiettivo" />
-  <text id="clearMargin" name="Reimposta margine" />
+  <text id="clearCookTime" name="Reimposta" />
+  <text id="clearMargin" name="Reimposta" />
   <text id="completeDishList" name="Lista completa dei piatti" />
   <text id="confirmDelete" name="Sei sicuro? Procedendo, eliminerai il tuo profilo, le stelle e i team Co-Op memorizzati." />
   <text id="confirmDeleteTeam" name="Sei sicuro di voler eliminare questo team?" />
@@ -98,7 +98,7 @@
   <text id="dataDeleted" name="Profilo, stelle e team Co-Op sono stati eliminati." />
   <text id="dataDownloaded" name="File dati scaricato." />
   <text id="dataLoadError" name="Non è stato possibile caricare questo file dati." />
-  <text id="dataLoaded" name="dati Café caricati!" />
+  <text id="dataLoaded" name="Dati Café caricati!" />
   <text id="dataLoadedMessage" name="Dati caricati con successo." />
   <text id="deleteData" name="Elimina dati" />
   <text id="deleteTeam" name="Elimina team" />
@@ -107,7 +107,7 @@
   <text id="dishesReady" name="piatti" />
   <text id="dishesRequired" name="piatti cucinati" />
   <text id="downloadData" name="Scarica dati" />
-  <text id="duration" name="Cottura" />
+  <text id="duration" name="Durata" />
   <text id="editGoldMasteries" name="Modifica le stelle d&apos;oro" />
   <text id="editManualDishes" name="Imposta piatti" />
   <text id="effects" name="Vantaggi" />
@@ -117,7 +117,7 @@
   <text id="fullDishDexTitle" name="DishDex completo" />
   <text id="fullTagChristmas" name="Natale" />
   <text id="fullTagEaster" name="Pasqua" />
-  <text id="fullTagSpecial" name="Special" />
+  <text id="fullTagSpecial" name="Speciale" />
   <text id="gold" name="Oro" />
   <text id="goldDeadline" name="Tempo per l&apos;oro" />
   <text id="goldMasteries" name="Stelle d&apos;oro" />
@@ -125,10 +125,10 @@
   <text id="goldReward" name="Oro" />
   <text id="holiday" name="Festa" />
   <text id="holidayActive" name="Festa: attiva" />
-  <text id="holidayDishes" name="Piatti delle feste" />
-  <text id="holidayDishesNote" name="I piatti delle feste hanno una sezione a sè. La modalità Auto considera il periodo Natalizio e Pasquale." />
+  <text id="holidayDishes" name="Piatti festivi" />
+  <text id="holidayDishesNote" name="I piatti festivi hanno una sezione a sè. La modalità Automatica considera il periodo Natalizio e quello Pasquale." />
   <text id="holidayInactive" name="Festa: non attiva" />
-  <text id="holidayMode" name="Includi piatti delle feste?" />
+  <text id="holidayMode" name="Includi piatti festivi?" />
   <text id="hoursShort" name="h" />
   <text id="image" name="Immagine" />
   <text id="impossibleMissingUnlock" name="Impossibile: piatto da sbloccare mancante" />
@@ -154,7 +154,7 @@
   <text id="marginShort" name="Margine" />
   <text id="masteriesEyebrow" name="Vantaggi per i piatti" />
   <text id="mastery" name="Stelle" />
-  <text id="masteryTotalForGold" name="Total: {0} dishes required for Gold" />
+  <text id="masteryTotalForGold" name="Totale: {0} piatti richiesti per l&apos;Oro" />
   <text id="masteryBookPage" name="Pagina" />
   <text id="masteryCookbook" name="Ricettario" />
   <text id="masteryListHorizontal" name="Lista (lettura orizzontale)" />
@@ -179,7 +179,7 @@
   <text id="myTimeAllMatches" name="Tutti i piatti corrispondenti" />
   <text id="myTimeAllMatchesNote" name="Tutti i piatti disponibili, nella finestra temporale scelta, ordinati per livello." />
   <text id="myTimeBestMatches" name="Corrispondenze migliori" />
-  <text id="myTimeBestMatchesNote" name="I migliori piatti nella finestra temporale scelta." />
+  <text id="myTimeBestMatchesNote" name="I piatti migliori nella finestra temporale scelta." />
   <text id="myTimeDescription" name="Pianifica i piatti in base ai tuoi tempi." />
   <text id="myTimeEyebrow" name="Pianificatore dei tempi" />
   <text id="myTimeMargin" name="Margine" />
@@ -215,7 +215,7 @@
 
   <text id="note" name="Note" />
   <text id="personalRecommendations" name="Raccomandazioni personali" />
-  <text id="plan" name="Pianifica" />
+  <text id="plan" name="Piano" />
   <text id="planCoop" name="Pianifica!" />
   <text id="playerLevel" name="Livello Chef" />
   <text id="playerLevelShort" name="Livello" />
@@ -226,13 +226,13 @@
   <text id="predictedStatus" name="Stato previsto" />
   <text id="previousPage" name="← Indietro" />
   <text id="profileSaved" name="Profilo salvato in locale." />
-  <text id="profileSettingsNote" name="Il tuo livello permette al DishDex di impostare automaticamente il numero di fornelli disponbili. Questo potrai cambiarlo successivamente nel MyDex." />
+  <text id="profileSettingsNote" name="Il tuo livello permette al DishDex di impostare automaticamente il numero di fornelli disponibili. Questo potrai successivamente cambiarlo nel MyDex." />
   <text id="profileSettingsTitle" name="Profilo Chef" />
   <text id="profit" name="Profitti" />
   <text id="profitLower" name="profitti" />
   <text id="profitMin" name="Profitti/min" />
   <text id="recommendation" name="Tipologia" />
-  <text id="recommendedMasteriesNote" name="Migliori stelle da sbloccare, in base ai piatti nel Riassunto dei migliori" />
+  <text id="recommendedMasteriesNote" name="Le migliori stelle da sbloccare, in base ai piatti della sezione Riassunto dei migliori" />
   <text id="recommendedMasteriesTitle" name="Stelle consigliate" />
   <text id="recommendedStar" name="Stella consigliata" />
   <text id="regular" name="Regolare" />
@@ -276,7 +276,7 @@
   <text id="sortXpPerMinAsc" name="XP/min: crescente" />
   <text id="sortXpPerMinDesc" name="XP/min: decrescente" />
 
-  <text id="special" name="Special" />
+  <text id="special" name="Speciale" />
   <text id="specialDishes" name="Piatti speciali" />
   <text id="specialDishesNote" name="I piatti speciali hanno una sezione a sè." />
   <text id="stoves" name="Fornelli" />
@@ -303,7 +303,7 @@
   <text id="workloadVeryHigh" name="Molto alto" />
   <text id="xpEach" name="XP Cadauno" />
   <text id="xpNeeded" name="XP Richiesto" />
-  <text id="xpPlansNote" name="Il piano migliore per incrementare di livello, in base ai tuoi bisogni e alla tua disponibilità." />
+  <text id="xpPlansNote" name="Il piano migliore per incrementare di livello, in base ai tuoi bisogni e alle tue disponibilità." />
   <text id="xpPlansTitle" name="Pianificazione per XP richiesti" />
   <text id="xpUpper" name="XP" />
 </dishdex>
