@@ -24,13 +24,13 @@
   <text id="dayOffPlan" name="Giornaliero" />
   <text id="dayOffWord" name="giornaliero" />
 
-  <text id="bestActive" name="Miglior <all&apos;attivo> per" />
-  <text id="bestFast" name="Miglior <veloce> per" />
-  <text id="bestShort" name="Miglior <breve> per" />
-  <text id="bestMedium" name="Miglior <medio> per" />
-  <text id="bestLong" name="Miglior <lento> per" />
-  <text id="bestVeryLong" name="Miglior <lentissimo> per" />
-  <text id="bestDayOff" name="Miglior <giornaliero> per" />
+  <text id="bestActive" name="Miglior &lt;all&apos;attivo&gt; per" />
+  <text id="bestFast" name="Miglior &lt;veloce&gt; per" />
+  <text id="bestShort" name="Miglior &lt;breve&gt; per" />
+  <text id="bestMedium" name="Miglior &lt;medio&gt; per" />
+  <text id="bestLong" name="Miglior &lt;lento&gt; per" />
+  <text id="bestVeryLong" name="Miglior &lt;lentissimo&gt; per" />
+  <text id="bestDayOff" name="Miglior &lt;giornaliero&gt; per" />
 
   <text id="alreadyMasteredBest" name="Hai già raggiunto il massimo di stelle per questo piatto! Pazzesco!" />
   <text id="assignedDishes" name="Piatti assegnati" />
@@ -154,6 +154,7 @@
   <text id="marginShort" name="Margine" />
   <text id="masteriesEyebrow" name="Vantaggi per i piatti" />
   <text id="mastery" name="Stelle" />
+  <text id="masteryTotalForGold" name="Total: {0} dishes required for Gold" />
   <text id="masteryBookPage" name="Pagina" />
   <text id="masteryCookbook" name="Ricettario" />
   <text id="masteryListHorizontal" name="Lista (lettura orizzontale)" />

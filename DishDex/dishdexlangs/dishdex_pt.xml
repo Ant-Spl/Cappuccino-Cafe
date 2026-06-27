@@ -84,6 +84,7 @@
   <text id="dishesNeeded" name="Pratos necessários" />
   <text id="dishesReady" name="pratos prontos" />
   <text id="dishesRequired" name="pratos necessários" />
+  <text id="masteryTotalForGold" name="Total: {0} pratos necessários para Ouro" />
   <text id="downloadData" name="Baixar dados" />
   <text id="duration" name="Duração" />
   <text id="editGoldMasteries" name="Editar estrelas douradas" />

@@ -258,6 +258,7 @@ const I18N = {
     noRecommendedMasteries: 'No mastery recommendations available for this level/settings.',
     alreadyMasteredBest: 'You already mastered the best dish for this! Nice!',
     dishesRequired: 'dishes required',
+    masteryTotalForGold: 'Total: {0} dishes required for Gold',
     bestXpTitle: 'Best Dishes (XP)',
     bestProfitTitle: 'Best Dishes (Profit)',
     bestPortionsTitle: 'Best dishes (Portions)',
@@ -554,6 +555,7 @@ const I18N = {
     noRecommendedMasteries: 'Nenhuma recomendação de estrela disponível para este nível/configuração.',
     alreadyMasteredBest: 'Você já dominou o melhor prato para isso! Boa!',
     dishesRequired: 'pratos necessários',
+    masteryTotalForGold: 'Total: {0} pratos necessários para Ouro',
     bestXpTitle: 'Melhores pratos (XP)',
     bestProfitTitle: 'Melhores pratos (Lucro)',
     bestPortionsTitle: 'Melhores pratos (Porções)',
@@ -3102,11 +3104,18 @@ function masteryEffectsHtml(record) {
   const silverBonus = Math.ceil(record.xp * MASTERY_XP_BONUS) - record.xp;
   const finalTime = getMasteredDuration(record.duration, 3);
   const savedTime = Math.max(0, record.duration - finalTime);
+  const bronzeRequirement = getMasteryCountByLevel(record.dishId, record.duration, 1);
+  const silverTotalRequirement = getMasteryCountByLevel(record.dishId, record.duration, 2);
+  const goldTotalRequirement = getMasteryCountByLevel(record.dishId, record.duration, 3);
+  const silverRequirement = Math.max(0, silverTotalRequirement - bronzeRequirement);
+  const goldRequirement = Math.max(0, goldTotalRequirement - silverTotalRequirement);
+  const goldTotalText = t('masteryTotalForGold').replace('{0}', number(goldTotalRequirement));
 
   return `
-    <span class="effect-line effect-bronze">★ <span class="effect-name">${escapeHtml(t('bronze'))}${effectCheckHtml(masteryLevel, 1)}</span>: +${number(bronzeBonus)} ${escapeHtml(t('portionsLower'))} <span class="effect-requirement">(${number(getMasteryCountByLevel(record.dishId, record.duration, 1))} ${escapeHtml(t('dishesRequired'))})</span></span>
-    <span class="effect-line effect-silver">★ <span class="effect-name">${escapeHtml(t('silver'))}${effectCheckHtml(masteryLevel, 2)}</span>: +${number(silverBonus)} ${escapeHtml(t('xpUpper'))} <span class="effect-requirement">(${number(getMasteryCountByLevel(record.dishId, record.duration, 2))} ${escapeHtml(t('dishesRequired'))})</span></span>
-    <span class="effect-line effect-gold">★ <span class="effect-name">${escapeHtml(t('gold'))}${effectCheckHtml(masteryLevel, 3)}</span>: -${escapeHtml(formatDuration(savedTime))}: ${escapeHtml(formatDuration(finalTime))} <span class="effect-requirement">(${number(getMasteryCountByLevel(record.dishId, record.duration, 3))} ${escapeHtml(t('dishesRequired'))})</span></span>
+    <span class="effect-line effect-bronze">★ <span class="effect-name">${escapeHtml(t('bronze'))}${effectCheckHtml(masteryLevel, 1)}</span>: +${number(bronzeBonus)} ${escapeHtml(t('portionsLower'))} <span class="effect-requirement">(${number(bronzeRequirement)} ${escapeHtml(t('dishesRequired'))})</span></span>
+    <span class="effect-line effect-silver">★ <span class="effect-name">${escapeHtml(t('silver'))}${effectCheckHtml(masteryLevel, 2)}</span>: +${number(silverBonus)} ${escapeHtml(t('xpUpper'))} <span class="effect-requirement">(${number(silverRequirement)} ${escapeHtml(t('dishesRequired'))})</span></span>
+    <span class="effect-line effect-gold">★ <span class="effect-name">${escapeHtml(t('gold'))}${effectCheckHtml(masteryLevel, 3)}</span>: -${escapeHtml(formatDuration(savedTime))}: ${escapeHtml(formatDuration(finalTime))} <span class="effect-requirement">(${number(goldRequirement)} ${escapeHtml(t('dishesRequired'))})</span></span>
+    <span class="effect-line effect-total"><span class="effect-name">${escapeHtml(goldTotalText)}</span></span>
   `;
 }
 

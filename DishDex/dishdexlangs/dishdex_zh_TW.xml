@@ -84,6 +84,7 @@
   <text id="dishesNeeded" name="Dishes Needed" />
   <text id="dishesReady" name="dishes ready" />
   <text id="dishesRequired" name="dishes required" />
+  <text id="masteryTotalForGold" name="Total: {0} dishes required for Gold" />
   <text id="downloadData" name="Download data" />
   <text id="duration" name="Duration" />
   <text id="editGoldMasteries" name="Edit gold masteries" />

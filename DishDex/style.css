@@ -3244,3 +3244,21 @@ body:not(.dark-theme) #myTimeScreen .mini-number-field span {
     flex: 1 1 auto !important;
   }
 }
+
+
+/* Mastery requirement total readability fix */
+.effect-total {
+  color: #5f4d3e;
+  font-weight: 900;
+  margin-top: 4px;
+}
+
+body.dark-theme .effect-total {
+  color: #ffe9c6;
+}
+
+body.dark-theme .cookbook-dish-card .effect-total,
+body.dark-theme #recommendedMasteriesBody .effect-total,
+body.dark-theme .recommended-masteries-table .effect-total {
+  color: #6f5530;
+}
