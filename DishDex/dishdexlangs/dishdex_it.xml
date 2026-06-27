@@ -47,8 +47,8 @@
   <text id="batches" name="Infornate" />
   <text id="benefit" name="Benefit" />
 
-  <text id="bestPortionsTitle" name="Migliori piatti (Porzioni)" />
-  <text id="bestProfitTitle" name="Migliori piatti (Profitti)" />
+  <text id="bestPortionsTitle" name="Piatti migliori (Porzioni)" />
+  <text id="bestProfitTitle" name="Piatti migliori (Profitti)" />
   <text id="bestSummaryPortionMin" name="Migliore per porzioni/min" />
   <text id="bestSummaryProfitMin" name="Migliore per profitti/min" />
   <text id="bestSummaryRawPortion" name="Migliore per porzioni pure" />
@@ -57,7 +57,7 @@
   <text id="bestSummaryTitle" name="Riassunto dei migliori" />
   <text id="bestSummaryXpMin" name="Migliore per XP/min" />
 
-  <text id="bestXpTitle" name="Migliori piatti (XP)" />
+  <text id="bestXpTitle" name="Piatti migliori (XP)" />
   <text id="bronze" name="Bronzo" />
   <text id="bronzeDeadline" name="Tempo per il Bronzo" />
   <text id="cannotCookDish" name="Non si può cucinare" />
@@ -232,7 +232,7 @@
   <text id="profitLower" name="profitti" />
   <text id="profitMin" name="Profitti/min" />
   <text id="recommendation" name="Tipologia" />
-  <text id="recommendedMasteriesNote" name="Migliori stelle da sbloccare, in base ai piatti della sezione Riassunto dei migliori" />
+  <text id="recommendedMasteriesNote" name="Le migliori stelle da sbloccare, in base ai piatti della sezione Riassunto dei migliori" />
   <text id="recommendedMasteriesTitle" name="Stelle consigliate" />
   <text id="recommendedStar" name="Stella consigliata" />
   <text id="regular" name="Regolare" />
