@@ -997,7 +997,7 @@
 		</ingame_tooltips>
 		<ingredients>
 			<text id="ingredient_cookfest" name="Etkinlik Malzemeleri" />
-			<text id="ingredient_citrus" name="Citrus" />
+			<text id="ingredient_citrus" name="Misket limon" />
 			<text id="ingredient_apple" name="Elmalar" />
 			<text id="ingredient_bacon" name="Jambon" />
 			<text id="ingredient_bakingmix" name="Hamur karışımı" />
@@ -1045,7 +1045,7 @@
 			<text id="ingredient_potato" name="Patates" />
 			<text id="ingredient_quark" name="Süzme yoğurt" />
 			<text id="ingredient_rhubarb" name="Ravent otu" />
-			<text id="ingredient_rice" name="Pilav" />
+			<text id="ingredient_rice" name="Pirinç" />
 			<text id="ingredient_rosemary" name="Biberiye" />
 			<text id="ingredient_sausages" name="Sosisler" />
 			<text id="ingredient_spicemix" name="Baharat karışımı" />
@@ -1736,7 +1736,7 @@
 			<text id="recipe_chickenbiryani" name="Tavuk Biryani" />
 			<text id="recipe_cottagepotatoes" name="Lor Peynirli Patates" />
 			<text id="recipe_cuzcuzcomovo" name="Yumurtalı Kuskus" />
-			<text id="recipe_malaichickennaan" name="Malai Tavuklu Naan" />
+			<text id="recipe_malaichickennaan" name="Tandırda Tavuk" />
 			<text id="recipe_veganplate" name="Vegan Tabak" />
 			<text id="recipe_neapolitancake" name="Napoliten Kek" />
 			<text id="recipe_strawberrycheesecake" name="Çilekli Cheesecake" />
@@ -1807,7 +1807,7 @@
 			<text id="recipe_stewedrhubarb" name="Haşlanmış rhubarb" />
 			<text id="recipe_strawberrycake" name="Çilekli kek" />
 			<text id="recipe_strawberrymousse" name="Çilek mousse" />
-			<text id="recipe_stuffedpeppers" name="Biberleri doldur" />
+			<text id="recipe_stuffedpeppers" name="Dolma Biber" />
 			<text id="recipe_sundayfeast" name="Pazar daveti" />
 			<text id="recipe_sushi" name="Suşi" />
 			<text id="recipe_toadinahole" name="Sosisli börek" />
