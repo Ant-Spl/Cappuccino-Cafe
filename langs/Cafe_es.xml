@@ -1912,6 +1912,7 @@
 		<text id="tt_CafeClearStoveDialog_btn_instantcook" name="Terminar de cocinar enseguida" />
 		<text id="tt_CafeClearStoveDialog_btn_instantcook_na" name="Hoy ya no puedes &apos;Terminar de cocinar enseguida&apos;" />
 		<text id="tt_CafeClearStoveDialog_instantButton" name="Terminar de cocinar enseguida" />
+		<text id="tt_CafeIngredientShopDialog_btn_bulkCappuccino" name="Bulk purchase" />
 		<text id="tt_CafeCookBookDialog_0" name="Dulces" />
 		<text id="tt_CafeCookBookDialog_1" name="Platos principales" />
 		<text id="tt_CafeCookBookDialog_2" name="Sopas" />

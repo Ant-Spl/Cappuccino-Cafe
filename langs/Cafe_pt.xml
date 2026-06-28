@@ -1933,6 +1933,7 @@ Apenas disponível por tempo limitado!" />
 		<text id="tt_CafeClearStoveDialog_btn_instantcook" name="Terminar de cozinhar agora" />
 		<text id="tt_CafeClearStoveDialog_btn_instantcook_na" name="Hoje você não pode mais &apos;terminar de cozinhar agora&apos;" />
 		<text id="tt_CafeClearStoveDialog_instantButton" name="Terminar de cozinhar agora" />
+		<text id="tt_CafeIngredientShopDialog_btn_bulkCappuccino" name="Bulk purchase" />
 		<text id="tt_CafeCookBookDialog_0" name="Sobremesas" />
 		<text id="tt_CafeCookBookDialog_1" name="Prato principal" />
 		<text id="tt_CafeCookBookDialog_2" name="Sopas" />

@@ -1917,6 +1917,7 @@
 		<text id="tt_CafeClearStoveDialog_btn_instantcook" name="Préparation instantanée" />
 		<text id="tt_CafeClearStoveDialog_btn_instantcook_na" name="Aujourd’hui tu ne peux plus cuisiner de plats instantanés" />
 		<text id="tt_CafeClearStoveDialog_instantButton" name="Préparation instantanée" />
+		<text id="tt_CafeIngredientShopDialog_btn_bulkCappuccino" name="Bulk purchase" />
 		<text id="tt_CafeCookBookDialog_0" name="Desserts" />
 		<text id="tt_CafeCookBookDialog_1" name="Plat principal" />
 		<text id="tt_CafeCookBookDialog_2" name="Soupes" />

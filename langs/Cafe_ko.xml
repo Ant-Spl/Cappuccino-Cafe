@@ -1912,6 +1912,7 @@
 		<text id="tt_CafeClearStoveDialog_btn_instantcook" name="바로 요리 끝내기" />
 		<text id="tt_CafeClearStoveDialog_btn_instantcook_na" name="오늘은 더 이상 &apos;바로 요리 끝내기&apos;를 사용할 수 없습니다" />
 		<text id="tt_CafeClearStoveDialog_instantButton" name="바로 요리 끝내기" />
+		<text id="tt_CafeIngredientShopDialog_btn_bulkCappuccino" name="Bulk purchase" />
 		<text id="tt_CafeCookBookDialog_0" name="후식" />
 		<text id="tt_CafeCookBookDialog_1" name="메인요리" />
 		<text id="tt_CafeCookBookDialog_2" name="스프" />

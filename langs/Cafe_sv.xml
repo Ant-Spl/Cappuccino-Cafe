@@ -1565,7 +1565,7 @@
 		<text id="preparestep_chocolatewaffles_flour" name="Sikta mjöl" />
 		<text id="preparestep_chocolatewaffles_cream" name="Vispa grädde" />
 		<text id="preparestep_chocolatewaffles_eggs" name="Varsamt kläck ägg" />
-		<text id="preparestep_chocolatewaffles_chocolate" name=" choklad" />
+		<text id="preparestep_chocolatewaffles_chocolate" name="choklad" />
 		<text id="preparestep_spanishomelette_potato" name="Skala potatis" />
 		<text id="preparestep_spanishomelette_onion" name="Hacka lök" />
 		<text id="preparestep_spanishomelette_eggs" name="Kläck ägg på spanska" />
@@ -1917,6 +1917,7 @@
 		<text id="tt_CafeClearStoveDialog_btn_instantcook" name="Omedelbar tillagning" />
 		<text id="tt_CafeClearStoveDialog_btn_instantcook_na" name="Du kan inte genomföra fler omedelbara tillagningar idag." />
 		<text id="tt_CafeClearStoveDialog_instantButton" name="Omedelbar tillagning" />
+		<text id="tt_CafeIngredientShopDialog_btn_bulkCappuccino" name="Bulk purchase" />
 		<text id="tt_CafeCookBookDialog_0" name="Desserter" />
 		<text id="tt_CafeCookBookDialog_1" name="Huvudrätter" />
 		<text id="tt_CafeCookBookDialog_2" name="Soppor" />

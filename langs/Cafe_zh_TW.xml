@@ -1925,6 +1925,7 @@
 		<text id="tt_CafeClearStoveDialog_btn_instantcook" name="瞬間烹飪" />
 		<text id="tt_CafeClearStoveDialog_btn_instantcook_na" name="你今天無法再使用&quot;瞬間烹飪&quot;" />
 		<text id="tt_CafeClearStoveDialog_instantButton" name="瞬間烹飪" />
+		<text id="tt_CafeIngredientShopDialog_btn_bulkCappuccino" name="Bulk purchase" />
 		<text id="tt_CafeCookBookDialog_0" name="甜點" />
 		<text id="tt_CafeCookBookDialog_1" name="主菜" />
 		<text id="tt_CafeCookBookDialog_2" name="湯" />

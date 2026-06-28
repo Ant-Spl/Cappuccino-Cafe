@@ -1912,6 +1912,7 @@
 		<text id="tt_CafeClearStoveDialog_btn_instantcook" name="Sofort fertig kochen" />
 		<text id="tt_CafeClearStoveDialog_btn_instantcook_na" name="Du kannst heute nicht mehr &apos;Sofort fertig kochen&apos;" />
 		<text id="tt_CafeClearStoveDialog_instantButton" name="Sofort fertig kochen" />
+		<text id="tt_CafeIngredientShopDialog_btn_bulkCappuccino" name="Bulk purchase" />
 		<text id="tt_CafeCookBookDialog_0" name="Süßspeisen" />
 		<text id="tt_CafeCookBookDialog_1" name="Hauptgerichte" />
 		<text id="tt_CafeCookBookDialog_2" name="Suppen" />

@@ -1941,6 +1941,7 @@
 		<text id="tt_CafeClearStoveDialog_btn_instantcook" name="瞬间烹饪" />
 		<text id="tt_CafeClearStoveDialog_btn_instantcook_na" name="您今天不能使用更多的“瞬间烹饪”功能了" />
 		<text id="tt_CafeClearStoveDialog_instantButton" name="瞬间烹饪" />
+		<text id="tt_CafeIngredientShopDialog_btn_bulkCappuccino" name="Bulk purchase" />
 		<text id="tt_CafeCookBookDialog_0" name="糖果" />
 		<text id="tt_CafeCookBookDialog_1" name="正餐" />
 		<text id="tt_CafeCookBookDialog_2" name="汤类" />

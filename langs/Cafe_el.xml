@@ -13,6 +13,7 @@
 		<text id="Basic_Achievement_Firenpc" name="Γαρνιτούρα στα κάρβουνα" />
 		<text id="Basic_Achievement_Instantcount" name="Ανυπόμονο Ορεκτικό" />
 		<text id="Basic_Achievement_Jobclean" name="Ο θορυβώδης αρτοποιός" />
+		<text id="Basic_Achievement_Jobserve" name="Flying Hotpot" />
 		<text id="Basic_Achievement_JobserSve" name="Ιπτάμενο καυτό δοχείο" />
 		<text id="Basic_Achievement_Masteies" name="Ο βασιλιάς του γρήγορου φαγητού" />
 		<text id="Basic_Achievement_Masteriesgold" name="Χρυσός Βασιλιάς του φαγητού" />
@@ -473,87 +474,66 @@
 		<text id="coop_title_17" name="Γλυκα για μεσημεριανό" />
 		<text id="coop_desc_short_17" name="Λακταραμε για γλυκα ετσι;" />
 		<text id="coop_desc_long_17" name="Σεφ Gabriel σέρβιρε ένα αλμυρό μεσημεριανό και οι πελάτες λαχταρούν πολλά γλυκά! Βοηθήστε και γλυκάνετε τη μέρα!!" />
-    
 		<text id="coop_title_18" name="ΚΡΗΤΙΚΟΣ ΕΣΤΙΑΤΟΡΙΩΝ ΕΠΙΣΚΕΦΤΗΚΕ!" />
 		<text id="coop_desc_short_18" name="Μαγιρευσε να Εντυπωσιάσεις!" />
 		<text id="coop_desc_long_18" name="Σεφ cupcakekittycat8 προσκάλεσε έναν κριτικό φαγητού να επισκεφτεί το καφέ σου και έχει εκλεπτυσμένο γούστο! Ήρθε η ώρα να μαγειρέψεις!" />
-    
 		<text id="coop_title_19" name="LAN PARTY!" />
 		<text id="coop_desc_short_19" name="Γρηγορό φαγητό για γρηγορά παιχνίδια!" />
 		<text id="coop_desc_long_19" name="Σεφ Surfguiger5 αποφάσισε να μπει σε ένα LAN party και του ανέθεσαν να φέρει το φαγητό. Οι παρευρισκόμενοι θέλουν πολύ πράγμα, όμως! Βάλε ένα χεράκ!" />
-    
 		<text id="coop_title_20" name="ΜΕΣΑΝΥΧΤΑ DRIVE THRU" />
 		<text id="coop_desc_short_20" name="Ενα Γρήγορο δείπνο για μια μεγάλη ημέρα!" />
 		<text id="coop_desc_long_20" name="Σεφ Patawka άνοιξε ένα drive-thru και ετοιμαζει να μοιραστεί τα κέρδη με όποιον βοηθήσει να εξασφαλιστεί φαγητό για αυτό. Λάβε μέρος!" />
-    
 		<text id="coop_title_21" name="ΜΟΝΟ ΠΡΩΤΕΙΝΗ!" />
 		<text id="coop_desc_short_21" name="ει&apos;αι η ωρα να φαμε υπέροχα!" />
 		<text id="coop_desc_long_21" name="Σεφ Surfguiger5 έμαθε για την τρέλα με τις Τριπλές Ομελέτες και ανησυχεί για την παχυσαρκία. Μαγείρεψε υγιεινό φαγητό για να αποδείξεις ότι και το δικό σου Καφέ είναι υγιεινό!!" />
-    
 		<text id="coop_title_22" name="HOTEL ΔΕΚΑΤΙΑΝΟΥ" />
 		<text id="coop_desc_short_22" name="θέλεις μια γρηγορη μπουκιά;" />
 		<text id="coop_desc_long_22" name="Σεφ Surfguiger5 των καλεσαν να προμηθεύσει με φαγητό ένα τοπικό ξενοδοχείο για ένα brunch. Ωστόσο, οι κουζίνες χάλασαν και εξαρτάται απο εσενα να βοηθήσεις! Τα κέρδη θα μοιραστούν." />
-    
 		<text id="coop_title_23" name="ΒΡΑΖΙΛΙΑΝΙΚΟΣ ΤΡΟΠΟΣ" />
 		<text id="coop_desc_short_23" name="VIVA O BRASIL!" />
 		<text id="coop_desc_long_23" name="Σεφ Surfguiger5 Θέλει ολοι τους να φανε βραζιλιάνικο φαγητό. Μαγειρευσε το!" />
-    
 		<text id="coop_title_24" name="THE CARB COUNTER" />
 		<text id="coop_desc_short_24" name="Ενα ενεργειακό refill!" />
 		<text id="coop_desc_long_24" name="Ζητήθηκε από τοπικό γυμναστήριο την Σεφ Artemi να προμηθεύσει με πιάτα πλούσια σε υδατάνθρακες, ώστε οι πελάτες να έχουν ενέργεια. Βοηθήσε για να κερδίσετε το μερίδιό σας!" />
-    
 		<text id="coop_title_25" name="ΓΕΥΣΗ ΓΑΜΟΥ!" />
 		<text id="coop_desc_short_25" name="Ενας γάμος γίνεται!" />
 		<text id="coop_desc_long_25" name="Σεφ Kvmxl είπε ότι η Κυρία του Καφέ και ο Κύριος του Μάφιν παντρεύονται! Ειπώθηκε ότι θα πληρώσουν πολύ καλά οποιοδήποτε καφέ διαθέτει το αγαπημένο τους φαγητό. Είναι αλήθεια οι φήμες;" />
-    
 		<text id="coop_title_26" name="ΜΠΟΥΦΕΣ ΔΕΙΠΝΟΥ" />
 		<text id="coop_desc_short_26" name="ΒΟΗΘΑ ΚΑΙ ΦΑΕΕΕ!!!" />
 		<text id="coop_desc_long_26" name="Σεφ Cupcakekittycat8 θέλει δείπνο με μερικά πιάτα φαγητού. Βοηθα!" />
-    
 		<text id="coop_title_27" name="OISH-ΚΑΤΙ" />
 		<text id="coop_desc_short_27" name="Πολυ kawaii φαση!" />
 		<text id="coop_desc_long_27" name="Σεφ Nao επιθυμεί να προσφέρει φαγητό για ενα anime convention, που πραγματοποιείται διπλά του. Δωσε ένα χεράκι!" />
-    
 		<text id="coop_title_28" name="ΚΑΚΑΟΠΟΚΑΛΥΦΗ" />
 		<text id="coop_desc_short_28" name="Αγάπη χωρίς οροία με σοκολάτα!" />
-		<text id="coop_desc_long_28" name="Σεφ Nao θέλει να κάνει δημοφιλή τα πιάτα με σοκολάτα στη γειτονιά και θα πληρώσει γι' αυτό. Γιατί να μην συμμετάσχετε;" />
-    
+		<text id="coop_desc_long_28" name="Σεφ Nao θέλει να κάνει δημοφιλή τα πιάτα με σοκολάτα στη γειτονιά και θα πληρώσει γι&apos; αυτό. Γιατί να μην συμμετάσχετε;" />
 		<text id="coop_title_31" name="ΚΑΡΥ ΦΕΣΤΙΒΑΛ" />
 		<text id="coop_desc_short_31" name="Υπάρχει επιλογή για ολους!" />
 		<text id="coop_desc_long_31" name="Ένα τοπικό ινδικό φεστιβάλ θέλει να μοιράσει όσο το δυνατόν περισσότερο κάρι στους καλεσμένους. Μπορείτε να βοηθήσετε;" />
-    
 		<text id="coop_title_30" name="ΠΟΝΤΙΚΙ ΣΤΟ ΦΑΙ!" />
 		<text id="coop_desc_short_30" name="ΜΗ ΤΟ ΔΕΙ ΚΑΝΕΙΣ!" />
 		<text id="coop_desc_long_30" name="A mouse was spotted in your Café and it wants fancy food to be served or it will ruin your business! Why does this feel familiar?" />
-    
 		<text id="coop_title_32" name="ΒΡΑΖΙΛΙΑ Η ΠΟΡΤΟΓΑΛΙΑ" />
 		<text id="coop_desc_short_32" name="Μικρύνει η απόσταση με φαγητό!" />
 		<text id="coop_desc_long_32" name="An international event is happening but brazilians and Portugese visitors are homesick. Make traditional food to make them happy!" />
-    
 		<text id="coop_title_33" name="DEV&apos;S ΕΠΙΛΟΓΗ!" />
 		<text id="coop_desc_short_33" name="Ενέργεια μετα απο development!" />
 		<text id="coop_desc_long_33" name="Chef Gab needs very large amounts of his favorite food to be cooked to stress test the servers! Help out!" />
-    
 		<text id="coop_title_34" name="ΜΟΥΣ MAXH!" />
 		<text id="coop_desc_short_34" name="Απάλο με πολλες γευσεις" />
 		<text id="coop_desc_long_34" name="Chefs all around the world are battling to see which mousse is the best. Play for all teams and see what&apos;s up!" />
-    
 		<text id="coop_title_35" name="ΟΙΚΟΓΕΝΕΙΑΚΟ FEAST" />
 		<text id="coop_desc_short_35" name="Τόσοι πολλοί επισκέπτες!" />
 		<text id="coop_desc_long_35" name="Your whole family, their friends, your friends and their families are ALL coming to your Café to celebrate your business. Do them proud!" />
-    
 		<text id="coop_title_36" name="ΧΡΕΙΑΖΟΜΑΣΤΕ ΠΟΛΛΑ ΑΥΓΑ!" />
 		<text id="coop_desc_short_36" name="Ποιο από τα δυο έρχεται πρώτα;" />
 		<text id="coop_desc_long_36" name="Chef Myleeek is conducting research on who came first: the chicken or the egg? Cook dishes with eggs to provide data!" />
-    
 		<text id="coop_title_37" name="ΤΟ ΤΡΥΜΜΕΝΟ ΛΑΘΟΣ!" />
 		<text id="coop_desc_short_37" name="Βασίλειο των τυρίων!" />
 		<text id="coop_desc_long_37" name="Chef Cupcakekittycat8 was hired to provide dishes for the birthday of a famous Mouse. Sadly, she used tofu instead of cheese and the mice are furious! Can you make food with cheese to help?" />
-    
 		<text id="coop_title_38" name="ΦΕΣΤΙΒΑΛ ΤΩΝ ΜΠΕΡΓΚΕΡ" />
 		<text id="coop_desc_short_38" name="Μια κλασική γεύση..." />
 		<text id="coop_desc_long_38" name="Chef Franskmayn is going to serve burgers at the Marketplace. Provide some portions to get a share of the revenue!" />
-    
 		<text id="coop_title_39" name="ΓΛΥΚΟ ΣΑΝ ΦΡΑΟΥΛΑ!" />
 		<text id="coop_desc_short_39" name="Μια άφθονη συγκομιδή!" />
 		<text id="coop_desc_long_39" name="The strawberry harvest was excellent and chef Gabriel wants to share the sweetness with everyone. Let&apos;s make some berry-licious dishes!" />
@@ -1174,7 +1154,7 @@
 		<text id="preparestep_coxinha_coriander" name="ψιλοκόψεις κόλιανδρο" />
 		<text id="preparestep_pizzasalad_tomato" name="Κόβεις ντομάτες" />
 		<text id="preparestep_pizzasalad_onion" name="Ψιλόκοψε κρεμμύδια" />
-		<text id="preparestep_pizzasalad_lettuce" name="πλύνε το μαρούλι " />
+		<text id="preparestep_pizzasalad_lettuce" name="πλύνε το μαρούλι" />
 		<text id="preparestep_pizzasalad_cheese" name="Τρίβεις τυρί" />
 		<text id="preparestep_pizzasalad_flour" name="Κοσκινίζεις το αλεύρι" />
 		<text id="preparestep_tripleomelette_eggs" name="Σπάζεις αυγά πιο δυνατά" />
@@ -1977,6 +1957,7 @@
 		<text id="tt_CafeClearStoveDialog_btn_instantcook" name="Στιγμιαίο μαγείρεμα" />
 		<text id="tt_CafeClearStoveDialog_btn_instantcook_na" name="Δε μπορείς να κάνεις άλλο Στιγμαίο μαγείρεμα για σήμερα." />
 		<text id="tt_CafeClearStoveDialog_instantButton" name="Στιγμιαίο μαγείρεμα" />
+		<text id="tt_CafeIngredientShopDialog_btn_bulkCappuccino" name="Bulk purchase" />
 		<text id="tt_CafeCookBookDialog_0" name="Γλυκά" />
 		<text id="tt_CafeCookBookDialog_1" name="Κυρίως γεύματα" />
 		<text id="tt_CafeCookBookDialog_2" name="Σούπες" />

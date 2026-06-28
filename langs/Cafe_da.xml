@@ -1912,6 +1912,7 @@
 		<text id="tt_CafeClearStoveDialog_btn_instantcook" name="Kog færdigt med det samme" />
 		<text id="tt_CafeClearStoveDialog_btn_instantcook_na" name="I dag kan du ikke &apos;Koge færdigt med det samme&apos; mere" />
 		<text id="tt_CafeClearStoveDialog_instantButton" name="Kog færdigt med det samme" />
+		<text id="tt_CafeIngredientShopDialog_btn_bulkCappuccino" name="Bulk purchase" />
 		<text id="tt_CafeCookBookDialog_0" name="Søde retter" />
 		<text id="tt_CafeCookBookDialog_1" name="Hovedretter" />
 		<text id="tt_CafeCookBookDialog_2" name="Supper" />

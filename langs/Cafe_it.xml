@@ -416,155 +416,117 @@
 		<text id="coop_title_1" name="CORSO DI CUCINA" />
 		<text id="coop_desc_short_1" name="Diventa Maestro degli Spaghetti al ragù!" />
 		<text id="coop_desc_long_1" name="Organizzeremo un corso di cucina per perfezionare alcune ricette. Vuoi partecipare?" />
-
 		<text id="coop_title_2" name="SERATA TEX-MEX" />
 		<text id="coop_desc_short_2" name="Fiesta Mexicana con i fiocchi!" />
 		<text id="coop_desc_long_2" name="Vorrei fare una festa in stile tex mex e mi servirebbero i piatti tipici. Potresti aiutarmi?" />
-
 		<text id="coop_title_3" name="SERATA ANSEATICA" />
 		<text id="coop_desc_short_3" name="Labskaus per gli ospiti amburghesi!" />
 		<text id="coop_desc_long_3" name="Ospito un&apos;associazione sportiva di Amburgo e vorrei farli sentire come a casa. Cerco qualcuno che conosca la cucina tipica di Amburgo. A te va l&apos;idea?" />
-		
 		<text id="coop_title_4" name="FESTA IN GIARDINO" />
 		<text id="coop_desc_short_4" name="Toast Hawaiano per la festa in giardino!" />
 		<text id="coop_desc_long_4" name="Voglio fare una grande festa in giardino e per far felici i miei ospiti ho bisogno di un sacco di cibo. Ho sentito dire che sei un maestro nel servizio catering. Mi aiuteresti?" />
-		
 		<text id="coop_title_5" name="APRÉS SKI" />
 		<text id="coop_desc_short_5" name="Con la cioccolata su montagne di panna!" />
 		<text id="coop_desc_long_5" name="Lo Ski Park organizza un Aprés Ski Party e gli servono ancora molte leccornie. Potresti dare una mano?" />
-		
 		<text id="coop_title_6" name="CENA PARTICOLARE" />
 		<text id="coop_desc_short_6" name="Tra le migliori mousse al cioccolato!" />
 		<text id="coop_desc_long_6" name="Stasera il mio capo verrà a cena da me e vorrei fare colpo su di lui con una cena da quattro portate... prenderesti in mano tu la situazione?" />
-		
 		<text id="coop_title_7" name="PAUSA PRANZO ROVINATA" />
 		<text id="coop_desc_short_7" name="La formazione passa anche per la gola!" />
 		<text id="coop_desc_long_7" name="C&apos;è stato un piccolo incendio nella mensa scolastica e ora i bambini non hanno niente da mangiare! Puoi aiutarci e cucinare qualcosa di buono?" />
-		
 		<text id="coop_title_8" name="FESTA DI COMPLEANNO" />
 		<text id="coop_desc_short_8" name="Prepara pizze &amp; co. per una festa di compleanno!" />
 		<text id="coop_desc_long_8" name="Il mio miglior amico festeggia il suo compleanno e non ha pensato di organizzare qualcosa da mangiare. Verrà veramente molta gente... Ci aiuteresti?" />
-		
 		<text id="coop_title_9" name="BUFFET ITALIANO" />
 		<text id="coop_desc_short_9" name="Pizza! Pasta! ...Mandolino?" />
 		<text id="coop_desc_long_9" name="Si sta organizzando una festa di paese a tema &quot;Italia&quot;. Mancherebbe solo il cibo. Vuoi mettere alla prova la tua arte culinaria?" />
-		
 		<text id="coop_title_10" name="È Natale!" />
 		<text id="coop_desc_short_10" name="Mangia finchè non ti scoppiano i bottoni!" />
 		<text id="coop_desc_long_10" name="La tua famiglia ti viene a trovare e tu hai l&apos;onore di preparare il banchetto di Natale! Buon appetito!" />
-		
 		<text id="coop_title_11" name="BATTAGLIA DI TORTE!" />
 		<text id="coop_desc_short_11" name="Ogni punto conta!" />
 		<text id="coop_desc_long_11" name="Abbiamo in programma una battaglia di torte! Preparaci quante più torte puoi!" />
-		
 		<text id="coop_title_12" name="IL MAGO DELLE ZUPPE" />
 		<text id="coop_desc_short_12" name="Niente è meglio di una zuppa!" />
 		<text id="coop_desc_long_12" name="La mensa cittadina ha bisogno di una varietà di zuppe. Saresti in grado di preparare zuppe che possano piacere a tutti?" />
-		
 		<text id="coop_title_13" name="DALL&apos;ORIENTE" />
 		<text id="coop_desc_short_13" name="Il riso non manca mai!" />
 		<text id="coop_desc_long_13" name="Ci servono ancora un paio di piatti tipici per una serata a tema asiatico. Conosci qualche ricetta adatta?" />
-	
 		<text id="coop_title_14" name="MOLTA SOSTANZA!" />
 		<text id="coop_desc_short_14" name="Ci piacciono la carne e le patate!" />
 		<text id="coop_desc_long_14" name="Ci servirebbero giusto un paio di piatti sostanziosi per il convegno nazionale degli operai edili. Hai qualcosina di adatto per loro?" />
-
 		<text id="coop_title_15" name="VERY BRITISH!" />
 		<text id="coop_desc_short_15" name="Tutto per gli inglesi, ovunque essi siano!" />
 		<text id="coop_desc_long_15" name="Arriveranno ospiti da Londra e vorrebbero mangiare un paio di piatti tipici per loro. Potresti preparare qualcosa?" />
-
 		<text id="coop_title_16" name="ORA DI PUNTA MATTUTINA!" />
 		<text id="coop_desc_short_16" name="Inizia la giornata col piede giusto!" />
 		<text id="coop_desc_long_16" name="Chef cupcakekittycat8 vuole organizzare una sostanziosa colazione al Mercato. Puoi dare una mano per ciò che verrà servito?" />
-
 		<text id="coop_title_17" name="E DOPO PRANZO? IL DESSERT!" />
 		<text id="coop_desc_short_17" name="C&apos;è sempre spazio per i dolci!" />
 		<text id="coop_desc_long_17" name="Chef Gabriel ha servito un pranzo salatissimo ed ora i clienti bramano dolci appetitosi! Addolcisci la loro giornata!" />
-
 		<text id="coop_title_18" name="VISITA DEL CRITICO CULINARIO!" />
 		<text id="coop_desc_short_18" name="Cucina per fare colpo!" />
 		<text id="coop_desc_long_18" name="Chef cupcakekittycat8 ha invitato un critico culinario a visitare il tuo Café... e lui sì che ha un palato raffinato! Preparati, è l&apos;ora di cucinare!" />
-		
 		<text id="coop_title_19" name="LAN PARTY!" />
 		<text id="coop_desc_short_19" name="Si gioca velocemente, si mangia velocemente!" />
 		<text id="coop_desc_long_19" name="Chef Surfguiger5 ha deciso di unirsi a un LAN party e ora ha il compito di portare del cibo. I partecipanti però ne richiedono molto. Dai una mano!" />
-		
 		<text id="coop_title_20" name="DRIVE THRU A NOTTE FONDA" />
 		<text id="coop_desc_short_20" name="Una cena breve dopo una giornata greve!" />
 		<text id="coop_desc_long_20" name="Chef Patawka ha aperto un drive-thru e ha intenzione di condividerne i profitti con chiunque possa rifornirlo di cibo. Proponiti!" />
-		
 		<text id="coop_title_21" name="SOLO CIBO SANO!" />
 		<text id="coop_desc_short_21" name="È ora di mangiare bene!" />
 		<text id="coop_desc_long_21" name="Chef Surfguiger5 ha scoperto la moda della tripla Omelette, ed ecco che ora è preoccupato di star mettendo su peso. Proponi una cucina equilibrata, e dimostra che anche il tuo Cafè è in forma!" />
-		
 		<text id="coop_title_22" name="BRUNCH IN ALBERGO" />
 		<text id="coop_desc_short_22" name="Solo un boccone veloce veloce!" />
 		<text id="coop_desc_long_22" name="Chef Surfguiger5 ha ricevuto l&apos;incarico da un hotel di fornire il brunch. Casualmente i fornelli si sono rotti, quindi ora tocca a te! I profitti verranno condivisi." />
-		
 		<text id="coop_title_23" name="I SAPORI DEL BRASILE" />
 		<text id="coop_desc_short_23" name="Goditi il Brasile a tavola!" />
 		<text id="coop_desc_long_23" name="Chef Surfguiger5 vuole far assaggiare a tutti la cucina Brasiliana. Cucina e porta un pizzico di Brasile nel tuo Café!" />
-		
 		<text id="coop_title_24" name="IL CONTA-CARBOIDRATI" />
 		<text id="coop_desc_short_24" name="Una ricarica di energia!" />
 		<text id="coop_desc_long_24" name="Una palestra ha chiesto aiuto a Chef Artemis di fornire delle pietanze piene di carboidrati così da dar energia ai clienti. Dai una mano e verrai ricompensato!" />
-		
 		<text id="coop_title_25" name="MENU DI NOZZE" />
 		<text id="coop_desc_short_25" name="Questo matrimonio s&apos;ha da fare!" />
 		<text id="coop_desc_long_25" name="Chef Kvmxl dice che la Lady Café e l&apos;Omino dei Muffin stiano per sposarsi! Inoltre si dice che paghino bene qualsiasi Café che serva i loro piatti preferiti. Chissà se almeno le loro famiglie siano d&apos;accordo..." />
-		
 		<text id="coop_title_26" name="CENA BUFFET" />
 		<text id="coop_desc_short_26" name="Mangia a più non posso!" />
 		<text id="coop_desc_long_26" name="Chef Cupcakekittycat8 vuole organizzare una cena con una caterba di cibo. Dai una mano!" />
-		
 		<text id="coop_title_27" name="OISH-SÌ!" />
 		<text id="coop_desc_short_27" name="Troppo buono!" />
 		<text id="coop_desc_long_27" name="Chef Nao vuole servire del cibo per un raduno anime che sta avvenendo in un Café qui vicino. Prepara dei piatti che i partecipanti apprezzerebbero e dai una mano!" />
-		
 		<text id="coop_title_28" name="DICHIARAZIONE... DI CACAO" />
 		<text id="coop_desc_short_28" name="Il vero amore è il cioccolato!" />
 		<text id="coop_desc_long_28" name="Chef Nao vuole diffondere i piatti a base di cioccolato nel quartiere e, per farlo, pagherà una giusta ricompensa. Perché non unirti?" />
-		
 		<text id="coop_title_29" name="FESTIVAL DEL CURRY" />
 		<text id="coop_desc_short_29" name="Ce n&apos;è per tutti i gusti!" />
 		<text id="coop_desc_long_29" name="Un festival Indiano locale vuole distribuire quanto più curry possibile agli ospiti. Puoi dare una mano?" />
-
 		<text id="coop_title_30" name="UN TOPO IN CUCINA!" />
 		<text id="coop_desc_short_30" name="Non lasciar che esca allo scoperto!" />
 		<text id="coop_desc_long_30" name="Un topo è stato avvistato nel tuo Café e ora vuole che tu serva cibo raffinato o ti porterà alla rovina! Ma perchè tutto ciò mi suona vagamente familiare...?" />
-
 		<text id="coop_title_31" name="FESTIVAL DEL CURRY" />
 		<text id="coop_desc_short_31" name="Ce n&apos;è per tutti i gusti!" />
 		<text id="coop_desc_long_31" name="Un festival Indiano locale vuole distribuire quanto più curry possibile agli ospiti. Puoi dare una mano?" />
-		
 		<text id="coop_title_32" name="BRASILE E PORTOGALLO" />
 		<text id="coop_desc_short_32" name="Accorciamo le distanze con il cibo!" />
 		<text id="coop_desc_long_32" name="È in corso un festival internazionale ma i visitatori Brasiliani e Portoghesi hanno nostalgia di casa. Prepara del cibo tradizionale per renderli felici!" />
-		
 		<text id="coop_title_33" name="LA SCELTA DELLO SVILUPPATORE!" />
 		<text id="coop_desc_short_33" name="Dai carburante per lo sviluppo!" />
 		<text id="coop_desc_long_33" name="Chef Gab ha bisogno che tu cucini i suoi piatti preferiti in grandi quantità per fare uno stress-test dei server! Aiutalo!" />
-		
 		<text id="coop_title_34" name="BATTAGLIA A COLPI DI MOUSSE!" />
 		<text id="coop_desc_short_34" name="Quale sarà la vincitrice?" />
 		<text id="coop_desc_long_34" name="Gli Chef di tutto il mondo si sfidano per decidere quale mousse sia la migliore. Partecipa a nome di tutte le squadre e scopri cosa accadrà!" />
-		
 		<text id="coop_title_35" name="FESTONA IN FAMIGLIA" />
 		<text id="coop_desc_short_35" name="Così tanti invitati!" />
 		<text id="coop_desc_long_35" name="La tua famiglia intera, gli amici di famiglia, i tuoi amici stretti e persino le loro famiglie verranno TUTTI al tuo Café per festeggiare il tuo business. Non deluderli!" />
-		
 		<text id="coop_title_36" name="ABBIAMO BISOGNO DI TANTE UOVA!" />
 		<text id="coop_desc_short_36" name="Ma saranno nate prima loro?" />
 		<text id="coop_desc_long_36" name="Chef Myleeek sta portando avanti una ricerca su chi sia nato prima: l&apos;uovo o la gallina? Cucina dei piatti a base di uova per raccogliere dati di vitale importanza!" />
-		
 		<text id="coop_title_37" name="UN ERRORE... GRATTUGIATO!" />
 		<text id="coop_desc_short_37" name="Il formaggio domina su tutto!" />
 		<text id="coop_desc_long_37" name="Chef Cupcakekittycat8 deve fornire del cibo per il compleanno di un certo Topo. Ahimè, ha usato il tofu al posto del formaggio e ora i topi sono furiosi! Puoi dare una mano preparando del cibo più appropriato?" />
-		
 		<text id="coop_title_38" name="FESTIVAL DEI BURGER" />
 		<text id="coop_desc_short_38" name="Un classico per ogni raduno!" />
 		<text id="coop_desc_long_38" name="Chef Franskmayn servirà dei burger per un raduno al Mercato. Fornisci delle porzioni per ottenere una parte del ricavato!" />
-		
 		<text id="coop_title_39" name="DOLCE COME UNA FRAGOLA!" />
 		<text id="coop_desc_short_39" name="Una raccolta strepitosa!" />
 		<text id="coop_desc_long_39" name="La raccolta di fragole è stata eccellente e Chef Gabriel vuole condividerne la dolcezza con tutti. Prepariamo dei piatti fra-golosi!" />
@@ -1160,7 +1122,7 @@
 		<text id="preparestep_spanishomelette_onion" name="Trita le cipolle" />
 		<text id="preparestep_spanishomelette_eggs" name="Rompi le uova in Spagnolo" />
 		<text id="preparestep_spanishomelette_parsley" name="Trita il prezzemolo" />
-		<text id="preparestep_sausagepasta_pasta" name="Fai bollire la pasta"/>
+		<text id="preparestep_sausagepasta_pasta" name="Fai bollire la pasta" />
 		<text id="preparestep_sausagepasta_sausages" name="Trita le salsiccie" />
 		<text id="preparestep_sausagepasta_tomato" name="Prepara la salsa al pomodoro" />
 		<text id="preparestep_sausagepasta_coriander" name="Trita il coriandolo" />
@@ -1169,11 +1131,11 @@
 		<text id="preparestep_applepie_flour" name="Pesa la farina" />
 		<text id="preparestep_applepie_apple" name="Concentrati sull&apos;economia agricola" />
 		<text id="preparestep_applepie_cinnamon" name="Aggiungi la cannella" />
-		<text id="preparestep_ramen_pasta" name="Fai bollire la pasta"/>
+		<text id="preparestep_ramen_pasta" name="Fai bollire la pasta" />
 		<text id="preparestep_ramen_eggs" name="Fai bollire le uova" />
 		<text id="preparestep_ramen_bacon" name="Trita la pancetta" />
 		<text id="preparestep_ramen_chili" name="Rendilo piccante" />
-		<text id="preparestep_corncake_sweetcorn" name="Prepara i fiocchi di mais"/>
+		<text id="preparestep_corncake_sweetcorn" name="Prepara i fiocchi di mais" />
 		<text id="preparestep_corncake_butter" name="Sciogli il burro" />
 		<text id="preparestep_corncake_eggs" name="Mescola le uova" />
 		<text id="preparestep_corncake_milk" name="Aggiungi il latte" />
@@ -1216,7 +1178,7 @@
 		<text id="preparestep_duckalcitrus_citrus" name="Spremi gli agrumi" />
 		<text id="preparestep_ducktatters_duck" name="Prepara l&apos;anatra" />
 		<text id="preparestep_ducktatters_potato" name="Trita le patate" />
-		<text id="preparestep_ducktatters_pasta" name="Fai bollire la pasta"/>
+		<text id="preparestep_ducktatters_pasta" name="Fai bollire la pasta" />
 		<text id="preparestep_ducktatters_oil" name="Scalda l&apos;olio" />
 		<text id="preparestep_langos_flour" name="Setaccia la farina" />
 		<text id="preparestep_langos_eggs" name="Rompi le uova" />
@@ -1949,6 +1911,7 @@
 		<text id="tt_CafeClearStoveDialog_btn_instantcook" name="Instant cooking" />
 		<text id="tt_CafeClearStoveDialog_btn_instantcook_na" name="Oggi non puoi più attivare instant cooking." />
 		<text id="tt_CafeClearStoveDialog_instantButton" name="Instant cooking" />
+		<text id="tt_CafeIngredientShopDialog_btn_bulkCappuccino" name="Bulk purchase" />
 		<text id="tt_CafeCookBookDialog_0" name="Dolci" />
 		<text id="tt_CafeCookBookDialog_1" name="Piatti principali" />
 		<text id="tt_CafeCookBookDialog_2" name="Minestre" />
