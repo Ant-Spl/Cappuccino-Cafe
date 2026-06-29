@@ -261,6 +261,8 @@
 		<text id="cookstep_sweetpizza2" name="Édes pizzát sütni" />
 		<text id="cookstep_shakshuka1" name="Paradicsomot melegíteni" />
 		<text id="cookstep_shakshuka2" name="Szószt főzni" />
+		<text id="cookstep_matildacake1" name="Mixing chocolate" />
+		<text id="cookstep_matildacake2" name="Baking cake" />
 		<text id="cookstep_cheeseburger1" name="Darált húst sütni" />
 		<text id="cookstep_cheeseburger2" name="Hamburgert összeállítani" />
 		<text id="cookstep_cheesedish1" name="Sajtot tálalni" />
@@ -1308,6 +1310,10 @@
 		<text id="preparestep_shakshuka_garlic" name="Fokhagymát összenyomni" />
 		<text id="preparestep_shakshuka_tomato" name="Paradicsomot vágni" />
 		<text id="preparestep_shakshuka_eggs" name="Tojást törni" />
+		<text id="preparestep_matildacake_chocolate" name="Melt lots of chocolate" />
+		<text id="preparestep_matildacake_flour" name="Levitate flour" />
+		<text id="preparestep_matildacake_cream" name="Toss cream in strongly" />
+		<text id="preparestep_matildacake_cocktailcherry" name="Add cherries" />
 		<text id="preparestep_blackforestcherrycake_flour" name="Lisztet szitálni" />
 		<text id="preparestep_cheeseburger_cheese" name="Sajtot felvágni" />
 		<text id="preparestep_cheeseburger_flour" name="Lisztet szitálni" />
@@ -1617,6 +1623,7 @@
 		<text id="preparestep_lechonkawali_rosemary" name="Rozmaringot felvágni" />
 		<text id="preparestep_sweetpizza_cinnamon" name="Fahéjat szórni" />
 		<text id="preparestep_shakshuka_parsley" name="Petrezselymet felvágni" />
+		<text id="preparestep_matildacake_vanilla" name="Scrape out vanilla" />
 		<text id="preparestep_cottagepotatoes_parsley" name="Petrezselymet felvágni" />
 		<text id="preparestep_bananasplit_vanilla" name="Vanília belsejét kikapargatni" />
 		<text id="preparestep_blackforestcherrycake_vanilla" name="Vaníliát kivájni" />
@@ -1749,6 +1756,7 @@
 		<text id="recipe_lechonkawali" name="Serpenyős Sültmalac" />
 		<text id="recipe_sweetpizza" name="Édes Pizza" />
 		<text id="recipe_shakshuka" name="Shakshuka" />
+		<text id="recipe_matildacake" name="Matilda Cake" />
 		<text id="recipe_blackforestcherrycake" name="Feketeerdő torta" />
 		<text id="recipe_cheeseburger" name="Sajtos hamburger" />
 		<text id="recipe_cheesedish" name="Sajttál" />

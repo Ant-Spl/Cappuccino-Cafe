@@ -269,6 +269,8 @@
 		<text id="cookstep_sweetpizza2" name="Baking Γλυκιά πίτσα" />
 		<text id="cookstep_shakshuka1" name="Melting tomatoes" />
 		<text id="cookstep_shakshuka2" name="Simmering sauce" />
+		<text id="cookstep_matildacake1" name="Mixing chocolate" />
+		<text id="cookstep_matildacake2" name="Baking cake" />
 		<text id="cookstep_blackforestcherrycake1" name="αναμειγνύοντας συστατικά" />
 		<text id="cookstep_blackforestcherrycake2" name="Ψήνω κέϊκ" />
 		<text id="cookstep_cheeseburger1" name="σωτάροντας κιμά" />
@@ -1353,6 +1355,10 @@
 		<text id="preparestep_shakshuka_garlic" name="Σπας σκόρδο" />
 		<text id="preparestep_shakshuka_tomato" name="Κόβεις ντομάτες" />
 		<text id="preparestep_shakshuka_eggs" name="Σπάζεις αυγά" />
+		<text id="preparestep_matildacake_chocolate" name="Melt lots of chocolate" />
+		<text id="preparestep_matildacake_flour" name="Levitate flour" />
+		<text id="preparestep_matildacake_cream" name="Toss cream in strongly" />
+		<text id="preparestep_matildacake_cocktailcherry" name="Add cherries" />
 		<text id="preparestep_bananasplit_cream" name="Χτυπήσεις την κρέμα" />
 		<text id="preparestep_bananasplit_milk" name="μετρήσεις γάλα" />
 		<text id="preparestep_bananasplit_sugar" name="μετρήσεις ζάχαρη" />
@@ -1662,6 +1668,7 @@
 		<text id="preparestep_lechonkawali_rosemary" name="ψιλοκόψεις δενδρολίβανο" />
 		<text id="preparestep_sweetpizza_cinnamon" name="Πασπάλισε κανέλα" />
 		<text id="preparestep_shakshuka_parsley" name="ψιλοκόψεις μαϊντανό" />
+		<text id="preparestep_matildacake_vanilla" name="Scrape out vanilla" />
 		<text id="preparestep_cottagepotatoes_parsley" name="ψιλοκόψεις μαϊντανό" />
 		<text id="preparestep_bananasplit_vanilla" name="ξύσεις βανίλια" />
 		<text id="preparestep_blackforestcherrycake_vanilla" name="ξύσεις βανίλια" />
@@ -1794,6 +1801,7 @@
 		<text id="recipe_lechonkawali" name="Λετσόν Καβάλι" />
 		<text id="recipe_sweetpizza" name="Γλυκιά πίτσα" />
 		<text id="recipe_shakshuka" name="Σακσούκα" />
+		<text id="recipe_matildacake" name="Matilda Cake" />
 		<text id="recipe_beefstew" name="Βράστο μοσχάρι" />
 		<text id="recipe_blackforestcherrycake" name="Τούρτα μαύρο δάσος" />
 		<text id="recipe_cheeseburger" name="Τσίσμπεργκερ" />

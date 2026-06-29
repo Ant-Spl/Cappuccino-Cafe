@@ -261,6 +261,8 @@
 		<text id="cookstep_sweetpizza2" name="Baking sweet pizza" />
 		<text id="cookstep_shakshuka1" name="Melting tomatoes" />
 		<text id="cookstep_shakshuka2" name="Simmering sauce" />
+		<text id="cookstep_matildacake1" name="Mixing chocolate" />
+		<text id="cookstep_matildacake2" name="Baking cake" />
 		<text id="cookstep_cheeseburger1" name="Gehakt aanbakken" />
 		<text id="cookstep_cheeseburger2" name="Hamburger samenstellen" />
 		<text id="cookstep_cheesedish1" name="Kaas opdienen" />
@@ -1308,6 +1310,10 @@
 		<text id="preparestep_shakshuka_garlic" name="Crush garlic" />
 		<text id="preparestep_shakshuka_tomato" name="Chop tomatoes" />
 		<text id="preparestep_shakshuka_eggs" name="Crack eggs" />
+		<text id="preparestep_matildacake_chocolate" name="Melt lots of chocolate" />
+		<text id="preparestep_matildacake_flour" name="Levitate flour" />
+		<text id="preparestep_matildacake_cream" name="Toss cream in strongly" />
+		<text id="preparestep_matildacake_cocktailcherry" name="Add cherries" />
 		<text id="preparestep_blackforestcherrycake_flour" name="bloem zeven" />
 		<text id="preparestep_cheeseburger_cheese" name="kaas snijden" />
 		<text id="preparestep_cheeseburger_flour" name="bloem zeven" />
@@ -1617,6 +1623,7 @@
 		<text id="preparestep_lechonkawali_rosemary" name="Chop rosemary" />
 		<text id="preparestep_sweetpizza_cinnamon" name="Sprinkle cinnamon" />
 		<text id="preparestep_shakshuka_parsley" name="Chop parsley" />
+		<text id="preparestep_matildacake_vanilla" name="Scrape out vanilla" />
 		<text id="preparestep_cottagepotatoes_parsley" name="Chop parsley" />
 		<text id="preparestep_bananasplit_vanilla" name="Vanillestokjes schrapen" />
 		<text id="preparestep_blackforestcherrycake_vanilla" name="vanillestokjes schrapen" />
@@ -1749,6 +1756,7 @@
 		<text id="recipe_lechonkawali" name="Lechon Kawali" />
 		<text id="recipe_sweetpizza" name="Sweet Pizza" />
 		<text id="recipe_shakshuka" name="Shakshuka" />
+		<text id="recipe_matildacake" name="Matilda Cake" />
 		<text id="recipe_blackforestcherrycake" name="Schwarzwalder Kersentaart" />
 		<text id="recipe_cheeseburger" name="Cheeseburger" />
 		<text id="recipe_cheesedish" name="Kaasplankje" />

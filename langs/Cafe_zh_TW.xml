@@ -263,6 +263,8 @@
 		<text id="cookstep_sweetpizza2" name="Baking sweet pizza" />
 		<text id="cookstep_shakshuka1" name="Melting tomatoes" />
 		<text id="cookstep_shakshuka2" name="Simmering sauce" />
+		<text id="cookstep_matildacake1" name="Mixing chocolate" />
+		<text id="cookstep_matildacake2" name="Baking cake" />
 		<text id="cookstep_blackforestcherrycake1" name="混合材料" />
 		<text id="cookstep_blackforestcherrycake2" name="烘烤蛋糕" />
 		<text id="cookstep_cheeseburger1" name="炒絞肉" />
@@ -1316,6 +1318,10 @@
 		<text id="preparestep_shakshuka_garlic" name="Crush garlic" />
 		<text id="preparestep_shakshuka_tomato" name="Chop tomatoes" />
 		<text id="preparestep_shakshuka_eggs" name="Crack eggs" />
+		<text id="preparestep_matildacake_chocolate" name="Melt lots of chocolate" />
+		<text id="preparestep_matildacake_flour" name="Levitate flour" />
+		<text id="preparestep_matildacake_cream" name="Toss cream in strongly" />
+		<text id="preparestep_matildacake_cocktailcherry" name="Add cherries" />
 		<text id="preparestep_bananasplit_cream" name="鮮奶油打成泡" />
 		<text id="preparestep_bananasplit_milk" name="量牛奶" />
 		<text id="preparestep_bananasplit_sugar" name="秤糖的重量" />
@@ -1625,6 +1631,7 @@
 		<text id="preparestep_lechonkawali_rosemary" name="Chop rosemary" />
 		<text id="preparestep_sweetpizza_cinnamon" name="Sprinkle cinnamon" />
 		<text id="preparestep_shakshuka_parsley" name="Chop parsley" />
+		<text id="preparestep_matildacake_vanilla" name="Scrape out vanilla" />
 		<text id="preparestep_cottagepotatoes_parsley" name="Chop parsley" />
 		<text id="preparestep_bananasplit_vanilla" name="香草切成碎片" />
 		<text id="preparestep_blackforestcherrycake_vanilla" name="香草切成碎片" />
@@ -1757,6 +1764,7 @@
 		<text id="recipe_lechonkawali" name="Lechon Kawali" />
 		<text id="recipe_sweetpizza" name="Sweet Pizza" />
 		<text id="recipe_shakshuka" name="Shakshuka" />
+		<text id="recipe_matildacake" name="Matilda Cake" />
 		<text id="recipe_beefstew" name="匈牙利燉肉" />
 		<text id="recipe_blackforestcherrycake" name="黑森林櫻桃蛋糕" />
 		<text id="recipe_cheeseburger" name="起司漢堡" />

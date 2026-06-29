@@ -261,6 +261,8 @@
 		<text id="cookstep_sweetpizza2" name="Bakar" />
 		<text id="cookstep_shakshuka1" name="Kokar tomat" />
 		<text id="cookstep_shakshuka2" name="Sjuder sås" />
+		<text id="cookstep_matildacake1" name="Mixing chocolate" />
+		<text id="cookstep_matildacake2" name="Baking cake" />
 		<text id="cookstep_chocmousse1" name="Blandar ingredienser" />
 		<text id="cookstep_chocmousse2" name="Kyler mousse" />
 		<text id="cookstep_chocolatecake1" name="Blandar ingredienser" />
@@ -1310,6 +1312,10 @@
 		<text id="preparestep_shakshuka_garlic" name="Pressa vitlök" />
 		<text id="preparestep_shakshuka_tomato" name="Skär upp tomater" />
 		<text id="preparestep_shakshuka_eggs" name="Kläck ägg" />
+		<text id="preparestep_matildacake_chocolate" name="Melt lots of chocolate" />
+		<text id="preparestep_matildacake_flour" name="Levitate flour" />
+		<text id="preparestep_matildacake_cream" name="Toss cream in strongly" />
+		<text id="preparestep_matildacake_cocktailcherry" name="Add cherries" />
 		<text id="preparestep_chiliconcarne_tomato" name="Skär upp tomater" />
 		<text id="preparestep_chocmousse_chocolate" name="Hacka choklad" />
 		<text id="preparestep_chocmousse_cream" name="Vispa grädde" />
@@ -1622,6 +1628,7 @@
 		<text id="preparestep_lechonkawali_rosemary" name="Hacka rosmarin" />
 		<text id="preparestep_sweetpizza_cinnamon" name="Strö kanel" />
 		<text id="preparestep_shakshuka_parsley" name="Hacka persilja" />
+		<text id="preparestep_matildacake_vanilla" name="Scrape out vanilla" />
 		<text id="preparestep_cottagepotatoes_parsley" name="Hacka persilja" />
 		<text id="preparestep_bananasplit_vanilla" name="Skrapa vanilj" />
 		<text id="preparestep_blackforestcherrycake_vanilla" name="Skrapa vanilj" />
@@ -1754,6 +1761,7 @@
 		<text id="recipe_lechonkawali" name="Lechon Kawali" />
 		<text id="recipe_sweetpizza" name="Söt Pizza" />
 		<text id="recipe_shakshuka" name="Shakshuka" />
+		<text id="recipe_matildacake" name="Matilda Cake" />
 		<text id="recipe_chocmousse" name="Chokladmousse" />
 		<text id="recipe_chocolatecake" name="Chokladtårta" />
 		<text id="recipe_chocolatecheesecake" name="Choklad Cheesecake" />
