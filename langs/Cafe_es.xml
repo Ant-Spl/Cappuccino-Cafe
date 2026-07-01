@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <cafe>
 	<achievement>
 		<text id="Basic_Achievement_Boughtdeco" name="Bocado &amp; Sorbito" />
@@ -198,7 +198,7 @@
 		<text id="cookstep_strawberryjuice1" name="Machacar fresas" />
 		<text id="cookstep_strawberryjuice2" name="Mezclando jugo" />
 		<text id="cookstep_cappuccino1" name="Preparando espresso" />
-		<text id="cookstep_cappuccino2" name=" Espumar leche" />
+		<text id="cookstep_cappuccino2" name="Espumar leche" />
 		<text id="cookstep_duckalcitrus1" name="Asar pato" />
 		<text id="cookstep_duckalcitrus2" name="Añadir rodajas de Limón" />
 		<text id="cookstep_ducktatters1" name="Freír ingredientes" />
@@ -529,6 +529,12 @@
 		<text id="coop_title_39" name="¡DULZURA SABOR FRESA!" />
 		<text id="coop_desc_short_39" name="¡Una cosecha abundante!" />
 		<text id="coop_desc_long_39" name="La cosecha de fresas fue excelente y el chef Gabriel quiere compartir su dulzura con todos. ¡Preparemos unos platillos deliciosos con frutas de baya!" />
+		<text id="coop_title_40" name="OMELETTES TO THE MAX!" />
+		<text id="coop_desc_short_40" name="You just can&apos;t have enough!" />
+		<text id="coop_desc_long_40" name="Chef Xara wants everyone to know the joys of preparing and serving large amounts of Omelettes. Are you up to the challenge?" />
+		<text id="coop_title_41" name="BALATON PARTY" />
+		<text id="coop_desc_short_41" name="Let&apos;s eat by the lake!" />
+		<text id="coop_desc_long_41" name="Chef Flinsical is hosting a leisure session around Lake Balaton. Help out with food and refreshments for this scenic event!" />
 		<text id="coop_title_30" name="¡RATA DE DOS PATAS!" />
 		<text id="coop_desc_short_30" name="¡No dejes que nadie lo vea!" />
 		<text id="coop_desc_long_30" name="¡Se ha visto un ratón en tu cafetería y quiere que le sirvan comida de lujo o arruinará tu negocio! ¿Por qué me suena esto?" />
@@ -548,7 +554,7 @@
 		<text id="dialogwin_bonus_copy_dish" name="¡Se han desbloqueado nuevas recetas!" />
 		<text id="dialogwin_bonus_copy_expand" name="¡Has ampliado tu café! ¡Ahora tienes más espacio para tus clientes, adornos y mucho más!" />
 		<text id="dialogwin_bonus_copy_fridge" name="Ahora puedes comprar otro refrigerador." />
-		<text id="dialogwin_bonus_copy_instant" name="Te queda sólo un 'Terminar de cocinar enseguida'. Haz un clic y la comida estará lista." />
+		<text id="dialogwin_bonus_copy_instant" name="Te queda sólo un &apos;Terminar de cocinar enseguida&apos;. Haz un clic y la comida estará lista." />
 		<text id="dialogwin_bonus_copy_level2" name="¡Mira! ¡Puedes ampliar tu café y tener más lugar para tus invitados!" />
 		<text id="dialogwin_bonus_copy_login" name="Esto sucedió mientras no estabas" />
 		<text id="dialogwin_bonus_copy_newwaiter" name="¡Tienes un nuevo empleado! ¡Qué vengan los clientes!" />
@@ -575,7 +581,7 @@
 		<text id="dialogwin_clearcounter_title" name="Estás sirviendo un plato desde este mostrador. ¿Qué quieres hacer con él?" />
 		<text id="dialogwin_clearstove_btn_cancel" name="Guardar" />
 		<text id="dialogwin_clearstove_btn_ok" name="Desechar" />
-		<text id="dialogwin_clearstove_copy" name="Puedes 'Terminar de cocinar enseguida' {0} veces" />
+		<text id="dialogwin_clearstove_copy" name="Puedes &apos;Terminar de cocinar enseguida&apos; {0} veces" />
 		<text id="dialogwin_clearstove_title" name="En este momento estás cocinando un plato en esta cocina. ¿Qué quieres hacer con él?" />
 		<text id="dialogwin_cookbook_income" name="{0} por ración" />
 		<text id="dialogwin_cookbook_readyin" name="Listo en: {0}" />
@@ -680,7 +686,7 @@
 		<text id="dialogwin_ingredient_storelayer" name="Refrigerador" />
 		<text id="dialogwin_ingredient_vegatable" name="Vegetariano" />
 		<text id="dialogwin_instantcooking_copy" name="¿Quieres utilizar &quot;Cocinar instantáneamente&quot;? Puedes hacerlo {0} veces más." />
-		<text id="dialogwin_instantcooking_title" name="¿Quieres  'Terminar de Cocinar Enseguida'?" />
+		<text id="dialogwin_instantcooking_title" name="¿Quieres  &apos;Terminar de Cocinar Enseguida&apos;?" />
 		<text id="dialogwin_jobpaycheck_copy" name="¡Un buen trabajo te dará una buena recompensa! Además habrás adquirido experiencia" />
 		<text id="dialogwin_jobpaycheck_title" name="Cuenta" />
 		<text id="dialogwin_levelup_copy" name="¡Has alcanzado el nivel {0}!" />
@@ -1729,9 +1735,9 @@
 		<text id="recipe_ducktatters" name="Pato con Pasta" />
 		<text id="recipe_langos" name="Lángos" />
 		<text id="recipe_nasilemak" name="Nasi Lemak" />
-		<text id="recipe_citrusjuice" name="Limonada " />
+		<text id="recipe_citrusjuice" name="Limonada" />
 		<text id="recipe_carrotcake" name="Patel de Zanahoria" />
-		<text id="recipe_carrotjuice" name="Jugo de Zanahoria " />
+		<text id="recipe_carrotjuice" name="Jugo de Zanahoria" />
 		<text id="recipe_francesinha" name="Francesinha" />
 		<text id="recipe_dorayaki" name="Dorayaki" />
 		<text id="recipe_tiramisu" name="Tiramisù" />
@@ -1820,7 +1826,7 @@
 		<text id="recipe_sundayfeast" name="Banquete dominguero" />
 		<text id="recipe_sushi" name="Sushi" />
 		<text id="recipe_toadinahole" name="Pastel de salchichas" />
-		<text id="recipe_toast" name=" Pan tostado hawaiano " />
+		<text id="recipe_toast" name="Pan tostado hawaiano" />
 		<text id="recipe_tofuburger" name="Hamburguesa de queso de soya" />
 		<text id="recipe_tomatosoup" name="Sopa de tomates" />
 		<text id="recipe_trifle" name="Trifle" />
@@ -1918,7 +1924,7 @@
 		<text id="tt_CafeAvatarCreationDialog_btn_skin" name="Color de piel" />
 		<text id="tt_CafeAvatarCreationDialog_btn_tops" name="Tapas" />
 		<text id="tt_CafeClearStoveDialog_btn_instantcook" name="Terminar de cocinar enseguida" />
-		<text id="tt_CafeClearStoveDialog_btn_instantcook_na" name="Hoy ya no puedes 'Terminar de cocinar enseguida'" />
+		<text id="tt_CafeClearStoveDialog_btn_instantcook_na" name="Hoy ya no puedes &apos;Terminar de cocinar enseguida&apos;" />
 		<text id="tt_CafeClearStoveDialog_instantButton" name="Terminar de cocinar enseguida" />
 		<text id="tt_CafeIngredientShopDialog_btn_bulkCappuccino" name="Compra al por mayor" />
 		<text id="tt_CafeCookBookDialog_0" name="Dulces" />
@@ -2020,12 +2026,12 @@
 		<text id="tt_Social_Achievement_Friendscount" name="Cantidad de amigos de la red invitados" />
 	</tooltips>
 	<tutorial>
-		<text id="tut_buymissingingredient_copy" name="El '0' junto al refrigerador muestra que no tienes cebollas almacenadas. \nDebajo de eso, verás el precio. \nCompra un suministro de cebollas" />
+		<text id="tut_buymissingingredient_copy" name="El &apos;0&apos; junto al refrigerador muestra que no tienes cebollas almacenadas. \nDebajo de eso, verás el precio. \nCompra un suministro de cebollas" />
 		<text id="tut_cafeopen_copy" name="¡Genial! Los primeros clientes no se harán esperar.\nYa sabes todo lo que necesitas para manejar tu café.\n Pasea un poco y diviértete" />
 		<text id="tut_cookmeal_copy" name="¡Comencemos!\n¡Demuestra de lo que eres capaz!" />
 		<text id="tut_cookopenshop_copy" name="Aquí verás los ingredientes que necesitas, los tiempos de elaboración y las recompensas.\nNo te quedan cebollas, debes comprar más." />
 		<text id="tut_cookpreparecook_copy" name="Lo más importante es la comida. Vamos a preparar una ensalada de hierbas. ¡Haz clic sobre la cocina!" />
-		<text id="tut_instantcook2_copy" name="Usa 'Terminar de cocinar enseguida'.\nCuesta oro pero es muy práctico." />
+		<text id="tut_instantcook2_copy" name="Usa &apos;Terminar de cocinar enseguida&apos;.\nCuesta oro pero es muy práctico." />
 		<text id="tut_instantcook_copy" name="Preparar una ensalada de hierbas toma seis minutos. Sin embargo, podemos apurar un poco las cosas y eso es lo que haremos." />
 		<text id="tut_preparesteps_copy" name="Haz clic sobre la cocina varias veces para preparar los platos." />
 		<text id="tut_servedish_copy" name="¡Bien hecho!\nAhora sólo falta servir la comida.\n¡Las diez raciones no te durarán mucho, así que no olvides hacer más!" />

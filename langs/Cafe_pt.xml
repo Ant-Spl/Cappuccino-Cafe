@@ -531,6 +531,12 @@ Se você estocá-la, as porções existentes serão perdidas!" />
 		<text id="coop_title_39" name="DOCE COMO UM MORANGO!" />
 		<text id="coop_desc_short_39" name="Uma grande colheita!" />
 		<text id="coop_desc_long_39" name="A colheita de morangos foi excelente e o Chef Gabriel quer compartilhar a doçura. Vamos servir comidas moran-vilhosas!" />
+		<text id="coop_title_40" name="OMELETTES TO THE MAX!" />
+		<text id="coop_desc_short_40" name="You just can&apos;t have enough!" />
+		<text id="coop_desc_long_40" name="Chef Xara wants everyone to know the joys of preparing and serving large amounts of Omelettes. Are you up to the challenge?" />
+		<text id="coop_title_41" name="BALATON PARTY" />
+		<text id="coop_desc_short_41" name="Let&apos;s eat by the lake!" />
+		<text id="coop_desc_long_41" name="Chef Flinsical is hosting a leisure session around Lake Balaton. Help out with food and refreshments for this scenic event!" />
 	</coopmission>
 	<dialogs>
 		<text id="dialogwin_achievement_title" name="Conquistas" />
