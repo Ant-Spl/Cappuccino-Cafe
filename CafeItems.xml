@@ -376,10 +376,14 @@
 <wod id="4185" n="Basic" g="Deco" t="Golden" walkable="0" rotatetype="2" cash="99999" gold="0" friends="0" goldNoFriends="0" releaseDate="1782691200" world="0" events="0" xp="0" level="10" />
 <wod id="4186" n="Basic" g="Table" t="VipCrystalTable" walkable="0" rotatetype="1" cash="808" gold="0" friends="0" goldNoFriends="0" releaseDate="1782691200" world="0" events="0" xp="0" level="5" />
 <wod id="4187" n="Basic" g="Door" t="Invisible" cash="100" gold="0" friends="0" goldNoFriends="0" releaseDate="1782691200" world="0" events="0" xp="0" level="5" />
+<wod id="4188" n="Basic" g="Door" t="Golden" cash="999999" gold="0" friends="0" goldNoFriends="0" releaseDate="1782691200" world="0" events="0" xp="0" level="10" />
+<wod id="4189" n="Static" g="Wall" t="Daisystrawberryneo" cash="6000" gold="0" friends="0" goldNoFriends="0" releaseDate="1782691200" world="0" events="0" xp="0" level="1" />
+
 <wod id="9518" n="Basic" g="Deco" t="Vanshelfwhite" walkable="0" rotatetype="2" cash="0" gold="5" friends="0" goldNoFriends="0" releaseDate="1781838000" world="0" events="0" xp="0" level="10" />
 <wod id="9519" n="Basic" g="Deco" t="Vanshelfblack" walkable="0" rotatetype="2" cash="0" gold="5" friends="0" goldNoFriends="0" releaseDate="1781838000" world="0" events="0" xp="0" level="10" />
 <wod id="9520" n="Basic" g="Deco" t="Ladycashierw" walkable="0" rotatetype="2" cash="18000" gold="0" friends="0" goldNoFriends="0" releaseDate="1781838000" world="0" events="0" xp="0" level="10" />
 <wod id="9521" n="Basic" g="Deco" t="Ladycashierb" walkable="0" rotatetype="2" cash="18000" gold="0" friends="0" goldNoFriends="0" releaseDate="1781838000" world="0" events="0" xp="0" level="10" />
+
 
 <wod id="1" n="Static" g="Tile" t="Stonemediumgrey" walkable="1" rotatetype="0" cash="20" gold="0" friends="0" goldNoFriends="0" releaseDate="0" world="0" events="0" xp="0" level="0" />
 <wod id="2" n="Static" g="Tile" t="Wooddarkbrown" walkable="1" rotatetype="0" cash="20" gold="0" friends="0" goldNoFriends="0" releaseDate="0" world="0" events="0" xp="0" level="1" />
