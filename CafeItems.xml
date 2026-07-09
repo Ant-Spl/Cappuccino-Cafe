@@ -378,6 +378,16 @@
 <wod id="4187" n="Basic" g="Door" t="Invisible" cash="100" gold="0" friends="0" goldNoFriends="0" releaseDate="1782691200" world="0" events="0" xp="0" level="5" />
 <wod id="4188" n="Basic" g="Door" t="Golden" cash="999999" gold="0" friends="0" goldNoFriends="0" releaseDate="1782691200" world="0" events="0" xp="0" level="10" />
 <wod id="4189" n="Static" g="Wall" t="Daisystrawberryneo" cash="6000" gold="0" friends="0" goldNoFriends="0" releaseDate="1782691200" world="0" events="0" xp="0" level="1" />
+<wod id="4190" n="Basic" g="Deco" t="Borderglasslowwooden" walkable="0" rotatetype="2" cash="5000" gold="0" friends="0" goldNoFriends="0" releaseDate="1783479600" world="0" events="0" xp="0" level="5" />
+<wod id="4191" n="Basic" g="Deco" t="Borderglassupwooden" walkable="0" rotatetype="2" cash="5000" gold="0" friends="0" goldNoFriends="0" releaseDate="1783479600" world="0" events="0" xp="0" level="5" />
+<wod id="4192" n="Static" g="Wall" t="Window0wooden" cash="4000" gold="0" friends="0" goldNoFriends="0" releaseDate="1783479600" world="0" events="0" xp="0" level="5" />
+<wod id="4193" n="Static" g="Wall" t="Window1wooden" cash="4000" gold="0" friends="0" goldNoFriends="0" releaseDate="1783479600" world="0" events="0" xp="0" level="5" />
+<wod id="4194" n="Static" g="Wall" t="Window2wooden" cash="4000" gold="0" friends="0" goldNoFriends="0" releaseDate="1783479600" world="0" events="0" xp="0" level="5" />
+<wod id="4195" n="Static" g="Wall" t="Window3wooden" cash="4000" gold="0" friends="0" goldNoFriends="0" releaseDate="1783479600" world="0" events="0" xp="0" level="5" />
+<wod id="4196" n="Basic" g="Door" t="Glaswooden" cash="0" gold="3" friends="0" goldNoFriends="0" releaseDate="1783479600" world="0" events="0" xp="0" level="5" />
+<wod id="4197" n="Basic" g="Counter" t="Golden2" walkable="0" rotatetype="2" cash="99999" gold="0" friends="0" goldNoFriends="0" releaseDate="1783566000" world="0" events="0" xp="0" level="10" />
+<wod id="4198" n="Basic" g="Table" t="Golden2" walkable="0" rotatetype="3" cash="99999" gold="0" friends="0" goldNoFriends="0" releaseDate="1783566000" world="0" events="0" xp="0" level="10" />
+<wod id="4199" n="Basic" g="Stove" t="Basicgolden" walkable="0" rotatetype="3" cash="999999" gold="0" friends="0" goldNoFriends="0" releaseDate="1783566000" world="0" events="0" xp="0" level="10" />
 
 <wod id="9518" n="Basic" g="Deco" t="Vanshelfwhite" walkable="0" rotatetype="2" cash="0" gold="5" friends="0" goldNoFriends="0" releaseDate="1781838000" world="0" events="0" xp="0" level="10" />
 <wod id="9519" n="Basic" g="Deco" t="Vanshelfblack" walkable="0" rotatetype="2" cash="0" gold="5" friends="0" goldNoFriends="0" releaseDate="1781838000" world="0" events="0" xp="0" level="10" />
@@ -707,6 +717,7 @@
 
 <wod id="2214" n="Basic" g="Dish" t="Coxinha" events="0" xp="208" incomePerServing="10" servings="211" duration="90" level="15" dishcategory="5" requirements="1312+1#1306+1#1308+1#1317+1#1318+1#1403+1" />
 <wod id="1217" n="Basic" g="Dish" t="Nasigoreng" events="0" xp="530" incomePerServing="5" servings="520" duration="240" level="15" dishcategory="1" requirements="1306+1#1321+1#1324+1#1318+1#1311+1#1402+1" />
+<wod id="2267" n="Basic" g="Dish" t="Chickennuggets" events="0" xp="43" incomePerServing="36" servings="50" duration="15" level="15" dishcategory="5" requirements="1306+1#1312+1#1317+1#1403+1" />
 
 <wod id="1214" n="Basic" g="Dish" t="Friedpotatoes" events="0" xp="143" incomePerServing="9" servings="130" duration="60" level="16" dishcategory="1" requirements="1322+1#1318+1#1301+1#1407+1" />
 <wod id="2230" n="Basic" g="Dish" t="Orangejuice" events="0" xp="90" incomePerServing="9" servings="2222" duration="7" level="16" dishcategory="0" requirements="1340+1#1325+1#1408+1" />
@@ -1001,6 +1012,7 @@
 <wod id="2138" n="Basic" g="Coop" t="39" events="0" maxMember="5" maxLevel="129" chips="12890" xp="459" gold="4" duration="7560" dishes="2257+20#1227+24#1241+50#2234+60" />
 <wod id="2139" n="Basic" g="Coop" t="40" events="0" maxMember="5" maxLevel="129" chips="6250" xp="226" gold="10" duration="8640" dishes="1255+9999#2221+5001" />
 <wod id="2140" n="Basic" g="Coop" t="41" events="0" maxMember="5" maxLevel="129" chips="30500" xp="1066" gold="9" duration="8880" dishes="2239+250#2235+50" />
+<wod id="2141" n="Basic" g="Coop" t="42" events="0" maxMember="5" maxLevel="129" chips="37500" xp="313" gold="10" duration="8880" dishes="1206+100#2216+300#2267+400#2258+1200" />
 
 <wod id="2201" n="Smoothie" g="Fastfood" t="Tomatojuice" cash="1000" gold="0" friends="0" goldNoFriends="0" releaseDate="0" world="0" events="0" xp="5" level="0" incomePerServing="1" servings="10" color="D83600" ratingBonus="20" />
 <wod id="2202" n="Smoothie" g="Fastfood" t="Greensmoothie" cash="2500" gold="0" friends="0" goldNoFriends="0" releaseDate="0" world="0" events="0" xp="8" level="0" incomePerServing="2" servings="60" color="B1CC28" ratingBonus="40" />
