@@ -706,7 +706,7 @@
 
 <wod id="2223" n="Basic" g="Dish" t="Spanishomelette" events="0" xp="569" incomePerServing="2" servings="755" duration="300" level="9" dishcategory="1" requirements="1322+1#1318+1#1311+1#1406+1" />
 <wod id="1212" n="Basic" g="Dish" t="Vegetablesoup" events="0" xp="1011" incomePerServing="1" servings="1300" duration="600" level="9" dishcategory="2" requirements="1327+1#1318+1#1322+1#1401+1" />
-<wod id="1236" n="Basic" g="Dish" t="Duckalorange" events="0" xp="7000" incomePerServing="5" servings="2410" duration="1440" level="9" dishcategory="1" requirements="1340+2#1341+1#1337+2#1318+1#1409+1" />
+<wod id="1236" n="Basic" g="Dish" t="Duckalorange" events="0" xp="7001" incomePerServing="5" servings="2410" duration="1440" level="9" dishcategory="1" requirements="1340+2#1341+1#1337+2#1318+1#1409+1" />
 <wod id="1252" n="Basic" g="Dish" t="Blackforestcherrycake" events="0" xp="3131" incomePerServing="1" servings="1700" duration="780" level="9" dishcategory="0" requirements="1307+1#1308+1#1312+1#1450+1#1408+1" />
 <wod id="2237" n="Basic" g="Dish" t="Duckalcitrus" events="0" xp="1644" incomePerServing="4" servings="1455" duration="1440" level="9" dishcategory="1" requirements="1347+1#1341+1#1337+2#1318+1#1409+1" />
 
