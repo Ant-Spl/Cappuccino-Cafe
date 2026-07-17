@@ -283,6 +283,10 @@ Se você estocá-la, as porções existentes serão perdidas!" />
 		<text id="cookstep_tofusandwich2" name="Montando sanduíche" />
 		<text id="cookstep_tofupizza1" name="Aquecendo molho" />
 		<text id="cookstep_tofupizza2" name="Assando pizza" />
+		<text id="cookstep_orangecheesecake1" name="Mixing citrus filling" />
+		<text id="cookstep_orangecheesecake2" name="Baking cheesecake" />
+		<text id="cookstep_goulash1" name="Searing meat" />
+		<text id="cookstep_goulash2" name="Simmering goulash" />
 		<text id="cookstep_blackforestcherrycake1" name="Misturando ingredientes" />
 		<text id="cookstep_blackforestcherrycake2" name="Assando bolo" />
 		<text id="cookstep_cheeseburger1" name="Fritando carne moída" />
@@ -1403,6 +1407,15 @@ Apenas disponível por tempo limitado!" />
 		<text id="preparestep_tofupizza_flour" name="Peneirar farinha" />
 		<text id="preparestep_tofupizza_cream" name="Espalhar creme" />
 		<text id="preparestep_tofupizza_garlic" name="Fazer molho de alho" />
+		<text id="preparestep_orangecheesecake_orange" name="Slice oranges" />
+		<text id="preparestep_orangecheesecake_cherries" name="Coat cherries" />
+		<text id="preparestep_orangecheesecake_quark" name="Mix quark" />
+		<text id="preparestep_orangecheesecake_sugar" name="Measure sugar" />
+		<text id="preparestep_goulash_onion" name="Chop onions" />
+		<text id="preparestep_goulash_meat" name="Cube meat" />
+		<text id="preparestep_goulash_ballpepper" name="Cut peppers" />
+		<text id="preparestep_goulash_potato" name="Peel potatoes" />
+		<text id="preparestep_goulash_tomato" name="Crush tomatoes" />
 		<text id="preparestep_corncake_cinnamon" name="Moer canela" />
 		<text id="preparestep_feijoada_beans" name="Cozinhar feijões" />
 		<text id="preparestep_feijoada_bacon" name="Cortar pedaços de bacon" />
@@ -1722,6 +1735,8 @@ Apenas disponível por tempo limitado!" />
 		<text id="preparestep_goldencake_nutmeg" name="Ralar noz moscada" />
 		<text id="preparestep_tofusandwich_parsley" name="Picar salsinha" />
 		<text id="preparestep_tofupizza_parsley" name="Picar salsinha" />
+		<text id="preparestep_orangecheesecake_vanilla" name="Scrape out vanilla" />
+		<text id="preparestep_goulash_chili" name="Chop chili" />
 		<text id="preparestep_cottagepotatoes_parsley" name="Picar salsinha" />
 		<text id="preparestep_bananasplit_vanilla" name="raspar baunilha" />
 		<text id="preparestep_blackforestcherrycake_vanilla" name="Raspar baunilha" />
@@ -1864,6 +1879,8 @@ Apenas disponível por tempo limitado!" />
 		<text id="recipe_goldencake" name="Bolo Dourado" />
 		<text id="recipe_tofusandwich" name="Sanduíche de Tofu" />
 		<text id="recipe_tofupizza" name="Pizza de Tofu" />
+		<text id="recipe_orangecheesecake" name="Orange Cheesecake" />
+		<text id="recipe_goulash" name="Goulash" />
 		<text id="recipe_beefstew" name="Carne Ensopada" />
 		<text id="recipe_blackforestcherrycake" name="Bolo Floresta Negra" />
 		<text id="recipe_cheeseburger" name="X-Burger" />

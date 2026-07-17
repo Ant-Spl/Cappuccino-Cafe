@@ -281,6 +281,10 @@
 		<text id="cookstep_tofusandwich2" name="Stacking sandwich" />
 		<text id="cookstep_tofupizza1" name="Heating sauce" />
 		<text id="cookstep_tofupizza2" name="Baking pizza" />
+		<text id="cookstep_orangecheesecake1" name="Mixing citrus filling" />
+		<text id="cookstep_orangecheesecake2" name="Baking cheesecake" />
+		<text id="cookstep_goulash1" name="Searing meat" />
+		<text id="cookstep_goulash2" name="Simmering goulash" />
 		<text id="cookstep_cheesedish1" name="Colocar queso" />
 		<text id="cookstep_cheesedish2" name="Madurar queso" />
 		<text id="cookstep_cheesefondue1" name="Hacer pan" />
@@ -1382,6 +1386,15 @@
 		<text id="preparestep_tofupizza_flour" name="Sift flour" />
 		<text id="preparestep_tofupizza_cream" name="Spread cream" />
 		<text id="preparestep_tofupizza_garlic" name="Make garlic sauce" />
+		<text id="preparestep_orangecheesecake_orange" name="Slice oranges" />
+		<text id="preparestep_orangecheesecake_cherries" name="Coat cherries" />
+		<text id="preparestep_orangecheesecake_quark" name="Mix quark" />
+		<text id="preparestep_orangecheesecake_sugar" name="Measure sugar" />
+		<text id="preparestep_goulash_onion" name="Chop onions" />
+		<text id="preparestep_goulash_meat" name="Cube meat" />
+		<text id="preparestep_goulash_ballpepper" name="Cut peppers" />
+		<text id="preparestep_goulash_potato" name="Peel potatoes" />
+		<text id="preparestep_goulash_tomato" name="Crush tomatoes" />
 		<text id="preparestep_cheeseburger_tomato" name="Cortar tomates" />
 		<text id="preparestep_cheesedish_cheese" name="Cortar queso" />
 		<text id="preparestep_cheesefondue_cheese" name="Derretir queso" />
@@ -1701,6 +1714,8 @@
 		<text id="preparestep_goldencake_nutmeg" name="Grate nutmeg" />
 		<text id="preparestep_tofusandwich_parsley" name="Chop parsley" />
 		<text id="preparestep_tofupizza_parsley" name="Chop parsley" />
+		<text id="preparestep_orangecheesecake_vanilla" name="Scrape out vanilla" />
+		<text id="preparestep_goulash_chili" name="Chop chili" />
 		<text id="preparestep_bananasplit_vanilla" name="Raspar vainilla" />
 		<text id="preparestep_blackforestcherrycake_vanilla" name="Raspar la vainilla" />
 		<text id="preparestep_pizzasalad_chili" name="Picar chile" />
@@ -1843,6 +1858,8 @@
 		<text id="recipe_goldencake" name="Golden Cake" />
 		<text id="recipe_tofusandwich" name="Tofu Sandwich" />
 		<text id="recipe_tofupizza" name="Tofu Pizza" />
+		<text id="recipe_orangecheesecake" name="Orange Cheesecake" />
+		<text id="recipe_goulash" name="Goulash" />
 		<text id="recipe_cheeseburger" name="Hamburguesa con queso" />
 		<text id="recipe_cheesedish" name="Surtido de quesos" />
 		<text id="recipe_cheesefondue" name="Fondue de queso" />
