@@ -274,7 +274,7 @@
 		<text id="cookstep_chocochipcake1" name="Mezclando ingredientes" />
 		<text id="cookstep_chocochipcake2" name="Horneando tarta" />
 		<text id="cookstep_cakewithtoy1" name="Mezclando ingredientes" />
-		<text id="cookstep_cakewithtoy2" name="Ordering toys" />
+		<text id="cookstep_cakewithtoy2" name="Pidiendo tinte azul" />
 		<text id="cookstep_goldencake1" name="Mezclando mantequilla" />
 		<text id="cookstep_goldencake2" name="Arrepintiéndose de los gastos" />
 		<text id="cookstep_tofusandwich1" name="Extendiendo la salsa" />
@@ -284,17 +284,17 @@
 		<text id="cookstep_orangecheesecake1" name="Mezclando el relleno de cítricos" />
 		<text id="cookstep_orangecheesecake2" name="Horneando la cheesecake" />
 		<text id="cookstep_goulash1" name="Sellando la carne" />
-		<text id="cookstep_goulash2" name="Simmering goulash" />
-		<text id="cookstep_extravagantmeal1" name="Heating oranges" />
-		<text id="cookstep_extravagantmeal2" name="Frying eggs" />
-		<text id="cookstep_trendymeal1" name="Heating lemons" />
-		<text id="cookstep_trendymeal2" name="Frying eggs" />
-		<text id="cookstep_instantnoodles1" name="Boiling noodles" />
-		<text id="cookstep_instantnoodles2" name="Shapeshifting noodles" />
-		<text id="cookstep_sausagesoup1" name="Searing sausages" />
-		<text id="cookstep_sausagesoup2" name="Simmering soup" />
-		<text id="cookstep_lemoncheesecake1" name="Heating lemons" />
-		<text id="cookstep_lemoncheesecake2" name="Baking cheesecake" />
+		<text id="cookstep_goulash2" name="Cocinando goulash a fuego lento" />
+		<text id="cookstep_extravagantmeal1" name="Calentando naranjas" />
+		<text id="cookstep_extravagantmeal2" name="Friendo huevos" />
+		<text id="cookstep_trendymeal1" name="Calentando limones" />
+		<text id="cookstep_trendymeal2" name="Friendo huevos" />
+		<text id="cookstep_instantnoodles1" name="Cociendo fideos" />
+		<text id="cookstep_instantnoodles2" name="Cambiando la forma de los fideos" />
+		<text id="cookstep_sausagesoup1" name="Sellando las salchichas" />
+		<text id="cookstep_sausagesoup2" name="Cocinando la sopa a fuego lento" />
+		<text id="cookstep_lemoncheesecake1" name="Calentando limones" />
+		<text id="cookstep_lemoncheesecake2" name="Horneando la cheesecake" />
 		<text id="cookstep_cheesedish1" name="Colocar queso" />
 		<text id="cookstep_cheesedish2" name="Madurar queso" />
 		<text id="cookstep_cheesefondue1" name="Hacer pan" />
@@ -443,8 +443,8 @@
 		<text id="cookstep_whitechocmousse2" name="Enfriar mousse" />
 		<text id="cookstep_coxinha1" name="Mezclar ingredientes" />
 		<text id="cookstep_coxinha2" name="Freír croquetas de pollo" />
-		<text id="cookstep_matildacake1" name="Mixing chocolate" />
-		<text id="cookstep_matildacake2" name="Baking cake" />
+		<text id="cookstep_matildacake1" name="Mezclando chocolate" />
+		<text id="cookstep_matildacake2" name="Horneando la torta" />
 	</cookstep>
 	<coopmission>
 		<text id="coop_desc_long_1" name="Comenzaremos una clase de cocina para perfeccionar nuestros platos. ¿Quieres unirte?" />
@@ -457,7 +457,7 @@
 		<text id="coop_desc_long_2" name="Estoy organizando una fiesta temática mexicana, pero necesito comida típica. ¿Puedes ayudarme?" />
 		<text id="coop_desc_long_3" name="Un club deportivo de Hamburgo vino de visita y quiero que se sientan como en casa, necesito a alguien que cocine comida hanseática. ¿Te gustaría ayudarme?" />
 		<text id="coop_desc_long_4" name="Estoy organizando una fiesta de jardín, así que necesitaré mucha ayuda. Escuché que eres un experto chef. ¿Podrías ayudarme?" />
-		<text id="coop_desc_long_5" name="El parke de ski organizará una fiesta y necesita mucha comida sabrosa ¿Podrías ayudarlos?" />
+		<text id="coop_desc_long_5" name="El parque de ski organizará una fiesta y necesita mucha comida sabrosa ¿Podrías ayudarlos?" />
 		<text id="coop_desc_long_6" name="Mi jefe vendrá esta tarde y me encantaría impresionarlo con una deliciosa cena de cuatro platos ¿Podrías encargarte?" />
 		<text id="coop_desc_long_7" name="¡Ha habido un incendio en el comedor del colegio y los niños no tienen nada para comer! ¿Podrías preparar algo sabroso?" />
 		<text id="coop_desc_long_8" name="Es el cumpleaños de mi amigo y se ha olvidado de pedir comida. Mucha gente vendrá... ¿Puedes ayudarnos?" />
@@ -1832,7 +1832,7 @@
 		<text id="recipe_brigadeiro" name="Brigadeiro" />
 		<text id="recipe_beefstew" name="Guiso de carne" />
 		<text id="recipe_pizzasalad" name="Pizza con ensalada" />
-		<text id="recipe_tripleomelette" name="Triple Omelette" />
+		<text id="recipe_tripleomelette" name="Omelette triple" />
 		<text id="recipe_chocolatewaffles" name="Waffles de chocolate" />
 		<text id="recipe_spanishomelette" name="Tortilla de patata" />
 		<text id="recipe_sausagepasta" name="Espagueti con salchichas" />
@@ -1889,13 +1889,13 @@
 		<text id="recipe_goldencake" name="Torta dorada" />
 		<text id="recipe_tofusandwich" name="Sándwich de tofu" />
 		<text id="recipe_tofupizza" name="Pizza de tofu" />
-		<text id="recipe_orangecheesecake" name="Orange Cheesecake" />
+		<text id="recipe_orangecheesecake" name="Cheesecake de naranja" />
 		<text id="recipe_goulash" name="Goulash" />
-		<text id="recipe_extravagantmeal" name="Extravagant Meal" />
-		<text id="recipe_trendymeal" name="Trendy Meal" />
+		<text id="recipe_extravagantmeal" name="Comida lujosa" />
+		<text id="recipe_trendymeal" name="Comida de moda" />
 		<text id="recipe_instantnoodles" name="Fideos instantáneos" />
-		<text id="recipe_sausagesoup" name="Farmer&apos;s Sausage Soup" />
-		<text id="recipe_lemoncheesecake" name="Lemon Cheesecake" />
+		<text id="recipe_sausagesoup" name="Sopa campesina" />
+		<text id="recipe_lemoncheesecake" name="Cheesecake de limón" />
 		<text id="recipe_cheeseburger" name="Hamburguesa con queso" />
 		<text id="recipe_cheesedish" name="Surtido de quesos" />
 		<text id="recipe_cheesefondue" name="Fondue de queso" />
@@ -1967,10 +1967,10 @@
 		<text id="recipe_vegetablesoup" name="Sopa de verduras" />
 		<text id="recipe_veggiecurry" name="Curry de verduras" />
 		<text id="recipe_veggielasagne" name="Lasaña de verduras" />
-		<text id="recipe_whitechoccheesecake" name="Pastel de queso con choc blanco" />
+		<text id="recipe_whitechoccheesecake" name="Pastel de queso con chocolate blanco" />
 		<text id="recipe_whitechocmousse" name="Mousse de chocolate blanco" />
 		<text id="recipe_coxinha" name="Coxinha" />
-		<text id="recipe_matildacake" name="Matilda Cake" />
+		<text id="recipe_matildacake" name="Tarta de Matilda" />
 	</recipe>
 	<recipes_fastfood>
 		<text id="recipe_smoothiemaker_greensmoothie" name="Smoothie verde" />
