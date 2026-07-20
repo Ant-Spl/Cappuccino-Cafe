@@ -377,6 +377,8 @@
 		<text id="cookstep_omelette2" name="Sbattendo le uova" />
 		<text id="cookstep_onionsoup1" name="Stufando le cipolle" />
 		<text id="cookstep_onionsoup2" name="Infornando col formaggio" />
+		<text id="cookstep_goldenomelette1" name="Season eggs" />
+		<text id="cookstep_goldenomelette2" name="Fold eggs" />
 		<text id="cookstep_peasoup1" name="Cuocendo le cipolle" />
 		<text id="cookstep_peasoup2" name="Cuocendo la zuppa" />
 		<text id="cookstep_pizza1" name="Farcendo la pizza" />
@@ -1576,6 +1578,7 @@
 		<text id="preparestep_peasoup_bacon" name="Friggi la pancetta" />
 		<text id="preparestep_peasoup_garlic" name="Schiaccia l&apos;aglio" />
 		<text id="preparestep_peasoup_onion" name="Trita le cipolle" />
+		<text id="preparestep_goldenomelette_goldeneggs" name="Count golden eggs" />
 		<text id="preparestep_peasoup_peas" name="Lava i piselli" />
 		<text id="preparestep_pizzahawaii_bacon" name="Taglia la pancetta" />
 		<text id="preparestep_pizzahawaii_cheese" name="Grattugia il formaggio" />
@@ -1806,6 +1809,7 @@
 		<text id="preparestep_nasigoreng_chili" name="Taglia il peperoncino" />
 		<text id="preparestep_newyorkcheesecake_vanilla" name="Raschia la vaniglia" />
 		<text id="preparestep_noodlesalad_parsley" name="Trita il prezzemolo" />
+		<text id="preparestep_goldenomelette_nutmeg" name="Grate nutmeg" />
 		<text id="preparestep_omelette_chili" name="Trita il peperoncino" />
 		<text id="preparestep_onionsoup_chili" name="Taglia il peperoncino" />
 		<text id="preparestep_peasoup_parsley" name="Trita il prezzemolo" />
@@ -1955,6 +1959,7 @@
 		<text id="recipe_noodlesalad" name="Pasta fredda" />
 		<text id="recipe_omelette" name="Omelette" />
 		<text id="recipe_onionsoup" name="Zuppa di cipolle al forno" />
+		<text id="recipe_goldenomelette" name="Golden Omelette" />
 		<text id="recipe_peasoup" name="Zuppa di piselli" />
 		<text id="recipe_pizza" name="Pizza" />
 		<text id="recipe_pizzahawaii" name="Pizza Hawaiana" />

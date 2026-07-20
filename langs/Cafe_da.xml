@@ -377,6 +377,8 @@
 		<text id="cookstep_omelette2" name="Klap æg sammen" />
 		<text id="cookstep_onionsoup1" name="Dampkog løg" />
 		<text id="cookstep_onionsoup2" name="Overbag ost" />
+		<text id="cookstep_goldenomelette1" name="Season eggs" />
+		<text id="cookstep_goldenomelette2" name="Fold eggs" />
 		<text id="cookstep_peasoup1" name="Brun løgene" />
 		<text id="cookstep_peasoup2" name="Kog suppe" />
 		<text id="cookstep_pizza1" name="Belæg pizzaen" />
@@ -1577,6 +1579,7 @@
 		<text id="preparestep_peasoup_bacon" name="Brun flæsk" />
 		<text id="preparestep_peasoup_garlic" name="Pres hvidløg" />
 		<text id="preparestep_peasoup_onion" name="Hak løg" />
+		<text id="preparestep_goldenomelette_goldeneggs" name="Count golden eggs" />
 		<text id="preparestep_peasoup_peas" name="Gør ærter i stand" />
 		<text id="preparestep_pizzahawaii_bacon" name="Flæsk opskæres" />
 		<text id="preparestep_pizzahawaii_cheese" name="Riv ost" />
@@ -1807,6 +1810,7 @@
 		<text id="preparestep_nasigoreng_chili" name="Skær chili" />
 		<text id="preparestep_newyorkcheesecake_vanilla" name="Udskrab vanille" />
 		<text id="preparestep_noodlesalad_parsley" name="Hak persille" />
+		<text id="preparestep_goldenomelette_nutmeg" name="Grate nutmeg" />
 		<text id="preparestep_omelette_chili" name="Hak Chili" />
 		<text id="preparestep_onionsoup_chili" name="Skær chili" />
 		<text id="preparestep_peasoup_parsley" name="Hak persille" />
@@ -1956,6 +1960,7 @@
 		<text id="recipe_noodlesalad" name="Nudelsalat" />
 		<text id="recipe_omelette" name="Omelet" />
 		<text id="recipe_onionsoup" name="Løgsuppe" />
+		<text id="recipe_goldenomelette" name="Golden Omelette" />
 		<text id="recipe_peasoup" name="Ærtesuppe" />
 		<text id="recipe_pizza" name="Pizza" />
 		<text id="recipe_pizzahawaii" name="Pizza Hawaii" />

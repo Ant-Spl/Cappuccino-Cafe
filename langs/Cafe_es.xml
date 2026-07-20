@@ -377,6 +377,8 @@
 		<text id="cookstep_onionsoup2" name="Gratinar" />
 		<text id="cookstep_peasoup1" name="Freír cebollas" />
 		<text id="cookstep_peasoup2" name="Preparar sopa" />
+		<text id="cookstep_goldenomelette1" name="Season eggs" />
+		<text id="cookstep_goldenomelette2" name="Fold eggs" />
 		<text id="cookstep_pizza1" name="Preparar pizza" />
 		<text id="cookstep_pizza2" name="Hornear pizza" />
 		<text id="cookstep_pizzahawaii1" name="Preparar pizza" />
@@ -1577,6 +1579,7 @@
 		<text id="preparestep_pizzahawaii_bacon" name="cortar tocino" />
 		<text id="preparestep_pizzahawaii_cheese" name="Rallar queso" />
 		<text id="preparestep_pizzahawaii_flour" name="tamizar la harina" />
+		<text id="preparestep_goldenomelette_goldeneggs" name="Count golden eggs" />
 		<text id="preparestep_pizzahawaii_pinapple" name="cortar piña" />
 		<text id="preparestep_pizzahawaii_tomato" name="Mezcla tomates" />
 		<text id="preparestep_pizzatonno_cheese" name="Rallar queso" />
@@ -1807,6 +1810,7 @@
 		<text id="preparestep_newyorkcheesecake_vanilla" name="Raspar vainilla" />
 		<text id="preparestep_noodlesalad_parsley" name="Picar perejil" />
 		<text id="preparestep_omelette_chili" name="Picar chile" />
+		<text id="preparestep_goldenomelette_nutmeg" name="Grate nutmeg" />
 		<text id="preparestep_onionsoup_chili" name="Picar chile" />
 		<text id="preparestep_peasoup_parsley" name="Picar perejil" />
 		<text id="preparestep_pizzahawaii_chili" name="Picar de chile" />
@@ -1956,6 +1960,7 @@
 		<text id="recipe_omelette" name="Omelette" />
 		<text id="recipe_onionsoup" name="Sopa de cebolla" />
 		<text id="recipe_peasoup" name="Sopa de guisantes" />
+		<text id="recipe_goldenomelette" name="Golden Omelette" />
 		<text id="recipe_pizza" name="Pizza" />
 		<text id="recipe_pizzahawaii" name="Pizza Hawaiana" />
 		<text id="recipe_pizzatonno" name="Pizza Tonno" />

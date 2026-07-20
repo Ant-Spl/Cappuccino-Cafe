@@ -379,6 +379,8 @@ Se você estocá-la, as porções existentes serão perdidas!" />
 		<text id="cookstep_noodlesalad2" name="Misturando ingredientes" />
 		<text id="cookstep_omelette1" name="Temperar ovos" />
 		<text id="cookstep_omelette2" name="Dobrar ovos" />
+		<text id="cookstep_goldenomelette1" name="Season eggs" />
+		<text id="cookstep_goldenomelette2" name="Fold eggs" />
 		<text id="cookstep_onionsoup1" name="Fritando cebolas" />
 		<text id="cookstep_onionsoup2" name="Gratinando" />
 		<text id="cookstep_peasoup1" name="Refogando cebolas" />
@@ -1598,6 +1600,7 @@ Apenas disponível por tempo limitado!" />
 		<text id="preparestep_noodlesalad_pasta" name="Cozinhar macarrão" />
 		<text id="preparestep_noodlesalad_tomato" name="Cortar tomates" />
 		<text id="preparestep_omelette_eggs" name="Contar ovos" />
+		<text id="preparestep_goldenomelette_goldeneggs" name="Count golden eggs" />
 		<text id="preparestep_onionsoup_cheese" name="Ralar queijo" />
 		<text id="preparestep_onionsoup_garlic" name="Espremer alho" />
 		<text id="preparestep_onionsoup_onion" name="Picar cebolas" />
@@ -1828,6 +1831,7 @@ Apenas disponível por tempo limitado!" />
 		<text id="preparestep_nasigoreng_chili" name="Cortar Chili" />
 		<text id="preparestep_newyorkcheesecake_vanilla" name="Raspar baunilha" />
 		<text id="preparestep_noodlesalad_parsley" name="Picar salsinha" />
+		<text id="preparestep_goldenomelette_nutmeg" name="Grate nutmeg" />
 		<text id="preparestep_omelette_chili" name="Picar chili" />
 		<text id="preparestep_onionsoup_chili" name="Cortar Chili" />
 		<text id="preparestep_peasoup_parsley" name="Picar salsinha" />
@@ -1977,6 +1981,7 @@ Apenas disponível por tempo limitado!" />
 		<text id="recipe_newyorkcheesecake" name="Cheesecake Nova York" />
 		<text id="recipe_noodlesalad" name="Salada de Macarrão" />
 		<text id="recipe_omelette" name="Omelete" />
+		<text id="recipe_goldenomelette" name="Golden Omelette" />
 		<text id="recipe_onionsoup" name="Sopa de Cebola" />
 		<text id="recipe_peasoup" name="Sopa de Ervilha" />
 		<text id="recipe_pizza" name="Pizza" />

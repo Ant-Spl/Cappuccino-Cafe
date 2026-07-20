@@ -377,6 +377,8 @@
 		<text id="cookstep_roastchicken1" name="Farcir le poulet" />
 		<text id="cookstep_roastchicken2" name="Rôtir" />
 		<text id="cookstep_sandwich1" name="Beurrer le pain" />
+		<text id="cookstep_goldenomelette1" name="Season eggs" />
+		<text id="cookstep_goldenomelette2" name="Fold eggs" />
 		<text id="cookstep_sandwich2" name="Garnir les toast" />
 		<text id="cookstep_sausagepasta1" name="Cuire les pâtes" />
 		<text id="cookstep_sausagepasta2" name="Griller les saucisses" />
@@ -1581,6 +1583,7 @@
 		<text id="preparestep_sandwich_flour" name="Tamiser la farine" />
 		<text id="preparestep_sandwich_tomato" name="Couper les tomates" />
 		<text id="preparestep_scouse_beetroot" name="Couper les betteraves" />
+		<text id="preparestep_goldenomelette_goldeneggs" name="Count golden eggs" />
 		<text id="preparestep_scouse_cucumber" name="Faire mariner les concombres" />
 		<text id="preparestep_scouse_eggs" name="Frire les œufs au plat" />
 		<text id="preparestep_scouse_meat" name="Couper la viande" />
@@ -1812,6 +1815,7 @@
 		<text id="preparestep_newyorkcheesecake_vanilla" name="Ecosser la vanille" />
 		<text id="preparestep_noodlesalad_parsley" name="Hacher le persil" />
 		<text id="preparestep_omelette_chili" name="Hacher les piments" />
+		<text id="preparestep_goldenomelette_nutmeg" name="Grate nutmeg" />
 		<text id="preparestep_onionsoup_chili" name="Couper le chili" />
 		<text id="preparestep_peasoup_parsley" name="Hacher le persil" />
 		<text id="preparestep_pizzahawaii_chili" name="Hacher les piments" />
@@ -1961,6 +1965,7 @@
 		<text id="recipe_redberrycompote" name="Compote de fruits rouges" />
 		<text id="recipe_ricepudding" name="Riz au lait avec de la compote de pommes" />
 		<text id="recipe_roastchicken" name="Poulet rôti" />
+		<text id="recipe_goldenomelette" name="Golden Omelette" />
 		<text id="recipe_sandwich" name="Sandwich" />
 		<text id="recipe_sausagepasta" name="Pâtes à la saucisse" />
 		<text id="recipe_scouse" name="Corned-beef" />

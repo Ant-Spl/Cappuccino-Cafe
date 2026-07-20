@@ -377,6 +377,8 @@
 		<text id="cookstep_noodlesalad2" name="Malzemeleri karıştır" />
 		<text id="cookstep_omelette1" name="Sezon yumurtalari" />
 		<text id="cookstep_omelette2" name="Cirpilmis yumurta" />
+		<text id="cookstep_goldenomelette1" name="Season eggs" />
+		<text id="cookstep_goldenomelette2" name="Fold eggs" />
 		<text id="cookstep_onionsoup1" name="Soğanları kavur" />
 		<text id="cookstep_onionsoup2" name="Peyniri gratinle" />
 		<text id="cookstep_peasoup1" name="Soğanları kavur" />
@@ -1573,6 +1575,7 @@
 		<text id="preparestep_noodlesalad_pasta" name="makarnayı pişir" />
 		<text id="preparestep_noodlesalad_tomato" name="domatesleri doğra" />
 		<text id="preparestep_omelette_eggs" name="Yumurtalari say" />
+		<text id="preparestep_goldenomelette_goldeneggs" name="Count golden eggs" />
 		<text id="preparestep_onionsoup_cheese" name="peyniri rendele" />
 		<text id="preparestep_onionsoup_garlic" name="sarımsağı ez" />
 		<text id="preparestep_onionsoup_onion" name="Soğanları parçalara böl" />
@@ -1803,6 +1806,7 @@
 		<text id="preparestep_newyorkcheesecake_vanilla" name="Vanilya öğüt" />
 		<text id="preparestep_noodlesalad_parsley" name="Maydonozu doğra" />
 		<text id="preparestep_omelette_chili" name="Chili dogra" />
+		<text id="preparestep_goldenomelette_nutmeg" name="Grate nutmeg" />
 		<text id="preparestep_onionsoup_chili" name="Acı biberi doğra" />
 		<text id="preparestep_peasoup_parsley" name="Maydonozu doğra" />
 		<text id="preparestep_pizzahawaii_chili" name="Pul biber serp" />
@@ -1951,6 +1955,7 @@
 		<text id="recipe_newyorkcheesecake" name="New York cheese keki" />
 		<text id="recipe_noodlesalad" name="Makarna salatası" />
 		<text id="recipe_omelette" name="Omlet" />
+		<text id="recipe_goldenomelette" name="Golden Omelette" />
 		<text id="recipe_onionsoup" name="Fırınlanmış soğan çorbası" />
 		<text id="recipe_peasoup" name="Nohut çorbası" />
 		<text id="recipe_pizza" name="Pizza" />

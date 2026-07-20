@@ -377,6 +377,8 @@
 		<text id="cookstep_omelette2" name="Eier zusammenklappen" />
 		<text id="cookstep_onionsoup1" name="Zwiebeln dünsten" />
 		<text id="cookstep_onionsoup2" name="Käse überbacken" />
+		<text id="cookstep_goldenomelette1" name="Season eggs" />
+		<text id="cookstep_goldenomelette2" name="Fold eggs" />
 		<text id="cookstep_peasoup1" name="Zwiebeln andünsten" />
 		<text id="cookstep_peasoup2" name="Suppe kochen" />
 		<text id="cookstep_pizza1" name="Pizza belegen" />
@@ -1577,6 +1579,7 @@
 		<text id="preparestep_peasoup_bacon" name="Speck anbraten" />
 		<text id="preparestep_peasoup_garlic" name="Knoblauch pressen" />
 		<text id="preparestep_peasoup_onion" name="Zwiebeln hacken" />
+		<text id="preparestep_goldenomelette_goldeneggs" name="Count golden eggs" />
 		<text id="preparestep_peasoup_peas" name="Erbsen putzen" />
 		<text id="preparestep_pizzahawaii_bacon" name="Speck aufschneiden" />
 		<text id="preparestep_pizzahawaii_cheese" name="Käse reiben" />
@@ -1807,6 +1810,7 @@
 		<text id="preparestep_nasigoreng_chili" name="Chili schneiden" />
 		<text id="preparestep_newyorkcheesecake_vanilla" name="Vanille ausschaben" />
 		<text id="preparestep_noodlesalad_parsley" name="Petersilie hacken" />
+		<text id="preparestep_goldenomelette_nutmeg" name="Grate nutmeg" />
 		<text id="preparestep_omelette_chili" name="Chili hacken" />
 		<text id="preparestep_onionsoup_chili" name="Chili schneiden" />
 		<text id="preparestep_peasoup_parsley" name="Petersilie hacken" />
@@ -1956,6 +1960,7 @@
 		<text id="recipe_noodlesalad" name="Nudelsalat" />
 		<text id="recipe_omelette" name="Omelett" />
 		<text id="recipe_onionsoup" name="Überbackene Zwiebelsuppe" />
+		<text id="recipe_goldenomelette" name="Golden Omelette" />
 		<text id="recipe_peasoup" name="Erbsensuppe" />
 		<text id="recipe_pizza" name="Pizza" />
 		<text id="recipe_pizzahawaii" name="Pizza Hawaii" />
