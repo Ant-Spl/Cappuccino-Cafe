@@ -377,6 +377,8 @@
 		<text id="cookstep_redberrycompote2" name="Sockrar" />
 		<text id="cookstep_ricepudding1" name="Kokar ris" />
 		<text id="cookstep_ricepudding2" name="¨Kokar äppelmos" />
+		<text id="cookstep_goldenomelette1" name="Season eggs" />
+		<text id="cookstep_goldenomelette2" name="Fold eggs" />
 		<text id="cookstep_roastchicken1" name="Fyller kyckling" />
 		<text id="cookstep_roastchicken2" name="Steker kyckling" />
 		<text id="cookstep_sandwich1" name="Rostar bröd" />
@@ -1579,6 +1581,7 @@
 		<text id="preparestep_ricepudding_rice" name="Beräkna ris" />
 		<text id="preparestep_roastchicken_butter" name="Häll smör" />
 		<text id="preparestep_roastchicken_chicken" name="Grilla kyckling" />
+		<text id="preparestep_goldenomelette_goldeneggs" name="Count golden eggs" />
 		<text id="preparestep_roastchicken_onion" name="Hacka lök" />
 		<text id="preparestep_sandwich_bacon" name="Skär upp bacon" />
 		<text id="preparestep_sandwich_butter" name="Beräkna smör" />
@@ -1812,6 +1815,7 @@
 		<text id="preparestep_newyorkcheesecake_vanilla" name="Skrapa vanilj" />
 		<text id="preparestep_noodlesalad_parsley" name="Hacka persilja" />
 		<text id="preparestep_omelette_chili" name="Hacka chili" />
+		<text id="preparestep_goldenomelette_nutmeg" name="Grate nutmeg" />
 		<text id="preparestep_onionsoup_chili" name="Hacka chili" />
 		<text id="preparestep_peasoup_parsley" name="Hacka persilja" />
 		<text id="preparestep_pizzahawaii_chili" name="Hacka chili" />
@@ -1961,6 +1965,7 @@
 		<text id="recipe_redberrycompote" name="Röda Bärkompott" />
 		<text id="recipe_ricepudding" name="Risgrynsgröt" />
 		<text id="recipe_roastchicken" name="Ugnsbakad Kyckling" />
+		<text id="recipe_goldenomelette" name="Golden Omelette" />
 		<text id="recipe_sandwich" name="Smörgås" />
 		<text id="recipe_scouse" name="Lapskojs" />
 		<text id="recipe_spagetti" name="Spagetti Bolognese" />

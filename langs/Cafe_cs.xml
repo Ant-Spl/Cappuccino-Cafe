@@ -377,6 +377,8 @@
 		<text id="cookstep_omelette2" name="srazit vejce" />
 		<text id="cookstep_onionsoup1" name="udusit cibuli" />
 		<text id="cookstep_onionsoup2" name="zapéct sýr" />
+		<text id="cookstep_goldenomelette1" name="Season eggs" />
+		<text id="cookstep_goldenomelette2" name="Fold eggs" />
 		<text id="cookstep_peasoup1" name="podusit cibuli" />
 		<text id="cookstep_peasoup2" name="uvařit polévku" />
 		<text id="cookstep_pizza1" name="obložit pizzu" />
@@ -1577,6 +1579,7 @@
 		<text id="preparestep_peasoup_bacon" name="opéct slaninu" />
 		<text id="preparestep_peasoup_garlic" name="rozetřet česnek" />
 		<text id="preparestep_peasoup_onion" name="nasekat cibuli" />
+		<text id="preparestep_goldenomelette_goldeneggs" name="Count golden eggs" />
 		<text id="preparestep_peasoup_peas" name="očistit hrách" />
 		<text id="preparestep_pizzahawaii_bacon" name="nakrájet slaninu" />
 		<text id="preparestep_pizzahawaii_cheese" name="nastrouhat sýr" />
@@ -1807,6 +1810,7 @@
 		<text id="preparestep_nasigoreng_chili" name="krájet chili" />
 		<text id="preparestep_newyorkcheesecake_vanilla" name="vyškrábat vanilku" />
 		<text id="preparestep_noodlesalad_parsley" name="nasekat petrželku" />
+		<text id="preparestep_goldenomelette_nutmeg" name="Grate nutmeg" />
 		<text id="preparestep_omelette_chili" name="nasekat chilli" />
 		<text id="preparestep_onionsoup_chili" name="krájet chili" />
 		<text id="preparestep_peasoup_parsley" name="nasekat petrželku" />
@@ -1956,6 +1960,7 @@
 		<text id="recipe_noodlesalad" name="těstovinový salát" />
 		<text id="recipe_omelette" name="Omeleta" />
 		<text id="recipe_onionsoup" name="zapekaná cibulová polévka" />
+		<text id="recipe_goldenomelette" name="Golden Omelette" />
 		<text id="recipe_peasoup" name="hrachová polévka" />
 		<text id="recipe_pizza" name="pizza" />
 		<text id="recipe_pizzahawaii" name="pizza Hawai" />

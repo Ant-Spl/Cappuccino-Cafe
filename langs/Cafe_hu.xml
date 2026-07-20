@@ -377,6 +377,8 @@
 		<text id="cookstep_omelette2" name="Tojást törni" />
 		<text id="cookstep_onionsoup1" name="Hagymát párolni" />
 		<text id="cookstep_onionsoup2" name="Sajtot rásütni" />
+		<text id="cookstep_goldenomelette1" name="Season eggs" />
+		<text id="cookstep_goldenomelette2" name="Fold eggs" />
 		<text id="cookstep_peasoup1" name="Hagymát párolni" />
 		<text id="cookstep_peasoup2" name="Levest főzni" />
 		<text id="cookstep_pizza1" name="Pizzát megpakolni" />
@@ -1577,6 +1579,7 @@
 		<text id="preparestep_peasoup_bacon" name="Szalonnát sütni" />
 		<text id="preparestep_peasoup_garlic" name="Fokhagymát zúzni" />
 		<text id="preparestep_peasoup_onion" name="Hagymát vágni" />
+		<text id="preparestep_goldenomelette_goldeneggs" name="Count golden eggs" />
 		<text id="preparestep_peasoup_peas" name="Borsót pucolni" />
 		<text id="preparestep_pizzahawaii_bacon" name="Szalonnát felvágni" />
 		<text id="preparestep_pizzahawaii_cheese" name="Sajtot reszelni" />
@@ -1807,6 +1810,7 @@
 		<text id="preparestep_nasigoreng_chili" name="Chilit felvágni" />
 		<text id="preparestep_newyorkcheesecake_vanilla" name="Vanília belsejét kikapargatni" />
 		<text id="preparestep_noodlesalad_parsley" name="Petrezselymet felvágni" />
+		<text id="preparestep_goldenomelette_nutmeg" name="Grate nutmeg" />
 		<text id="preparestep_omelette_chili" name="Chilit vágni" />
 		<text id="preparestep_onionsoup_chili" name="Chilit felvágni" />
 		<text id="preparestep_peasoup_parsley" name="Petrezselymet felvágni" />
@@ -1956,6 +1960,7 @@
 		<text id="recipe_noodlesalad" name="Tésztasaláta" />
 		<text id="recipe_omelette" name="Omlett" />
 		<text id="recipe_onionsoup" name="Sült hagymaleves" />
+		<text id="recipe_goldenomelette" name="Golden Omelette" />
 		<text id="recipe_peasoup" name="Borsóleves" />
 		<text id="recipe_pizza" name="Pizza" />
 		<text id="recipe_pizzahawaii" name="Pizza Hawaii" />

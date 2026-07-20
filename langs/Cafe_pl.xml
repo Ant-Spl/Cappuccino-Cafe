@@ -377,6 +377,8 @@
 		<text id="cookstep_omelette2" name="Ubijanie jajek" />
 		<text id="cookstep_onionsoup1" name="Duszenie cebuli" />
 		<text id="cookstep_onionsoup2" name="Zapiekanie sera" />
+		<text id="cookstep_goldenomelette1" name="Season eggs" />
+		<text id="cookstep_goldenomelette2" name="Fold eggs" />
 		<text id="cookstep_peasoup1" name="Duszenie cebuli" />
 		<text id="cookstep_peasoup2" name="Gotowanie zupy" />
 		<text id="cookstep_pizza1" name="Dodawanie składników do pizzy" />
@@ -1577,6 +1579,7 @@
 		<text id="preparestep_peasoup_bacon" name="Smażenie boczku" />
 		<text id="preparestep_peasoup_garlic" name="Wyciskanie czosnku" />
 		<text id="preparestep_peasoup_onion" name="Siekanie cebuli" />
+		<text id="preparestep_goldenomelette_goldeneggs" name="Count golden eggs" />
 		<text id="preparestep_peasoup_peas" name="Mycie groszku" />
 		<text id="preparestep_pizzahawaii_bacon" name="Krojenie boczku" />
 		<text id="preparestep_pizzahawaii_cheese" name="Tarcie sera" />
@@ -1807,6 +1810,7 @@
 		<text id="preparestep_nasigoreng_chili" name="Krojenie chili" />
 		<text id="preparestep_newyorkcheesecake_vanilla" name="Skrobanie wanilii" />
 		<text id="preparestep_noodlesalad_parsley" name="Siekanie pietruszki" />
+		<text id="preparestep_goldenomelette_nutmeg" name="Grate nutmeg" />
 		<text id="preparestep_omelette_chili" name="Krojenie chili" />
 		<text id="preparestep_onionsoup_chili" name="Krojenie chili" />
 		<text id="preparestep_peasoup_parsley" name="Siekanie pietruszki" />
@@ -1956,6 +1960,7 @@
 		<text id="recipe_noodlesalad" name="Sałatka z makaronem" />
 		<text id="recipe_omelette" name="Omlet" />
 		<text id="recipe_onionsoup" name="Zapiekana zupa cebulowa" />
+		<text id="recipe_goldenomelette" name="Golden Omelette" />
 		<text id="recipe_peasoup" name="Zupa grochowa" />
 		<text id="recipe_pizza" name="Pizza" />
 		<text id="recipe_pizzahawaii" name="Pizza Hawajska" />

@@ -379,6 +379,8 @@
 		<text id="cookstep_noodlesalad2" name="混合材料" />
 		<text id="cookstep_omelette1" name="將蛋調味" />
 		<text id="cookstep_omelette2" name="將蛋翻面" />
+		<text id="cookstep_goldenomelette1" name="Season eggs" />
+		<text id="cookstep_goldenomelette2" name="Fold eggs" />
 		<text id="cookstep_onionsoup1" name="燜煮洋蔥" />
 		<text id="cookstep_onionsoup2" name="將起司稍微烤焦" />
 		<text id="cookstep_peasoup1" name="燜煮洋蔥" />
@@ -1585,6 +1587,7 @@
 		<text id="preparestep_noodlesalad_pasta" name="煮麵條" />
 		<text id="preparestep_noodlesalad_tomato" name="切蕃茄" />
 		<text id="preparestep_omelette_eggs" name="計算蛋的數量" />
+		<text id="preparestep_goldenomelette_goldeneggs" name="Count golden eggs" />
 		<text id="preparestep_onionsoup_cheese" name="起司磨碎" />
 		<text id="preparestep_onionsoup_garlic" name="蒜頭拍扁" />
 		<text id="preparestep_onionsoup_onion" name="洋蔥切碎" />
@@ -1815,6 +1818,7 @@
 		<text id="preparestep_nasigoreng_chili" name="辣椒切碎" />
 		<text id="preparestep_newyorkcheesecake_vanilla" name="香草切成碎片" />
 		<text id="preparestep_noodlesalad_parsley" name="洋香菜剁碎" />
+		<text id="preparestep_goldenomelette_nutmeg" name="Grate nutmeg" />
 		<text id="preparestep_omelette_chili" name="剁碎辣椒" />
 		<text id="preparestep_onionsoup_chili" name="辣椒切碎" />
 		<text id="preparestep_peasoup_parsley" name="洋香菜剁碎" />
@@ -1964,6 +1968,7 @@
 		<text id="recipe_newyorkcheesecake" name="紐約起司蛋糕" />
 		<text id="recipe_noodlesalad" name="麵條沙拉" />
 		<text id="recipe_omelette" name="西式歐姆蛋" />
+		<text id="recipe_goldenomelette" name="Golden Omelette" />
 		<text id="recipe_onionsoup" name="烤洋蔥湯" />
 		<text id="recipe_peasoup" name="豌豆湯" />
 		<text id="recipe_pizza" name="比薩" />

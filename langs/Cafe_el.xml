@@ -385,6 +385,8 @@
 		<text id="cookstep_noodlesalad2" name="ανάμιξη συστατικών" />
 		<text id="cookstep_omelette1" name="ψήνοντας αυγά" />
 		<text id="cookstep_omelette2" name="χτυπώντας αυγά" />
+		<text id="cookstep_goldenomelette1" name="Season eggs" />
+		<text id="cookstep_goldenomelette2" name="Fold eggs" />
 		<text id="cookstep_onionsoup1" name="σωτάροντας κρεμμύδια" />
 		<text id="cookstep_onionsoup2" name="Γκρατινάροντας" />
 		<text id="cookstep_peasoup1" name="σωτάροντας κρεμμύδια" />
@@ -1622,6 +1624,7 @@
 		<text id="preparestep_noodlesalad_pasta" name="βράσεις ζυμαρικά" />
 		<text id="preparestep_noodlesalad_tomato" name="κόψεις ντομάτες" />
 		<text id="preparestep_omelette_eggs" name="μετρώντας αυγά" />
+		<text id="preparestep_goldenomelette_goldeneggs" name="Count golden eggs" />
 		<text id="preparestep_onionsoup_cheese" name="τρίψεις τυρί" />
 		<text id="preparestep_onionsoup_garlic" name="Λιώσε σκόρδο" />
 		<text id="preparestep_onionsoup_onion" name="ψιλοκόψεις κρεμμύδια" />
@@ -1852,6 +1855,7 @@
 		<text id="preparestep_nasigoreng_chili" name="κόψεις τσίλι" />
 		<text id="preparestep_newyorkcheesecake_vanilla" name="ξύσεις βανίλια" />
 		<text id="preparestep_noodlesalad_parsley" name="ψιλοκόψεις μαϊντανό" />
+		<text id="preparestep_goldenomelette_nutmeg" name="Grate nutmeg" />
 		<text id="preparestep_omelette_chili" name="κόβοντας τσίλι" />
 		<text id="preparestep_onionsoup_chili" name="κόψεις τσίλι" />
 		<text id="preparestep_peasoup_parsley" name="ψιλοκόψεις μαϊντανό" />
@@ -2001,6 +2005,7 @@
 		<text id="recipe_newyorkcheesecake" name="Τσιζκέϊκ Νέα Υόρκη" />
 		<text id="recipe_noodlesalad" name="Σαλάτα ζυμαρικών" />
 		<text id="recipe_omelette" name="Ομελέτα" />
+		<text id="recipe_goldenomelette" name="Golden Omelette" />
 		<text id="recipe_onionsoup" name="Ψημένη κρεμμυδόσουπα" />
 		<text id="recipe_peasoup" name="Σούπια με μπιζέλια" />
 		<text id="recipe_pizza" name="Πίτσα" />
