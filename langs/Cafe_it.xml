@@ -450,7 +450,7 @@
 		<text id="cookstep_pinksoup1" name="Mischiando le verdure" />
 		<text id="cookstep_pinksoup2" name="Sobbollendo la zuppa" />
 		<text id="cookstep_borschtsch1" name="Cuocendo la barbabietola" />
-		<text id="cookstep_borschtsch2" name="Terminando il Boršč" />
+		<text id="cookstep_borschtsch2" name="Terminando il Borscht" />
 	</cookstep>
 	<coopmission>
 		<text id="coop_title_1" name="CORSO DI CUCINA" />
@@ -1994,7 +1994,7 @@
 		<text id="recipe_whitechocmousse" name="Mousse al cioccolato bianco" />
 		<text id="recipe_coxinha" name="Coxinha" />
 		<text id="recipe_pinksoup" name="Saltibarsciai" />
-		<text id="recipe_borschtsch" name="Boršč" />
+		<text id="recipe_borschtsch" name="Borscht" />
 	</recipe>
 	<recipes_fastfood>
 		<text id="recipe_smoothiemaker_greensmoothie" name="Smoothie verde" />
