@@ -816,7 +816,7 @@
 <wod id="1232" n="Basic" g="Dish" t="Roastchicken" events="0" xp="3222" incomePerServing="1" servings="2500" duration="1320" level="37" dishcategory="1" requirements="1306+1#1337+2#1318+3#1406+1" />
 <wod id="2251" n="Basic" g="Dish" t="Chickenbiryani" events="0" xp="676" incomePerServing="13" servings="200" duration="210" level="37" dishcategory="1" requirements="1327+1#1318+1#1324+1#1306+1#1322+1#1403+1" />
 <wod id="2275" n="Basic" g="Dish" t="Orangecheesecake" events="0" xp="11024" incomePerServing="1" servings="2400" duration="1380" level="37" dishcategory="0" requirements="1340+2#1339+1#1332+1#1325+1#1408+1" />
-<wod id="2281" n="Basic" g="Dish" t="Lemoncheesecake" events="0" xp="20" incomePerServing="2" servings="500" duration="1" level="4" dishcategory="0" requirements="1346+1#1408+1" />
+<wod id="2281" n="Basic" g="Dish" t="Lemoncheesecake" events="0" xp="3311" incomePerServing="2" servings="1885" duration="1380" level="37" dishcategory="0" requirements="1347+2#1339+1#1325+1#1332+1#1408+1" />
 
 <wod id="2233" n="Basic" g="Dish" t="Cherryjuice" events="0" xp="25" incomePerServing="10" servings="144" duration="6" level="38" dishcategory="0" requirements="1339+1#1325+1#1408+1" />
 <wod id="2252" n="Basic" g="Dish" t="Cottagepotatoes" events="0" xp="3185" incomePerServing="1" servings="2928" duration="1260" level="38" dishcategory="4" requirements="1308+1#1318+1#1332+1#1337+1#1322+2#1406+1" />
