@@ -165,7 +165,7 @@
 		<text id="cookstep_brigadeiro2" name="Dando forma ai brigadeiro" />
 		<text id="cookstep_blackforestcherrycake1" name="Mischiando gli ingredienti" />
 		<text id="cookstep_blackforestcherrycake2" name="Cuocendo la torta" />
-		<text id="cookstep_pizzasalad1" name="Preparando le pizza" />
+		<text id="cookstep_pizzasalad1" name="Preparando la pizza" />
 		<text id="cookstep_pizzasalad2" name="Preparando le insalate" />
 		<text id="cookstep_tripleomelette1" name="Mescol. le uova con forza" />
 		<text id="cookstep_tripleomelette2" name="Piegando il tutto" />
@@ -175,12 +175,12 @@
 		<text id="cookstep_spanishomelette2" name="Rendendola muy bonita" />
 		<text id="cookstep_sausagepasta1" name="Bollendo la pasta" />
 		<text id="cookstep_sausagepasta2" name="Friggendo le salsiccie" />
-		<text id="cookstep_applepie1" name="Preparando le torte" />
-		<text id="cookstep_applepie2" name="Infornando le torte" />
+		<text id="cookstep_applepie1" name="Preparando la torta" />
+		<text id="cookstep_applepie2" name="Infornando la torta" />
 		<text id="cookstep_ramen1" name="Bollendo la pasta" />
 		<text id="cookstep_ramen2" name="Aggiugendo le spezie" />
 		<text id="cookstep_corncake1" name="Mescolando gli ingredienti" />
-		<text id="cookstep_corncake2" name="Infornando le torte" />
+		<text id="cookstep_corncake2" name="Infornando la torta" />
 		<text id="cookstep_feijoada1" name="Organizzando la carne" />
 		<text id="cookstep_feijoada2" name="Palesando fette d&apos;arancia" />
 		<text id="cookstep_pinapjuice1" name="Spremendo gli ananas" />
@@ -377,8 +377,8 @@
 		<text id="cookstep_omelette2" name="Sbattendo le uova" />
 		<text id="cookstep_onionsoup1" name="Stufando le cipolle" />
 		<text id="cookstep_onionsoup2" name="Infornando col formaggio" />
-		<text id="cookstep_goldenomelette1" name="Season eggs" />
-		<text id="cookstep_goldenomelette2" name="Fold eggs" />
+		<text id="cookstep_goldenomelette1" name="Aromatizza le uova" />
+		<text id="cookstep_goldenomelette2" name="Ripiega la frittata" />
 		<text id="cookstep_peasoup1" name="Cuocendo le cipolle" />
 		<text id="cookstep_peasoup2" name="Cuocendo la zuppa" />
 		<text id="cookstep_pizza1" name="Farcendo la pizza" />
@@ -447,10 +447,10 @@
 		<text id="cookstep_whitechocmousse2" name="Raffreddando la mousse" />
 		<text id="cookstep_coxinha1" name="Mescolando gli ingredienti" />
 		<text id="cookstep_coxinha2" name="Friggendo le coxinha" />
-		<text id="cookstep_pinksoup1" name="Blending vegetables" />
-		<text id="cookstep_pinksoup2" name="Simmering pink soup" />
-		<text id="cookstep_borschtsch1" name="Cooking beetroot" />
-		<text id="cookstep_borschtsch2" name="Finishing borschtsch" />
+		<text id="cookstep_pinksoup1" name="Mischiando le verdure" />
+		<text id="cookstep_pinksoup2" name="Sobbollendo la zuppa" />
+		<text id="cookstep_borschtsch1" name="Cuocendo la barbabietola" />
+		<text id="cookstep_borschtsch2" name="Terminando il Borscht" />
 	</cookstep>
 	<coopmission>
 		<text id="coop_title_1" name="CORSO DI CUCINA" />
@@ -579,9 +579,9 @@
 		<text id="coop_title_43" name="TORTE AD UNA DIVA!" />
 		<text id="coop_desc_short_43" name="Lei le vuole tutte!" />
 		<text id="coop_desc_long_43" name="Patixa è in città e vuole la miglior selezione di torte per celebrare la sua nuova linea di giocattoli. Consegnagliele in fretta e verrai ricompensato!" />
-		<text id="coop_title_44" name="FIRST DAY IN THE KITCHEN!" />
-		<text id="coop_desc_short_44" name="Let&apos;s work!" />
-		<text id="coop_desc_long_44" name="It&apos;s opening day and the Café is busier than expected. Luckily, you don&apos;t need much experience to give people what they want. Recruit fellow chefs and show that the secret ingredient is teamwork!" />
+		<text id="coop_title_44" name="PRIMO GIORNO IN CUCINA!" />
+		<text id="coop_desc_short_44" name="Lavoriamo!" />
+		<text id="coop_desc_long_44" name="Oggi è il giorno d&apos;apertura ed il Café è più affollato del previsto. Fortunatamente, non hai bisogno di tanta esperienza per soddisfare i clienti. Recluta altri Chef e dimostra che l&apos;ingrediente segreto è il lavoro di squadra!" />
 		<text id="coop_title_41" name="BALATON PARTY" />
 		<text id="coop_desc_short_41" name="Mangiamo in riva al lago!" />
 		<text id="coop_desc_long_41" name="Chef Flinsical sta organizzando un momento di svago nei pressi del Lago Balaton. Dai una mano con cibo e bevande per questo evento scenografico!" />
@@ -1578,7 +1578,7 @@
 		<text id="preparestep_peasoup_bacon" name="Friggi la pancetta" />
 		<text id="preparestep_peasoup_garlic" name="Schiaccia l&apos;aglio" />
 		<text id="preparestep_peasoup_onion" name="Trita le cipolle" />
-		<text id="preparestep_goldenomelette_goldeneggs" name="Count golden eggs" />
+		<text id="preparestep_goldenomelette_goldeneggs" name="Conta le uova d&apos;oro" />
 		<text id="preparestep_peasoup_peas" name="Lava i piselli" />
 		<text id="preparestep_pizzahawaii_bacon" name="Taglia la pancetta" />
 		<text id="preparestep_pizzahawaii_cheese" name="Grattugia il formaggio" />
@@ -1706,15 +1706,15 @@
 		<text id="preparestep_coxinha_cream" name="Prepara la crema al formaggio" />
 		<text id="preparestep_coxinha_oil" name="Scalda l&apos;olio" />
 		<text id="preparestep_coxinha_coriander" name="Trita il coriandolo" />
-		<text id="preparestep_pinksoup_beetroot" name="Slice beetroot" />
-		<text id="preparestep_pinksoup_cucumber" name="Slice cucumber" />
-		<text id="preparestep_pinksoup_onion" name="Chop onion" />
-		<text id="preparestep_pinksoup_potato" name="Peel potatoes" />
-		<text id="preparestep_borschtsch_beetroot" name="Slice beetroot" />
-		<text id="preparestep_borschtsch_cream" name="Pour cream" />
-		<text id="preparestep_borschtsch_meat" name="Cube meat" />
-		<text id="preparestep_borschtsch_potato" name="Peel potatoes" />
-		<text id="preparestep_borschtsch_onion" name="Chop onion" />
+		<text id="preparestep_pinksoup_beetroot" name="Affetta la barbabietola" />
+		<text id="preparestep_pinksoup_cucumber" name="Affetta i cetrioli" />
+		<text id="preparestep_pinksoup_onion" name="Taglia la cipolla" />
+		<text id="preparestep_pinksoup_potato" name="Pela le patate" />
+		<text id="preparestep_borschtsch_beetroot" name="Affetta la barbabietola" />
+		<text id="preparestep_borschtsch_cream" name="Versa la panna" />
+		<text id="preparestep_borschtsch_meat" name="Cubetta la carne" />
+		<text id="preparestep_borschtsch_potato" name="Pela le patate" />
+		<text id="preparestep_borschtsch_onion" name="Taglia la cipolla" />
 	</preparestep>
 	<preparestep_fancy>
 		<text id="preparestep_duckalcitrus_cinnamon" name="Macina la cannella" />
@@ -1809,7 +1809,7 @@
 		<text id="preparestep_nasigoreng_chili" name="Taglia il peperoncino" />
 		<text id="preparestep_newyorkcheesecake_vanilla" name="Raschia la vaniglia" />
 		<text id="preparestep_noodlesalad_parsley" name="Trita il prezzemolo" />
-		<text id="preparestep_goldenomelette_nutmeg" name="Grate nutmeg" />
+		<text id="preparestep_goldenomelette_nutmeg" name="Grattugia la noce moscata" />
 		<text id="preparestep_omelette_chili" name="Trita il peperoncino" />
 		<text id="preparestep_onionsoup_chili" name="Taglia il peperoncino" />
 		<text id="preparestep_peasoup_parsley" name="Trita il prezzemolo" />
@@ -1844,8 +1844,8 @@
 		<text id="preparestep_veggiecurry_coriander" name="Trita il coriandolo" />
 		<text id="preparestep_veggielasagne_basil" name="Stacca le foglie di basilico" />
 		<text id="preparestep_whitechoccheesecake_vanilla" name="Raschia la vaniglia" />
-		<text id="preparestep_pinksoup_parsley" name="Chop parsley" />
-		<text id="preparestep_borschtsch_parsley" name="Chop parsley" />
+		<text id="preparestep_pinksoup_parsley" name="Trita il prezzemolo" />
+		<text id="preparestep_borschtsch_parsley" name="Trita il prezzemolo" />
 		<text id="preparestep_whitechocmousse_vanilla" name="Raschia la vaniglia" />
 	</preparestep_fancy>
 	<recipe>
@@ -1959,7 +1959,7 @@
 		<text id="recipe_noodlesalad" name="Pasta fredda" />
 		<text id="recipe_omelette" name="Omelette" />
 		<text id="recipe_onionsoup" name="Zuppa di cipolle al forno" />
-		<text id="recipe_goldenomelette" name="Golden Omelette" />
+		<text id="recipe_goldenomelette" name="Omelette Dorata" />
 		<text id="recipe_peasoup" name="Zuppa di piselli" />
 		<text id="recipe_pizza" name="Pizza" />
 		<text id="recipe_pizzahawaii" name="Pizza Hawaiana" />
@@ -1993,8 +1993,8 @@
 		<text id="recipe_whitechoccheesecake" name="Cheesecake al cioccolato bianco" />
 		<text id="recipe_whitechocmousse" name="Mousse al cioccolato bianco" />
 		<text id="recipe_coxinha" name="Coxinha" />
-		<text id="recipe_pinksoup" name="Pink Soup" />
-		<text id="recipe_borschtsch" name="Borschtsch" />
+		<text id="recipe_pinksoup" name="Saltibarsciai" />
+		<text id="recipe_borschtsch" name="Borscht" />
 	</recipe>
 	<recipes_fastfood>
 		<text id="recipe_smoothiemaker_greensmoothie" name="Smoothie verde" />
