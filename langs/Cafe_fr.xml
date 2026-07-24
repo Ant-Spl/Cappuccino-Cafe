@@ -167,7 +167,7 @@
 		<text id="cookstep_cheeseburger2" name="Préparer le steak haché" />
 		<text id="cookstep_cheesedish1" name="Préparer les fromages" />
 		<text id="cookstep_cheesedish2" name="Affiner le fromage" />
-		<text id="cookstep_tripleomelette1" name="Mixing eggs strongly" />
+		<text id="cookstep_tripleomelette1" name="Battre les œufs énergiquement" />
 		<text id="cookstep_cheesefondue1" name="Cuire le pain" />
 		<text id="cookstep_cheesefondue2" name="Réchauffer le fromage" />
 		<text id="cookstep_cherriecake1" name="Mélanger les ingrédients" />
@@ -183,118 +183,118 @@
 		<text id="cookstep_chiliconcarne1" name="Griller la viande hachée" />
 		<text id="cookstep_chiliconcarne2" name="Cuire les piments" />
 		<text id="cookstep_chocmousse1" name="Mélanger les ingrédients" />
-		<text id="cookstep_pinapjuice1" name="Squeezing pineapples" />
-		<text id="cookstep_pinapjuice2" name="Blending juice" />
-		<text id="cookstep_orangejuice1" name="Squeezing oranges" />
-		<text id="cookstep_orangejuice2" name="Blending juice" />
-		<text id="cookstep_discodrinks1" name="Mixing fruits" />
-		<text id="cookstep_discodrinks2" name="Pouring drinks" />
-		<text id="cookstep_applejuice1" name="Squeezing apples" />
-		<text id="cookstep_applejuice2" name="Blending juice" />
-		<text id="cookstep_rjuice1" name="Squeezing rhubarb" />
-		<text id="cookstep_rjuice2" name="Blending juice" />
-		<text id="cookstep_cherryjuice1" name="Pitting cherries" />
-		<text id="cookstep_cherryjuice2" name="Blending juice" />
-		<text id="cookstep_strawberryjuice1" name="Mashing strawberries" />
-		<text id="cookstep_strawberryjuice2" name="Blending juice" />
+		<text id="cookstep_pinapjuice1" name="Presser les ananas" />
+		<text id="cookstep_pinapjuice2" name="Mélanger les fruits" />
+		<text id="cookstep_orangejuice1" name="Presser les oranges" />
+		<text id="cookstep_orangejuice2" name="Mélanger les fruits" />
+		<text id="cookstep_discodrinks1" name="Mixer les fruits" />
+		<text id="cookstep_discodrinks2" name="Verser les boissons" />
+		<text id="cookstep_applejuice1" name="Presser les pommes" />
+		<text id="cookstep_applejuice2" name="Mélanger les fruits" />
+		<text id="cookstep_rjuice1" name="Presser la rhubarbe" />
+		<text id="cookstep_rjuice2" name="Mélanger les fruits" />
+		<text id="cookstep_cherryjuice1" name="Dénoyauter les cerises" />
+		<text id="cookstep_cherryjuice2" name="Mélanger les fruits" />
+		<text id="cookstep_strawberryjuice1" name="Écraser les fraises" />
+		<text id="cookstep_strawberryjuice2" name="Mélanger les fruits" />
 		<text id="cookstep_cappuccino1" name="Préparer un espresso" />
 		<text id="cookstep_cappuccino2" name="Faire mousser le lait" />
-		<text id="cookstep_duckalcitrus1" name="Roasting duck" />
-		<text id="cookstep_duckalcitrus2" name="Adding citrus glaze" />
-		<text id="cookstep_ducktatters1" name="Frying ingredients" />
-		<text id="cookstep_ducktatters2" name="Mixing dish" />
-		<text id="cookstep_langos1" name="Making sauce" />
-		<text id="cookstep_langos2" name="Cooling sauce" />
-		<text id="cookstep_nasilemak1" name="Cooking rice" />
-		<text id="cookstep_nasilemak2" name="Plating dish" />
-		<text id="cookstep_citrusjuice1" name="Squeezing citrus" />
-		<text id="cookstep_citrusjuice2" name="Blending juice" />
-		<text id="cookstep_carrotcake1" name="Mixing batter" />
-		<text id="cookstep_carrotcake2" name="Baking cake" />
-		<text id="cookstep_carrotjuice1" name="Blending carrots" />
-		<text id="cookstep_carrotjuice2" name="Pouring juice" />
-		<text id="cookstep_francesinha1" name="Building sandwich" />
-		<text id="cookstep_francesinha2" name="Melting cheese" />
-		<text id="cookstep_dorayaki1" name="Prepping filling" />
-		<text id="cookstep_dorayaki2" name="Letting it cool" />
-		<text id="cookstep_tiramisu1" name="Layering dessert" />
-		<text id="cookstep_tiramisu2" name="Chilling tiramisu" />
-		<text id="cookstep_pridecupcakes1" name="Mixing batter" />
-		<text id="cookstep_pridecupcakes2" name="Decorating" />
-		<text id="cookstep_ratatouille1" name="Prepping vegetables" />
-		<text id="cookstep_ratatouille2" name="Stacking" />
-		<text id="cookstep_hotcherryricepudding1" name="Cooking rice" />
-		<text id="cookstep_hotcherryricepudding2" name="Adding cherries" />
-		<text id="cookstep_coconutcake1" name="Mixing ingredients" />
-		<text id="cookstep_coconutcake2" name="Baking cake" />
-		<text id="cookstep_paodequeijo1" name="Shaping dough" />
-		<text id="cookstep_paodequeijo2" name="Baking bread" />
-		<text id="cookstep_baiaodedois1" name="Mixing rice and beans" />
-		<text id="cookstep_baiaodedois2" name="Adding crispy bacon" />
-		<text id="cookstep_bakedalaska1" name="Cooling cream" />
-		<text id="cookstep_bakedalaska2" name="Browning meringue" />
-		<text id="cookstep_butterchicken1" name="Boiling sauce" />
-		<text id="cookstep_butterchicken2" name="Simmering curry sauce" />
-		<text id="cookstep_chickenbiryani1" name="Mixing spices" />
-		<text id="cookstep_chickenbiryani2" name="Spicing rice" />
-		<text id="cookstep_cottagepotatoes1" name="Preparing potatoes" />
-		<text id="cookstep_cottagepotatoes2" name="Spreading cottage" />
-		<text id="cookstep_cuzcuzcomovo1" name="Steaming cornmeal" />
-		<text id="cookstep_cuzcuzcomovo2" name="Frying eggs" />
-		<text id="cookstep_malaichickennaan1" name="Prepping batter" />
-		<text id="cookstep_malaichickennaan2" name="Folding naan" />
-		<text id="cookstep_veganplate1" name="Cooking rice" />
-		<text id="cookstep_veganplate2" name="Spreading rice" />
-		<text id="cookstep_neapolitancake1" name="Melting ingredients" />
-		<text id="cookstep_neapolitancake2" name="Baking cake" />
-		<text id="cookstep_strawberrycheesecake1" name="Mixing ingredients" />
-		<text id="cookstep_strawberrycheesecake2" name="Baking cake" />
-		<text id="cookstep_combomeal1" name="Frying burger meat" />
-		<text id="cookstep_combomeal2" name="Frying fries somehow" />
-		<text id="cookstep_zcordonbleu1" name="Preparing chicken" />
-		<text id="cookstep_zcordonbleu2" name="Adding lemon slices" />
-		<text id="cookstep_brazilianpastel1" name="Frying pastels" />
-		<text id="cookstep_brazilianpastel2" name="Almost there" />
-		<text id="cookstep_lechonkawali1" name="Preparing pork belly" />
-		<text id="cookstep_lechonkawali2" name="Frying until crispy" />
-		<text id="cookstep_sweetpizza1" name="Spreading chocolate" />
-		<text id="cookstep_sweetpizza2" name="Baking sweet pizza" />
-		<text id="cookstep_shakshuka1" name="Melting tomatoes" />
-		<text id="cookstep_shakshuka2" name="Simmering sauce" />
-		<text id="cookstep_matildacake1" name="Mixing chocolate" />
-		<text id="cookstep_matildacake2" name="Baking cake" />
-		<text id="cookstep_birthdaycake1" name="Singing happy birthday" />
-		<text id="cookstep_birthdaycake2" name="Frosting cake" />
-		<text id="cookstep_chickennuggets1" name="Frying nuggets" />
-		<text id="cookstep_chickennuggets2" name="Frying more nuggets" />
-		<text id="cookstep_lavenderlemoncake1" name="Mixing ingredients" />
-		<text id="cookstep_lavenderlemoncake2" name="Baking until golden" />
-		<text id="cookstep_potatosoup1" name="Boiling potatoes" />
-		<text id="cookstep_potatosoup2" name="Mixing soup" />
-		<text id="cookstep_chocochipcake1" name="Mixing ingredients" />
-		<text id="cookstep_chocochipcake2" name="Baking cake" />
-		<text id="cookstep_cakewithtoy1" name="Mixing ingredients" />
-		<text id="cookstep_cakewithtoy2" name="Ordering toys" />
-		<text id="cookstep_goldencake1" name="Mixing golden batter" />
-		<text id="cookstep_goldencake2" name="Regretting expenses" />
-		<text id="cookstep_tofusandwich1" name="Spreading sauce" />
-		<text id="cookstep_tofusandwich2" name="Stacking sandwich" />
-		<text id="cookstep_tofupizza1" name="Heating sauce" />
-		<text id="cookstep_tofupizza2" name="Baking pizza" />
-		<text id="cookstep_orangecheesecake1" name="Mixing citrus filling" />
-		<text id="cookstep_orangecheesecake2" name="Baking cheesecake" />
-		<text id="cookstep_goulash1" name="Searing meat" />
-		<text id="cookstep_goulash2" name="Simmering goulash" />
-		<text id="cookstep_extravagantmeal1" name="Heating oranges" />
-		<text id="cookstep_extravagantmeal2" name="Frying eggs" />
-		<text id="cookstep_trendymeal1" name="Heating lemons" />
-		<text id="cookstep_trendymeal2" name="Frying eggs" />
-		<text id="cookstep_instantnoodles1" name="Boiling noodles" />
-		<text id="cookstep_instantnoodles2" name="Shapeshifting noodles" />
-		<text id="cookstep_sausagesoup1" name="Searing sausages" />
-		<text id="cookstep_sausagesoup2" name="Simmering soup" />
-		<text id="cookstep_lemoncheesecake1" name="Heating lemons" />
-		<text id="cookstep_lemoncheesecake2" name="Baking cheesecake" />
+		<text id="cookstep_duckalcitrus1" name="Faire rôtir le canard" />
+		<text id="cookstep_duckalcitrus2" name="Ajouter le glaçage aux agrumes" />
+		<text id="cookstep_ducktatters1" name="Faire frire les ingrédients" />
+		<text id="cookstep_ducktatters2" name="Mélanger le plat" />
+		<text id="cookstep_langos1" name="Préparer la sauce" />
+		<text id="cookstep_langos2" name="Laisser refroidir la sauce" />
+		<text id="cookstep_nasilemak1" name="Faire cuire le riz" />
+		<text id="cookstep_nasilemak2" name="Dresser le plat" />
+		<text id="cookstep_citrusjuice1" name="Presser les agrumes" />
+		<text id="cookstep_citrusjuice2" name="Mélanger les fruits" />
+		<text id="cookstep_carrotcake1" name="Mélanger la pâte" />
+		<text id="cookstep_carrotcake2" name="Faire cuire le gâteau" />
+		<text id="cookstep_carrotjuice1" name="Mixer les carottes" />
+		<text id="cookstep_carrotjuice2" name="Verser le jus" />
+		<text id="cookstep_francesinha1" name="Monter le sandwich" />
+		<text id="cookstep_francesinha2" name="Faire fondre le fromage" />
+		<text id="cookstep_dorayaki1" name="Préparer la garniture" />
+		<text id="cookstep_dorayaki2" name="Laisser refroidir" />
+		<text id="cookstep_tiramisu1" name="Superposer les couches du dessert" />
+		<text id="cookstep_tiramisu2" name="Mettre le tiramisu au frais" />
+		<text id="cookstep_pridecupcakes1" name="Mélanger la pâte" />
+		<text id="cookstep_pridecupcakes2" name="Décorer" />
+		<text id="cookstep_ratatouille1" name="Préparer les légumes" />
+		<text id="cookstep_ratatouille2" name="Empiler" />
+		<text id="cookstep_hotcherryricepudding1" name="Faire cuire le riz" />
+		<text id="cookstep_hotcherryricepudding2" name="Ajouter les cerises" />
+		<text id="cookstep_coconutcake1" name="Mélanger les ingrédients" />
+		<text id="cookstep_coconutcake2" name="Faire cuire le gâteau" />
+		<text id="cookstep_paodequeijo1" name="Façonner la pâte" />
+		<text id="cookstep_paodequeijo2" name="Faire cuire le pain" />
+		<text id="cookstep_baiaodedois1" name="Mélanger le riz et les haricots" />
+		<text id="cookstep_baiaodedois2" name="Ajouter le bacon croustillant" />
+		<text id="cookstep_bakedalaska1" name="Faire refroidir la crème" />
+		<text id="cookstep_bakedalaska2" name="Faire dorer la meringue" />
+		<text id="cookstep_butterchicken1" name="Faire bouillir la sauce" />
+		<text id="cookstep_butterchicken2" name="Laisser mijoter la sauce au curry" />
+		<text id="cookstep_chickenbiryani1" name="Mélanger les épices" />
+		<text id="cookstep_chickenbiryani2" name="Assaisonner le riz" />
+		<text id="cookstep_cottagepotatoes1" name="Préparer les pommes de terre" />
+		<text id="cookstep_cottagepotatoes2" name="Étaler le cottage" />
+		<text id="cookstep_cuzcuzcomovo1" name="Faire cuire la semoule de maïs à la vapeur" />
+		<text id="cookstep_cuzcuzcomovo2" name="Faire frire les œufs" />
+		<text id="cookstep_malaichickennaan1" name="Préparer la pâte" />
+		<text id="cookstep_malaichickennaan2" name="Plier le naan" />
+		<text id="cookstep_veganplate1" name="Faire cuire le riz" />
+		<text id="cookstep_veganplate2" name="Étaler le riz" />
+		<text id="cookstep_neapolitancake1" name="Faire fondre les ingrédients" />
+		<text id="cookstep_neapolitancake2" name="Faire cuire le gâteau" />
+		<text id="cookstep_strawberrycheesecake1" name="Mélanger les ingrédients" />
+		<text id="cookstep_strawberrycheesecake2" name="Faire cuire le gâteau" />
+		<text id="cookstep_combomeal1" name="Faire frire la viande du burger" />
+		<text id="cookstep_combomeal2" name="Faire frire les frites, on ne sait comment" />
+		<text id="cookstep_zcordonbleu1" name="Préparer le poulet" />
+		<text id="cookstep_zcordonbleu2" name="Ajouter les tranches de citron" />
+		<text id="cookstep_brazilianpastel1" name="Faire frire les pastels" />
+		<text id="cookstep_brazilianpastel2" name="Presque fini" />
+		<text id="cookstep_lechonkawali1" name="Préparer la poitrine de porc" />
+		<text id="cookstep_lechonkawali2" name="Faire frire jusqu'à ce que ce soit croustillant" />
+		<text id="cookstep_sweetpizza1" name="Étaler le chocolat" />
+		<text id="cookstep_sweetpizza2" name="Faire cuire la pizza sucrée" />
+		<text id="cookstep_shakshuka1" name="Faire fondre les tomates" />
+		<text id="cookstep_shakshuka2" name="Laisser mijoter la sauce" />
+		<text id="cookstep_matildacake1" name="Mélanger le chocolat" />
+		<text id="cookstep_matildacake2" name="Faire cuire le gâteau" />
+		<text id="cookstep_birthdaycake1" name="Chanter joyeux anniversaire" />
+		<text id="cookstep_birthdaycake2" name="Glacer le gâteau" />
+		<text id="cookstep_chickennuggets1" name="Faire frire les nuggets" />
+		<text id="cookstep_chickennuggets2" name="Faire frire encore plus de nuggets" />
+		<text id="cookstep_lavenderlemoncake1" name="Mélanger les ingrédients" />
+		<text id="cookstep_lavenderlemoncake2" name="Faire cuire jusqu'à ce que ce soit doré" />
+		<text id="cookstep_potatosoup1" name="Faire bouillir les pommes de terre" />
+		<text id="cookstep_potatosoup2" name="Mélanger la soupe" />
+		<text id="cookstep_chocochipcake1" name="Mélanger les ingrédients" />
+		<text id="cookstep_chocochipcake2" name="Faire cuire le gâteau" />
+		<text id="cookstep_cakewithtoy1" name="Mélanger les ingrédients" />
+		<text id="cookstep_cakewithtoy2" name="Commander les jouets" />
+		<text id="cookstep_goldencake1" name="Mélanger la pâte dorée" />
+		<text id="cookstep_goldencake2" name="Regretter les dépenses" />
+		<text id="cookstep_tofusandwich1" name="Étaler la sauce" />
+		<text id="cookstep_tofusandwich2" name="Empiler le sandwich" />
+		<text id="cookstep_tofupizza1" name="Chauffer la sauce" />
+		<text id="cookstep_tofupizza2" name="Faire cuire la pizza" />
+		<text id="cookstep_orangecheesecake1" name="Mélanger la garniture aux agrumes" />
+		<text id="cookstep_orangecheesecake2" name="Faire cuire le cheesecake" />
+		<text id="cookstep_goulash1" name="Saisir la viande" />
+		<text id="cookstep_goulash2" name="Laisser mijoter le goulash" />
+		<text id="cookstep_extravagantmeal1" name="Chauffer les oranges" />
+		<text id="cookstep_extravagantmeal2" name="Faire frire les œufs" />
+		<text id="cookstep_trendymeal1" name="Chauffer les citrons" />
+		<text id="cookstep_trendymeal2" name="Faire frire les œufs" />
+		<text id="cookstep_instantnoodles1" name="Faire bouillir les nouilles" />
+		<text id="cookstep_instantnoodles2" name="Faire changer de forme aux nouilles" />
+		<text id="cookstep_sausagesoup1" name="Dorer les saucisses" />
+		<text id="cookstep_sausagesoup2" name="Laisser mijoter la soupe" />
+		<text id="cookstep_lemoncheesecake1" name="Chauffer les citrons" />
+		<text id="cookstep_lemoncheesecake2" name="Faire cuire le cheesecake" />
 		<text id="cookstep_chocmousse2" name="Refroidir la mousse" />
 		<text id="cookstep_chocolatecake1" name="Mélanger les ingrédients" />
 		<text id="cookstep_chocolatecake2" name="Mettre au four" />
@@ -377,8 +377,8 @@
 		<text id="cookstep_roastchicken1" name="Farcir le poulet" />
 		<text id="cookstep_roastchicken2" name="Rôtir" />
 		<text id="cookstep_sandwich1" name="Beurrer le pain" />
-		<text id="cookstep_goldenomelette1" name="Season eggs" />
-		<text id="cookstep_goldenomelette2" name="Fold eggs" />
+		<text id="cookstep_goldenomelette1" name="Assaisonner les œufs" />
+		<text id="cookstep_goldenomelette2" name="Incorporer les œufs délicatement" />
 		<text id="cookstep_sandwich2" name="Garnir les toast" />
 		<text id="cookstep_sausagepasta1" name="Cuire les pâtes" />
 		<text id="cookstep_sausagepasta2" name="Griller les saucisses" />
@@ -447,14 +447,14 @@
 		<text id="cookstep_ramen2" name="Rajouter les épices" />
 		<text id="cookstep_corncake1" name="Mixer les ingrédients" />
 		<text id="cookstep_corncake2" name="Cuire les gâteaux" />
-		<text id="cookstep_pinksoup1" name="Blending vegetables" />
-		<text id="cookstep_pinksoup2" name="Simmering pink soup" />
-		<text id="cookstep_borschtsch1" name="Cooking beetroot" />
-		<text id="cookstep_borschtsch2" name="Finishing borschtsch" />
-		<text id="cookstep_feijoada1" name="Prepping pork cuts" />
-		<text id="cookstep_feijoada2" name="Manifesting orange slices" />
-		<text id="cookstep_spanishomelette1" name="Mixing huevos" />
-		<text id="cookstep_spanishomelette2" name="Making the omelette bonito" />
+		<text id="cookstep_pinksoup1" name="Mixer les légumes" />
+		<text id="cookstep_pinksoup2" name="Laisser mijoter la soupe rose" />
+		<text id="cookstep_borschtsch1" name="Cuire la betterave" />
+		<text id="cookstep_borschtsch2" name="Terminer le bortsch" />
+		<text id="cookstep_feijoada1" name="Préparer les morceaux de porc" />
+		<text id="cookstep_feijoada2" name="Préparer les tranches d’orange" />
+		<text id="cookstep_spanishomelette1" name="Battre les œufs" />
+		<text id="cookstep_spanishomelette2" name="Rendre l’omelette parfaite" />
 	</cookstep>
 	<coopmission>
 		<text id="coop_desc_long_1" name="Nous organisons un cours de cuisine pour perfectionner quelques plats, veux-tu y participer ?" />
@@ -1867,65 +1867,65 @@
 		<text id="recipe_chickensalad" name="Salade au poulet" />
 		<text id="recipe_chickensoup" name="Poule au pot" />
 		<text id="recipe_chiliconcarne" name="Chili con Carne" />
-		<text id="recipe_pinapjuice" name="Pineapple Juice" />
-		<text id="recipe_orangejuice" name="Orange Juice" />
-		<text id="recipe_discodrinks" name="Disco Drinks" />
-		<text id="recipe_applejuice" name="Apple Juice" />
-		<text id="recipe_rjuice" name="Rhubarb Juice" />
-		<text id="recipe_cherryjuice" name="Cherry Juice" />
-		<text id="recipe_strawberryjuice" name="Strawberry Juice" />
+		<text id="recipe_pinapjuice" name="Jus d’ananas" />
+		<text id="recipe_orangejuice" name="Jus d’orange" />
+		<text id="recipe_discodrinks" name="Boissons Disco" />
+		<text id="recipe_applejuice" name="Jus de pomme" />
+		<text id="recipe_rjuice" name="Jus de rhubarbe" />
+		<text id="recipe_cherryjuice" name="Jus de cerise" />
+		<text id="recipe_strawberryjuice" name="Jus de fraise" />
 		<text id="recipe_cappuccino" name="Cappuccino" />
-		<text id="recipe_duckalcitrus" name="Duck à l&apos;Citrus" />
-		<text id="recipe_ducktatters" name="Duck with Pasta Taters" />
+		<text id="recipe_duckalcitrus" name="Canard aux agrumes" />
+		<text id="recipe_ducktatters" name="Canard aux patates-pâtes" />
 		<text id="recipe_langos" name="Lángos" />
 		<text id="recipe_nasilemak" name="Nasi Lemak" />
-		<text id="recipe_citrusjuice" name="Citrus Juice" />
-		<text id="recipe_carrotcake" name="Carrot Cake" />
-		<text id="recipe_carrotjuice" name="Carrot Juice" />
+		<text id="recipe_citrusjuice" name="Jus d’agrumes" />
+		<text id="recipe_carrotcake" name="Gâteau aux carottes" />
+		<text id="recipe_carrotjuice" name="Jus de carotte" />
 		<text id="recipe_francesinha" name="Francesinha" />
 		<text id="recipe_dorayaki" name="Dorayaki" />
 		<text id="recipe_tiramisu" name="Tiramisù" />
-		<text id="recipe_pridecupcakes" name="Pride Cupcakes" />
+		<text id="recipe_pridecupcakes" name="Cupcakes pride" />
 		<text id="recipe_ratatouille" name="Ratatouille" />
-		<text id="recipe_hotcherryricepudding" name="Rice Pudding with Hot Cherries" />
-		<text id="recipe_coconutcake" name="Coconut Cake" />
-		<text id="recipe_paodequeijo" name="Brazilian Cheese Bread" />
+		<text id="recipe_hotcherryricepudding" name="Riz au lait aux cerises chaudes" />
+		<text id="recipe_coconutcake" name="Gateau aux Noix de Coco" />
+		<text id="recipe_paodequeijo" name="Pain brésilien au fromage" />
 		<text id="recipe_baiaodedois" name="Baião de Dois" />
-		<text id="recipe_bakedalaska" name="Baked Alaska" />
-		<text id="recipe_butterchicken" name="Butter Chicken" />
-		<text id="recipe_chickenbiryani" name="Chicken Biriyani" />
-		<text id="recipe_cottagepotatoes" name="Cottage Potatoes" />
-		<text id="recipe_cuzcuzcomovo" name="Couscous with Egg" />
-		<text id="recipe_malaichickennaan" name="Malai Chicken Naan" />
-		<text id="recipe_veganplate" name="Vegan Plate" />
-		<text id="recipe_neapolitancake" name="Neapolitan Cake" />
-		<text id="recipe_strawberrycheesecake" name="Strawberry Cheesecake" />
-		<text id="recipe_combomeal" name="Combo Meal" />
+		<text id="recipe_bakedalaska" name="Alaska cuite" />
+		<text id="recipe_butterchicken" name="Poulet au beurre" />
+		<text id="recipe_chickenbiryani" name="Poulet Biriyani" />
+		<text id="recipe_cottagepotatoes" name="Pommes de terre cottage" />
+		<text id="recipe_cuzcuzcomovo" name="Couscous aux œufs" />
+		<text id="recipe_malaichickennaan" name="Naan au poulet malai" />
+		<text id="recipe_veganplate" name="Assiette végane" />
+		<text id="recipe_neapolitancake" name="Gâteau napolitain" />
+		<text id="recipe_strawberrycheesecake" name="Cheesecake aux fraises" />
+		<text id="recipe_combomeal" name="Cordon bleu de Zagreb" />
 		<text id="recipe_zcordonbleu" name="Zagreb Cordon Bleu" />
-		<text id="recipe_brazilianpastel" name="Brazilian Pastel w/ Drink" />
+		<text id="recipe_brazilianpastel" name="Pastel brésilien avec boisson" />
 		<text id="recipe_lechonkawali" name="Lechon Kawali" />
-		<text id="recipe_sweetpizza" name="Sweet Pizza" />
+		<text id="recipe_sweetpizza" name="Pizza sucrée" />
 		<text id="recipe_shakshuka" name="Shakshuka" />
-		<text id="recipe_matildacake" name="Matilda Cake" />
-		<text id="recipe_birthdaycake" name="Icy Birthday Cake" />
-		<text id="recipe_chickennuggets" name="Chicken Nuggets" />
-		<text id="recipe_lavenderlemoncake" name="Lavender Lemon Cake" />
-		<text id="recipe_potatosoup" name="Potato Soup" />
-		<text id="recipe_chocochipcake" name="Choco Chip Cake" />
-		<text id="recipe_cakewithtoy" name="Cake with Toy" />
-		<text id="recipe_goldencake" name="Golden Cake" />
-		<text id="recipe_tofusandwich" name="Tofu Sandwich" />
-		<text id="recipe_tofupizza" name="Tofu Pizza" />
-		<text id="recipe_orangecheesecake" name="Orange Cheesecake" />
+		<text id="recipe_matildacake" name="Gâteau Matilda" />
+		<text id="recipe_birthdaycake" name="Gâteau d’anniversaire glacé" />
+		<text id="recipe_chickennuggets" name="Nuggets de poulet" />
+		<text id="recipe_lavenderlemoncake" name="Gâteau citron-lavander" />
+		<text id="recipe_potatosoup" name="Soupe de pommes de terre" />
+		<text id="recipe_chocochipcake" name="Gâteau aux pépites de chocolat" />
+		<text id="recipe_cakewithtoy" name="Gâteau avec jouet" />
+		<text id="recipe_goldencake" name="Gâteau doré" />
+		<text id="recipe_tofusandwich" name="Sandwich tofu" />
+		<text id="recipe_tofupizza" name="Pizza Tofu" />
+		<text id="recipe_orangecheesecake" name="Cheesecake à l’orange" />
 		<text id="recipe_goulash" name="Goulash" />
-		<text id="recipe_extravagantmeal" name="Extravagant Meal" />
-		<text id="recipe_trendymeal" name="Trendy Meal" />
-		<text id="recipe_instantnoodles" name="Instant Noodles" />
-		<text id="recipe_sausagesoup" name="Farmer&apos;s Sausage Soup" />
-		<text id="recipe_lemoncheesecake" name="Lemon Cheesecake" />
+		<text id="recipe_extravagantmeal" name="Repas extravagant" />
+		<text id="recipe_trendymeal" name="Repas tendance" />
+		<text id="recipe_instantnoodles" name="Nouilles instantanées" />
+		<text id="recipe_sausagesoup" name="Soupe à la saucisse fermière" />
+		<text id="recipe_lemoncheesecake" name="Cheesecake au citron" />
 		<text id="recipe_chocmousse" name="Mousse au chocolat" />
 		<text id="recipe_chocolatecake" name="Gâteau au chocolat" />
-		<text id="recipe_chocolatecheesecake" name="Cheesecake chocolat" />
+		<text id="recipe_chocolatecheesecake" name="Cheesecake au chocolat" />
 		<text id="recipe_chocolatefondue" name="Fondue de chocolat" />
 		<text id="recipe_chocolatewaffles" name="Gaufres au chocolat" />
 		<text id="recipe_christmasturkey" name="Dinde de Noël" />
@@ -1995,19 +1995,19 @@
 		<text id="recipe_brigadeiro" name="Brigadeiro" />
 		<text id="recipe_pizzasalad" name="Pizza avec salade" />
 		<text id="recipe_spanishomelette" name="Omelette espagnole" />
-		<text id="recipe_applepie" name="Apple Pie" />
+		<text id="recipe_applepie" name="Tarte aux pommes" />
 		<text id="recipe_ramen" name="Ramen" />
-		<text id="recipe_corncake" name="Corn Cake" />
+		<text id="recipe_corncake" name="Gâteau au maïs" />
 		<text id="recipe_feijoada" name="Feijoada" />
-		<text id="recipe_pinksoup" name="Pink Soup" />
+		<text id="recipe_pinksoup" name="Soupe rose" />
 		<text id="recipe_borschtsch" name="Borschtsch" />
 	</recipe>
 	<recipes_fastfood>
 		<text id="recipe_smoothiemaker_greensmoothie" name="Smoothie vert" />
-		<text id="recipe_smoothiemaker_defensepotion" name="Defense Potion" />
-		<text id="recipe_smoothiemaker_milk" name="Milk" />
-		<text id="recipe_smoothiemaker_soymilk" name="Soy Milk" />
-		<text id="recipe_smoothiemaker_icedcoffee" name="Iced Coffee" />
+		<text id="recipe_smoothiemaker_defensepotion" name="Potion de défense" />
+		<text id="recipe_smoothiemaker_milk" name="Lait" />
+		<text id="recipe_smoothiemaker_soymilk" name="Lait de soja" />
+		<text id="recipe_smoothiemaker_icedcoffee" name="Café glacé" />
 		<text id="recipe_smoothiemaker_kiba" name="Smoothie banane-cerise" />
 		<text id="recipe_smoothiemaker_cola" name="Cappu-Cola" />
 		<text id="recipe_smoothiemaker_acai" name="Açaí Smoothie" />
@@ -2017,7 +2017,7 @@
 		<text id="recipe_smoothiemaker_tomatojuice" name="Jus de tomate" />
 		<text id="recipe_smoothiemaker_swimmingpool" name="Swimming Pool" />
 		<text id="recipe_smoothiemaker_caipirinha" name="Caipirinha" />
-		<text id="recipe_smoothiemaker_pinklady" name="Pink Lady" />
+		<text id="recipe_smoothiemaker_pinklady" name="Madame Rose" />
 		<text id="recipe_smoothiemaker_mojito" name="Mojito" />
 		<text id="recipe_smoothiemaker_grasshopper" name="Grasshopper" />
 		<text id="recipe_smoothiemaker_longisland" name="Long Island" />
