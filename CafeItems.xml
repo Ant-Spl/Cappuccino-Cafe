@@ -676,7 +676,7 @@
 
 <wod id="1201" n="Basic" g="Dish" t="Greensalad" events="0" xp="5" incomePerServing="24" servings="10" duration="3" level="0" dishcategory="3" requirements="1327+1#1318+1#1314+1#1406+1" />
 
-<wod id="1255" n="Basic" g="Dish" t="Omelette" events="0" xp="3" incomePerServing="100" servings="5" duration="0" level="1" dishcategory="5" requirements="1311+1#1402+1" />
+<wod id="1255" n="Basic" g="Dish" t="Omelette" events="0" xp="3" incomePerServing="100" servings="5" duration="1" level="1" dishcategory="5" requirements="1311+1#1402+1" />
 <wod id="1204" n="Basic" g="Dish" t="Tomatosoup" events="0" xp="17" incomePerServing="14" servings="40" duration="10" level="1" dishcategory="2" requirements="1327+1#1318+1#1308+1#1401+1" />
 <wod id="2215" n="Basic" g="Dish" t="Brigadeiro" events="0" xp="52" incomePerServing="5" servings="300" duration="22" level="1" dishcategory="0" requirements="1307+1#1308+1#1408+1" />
 <wod id="1203" n="Basic" g="Dish" t="Chocmousse" events="0" xp="364" incomePerServing="4" servings="390" duration="135" level="1" dishcategory="0" requirements="1307+1#1308+1#1311+1#1408+1" />
