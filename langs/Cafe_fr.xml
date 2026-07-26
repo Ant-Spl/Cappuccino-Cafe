@@ -502,93 +502,93 @@
 		<text id="coop_title_7" name="CANTINE DE L&apos; ÉCOLE INCENDIÉE" />
 		<text id="coop_title_8" name="FÊTE D’ANNIVERSAIRE" />
 		<text id="coop_title_9" name="BUFFET ITALIEN" />
-		<text id="coop_title_16" name="MORNING RUSH!" />
-		<text id="coop_desc_short_16" name="Start the day right!" />
-		<text id="coop_desc_long_16" name="Chef cupcakekittycat8 will host a big breakfast at the Marketplace. Can you provide some of what will be served?" />
-		<text id="coop_title_17" name="POST-LUNCH DESSERTS" />
-		<text id="coop_desc_short_17" name="Craving sweets are we?" />
-		<text id="coop_desc_long_17" name="Chef Gabriel served a salty lunch and the costumers are craving many sweets! Help out and sweeten the day!" />
-		<text id="coop_title_18" name="FOOD CRITIC VISIT!" />
-		<text id="coop_desc_short_18" name="Cook to impress!" />
-		<text id="coop_desc_long_18" name="Chef cupcakekittycat8 invited a food critic to visit your Café and he has a refined taste! It is time to cook!" />
-		<text id="coop_title_19" name="LAN PARTY!" />
-		<text id="coop_desc_short_19" name="Fast food for fast games!" />
-		<text id="coop_desc_long_19" name="Chef Surfguiger5 decided to join a LAN party and was tasked with bringing the food. The attendees want a lot, though! Help out!" />
-		<text id="coop_title_20" name="LATE NIGHT DRIVE THRU" />
-		<text id="coop_desc_short_20" name="A quick dinner for a long day!" />
-		<text id="coop_desc_long_20" name="Chef Patawka opened a drive-thru and is willing to share profits with anyone that helps provide food for it. Participate!" />
-		<text id="coop_title_21" name="FIT FOOD ONLY!" />
-		<text id="coop_desc_short_21" name="It&apos;s time to eat well!" />
-		<text id="coop_desc_long_21" name="Chef Surfguiger5 learned about the craze of Triple Omelettes and is concerned about weight gain. Cook healthy food to prove that your Café is healthy too!" />
-		<text id="coop_title_22" name="HOTEL BRUNCH" />
-		<text id="coop_desc_short_22" name="Want a quick bite?" />
-		<text id="coop_desc_long_22" name="Chef Surfguiger5 was asked by the local hotel to provide food for a brunch. However, the stoves broke and it&apos;s up to you to help! Profits will be shared." />
-		<text id="coop_title_23" name="BRAZILIAN WAY" />
-		<text id="coop_desc_short_23" name="Enjoy what Brazil has to offer!" />
-		<text id="coop_desc_long_23" name="Chef Surfguiger5 wants everyone to taste Brazilian food. Cook it!" />
-		<text id="coop_title_24" name="THE CARB COUNTER" />
-		<text id="coop_desc_short_24" name="An energy refill!" />
-		<text id="coop_desc_long_24" name="The local gym asked chef Artemis to supply dishes rich in carbs to keep the clients energized. Help out to earn your share too!" />
-		<text id="coop_title_25" name="WEDDING TASTING" />
-		<text id="coop_desc_short_25" name="A marriage is coming!" />
-		<text id="coop_desc_long_25" name="Chef Kvmxl said that the Café Lady and the Muffin Man are getting married! It was said that they will pay nicely for any Café that has their favorite food. Are the rumors true?" />
-		<text id="coop_title_26" name="DINNER BUFFET" />
-		<text id="coop_desc_short_26" name="Eat up!" />
-		<text id="coop_desc_long_26" name="Chef Cupcakekittycat8 wants a dinner with plenty of food. Help out!" />
-		<text id="coop_title_27" name="OISH-SOME" />
-		<text id="coop_desc_short_27" name="So great!" />
-		<text id="coop_desc_long_27" name="Chef Nao wants to serve food for an anime convention happening at the Café next door. Give a hand!" />
-		<text id="coop_title_28" name="COCOANFESSION" />
-		<text id="coop_desc_short_28" name="The true love is Chocolate!" />
-		<text id="coop_desc_long_28" name="Chef Nao wants to popularize chocolate dishes around the neighborhood and will pay for it. Why not participate?" />
-		<text id="coop_title_31" name="CURRY FESTIVAL" />
-		<text id="coop_desc_short_31" name="There&apos;s an option for everyone!" />
-		<text id="coop_desc_long_31" name="A local Indian festival wants to hand out as much curry as possible to guests. Can you help?" />
-		<text id="coop_title_29" name="CURRY FESTIVAL" />
-		<text id="coop_desc_short_29" name="There&apos;s an option for everyone!" />
-		<text id="coop_desc_long_29" name="A local Indian festival wants to hand out as much curry as possible to guests. Can you help?" />
-		<text id="coop_title_32" name="BRAZIL AND PORTUGAL" />
-		<text id="coop_desc_short_32" name="Shorten the distance with food!" />
-		<text id="coop_desc_long_32" name="An international event is happening but Brazilian and Portugese visitors are homesick. Make traditional food to make them happy!" />
-		<text id="coop_title_33" name="DEV&apos;S CHOICE!" />
-		<text id="coop_desc_short_33" name="Fuel for more development!" />
-		<text id="coop_desc_long_33" name="Chef Gab needs very large amounts of his favorite food to be cooked to stress test the servers! Help out!" />
-		<text id="coop_title_34" name="MOUSSE BATTLE!" />
-		<text id="coop_desc_short_34" name="Which one is the best?" />
-		<text id="coop_desc_long_34" name="Chefs all around the world are battling to see which mousse is the best. Play for all teams and see what&apos;s up!" />
-		<text id="coop_title_35" name="FAMILY FEAST" />
-		<text id="coop_desc_short_35" name="So many guests!" />
-		<text id="coop_desc_long_35" name="Your whole family, their friends, your friends and their families are ALL coming to your Café to celebrate your business. Do them proud!" />
-		<text id="coop_title_36" name="WE NEED LOTS OF EGGS!" />
-		<text id="coop_desc_short_36" name="Did they actually come first?" />
-		<text id="coop_desc_long_36" name="Chef Myleeek is conducting research on who came first: the chicken or the egg? Cook dishes with eggs to provide data!" />
-		<text id="coop_title_37" name="A GRATE MISTAKE!" />
-		<text id="coop_desc_short_37" name="The cheese rules all!" />
-		<text id="coop_desc_long_37" name="Chef Cupcakekittycat8 was hired to provide dishes for the birthday of a famous Mouse. Sadly, she used tofu instead of cheese and the mice are furious! Can you make food with cheese to help?" />
-		<text id="coop_title_38" name="BURGER FESTIVAL" />
-		<text id="coop_desc_short_38" name="A classic taste for a gathering!" />
-		<text id="coop_desc_long_38" name="Chef Franskmayn is going to serve burgers at the Marketplace. Provide some portions to get a share of the revenue!" />
-		<text id="coop_title_39" name="SWEET LIKE A STRAWBERRY!" />
-		<text id="coop_desc_short_39" name="A bountiful harvest!" />
-		<text id="coop_desc_long_39" name="The strawberry harvest was excellent and chef Gabriel wants to share the sweetness with everyone. Let&apos;s make some berry-licious dishes!" />
-		<text id="coop_title_40" name="OMELETTES TO THE MAX!" />
-		<text id="coop_desc_short_40" name="You just can&apos;t have enough!" />
-		<text id="coop_desc_long_40" name="Chef Xara wants everyone to know the joys of preparing and serving large amounts of Omelettes. Are you up to the challenge?" />
-		<text id="coop_title_41" name="BALATON PARTY" />
-		<text id="coop_desc_short_41" name="Let&apos;s eat by the lake!" />
-		<text id="coop_desc_long_41" name="Chef Flinsical is hosting a leisure session around Lake Balaton. Help out with food and refreshments for this scenic event!" />
-		<text id="coop_title_42" name="GRILL, FRY AND SLICE" />
-		<text id="coop_desc_short_42" name="Save the festival!" />
-		<text id="coop_desc_long_42" name="Chef EarthHunt3r was hired to work for a very important Food Festival. However, his kitchen equipment broke! Help him out and save the festival!" />
-		<text id="coop_title_43" name="CAKES FOR A DIVA!" />
-		<text id="coop_desc_short_43" name="She wants everything!" />
-		<text id="coop_desc_long_43" name="Patixa is in town and she wants the best selection of cakes to celebrate her toy line. Provide the cakes fast and get rewarded!" />
-		<text id="coop_title_44" name="FIRST DAY IN THE KITCHEN!" />
-		<text id="coop_desc_short_44" name="Let&apos;s work!" />
-		<text id="coop_desc_long_44" name="It&apos;s opening day and the Café is busier than expected. Luckily, you don&apos;t need much experience to give people what they want. Recruit fellow chefs and show that the secret ingredient is teamwork!" />
-		<text id="coop_title_30" name="A MOUSE IN THE KITCHEN!" />
-		<text id="coop_desc_short_30" name="Don&apos;t let anyone see it!" />
-		<text id="coop_desc_long_30" name="A mouse was spotted in your Café and it wants fancy food to be served or it will ruin your business! Why does this feel familiar?" />
+		<text id="coop_title_16" name="COUP DE FEU DU MATIN!" />
+		<text id="coop_desc_short_16" name="Bien commencer la journée!" />
+		<text id="coop_desc_long_16" name="Le chef cupcakekittycat8 organise un grand petit-déjeuner sur la place du marché. Peux-tu préparer une partie de ce qui sera servi?" />
+		<text id="coop_title_17" name="DESSERTS D’APRÈS-REPAS" />
+		<text id="coop_desc_short_17" name="Envie de douceurs?" />
+		<text id="coop_desc_long_17" name="Le chef Gabriel a servi un déjeuner salé et les clients ont envie de plein de douceurs! Viens leur adoucir la journée!" />
+		<text id="coop_title_18" name="VISITE D’UN CRITIQUE CULINAIRE!" />
+		<text id="coop_desc_short_18" name="Cuisine pour impressionner!" />
+		<text id="coop_desc_long_18" name="Le chef cupcakekittycat8 a invité un critique culinaire dans ton café, et il a le palais raffiné! Il est temps de cuisiner!" />
+		<text id="coop_title_19" name="SOIRÉE LAN!" />
+		<text id="coop_desc_short_19" name="De la restauration rapide pour des parties endiablées!" />
+		<text id="coop_desc_long_19" name="Le chef Surfguiger5 participe à une soirée LAN et doit apporter de quoi manger. Les participants ont très faim! Donne-lui un coup de main!" />
+		<text id="coop_title_20" name="DRIVE DE NUIT" />
+		<text id="coop_desc_short_20" name="Un dîner vite fait après une longue journée!" />
+		<text id="coop_desc_long_20" name="Le chef Patawka a ouvert un drive et partagera les recettes avec toute personne qui l’aidera à le ravitailler. Participe!" />
+		<text id="coop_title_21" name="QUE DU BON POUR LA FORME!" />
+		<text id="coop_desc_short_21" name="C&apos;est le moment de bien manger!" />
+		<text id="coop_desc_long_21" name="Le chef Surfguiger5 a entendu parler de la folie des omelettes triples et craint de prendre du poids. Cuisine sain pour prouver que ton café l’est aussi!" />
+		<text id="coop_title_22" name="BRUNCH À L’HÔTEL" />
+		<text id="coop_desc_short_22" name="Envie d’un petit quelque chose?" />
+		<text id="coop_desc_long_22" name="Un hôtel du coin a demandé au chef Surfguiger5 de préparer un brunch. Mais ses cuisinières sont tombées en panne et il compte sur toi! Vous partagerez les recettes." />
+		<text id="coop_title_23" name="À LA BRÉSILIENNE" />
+		<text id="coop_desc_short_23" name="Goûte à tout ce que le Brésil a à offrir!" />
+		<text id="coop_desc_long_23" name="Le chef Surfguiger5 veut faire découvrir la cuisine brésilienne à tout le monde. Aux fourneaux!" />
+		<text id="coop_title_24" name="LE COMPTOIR DES GLUCIDES" />
+		<text id="coop_desc_short_24" name="Un plein d’énergie!" />
+		<text id="coop_desc_long_24" name="La salle de sport locale a demandé au chef Artemis de préparer des plats riches en glucides pour que ses clients gardent la forme. Donne un coup de main pour recevoir ta part!" />
+		<text id="coop_title_25" name="DÉGUSTATION DE MARIAGE" />
+		<text id="coop_desc_short_25" name="Un mariage se prépare!" />
+		<text id="coop_desc_long_25" name="Le chef Kvmxl raconte que la Dame du Café et l’Homme Muffin vont se marier! On dit qu’ils paieront bien tout café qui préparera leur plat favori. La rumeur est-elle vraie?" />
+		<text id="coop_title_26" name="BUFFET DU SOIR" />
+		<text id="coop_desc_short_26" name="À table!" />
+		<text id="coop_desc_long_26" name="Le chef Cupcakekittycat8 veut un dîner bien copieux. Donne-lui un coup de main!" />
+		<text id="coop_title_27" name="UN RÉGAL JAPONAIS" />
+		<text id="coop_desc_short_27" name="Trop bien!" />
+		<text id="coop_desc_long_27" name="Le chef Nao veut nourrir les visiteurs d’une convention d’anime au café d’à côté. Donne-lui un coup de main!" />
+		<text id="coop_title_28" name="CONFESSION CACAOTÉE" />
+		<text id="coop_desc_short_28" name="Le véritable amour, c’est le chocolat!" />
+		<text id="coop_desc_long_28" name="Le chef Nao veut faire connaître les plats au chocolat dans tout le quartier et il paiera pour ça. Pourquoi ne pas participer?" />
+		<text id="coop_title_31" name="FESTIVAL DU CURRY" />
+		<text id="coop_desc_short_31" name="C&apos;est au goût de chacun!" />
+		<text id="coop_desc_long_31" name="Un festival indien du coin veut servir un maximum de curry à ses invités. Tu peux aider?" />
+		<text id="coop_title_29" name="FESTIVAL DU CURRY" />
+		<text id="coop_desc_short_29" name="C&apos;est au goût de chacun!" />
+		<text id="coop_desc_long_29" name="Un festival indien du coin veut servir un maximum de curry à ses invités. Tu peux aider?" />
+		<text id="coop_title_32" name="BRÉSIL ET PORTUGAL" />
+		<text id="coop_desc_short_32" name="Rapproche-les autour de bons petits plats!" />
+		<text id="coop_desc_long_32" name="Une fête internationale se prépare, mais les visiteurs brésiliens et portugais ont le mal du pays. Prépare des plats traditionnels pour leur faire plaisir!" />
+		<text id="coop_title_33" name="C&apos;EST LE CHOIX DU DEV!" />
+		<text id="coop_desc_short_33" name="De quoi alimenter le développement!" />
+		<text id="coop_desc_long_33" name="Le chef Gab a besoin d’énormes quantités de son plat préféré pour mettre les serveurs à l’épreuve! Donne-lui un coup de main!" />
+		<text id="coop_title_34" name="BATAILLE DE MOUSSES!" />
+		<text id="coop_desc_short_34" name="Laquelle est la meilleure?" />
+		<text id="coop_desc_long_34" name="Des chefs du monde entier s’affrontent pour savoir quelle mousse est la meilleure. Joue dans toutes les équipes et vois ce qu&apos;il en est!" />
+		<text id="coop_title_35" name="FESTIN FAMILIAL" />
+		<text id="coop_desc_short_35" name="Tant d’invités!" />
+		<text id="coop_desc_long_35" name="Toute ta famille, leurs amis, tes amis et leurs familles arrivent dans ton café pour fêter ta réussite. Fais-les tous rêver!" />
+		<text id="coop_title_36" name="IL NOUS FAUT BEAUCOUP D’ŒUFS!" />
+		<text id="coop_desc_short_36" name="Qui est vraiment arrivé en premier?" />
+		<text id="coop_desc_long_36" name="Le chef Myleeek mène des recherches sur la poule et l’œuf: qui était là en premier? Cuisine des plats avec des œufs pour lui fournir des données!" />
+		<text id="coop_title_37" name="QUELLE BOULETTE!" />
+		<text id="coop_desc_short_37" name="Le fromage est roi!" />
+		<text id="coop_desc_long_37" name="Le chef Cupcakekittycat8 a été engagée pour préparer l’anniversaire d’une souris célèbre. Hélas, elle a utilisé du tofu au lieu du fromage, et les souris sont furieuses! Peux-tu préparer des plats au fromage pour l’aider?" />
+		<text id="coop_title_38" name="FESTIVAL DU BURGER" />
+		<text id="coop_desc_short_38" name="Un classique pour réunir tout le monde!" />
+		<text id="coop_desc_long_38" name="Le chef Franskmayn va servir des burgers sur la place du marché. Prépare des portions pour toucher une part des recettes!" />
+		<text id="coop_title_39" name="DOUX COMME UNE FRAISE!" />
+		<text id="coop_desc_short_39" name="Une récolte généreuse!" />
+		<text id="coop_desc_long_39" name="La récolte de fraises a été excellente et le chef Gabriel veut partager cette douceur avec tous. Préparons des plats aux fruits rouges à se lécher les doigts!" />
+		<text id="coop_title_40" name="OMELETTES À GOGO!" />
+		<text id="coop_desc_short_40" name="On n&apos;en a jamais assez!" />
+		<text id="coop_desc_long_40" name="Chef Xara veut faire découvrir à tous le plaisir de préparer et servir de grandes quantités d’omelettes. Tu relèves le défi?" />
+		<text id="coop_title_41" name="FÊTE AU BALATON" />
+		<text id="coop_desc_short_41" name="C&apos;est l’heure de manger au bord du lac!" />
+		<text id="coop_desc_long_41" name="Chef Flinsical organise un moment de détente autour du lac Balaton. Apporte de quoi manger et boire pour cet événement au beau décor!" />
+		<text id="coop_title_42" name="GRILLER, FRIRE ET TRANCHER" />
+		<text id="coop_desc_short_42" name="Sauve le festival!" />
+		<text id="coop_desc_long_42" name="Chef EarthHunt3r a été engagé pour un important festival culinaire. Mais son matériel de cuisine est cassé! Aide-le à sauver le festival!" />
+		<text id="coop_title_43" name="DES GÂTEAUX POUR UNE DIVA!" />
+		<text id="coop_desc_short_43" name="Elle veut tout!" />
+		<text id="coop_desc_long_43" name="Patixa est en ville et veut un superbe assortiment de gâteaux pour fêter sa collection de jouets. Prépare-les vite et tu seras récompensé!" />
+		<text id="coop_title_44" name="PREMIER JOUR EN CUISINE!" />
+		<text id="coop_desc_short_44" name="Au travail!" />
+		<text id="coop_desc_long_44" name="C&apos;est le jour de l’ouverture et le café est plus animé que prévu. Heureusement, tu n&apos;as pas besoin de beaucoup d’expérience pour servir ce que les gens aiment. Recrute d’autres chefs et prouve que l’ingrédient secret, c’est l’esprit d’équipe!" />
+		<text id="coop_title_30" name="UNE SOURIS EN CUISINE!" />
+		<text id="coop_desc_short_30" name="N&apos;en parle à personne!" />
+		<text id="coop_desc_long_30" name="Une souris a été aperçue dans ton café, et elle exige des plats raffinés, sinon elle ruinera ton commerce! Pourquoi cette histoire te semble-t-elle familière?" />
 	</coopmission>
 	<dialogs>
 		<text id="dialogwin_achievement_title" name="Distinctions" />
@@ -1057,7 +1057,7 @@
 		<text id="wheeloffortunetooltip_line3" name="Un jeu gratuit" />
 	</ingame_tooltips>
 	<ingredients>
-		<text id="ingredient_cookfest" name="Event Ingredients" />
+		<text id="ingredient_cookfest" name="Ingrédients de l’événement" />
 		<text id="ingredient_limelemon" name="Citrus" />
 		<text id="ingredient_citrus" name="Citrus" />
 		<text id="ingredient_apple" name="Pommes" />
@@ -1088,7 +1088,7 @@
 		<text id="ingredient_eggs" name="Œufs" />
 		<text id="ingredient_fish" name="Poisson" />
 		<text id="ingredient_flour" name="Farine" />
-		<text id="ingredient_goldeneggs" name="Golden Eggs" />
+		<text id="ingredient_goldeneggs" name="Œufs dorés" />
 		<text id="ingredient_garlic" name="Ail" />
 		<text id="ingredient_horseradish" name="Raifort" />
 		<text id="ingredient_kidney" name="Rognon" />
@@ -1209,232 +1209,232 @@
 		<text id="preparestep_chocolatecake_cream" name="Fouetter la crème" />
 		<text id="preparestep_chocolatecake_eggs" name="Séparer les jaunes des blancs" />
 		<text id="preparestep_chocolatecake_flour" name="Tamiser la farine" />
-		<text id="preparestep_pinapjuice_pinapple" name="Chop pineapple" />
+		<text id="preparestep_pinapjuice_pinapple" name="Hacher l’ananas" />
 		<text id="preparestep_pinapjuice_vanilla" name="Ajouter la vanille" />
-		<text id="preparestep_orangejuice_orange" name="Slice oranges" />
-		<text id="preparestep_orangejuice_sugar" name="Add sugar" />
+		<text id="preparestep_orangejuice_orange" name="Trancher les oranges" />
+		<text id="preparestep_orangejuice_sugar" name="Ajouter du sucre" />
 		<text id="preparestep_orangejuice_vanilla" name="Ajouter la vanille" />
-		<text id="preparestep_discodrinks_cream" name="Whip cream" />
-		<text id="preparestep_discodrinks_pinapple" name="Chop pineapple" />
-		<text id="preparestep_discodrinks_apple" name="Slice apples" />
-		<text id="preparestep_discodrinks_sugar" name="Add sugar" />
-		<text id="preparestep_discodrinks_milk" name="Pour milk" />
+		<text id="preparestep_discodrinks_cream" name="Fouetter la crème" />
+		<text id="preparestep_discodrinks_pinapple" name="Hacher l’ananas" />
+		<text id="preparestep_discodrinks_apple" name="Trancher les pommes" />
+		<text id="preparestep_discodrinks_sugar" name="Ajouter du sucre" />
+		<text id="preparestep_discodrinks_milk" name="Verser le lait" />
 		<text id="preparestep_discodrinks_vanilla" name="Ajouter la vanille" />
-		<text id="preparestep_applejuice_apple" name="Slice apples" />
-		<text id="preparestep_applejuice_sugar" name="Add sugar" />
+		<text id="preparestep_applejuice_apple" name="Trancher les pommes" />
+		<text id="preparestep_applejuice_sugar" name="Ajouter du sucre" />
 		<text id="preparestep_applejuice_vanilla" name="Ajouter la vanille" />
-		<text id="preparestep_rjuice_rhubarb" name="Chop rhubarb" />
-		<text id="preparestep_rjuice_sugar" name="Add sugar" />
+		<text id="preparestep_rjuice_rhubarb" name="Hacher la rhubarbe" />
+		<text id="preparestep_rjuice_sugar" name="Ajouter du sucre" />
 		<text id="preparestep_rjuice_vanilla" name="Ajouter la vanille" />
-		<text id="preparestep_cherryjuice_cherries" name="Wash cherries" />
-		<text id="preparestep_cherryjuice_sugar" name="Add sugar" />
+		<text id="preparestep_cherryjuice_cherries" name="Laver les cerises" />
+		<text id="preparestep_cherryjuice_sugar" name="Ajouter du sucre" />
 		<text id="preparestep_cherryjuice_vanilla" name="Ajouter la vanille" />
-		<text id="preparestep_strawberryjuice_strawberry" name="Wash strawberries" />
-		<text id="preparestep_strawberryjuice_sugar" name="Add sugar" />
+		<text id="preparestep_strawberryjuice_strawberry" name="Laver les fraises" />
+		<text id="preparestep_strawberryjuice_sugar" name="Ajouter du sucre" />
 		<text id="preparestep_strawberryjuice_vanilla" name="Ajouter la vanille" />
-		<text id="preparestep_cappuccino_cookfest" name="Think about next Cookfest" />
-		<text id="preparestep_cappuccino_cinnamon" name="Sprinkle cinnamon" />
-		<text id="preparestep_duckalcitrus_duck" name="Prepare duck" />
-		<text id="preparestep_duckalcitrus_butter" name="Melt butter" />
-		<text id="preparestep_duckalcitrus_onion" name="Chop onions" />
-		<text id="preparestep_duckalcitrus_citrus" name="Squeeze citrus" />
-		<text id="preparestep_ducktatters_duck" name="Prepare duck" />
-		<text id="preparestep_ducktatters_potato" name="Chop potatoes" />
-		<text id="preparestep_ducktatters_pasta" name="Boil pasta" />
-		<text id="preparestep_ducktatters_oil" name="Heat oil" />
-		<text id="preparestep_langos_flour" name="Sift flour" />
-		<text id="preparestep_langos_eggs" name="Crack eggs" />
-		<text id="preparestep_langos_cream" name="Whip cream" />
-		<text id="preparestep_langos_garlic" name="Press garlic" />
-		<text id="preparestep_langos_cheese" name="Grate cheese" />
-		<text id="preparestep_nasilemak_rice" name="Wash rice" />
-		<text id="preparestep_nasilemak_eggs" name="Boil eggs" />
-		<text id="preparestep_nasilemak_onion" name="Chop onions" />
-		<text id="preparestep_nasilemak_beans" name="Cook beans" />
-		<text id="preparestep_nasilemak_cucumber" name="Slice cucumbers" />
-		<text id="preparestep_citrusjuice_citrus" name="Squeeze citrus" />
-		<text id="preparestep_citrusjuice_sugar" name="Measure sugar" />
-		<text id="preparestep_carrotcake_carrots" name="Grate carrots" />
-		<text id="preparestep_carrotcake_flour" name="Sift flour" />
-		<text id="preparestep_carrotcake_whitechocolat" name="Chop white chocolate" />
-		<text id="preparestep_carrotcake_chocolate" name="Melt chocolate" />
-		<text id="preparestep_carrotcake_milk" name="Measure milk" />
-		<text id="preparestep_carrotjuice_carrots" name="Peel carrots" />
-		<text id="preparestep_carrotjuice_sugar" name="Measure sugar" />
-		<text id="preparestep_francesinha_cheese" name="Slice cheese" />
-		<text id="preparestep_francesinha_eggs" name="Fry eggs" />
-		<text id="preparestep_francesinha_mincemeat" name="Cook meat" />
-		<text id="preparestep_francesinha_sausages" name="Slice sausages" />
-		<text id="preparestep_francesinha_onion" name="Chop onions" />
-		<text id="preparestep_dorayaki_flour" name="Sift flour" />
-		<text id="preparestep_dorayaki_eggs" name="Crack eggs" />
-		<text id="preparestep_dorayaki_beans" name="Mash beans" />
-		<text id="preparestep_dorayaki_sugar" name="Measure sugar" />
-		<text id="preparestep_tiramisu_chocolate" name="Grate chocolate" />
-		<text id="preparestep_tiramisu_cookies" name="Soak cookies" />
-		<text id="preparestep_tiramisu_quark" name="Whip quark" />
-		<text id="preparestep_pridecupcakes_flour" name="Sift flour" />
-		<text id="preparestep_pridecupcakes_eggs" name="Crack eggs" />
-		<text id="preparestep_pridecupcakes_coconut" name="Shave coconut" />
-		<text id="preparestep_pridecupcakes_sugar" name="Measure sugar" />
-		<text id="preparestep_pridecupcakes_milk" name="Measure milk" />
-		<text id="preparestep_ratatouille_tomato" name="Cut tomatoes" />
-		<text id="preparestep_ratatouille_eggplant" name="Slice eggplant" />
-		<text id="preparestep_ratatouille_onion" name="Chop onions" />
-		<text id="preparestep_ratatouille_cream" name="Mix cream" />
-		<text id="preparestep_ratatouille_oil" name="Measure oil" />
-		<text id="preparestep_hotcherryricepudding_rice" name="Weigh rice" />
+		<text id="preparestep_cappuccino_cookfest" name="Penser au prochain Cookfest" />
+		<text id="preparestep_cappuccino_cinnamon" name="Saupoudrer de cannelle" />
+		<text id="preparestep_duckalcitrus_duck" name="Préparer le canard" />
+		<text id="preparestep_duckalcitrus_butter" name="Faire fondre le beurre" />
+		<text id="preparestep_duckalcitrus_onion" name="Hacher les oignons" />
+		<text id="preparestep_duckalcitrus_citrus" name="Presser les agrumes" />
+		<text id="preparestep_ducktatters_duck" name="Préparer le canard" />
+		<text id="preparestep_ducktatters_potato" name="Hacher les pommes de terre" />
+		<text id="preparestep_ducktatters_pasta" name="Faire cuire les pâtes" />
+		<text id="preparestep_ducktatters_oil" name="Faire chauffer l’huile" />
+		<text id="preparestep_langos_flour" name="Tamiser la farine" />
+		<text id="preparestep_langos_eggs" name="Casser les œufs" />
+		<text id="preparestep_langos_cream" name="Fouetter la crème" />
+		<text id="preparestep_langos_garlic" name="Presser l’ail" />
+		<text id="preparestep_langos_cheese" name="Râper le fromage" />
+		<text id="preparestep_nasilemak_rice" name="Laver le riz" />
+		<text id="preparestep_nasilemak_eggs" name="Faire cuire les œufs" />
+		<text id="preparestep_nasilemak_onion" name="Hacher les oignons" />
+		<text id="preparestep_nasilemak_beans" name="Cuire les haricots" />
+		<text id="preparestep_nasilemak_cucumber" name="Trancher les concombres" />
+		<text id="preparestep_citrusjuice_citrus" name="Presser les agrumes" />
+		<text id="preparestep_citrusjuice_sugar" name="Doser le sucre" />
+		<text id="preparestep_carrotcake_carrots" name="Râper les carottes" />
+		<text id="preparestep_carrotcake_flour" name="Tamiser la farine" />
+		<text id="preparestep_carrotcake_whitechocolat" name="Hacher le chocolat blanc" />
+		<text id="preparestep_carrotcake_chocolate" name="Faire fondre le chocolat" />
+		<text id="preparestep_carrotcake_milk" name="Doser le lait" />
+		<text id="preparestep_carrotjuice_carrots" name="Éplucher les carottes" />
+		<text id="preparestep_carrotjuice_sugar" name="Doser le sucre" />
+		<text id="preparestep_francesinha_cheese" name="Trancher le fromage" />
+		<text id="preparestep_francesinha_eggs" name="Faire frire les œufs" />
+		<text id="preparestep_francesinha_mincemeat" name="Cuire la viande" />
+		<text id="preparestep_francesinha_sausages" name="Trancher les saucisses" />
+		<text id="preparestep_francesinha_onion" name="Hacher les oignons" />
+		<text id="preparestep_dorayaki_flour" name="Tamiser la farine" />
+		<text id="preparestep_dorayaki_eggs" name="Casser les œufs" />
+		<text id="preparestep_dorayaki_beans" name="Écraser les haricots" />
+		<text id="preparestep_dorayaki_sugar" name="Doser le sucre" />
+		<text id="preparestep_tiramisu_chocolate" name="Râper le chocolat" />
+		<text id="preparestep_tiramisu_cookies" name="Tremper les biscuits" />
+		<text id="preparestep_tiramisu_quark" name="Fouetter le fromage blanc" />
+		<text id="preparestep_pridecupcakes_flour" name="Tamiser la farine" />
+		<text id="preparestep_pridecupcakes_eggs" name="Casser les œufs" />
+		<text id="preparestep_pridecupcakes_coconut" name="Râper la noix de coco" />
+		<text id="preparestep_pridecupcakes_sugar" name="Doser le sucre" />
+		<text id="preparestep_pridecupcakes_milk" name="Doser le lait" />
+		<text id="preparestep_ratatouille_tomato" name="Couper les tomates" />
+		<text id="preparestep_ratatouille_eggplant" name="Trancher l’aubergine" />
+		<text id="preparestep_ratatouille_onion" name="Hacher les oignons" />
+		<text id="preparestep_ratatouille_cream" name="Mélanger la crème" />
+		<text id="preparestep_ratatouille_oil" name="Doser l’huile" />
+		<text id="preparestep_hotcherryricepudding_rice" name="Peser le riz" />
 		<text id="preparestep_hotcherryricepudding_cherries" name="Pit cherries" />
-		<text id="preparestep_hotcherryricepudding_sugar" name="Measure sugar" />
-		<text id="preparestep_hotcherryricepudding_milk" name="Measure milk" />
-		<text id="preparestep_coconutcake_flour" name="Sift flour" />
-		<text id="preparestep_coconutcake_eggs" name="Crack eggs" />
-		<text id="preparestep_coconutcake_milk" name="Pour milk" />
-		<text id="preparestep_coconutcake_coconut" name="Grate coconut" />
-		<text id="preparestep_coconutcake_sugar" name="Measure sugar" />
-		<text id="preparestep_paodequeijo_eggs" name="Crack eggs" />
-		<text id="preparestep_paodequeijo_cheese" name="Grate cheese" />
-		<text id="preparestep_paodequeijo_flour" name="Sift flour" />
-		<text id="preparestep_paodequeijo_oil" name="Measure oil" />
-		<text id="preparestep_baiaodedois_rice" name="Weigh rice" />
-		<text id="preparestep_baiaodedois_beans" name="Rinse beans" />
-		<text id="preparestep_baiaodedois_cheese" name="Cube cheese" />
-		<text id="preparestep_baiaodedois_bacon" name="Cube bacon" />
-		<text id="preparestep_baiaodedois_onion" name="Chop onion" />
-		<text id="preparestep_bakedalaska_cream" name="Whip cream" />
-		<text id="preparestep_bakedalaska_eggs" name="Separate eggs" />
-		<text id="preparestep_bakedalaska_sugar" name="Measure sugar" />
-		<text id="preparestep_butterchicken_tomato" name="Blend tomatoes" />
-		<text id="preparestep_butterchicken_chicken" name="Cut chicken" />
-		<text id="preparestep_butterchicken_cream" name="Measure cream" />
-		<text id="preparestep_butterchicken_butter" name="Melt butter" />
-		<text id="preparestep_butterchicken_curryspice" name="Add curry" />
-		<text id="preparestep_chickenbiryani_tomato" name="Chop tomatoes" />
-		<text id="preparestep_chickenbiryani_onion" name="Chop onions" />
-		<text id="preparestep_chickenbiryani_rice" name="Cook rice" />
+		<text id="preparestep_hotcherryricepudding_sugar" name="Doser le sucre" />
+		<text id="preparestep_hotcherryricepudding_milk" name="Doser le lait" />
+		<text id="preparestep_coconutcake_flour" name="Tamiser la farine" />
+		<text id="preparestep_coconutcake_eggs" name="Casser les œufs" />
+		<text id="preparestep_coconutcake_milk" name="Verser le lait" />
+		<text id="preparestep_coconutcake_coconut" name="Râper la noix de coco" />
+		<text id="preparestep_coconutcake_sugar" name="Doser le sucre" />
+		<text id="preparestep_paodequeijo_eggs" name="Casser les œufs" />
+		<text id="preparestep_paodequeijo_cheese" name="Râper le fromage" />
+		<text id="preparestep_paodequeijo_flour" name="Tamiser la farine" />
+		<text id="preparestep_paodequeijo_oil" name="Doser l’huile" />
+		<text id="preparestep_baiaodedois_rice" name="Peser le riz" />
+		<text id="preparestep_baiaodedois_beans" name="Rincer les haricots" />
+		<text id="preparestep_baiaodedois_cheese" name="Couper le fromage en dés" />
+		<text id="preparestep_baiaodedois_bacon" name="Couper le bacon en dés" />
+		<text id="preparestep_baiaodedois_onion" name="Hacher l’oignon" />
+		<text id="preparestep_bakedalaska_cream" name="Fouetter la crème" />
+		<text id="preparestep_bakedalaska_eggs" name="Séparer les œufs" />
+		<text id="preparestep_bakedalaska_sugar" name="Doser le sucre" />
+		<text id="preparestep_butterchicken_tomato" name="Mixer les tomates" />
+		<text id="preparestep_butterchicken_chicken" name="Découper le poulet" />
+		<text id="preparestep_butterchicken_cream" name="Doser la crème" />
+		<text id="preparestep_butterchicken_butter" name="Faire fondre le beurre" />
+		<text id="preparestep_butterchicken_curryspice" name="Ajouter du curry" />
+		<text id="preparestep_chickenbiryani_tomato" name="Hacher les tomates" />
+		<text id="preparestep_chickenbiryani_onion" name="Hacher les oignons" />
+		<text id="preparestep_chickenbiryani_rice" name="Cuire le riz" />
 		<text id="preparestep_chickenbiryani_chicken" name="Sauté chicken" />
-		<text id="preparestep_chickenbiryani_potato" name="Cube potatoes" />
-		<text id="preparestep_cottagepotatoes_cream" name="Mix cream" />
-		<text id="preparestep_cottagepotatoes_onion" name="Chop onions" />
-		<text id="preparestep_cottagepotatoes_quark" name="Whip quark" />
-		<text id="preparestep_cottagepotatoes_butter" name="Add butter" />
-		<text id="preparestep_cottagepotatoes_potato" name="Boil potatoes" />
-		<text id="preparestep_cuzcuzcomovo_sweetcorn" name="Prepare cornmeal" />
-		<text id="preparestep_cuzcuzcomovo_eggs" name="Crack eggs" />
-		<text id="preparestep_cuzcuzcomovo_butter" name="Melt butter" />
-		<text id="preparestep_malaichickennaan_chicken" name="Cut chicken" />
-		<text id="preparestep_malaichickennaan_cream" name="Whip cream" />
-		<text id="preparestep_malaichickennaan_garlic" name="Press garlic" />
-		<text id="preparestep_malaichickennaan_oil" name="Heat oil" />
-		<text id="preparestep_malaichickennaan_flour" name="Sift flour" />
-		<text id="preparestep_veganplate_carrots" name="Peel carrots" />
-		<text id="preparestep_veganplate_peas" name="Cook peas" />
-		<text id="preparestep_veganplate_cucumber" name="Slice cucumber" />
-		<text id="preparestep_veganplate_tomato" name="Cut tomatoes" />
-		<text id="preparestep_veganplate_rice" name="Cook rice" />
-		<text id="preparestep_neapolitancake_whitechocolat" name="Melt white chocolate" />
-		<text id="preparestep_neapolitancake_chocolate" name="Melt chocolate" />
-		<text id="preparestep_neapolitancake_strawberry" name="Mash strawberries" />
-		<text id="preparestep_neapolitancake_flour" name="Sift flour" />
-		<text id="preparestep_neapolitancake_milk" name="Pour milk" />
-		<text id="preparestep_strawberrycheesecake_cream" name="Add Cream" />
-		<text id="preparestep_strawberrycheesecake_milk" name="Add Milk" />
-		<text id="preparestep_strawberrycheesecake_cookies" name="Crumble Cookies" />
-		<text id="preparestep_strawberrycheesecake_quark" name="Add Quark" />
-		<text id="preparestep_strawberrycheesecake_strawberry" name="Add Strawberries" />
-		<text id="preparestep_combomeal_flour" name="Make instant bread" />
-		<text id="preparestep_combomeal_mincemeat" name="Make patties" />
-		<text id="preparestep_combomeal_cheese" name="Slice cheese" />
-		<text id="preparestep_combomeal_potato" name="Cut fries" />
-		<text id="preparestep_combomeal_oil" name="Add lots of oil" />
-		<text id="preparestep_zcordonbleu_chicken" name="Flatten chicken" />
-		<text id="preparestep_zcordonbleu_flour" name="Sift flour" />
-		<text id="preparestep_zcordonbleu_cheese" name="Slice cheese" />
-		<text id="preparestep_zcordonbleu_oil" name="Heat oil" />
-		<text id="preparestep_zcordonbleu_eggs" name="Beat eggs" />
-		<text id="preparestep_brazilianpastel_flour" name="Make pastel dough" />
-		<text id="preparestep_brazilianpastel_cheese" name="Grate cheese" />
-		<text id="preparestep_brazilianpastel_oil" name="Heat oil" />
-		<text id="preparestep_brazilianpastel_sugar" name="Make sugarcane drink" />
-		<text id="preparestep_lechonkawali_bacon" name="Slice bacon" />
-		<text id="preparestep_lechonkawali_cucumber" name="Slice cucumber" />
-		<text id="preparestep_lechonkawali_garlic" name="Crush garlic" />
-		<text id="preparestep_lechonkawali_oil" name="Heat oil" />
-		<text id="preparestep_sweetpizza_flour" name="Prepare pizza dough" />
-		<text id="preparestep_sweetpizza_chocolate" name="Melt chocolate" />
-		<text id="preparestep_sweetpizza_strawberry" name="Slice strawberries" />
-		<text id="preparestep_sweetpizza_cookfest" name="Find fruits" />
-		<text id="preparestep_shakshuka_onion" name="Chop onions" />
-		<text id="preparestep_shakshuka_garlic" name="Crush garlic" />
-		<text id="preparestep_shakshuka_tomato" name="Chop tomatoes" />
-		<text id="preparestep_shakshuka_eggs" name="Crack eggs" />
-		<text id="preparestep_matildacake_chocolate" name="Melt lots of chocolate" />
-		<text id="preparestep_matildacake_flour" name="Levitate flour" />
-		<text id="preparestep_matildacake_cream" name="Toss cream in strongly" />
-		<text id="preparestep_matildacake_cocktailcherry" name="Add cherries" />
-		<text id="preparestep_birthdaycake_chocolate" name="Melt chocolate happily" />
-		<text id="preparestep_birthdaycake_cream" name="Whip cream joyfulyy" />
-		<text id="preparestep_birthdaycake_eggs" name="Separate eggs laughing" />
-		<text id="preparestep_birthdaycake_flour" name="Sift flour celebrating" />
-		<text id="preparestep_chickennuggets_chicken" name="Cut chicken" />
-		<text id="preparestep_chickennuggets_flour" name="Coat in flour" />
-		<text id="preparestep_chickennuggets_oil" name="Heat oil" />
-		<text id="preparestep_lavenderlemoncake_beetroot" name="Make purple dye" />
-		<text id="preparestep_lavenderlemoncake_cream" name="Whip cream" />
-		<text id="preparestep_lavenderlemoncake_citrus" name="Slice lemons" />
-		<text id="preparestep_lavenderlemoncake_flour" name="Sift flour" />
-		<text id="preparestep_potatosoup_potato" name="Peel potatoes" />
-		<text id="preparestep_potatosoup_onion" name="Chop onion" />
-		<text id="preparestep_potatosoup_beetroot" name="Slice beetroot" />
-		<text id="preparestep_potatosoup_cream" name="Pour cream" />
-		<text id="preparestep_potatosoup_carrot" name="Dice carrots" />
-		<text id="preparestep_chocochipcake_cookies" name="Organize cookies" />
-		<text id="preparestep_chocochipcake_chocolate" name="Melt chocolate" />
-		<text id="preparestep_chocochipcake_flour" name="Sift flour" />
-		<text id="preparestep_chocochipcake_butter" name="Melt butter" />
-		<text id="preparestep_chocochipcake_eggs" name="Crack eggs" />
-		<text id="preparestep_cakewithtoy_flour" name="Sift flour" />
-		<text id="preparestep_cakewithtoy_whitechocolat" name="Dye chocolate" />
-		<text id="preparestep_cakewithtoy_cream" name="Whip cream" />
-		<text id="preparestep_goldencake_goldeneggs" name="Question egg investment" />
-		<text id="preparestep_goldencake_flour" name="Sift flour" />
-		<text id="preparestep_goldencake_cream" name="Whip cream" />
-		<text id="preparestep_tofusandwich_tofu" name="Slice tofu" />
-		<text id="preparestep_tofusandwich_tomato" name="Make ketchup" />
-		<text id="preparestep_tofusandwich_lettuce" name="Wash lettuce" />
-		<text id="preparestep_tofusandwich_flour" name="Sift flour" />
-		<text id="preparestep_tofusandwich_cream" name="Make sauce" />
-		<text id="preparestep_tofupizza_tofu" name="Slice tofu" />
-		<text id="preparestep_tofupizza_onion" name="Slice onion" />
-		<text id="preparestep_tofupizza_flour" name="Sift flour" />
-		<text id="preparestep_tofupizza_cream" name="Spread cream" />
-		<text id="preparestep_tofupizza_garlic" name="Make garlic sauce" />
-		<text id="preparestep_orangecheesecake_orange" name="Slice oranges" />
-		<text id="preparestep_orangecheesecake_cherries" name="Coat cherries" />
-		<text id="preparestep_orangecheesecake_quark" name="Mix quark" />
-		<text id="preparestep_orangecheesecake_sugar" name="Measure sugar" />
-		<text id="preparestep_goulash_onion" name="Chop onions" />
-		<text id="preparestep_goulash_meat" name="Cube meat" />
-		<text id="preparestep_goulash_ballpepper" name="Cut peppers" />
-		<text id="preparestep_goulash_potato" name="Peel potatoes" />
-		<text id="preparestep_goulash_tomato" name="Crush tomatoes" />
-		<text id="preparestep_extravagantmeal_orange" name="Slice oranges" />
-		<text id="preparestep_extravagantmeal_cocktailcherry" name="Position cherries" />
-		<text id="preparestep_extravagantmeal_goldeneggs" name="Fry golden eggs" />
-		<text id="preparestep_trendymeal_citrus" name="Slice lemons" />
-		<text id="preparestep_trendymeal_cherries" name="Position cherries" />
-		<text id="preparestep_trendymeal_eggs" name="Fry eggs" />
-		<text id="preparestep_instantnoodles_pasta" name="Break noodles" />
-		<text id="preparestep_sausagesoup_potato" name="Peel potatoes" />
-		<text id="preparestep_sausagesoup_onion" name="Chop onions" />
-		<text id="preparestep_sausagesoup_cream" name="Pour cream" />
-		<text id="preparestep_sausagesoup_sausages" name="Slice sausages" />
-		<text id="preparestep_sausagesoup_beans" name="Wash beans" />
-		<text id="preparestep_lemoncheesecake_citrus" name="Slice lemons" />
-		<text id="preparestep_lemoncheesecake_cherries" name="Position cherries" />
-		<text id="preparestep_lemoncheesecake_sugar" name="Measure sugar" />
-		<text id="preparestep_lemoncheesecake_quark" name="Mix quark" />
-		<text id="preparestep_tiramisu_eggs" name="Separate eggs" />
+		<text id="preparestep_chickenbiryani_potato" name="Couper les pommes de terre en dés" />
+		<text id="preparestep_cottagepotatoes_cream" name="Mélanger la crème" />
+		<text id="preparestep_cottagepotatoes_onion" name="Hacher les oignons" />
+		<text id="preparestep_cottagepotatoes_quark" name="Fouetter le fromage blanc" />
+		<text id="preparestep_cottagepotatoes_butter" name="Ajouter le beurre" />
+		<text id="preparestep_cottagepotatoes_potato" name="Faire cuire les pommes de terre" />
+		<text id="preparestep_cuzcuzcomovo_sweetcorn" name="Préparer la semoule de maïs" />
+		<text id="preparestep_cuzcuzcomovo_eggs" name="Casser les œufs" />
+		<text id="preparestep_cuzcuzcomovo_butter" name="Faire fondre le beurre" />
+		<text id="preparestep_malaichickennaan_chicken" name="Découper le poulet" />
+		<text id="preparestep_malaichickennaan_cream" name="Fouetter la crème" />
+		<text id="preparestep_malaichickennaan_garlic" name="Presser l’ail" />
+		<text id="preparestep_malaichickennaan_oil" name="Faire chauffer l’huile" />
+		<text id="preparestep_malaichickennaan_flour" name="Tamiser la farine" />
+		<text id="preparestep_veganplate_carrots" name="Éplucher les carottes" />
+		<text id="preparestep_veganplate_peas" name="Cuire les petits pois" />
+		<text id="preparestep_veganplate_cucumber" name="Trancher le concombre" />
+		<text id="preparestep_veganplate_tomato" name="Couper les tomates" />
+		<text id="preparestep_veganplate_rice" name="Cuire le riz" />
+		<text id="preparestep_neapolitancake_whitechocolat" name="Faire fondre le chocolat blanc" />
+		<text id="preparestep_neapolitancake_chocolate" name="Faire fondre le chocolat" />
+		<text id="preparestep_neapolitancake_strawberry" name="Écraser les fraises" />
+		<text id="preparestep_neapolitancake_flour" name="Tamiser la farine" />
+		<text id="preparestep_neapolitancake_milk" name="Verser le lait" />
+		<text id="preparestep_strawberrycheesecake_cream" name="Ajouter de la Crème" />
+		<text id="preparestep_strawberrycheesecake_milk" name="Ajouter du Lait" />
+		<text id="preparestep_strawberrycheesecake_cookies" name="Émietter les Biscuits" />
+		<text id="preparestep_strawberrycheesecake_quark" name="Ajouter du Fromage blanc" />
+		<text id="preparestep_strawberrycheesecake_strawberry" name="Ajouter des Fraises" />
+		<text id="preparestep_combomeal_flour" name="Préparer du pain express" />
+		<text id="preparestep_combomeal_mincemeat" name="Former des steaks hachés" />
+		<text id="preparestep_combomeal_cheese" name="Trancher le fromage" />
+		<text id="preparestep_combomeal_potato" name="Tailler les frites" />
+		<text id="preparestep_combomeal_oil" name="Ajouter beaucoup d’huile" />
+		<text id="preparestep_zcordonbleu_chicken" name="Aplatir le poulet" />
+		<text id="preparestep_zcordonbleu_flour" name="Tamiser la farine" />
+		<text id="preparestep_zcordonbleu_cheese" name="Trancher le fromage" />
+		<text id="preparestep_zcordonbleu_oil" name="Faire chauffer l’huile" />
+		<text id="preparestep_zcordonbleu_eggs" name="Battre les œufs" />
+		<text id="preparestep_brazilianpastel_flour" name="Préparer la pâte à pastel" />
+		<text id="preparestep_brazilianpastel_cheese" name="Râper le fromage" />
+		<text id="preparestep_brazilianpastel_oil" name="Faire chauffer l’huile" />
+		<text id="preparestep_brazilianpastel_sugar" name="Préparer une boisson à la canne à sucre" />
+		<text id="preparestep_lechonkawali_bacon" name="Trancher le bacon" />
+		<text id="preparestep_lechonkawali_cucumber" name="Trancher le concombre" />
+		<text id="preparestep_lechonkawali_garlic" name="Écraser l’ail" />
+		<text id="preparestep_lechonkawali_oil" name="Faire chauffer l’huile" />
+		<text id="preparestep_sweetpizza_flour" name="Préparer la pâte à pizza" />
+		<text id="preparestep_sweetpizza_chocolate" name="Faire fondre le chocolat" />
+		<text id="preparestep_sweetpizza_strawberry" name="Trancher les fraises" />
+		<text id="preparestep_sweetpizza_cookfest" name="Chercher des fruits" />
+		<text id="preparestep_shakshuka_onion" name="Hacher les oignons" />
+		<text id="preparestep_shakshuka_garlic" name="Écraser l’ail" />
+		<text id="preparestep_shakshuka_tomato" name="Hacher les tomates" />
+		<text id="preparestep_shakshuka_eggs" name="Casser les œufs" />
+		<text id="preparestep_matildacake_chocolate" name="Faire fondre beaucoup de chocolat" />
+		<text id="preparestep_matildacake_flour" name="Faire léviter la farine" />
+		<text id="preparestep_matildacake_cream" name="Ajouter la crème énergiquement" />
+		<text id="preparestep_matildacake_cocktailcherry" name="Ajouter les cerises" />
+		<text id="preparestep_birthdaycake_chocolate" name="Faire fondre le chocolat avec joie" />
+		<text id="preparestep_birthdaycake_cream" name="Fouetter la crème joyeusement" />
+		<text id="preparestep_birthdaycake_eggs" name="Séparer les œufs en riant" />
+		<text id="preparestep_birthdaycake_flour" name="Tamiser la farine pour fêter ça" />
+		<text id="preparestep_chickennuggets_chicken" name="Découper le poulet" />
+		<text id="preparestep_chickennuggets_flour" name="Enrober de farine" />
+		<text id="preparestep_chickennuggets_oil" name="Faire chauffer l’huile" />
+		<text id="preparestep_lavenderlemoncake_beetroot" name="Préparer du colorant violet" />
+		<text id="preparestep_lavenderlemoncake_cream" name="Fouetter la crème" />
+		<text id="preparestep_lavenderlemoncake_citrus" name="Trancher les citrons" />
+		<text id="preparestep_lavenderlemoncake_flour" name="Tamiser la farine" />
+		<text id="preparestep_potatosoup_potato" name="Éplucher les pommes de terre" />
+		<text id="preparestep_potatosoup_onion" name="Hacher l’oignon" />
+		<text id="preparestep_potatosoup_beetroot" name="Trancher la betterave" />
+		<text id="preparestep_potatosoup_cream" name="Verser la crème" />
+		<text id="preparestep_potatosoup_carrot" name="Couper les carottes en dés" />
+		<text id="preparestep_chocochipcake_cookies" name="Ranger les biscuits" />
+		<text id="preparestep_chocochipcake_chocolate" name="Faire fondre le chocolat" />
+		<text id="preparestep_chocochipcake_flour" name="Tamiser la farine" />
+		<text id="preparestep_chocochipcake_butter" name="Faire fondre le beurre" />
+		<text id="preparestep_chocochipcake_eggs" name="Casser les œufs" />
+		<text id="preparestep_cakewithtoy_flour" name="Tamiser la farine" />
+		<text id="preparestep_cakewithtoy_whitechocolat" name="Colorer le chocolat" />
+		<text id="preparestep_cakewithtoy_cream" name="Fouetter la crème" />
+		<text id="preparestep_goldencake_goldeneggs" name="Réfléchir à l’investissement en œufs" />
+		<text id="preparestep_goldencake_flour" name="Tamiser la farine" />
+		<text id="preparestep_goldencake_cream" name="Fouetter la crème" />
+		<text id="preparestep_tofusandwich_tofu" name="Trancher le tofu" />
+		<text id="preparestep_tofusandwich_tomato" name="Préparer du ketchup" />
+		<text id="preparestep_tofusandwich_lettuce" name="Laver la laitue" />
+		<text id="preparestep_tofusandwich_flour" name="Tamiser la farine" />
+		<text id="preparestep_tofusandwich_cream" name="Préparer de la sauce" />
+		<text id="preparestep_tofupizza_tofu" name="Trancher le tofu" />
+		<text id="preparestep_tofupizza_onion" name="Trancher l’oignon" />
+		<text id="preparestep_tofupizza_flour" name="Tamiser la farine" />
+		<text id="preparestep_tofupizza_cream" name="Étaler la crème" />
+		<text id="preparestep_tofupizza_garlic" name="Préparer de la sauce à l’ail" />
+		<text id="preparestep_orangecheesecake_orange" name="Trancher les oranges" />
+		<text id="preparestep_orangecheesecake_cherries" name="Enrober les cerises" />
+		<text id="preparestep_orangecheesecake_quark" name="Mélanger le fromage blanc" />
+		<text id="preparestep_orangecheesecake_sugar" name="Doser le sucre" />
+		<text id="preparestep_goulash_onion" name="Hacher les oignons" />
+		<text id="preparestep_goulash_meat" name="Couper la viande en dés" />
+		<text id="preparestep_goulash_ballpepper" name="Couper les poivrons" />
+		<text id="preparestep_goulash_potato" name="Éplucher les pommes de terre" />
+		<text id="preparestep_goulash_tomato" name="Écraser les tomates" />
+		<text id="preparestep_extravagantmeal_orange" name="Trancher les oranges" />
+		<text id="preparestep_extravagantmeal_cocktailcherry" name="Déposer les cerises" />
+		<text id="preparestep_extravagantmeal_goldeneggs" name="Faire frire les œufs dorés" />
+		<text id="preparestep_trendymeal_citrus" name="Trancher les citrons" />
+		<text id="preparestep_trendymeal_cherries" name="Déposer les cerises" />
+		<text id="preparestep_trendymeal_eggs" name="Faire frire les œufs" />
+		<text id="preparestep_instantnoodles_pasta" name="Casser les nouilles" />
+		<text id="preparestep_sausagesoup_potato" name="Éplucher les pommes de terre" />
+		<text id="preparestep_sausagesoup_onion" name="Hacher les oignons" />
+		<text id="preparestep_sausagesoup_cream" name="Verser la crème" />
+		<text id="preparestep_sausagesoup_sausages" name="Trancher les saucisses" />
+		<text id="preparestep_sausagesoup_beans" name="Laver les haricots" />
+		<text id="preparestep_lemoncheesecake_citrus" name="Trancher les citrons" />
+		<text id="preparestep_lemoncheesecake_cherries" name="Déposer les cerises" />
+		<text id="preparestep_lemoncheesecake_sugar" name="Doser le sucre" />
+		<text id="preparestep_lemoncheesecake_quark" name="Mélanger le fromage blanc" />
+		<text id="preparestep_tiramisu_eggs" name="Séparer les œufs" />
 		<text id="preparestep_chocolatecheesecake_chocolate" name="Morceler le chocolat" />
 		<text id="preparestep_chocolatecheesecake_cookies" name="Émietter les biscuits" />
 		<text id="preparestep_chocolatecheesecake_milk" name="Mesurer le lait" />
@@ -1583,7 +1583,7 @@
 		<text id="preparestep_sandwich_flour" name="Tamiser la farine" />
 		<text id="preparestep_sandwich_tomato" name="Couper les tomates" />
 		<text id="preparestep_scouse_beetroot" name="Couper les betteraves" />
-		<text id="preparestep_goldenomelette_goldeneggs" name="Count golden eggs" />
+		<text id="preparestep_goldenomelette_goldeneggs" name="Compter les œufs dorés" />
 		<text id="preparestep_scouse_cucumber" name="Faire mariner les concombres" />
 		<text id="preparestep_scouse_eggs" name="Frire les œufs au plat" />
 		<text id="preparestep_scouse_meat" name="Couper la viande" />
@@ -1605,7 +1605,7 @@
 		<text id="preparestep_steak_tomato" name="Couper les tomates" />
 		<text id="preparestep_stewedrhubarb_rhubarb" name="Couper la rhubarbe" />
 		<text id="preparestep_stewedrhubarb_sugar" name="Caraméliser le sucre" />
-		<text id="preparestep_pizza_sausages" name="Slice sausages" />
+		<text id="preparestep_pizza_sausages" name="Trancher les saucisses" />
 		<text id="preparestep_stew_meat" name="Couper la viande" />
 		<text id="preparestep_stew_oil" name="Chauffer l’huile" />
 		<text id="preparestep_stew_onion" name="Emincer les oignons" />
@@ -1660,7 +1660,7 @@
 		<text id="preparestep_veggielasagne_tomato" name="Écraser les tomates" />
 		<text id="preparestep_whitechoccheesecake_cookies" name="Émietter les biscuits" />
 		<text id="preparestep_whitechoccheesecake_cream" name="Fouetter la crème" />
-		<text id="preparestep_strawberrymousse_sugar" name="Measure sugar" />
+		<text id="preparestep_strawberrymousse_sugar" name="Doser le sucre" />
 		<text id="preparestep_whitechoccheesecake_milk" name="Chauffer le lait" />
 		<text id="preparestep_whitechoccheesecake_quark" name="Mélanger le fromage blanc" />
 		<text id="preparestep_whitechoccheesecake_whitechocolat" name="Peser le chocolat" />
@@ -1691,87 +1691,87 @@
 		<text id="preparestep_spanishomelette_potato" name="Éplucher les patates" />
 		<text id="preparestep_spanishomelette_onion" name="Découper les oignons" />
 		<text id="preparestep_spanishomelette_eggs" name="Casser les œufs en espagnol" />
-		<text id="preparestep_applepie_cream" name="Whip cream" />
-		<text id="preparestep_applepie_eggs" name="Crack eggs elegantly" />
-		<text id="preparestep_applepie_flour" name="Measure flour" />
-		<text id="preparestep_applepie_apple" name="Think about apple economy" />
-		<text id="preparestep_applepie_cinnamon" name="Add cinnamon" />
-		<text id="preparestep_ramen_pasta" name="Boil pasta" />
-		<text id="preparestep_ramen_eggs" name="Boil eggs" />
-		<text id="preparestep_ramen_bacon" name="Chop bacon" />
-		<text id="preparestep_ramen_chili" name="Make it spicy" />
-		<text id="preparestep_corncake_sweetcorn" name="Make cornflakes" />
-		<text id="preparestep_corncake_butter" name="Melt butter" />
-		<text id="preparestep_corncake_eggs" name="Mix eggs" />
-		<text id="preparestep_corncake_milk" name="Add milk" />
-		<text id="preparestep_corncake_sugar" name="Mix sugar in the dough" />
-		<text id="preparestep_corncake_cinnamon" name="Add cinnamon" />
-		<text id="preparestep_feijoada_beans" name="Boil beans" />
-		<text id="preparestep_feijoada_bacon" name="Chop bacon chunks" />
-		<text id="preparestep_feijoada_sausages" name="Cut sausages" />
-		<text id="preparestep_feijoada_onion" name="Chop onions" />
-		<text id="preparestep_feijoada_garlic" name="Toss garlic in" />
-		<text id="preparestep_pinksoup_beetroot" name="Slice beetroot" />
-		<text id="preparestep_pinksoup_cucumber" name="Slice cucumber" />
-		<text id="preparestep_pinksoup_onion" name="Chop onion" />
-		<text id="preparestep_pinksoup_potato" name="Peel potatoes" />
-		<text id="preparestep_borschtsch_beetroot" name="Slice beetroot" />
-		<text id="preparestep_borschtsch_cream" name="Pour cream" />
-		<text id="preparestep_borschtsch_meat" name="Cube meat" />
-		<text id="preparestep_borschtsch_potato" name="Peel potatoes" />
-		<text id="preparestep_borschtsch_onion" name="Chop onion" />
-		<text id="preparestep_feijoada_coriander" name="Add coriander" />
+		<text id="preparestep_applepie_cream" name="Fouetter la crème" />
+		<text id="preparestep_applepie_eggs" name="Casser les œufs avec élégance" />
+		<text id="preparestep_applepie_flour" name="Doser la farine" />
+		<text id="preparestep_applepie_apple" name="Réfléchir à l’économie de la pomme" />
+		<text id="preparestep_applepie_cinnamon" name="Ajouter la cannelle" />
+		<text id="preparestep_ramen_pasta" name="Faire cuire les pâtes" />
+		<text id="preparestep_ramen_eggs" name="Faire cuire les œufs" />
+		<text id="preparestep_ramen_bacon" name="Hacher le bacon" />
+		<text id="preparestep_ramen_chili" name="Relever le tout" />
+		<text id="preparestep_corncake_sweetcorn" name="Préparer des pétales de maïs" />
+		<text id="preparestep_corncake_butter" name="Faire fondre le beurre" />
+		<text id="preparestep_corncake_eggs" name="Mélanger les œufs" />
+		<text id="preparestep_corncake_milk" name="Ajouter du lait" />
+		<text id="preparestep_corncake_sugar" name="Mélanger le sucre à la pâte" />
+		<text id="preparestep_corncake_cinnamon" name="Ajouter la cannelle" />
+		<text id="preparestep_feijoada_beans" name="Faire cuire les haricots" />
+		<text id="preparestep_feijoada_bacon" name="Hacher les morceaux de bacon" />
+		<text id="preparestep_feijoada_sausages" name="Couper les saucisses" />
+		<text id="preparestep_feijoada_onion" name="Hacher les oignons" />
+		<text id="preparestep_feijoada_garlic" name="Ajouter l’ail" />
+		<text id="preparestep_pinksoup_beetroot" name="Trancher la betterave" />
+		<text id="preparestep_pinksoup_cucumber" name="Trancher le concombre" />
+		<text id="preparestep_pinksoup_onion" name="Hacher l’oignon" />
+		<text id="preparestep_pinksoup_potato" name="Éplucher les pommes de terre" />
+		<text id="preparestep_borschtsch_beetroot" name="Trancher la betterave" />
+		<text id="preparestep_borschtsch_cream" name="Verser la crème" />
+		<text id="preparestep_borschtsch_meat" name="Couper la viande en dés" />
+		<text id="preparestep_borschtsch_potato" name="Éplucher les pommes de terre" />
+		<text id="preparestep_borschtsch_onion" name="Hacher l’oignon" />
+		<text id="preparestep_feijoada_coriander" name="Ajouter de la coriandre" />
 	</preparestep>
 	<preparestep_fancy>
-		<text id="preparestep_duckalcitrus_cinnamon" name="Sprinkle cinnamon" />
-		<text id="preparestep_ducktatters_parsley" name="Chop parsley" />
-		<text id="preparestep_langos_parsley" name="Chop parsley" />
-		<text id="preparestep_nasilemak_chili" name="Chop chili" />
-		<text id="preparestep_citrusjuice_vanilla" name="Scrape out vanilla" />
-		<text id="preparestep_carrotcake_vanilla" name="Scrape out vanilla" />
-		<text id="preparestep_carrotjuice_vanilla" name="Scrape out vanilla" />
-		<text id="preparestep_francesinha_chili" name="Chop chili" />
-		<text id="preparestep_dorayaki_vanilla" name="Scrape out vanilla" />
-		<text id="preparestep_tiramisu_vanilla" name="Scrape out vanilla" />
-		<text id="preparestep_pridecupcakes_vanilla" name="Scrape out vanilla" />
-		<text id="preparestep_ratatouille_rosemary" name="Chop rosemary" />
-		<text id="preparestep_hotcherryricepudding_cinnamon" name="Sprinkle cinnamon" />
-		<text id="preparestep_coconutcake_vanilla" name="Scrape out vanilla" />
-		<text id="preparestep_fancy_coconutcake_vanilla" name="Scrape out vanilla" />
-		<text id="preparestep_paodequeijo_rosemary" name="Add rosemary" />
-		<text id="preparestep_baiaodedois_coriander" name="Chop coriander" />
-		<text id="preparestep_bakedalaska_vanilla" name="Add vanilla" />
-		<text id="preparestep_butterchicken_coriander" name="Chop coriander" />
-		<text id="preparestep_chickenbiryani_coriander" name="Add coriander" />
-		<text id="preparestep_cuzcuzcomovo_parsley" name="Chop parsley" />
-		<text id="preparestep_malaichickennaan_coriander" name="Chop coriander" />
-		<text id="preparestep_veganplate_parsley" name="Chop parsley" />
-		<text id="preparestep_neapolitancake_vanilla" name="Scrape out vanilla" />
-		<text id="preparestep_strawberrycheesecake_vanilla" name="Add Vanilla" />
-		<text id="preparestep_combomeal_chili" name="Make spicy sauce packets" />
-		<text id="preparestep_zcordonbleu_parsley" name="Chop parsley" />
-		<text id="preparestep_brazilianpastel_basil" name="Chop basil" />
-		<text id="preparestep_lechonkawali_rosemary" name="Chop rosemary" />
-		<text id="preparestep_sweetpizza_cinnamon" name="Sprinkle cinnamon" />
-		<text id="preparestep_shakshuka_parsley" name="Chop parsley" />
-		<text id="preparestep_matildacake_vanilla" name="Scrape out vanilla" />
-		<text id="preparestep_birthdaycake_vanilla" name="Ask how old is vanilla" />
-		<text id="preparestep_chickennuggets_coriander" name="Chop coriander" />
-		<text id="preparestep_lavenderlemoncake_vanilla" name="Add vanilla" />
-		<text id="preparestep_potatosoup_chili" name="Chop chili" />
-		<text id="preparestep_chocochipcake_vanilla" name="Add vanilla" />
-		<text id="preparestep_cakewithtoy_nutmeg" name="Grate nutmeg" />
-		<text id="preparestep_goldencake_nutmeg" name="Grate nutmeg" />
-		<text id="preparestep_tofusandwich_parsley" name="Chop parsley" />
-		<text id="preparestep_tofupizza_parsley" name="Chop parsley" />
-		<text id="preparestep_orangecheesecake_vanilla" name="Scrape out vanilla" />
-		<text id="preparestep_goulash_chili" name="Chop chili" />
-		<text id="preparestep_extravagantmeal_coriander" name="Chop coriander" />
-		<text id="preparestep_trendymeal_coriander" name="Chop coriander" />
-		<text id="preparestep_instantnoodles_coriander" name="Chop coriander" />
-		<text id="preparestep_sausagesoup_parsley" name="Chop parsley" />
-		<text id="preparestep_lemoncheesecake_vanilla" name="Scrape out vanilla" />
-		<text id="preparestep_cottagepotatoes_parsley" name="Chop parsley" />
+		<text id="preparestep_duckalcitrus_cinnamon" name="Saupoudrer de cannelle" />
+		<text id="preparestep_ducktatters_parsley" name="Hacher le persil" />
+		<text id="preparestep_langos_parsley" name="Hacher le persil" />
+		<text id="preparestep_nasilemak_chili" name="Hacher le piment" />
+		<text id="preparestep_citrusjuice_vanilla" name="Gratter la gousse de vanille" />
+		<text id="preparestep_carrotcake_vanilla" name="Gratter la gousse de vanille" />
+		<text id="preparestep_carrotjuice_vanilla" name="Gratter la gousse de vanille" />
+		<text id="preparestep_francesinha_chili" name="Hacher le piment" />
+		<text id="preparestep_dorayaki_vanilla" name="Gratter la gousse de vanille" />
+		<text id="preparestep_tiramisu_vanilla" name="Gratter la gousse de vanille" />
+		<text id="preparestep_pridecupcakes_vanilla" name="Gratter la gousse de vanille" />
+		<text id="preparestep_ratatouille_rosemary" name="Hacher le romarin" />
+		<text id="preparestep_hotcherryricepudding_cinnamon" name="Saupoudrer de cannelle" />
+		<text id="preparestep_coconutcake_vanilla" name="Gratter la gousse de vanille" />
+		<text id="preparestep_fancy_coconutcake_vanilla" name="Gratter la gousse de vanille" />
+		<text id="preparestep_paodequeijo_rosemary" name="Ajouter du romarin" />
+		<text id="preparestep_baiaodedois_coriander" name="Hacher la coriandre" />
+		<text id="preparestep_bakedalaska_vanilla" name="Ajouter de la vanille" />
+		<text id="preparestep_butterchicken_coriander" name="Hacher la coriandre" />
+		<text id="preparestep_chickenbiryani_coriander" name="Ajouter de la coriandre" />
+		<text id="preparestep_cuzcuzcomovo_parsley" name="Hacher le persil" />
+		<text id="preparestep_malaichickennaan_coriander" name="Hacher la coriandre" />
+		<text id="preparestep_veganplate_parsley" name="Hacher le persil" />
+		<text id="preparestep_neapolitancake_vanilla" name="Gratter la gousse de vanille" />
+		<text id="preparestep_strawberrycheesecake_vanilla" name="Ajouter de la Vanille" />
+		<text id="preparestep_combomeal_chili" name="Préparer des sachets de sauce piquante" />
+		<text id="preparestep_zcordonbleu_parsley" name="Hacher le persil" />
+		<text id="preparestep_brazilianpastel_basil" name="Hacher le basilic" />
+		<text id="preparestep_lechonkawali_rosemary" name="Hacher le romarin" />
+		<text id="preparestep_sweetpizza_cinnamon" name="Saupoudrer de cannelle" />
+		<text id="preparestep_shakshuka_parsley" name="Hacher le persil" />
+		<text id="preparestep_matildacake_vanilla" name="Gratter la gousse de vanille" />
+		<text id="preparestep_birthdaycake_vanilla" name="Demander l’âge de la vanille" />
+		<text id="preparestep_chickennuggets_coriander" name="Hacher la coriandre" />
+		<text id="preparestep_lavenderlemoncake_vanilla" name="Ajouter de la vanille" />
+		<text id="preparestep_potatosoup_chili" name="Hacher le piment" />
+		<text id="preparestep_chocochipcake_vanilla" name="Ajouter de la vanille" />
+		<text id="preparestep_cakewithtoy_nutmeg" name="Râper la noix de muscade" />
+		<text id="preparestep_goldencake_nutmeg" name="Râper la noix de muscade" />
+		<text id="preparestep_tofusandwich_parsley" name="Hacher le persil" />
+		<text id="preparestep_tofupizza_parsley" name="Hacher le persil" />
+		<text id="preparestep_orangecheesecake_vanilla" name="Gratter la gousse de vanille" />
+		<text id="preparestep_goulash_chili" name="Hacher le piment" />
+		<text id="preparestep_extravagantmeal_coriander" name="Hacher la coriandre" />
+		<text id="preparestep_trendymeal_coriander" name="Hacher la coriandre" />
+		<text id="preparestep_instantnoodles_coriander" name="Hacher la coriandre" />
+		<text id="preparestep_sausagesoup_parsley" name="Hacher le persil" />
+		<text id="preparestep_lemoncheesecake_vanilla" name="Gratter la gousse de vanille" />
+		<text id="preparestep_cottagepotatoes_parsley" name="Hacher le persil" />
 		<text id="preparestep_bananasplit_vanilla" name="Ecosser la vanille" />
 		<text id="preparestep_blackforestcherrycake_vanilla" name="Écosser la vanille" />
 		<text id="preparestep_cheeseburger_chili" name="Couper le chili" />
@@ -1815,7 +1815,7 @@
 		<text id="preparestep_newyorkcheesecake_vanilla" name="Ecosser la vanille" />
 		<text id="preparestep_noodlesalad_parsley" name="Hacher le persil" />
 		<text id="preparestep_omelette_chili" name="Hacher les piments" />
-		<text id="preparestep_goldenomelette_nutmeg" name="Grate nutmeg" />
+		<text id="preparestep_goldenomelette_nutmeg" name="Râper la noix de muscade" />
 		<text id="preparestep_onionsoup_chili" name="Couper le chili" />
 		<text id="preparestep_peasoup_parsley" name="Hacher le persil" />
 		<text id="preparestep_pizzahawaii_chili" name="Hacher les piments" />
@@ -1850,8 +1850,8 @@
 		<text id="preparestep_veggielasagne_basil" name="Effeuiller le basilic" />
 		<text id="preparestep_whitechoccheesecake_vanilla" name="Ecosser la vanille" />
 		<text id="preparestep_whitechocmousse_vanilla" name="Écosser la vanille" />
-		<text id="preparestep_pinksoup_parsley" name="Chop parsley" />
-		<text id="preparestep_borschtsch_parsley" name="Chop parsley" />
+		<text id="preparestep_pinksoup_parsley" name="Hacher le persil" />
+		<text id="preparestep_borschtsch_parsley" name="Hacher le persil" />
 		<text id="preparestep_pizzasalad_chili" name="Couper le chili" />
 	</preparestep_fancy>
 	<recipe>
@@ -1965,14 +1965,14 @@
 		<text id="recipe_redberrycompote" name="Compote de fruits rouges" />
 		<text id="recipe_ricepudding" name="Riz au lait avec de la compote de pommes" />
 		<text id="recipe_roastchicken" name="Poulet rôti" />
-		<text id="recipe_goldenomelette" name="Golden Omelette" />
+		<text id="recipe_goldenomelette" name="Omelette dorée" />
 		<text id="recipe_sandwich" name="Sandwich" />
 		<text id="recipe_sausagepasta" name="Pâtes à la saucisse" />
 		<text id="recipe_scouse" name="Corned-beef" />
 		<text id="recipe_spagetti" name="Spaghettis à la bolognaise" />
 		<text id="recipe_spareribs" name="Travers de porc mariné" />
 		<text id="recipe_steak" name="Menu des Steak" />
-		<text id="recipe_steakkidneypie" name="Steak and Kidney Pie" />
+		<text id="recipe_steakkidneypie" name="Tourte au steak et aux rognons" />
 		<text id="recipe_stewedrhubarb" name="Compote de rhubarbe" />
 		<text id="recipe_strawberrycake" name="Gâteau aux fraises" />
 		<text id="recipe_strawberrymousse" name="Mousse de fraises" />
@@ -2010,9 +2010,9 @@
 		<text id="recipe_smoothiemaker_icedcoffee" name="Café glacé" />
 		<text id="recipe_smoothiemaker_kiba" name="Smoothie banane-cerise" />
 		<text id="recipe_smoothiemaker_cola" name="Cappu-Cola" />
-		<text id="recipe_smoothiemaker_acai" name="Açaí Smoothie" />
+		<text id="recipe_smoothiemaker_acai" name="Smoothie à l’açaï" />
 		<text id="recipe_smoothiemaker_orangesoda" name="Funta" />
-		<text id="recipe_smoothiemaker_guarana" name="Brazilian Guaraná" />
+		<text id="recipe_smoothiemaker_guarana" name="Guaraná brésilien" />
 		<text id="recipe_smoothiemaker_pinacolada" name="Piña Colada" />
 		<text id="recipe_smoothiemaker_tomatojuice" name="Jus de tomate" />
 		<text id="recipe_smoothiemaker_swimmingpool" name="Swimming Pool" />
