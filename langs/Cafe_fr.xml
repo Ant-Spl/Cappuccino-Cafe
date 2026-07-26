@@ -55,7 +55,7 @@
 		<text id="alert_dekoshop_humanwaiter_title" name="Impossible !" />
 		<text id="alert_dekoshop_kickplayer_copy" name="Il y a encore des joueurs dans ton café. Si tu veux rénover maintenant, il faut les mettre à la porte" />
 		<text id="alert_dekoshop_kickplayer_title" name="Attention !" />
-		<text id="alert_FancyCooking_copy" name="Est ce que tu veux épicer ton plat avec cet ingrédient de luxe et gagner {0} more XP et {1} plus de portions ?" />
+		<text id="alert_FancyCooking_copy" name="Veux-tu assaisonner ton plat avec cet ingrédient de luxe et gagner {0} XP supplémentaires et {1} portions en plus ?" />
 		<text id="alert_FancyCooking_title" name="Ingrédients Fancy" />
 		<text id="alert_fancyinfo_copy" name="Tu peux assaisonner un plat avec les ingrédient Fancy, et gagner jusqu’á 20% de XP et de portions en plus. Les ingrédiants Fancy ne prennent aucune place dans ton frigo." />
 		<text id="alert_fancyinfo_title" name="Ingrédients Fancy" />
@@ -907,7 +907,7 @@
 		<text id="fullscreenerror_msg_copy" name="La fonction plein écran n’est pas disponible." />
 		<text id="fullscreenerror_msg_title" name="Plein écran" />
 		<text id="gift_error" name="Impossible !" />
-		<text id="gift_errorcode_20" name="Tu n’as pas de plan de travail libre pour serving ce plat." />
+		<text id="gift_errorcode_20" name="Tu n’as pas de plan de travail libre pour servir ce plat." />
 		<text id="gift_errorcode_40" name="Tu n’as pas assez de place dans ton frigo pour les ingrédients." />
 		<text id="gift_errorcode_5" name="Cette action ne peut être réaliser. Le cadeau est inconnu." />
 		<text id="invitefriend_error" name="Hélas l’invitation est annulée" />
