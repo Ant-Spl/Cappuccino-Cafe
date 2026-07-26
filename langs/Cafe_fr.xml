@@ -1284,7 +1284,7 @@
 		<text id="preparestep_ratatouille_cream" name="Mélanger la crème" />
 		<text id="preparestep_ratatouille_oil" name="Doser l’huile" />
 		<text id="preparestep_hotcherryricepudding_rice" name="Peser le riz" />
-		<text id="preparestep_hotcherryricepudding_cherries" name="Pit cherries" />
+		<text id="preparestep_hotcherryricepudding_cherries" name="Dénoyauter les cerises" />
 		<text id="preparestep_hotcherryricepudding_sugar" name="Doser le sucre" />
 		<text id="preparestep_hotcherryricepudding_milk" name="Doser le lait" />
 		<text id="preparestep_coconutcake_flour" name="Tamiser la farine" />
@@ -1312,7 +1312,7 @@
 		<text id="preparestep_chickenbiryani_tomato" name="Hacher les tomates" />
 		<text id="preparestep_chickenbiryani_onion" name="Hacher les oignons" />
 		<text id="preparestep_chickenbiryani_rice" name="Cuire le riz" />
-		<text id="preparestep_chickenbiryani_chicken" name="Sauté chicken" />
+		<text id="preparestep_chickenbiryani_chicken" name="Faire sauter le poulet" />
 		<text id="preparestep_chickenbiryani_potato" name="Couper les pommes de terre en dés" />
 		<text id="preparestep_cottagepotatoes_cream" name="Mélanger la crème" />
 		<text id="preparestep_cottagepotatoes_onion" name="Hacher les oignons" />
@@ -2068,7 +2068,7 @@
 		<text id="tt_Basic_Achievement_Overcookedfoods" name="Nombre de plats perdus" />
 		<text id="tt_Basic_Achievement_Servingcountmeals" name="Nombre de plats principaux cuisinés" />
 		<text id="tt_Basic_Achievement_Servingcountsalads" name="Nombre de salades cuisinées" />
-		<text id="tt_Basic_Achievement_Servingcountsnacks" name="Nombre de snacks cuisinés" />
+		<text id="tt_Basic_Achievement_Servingcountsnacks" name="Nombre de collations cuisinés" />
 		<text id="tt_Basic_Achievement_Servingcountsoups" name="Nombre de soupes cuisinées" />
 		<text id="tt_Basic_Achievement_Servingcountsweets" name="Nombre de desserts cuisinés" />
 		<text id="tt_Basic_Achievement_Servingcountvegans" name="Nombre de plats principaux végétariens cuisinés" />
@@ -2097,13 +2097,13 @@
 		<text id="tt_CafeClearStoveDialog_btn_instantcook" name="Préparation instantanée" />
 		<text id="tt_CafeClearStoveDialog_btn_instantcook_na" name="Aujourd’hui tu ne peux plus cuisiner de plats instantanés" />
 		<text id="tt_CafeClearStoveDialog_instantButton" name="Préparation instantanée" />
-		<text id="tt_CafeIngredientShopDialog_btn_bulkCappuccino" name="Bulk purchase" />
+		<text id="tt_CafeIngredientShopDialog_btn_bulkCappuccino" name="Achat en gros" />
 		<text id="tt_CafeCookBookDialog_0" name="Desserts" />
 		<text id="tt_CafeCookBookDialog_1" name="Plat principal" />
 		<text id="tt_CafeCookBookDialog_2" name="Soupes" />
 		<text id="tt_CafeCookBookDialog_3" name="Salade" />
 		<text id="tt_CafeCookBookDialog_4" name="Végétariens" />
-		<text id="tt_CafeCookBookDialog_5" name="Snacks" />
+		<text id="tt_CafeCookBookDialog_5" name="Collations" />
 		<text id="tt_CafeCookBookDialog_btn_cook" name="Cuisiner" />
 		<text id="tt_CafeCookBookDialog_btn_cook_disabled" name="Des ingrédients te manquent" />
 		<text id="tt_CafeCookBookDialog_btn_mastery" name="Plus que {0} jusqu’au niveau-étoile {1} Clique sur détails" />
