@@ -453,6 +453,10 @@ Se você estocá-la, as porções existentes serão perdidas!" />
 		<text id="cookstep_pinksoup2" name="Esfriando sopa" />
 		<text id="cookstep_borschtsch1" name="Cozinhando carne" />
 		<text id="cookstep_borschtsch2" name="Mexendo sopa" />
+		<text id="cookstep_strawberrysalad1" name="Mixing ingredients" />
+		<text id="cookstep_strawberrysalad2" name="Stacking salad" />
+		<text id="cookstep_fishnoodlesalad1" name="Boiling noodles" />
+		<text id="cookstep_fishnoodlesalad2" name="Adding fish bits" />
 	</cookstep>
 	<coopmission>
 		<text id="coop_desc_long_1" name="Nós oferemos um curso de culinária para aperfeiçoar alguns pratos. Você gostaria de participar?" />
@@ -1737,6 +1741,13 @@ Apenas disponível por tempo limitado!" />
 		<text id="preparestep_borschtsch_meat" name="Cortar carne" />
 		<text id="preparestep_borschtsch_potato" name="Descascar batatas" />
 		<text id="preparestep_borschtsch_onion" name="Picar cebola" />
+		<text id="preparestep_strawberrysalad_strawberry" name="Slice strawberries" />
+		<text id="preparestep_strawberrysalad_lettuce" name="Wash lettuce" />
+		<text id="preparestep_strawberrysalad_oil" name="Spread olive oil" />
+		<text id="preparestep_fishnoodlesalad_fish" name="Cut fish" />
+		<text id="preparestep_fishnoodlesalad_oil" name="Heat oil" />
+		<text id="preparestep_fishnoodlesalad_pasta" name="Boil pasta" />
+		<text id="preparestep_fishnoodlesalad_garlic" name="Chop garlic" />
 	</preparestep>
 	<preparestep_fancy>
 		<text id="preparestep_duckalcitrus_cinnamon" name="Moer canela" />
@@ -1868,6 +1879,8 @@ Apenas disponível por tempo limitado!" />
 		<text id="preparestep_whitechoccheesecake_vanilla" name="Raspar baunilha" />
 		<text id="preparestep_pinksoup_parsley" name="Picar salsinha" />
 		<text id="preparestep_borschtsch_parsley" name="Picar salsinha" />
+		<text id="preparestep_strawberrysalad_basil" name="Add basil leaves" />
+		<text id="preparestep_fishnoodlesalad_coriander" name="Chop coriander" />
 		<text id="preparestep_whitechocmousse_vanilla" name="Raspar baunilha" />
 	</preparestep_fancy>
 	<recipe>
@@ -2017,6 +2030,8 @@ Apenas disponível por tempo limitado!" />
 		<text id="recipe_whitechocmousse" name="Mousse de Chocolate Branco" />
 		<text id="recipe_pinksoup" name="Sopa de Beterraba Fria" />
 		<text id="recipe_borschtsch" name="Sopa Borscht" />
+		<text id="recipe_strawberrysalad" name="Strawberry Salad" />
+		<text id="recipe_fishnoodlesalad" name="Fish Noodle Salad" />
 	</recipe>
 	<recipes_fastfood>
 		<text id="recipe_smoothiemaker_greensmoothie" name="Batida Verde" />
