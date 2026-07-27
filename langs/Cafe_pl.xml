@@ -451,138 +451,142 @@
 		<text id="cookstep_pinksoup2" name="Simmering pink soup" />
 		<text id="cookstep_borschtsch1" name="Cooking beetroot" />
 		<text id="cookstep_borschtsch2" name="Finishing borschtsch" />
+		<text id="cookstep_strawberrysalad1" name="Mixing ingredients" />
+		<text id="cookstep_strawberrysalad2" name="Stacking salad" />
+		<text id="cookstep_fishnoodlesalad1" name="Boiling noodles" />
+		<text id="cookstep_fishnoodlesalad2" name="Adding fish bits" />
 	</cookstep>
 	<coopmission>
-    <text id="coop_title_1" name="NAUKA GOTOWANIA" />
-    <text id="coop_desc_short_1" name="Zostań mistrzem spaghetti!" />
-    <text id="coop_desc_long_1" name="Zaczynamy lekcję gotowania, żeby ulepszyć nasze dania, chcesz dołączyć?" />
-    <text id="coop_title_2" name="TEKSAŃSKA NOC" />
-    <text id="coop_desc_short_2" name="Fiesta Mexicana trwa w najlepsze!" />
-    <text id="coop_desc_long_2" name="Planuję imprezę w stylu meksykańskim. Potrzebuję  dużo meksykańskiego jedzenia, pomożesz mi?" />
-    <text id="coop_title_3" name="HANZEATYCKI WIECZÓR" />
-    <text id="coop_desc_short_3" name="Gotujemy skuz dla naszych hanzeatyckich gości!" />
-    <text id="coop_desc_long_3" name="Klub sportowy z Hamburga przyjeżdża w odwiedziny i chcielibyśmy, żeby poczuli się jak w domu. Potrzebuję kogoś, kto zna prawdziwą, hanzeatycką kuchnię. Chciałbyś pomóc?" />
-    <text id="coop_title_4" name="IMPREZA OGRODOWA" />
-    <text id="coop_desc_short_4" name="Tosty Hawajskie na grilla ogrodowego, kolego!" />
-    <text id="coop_desc_long_4" name="Chcę zaprosić mnóstwo ludzi na imprezę w ogródku, więc potrzebuję mnóstwo jedzenia. Słyszałem, że jesteś mistrzem cateringu. Mogę liczyć na pomoc?" />
-    <text id="coop_title_5" name="NA NARTY" />
-    <text id="coop_desc_short_5" name="Zabieramy czekoladę prosto na górę sera!" />
-    <text id="coop_desc_long_5" name="Stok narciarski na obrzeżach miast ma imprezę i potrzebuje trochę jedzenia. Mógłbyś im pomóc?" />
-    <text id="coop_title_6" name="UROCZYSTY OBIAD" />
-    <text id="coop_desc_short_6" name="Mnóstwo Mousse au chocolat!" />
-    <text id="coop_desc_long_6" name="Mój szef przyjeżdża na obiad I naprawdę chce go zaskoczyć czterodaniowym obiadem... Zajmiesz się tym?" />
-    <text id="coop_title_7" name=" ŻADNEGO JEDZENIA ZE STOŁÓWKI SZKOLNEJ!" />
-    <text id="coop_desc_short_7" name="Dzisiaj edukujemy nasze kubki smakowe!" />
-    <text id="coop_desc_long_7" name="Szkoła spłonęła i dzieciaki nie mają co jeść! Pomożesz ugotować im coś smacznego?" />
-    <text id="coop_title_8" name="IMPREZKA URODZINOWA" />
-    <text id="coop_desc_short_8" name="Upiecz pizzę i spółkę na imprezę urodzinową." />
-    <text id="coop_desc_long_8" name="Moja najlepsza przyjaciółka robi wielką bibę urodzinową i zapomniała o jedzeniu. Ma być naprawdę dużo ludzi... Pomocy?" />
-    <text id="coop_title_9" name="WŁOSKI BUFET" />
-    <text id="coop_desc_short_9" name="Pizza! Makaron! Koniec!" />
-    <text id="coop_desc_long_9" name="Na wiosce jest imprezka w stylu włoskim, brakuje tylko jedzenia. Jak stoisz z gotowaniem?" />
-    <text id="coop_title_10" name="MAMY ŚWIĘTA!" />
-    <text id="coop_desc_short_10" name="Jedz pod korek!" />
-    <text id="coop_desc_long_10" name="Twoja rodzina przyjeżdża na święta i zostałeś wybrany jako kucharz, powodzenia!" />
-    <text id="coop_title_11" name="CIASTOWA BITWA!" />
-    <text id="coop_desc_short_11" name="Każde trafienie się liczy!" />
-    <text id="coop_desc_long_11" name="Nadchodzi bitwa na ciasta, każdy kawałek się liczy… Pomóż nam z pieczeniem." />
-    <text id="coop_title_12" name="ZUPNY SPECJALISTA" />
-    <text id="coop_desc_short_12" name="Nie ma jak zupa!" />
-    <text id="coop_desc_long_12" name="Stołówka dla potrzebujących w naszym mieście potrzebuje dużej ilości zup. Ugotujesz kilka, które wszyscy lubią?" />
-    <text id="coop_title_13" name="TYLKO AZJATYCKIE" />
-    <text id="coop_desc_short_13" name="Zawsze dodaj troszkę ryżu!" />
-    <text id="coop_desc_long_13" name="Na imprezę w temacie azjatyckim potrzebujemy trochę dań. Znasz jakieś przepisy, które zrobią nam wieczór?" />
-    <text id="coop_title_14" name="ROBI SIĘ MASNO!" />
-    <text id="coop_desc_short_14" name="Mięso i ziemniaki, to co lubimy!" />
-    <text id="coop_desc_long_14" name="Zaczyna się światowa konferencja siłaczy i potrzebujemy porządnych potraw. Mamy coś dla prawdziwych mężczyzn?" />
-    <text id="coop_title_15" name="BARDZO BRYTYJSKO!" />
-    <text id="coop_desc_short_15" name="Wszystko dla Brytyjczyka!" />
-    <text id="coop_desc_long_15" name="Będziemy mieli gości z Wielkiej Brytanii i potrzebujemy ich lokalnej kuchni. Przyrządzisz coś?" />
-    <text id="coop_title_16" name="RANNA TABAKA!" />
-    <text id="coop_desc_short_16" name="Dobrze zacznij dzień!" />
-    <text id="coop_desc_long_16" name="Szef kuchni cupcakekittycat8 organizuje śniadanie na rynku. Dorzucisz coś od siebie?" />
-    <text id="coop_title_17" name="DESERY PO OBIEDZIE" />
-    <text id="coop_desc_short_17" name="Słodkiego się chce, co?" />
-    <text id="coop_desc_long_17" name="Szef Gabriel zrobił słony lunch i goście pragną słodyczy! Pomóż i osłódź im dzień!" />
-    <text id="coop_title_18" name="PRZYJEŻDŻA KRYTYK!" />
-    <text id="coop_desc_short_18" name="Gotuj by zachwycić!" />
-    <text id="coop_desc_long_18" name="Szef kuchni cupcakekittycat8 zaprosił krytyka kulinarnego, by pochwalić się daniami! Czas gotować!" />
-    <text id="coop_title_19" name="LAN PARTY!" />
-    <text id="coop_desc_short_19" name="Niezdrowe jedzenie do gierek!" />
-    <text id="coop_desc_long_19" name="Szef Surfguiger5 zapisał się na Lan Party i zobowiązał, że weźmie żarcie. Uczestnicy chcą tego dużo, pomóż trochę!" />
-    <text id="coop_title_20" name="DRIVE THRU PÓŹNĄ NOCĄ" />
-    <text id="coop_desc_short_20" name="Szybki obiad na długi dzień!" />
-    <text id="coop_desc_long_20" name="Szef Patawka otworzyła Drive Thru i podzieli się zyskiem, jeśli ktoś pomoże. Dawajcie!" />
-    <text id="coop_title_21" name="TYLKO ZDROWE JEDZENIE!" />
-    <text id="coop_desc_short_21" name="Czas się zdrowo odżywić!" />
-    <text id="coop_desc_long_21" name="Szef kuchni Surfguiger5 oszalał na punkcie Potrójnych Omletów i boi się, że przytyje. Ugotuj zdrowe jedzenie i udowodnij, że prowadzisz zdrową restaurację!" />
-    <text id="coop_title_22" name="HOTELOWY BRUNCH" />
-    <text id="coop_desc_short_22" name="Szybki gryz?" />
-    <text id="coop_desc_long_22" name="Szef Surfguiger5 został poproszony o przygotowanie późnego śniadania przez lokalny hotel. Niestety, ale zepsuły mu się kuchenki i zostałeś wytypowany do pomocy." />
-    <text id="coop_title_23" name="PO BRAZYLIJSKU" />
-    <text id="coop_desc_short_23" name="Poznaj co ma do zaoferowania Brazylia!" />
-    <text id="coop_desc_long_23" name="Szef Surfguiger5 chce, aby każdy spróbował jedzenia z Brazylii. Ugotuj je!" />
-    <text id="coop_title_24" name="LICZYMY WĘGLOWODANY" />
-    <text id="coop_desc_short_24" name="Odnawiamy energię!" />
-    <text id="coop_desc_long_24" name="lokalna siłownia poprosiła szefową kuchni  Artemis żeby zrobiła dużo bogatych w węglowodany dań, aby klienci mieli energię. Dorzuć swoją cegiełkę!" />
-    <text id="coop_title_25" name="ŚLUBNA DEGUSTACJA" />
-    <text id="coop_desc_short_25" name="Będzie ślub!" />
-    <text id="coop_desc_long_25" name="Szef Kvmxl ogłosił ślub Panny z Kafejki i Mafinkowego Pana! Podobno mają dużo zapłacić jeśli jakaś kafejka ma dobre jedzenie. Sprawdzimy, czy plotki są prawdą?" />
-    <text id="coop_title_26" name="BUFET OBIADOWY" />
-    <text id="coop_desc_short_26" name="Wcinaj!" />
-    <text id="coop_desc_long_26" name="Szefowa Cupcakekittycat8 chciałaby obiad z dużą ilością dań. Dawaj!!" />
-    <text id="coop_title_27" name="OISH-SOME" />
-    <text id="coop_desc_short_27" name="Wspaniale!" />
-    <text id="coop_desc_long_27" name="Szef Nao chce podać jedzenie na konwent anime mający miejsce w restauracji obok. Wyciągnij pomocną dłoń!" />
-    <text id="coop_title_28" name="KAKAOWE WYZNANIE" />
-    <text id="coop_desc_short_28" name="Prawdziwą miłością jest czekolada!" />
-    <text id="coop_desc_long_28" name="Szef Nao chce spopularyzować dania z czekoladą w sąsiedztwie i zapłaci za pomoc.. Czemu by mu nie pomóc?" />
-    <text id="coop_title_31" name="FESTIWAL CURRY" />
-    <text id="coop_desc_short_31" name="Jest opcja dla każdego!" />
-    <text id="coop_desc_long_31" name="Lokalna restauracja indyjska chce każdemu rozdać trochę curry. Pomożesz im z tym?" />
-    <text id="coop_title_30" name="MYSZKA W KUCHNI!" />
-    <text id="coop_desc_short_30" name="Nie pozwól nikomu zobaczyć!" />
-    <text id="coop_desc_long_30" name="Mysz biega ci po restauracji i żąda dobrego jedzenia albo zniszczy ci renomę! Coś mi to przypomina…" />
-    <text id="coop_title_32" name="BRAZYLIA I PORTUGALIA" />
-    <text id="coop_desc_short_32" name="Zintegrujmy się poprzez jedzenie!" />
-    <text id="coop_desc_long_32" name="Odbywa się międzynarodowe wydarzenie, ale Brazylijczycy i Portugalczycy troszkę za bardzo tęsknią za domem. Ugotuj im tradycyjne jedzenie, żeby poczuli się lepiej!" />
-    <text id="coop_title_33" name="WYBÓR DEWELOPERÓW!" />
-    <text id="coop_desc_short_33" name="Paliwo do rozwoju gry!" />
-    <text id="coop_desc_long_33" name="Szef Gab potrzebuje dużo swojego ulubionego jedzenia, żeby serwery wciąż stały! Pomocy!" />
-    <text id="coop_title_34" name="MUSOWA BITWA!" />
-    <text id="coop_desc_short_34" name="Który jest najlepszy?" />
-    <text id="coop_desc_long_34" name="Szefowie kuchni z całego świata walczą by się przekonać czyj mus jest po prostu najlepszy. Zrób je wszystkie i sam się przekonaj!" />
-    <text id="coop_title_35" name="RODZINNA WYŻERKA" />
-    <text id="coop_desc_short_35" name="Jejku, ile gości!!" />
-    <text id="coop_desc_long_35" name="Cała twoja rodzina, ich przyjaciele, twoi przyjaciele i ich rodzina przychodzą do Ciebie świętować sukces twojej restauracji. Niech będą dumni!" />
-    <text id="coop_title_36" name="POTRZEBUJEMY MNÓSTWO JAJEK!" />
-    <text id="coop_desc_short_36" name="Serio jajko było pierwsze?" />
-    <text id="coop_desc_long_36" name="Szef kuchni Myleeek prowadzi badania - jajko było pierwsze? A może kura? Ugotuj dania jajeczne, żeby zebrać informacje!" />
-    <text id="coop_title_37" name="OGROMNY BŁĄD!" />
-    <text id="coop_desc_short_37" name="Ser rządzi wszystkim!" />
-    <text id="coop_desc_long_37" name="Szefowa Cupcakekittycat8 został zatrudniona, żeby przygotować jedzenie na urodziny pewnej myszy. Niestety, użyła tofu zamiast sera i myszy są wściekłe! Zrobisz serowe jedzonko, żeby je udobruchać?" />
-    <text id="coop_title_38" name="FESTIWAL BURGERÓW" />
-    <text id="coop_desc_short_38" name="Klasyczny smak na spotkanie!" />
-    <text id="coop_desc_long_38" name="Szef Franskmayn będzie serwował burgery na rynku. Też trochę zrób, żeby dostać swoją część kasy!" />
-    <text id="coop_title_39" name="SŁODKA JAK TRUSKAWECZKA!" />
-    <text id="coop_desc_short_39" name="Owocne zbiory!" />
-    <text id="coop_desc_long_39" name="Zbiory truskawek były naprawdę owocne i Szef Gabriel chce się ze wszystkimi podzielić. Zróbmy trochę truskawkowo smacznych dań!" />
-    <text id="coop_title_40" name="OMLETY NA MAXA!" />
-    <text id="coop_desc_short_40" name="Nigdy nie masz dosyć!" />
-    <text id="coop_desc_long_40" name="Szefowa Xara chce, aby każdy zaznał radości z gotowania i serwowania ogromnej ilości omletów. Gotowy na wyzwanie?" />
-    <text id="coop_title_41" name="IMPREZA BALATON" />
-    <text id="coop_desc_short_41" name="Zjedzmy nad jeziorkiem!" />
-    <text id="coop_desc_long_41" name="Szef Flinsical organizuje spotkanie i relaks nad jeziorem Balaton. Pomóż z jedzeniem i piciem na taki super event!" />
-    <text id="coop_title_42" name="GRILLUJ, SMAŻ I TNIJ!" />
-    <text id="coop_desc_short_42" name="Uratuj festiwal!" />
-    <text id="coop_desc_long_42" name="Szef EarthHunt3r został zatrudniony jako kucharz na ogromny festiwal. Niestety, zepsuły mu się przybory kuchenne. Zabieraj się za gotowanie i pomóż uratować te wydarzenie! " />
-    <text id="coop_title_43" name="CIASTO DLA DIVY!" />
-    <text id="coop_desc_short_43" name="Ona pragnie wszystkiego!" />
-    <text id="coop_desc_long_43" name="Patixa przyjechała do miasta i chce najlepsze ciasta na imprezę z okazji sukcesu jej linii zabawek. Upiecz szybciutko te ciasta, a dostaniesz nagrodę!" />
-    <text id="coop_title_44" name="PIERWSZY RAZ W NOWEJ KUCHNI!" />
-    <text id="coop_desc_short_44" name="Do roboty!" />
-    <text id="coop_desc_long_44" name="Dzień otwarcia restauracji, jest więcej ludzi, niż myśleliśmy. Na szczęście nie musisz jakoś bardzo się starać żeby dać ludziom to, czego pragną. Zrekrutuj swoich przyjaciół i pokaż, że magią kuchni jest współpraca!" />
-</coopmission>
+		<text id="coop_title_1" name="NAUKA GOTOWANIA" />
+		<text id="coop_desc_short_1" name="Zostań mistrzem spaghetti!" />
+		<text id="coop_desc_long_1" name="Zaczynamy lekcję gotowania, żeby ulepszyć nasze dania, chcesz dołączyć?" />
+		<text id="coop_title_2" name="TEKSAŃSKA NOC" />
+		<text id="coop_desc_short_2" name="Fiesta Mexicana trwa w najlepsze!" />
+		<text id="coop_desc_long_2" name="Planuję imprezę w stylu meksykańskim. Potrzebuję  dużo meksykańskiego jedzenia, pomożesz mi?" />
+		<text id="coop_title_3" name="HANZEATYCKI WIECZÓR" />
+		<text id="coop_desc_short_3" name="Gotujemy skuz dla naszych hanzeatyckich gości!" />
+		<text id="coop_desc_long_3" name="Klub sportowy z Hamburga przyjeżdża w odwiedziny i chcielibyśmy, żeby poczuli się jak w domu. Potrzebuję kogoś, kto zna prawdziwą, hanzeatycką kuchnię. Chciałbyś pomóc?" />
+		<text id="coop_title_4" name="IMPREZA OGRODOWA" />
+		<text id="coop_desc_short_4" name="Tosty Hawajskie na grilla ogrodowego, kolego!" />
+		<text id="coop_desc_long_4" name="Chcę zaprosić mnóstwo ludzi na imprezę w ogródku, więc potrzebuję mnóstwo jedzenia. Słyszałem, że jesteś mistrzem cateringu. Mogę liczyć na pomoc?" />
+		<text id="coop_title_5" name="NA NARTY" />
+		<text id="coop_desc_short_5" name="Zabieramy czekoladę prosto na górę sera!" />
+		<text id="coop_desc_long_5" name="Stok narciarski na obrzeżach miast ma imprezę i potrzebuje trochę jedzenia. Mógłbyś im pomóc?" />
+		<text id="coop_title_6" name="UROCZYSTY OBIAD" />
+		<text id="coop_desc_short_6" name="Mnóstwo Mousse au chocolat!" />
+		<text id="coop_desc_long_6" name="Mój szef przyjeżdża na obiad I naprawdę chce go zaskoczyć czterodaniowym obiadem... Zajmiesz się tym?" />
+		<text id="coop_title_7" name="ŻADNEGO JEDZENIA ZE STOŁÓWKI SZKOLNEJ!" />
+		<text id="coop_desc_short_7" name="Dzisiaj edukujemy nasze kubki smakowe!" />
+		<text id="coop_desc_long_7" name="Szkoła spłonęła i dzieciaki nie mają co jeść! Pomożesz ugotować im coś smacznego?" />
+		<text id="coop_title_8" name="IMPREZKA URODZINOWA" />
+		<text id="coop_desc_short_8" name="Upiecz pizzę i spółkę na imprezę urodzinową." />
+		<text id="coop_desc_long_8" name="Moja najlepsza przyjaciółka robi wielką bibę urodzinową i zapomniała o jedzeniu. Ma być naprawdę dużo ludzi... Pomocy?" />
+		<text id="coop_title_9" name="WŁOSKI BUFET" />
+		<text id="coop_desc_short_9" name="Pizza! Makaron! Koniec!" />
+		<text id="coop_desc_long_9" name="Na wiosce jest imprezka w stylu włoskim, brakuje tylko jedzenia. Jak stoisz z gotowaniem?" />
+		<text id="coop_title_10" name="MAMY ŚWIĘTA!" />
+		<text id="coop_desc_short_10" name="Jedz pod korek!" />
+		<text id="coop_desc_long_10" name="Twoja rodzina przyjeżdża na święta i zostałeś wybrany jako kucharz, powodzenia!" />
+		<text id="coop_title_11" name="CIASTOWA BITWA!" />
+		<text id="coop_desc_short_11" name="Każde trafienie się liczy!" />
+		<text id="coop_desc_long_11" name="Nadchodzi bitwa na ciasta, każdy kawałek się liczy… Pomóż nam z pieczeniem." />
+		<text id="coop_title_12" name="ZUPNY SPECJALISTA" />
+		<text id="coop_desc_short_12" name="Nie ma jak zupa!" />
+		<text id="coop_desc_long_12" name="Stołówka dla potrzebujących w naszym mieście potrzebuje dużej ilości zup. Ugotujesz kilka, które wszyscy lubią?" />
+		<text id="coop_title_13" name="TYLKO AZJATYCKIE" />
+		<text id="coop_desc_short_13" name="Zawsze dodaj troszkę ryżu!" />
+		<text id="coop_desc_long_13" name="Na imprezę w temacie azjatyckim potrzebujemy trochę dań. Znasz jakieś przepisy, które zrobią nam wieczór?" />
+		<text id="coop_title_14" name="ROBI SIĘ MASNO!" />
+		<text id="coop_desc_short_14" name="Mięso i ziemniaki, to co lubimy!" />
+		<text id="coop_desc_long_14" name="Zaczyna się światowa konferencja siłaczy i potrzebujemy porządnych potraw. Mamy coś dla prawdziwych mężczyzn?" />
+		<text id="coop_title_15" name="BARDZO BRYTYJSKO!" />
+		<text id="coop_desc_short_15" name="Wszystko dla Brytyjczyka!" />
+		<text id="coop_desc_long_15" name="Będziemy mieli gości z Wielkiej Brytanii i potrzebujemy ich lokalnej kuchni. Przyrządzisz coś?" />
+		<text id="coop_title_16" name="RANNA TABAKA!" />
+		<text id="coop_desc_short_16" name="Dobrze zacznij dzień!" />
+		<text id="coop_desc_long_16" name="Szef kuchni cupcakekittycat8 organizuje śniadanie na rynku. Dorzucisz coś od siebie?" />
+		<text id="coop_title_17" name="DESERY PO OBIEDZIE" />
+		<text id="coop_desc_short_17" name="Słodkiego się chce, co?" />
+		<text id="coop_desc_long_17" name="Szef Gabriel zrobił słony lunch i goście pragną słodyczy! Pomóż i osłódź im dzień!" />
+		<text id="coop_title_18" name="PRZYJEŻDŻA KRYTYK!" />
+		<text id="coop_desc_short_18" name="Gotuj by zachwycić!" />
+		<text id="coop_desc_long_18" name="Szef kuchni cupcakekittycat8 zaprosił krytyka kulinarnego, by pochwalić się daniami! Czas gotować!" />
+		<text id="coop_title_19" name="LAN PARTY!" />
+		<text id="coop_desc_short_19" name="Niezdrowe jedzenie do gierek!" />
+		<text id="coop_desc_long_19" name="Szef Surfguiger5 zapisał się na Lan Party i zobowiązał, że weźmie żarcie. Uczestnicy chcą tego dużo, pomóż trochę!" />
+		<text id="coop_title_20" name="DRIVE THRU PÓŹNĄ NOCĄ" />
+		<text id="coop_desc_short_20" name="Szybki obiad na długi dzień!" />
+		<text id="coop_desc_long_20" name="Szef Patawka otworzyła Drive Thru i podzieli się zyskiem, jeśli ktoś pomoże. Dawajcie!" />
+		<text id="coop_title_21" name="TYLKO ZDROWE JEDZENIE!" />
+		<text id="coop_desc_short_21" name="Czas się zdrowo odżywić!" />
+		<text id="coop_desc_long_21" name="Szef kuchni Surfguiger5 oszalał na punkcie Potrójnych Omletów i boi się, że przytyje. Ugotuj zdrowe jedzenie i udowodnij, że prowadzisz zdrową restaurację!" />
+		<text id="coop_title_22" name="HOTELOWY BRUNCH" />
+		<text id="coop_desc_short_22" name="Szybki gryz?" />
+		<text id="coop_desc_long_22" name="Szef Surfguiger5 został poproszony o przygotowanie późnego śniadania przez lokalny hotel. Niestety, ale zepsuły mu się kuchenki i zostałeś wytypowany do pomocy." />
+		<text id="coop_title_23" name="PO BRAZYLIJSKU" />
+		<text id="coop_desc_short_23" name="Poznaj co ma do zaoferowania Brazylia!" />
+		<text id="coop_desc_long_23" name="Szef Surfguiger5 chce, aby każdy spróbował jedzenia z Brazylii. Ugotuj je!" />
+		<text id="coop_title_24" name="LICZYMY WĘGLOWODANY" />
+		<text id="coop_desc_short_24" name="Odnawiamy energię!" />
+		<text id="coop_desc_long_24" name="lokalna siłownia poprosiła szefową kuchni  Artemis żeby zrobiła dużo bogatych w węglowodany dań, aby klienci mieli energię. Dorzuć swoją cegiełkę!" />
+		<text id="coop_title_25" name="ŚLUBNA DEGUSTACJA" />
+		<text id="coop_desc_short_25" name="Będzie ślub!" />
+		<text id="coop_desc_long_25" name="Szef Kvmxl ogłosił ślub Panny z Kafejki i Mafinkowego Pana! Podobno mają dużo zapłacić jeśli jakaś kafejka ma dobre jedzenie. Sprawdzimy, czy plotki są prawdą?" />
+		<text id="coop_title_26" name="BUFET OBIADOWY" />
+		<text id="coop_desc_short_26" name="Wcinaj!" />
+		<text id="coop_desc_long_26" name="Szefowa Cupcakekittycat8 chciałaby obiad z dużą ilością dań. Dawaj!!" />
+		<text id="coop_title_27" name="OISH-SOME" />
+		<text id="coop_desc_short_27" name="Wspaniale!" />
+		<text id="coop_desc_long_27" name="Szef Nao chce podać jedzenie na konwent anime mający miejsce w restauracji obok. Wyciągnij pomocną dłoń!" />
+		<text id="coop_title_28" name="KAKAOWE WYZNANIE" />
+		<text id="coop_desc_short_28" name="Prawdziwą miłością jest czekolada!" />
+		<text id="coop_desc_long_28" name="Szef Nao chce spopularyzować dania z czekoladą w sąsiedztwie i zapłaci za pomoc.. Czemu by mu nie pomóc?" />
+		<text id="coop_title_31" name="FESTIWAL CURRY" />
+		<text id="coop_desc_short_31" name="Jest opcja dla każdego!" />
+		<text id="coop_desc_long_31" name="Lokalna restauracja indyjska chce każdemu rozdać trochę curry. Pomożesz im z tym?" />
+		<text id="coop_title_30" name="MYSZKA W KUCHNI!" />
+		<text id="coop_desc_short_30" name="Nie pozwól nikomu zobaczyć!" />
+		<text id="coop_desc_long_30" name="Mysz biega ci po restauracji i żąda dobrego jedzenia albo zniszczy ci renomę! Coś mi to przypomina…" />
+		<text id="coop_title_32" name="BRAZYLIA I PORTUGALIA" />
+		<text id="coop_desc_short_32" name="Zintegrujmy się poprzez jedzenie!" />
+		<text id="coop_desc_long_32" name="Odbywa się międzynarodowe wydarzenie, ale Brazylijczycy i Portugalczycy troszkę za bardzo tęsknią za domem. Ugotuj im tradycyjne jedzenie, żeby poczuli się lepiej!" />
+		<text id="coop_title_33" name="WYBÓR DEWELOPERÓW!" />
+		<text id="coop_desc_short_33" name="Paliwo do rozwoju gry!" />
+		<text id="coop_desc_long_33" name="Szef Gab potrzebuje dużo swojego ulubionego jedzenia, żeby serwery wciąż stały! Pomocy!" />
+		<text id="coop_title_34" name="MUSOWA BITWA!" />
+		<text id="coop_desc_short_34" name="Który jest najlepszy?" />
+		<text id="coop_desc_long_34" name="Szefowie kuchni z całego świata walczą by się przekonać czyj mus jest po prostu najlepszy. Zrób je wszystkie i sam się przekonaj!" />
+		<text id="coop_title_35" name="RODZINNA WYŻERKA" />
+		<text id="coop_desc_short_35" name="Jejku, ile gości!!" />
+		<text id="coop_desc_long_35" name="Cała twoja rodzina, ich przyjaciele, twoi przyjaciele i ich rodzina przychodzą do Ciebie świętować sukces twojej restauracji. Niech będą dumni!" />
+		<text id="coop_title_36" name="POTRZEBUJEMY MNÓSTWO JAJEK!" />
+		<text id="coop_desc_short_36" name="Serio jajko było pierwsze?" />
+		<text id="coop_desc_long_36" name="Szef kuchni Myleeek prowadzi badania - jajko było pierwsze? A może kura? Ugotuj dania jajeczne, żeby zebrać informacje!" />
+		<text id="coop_title_37" name="OGROMNY BŁĄD!" />
+		<text id="coop_desc_short_37" name="Ser rządzi wszystkim!" />
+		<text id="coop_desc_long_37" name="Szefowa Cupcakekittycat8 został zatrudniona, żeby przygotować jedzenie na urodziny pewnej myszy. Niestety, użyła tofu zamiast sera i myszy są wściekłe! Zrobisz serowe jedzonko, żeby je udobruchać?" />
+		<text id="coop_title_38" name="FESTIWAL BURGERÓW" />
+		<text id="coop_desc_short_38" name="Klasyczny smak na spotkanie!" />
+		<text id="coop_desc_long_38" name="Szef Franskmayn będzie serwował burgery na rynku. Też trochę zrób, żeby dostać swoją część kasy!" />
+		<text id="coop_title_39" name="SŁODKA JAK TRUSKAWECZKA!" />
+		<text id="coop_desc_short_39" name="Owocne zbiory!" />
+		<text id="coop_desc_long_39" name="Zbiory truskawek były naprawdę owocne i Szef Gabriel chce się ze wszystkimi podzielić. Zróbmy trochę truskawkowo smacznych dań!" />
+		<text id="coop_title_40" name="OMLETY NA MAXA!" />
+		<text id="coop_desc_short_40" name="Nigdy nie masz dosyć!" />
+		<text id="coop_desc_long_40" name="Szefowa Xara chce, aby każdy zaznał radości z gotowania i serwowania ogromnej ilości omletów. Gotowy na wyzwanie?" />
+		<text id="coop_title_41" name="IMPREZA BALATON" />
+		<text id="coop_desc_short_41" name="Zjedzmy nad jeziorkiem!" />
+		<text id="coop_desc_long_41" name="Szef Flinsical organizuje spotkanie i relaks nad jeziorem Balaton. Pomóż z jedzeniem i piciem na taki super event!" />
+		<text id="coop_title_42" name="GRILLUJ, SMAŻ I TNIJ!" />
+		<text id="coop_desc_short_42" name="Uratuj festiwal!" />
+		<text id="coop_desc_long_42" name="Szef EarthHunt3r został zatrudniony jako kucharz na ogromny festiwal. Niestety, zepsuły mu się przybory kuchenne. Zabieraj się za gotowanie i pomóż uratować te wydarzenie!" />
+		<text id="coop_title_43" name="CIASTO DLA DIVY!" />
+		<text id="coop_desc_short_43" name="Ona pragnie wszystkiego!" />
+		<text id="coop_desc_long_43" name="Patixa przyjechała do miasta i chce najlepsze ciasta na imprezę z okazji sukcesu jej linii zabawek. Upiecz szybciutko te ciasta, a dostaniesz nagrodę!" />
+		<text id="coop_title_44" name="PIERWSZY RAZ W NOWEJ KUCHNI!" />
+		<text id="coop_desc_short_44" name="Do roboty!" />
+		<text id="coop_desc_long_44" name="Dzień otwarcia restauracji, jest więcej ludzi, niż myśleliśmy. Na szczęście nie musisz jakoś bardzo się starać żeby dać ludziom to, czego pragną. Zrekrutuj swoich przyjaciół i pokaż, że magią kuchni jest współpraca!" />
+	</coopmission>
 	<dialogs>
 		<text id="dialogwin_achievement_title" name="Osiągnięca" />
 		<text id="dialogwin_avatarcreate_man" />
@@ -1713,6 +1717,13 @@
 		<text id="preparestep_borschtsch_meat" name="Cube meat" />
 		<text id="preparestep_borschtsch_potato" name="Peel potatoes" />
 		<text id="preparestep_borschtsch_onion" name="Chop onion" />
+		<text id="preparestep_strawberrysalad_strawberry" name="Slice strawberries" />
+		<text id="preparestep_strawberrysalad_lettuce" name="Wash lettuce" />
+		<text id="preparestep_strawberrysalad_oil" name="Spread olive oil" />
+		<text id="preparestep_fishnoodlesalad_fish" name="Cut fish" />
+		<text id="preparestep_fishnoodlesalad_oil" name="Heat oil" />
+		<text id="preparestep_fishnoodlesalad_pasta" name="Boil pasta" />
+		<text id="preparestep_fishnoodlesalad_garlic" name="Chop garlic" />
 	</preparestep>
 	<preparestep_fancy>
 		<text id="preparestep_duckalcitrus_cinnamon" name="Posypywanie cynamonem" />
@@ -1844,6 +1855,8 @@
 		<text id="preparestep_whitechoccheesecake_vanilla" name="Skrobanie wanilii" />
 		<text id="preparestep_pinksoup_parsley" name="Chop parsley" />
 		<text id="preparestep_borschtsch_parsley" name="Chop parsley" />
+		<text id="preparestep_strawberrysalad_basil" name="Add basil leaves" />
+		<text id="preparestep_fishnoodlesalad_coriander" name="Chop coriander" />
 		<text id="preparestep_whitechocmousse_vanilla" name="Skrobanie wanilii" />
 	</preparestep_fancy>
 	<recipe>
@@ -1993,6 +2006,8 @@
 		<text id="recipe_coxinha" name="Coxinha" />
 		<text id="recipe_pinksoup" name="Pink Soup" />
 		<text id="recipe_borschtsch" name="Borschtsch" />
+		<text id="recipe_strawberrysalad" name="Strawberry Salad" />
+		<text id="recipe_fishnoodlesalad" name="Fish Noodle Salad" />
 	</recipe>
 	<recipes_fastfood>
 		<text id="recipe_smoothiemaker_greensmoothie" name="Zielone smoothie" />

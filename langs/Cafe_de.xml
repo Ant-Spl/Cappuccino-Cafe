@@ -451,6 +451,10 @@
 		<text id="cookstep_pinksoup2" name="Rosa Suppe sieden lassen" />
 		<text id="cookstep_borschtsch1" name="Rote Beete kochen" />
 		<text id="cookstep_borschtsch2" name="Borschtsch anfertigen" />
+		<text id="cookstep_strawberrysalad1" name="Mixing ingredients" />
+		<text id="cookstep_strawberrysalad2" name="Stacking salad" />
+		<text id="cookstep_fishnoodlesalad1" name="Boiling noodles" />
+		<text id="cookstep_fishnoodlesalad2" name="Adding fish bits" />
 	</cookstep>
 	<coopmission>
 		<text id="coop_desc_long_1" name="Wir veranstalten einen Kochkurs, um einige Gerichte zu perfektionieren. Möchtest du mitmachen?" />
@@ -1716,6 +1720,13 @@
 		<text id="preparestep_borschtsch_meat" name="Fleisch würfeln" />
 		<text id="preparestep_borschtsch_potato" name="Kartoffeln schälen" />
 		<text id="preparestep_borschtsch_onion" name="Zwiebeln schneiden" />
+		<text id="preparestep_strawberrysalad_strawberry" name="Slice strawberries" />
+		<text id="preparestep_strawberrysalad_lettuce" name="Wash lettuce" />
+		<text id="preparestep_strawberrysalad_oil" name="Spread olive oil" />
+		<text id="preparestep_fishnoodlesalad_fish" name="Cut fish" />
+		<text id="preparestep_fishnoodlesalad_oil" name="Heat oil" />
+		<text id="preparestep_fishnoodlesalad_pasta" name="Boil pasta" />
+		<text id="preparestep_fishnoodlesalad_garlic" name="Chop garlic" />
 	</preparestep>
 	<preparestep_fancy>
 		<text id="preparestep_duckalcitrus_cinnamon" name="Zimt aufstreuen" />
@@ -1847,6 +1858,8 @@
 		<text id="preparestep_whitechoccheesecake_vanilla" name="Vanille ausschaben" />
 		<text id="preparestep_pinksoup_parsley" name="Petersilie hacken" />
 		<text id="preparestep_borschtsch_parsley" name="Petersielie hacken" />
+		<text id="preparestep_strawberrysalad_basil" name="Add basil leaves" />
+		<text id="preparestep_fishnoodlesalad_coriander" name="Chop coriander" />
 		<text id="preparestep_whitechocmousse_vanilla" name="Vanille ausschaben" />
 	</preparestep_fancy>
 	<recipe>
@@ -1996,6 +2009,8 @@
 		<text id="recipe_coxinha" name="Coxinha" />
 		<text id="recipe_pinksoup" name="Rosa Suppe" />
 		<text id="recipe_borschtsch" name="Borschtsch" />
+		<text id="recipe_strawberrysalad" name="Strawberry Salad" />
+		<text id="recipe_fishnoodlesalad" name="Fish Noodle Salad" />
 	</recipe>
 	<recipes_fastfood>
 		<text id="recipe_smoothiemaker_greensmoothie" name="Grüner Smoothie" />

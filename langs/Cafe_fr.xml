@@ -256,7 +256,7 @@
 		<text id="cookstep_brazilianpastel1" name="Faire frire les pastels" />
 		<text id="cookstep_brazilianpastel2" name="Presque fini" />
 		<text id="cookstep_lechonkawali1" name="Préparer la poitrine de porc" />
-		<text id="cookstep_lechonkawali2" name="Faire frire jusqu'à ce que ce soit croustillant" />
+		<text id="cookstep_lechonkawali2" name="Faire frire jusqu&apos;à ce que ce soit croustillant" />
 		<text id="cookstep_sweetpizza1" name="Étaler le chocolat" />
 		<text id="cookstep_sweetpizza2" name="Faire cuire la pizza sucrée" />
 		<text id="cookstep_shakshuka1" name="Faire fondre les tomates" />
@@ -268,7 +268,7 @@
 		<text id="cookstep_chickennuggets1" name="Faire frire les nuggets" />
 		<text id="cookstep_chickennuggets2" name="Faire frire encore plus de nuggets" />
 		<text id="cookstep_lavenderlemoncake1" name="Mélanger les ingrédients" />
-		<text id="cookstep_lavenderlemoncake2" name="Faire cuire jusqu'à ce que ce soit doré" />
+		<text id="cookstep_lavenderlemoncake2" name="Faire cuire jusqu&apos;à ce que ce soit doré" />
 		<text id="cookstep_potatosoup1" name="Faire bouillir les pommes de terre" />
 		<text id="cookstep_potatosoup2" name="Mélanger la soupe" />
 		<text id="cookstep_chocochipcake1" name="Mélanger les ingrédients" />
@@ -451,6 +451,10 @@
 		<text id="cookstep_pinksoup2" name="Laisser mijoter la soupe rose" />
 		<text id="cookstep_borschtsch1" name="Cuire la betterave" />
 		<text id="cookstep_borschtsch2" name="Terminer le bortsch" />
+		<text id="cookstep_strawberrysalad1" name="Mixing ingredients" />
+		<text id="cookstep_strawberrysalad2" name="Stacking salad" />
+		<text id="cookstep_fishnoodlesalad1" name="Boiling noodles" />
+		<text id="cookstep_fishnoodlesalad2" name="Adding fish bits" />
 		<text id="cookstep_feijoada1" name="Préparer les morceaux de porc" />
 		<text id="cookstep_feijoada2" name="Préparer les tranches d’orange" />
 		<text id="cookstep_spanishomelette1" name="Battre les œufs" />
@@ -1720,6 +1724,13 @@
 		<text id="preparestep_borschtsch_meat" name="Couper la viande en dés" />
 		<text id="preparestep_borschtsch_potato" name="Éplucher les pommes de terre" />
 		<text id="preparestep_borschtsch_onion" name="Hacher l’oignon" />
+		<text id="preparestep_strawberrysalad_strawberry" name="Slice strawberries" />
+		<text id="preparestep_strawberrysalad_lettuce" name="Wash lettuce" />
+		<text id="preparestep_strawberrysalad_oil" name="Spread olive oil" />
+		<text id="preparestep_fishnoodlesalad_fish" name="Cut fish" />
+		<text id="preparestep_fishnoodlesalad_oil" name="Heat oil" />
+		<text id="preparestep_fishnoodlesalad_pasta" name="Boil pasta" />
+		<text id="preparestep_fishnoodlesalad_garlic" name="Chop garlic" />
 		<text id="preparestep_feijoada_coriander" name="Ajouter de la coriandre" />
 	</preparestep>
 	<preparestep_fancy>
@@ -1852,6 +1863,8 @@
 		<text id="preparestep_whitechocmousse_vanilla" name="Écosser la vanille" />
 		<text id="preparestep_pinksoup_parsley" name="Hacher le persil" />
 		<text id="preparestep_borschtsch_parsley" name="Hacher le persil" />
+		<text id="preparestep_strawberrysalad_basil" name="Add basil leaves" />
+		<text id="preparestep_fishnoodlesalad_coriander" name="Chop coriander" />
 		<text id="preparestep_pizzasalad_chili" name="Couper le chili" />
 	</preparestep_fancy>
 	<recipe>
@@ -2001,6 +2014,8 @@
 		<text id="recipe_feijoada" name="Feijoada" />
 		<text id="recipe_pinksoup" name="Soupe rose" />
 		<text id="recipe_borschtsch" name="Borschtsch" />
+		<text id="recipe_strawberrysalad" name="Strawberry Salad" />
+		<text id="recipe_fishnoodlesalad" name="Fish Noodle Salad" />
 	</recipe>
 	<recipes_fastfood>
 		<text id="recipe_smoothiemaker_greensmoothie" name="Smoothie vert" />
