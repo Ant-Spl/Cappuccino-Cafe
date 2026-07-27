@@ -778,6 +778,7 @@
 
 <wod id="1238" n="Basic" g="Dish" t="Chocolatefondue" events="0" xp="415" incomePerServing="4" servings="325" duration="150" level="26" dishcategory="0" requirements="1307+1#1308+1#1328+1#1409+1" />
 <wod id="2248" n="Basic" g="Dish" t="Baiaodedois" events="0" xp="1150" incomePerServing="2" servings="735" duration="450" level="26" dishcategory="1" requirements="1324+1#1303+1#1305+1#1301+1#1318+1#1403+1" />
+<wod id="2285" n="Basic" g="Dish" t="Strawberrysalad" events="0" xp="29" incomePerServing="13" servings="73" duration="10" level="26" dishcategory="3" requirements="1328+2#1314+1#1317+1#1401+1" />
 
 <wod id="1225" n="Basic" g="Dish" t="Sushi" events="0" xp="2153" incomePerServing="1" servings="2000" duration="960" level="27" dishcategory="5" requirements="1405+1#1324+1#1329+1#1309+1" />
 <wod id="2245" n="Basic" g="Dish" t="Dorayaki" events="0" xp="44" incomePerServing="39" servings="50" duration="15" level="27" dishcategory="0" requirements="1312+1#1311+1#1303+1#1325+1#1408+1" />
@@ -848,6 +849,7 @@
 <wod id="2269" n="Basic" g="Dish" t="Potatosoup" events="0" xp="2907" incomePerServing="2" servings="1892" duration="900" level="48" dishcategory="2" requirements="1322+3#1318+1#1304+1#1308+1#1338+1#1402+1" />
 
 <wod id="1244" n="Basic" g="Dish" t="Chickenburger" events="0" xp="570" incomePerServing="6" servings="325" duration="150" level="49" dishcategory="5" requirements="1306+1#1309+1#1312+1#1327+1#1402+1" />
+<wod id="2286" n="Basic" g="Dish" t="Fishnoodlesalad" events="0" xp="908" incomePerServing="5" servings="598" duration="240" level="50" dishcategory="3" requirements="1329+1#1317+1#1319+1#1313+1#1403+1" />
 
 <wod id="1239" n="Basic" g="Dish" t="Cherrycompote" events="0" xp="1347" incomePerServing="2" servings="800" duration="360" level="51" dishcategory="0" requirements="1325+1#1339+1#1408+1" />
 
@@ -933,6 +935,8 @@
 <wod id="1514" n="Marketplace" g="Background" t="Summerrain" />
 <wod id="1515" n="Cafe" g="Background" t="Villagesummermorning" />
 <wod id="1516" n="Cafe" g="Background" t="Villagesummersunset" />
+<wod id="1517" n="Cafe" g="Background" t="Summercookfestday" />
+<wod id="1518" n="Static" g="Background" t="Summercookfestnight" />
 <wod id="1601" n="Basic" g="Moving" t="-" />
 <wod id="1602" n="Npcwaiter" g="Moving" t="-" />
 <wod id="1603" n="Plateholder" g="Moving" t="-" />
