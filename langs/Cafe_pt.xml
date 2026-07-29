@@ -457,8 +457,8 @@ Se você estocá-la, as porções existentes serão perdidas!" />
 		<text id="cookstep_strawberrysalad2" name="Montando salada" />
 		<text id="cookstep_fishnoodlesalad1" name="Cozinhando macarrão" />
 		<text id="cookstep_fishnoodlesalad2" name="Adicionando peixe" />
-		<text id="cookstep_croissant1" name="Mixing dough" />
-		<text id="cookstep_croissant2" name="Baking" />
+		<text id="cookstep_croissant1" name="Misturando massa" />
+		<text id="cookstep_croissant2" name="Assando" />
 	</cookstep>
 	<coopmission>
 		<text id="coop_desc_long_1" name="Nós oferemos um curso de culinária para aperfeiçoar alguns pratos. Você gostaria de participar?" />
@@ -1750,10 +1750,10 @@ Apenas disponível por tempo limitado!" />
 		<text id="preparestep_fishnoodlesalad_oil" name="Aquecer óleo" />
 		<text id="preparestep_fishnoodlesalad_pasta" name="Cozinhar macarrão" />
 		<text id="preparestep_fishnoodlesalad_garlic" name="Picar alho" />
-		<text id="preparestep_croissant_flour" name="Make dough" />
-		<text id="preparestep_croissant_chocolate" name="Make chocolate dip" />
-		<text id="preparestep_croissant_strawberry" name="Make strawberry dip" />
-		<text id="preparestep_croissant_butter" name="Cut butter" />
+		<text id="preparestep_croissant_flour" name="Fazer massa" />
+		<text id="preparestep_croissant_chocolate" name="Fazer calda de chocolate" />
+		<text id="preparestep_croissant_strawberry" name="Fazer calda de morango" />
+		<text id="preparestep_croissant_butter" name="Cortar manteiga" />
 	</preparestep>
 	<preparestep_fancy>
 		<text id="preparestep_duckalcitrus_cinnamon" name="Moer canela" />
@@ -1887,7 +1887,7 @@ Apenas disponível por tempo limitado!" />
 		<text id="preparestep_borschtsch_parsley" name="Picar salsinha" />
 		<text id="preparestep_strawberrysalad_basil" name="Colocar folhas de manjericão" />
 		<text id="preparestep_fishnoodlesalad_coriander" name="Picar coentro" />
-		<text id="preparestep_croissant_vanilla" name="Scrape out vanilla" />
+		<text id="preparestep_croissant_vanilla" name="Raspar baunilha" />
 		<text id="preparestep_whitechocmousse_vanilla" name="Raspar baunilha" />
 	</preparestep_fancy>
 	<recipe>
