@@ -722,6 +722,7 @@
 
 <wod id="1216" n="Basic" g="Dish" t="Minestrone" events="0" xp="817" incomePerServing="1" servings="900" duration="420" level="12" dishcategory="2" requirements="1319+1#1327+1#1310+1#1401+1" />
 <wod id="2225" n="Basic" g="Dish" t="Applepie" events="0" xp="1747" incomePerServing="2" servings="1556" duration="1200" level="12" dishcategory="0" requirements="1308+1#1311+1#1312+1#1345+1#1409+1" />
+<wod id="2287" n="Basic" g="Dish" t="Croissant" events="0" xp="105" incomePerServing="13" servings="113" duration="45" level="12" dishcategory="0" requirements="1312+1#1328+1#1307+1#1337+1#1408+1" />
 
 <wod id="2217" n="Basic" g="Dish" t="Cookieplate" events="0" xp="508" incomePerServing="5" servings="485" duration="240" level="13" dishcategory="0" requirements="1337+1#1307+1#1312+1#1325+1#1409+1" />
 <wod id="1220" n="Basic" g="Dish" t="Stewedrhubarb" events="0" xp="1651" incomePerServing="2" servings="2340" duration="1080" level="13" dishcategory="0" requirements="1323+1#1325+1#1408+1" />
@@ -887,7 +888,7 @@
 <wod id="1325" n="Basic" g="Ingredient" t="Sugar" cash="1000" gold="0" friends="0" goldNoFriends="0" releaseDate="0" world="0" events="0" xp="0" level="6" category="other" amount="1" />
 <wod id="1326" n="Basic" g="Ingredient" t="Sweetcorn" cash="150" gold="0" friends="0" goldNoFriends="0" releaseDate="0" world="0" events="0" xp="0" level="4" category="vegatables" amount="1" />
 <wod id="1327" n="Basic" g="Ingredient" t="Tomato" cash="90" gold="0" friends="0" goldNoFriends="0" releaseDate="0" world="0" events="0" xp="0" level="0" category="vegatables" amount="1" />
-<wod id="1328" n="Basic" g="Ingredient" t="Strawberry" cash="200" gold="0" friends="0" goldNoFriends="0" releaseDate="0" world="0" events="0" xp="0" level="24" category="fruits" amount="1" />
+<wod id="1328" n="Basic" g="Ingredient" t="Strawberry" cash="200" gold="0" friends="0" goldNoFriends="0" releaseDate="0" world="0" events="0" xp="0" level="12" category="fruits" amount="1" />
 <wod id="1329" n="Basic" g="Ingredient" t="Fish" cash="1000" gold="0" friends="0" goldNoFriends="0" releaseDate="0" world="0" events="0" xp="0" level="27" category="meat" amount="1" />
 <wod id="1330" n="Basic" g="Ingredient" t="Milk" cash="250" gold="0" friends="0" goldNoFriends="0" releaseDate="0" world="0" events="0" xp="0" level="18" category="meat" amount="1" />
 <wod id="1331" n="Basic" g="Ingredient" t="Cookies" cash="200" gold="0" friends="0" goldNoFriends="0" releaseDate="0" world="0" events="0" xp="0" level="18" category="other" amount="1" />
