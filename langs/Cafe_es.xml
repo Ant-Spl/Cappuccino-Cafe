@@ -455,6 +455,8 @@
 		<text id="cookstep_strawberrysalad2" name="Stacking salad" />
 		<text id="cookstep_fishnoodlesalad1" name="Boiling noodles" />
 		<text id="cookstep_fishnoodlesalad2" name="Adding fish bits" />
+		<text id="cookstep_croissant1" name="Mixing dough" />
+		<text id="cookstep_croissant2" name="Baking" />
 	</cookstep>
 	<coopmission>
 		<text id="coop_desc_long_1" name="Comenzaremos una clase de cocina para perfeccionar nuestros platos. ¿Quieres unirte?" />
@@ -1727,6 +1729,10 @@
 		<text id="preparestep_fishnoodlesalad_oil" name="Heat oil" />
 		<text id="preparestep_fishnoodlesalad_pasta" name="Boil pasta" />
 		<text id="preparestep_fishnoodlesalad_garlic" name="Chop garlic" />
+		<text id="preparestep_croissant_flour" name="Make dough" />
+		<text id="preparestep_croissant_chocolate" name="Make chocolate dip" />
+		<text id="preparestep_croissant_strawberry" name="Make strawberry dip" />
+		<text id="preparestep_croissant_butter" name="Cut butter" />
 	</preparestep>
 	<preparestep_fancy>
 		<text id="preparestep_duckalcitrus_cinnamon" name="Espolvorear canela" />
@@ -1860,6 +1866,7 @@
 		<text id="preparestep_borschtsch_parsley" name="Chop parsley" />
 		<text id="preparestep_strawberrysalad_basil" name="Add basil leaves" />
 		<text id="preparestep_fishnoodlesalad_coriander" name="Chop coriander" />
+		<text id="preparestep_croissant_vanilla" name="Scrape out vanilla" />
 		<text id="preparestep_matildacake_vanilla" name="Scrape out vanilla" />
 	</preparestep_fancy>
 	<recipe>
@@ -2011,6 +2018,7 @@
 		<text id="recipe_borschtsch" name="Borschtsch" />
 		<text id="recipe_strawberrysalad" name="Strawberry Salad" />
 		<text id="recipe_fishnoodlesalad" name="Fish Noodle Salad" />
+		<text id="recipe_croissant" name="Croissant" />
 	</recipe>
 	<recipes_fastfood>
 		<text id="recipe_smoothiemaker_greensmoothie" name="Smoothie verde" />
