@@ -457,6 +457,16 @@
 		<text id="cookstep_fishnoodlesalad2" name="Adding fish bits" />
 		<text id="cookstep_croissant1" name="Mixing dough" />
 		<text id="cookstep_croissant2" name="Baking" />
+		<text id="cookstep_vegetariansushi1" name="Cutting vegetables" />
+		<text id="cookstep_vegetariansushi2" name="Building sushi" />
+		<text id="cookstep_passionfruitmousse1" name="Melting chocolate" />
+		<text id="cookstep_passionfruitmousse2" name="Mixing mousse" />
+		<text id="cookstep_passionfruitfondue1" name="Melting chocolate" />
+		<text id="cookstep_passionfruitfondue2" name="Mixing passion fruit" />
+		<text id="cookstep_passionfruitjuice1" name="Mixing juice" />
+		<text id="cookstep_passionfruitjuice2" name="Adding sugar" />
+		<text id="cookstep_passionfruitcheesecake1" name="Mixing ingredients" />
+		<text id="cookstep_passionfruitcheesecake2" name="Baking" />
 	</cookstep>
 	<coopmission>
 		<text id="coop_title_1" name="CORSO DI CUCINA" />
@@ -588,6 +598,9 @@
 		<text id="coop_title_44" name="PRIMO GIORNO IN CUCINA!" />
 		<text id="coop_desc_short_44" name="Lavoriamo!" />
 		<text id="coop_desc_long_44" name="Oggi è il giorno d&apos;apertura ed il Café è più affollato del previsto. Fortunatamente, non hai bisogno di tanta esperienza per soddisfare i clienti. Recluta altri Chef e dimostra che l&apos;ingrediente segreto è il lavoro di squadra!" />
+		<text id="coop_title_45" name="A PASSION FOR A FRUIT" />
+		<text id="coop_desc_short_45" name="It&apos;s the latest sensation!" />
+		<text id="coop_desc_long_45" name="It&apos;s said that passion fruit provides relaxation and can help you clear your mind. This information is trending and customers all over the neighborhood want to taste passion fruit dishes. Don&apos;t waste time and cash in this craze!" />
 		<text id="coop_title_41" name="BALATON PARTY" />
 		<text id="coop_desc_short_41" name="Mangiamo in riva al lago!" />
 		<text id="coop_desc_long_41" name="Chef Flinsical sta organizzando un momento di svago nei pressi del Lago Balaton. Dai una mano con cibo e bevande per questo evento scenografico!" />
@@ -1122,6 +1135,7 @@
 		<text id="ingredient_vanilla" name="Vaniglia" />
 		<text id="ingredient_vegiemix" name="Misto di verdure" />
 		<text id="ingredient_whitechocolat" name="Cioccolato bianco" />
+		<text id="ingredient_passionfruit" name="Passion Fruit" />
 	</ingredients>
 	<loggedin_msg id="" />
 	<panels>
@@ -1732,6 +1746,26 @@
 		<text id="preparestep_croissant_chocolate" name="Make chocolate dip" />
 		<text id="preparestep_croissant_strawberry" name="Make strawberry dip" />
 		<text id="preparestep_croissant_butter" name="Cut butter" />
+		<text id="preparestep_vegetariansushi_rice" name="wash rice" />
+		<text id="preparestep_vegetariansushi_cucumber" name="slice cucumbers" />
+		<text id="preparestep_vegetariansushi_carrots" name="slice carrots" />
+		<text id="preparestep_vegetariansushi_passionfruit" name="make fruit sauce" />
+		<text id="preparestep_vegetariansushi_tofu" name="fry tofu" />
+		<text id="preparestep_passionfruitmousse_whitechocolat" name="melt chocolate" />
+		<text id="preparestep_passionfruitmousse_passionfruit" name="slice passion fruit" />
+		<text id="preparestep_passionfruitmousse_cream" name="whip cream" />
+		<text id="preparestep_passionfruitmousse_sugar" name="add sugar" />
+		<text id="preparestep_passionfruitmousse_eggs" name="separate eggs" />
+		<text id="preparestep_passionfruitfondue_passionfruit" name="open passion fruits" />
+		<text id="preparestep_passionfruitfondue_chocolate" name="melt chocolate" />
+		<text id="preparestep_passionfruitfondue_strawberry" name="wash strawberries" />
+		<text id="preparestep_passionfruitjuice_passionfruit" name="open passion fruit" />
+		<text id="preparestep_passionfruitjuice_sugar" name="add sugar" />
+		<text id="preparestep_passionfruitcheesecake_passionfruit" name="open passion fruit" />
+		<text id="preparestep_passionfruitcheesecake_quark" name="whip quark" />
+		<text id="preparestep_passionfruitcheesecake_cookies" name="crumble cookies" />
+		<text id="preparestep_passionfruitcheesecake_sugar" name="add sugar" />
+		<text id="preparestep_passionfruitcheesecake_milk" name="heat milk" />
 	</preparestep>
 	<preparestep_fancy>
 		<text id="preparestep_duckalcitrus_cinnamon" name="Macina la cannella" />
@@ -1866,6 +1900,11 @@
 		<text id="preparestep_strawberrysalad_basil" name="Add basil leaves" />
 		<text id="preparestep_fishnoodlesalad_coriander" name="Chop coriander" />
 		<text id="preparestep_croissant_vanilla" name="Scrape out vanilla" />
+		<text id="preparestep_vegetariansushi_horseradish" name="scrape horseradish" />
+		<text id="preparestep_passionfruitmousse_vanilla" name="scrape out vanilla" />
+		<text id="preparestep_passionfruitfondue_vanilla" name="scrape out vanilla" />
+		<text id="preparestep_passionfruitjuice_vanilla" name="scrape out vanilla" />
+		<text id="preparestep_passionfruitcheesecake_vanilla" name="scrape out vanilla" />
 		<text id="preparestep_whitechocmousse_vanilla" name="Raschia la vaniglia" />
 	</preparestep_fancy>
 	<recipe>
@@ -2018,6 +2057,11 @@
 		<text id="recipe_strawberrysalad" name="Strawberry Salad" />
 		<text id="recipe_fishnoodlesalad" name="Fish Noodle Salad" />
 		<text id="recipe_croissant" name="Croissant" />
+		<text id="recipe_vegetariansushi" name="Vegetarian Sushi" />
+		<text id="recipe_passionfruitmousse" name="Passion Fruit Mousse" />
+		<text id="recipe_passionfruitfondue" name="Passion Fruit Fondue" />
+		<text id="recipe_passionfruitjuice" name="Passion Fruit Juice" />
+		<text id="recipe_passionfruitcheesecake" name="Passion Fruit Cheesecake" />
 	</recipe>
 	<recipes_fastfood>
 		<text id="recipe_smoothiemaker_greensmoothie" name="Smoothie verde" />
