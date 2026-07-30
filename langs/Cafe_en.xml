@@ -2980,8 +2980,8 @@ If you have any questions about this blockage, please contact support."  />
 				<text id="generic_report_player_copy" name="Do you really want to report the player {0}?
  Attention! Abuse of this function may result in your account being blocked."  />
 				<text id="generic_report_player_reason_0" name="Insult"  />
-				<text id="generic_report_player_reason_1" name="sexual harassment"  />
-				<text id="generic_report_player_reason_2" name="racist remark"  />
+				<text id="generic_report_player_reason_1" name="Sexual harassment"  />
+				<text id="generic_report_player_reason_2" name="Racist remark"  />
 				<text id="generic_report_player_reason_3" name="Threat/blackmail"  />
 				<text id="generic_report_player_reason_title" name="Reason for report:"  />
 				<text id="generic_report_player_title" name="Report player?"  />
