@@ -459,7 +459,7 @@ Se você estocá-la, as porções existentes serão perdidas!" />
 		<text id="cookstep_fishnoodlesalad2" name="Adicionando peixe" />
 		<text id="cookstep_croissant1" name="Misturando massa" />
 		<text id="cookstep_croissant2" name="Assando" />
-			<text id="cookstep_vegetariansushi1" name="Cortando vegetais" />
+		<text id="cookstep_vegetariansushi1" name="Cortando vegetais" />
 		<text id="cookstep_vegetariansushi2" name="Montando sushi" />
 		<text id="cookstep_passionfruitmousse1" name="Derretendo chocolate" />
 		<text id="cookstep_passionfruitmousse2" name="Misturando mousse" />
@@ -469,7 +469,7 @@ Se você estocá-la, as porções existentes serão perdidas!" />
 		<text id="cookstep_passionfruitjuice2" name="Adoçando" />
 		<text id="cookstep_passionfruitcheesecake1" name="Misturando ingredientes" />
 		<text id="cookstep_passionfruitcheesecake2" name="Assando" />
-</cookstep>
+	</cookstep>
 	<coopmission>
 		<text id="coop_desc_long_1" name="Nós oferemos um curso de culinária para aperfeiçoar alguns pratos. Você gostaria de participar?" />
 		<text id="coop_desc_long_10" name="Sua família virá te visitar e você tem a grande honra, como chefe de cozinha, de cozinhar a ceia de Natal. Bom apetite!" />
@@ -1157,8 +1157,8 @@ Apenas disponível por tempo limitado!" />
 		<text id="ingredient_vanilla" name="Baunilha" />
 		<text id="ingredient_vegiemix" name="Seleta de Legumes" />
 		<text id="ingredient_whitechocolat" name="Chocolate Branco" />
-			<text id="ingredient_passionfruit" name="Maracujá" />
-</ingredients>
+		<text id="ingredient_passionfruit" name="Maracujá" />
+	</ingredients>
 	<loggedin_msg id="" />
 	<panels>
 		<text id="panelwin_buddy_btn_morefriends" name="Mais amigos!" />
@@ -1768,7 +1768,7 @@ Apenas disponível por tempo limitado!" />
 		<text id="preparestep_croissant_chocolate" name="fazer calda de chocolate" />
 		<text id="preparestep_croissant_strawberry" name="fazer calda de morango" />
 		<text id="preparestep_croissant_butter" name="cortar manteiga" />
-			<text id="preparestep_vegetariansushi_rice" name="lavar arroz" />
+		<text id="preparestep_vegetariansushi_rice" name="lavar arroz" />
 		<text id="preparestep_vegetariansushi_cucumber" name="cortar pepinos" />
 		<text id="preparestep_vegetariansushi_carrots" name="cortar cenouras" />
 		<text id="preparestep_vegetariansushi_passionfruit" name="fazer molho" />
@@ -1788,7 +1788,7 @@ Apenas disponível por tempo limitado!" />
 		<text id="preparestep_passionfruitcheesecake_cookies" name="esmigalhar biscoitos" />
 		<text id="preparestep_passionfruitcheesecake_sugar" name="adoçar" />
 		<text id="preparestep_passionfruitcheesecake_milk" name="aquecer leite" />
-</preparestep>
+	</preparestep>
 	<preparestep_fancy>
 		<text id="preparestep_duckalcitrus_cinnamon" name="moer canela" />
 		<text id="preparestep_ducktatters_parsley" name="picar salsinha" />
@@ -1923,12 +1923,12 @@ Apenas disponível por tempo limitado!" />
 		<text id="preparestep_fishnoodlesalad_coriander" name="picar coentro" />
 		<text id="preparestep_croissant_vanilla" name="raspar baunilha" />
 		<text id="preparestep_whitechocmousse_vanilla" name="raspar baunilha" />
-			<text id="preparestep_vegetariansushi_horseradish" name="ralar raíz forte" />
+		<text id="preparestep_vegetariansushi_horseradish" name="ralar raíz forte" />
 		<text id="preparestep_passionfruitmousse_vanilla" name="raspar baunilha" />
 		<text id="preparestep_passionfruitfondue_vanilla" name="raspar baunilha" />
 		<text id="preparestep_passionfruitjuice_vanilla" name="raspar baunilha" />
 		<text id="preparestep_passionfruitcheesecake_vanilla" name="raspar baunilha" />
-</preparestep_fancy>
+	</preparestep_fancy>
 	<recipe>
 		<text id="recipe_bananasplit" name="Banana Split" />
 		<text id="recipe_brigadeiro" name="Brigadeiro" />
@@ -2079,12 +2079,12 @@ Apenas disponível por tempo limitado!" />
 		<text id="recipe_strawberrysalad" name="Salada com Morangos" />
 		<text id="recipe_fishnoodlesalad" name="Salada de Peixe com Macarrão" />
 		<text id="recipe_croissant" name="Croissant" />
-			<text id="recipe_vegetariansushi" name="Sushi Vegetariano" />
+		<text id="recipe_vegetariansushi" name="Sushi Vegetariano" />
 		<text id="recipe_passionfruitmousse" name="Mousse de Maracujá" />
 		<text id="recipe_passionfruitfondue" name="Fondue de Maracujá" />
 		<text id="recipe_passionfruitjuice" name="Suco de Maracujá" />
 		<text id="recipe_passionfruitcheesecake" name="Cheesecake de Maracujá" />
-</recipe>
+	</recipe>
 	<recipes_fastfood>
 		<text id="recipe_smoothiemaker_greensmoothie" name="Batida Verde" />
 		<text id="recipe_smoothiemaker_defensepotion" name="Mini Poção" />
