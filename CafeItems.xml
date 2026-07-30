@@ -723,6 +723,11 @@
 <wod id="1216" n="Basic" g="Dish" t="Minestrone" events="0" xp="817" incomePerServing="1" servings="900" duration="420" level="12" dishcategory="2" requirements="1319+1#1327+1#1310+1#1401+1" />
 <wod id="2225" n="Basic" g="Dish" t="Applepie" events="0" xp="1747" incomePerServing="2" servings="1556" duration="1200" level="12" dishcategory="0" requirements="1308+1#1311+1#1312+1#1345+1#1409+1" />
 <wod id="2287" n="Basic" g="Dish" t="Croissant" events="0" xp="105" incomePerServing="13" servings="113" duration="45" level="12" dishcategory="0" requirements="1312+1#1328+1#1307+1#1337+1#1408+1" />
+<wod id="2288" n="Basic" g="Dish" t="Vegetariansushi" events="0" xp="2153" incomePerServing="3" servings="1690" duration="960" level="27" dishcategory="4" requirements="1324+1#1309+1#1338+1#1343+1#1351+1#1405+1" />
+<wod id="2289" n="Basic" g="Dish" t="Passionfruitmousse" events="0" xp="894" incomePerServing="6" servings="910" duration="360" level="23" dishcategory="0" requirements="1351+1#1308+1#1325+1#1311+1#1342+1#1408+1" />
+<wod id="2290" n="Basic" g="Dish" t="Passionfruitfondue" events="0" xp="2664" incomePerServing="3" servings="1950" duration="900" level="42" dishcategory="0" requirements="1351+2#1307+1#1328+1#1408+1" />
+<wod id="2291" n="Basic" g="Dish" t="Passionfruitjuice" events="0" xp="20" incomePerServing="15" servings="230" duration="6" level="28" dishcategory="0" requirements="1351+1#1325+1#1408+1" />
+<wod id="2292" n="Basic" g="Dish" t="Passionfruitcheesecake" events="0" xp="1218" incomePerServing="3" servings="1647" duration="800" level="43" dishcategory="0" requirements="1351+1#1332+1#1331+1#1325+1#1330+1#1408+1" />
 
 <wod id="2217" n="Basic" g="Dish" t="Cookieplate" events="0" xp="508" incomePerServing="5" servings="485" duration="240" level="13" dishcategory="0" requirements="1337+1#1307+1#1312+1#1325+1#1409+1" />
 <wod id="1220" n="Basic" g="Dish" t="Stewedrhubarb" events="0" xp="1651" incomePerServing="2" servings="2340" duration="1080" level="13" dishcategory="0" requirements="1323+1#1325+1#1408+1" />
@@ -898,7 +903,7 @@
 <wod id="1335" n="Basic" g="Ingredient" t="Vegiemix" cash="200" gold="0" friends="0" goldNoFriends="0" releaseDate="0" world="0" events="3" xp="0" level="1" category="vegatables" amount="1" />
 <wod id="1336" n="Basic" g="Ingredient" t="Spicemix" cash="200" gold="0" friends="0" goldNoFriends="0" releaseDate="0" world="0" events="3" xp="0" level="1" category="other" amount="1" />
 <wod id="1337" n="Basic" g="Ingredient" t="Butter" cash="425" gold="0" friends="0" goldNoFriends="0" releaseDate="0" world="0" events="0" xp="0" level="9" category="meat" amount="1" />
-<wod id="1338" n="Basic" g="Ingredient" t="Carrots" cash="500" gold="0" friends="0" goldNoFriends="0" releaseDate="0" world="0" events="0" xp="0" level="30" category="vegatables" amount="1" /><wod id="1339" n="Basic" g="Ingredient" t="Cherries" cash="250" gold="0" friends="0" goldNoFriends="0" releaseDate="0" world="0" events="0" xp="0" level="22" category="fruits" amount="1" />
+<wod id="1338" n="Basic" g="Ingredient" t="Carrots" cash="500" gold="0" friends="0" goldNoFriends="0" releaseDate="0" world="0" events="0" xp="0" level="27" category="vegatables" amount="1" /><wod id="1339" n="Basic" g="Ingredient" t="Cherries" cash="250" gold="0" friends="0" goldNoFriends="0" releaseDate="0" world="0" events="0" xp="0" level="22" category="fruits" amount="1" />
 <wod id="1340" n="Basic" g="Ingredient" t="Orange" cash="0" gold="1" friends="0" goldNoFriends="0" releaseDate="0" world="0" events="0" xp="0" level="9" category="fruits" amount="1" />
 <wod id="1341" n="Basic" g="Ingredient" t="Duck" cash="1500" gold="0" friends="0" goldNoFriends="0" releaseDate="0" world="0" events="0" xp="0" level="9" category="meat" amount="1" />
 <wod id="1342" n="Basic" g="Ingredient" t="Whitechocolat" cash="500" gold="0" friends="0" goldNoFriends="0" releaseDate="0" world="0" events="0" xp="0" level="18" category="other" amount="1" />
@@ -920,6 +925,7 @@
 <wod id="1348" n="Basic" g="Ingredient" t="Coconut" cash="950" gold="0" friends="0" goldNoFriends="0" releaseDate="0" world="0" events="0" xp="0" level="18" category="fruits" amount="1" />
 <wod id="1349" n="Basic" g="Ingredient" t="Curryspice" cash="850" gold="0" friends="0" goldNoFriends="0" releaseDate="0" world="0" events="0" xp="0" level="28" category="other" amount="1" />
 <wod id="1350" n="Basic" g="Ingredient" t="Goldeneggs" cash="99999" gold="0" friends="0" goldNoFriends="0" releaseDate="0" world="0" events="0" xp="0" level="14" category="meat" amount="1" />
+<wod id="1351" n="Basic" g="Ingredient" t="Passionfruit" cash="2000" gold="0" friends="0" goldNoFriends="0" releaseDate="0" world="0" events="0" xp="0" level="23" category="fruits" amount="1" />
 <wod id="1501" n="Cafe" g="Background" t="Village" />
 <wod id="1502" n="Marketplace" g="Background" t="Normal" />
 <wod id="1503" n="Static" g="Background" t="Villagewinter" />
@@ -1025,7 +1031,7 @@
 <wod id="2112" n="Basic" g="Coop" t="12" events="0" maxMember="5" maxLevel="129" chips="10050" xp="417" gold="7" duration="7560" dishes="1204+250#1212+44#1231+8#2218+40" />
 <wod id="2113" n="Basic" g="Coop" t="13" events="0" maxMember="5" maxLevel="129" chips="11913" xp="679" gold="9" duration="6120" dishes="1217+50#1225+25#2226+30#2240+50" />
 <wod id="2114" n="Basic" g="Coop" t="14" events="0" maxMember="5" maxLevel="129" chips="17382" xp="1803" gold="10" duration="13480" dishes="1232+65#1234+20#1214+100" />
-<wod id="2115" n="Basic" g="Coop" t="15" events="0" maxMember="5" maxLevel="129" chips="17226" xp="941" gold="7" duration="6000" dishes="1224+50#1233+80" />
+<wod id="2115" n="Basic" g="Coop" t="15" events="0" maxMember="5" maxLevel="129" chips="17226" xp="941" gold="8" duration="6000" dishes="1224+50#1233+80" />
 <wod id="2116" n="Basic" g="Coop" t="16" events="0" maxMember="5" maxLevel="129" chips="11738" xp="192" gold="6" duration="6000" dishes="2236+120#2221+90#2222+60#2231+45" />
 <wod id="2117" n="Basic" g="Coop" t="17" events="0" maxMember="5" maxLevel="129" chips="6160" xp="196" gold="2" duration="4560" dishes="1241+25#1238+20#2246+30#1228+12" />
 <wod id="2118" n="Basic" g="Coop" t="18" events="0" maxMember="5" maxLevel="129" chips="5886" xp="498" gold="9" duration="8880" dishes="2235+20#1211+15#2237+12#1249+10" />
@@ -1040,20 +1046,21 @@
 <wod id="2127" n="Basic" g="Coop" t="27" events="0" maxMember="5" maxLevel="129" chips="22000" xp="576" gold="8" duration="8880" dishes="2226+50#1225+30#2245+200" />
 <wod id="2128" n="Basic" g="Coop" t="28" events="0" maxMember="5" maxLevel="129" chips="7700" xp="368" gold="7" duration="7560" dishes="2215+60#1203+40#2222+30#1226+20" />
 <wod id="2129" n="Basic" g="Coop" t="31" events="0" maxMember="5" maxLevel="129" chips="16500" xp="1030" gold="8" duration="8880" dishes="1258+50#1259+50" />
-<wod id="2130" n="Basic" g="Coop" t="30" events="0" maxMember="5" maxLevel="129" chips="16588" xp="299" gold="3" duration="7560" dishes="1260+25#1261+30#1256+150" />
+<wod id="2130" n="Basic" g="Coop" t="30" events="0" maxMember="5" maxLevel="129" chips="16588" xp="299" gold="5" duration="7560" dishes="1260+25#1261+30#1256+150" />
 <wod id="2131" n="Basic" g="Coop" t="32" events="0" maxMember="5" maxLevel="129" chips="32025" xp="705" gold="7" duration="8880" dishes="2244+30#2248+30#2247+30#2241+300" />
 <wod id="2132" n="Basic" g="Coop" t="33" events="0" maxMember="5" maxLevel="129" chips="9538" xp="353" gold="4" duration="7560" dishes="2251+20#2235+5#2242+20#2229+70" />
-<wod id="2133" n="Basic" g="Coop" t="34" events="0" maxMember="5" maxLevel="129" chips="10250" xp="213" gold="5" duration="6120" dishes="1203+50#1241+50#1242+50" />
+<wod id="2133" n="Basic" g="Coop" t="34" events="0" maxMember="5" maxLevel="129" chips="20750" xp="436" gold="7" duration="7560" dishes="1203+50#1241+50#1242+50#2289+50" />
 <wod id="2134" n="Basic" g="Coop" t="35" events="0" maxMember="5" maxLevel="129" chips="16830" xp="474" gold="6" duration="8880" dishes="2249+20#1251+20#2250+40#2241+100" />
-<wod id="2135" n="Basic" g="Coop" t="36" events="0" maxMember="5" maxLevel="129" chips="20006" xp="188" gold="3" duration="8880" dishes="1242+25#1256+100#2249+10#2253+75" />
+<wod id="2135" n="Basic" g="Coop" t="36" events="0" maxMember="5" maxLevel="129" chips="20006" xp="188" gold="5" duration="8880" dishes="1242+25#1256+100#2249+10#2253+75" />
 <wod id="2136" n="Basic" g="Coop" t="37" events="0" maxMember="5" maxLevel="129" chips="7897" xp="585" gold="9" duration="8880" dishes="1205+60#1213+35#2247+25#1215+20" />
 <wod id="2137" n="Basic" g="Coop" t="38" events="0" maxMember="5" maxLevel="129" chips="10925" xp="127" gold="3" duration="6120" dishes="2245+50#1223+50#1206+50#1243+50" />
-<wod id="2138" n="Basic" g="Coop" t="39" events="0" maxMember="5" maxLevel="129" chips="12890" xp="459" gold="4" duration="7560" dishes="2257+20#1227+24#1241+50#2234+60" />
+<wod id="2138" n="Basic" g="Coop" t="39" events="0" maxMember="5" maxLevel="129" chips="12890" xp="459" gold="6" duration="7560" dishes="2257+20#1227+24#1241+50#2234+60" />
 <wod id="2139" n="Basic" g="Coop" t="40" events="0" maxMember="5" maxLevel="129" chips="6250" xp="450" gold="15" duration="8640" dishes="1255+9999#2221+5001" />
 <wod id="2140" n="Basic" g="Coop" t="41" events="0" maxMember="5" maxLevel="129" chips="30500" xp="1066" gold="9" duration="8880" dishes="2239+250#2235+50" />
 <wod id="2141" n="Basic" g="Coop" t="42" events="0" maxMember="5" maxLevel="129" chips="37500" xp="313" gold="10" duration="8880" dishes="1206+100#2216+300#2267+400#2258+1200" />
 <wod id="2142" n="Basic" g="Coop" t="43" events="0" maxMember="5" maxLevel="129" chips="11387" xp="699" gold="10" duration="8880" dishes="2271+40#2270+30#2268+60" />
 <wod id="2143" n="Basic" g="Coop" t="44" events="0" maxMember="5" maxLevel="129" chips="11250" xp="103" gold="7" duration="8880" dishes="1201+600#1204+200#2279+900#1203+30" />
+<wod id="2144" n="Basic" g="Coop" t="45" events="0" maxMember="5" maxLevel="129" chips="58365" xp="533" gold="9" duration="8880" dishes="2291+300#2288+33#2289+33" />
 
 
 <wod id="2201" n="Smoothie" g="Fastfood" t="Tomatojuice" cash="1000" gold="0" friends="0" goldNoFriends="0" releaseDate="0" world="0" events="0" xp="5" level="0" incomePerServing="1" servings="10" color="D83600" ratingBonus="20" />
