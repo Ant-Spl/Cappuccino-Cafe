@@ -920,6 +920,7 @@
 <wod id="1407" n="Basic" g="Ingredient" t="Rosemary" cash="0" gold="1" friends="0" goldNoFriends="0" releaseDate="0" world="0" events="0" xp="0" level="0" category="fancy" amount="10" />
 <wod id="1408" n="Basic" g="Ingredient" t="Vanilla" cash="0" gold="1" friends="0" goldNoFriends="0" releaseDate="0" world="0" events="0" xp="0" level="0" category="fancy" amount="10" />
 <wod id="1409" n="Basic" g="Ingredient" t="Cinnamon" cash="0" gold="1" friends="0" goldNoFriends="0" releaseDate="0" world="0" events="0" xp="0" level="0" category="fancy" amount="10" />
+<wod id="1410" n="Basic" g="Ingredient" t="Eventspice" cash="20000" gold="0" friends="0" goldNoFriends="0" releaseDate="0" world="0" events="0" xp="0" level="4" category="fancy" amount="10" />
 <wod id="1450" n="Basic" g="Ingredient" t="Cocktailcherry" cash="250" gold="0" friends="0" goldNoFriends="0" releaseDate="0" world="0" events="0" xp="0" level="9" category="fruits" amount="1" />
 <wod id="1347" n="Basic" g="Ingredient" t="Citrus" cash="650" gold="0" friends="0" goldNoFriends="0" releaseDate="0" world="0" events="0" xp="0" level="9" category="fruits" amount="1" />
 <wod id="1348" n="Basic" g="Ingredient" t="Coconut" cash="950" gold="0" friends="0" goldNoFriends="0" releaseDate="0" world="0" events="0" xp="0" level="18" category="fruits" amount="1" />
@@ -944,6 +945,9 @@
 <wod id="1516" n="Cafe" g="Background" t="Villagesummersunset" />
 <wod id="1517" n="Cafe" g="Background" t="Summercookfestday" />
 <wod id="1518" n="Static" g="Background" t="Summercookfestnight" />
+<wod id="1519" n="Cafe" g="Background" t="City" />
+<wod id="1520" n="Cafe" g="Background" t="Miami" />
+<wod id="1521" n="Cafe" g="Background" t="Chinatown" />
 <wod id="1601" n="Basic" g="Moving" t="-" />
 <wod id="1602" n="Npcwaiter" g="Moving" t="-" />
 <wod id="1603" n="Plateholder" g="Moving" t="-" />
