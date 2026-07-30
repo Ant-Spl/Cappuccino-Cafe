@@ -1182,7 +1182,7 @@
 		<text id="ingredient_vegiemix" name="Μείγμα λαχανικών" />
 		<text id="ingredient_whitechocolat" name="Λευκή σοκολάτα" />
 		<text id="ingredient_passionfruit" name="Passion Fruit" />
-		<text id="Basic_Ingredient_Eventspice" name="Event Spice" />
+		<text id="ingredient_eventspice" name="Event Spice" />
 	</ingredients>
 	<loggedin_msg id="" />
 	<panels>

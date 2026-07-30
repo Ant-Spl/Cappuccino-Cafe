@@ -1136,7 +1136,7 @@
 		<text id="ingredient_vegiemix" name="Misto di verdure" />
 		<text id="ingredient_whitechocolat" name="Cioccolato bianco" />
 		<text id="ingredient_passionfruit" name="Passion Fruit" />
-		<text id="Basic_Ingredient_Eventspice" name="Event Spice" />
+		<text id="ingredient_eventspice" name="Event Spice" />
 	</ingredients>
 	<loggedin_msg id="" />
 	<panels>

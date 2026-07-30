@@ -1136,7 +1136,7 @@
 		<text id="ingredient_vanilla" name="바닐라" />
 		<text id="ingredient_vegiemix" name="야채 믹스" />
 		<text id="ingredient_passionfruit" name="Passion Fruit" />
-		<text id="Basic_Ingredient_Eventspice" name="Event Spice" />
+		<text id="ingredient_eventspice" name="Event Spice" />
 		<text id="ingredient_whitechocolat" name="화이트 초콜릿" />
 	</ingredients>
 	<loggedin_msg id="" />

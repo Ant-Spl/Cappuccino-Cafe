@@ -1166,7 +1166,7 @@
 		<text id="ingredient_vegiemix" name="蔬菜拼盘" />
 		<text id="ingredient_whitechocolat" name="白巧克力" />
 		<text id="ingredient_passionfruit" name="Passion Fruit" />
-		<text id="Basic_Ingredient_Eventspice" name="Event Spice" />
+		<text id="ingredient_eventspice" name="Event Spice" />
 	</ingredients>
 	<loggedin_msg id="" />
 	<panels>

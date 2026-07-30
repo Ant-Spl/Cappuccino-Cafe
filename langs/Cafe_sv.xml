@@ -1138,7 +1138,7 @@
 		<text id="ingredient_vanilla" name="Vanilj" />
 		<text id="ingredient_vegiemix" name="Grönsaksmix" />
 		<text id="ingredient_passionfruit" name="Passion Fruit" />
-		<text id="Basic_Ingredient_Eventspice" name="Event Spice" />
+		<text id="ingredient_eventspice" name="Event Spice" />
 		<text id="ingredient_whitechocolat" name="Vitchoklad" />
 	</ingredients>
 	<loggedin_msg id="" />

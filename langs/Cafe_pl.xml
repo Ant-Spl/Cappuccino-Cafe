@@ -1133,7 +1133,7 @@
 		<text id="ingredient_vanilla" name="Wanilia" />
 		<text id="ingredient_vegiemix" name="Przyprawa do warzyw" />
 		<text id="ingredient_passionfruit" name="Passion Fruit" />
-		<text id="Basic_Ingredient_Eventspice" name="Event Spice" />
+		<text id="ingredient_eventspice" name="Event Spice" />
 		<text id="ingredient_whitechocolat" name="Biała czekolada" />
 	</ingredients>
 	<loggedin_msg id="" />

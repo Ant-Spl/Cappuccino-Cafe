@@ -1133,7 +1133,7 @@
 		<text id="ingredient_vegiemix" name="Sebze karışımı" />
 		<text id="ingredient_whitechocolat" name="Beyaz çikolata" />
 		<text id="ingredient_passionfruit" name="Passion Fruit" />
-		<text id="Basic_Ingredient_Eventspice" name="Event Spice" />
+		<text id="ingredient_eventspice" name="Event Spice" />
 	</ingredients>
 	<loggedin_msg></loggedin_msg>
 	<panels>
