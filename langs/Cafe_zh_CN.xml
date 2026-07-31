@@ -824,6 +824,7 @@
 		<text id="dialogwin_settings_low" name="低" />
 		<text id="dialogwin_settings_medium" name="中" />
 		<text id="dialogwin_settings_quality" name="质量" />
+		<text id="dialogwin_settings_cappFancy" name="Disable Fancy ingredients" />
 		<text id="dialogwin_shippingconfirmation_copy1" name="点击电子邮件内的连接来购买金币." />
 		<text id="dialogwin_shippingconfirmation_copy2" name="还没收到邮件？请再稍等几分钟。如果您在垃圾邮件箱里也无法找到，我们的技术支持团队很乐意帮您解决问题。" />
 		<text id="dialogwin_shippingconfirmation_title" name="金币邮件已发出！" />

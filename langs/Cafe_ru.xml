@@ -814,6 +814,7 @@
 		<text id="dialogwin_settings_low" name="Низкое" />
 		<text id="dialogwin_settings_medium" name="Среднее" />
 		<text id="dialogwin_settings_quality" name="Качество" />
+		<text id="dialogwin_settings_cappFancy" name="Disable Fancy ingredients" />
 		<text id="dialogwin_shippingconfirmation_copy1" name="Пройдите по ссылке в письме, чтобы забрать золото." />
 		<text id="dialogwin_shippingconfirmation_copy2" name="Ещё не получили письмо? Это может занять пару минут. Если через некоторое время вы не найдёте его среди спама, наша поддержка будет рада вам помочь." />
 		<text id="dialogwin_shippingconfirmation_title" name="Золотое письмо в пути!" />

@@ -814,6 +814,7 @@
 		<text id="dialogwin_settings_low" name="저" />
 		<text id="dialogwin_settings_medium" name="중" />
 		<text id="dialogwin_settings_quality" name="양" />
+		<text id="dialogwin_settings_cappFancy" name="Disable Fancy ingredients" />
 		<text id="dialogwin_shippingconfirmation_copy1" name="금을 수거하려면 이메일에 포함된 링크를 클릭하세요." />
 		<text id="dialogwin_shippingconfirmation_copy2" name="아직 이메일을 받지 못하셨나요? 2분 정도가 소요됩니다. 스팸 이메일함에서도 찾을 수 없다면 담당자에게 문의해 주십시오." />
 		<text id="dialogwin_shippingconfirmation_title" name="골드 이메일 전달 중!" />

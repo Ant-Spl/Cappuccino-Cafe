@@ -814,6 +814,7 @@
 		<text id="dialogwin_settings_low" name="Kevés" />
 		<text id="dialogwin_settings_medium" name="Közepes" />
 		<text id="dialogwin_settings_quality" name="Minőségs" />
+		<text id="dialogwin_settings_cappFancy" name="Disable Fancy ingredients" />
 		<text id="dialogwin_shippingconfirmation_copy1" name="Kattints az e-mailben található linkre, és hozd el az aranyat." />
 		<text id="dialogwin_shippingconfirmation_copy2" name="Nem kaptad meg az e-mailt? Egy pár percig eltarthat. Lehet, hogy a spam könyvtárba került? Ha ott sincs, a support szívesen segít." />
 		<text id="dialogwin_shippingconfirmation_title" name="Arany e-mail úton van!" />
