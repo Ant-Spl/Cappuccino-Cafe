@@ -811,6 +811,7 @@
 		<text id="dialogwin_settings_low" name="Słaba" />
 		<text id="dialogwin_settings_medium" name="Średnia" />
 		<text id="dialogwin_settings_quality" name="Jakość" />
+		<text id="dialogwin_settings_cappFancy" name="Disable Fancy ingredients" />
 		<text id="dialogwin_shippingconfirmation_copy1" name="Kliknij na link w e-mailu aby otrzymać złoto." />
 		<text id="dialogwin_shippingconfirmation_copy2" name="Nie dostałeś e-maila? Może to potrwać kilka minut. Sprawdź skrzynkę spam, jeśli tam nie znajdziesz wiadomości to na pewno pomoże Ci nasz support." />
 		<text id="dialogwin_shippingconfirmation_title" name="E-mail ze złotem w drodze!" />

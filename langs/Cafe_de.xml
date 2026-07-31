@@ -814,6 +814,7 @@
 		<text id="dialogwin_settings_low" name="Gering" />
 		<text id="dialogwin_settings_medium" name="Mittel" />
 		<text id="dialogwin_settings_quality" name="Qualität" />
+		<text id="dialogwin_settings_cappFancy" name="Disable Fancy ingredients" />
 		<text id="dialogwin_shippingconfirmation_copy1" name="Klicke den Link in der Email, um das das Gold abzuholen." />
 		<text id="dialogwin_shippingconfirmation_copy2" name="Email noch nicht angekommen? Einige Minuten kann es schon dauern. Wenn dann auch im Spam-Ordner nichts ist, hilft dir unser Support gerne weiter." />
 		<text id="dialogwin_shippingconfirmation_title" name="Gold-Email unterwegs!" />

@@ -814,6 +814,7 @@
 		<text id="dialogwin_settings_low" name="Alhainen" />
 		<text id="dialogwin_settings_medium" name="Keskitaso" />
 		<text id="dialogwin_settings_quality" name="Laatu" />
+		<text id="dialogwin_settings_cappFancy" name="Disable Fancy ingredients" />
 		<text id="dialogwin_shippingconfirmation_copy1" name="Klikkaa linkkiä sähköpostissasi hakeaksesi kullan." />
 		<text id="dialogwin_shippingconfirmation_copy2" name="Etkö saanut vielä sähköpostia? Se voi kestää muutaman minuutin. Jos et löydä sitä hetken kuluttua roskapostistakaan tukitiimimme auttaa sinua mielellään." />
 		<text id="dialogwin_shippingconfirmation_title" name="Kultainen sähköposti on matkalla!" />

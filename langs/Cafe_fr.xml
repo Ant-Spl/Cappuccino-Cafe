@@ -818,6 +818,7 @@
 		<text id="dialogwin_settings_low" name="Faible" />
 		<text id="dialogwin_settings_medium" name="Moyenne" />
 		<text id="dialogwin_settings_quality" name="Qualité" />
+		<text id="dialogwin_settings_cappFancy" name="Disable Fancy ingredients" />
 		<text id="dialogwin_shippingconfirmation_copy1" name="Clique sur le lien dans le courriel pour ramasser l’or." />
 		<text id="dialogwin_shippingconfirmation_copy2" name="Tu n’as pas encore reçu le courriel ? Cela peut prendre quelques minutes. Si tu ne peux pas non plus le trouver parmi les pourriels après ce temps, notre équipe de soutient se fera un plaisir de t’aider." />
 		<text id="dialogwin_shippingconfirmation_title" name="Courriel d’or expédié !" />
