@@ -820,7 +820,7 @@
 		<text id="dialogwin_settings_low" name="低等" />
 		<text id="dialogwin_settings_medium" name="中等" />
 		<text id="dialogwin_settings_quality" name="品質" />
-		<text id="dialogwin_settings_cappFancy" name="Disable Fancy ingredients" />
+		<text id="dialogwin_settings_cappFancy" name="Skip Fancy Ingredients" />
 		<text id="dialogwin_shippingconfirmation_copy1" name="欲領取金幣請點選電子郵件中的連結" />
 		<text id="dialogwin_shippingconfirmation_copy2" name="還沒收到電子郵件嗎?這可能需要幾分鐘時間；若在垃圾郵件夾裡也沒有，我們的技術支援部很樂意幫忙解決" />
 		<text id="dialogwin_shippingconfirmation_title" name="含金幣的電子郵件在路上囉!" />

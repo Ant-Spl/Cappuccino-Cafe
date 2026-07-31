@@ -811,7 +811,7 @@
 		<text id="dialogwin_settings_low" name="Düsük" />
 		<text id="dialogwin_settings_medium" name="Orta" />
 		<text id="dialogwin_settings_quality" name="Kalite" />
-		<text id="dialogwin_settings_cappFancy" name="Disable Fancy ingredients" />
+		<text id="dialogwin_settings_cappFancy" name="Skip Fancy Ingredients" />
 		<text id="dialogwin_shippingconfirmation_copy1" name="Altini alabilmek icin e-postadaki linki tiklamalisin." />
 		<text id="dialogwin_shippingconfirmation_copy2" name="E-postayi hala almadin mi? Bir kac dakika sürebilir. Eger spam kutusunda da bulamazsan, seni memnuniyetle destekleyecegiz." />
 		<text id="dialogwin_shippingconfirmation_title" name="Altin e-posta yola cikti!" />

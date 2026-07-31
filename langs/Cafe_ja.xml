@@ -814,7 +814,7 @@
 		<text id="dialogwin_settings_low" name="低" />
 		<text id="dialogwin_settings_medium" name="中" />
 		<text id="dialogwin_settings_quality" name="画質" />
-		<text id="dialogwin_settings_cappFancy" name="Disable Fancy ingredients" />
+		<text id="dialogwin_settings_cappFancy" name="Skip Fancy Ingredients" />
 		<text id="dialogwin_shippingconfirmation_copy1" name="カフェゴールドを受け取るには、Eメール内のリンクをクリックしてください。" />
 		<text id="dialogwin_shippingconfirmation_copy2" name="Eメールがまだ届きませんか? 数分たっても届かないようでしたら、ひとまず迷惑メールフォルダをご確認ください。そちらにも入っていない場合、サポートにお問い合わせください。" />
 		<text id="dialogwin_shippingconfirmation_title" name="ゴールドEメールは発送済みです!" />

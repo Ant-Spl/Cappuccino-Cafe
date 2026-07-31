@@ -868,7 +868,7 @@ Give some of it to your friends!"  />
 			<text id="dialogwin_settings_low" name="Low"  />
 			<text id="dialogwin_settings_medium" name="Medium"  />
 			<text id="dialogwin_settings_quality" name="Quality"  />
-			<text id="dialogwin_settings_cappFancy" name="Disable Fancy ingredients"  />
+			<text id="dialogwin_settings_cappFancy" name="Skip Fancy Ingredients"  />
 			<text id="dialogwin_shippingconfirmation_copy1" name="Click on the link in the e-mail in order to collect the gold."  />
 			<text id="dialogwin_shippingconfirmation_copy2" name="Haven&#039;t gotten the e-mail yet? It can take a couple of minutes. If you can&#039;t find it in the spam folder either at that time, our support will gladly assist you."  />
 			<text id="dialogwin_shippingconfirmation_title" name="Gold e-mail on its way!"  />

@@ -814,7 +814,7 @@
 		<text id="dialogwin_settings_low" name="Laag" />
 		<text id="dialogwin_settings_medium" name="Medium" />
 		<text id="dialogwin_settings_quality" name="Kwaliteit" />
-		<text id="dialogwin_settings_cappFancy" name="Disable Fancy ingredients" />
+		<text id="dialogwin_settings_cappFancy" name="Skip Fancy Ingredients" />
 		<text id="dialogwin_shippingconfirmation_copy1" name="Klik op de link in de e-mail om het goud te innen." />
 		<text id="dialogwin_shippingconfirmation_copy2" name="Heb je de e-mail nog niet ontvangen? Het kan een aantal minuten duren. Als je het tegen dan ook niet in de junkfolder kunt vinden, kan ons support team je verder helpen." />
 		<text id="dialogwin_shippingconfirmation_title" name="Goud e-mail is onderweg!" />

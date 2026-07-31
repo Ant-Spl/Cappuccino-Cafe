@@ -814,7 +814,7 @@
 		<text id="dialogwin_settings_low" name="Bassa" />
 		<text id="dialogwin_settings_medium" name="Media" />
 		<text id="dialogwin_settings_quality" name="Qualità" />
-		<text id="dialogwin_settings_cappFancy" name="Disable Fancy ingredients" />
+		<text id="dialogwin_settings_cappFancy" name="Skip Fancy Ingredients" />
 		<text id="dialogwin_shippingconfirmation_copy1" name="Clicca sul link nell&apos;email per ritirare il tuo Gold." />
 		<text id="dialogwin_shippingconfirmation_copy2" name="L&apos;email non è ancora arrivata? Potrebbero volerci alcuni minuti. Se poi non la trovassi nemmeno tra la spam contatta il nostro supporto." />
 		<text id="dialogwin_shippingconfirmation_title" name="L&apos;email d&apos;oro sta per arrivare!" />

@@ -816,7 +816,7 @@
 		<text id="dialogwin_settings_low" name="Låg" />
 		<text id="dialogwin_settings_medium" name="Medium" />
 		<text id="dialogwin_settings_quality" name="Kvalitet" />
-		<text id="dialogwin_settings_cappFancy" name="Disable Fancy ingredients" />
+		<text id="dialogwin_settings_cappFancy" name="Skip Fancy Ingredients" />
 		<text id="dialogwin_shippingconfirmation_copy1" name="Klicka på länken i e-post för att samla Guld." />
 		<text id="dialogwin_shippingconfirmation_copy2" name="Har du inte fått någon e-post än? Det kan ta ett par minuter. Om du inte hittar det i spammappen heller då hjälper vår support dig gärna." />
 		<text id="dialogwin_shippingconfirmation_title" name="Guld e-post på väg!" />

@@ -814,7 +814,7 @@
 		<text id="dialogwin_settings_low" name="Malé" />
 		<text id="dialogwin_settings_medium" name="Středné" />
 		<text id="dialogwin_settings_quality" name="Kvalita" />
-		<text id="dialogwin_settings_cappFancy" name="Disable Fancy ingredients" />
+		<text id="dialogwin_settings_cappFancy" name="Skip Fancy Ingredients" />
 		<text id="dialogwin_shippingconfirmation_copy1" name="Klikni na link v e-mailu a vyzvedni si tak zlato." />
 		<text id="dialogwin_shippingconfirmation_copy2" name="Jěště si nedostal e-mail? Může to trvat pár minut. Když pak není ani v části pro spam, pomůže Ti náš support." />
 		<text id="dialogwin_shippingconfirmation_title" name="Zlatý e-mail je venku!" />

@@ -818,7 +818,7 @@ Dê um pouco dela aos seus amigos!" />
 		<text id="dialogwin_settings_low" name="Baixa" />
 		<text id="dialogwin_settings_medium" name="Média" />
 		<text id="dialogwin_settings_quality" name="Qualidade" />
-		<text id="dialogwin_settings_cappFancy" name="Disable Fancy ingredients" />
+		<text id="dialogwin_settings_cappFancy" name="Pular Ingredientes Especiais" />
 		<text id="dialogwin_shippingconfirmation_copy1" name="Clique no link do e-mail para retirar o ouro." />
 		<text id="dialogwin_shippingconfirmation_copy2" name="O e-mail ainda não chegou? Pode demorar alguns minutos. Se não tiver nada na pasta de Spam o suporte te ajuda." />
 		<text id="dialogwin_shippingconfirmation_title" name="E-Mail Ouro a caminho!" />

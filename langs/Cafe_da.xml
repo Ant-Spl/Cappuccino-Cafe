@@ -814,7 +814,7 @@
 		<text id="dialogwin_settings_low" name="Lille" />
 		<text id="dialogwin_settings_medium" name="Middel" />
 		<text id="dialogwin_settings_quality" name="Kvalitet" />
-		<text id="dialogwin_settings_cappFancy" name="Disable Fancy ingredients" />
+		<text id="dialogwin_settings_cappFancy" name="Skip Fancy Ingredients" />
 		<text id="dialogwin_shippingconfirmation_copy1" name="Klik på linket i e-mailen, for at afhente guldet." />
 		<text id="dialogwin_shippingconfirmation_copy2" name="E-mail ikke ankommet endnu? Nogel minutter kan det tage. Hvis der så ikke er noget i spam-postkassen, så hjælper dig vores support gerne videre." />
 		<text id="dialogwin_shippingconfirmation_title" name="Guld-e-mail undervejs!" />

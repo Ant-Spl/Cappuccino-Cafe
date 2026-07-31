@@ -836,7 +836,7 @@
 		<text id="dialogwin_settings_low" name="Χαμηλή" />
 		<text id="dialogwin_settings_medium" name="Μεσαία" />
 		<text id="dialogwin_settings_quality" name="Ποιότητα" />
-		<text id="dialogwin_settings_cappFancy" name="Disable Fancy ingredients" />
+		<text id="dialogwin_settings_cappFancy" name="Skip Fancy Ingredients" />
 		<text id="dialogwin_shippingconfirmation_copy1" name="Πάτησε στο σύνδεσμο που είναι στο e-mail για να μαζέψεις το χρυσό." />
 		<text id="dialogwin_shippingconfirmation_copy2" name="Δεν πήρες το e-mail ακόμα; Μπορεί να χρειαστούν μερικά λεπτά. Αν δε μπορείς να το βρεις ούτε στο φάκελο &quot;ανεπιθύμητα&quot;, η υποστήριξη ευχαρίστως θα σε βοηθήσει." />
 		<text id="dialogwin_shippingconfirmation_title" name="Το χρυσό e-mail είναι στο δρόμο!" />
