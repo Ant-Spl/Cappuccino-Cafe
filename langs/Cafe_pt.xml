@@ -1180,17 +1180,17 @@ Apenas disponível por tempo limitado!" />
 		<text id="panelwin_login_register" name="REGISTRAR" />
 		<text id="panelwin_login_rememberpassword" name="Salvar senha" />
 		<text id="panelwin_name_cafe" name="CAFÉ" />
-		<text id="panelwin_social_bot" name="Bate-papo do Café" />
+		<text id="panelwin_social_bot" name="Jogo" />
 		<text id="panelwin_social_comein" name="entrou no Café" />
 		<text id="panelwin_social_comeinmarketplace" name="chegou ao mercado" />
-		<text id="panelwin_social_goout" name="deixou o Café" />
+		<text id="panelwin_social_goout" name="saiu do Café" />
 		<text id="panelwin_social_gooutmarketplace" name="deixou o mercado" />
 		<text id="panelwin_social_noingamefriends" name="Você ainda não tem amigos!" />
-		<text id="panelwin_social_noplayerincafe" name="No momento você está sozinho aqui." />
+		<text id="panelwin_social_noplayerincafe" name="No momento só você está aqui." />
 		<text id="panelwin_social_say" name=":" />
 		<text id="panelwin_social_standardanswer" name="Em breve você poderá bater papo com outros jogadores no seu café!" />
 		<text id="panelwin_social_welcome_marketplace" name="Bem vindo! Clique no quadro negro se você está a procura de trabalho!" />
-		<text id="panelwin_social_welcome_mycafe" name="Bem vindo" />
+		<text id="panelwin_social_welcome_mycafe" name="Olá, Chef! Esperamos que você se divirta no Café hoje!" />
 		<text id="panelwin_social_writeable" name="Só jogadores registrados a partir do nível 1 podem utilizar o bate-papo." />
 	</panels>
 	<preparestep>

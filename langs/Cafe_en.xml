@@ -868,6 +868,7 @@ Give some of it to your friends!"  />
 			<text id="dialogwin_settings_low" name="Low"  />
 			<text id="dialogwin_settings_medium" name="Medium"  />
 			<text id="dialogwin_settings_quality" name="Quality"  />
+			<text id="dialogwin_settings_cappFancy" name="Disable Fancy ingredients"  />
 			<text id="dialogwin_shippingconfirmation_copy1" name="Click on the link in the e-mail in order to collect the gold."  />
 			<text id="dialogwin_shippingconfirmation_copy2" name="Haven&#039;t gotten the e-mail yet? It can take a couple of minutes. If you can&#039;t find it in the spam folder either at that time, our support will gladly assist you."  />
 			<text id="dialogwin_shippingconfirmation_title" name="Gold e-mail on its way!"  />
@@ -1124,27 +1125,27 @@ Available for limited time only!"  />
 		</feeds>
 		<ingame_tooltips>
 			<text id="fridgetooltip_line1" name="Fridge"  />
-			<text id="fridgetooltip_line2" name="Click to open"  />
+			<text id="fridgetooltip_line2" name="Click to open!"  />
 			<text id="muffinmantooltip_line1" name="Muffin Man"  />
 			<text id="muffinmantooltip_line2" name="Click to play!"  />
 			<text id="player_action" name="Actions:"  />
 			<text id="player_working" name="Shift time"  />
-			<text id="preparestep_cleaning" name="clean stove"  />
-			<text id="preparestep_serving" name="serve dish"  />
+			<text id="preparestep_cleaning" name="cleaning stove"  />
+			<text id="preparestep_serving" name="serving dish"  />
 			<text id="smoothiemaker_line1" name="Frosty"  />
 			<text id="smoothiemaker_line2" name="Click to mix!"  />
-			<text id="stovetooltip_clean1" name="Dirty stove"  />
-			<text id="stovetooltip_clean2" name="Click to clean"  />
-			<text id="stovetooltip_empty1" name="Empty counter"  />
-			<text id="stovetooltip_empty2" name="Cook something"  />
+			<text id="stovetooltip_clean1" name="Dirty stove!"  />
+			<text id="stovetooltip_clean2" name="Click to clean!"  />
+			<text id="stovetooltip_empty1" name="Empty counter!"  />
+			<text id="stovetooltip_empty2" name="Cook something!"  />
 			<text id="stovetooltip_free" name="Click to cook"  />
 			<text id="stovetooltip_full1" name="Ready to serve:"  />
 			<text id="stovetooltip_full2" name="Servings"  />
-			<text id="stovetooltip_prepare1" name="Click to:"  />
+			<text id="stovetooltip_prepare1" name="Click to"  />
 			<text id="stovetooltip_ready1" name="until the dish is spoiled"  />
-			<text id="stovetooltip_ready2" name="Click to serve"  />
+			<text id="stovetooltip_ready2" name="Click to serve!"  />
 			<text id="stovetooltip_spoiled1" name="Spoiled!"  />
-			<text id="stovetooltip_spoiled2" name="Click to clean"  />
+			<text id="stovetooltip_spoiled2" name="Click to clean!"  />
 			<text id="wheeloffortunetooltip_line1" name="Wheel of Fortune!"  />
 			<text id="wheeloffortunetooltip_line2" name="Click to play!"  />
 			<text id="wheeloffortunetooltip_line3" name="Free spin available!"  />
@@ -1236,7 +1237,7 @@ Available for limited time only!"  />
 			<text id="panelwin_login_register" name="REGISTER"  />
 			<text id="panelwin_login_rememberpassword" name="Save password"  />
 			<text id="panelwin_name_cafe" name="CAFÉ"  />
-			<text id="panelwin_social_bot" name="Café chat"  />
+			<text id="panelwin_social_bot" name="Game"  />
 			<text id="panelwin_social_comein" name="entered the café"  />
 			<text id="panelwin_social_comeinmarketplace" name="has entered the market place"  />
 			<text id="panelwin_social_goout" name="has left the café"  />
@@ -1246,7 +1247,7 @@ Available for limited time only!"  />
 			<text id="panelwin_social_say" name=":"  />
 			<text id="panelwin_social_standardanswer" name="Soon you will be able to chat with other players in your café!"  />
 			<text id="panelwin_social_welcome_marketplace" name="Welcome! Click onto the black board if you are looking for a job!"  />
-			<text id="panelwin_social_welcome_mycafe" name="Welcome"  />
+			<text id="panelwin_social_welcome_mycafe" name="Hey there, Chef! We hope you have a great time!"  />
 			<text id="panelwin_social_writeable" name="You need to register and reach level 1 to use the chat."  />
 		</panels>
 		<preparestep>
