@@ -727,7 +727,7 @@
 <wod id="2289" n="Basic" g="Dish" t="Passionfruitmousse" events="0" xp="894" incomePerServing="6" servings="910" duration="360" level="23" dishcategory="0" requirements="1351+1#1308+1#1325+1#1311+1#1342+1#1408+1" />
 <wod id="2290" n="Basic" g="Dish" t="Passionfruitfondue" events="0" xp="2664" incomePerServing="3" servings="1950" duration="900" level="42" dishcategory="0" requirements="1351+2#1307+1#1328+1#1408+1" />
 <wod id="2291" n="Basic" g="Dish" t="Passionfruitjuice" events="0" xp="20" incomePerServing="15" servings="230" duration="6" level="28" dishcategory="0" requirements="1351+1#1325+1#1408+1" />
-<wod id="2292" n="Basic" g="Dish" t="Passionfruitcheesecake" events="0" xp="1218" incomePerServing="3" servings="1647" duration="800" level="43" dishcategory="0" requirements="1351+1#1332+1#1331+1#1325+1#1330+1#1408+1" />
+<wod id="2292" n="Basic" g="Dish" t="Passionfruitcheesecake" events="0" xp="2460" incomePerServing="3" servings="1647" duration="800" level="43" dishcategory="0" requirements="1351+1#1332+1#1331+1#1325+1#1330+1#1408+1" />
 
 <wod id="2217" n="Basic" g="Dish" t="Cookieplate" events="0" xp="508" incomePerServing="5" servings="485" duration="240" level="13" dishcategory="0" requirements="1337+1#1307+1#1312+1#1325+1#1409+1" />
 <wod id="1220" n="Basic" g="Dish" t="Stewedrhubarb" events="0" xp="1651" incomePerServing="2" servings="2340" duration="1080" level="13" dishcategory="0" requirements="1323+1#1325+1#1408+1" />
