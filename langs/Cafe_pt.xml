@@ -469,6 +469,8 @@ Se você estocá-la, as porções existentes serão perdidas!" />
 		<text id="cookstep_passionfruitjuice2" name="Adoçando" />
 		<text id="cookstep_passionfruitcheesecake1" name="Misturando ingredientes" />
 		<text id="cookstep_passionfruitcheesecake2" name="Assando" />
+		<text id="cookstep_pietray1" name="Misturando ingredientes" />
+		<text id="cookstep_pietray2" name="Assando" />
 	</cookstep>
 	<coopmission>
 		<text id="coop_desc_long_1" name="Nós oferemos um curso de culinária para aperfeiçoar alguns pratos. Você gostaria de participar?" />
@@ -603,6 +605,26 @@ Se você estocá-la, as porções existentes serão perdidas!" />
 		<text id="coop_title_45" name="TOME CHÁ DE MARACUJÁ" />
 		<text id="coop_desc_short_45" name="É uma sensação!" />
 		<text id="coop_desc_long_45" name="Estão dizendo por aí que o maracujá é relaxante e ajuda a limpar a mente. Essa informação está viralizando e clientes pela vizinhança querem provar pratos com a fruta. Não perca tempo e lucre com essa febre!" />
+
+		<text id="coop_title_46" name="NÃO FICA BOLADO" />
+		<text id="coop_desc_short_46" name="Bolos para se acalmar!" />
+		<text id="coop_desc_long_46" name="O Chef EarthHunt3r quer acalmar uma situação complicada com deliciosos bolos. Ajude!" />
+
+		<text id="coop_title_47" name="VOCÊ É UM FRANGO?" />
+		<text id="coop_desc_short_47" name="Cocoricó!" />
+		<text id="coop_desc_long_47" name="O Chef Monchi acha que frangos estão se disfarçando de pessoas para dominar o mundo. Sirva comidas para irritá-los e revelar seus disfarces!" />
+
+		<text id="coop_title_48" name="UNIVERSIDADE DA COZINHA" />
+		<text id="coop_desc_short_48" name="Vamos se formar!" />
+		<text id="coop_desc_long_48" name="O Chef EarthHunt3r quer se formar e a Universidade quer muita comida como TCC. Ajude o colega e você também vai ganhar um diploma!" />
+
+		<text id="coop_title_49" name="PIZZA PARA TODOS!" />
+		<text id="coop_desc_short_49" name="Ela é a melhor!" />
+		<text id="coop_desc_long_49" name="A Chef YunaStellaris quer agradar a todos com vários tipos de pizza. Achas que tens o que é necessário para ajudá-la?" />
+
+		<text id="coop_title_50" name="RUSH B" />
+		<text id="coop_desc_short_50" name="Corra!" />
+		<text id="coop_desc_long_50" name="A Chef YunaStellaris está promovendo uma corrida enorme para um lugar muito específico onde uma &quot;explosão&quot; de sabor aguarda. Ajude-a e mostre suas habilidades." />
 	</coopmission>
 	<dialogs>
 		<text id="dialogwin_achievement_title" name="Conquistas" />
@@ -1790,6 +1812,10 @@ Apenas disponível por tempo limitado!" />
 		<text id="preparestep_passionfruitcheesecake_cookies" name="esmigalhar biscoitos" />
 		<text id="preparestep_passionfruitcheesecake_sugar" name="adoçar" />
 		<text id="preparestep_passionfruitcheesecake_milk" name="aquecer leite" />
+		<text id="preparestep_pietray_flour" name="fazer crostas" />
+		<text id="preparestep_pietray_cherries" name="lavar cerejas" />
+		<text id="preparestep_pietray_apple" name="descascar maçãs" />
+		<text id="preparestep_pietray_sugar" name="misturar açúcar" />
 		<text id="preparestep_greensalad_cookfest" name="usar ingredientes rápidos" />
 		<text id="preparestep_omelette_cookfest" name="usar ingredientes rápidos" />
 		<text id="preparestep_tomatosoup_cookfest" name="usar ingredientes rápidos" />
@@ -1829,6 +1855,7 @@ Apenas disponível por tempo limitado!" />
 		<text id="preparestep_passionfruitfondue_cookfest" name="usar ingredientes rápidos" />
 		<text id="preparestep_passionfruitjuice_cookfest" name="usar ingredientes rápidos" />
 		<text id="preparestep_passionfruitcheesecake_cookfest" name="usar ingredientes rápidos" />
+		<text id="preparestep_pietray_cookfest" name="usar ingredientes rápidos" />
 		<text id="preparestep_cookieplate_cookfest" name="usar ingredientes rápidos" />
 		<text id="preparestep_stewedrhubarb_cookfest" name="usar ingredientes rápidos" />
 		<text id="preparestep_combomeal_cookfest" name="usar ingredientes rápidos" />
@@ -2058,6 +2085,7 @@ Apenas disponível por tempo limitado!" />
 		<text id="preparestep_passionfruitfondue_vanilla" name="raspar baunilha" />
 		<text id="preparestep_passionfruitjuice_vanilla" name="raspar baunilha" />
 		<text id="preparestep_passionfruitcheesecake_vanilla" name="raspar baunilha" />
+		<text id="preparestep_pietray_cinnamon" name="espalhar canela" />
 		<text id="preparestep_greensalad_eventspice" name="espalhar tempero de evento" />
 		<text id="preparestep_omelette_eventspice" name="espalhar tempero de evento" />
 		<text id="preparestep_tomatosoup_eventspice" name="espalhar tempero de evento" />
@@ -2097,6 +2125,7 @@ Apenas disponível por tempo limitado!" />
 		<text id="preparestep_passionfruitfondue_eventspice" name="espalhar tempero de evento" />
 		<text id="preparestep_passionfruitjuice_eventspice" name="espalhar tempero de evento" />
 		<text id="preparestep_passionfruitcheesecake_eventspice" name="espalhar tempero de evento" />
+		<text id="preparestep_pietray_eventspice" name="espalhar tempero de evento" />
 		<text id="preparestep_cookieplate_eventspice" name="espalhar tempero de evento" />
 		<text id="preparestep_stewedrhubarb_eventspice" name="espalhar tempero de evento" />
 		<text id="preparestep_combomeal_eventspice" name="espalhar tempero de evento" />
@@ -2342,6 +2371,7 @@ Apenas disponível por tempo limitado!" />
 		<text id="recipe_passionfruitfondue" name="Fondue de Maracujá" />
 		<text id="recipe_passionfruitjuice" name="Suco de Maracujá" />
 		<text id="recipe_passionfruitcheesecake" name="Cheesecake de Maracujá" />
+		<text id="recipe_pietray" name="Banquete de Tortas" />
 	</recipe>
 	<recipes_fastfood>
 		<text id="recipe_smoothiemaker_greensmoothie" name="Batida Verde" />

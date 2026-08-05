@@ -471,6 +471,8 @@ If you put it into storage, you will lose the remaining portions!"  />
 			<text id="cookstep_passionfruitjuice2" name="Adding sugar"  />
 			<text id="cookstep_passionfruitcheesecake1" name="Mixing ingredients"  />
 			<text id="cookstep_passionfruitcheesecake2" name="Baking"  />
+			<text id="cookstep_pietray1" name="Mixing ingredients"  />
+			<text id="cookstep_pietray2" name="Baking"  />
 </cookstep>
 		<coopmission>
 			<text id="coop_title_1" name="COOKING CLASS" />
@@ -647,6 +649,26 @@ If you put it into storage, you will lose the remaining portions!"  />
 			<text id="coop_title_45" name="A PASSION FOR A FRUIT" />
 			<text id="coop_desc_short_45" name="It's the latest sensation!" />
 			<text id="coop_desc_long_45" name="It's said that passion fruit provides relaxation and can help you clear your mind. This information is trending and customers all over the neighborhood want to taste passion fruit dishes. Don't waste time and cash in this craze!" />
+
+			<text id="coop_title_46" name="CAKE IT EASY" />
+			<text id="coop_desc_short_46" name="Relax with cakes!" />
+			<text id="coop_desc_long_46" name="Chef EarthHunt3r wants to calm down a heated situation with delicious cakes. Help out!" />
+
+			<text id="coop_title_47" name="ARE YOU A CHICKEN?" />
+			<text id="coop_desc_short_47" name="Bawk bawk bawk!" />
+			<text id="coop_desc_long_47" name="Chef Monchi thinks chickens are disguising themselves as people to take over the world. Serve dishes to disgust them and uncover their disguise!" />
+
+			<text id="coop_title_48" name="COOKING ACADEMY" />
+			<text id="coop_desc_short_48" name="Let's graduate!" />
+			<text id="coop_desc_long_48" name="Chef EarthHunt3r wants to graduate and the Academy wants lots of dishes. Help him out and you can earn a degree too!" />
+
+			<text id="coop_title_49" name="PIZZA FOR EVERYBODY!" />
+			<text id="coop_desc_short_49" name="It's just the best!" />
+			<text id="coop_desc_long_49" name="Chef YunaStellaris wants to please everyone with various types of pizza. Can you master all types and help her out?" />
+
+			<text id="coop_title_50" name="RUSH B" />
+			<text id="coop_desc_short_50" name="Run!" />
+			<text id="coop_desc_long_50" name="Chef YunaStellaris is promoting a massive run to a very specific location where an &quot;explosion&quot; of flavor awaits. Help out and show your skills." />
 		</coopmission>
 		<dialogs>
 			<text id="dialogwin_achievement_title" name="Achievements"  />
@@ -1929,6 +1951,10 @@ Available for limited time only!"  />
 			<text id="preparestep_passionfruitcheesecake_cookies" name="crumble cookies"  />
 			<text id="preparestep_passionfruitcheesecake_sugar" name="add sugar"  />
 			<text id="preparestep_passionfruitcheesecake_milk" name="heat milk"  />
+			<text id="preparestep_pietray_flour" name="make crusts"  />
+			<text id="preparestep_pietray_cherries" name="wash cherries"  />
+			<text id="preparestep_pietray_apple" name="peel apples"  />
+			<text id="preparestep_pietray_sugar" name="mix sugar"  />
 
 			<text id="preparestep_greensalad_cookfest" name="use fast ingredients" />
 			<text id="preparestep_omelette_cookfest" name="use fast ingredients" />
@@ -1969,6 +1995,7 @@ Available for limited time only!"  />
 			<text id="preparestep_passionfruitfondue_cookfest" name="use fast ingredients" />
 			<text id="preparestep_passionfruitjuice_cookfest" name="use fast ingredients" />
 			<text id="preparestep_passionfruitcheesecake_cookfest" name="use fast ingredients" />
+			<text id="preparestep_pietray_cookfest" name="use fast ingredients" />
 			<text id="preparestep_cookieplate_cookfest" name="use fast ingredients" />
 			<text id="preparestep_stewedrhubarb_cookfest" name="use fast ingredients" />
 			<text id="preparestep_combomeal_cookfest" name="use fast ingredients" />
@@ -2197,6 +2224,7 @@ Available for limited time only!"  />
 			<text id="preparestep_passionfruitfondue_vanilla" name="scrape out vanilla"  />
 			<text id="preparestep_passionfruitjuice_vanilla" name="scrape out vanilla"  />
 			<text id="preparestep_passionfruitcheesecake_vanilla" name="scrape out vanilla"  />
+			<text id="preparestep_pietray_cinnamon" name="spread cinnamon"  />
 
 			<text id="preparestep_greensalad_eventspice" name="spread event spice" />
 			<text id="preparestep_omelette_eventspice" name="spread event spice" />
@@ -2237,6 +2265,7 @@ Available for limited time only!"  />
 			<text id="preparestep_passionfruitfondue_eventspice" name="spread event spice" />
 			<text id="preparestep_passionfruitjuice_eventspice" name="spread event spice" />
 			<text id="preparestep_passionfruitcheesecake_eventspice" name="spread event spice" />
+			<text id="preparestep_pietray_eventspice" name="spread event spice" />
 			<text id="preparestep_cookieplate_eventspice" name="spread event spice" />
 			<text id="preparestep_stewedrhubarb_eventspice" name="spread event spice" />
 			<text id="preparestep_combomeal_eventspice" name="spread event spice" />
@@ -2482,6 +2511,7 @@ Available for limited time only!"  />
 			<text id="recipe_passionfruitfondue" name="Passion Fruit Fondue"  />
 			<text id="recipe_passionfruitjuice" name="Passion Fruit Juice"  />
 			<text id="recipe_passionfruitcheesecake" name="Passion Fruit Cheesecake"  />
+			<text id="recipe_pietray" name="Pie Banquet"  />
 </recipe>
 		<recipes_fastfood>
 			<text id="recipe_smoothiemaker_tomatojuice" name="Tomato Juice"  />
