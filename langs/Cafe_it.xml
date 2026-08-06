@@ -467,8 +467,8 @@
 		<text id="cookstep_passionfruitjuice2" name="Aggiungendo lo zucchero" />
 		<text id="cookstep_passionfruitcheesecake1" name="Mescolando gli ingredienti" />
 		<text id="cookstep_passionfruitcheesecake2" name="Cuocendo la torta" />
-		<text id="cookstep_pietray1" name="Mixing ingredients" />
-		<text id="cookstep_pietray2" name="Baking" />
+		<text id="cookstep_pietray1" name="Mescolando il preparato" />
+		<text id="cookstep_pietray2" name="Cuocendo il tutto" />
 	</cookstep>
 	<coopmission>
 		<text id="coop_title_1" name="CORSO DI CUCINA" />
@@ -603,21 +603,21 @@
 		<text id="coop_title_45" name="PASSIONE PER UN FRUTTO" />
 		<text id="coop_desc_short_45" name="L&apos;ultima mania del momento!" />
 		<text id="coop_desc_long_45" name="Si dice che il frutto della passione possa rilassare e schiarire le idee. Queste informazioni sono in tendenza e i clienti di tutto il vicinato vogliono assaggiare piatti a base di maracujá. Non stare fermo a guardare, approfittane!" />
-		<text id="coop_title_46" name="CAKE IT EASY" />
-		<text id="coop_desc_short_46" name="Relax with cakes!" />
-		<text id="coop_desc_long_46" name="Chef EarthHunt3r wants to calm down a heated situation with delicious cakes. Help out!" />
-		<text id="coop_title_47" name="ARE YOU A CHICKEN?" />
-		<text id="coop_desc_short_47" name="Bawk bawk bawk!" />
-		<text id="coop_desc_long_47" name="Chef Monchi thinks chickens are disguising themselves as people to take over the world. Serve dishes to disgust them and uncover their disguise!" />
-		<text id="coop_title_48" name="COOKING ACADEMY" />
-		<text id="coop_desc_short_48" name="Let&apos;s graduate!" />
-		<text id="coop_desc_long_48" name="Chef EarthHunt3r wants to graduate and the Academy wants lots of dishes. Help him out and you can earn a degree too!" />
-		<text id="coop_title_49" name="PIZZA FOR EVERYBODY!" />
-		<text id="coop_desc_short_49" name="It&apos;s just the best!" />
-		<text id="coop_desc_long_49" name="Chef YunaStellaris wants to please everyone with various types of pizza. Can you master all types and help her out?" />
+		<text id="coop_title_46" name="PRENDITELA CON DOLCEZZA" />
+		<text id="coop_desc_short_46" name="Rilassati con le torte!" />
+		<text id="coop_desc_long_46" name="Chef EarthHunt3r vuole calmare una situazione inalberata con torte deliziose. Dai una mano!" />
+		<text id="coop_title_47" name="SEI UN POLLETTO?" />
+		<text id="coop_desc_short_47" name="Co co coccodè!" />
+		<text id="coop_desc_long_47" name="Chef Monchi crede che i polli si stiano nascondendo come esseri umani per governare il mondo. Servi dei piatti per disgustarli e porta allo scoperto il loro travestimento!" />
+		<text id="coop_title_48" name="ACCADEMIA CULINARIA" />
+		<text id="coop_desc_short_48" name="Laureiamoci!" />
+		<text id="coop_desc_long_48" name="Chef EarthHunt3r vuole laurearsi e l&apos;Accademia vuole molti piatti. Aiutalo, e anche tu potrai indossare una corona d&apos;alloro!" />
+		<text id="coop_title_49" name="PIZZA PER TUTTI!" />
+		<text id="coop_desc_short_49" name="Semplicemente il meglio!" />
+		<text id="coop_desc_long_49" name="Chef YunaStellaris vuole appagare tutti tutti con diversi tipi di pizza. Sarai in grado di padroneggiare i vari tipi e darle una mano?" />
 		<text id="coop_title_50" name="RUSH B" />
-		<text id="coop_desc_short_50" name="Run!" />
-		<text id="coop_desc_long_50" name="Chef YunaStellaris is promoting a massive run to a very specific location where an &quot;explosion&quot; of flavor awaits. Help out and show your skills." />
+		<text id="coop_desc_short_50" name="Corri!" />
+		<text id="coop_desc_long_50" name="Chef YunaStellaris sta promuovendo una corsa verso un luogo peculiare dove ti aspetterà un&apos;&quot;esplosione&quot; di sapori. Aiutala e dimostra le tue capacità!" />
 		<text id="coop_title_41" name="BALATON PARTY" />
 		<text id="coop_desc_short_41" name="Mangiamo in riva al lago!" />
 		<text id="coop_desc_long_41" name="Chef Flinsical sta organizzando un momento di svago nei pressi del Lago Balaton. Dai una mano con cibo e bevande per questo evento scenografico!" />
