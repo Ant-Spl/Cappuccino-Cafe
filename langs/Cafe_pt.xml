@@ -610,7 +610,7 @@ Se você estocá-la, as porções existentes serão perdidas!" />
 		<text id="coop_desc_long_46" name="O Chef EarthHunt3r quer acalmar uma situação complicada com deliciosos bolos. Ajude!" />
 		<text id="coop_title_47" name="VOCÊ É UM FRANGO?" />
 		<text id="coop_desc_short_47" name="Cocoricó!" />
-		<text id="coop_desc_long_47" name="O Chef Monchi acha que frangos estão se disfarçando de pessoas para dominar o mundo. Sirva comidas para irritá-los e revelar seus disfarces!" />
+		<text id="coop_desc_long_47" name="O Chef Monchi quer saber se você tem coragem para aceitar o desafio dele. Vai amarelar?" />
 		<text id="coop_title_48" name="UNIVERSIDADE DA COZINHA" />
 		<text id="coop_desc_short_48" name="Vamos se formar!" />
 		<text id="coop_desc_long_48" name="O Chef EarthHunt3r quer se formar e a Universidade quer muita comida como TCC. Ajude o colega e você também vai ganhar um diploma!" />
@@ -1210,6 +1210,12 @@ Apenas disponível por tempo limitado!" />
 		<text id="panelwin_social_welcome_marketplace" name="Bem vindo! Clique no quadro negro se você está a procura de trabalho!" />
 		<text id="panelwin_social_welcome_mycafe" name="Olá, Chef! Esperamos que você se divirta no Café hoje!" />
 		<text id="panelwin_social_writeable" name="Só jogadores registrados a partir do nível 1 podem utilizar o bate-papo." />
+		<text id="panelwin_deco_sort_default" name="Ordenar: Padrão" />
+		<text id="panelwin_deco_sort_newest" name="Itens recentes" />
+		<text id="panelwin_deco_sort_cash_asc" name="Preço (Dinheiro): menor para maior" />
+		<text id="panelwin_deco_sort_cash_desc" name="Preço (Dinheiro): maior para menor" />
+		<text id="panelwin_deco_sort_gold_asc" name="Preço (Ouro): menor para maior" />
+		<text id="panelwin_deco_sort_gold_desc" name="Preço (Ouro): maior para menor" />
 	</panels>
 	<preparestep>
 		<text id="preparestep_bananasplit_banana" name="descascar banana" />

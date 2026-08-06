@@ -1188,6 +1188,12 @@
 		<text id="panelwin_social_welcome_marketplace" name="Benvenuto! Clicca sulla lavagna se cerchi un lavoro!" />
 		<text id="panelwin_social_welcome_mycafe" name="Benvenuto" />
 		<text id="panelwin_social_writeable" name="Solo gli utenti registrati e che hanno raggiunto il livello 1 possono utilizzare la chat." />
+		<text id="panelwin_deco_sort_default" name="Sort: Default" />
+		<text id="panelwin_deco_sort_newest" name="Newest released" />
+		<text id="panelwin_deco_sort_cash_asc" name="Price (Cash): low to high" />
+		<text id="panelwin_deco_sort_cash_desc" name="Price (Cash): high to low" />
+		<text id="panelwin_deco_sort_gold_asc" name="Price (Gold): low to high" />
+		<text id="panelwin_deco_sort_gold_desc" name="Price (Gold): high to low" />
 	</panels>
 	<preparestep>
 		<text id="preparestep_bananasplit_banana" name="Sbuccia la banana" />

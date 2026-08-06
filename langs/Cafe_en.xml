@@ -1273,10 +1273,10 @@ Available for limited time only!"  />
 			<text id="panelwin_social_writeable" name="You need to register and reach level 1 to use the chat."  />
 			<text id="panelwin_deco_sort_default" name="Sort: Default" />
 			<text id="panelwin_deco_sort_newest" name="Newest released" />
-			<text id="panelwin_deco_sort_cash_asc" name="Cash price: low to high" />
-			<text id="panelwin_deco_sort_cash_desc" name="Cash price: high to low" />
-			<text id="panelwin_deco_sort_gold_asc" name="Gold price: low to high" />
-			<text id="panelwin_deco_sort_gold_desc" name="Gold price: high to low" />
+			<text id="panelwin_deco_sort_cash_asc" name="Price (Cash): low to high" />
+			<text id="panelwin_deco_sort_cash_desc" name="Price (Cash): high to low" />
+			<text id="panelwin_deco_sort_gold_asc" name="Price (Gold): low to high" />
+			<text id="panelwin_deco_sort_gold_desc" name="Price (Gold): high to low" />
 		</panels>
 		<preparestep>
 			<text id="preparestep_bananasplit_banana" name="peel banana"  />

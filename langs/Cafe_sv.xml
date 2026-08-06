@@ -610,7 +610,7 @@
 		<text id="coop_desc_long_46" name="Chef EarthHunt3r wants to calm down a heated situation with delicious cakes. Help out!" />
 		<text id="coop_title_47" name="ARE YOU A CHICKEN?" />
 		<text id="coop_desc_short_47" name="Bawk bawk bawk!" />
-		<text id="coop_desc_long_47" name="Chef Monchi thinks chickens are disguising themselves as people to take over the world. Serve dishes to disgust them and uncover their disguise!" />
+		<text id="coop_desc_long_47" name="Chef Monchi wants to know if you're brave enough to accept his challenge. Will you chicken out?" />
 		<text id="coop_title_48" name="COOKING ACADEMY" />
 		<text id="coop_desc_short_48" name="Let&apos;s graduate!" />
 		<text id="coop_desc_long_48" name="Chef EarthHunt3r wants to graduate and the Academy wants lots of dishes. Help him out and you can earn a degree too!" />
@@ -1191,6 +1191,12 @@
 		<text id="panelwin_social_welcome_marketplace" name="Välkommen! Klicka på den svarta tavlan om du letar efter ett jobb!" />
 		<text id="panelwin_social_welcome_mycafe" name="Välkommen" />
 		<text id="panelwin_social_writeable" name="Du måste registrera dig och nå nivå 1 för att få använda chatfunktionen." />
+		<text id="panelwin_deco_sort_default" name="Sort: Default" />
+		<text id="panelwin_deco_sort_newest" name="Newest released" />
+		<text id="panelwin_deco_sort_cash_asc" name="Price (Cash): low to high" />
+		<text id="panelwin_deco_sort_cash_desc" name="Price (Cash): high to low" />
+		<text id="panelwin_deco_sort_gold_asc" name="Price (Gold): low to high" />
+		<text id="panelwin_deco_sort_gold_desc" name="Price (Gold): high to low" />
 	</panels>
 	<preparestep>
 		<text id="preparestep_bananasplit_banana" name="Skala bananer" />
