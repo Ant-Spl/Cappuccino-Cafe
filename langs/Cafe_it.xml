@@ -1185,15 +1185,15 @@
 		<text id="panelwin_social_noplayerincafe" name="Sei l&apos;unico giocatore presente qui." />
 		<text id="panelwin_social_say" name=":" />
 		<text id="panelwin_social_standardanswer" name="Presto qui potrai chattare con altri giocatori nel tuo Café!" />
-		<text id="panelwin_social_welcome_marketplace" name="Benvenuto! Clicca sulla lavagna se cerchi un lavoro!" />
-		<text id="panelwin_social_welcome_mycafe" name="Benvenuto" />
+		<text id="panelwin_social_welcome_marketplace" name="Che piacere averti qui! Clicca sulla lavagna se cerchi un lavoro!" />
+		<text id="panelwin_social_welcome_mycafe" name="Heylà Chef!" />
 		<text id="panelwin_social_writeable" name="Solo gli utenti registrati e che hanno raggiunto il livello 1 possono utilizzare la chat." />
-		<text id="panelwin_deco_sort_default" name="Sort: Default" />
-		<text id="panelwin_deco_sort_newest" name="Newest released" />
-		<text id="panelwin_deco_sort_cash_asc" name="Price (Cash): low to high" />
-		<text id="panelwin_deco_sort_cash_desc" name="Price (Cash): high to low" />
-		<text id="panelwin_deco_sort_gold_asc" name="Price (Gold): low to high" />
-		<text id="panelwin_deco_sort_gold_desc" name="Price (Gold): high to low" />
+		<text id="panelwin_deco_sort_default" name="Ordina per: Predefinito" />
+		<text id="panelwin_deco_sort_newest" name="Più recenti" />
+		<text id="panelwin_deco_sort_cash_asc" name="Prezzo (CaféDollar): crescente" />
+		<text id="panelwin_deco_sort_cash_desc" name="Prezzo (CaféDollar): decrescente" />
+		<text id="panelwin_deco_sort_gold_asc" name="Prezzo (Gold): crescente" />
+		<text id="panelwin_deco_sort_gold_desc" name="Prezzo (Gold): decrescente" />
 	</panels>
 	<preparestep>
 		<text id="preparestep_bananasplit_banana" name="Sbuccia la banana" />
@@ -2378,7 +2378,7 @@
 		<mail>
 			<text id="mail_invite_friend" name="Hey %s!&lt;br /&gt;&lt;br /&gt;Ho appena scoperto il gioco online &quot;Cappuccino Café&quot;.&lt;br /&gt;&lt;br /&gt;Questo è il link diretto al gioco:&lt;br /&gt;http://www.Cappuccinostudios.com/cafe/&lt;br /&gt;&lt;br /&gt;Registrati a questo link per creare gratuitamente il tuo Café in &quot;Cappuccino Café&quot;.&lt;br /&gt;&lt;br /&gt;Scopri come sia gestire un Café tutto tuo. Cucina ottimi manicaretti, intrattieni i tuoi ospiti e personalizza il locale a modo tuo!&lt;br /&gt;&lt;br /&gt;Buon divertimento e tanti saluti, %s" />
 			<text id="mail_lost_pw" name="Ciao %s!&lt;br /&gt;&lt;br /&gt;Ricevi questa email perché hai richiesto una nuova password.&lt;br /&gt;La tua password è la seguente: %s&lt;br /&gt;&lt;br /&gt;Questo è il link diretto al gioco:&lt;br /&gt;http://www.Cappuccinostudios.com/cafe/&lt;br /&gt;&lt;br /&gt;Se hai domande o problemi, puoi rivolgerti a support@Cappuccinostudios.com&lt;br /&gt;&lt;br /&gt;Ti auguriamo buon divertimento!&lt;br /&gt;&lt;br /&gt;Il team di&lt;br /&gt;Cappuccinostudios.com" />
-			<text id="mail_registration" name="Ciao,&lt;br /&gt;&lt;br /&gt;grazie per esserti registrato e benvenuto in &quot;Cappuccino Café&quot;.&lt;br /&gt;&lt;br /&gt;Puoi giocare quando vuoi, accedendo con i seguenti dati:&lt;br /&gt;Email: %s&lt;br /&gt;Password: %s&lt;br /&gt;&lt;br /&gt;Questo è il link diretto al gioco:&lt;br /&gt;http://www.Cappuccinostudios.com/cafe/&lt;br /&gt;&lt;br /&gt;Se hai domande o problemi, puoi rivolgerti a support@Cappuccinostudios.com&lt;br /&gt;&lt;br /&gt;Ti auguriamo buon divertimento!&lt;br /&gt;&lt;br /&gt;Il team di&lt;br /&gt;Cappuccinostudios.com" />
+			<text id="mail_registration" name="Ciao,&lt;br /&gt;&lt;br /&gt;grazie per la registrazione e ti diamo il benvenuto in &quot;Cappuccino Café&quot;.&lt;br /&gt;&lt;br /&gt;Puoi giocare quando vuoi, accedendo con i seguenti dati:&lt;br /&gt;Email: %s&lt;br /&gt;Password: %s&lt;br /&gt;&lt;br /&gt;Questo è il link diretto al gioco:&lt;br /&gt;http://www.Cappuccinostudios.com/cafe/&lt;br /&gt;&lt;br /&gt;Se hai domande o problemi, puoi rivolgerti a support@Cappuccinostudios.com&lt;br /&gt;&lt;br /&gt;Ti auguriamo buon divertimento!&lt;br /&gt;&lt;br /&gt;Il team di&lt;br /&gt;Cappuccinostudios.com" />
 		</mail>
 		<misc>
 			<text id="marketplace" name="Mercato" />
@@ -2556,9 +2556,9 @@
 		<text id="tut_instantcook_copy" name="Di solito l&apos;insalata è pronta in 3 minuti, ma hai anche la possibilità di stringere i tempi, come faremo ora..." />
 		<text id="tut_preparesteps_copy" name="Clicca alcune volte sul fornello per eseguire ogni fase della preparazione." />
 		<text id="tut_servedish_copy" name="Bene!\nOra devi solo servire il piatto.\nLe 10 porzioni però non dureranno a lungo, quindi non ti dimenticare di cucinare qualcos&apos;altro!" />
-		<text id="tut_start_copy" name="Benvenuto nel tuo Café, {0}!\nQuesta breve introduzione ti aiuterà a cavartela nel fantastico mondo della ristorazione." />
+		<text id="tut_start_copy" name="Eccoci qui nel tuo Café, {0}!\nQuesta breve introduzione ti aiuterà a cavartela nel fantastico mondo della ristorazione." />
 		<text id="tut_title" name="Introduzione!" />
-		<text id="tut_welcome_title" name="Benvenuto!" />
+		<text id="tut_welcome_title" name="Ti diamo il benvenuto!" />
 	</tutorial>
 	<generic_flash>
 		<alert>
