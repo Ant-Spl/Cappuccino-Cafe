@@ -1023,15 +1023,15 @@
 <wod id="2029" n="Basic" g="Achievement" t="Muffinmangold" />
 <wod id="2030" n="Basic" g="Achievement" t="Wheeloffortune" />
 <wod id="2101" n="Basic" g="Coop" t="1" events="0" maxMember="5" maxLevel="1" chips="1274" xp="21" gold="2" duration="2520" dishes="1204+20#1203+6#1202+2#2215+15" />
-<wod id="2102" n="Basic" g="Coop" t="2" events="0" maxMember="5" maxLevel="9" chips="4490" xp="141" gold="4" duration="4000" dishes="1210+30#1207+40#1206+50#2223+20" />
-<wod id="2103" n="Basic" g="Coop" t="3" events="0" maxMember="5" maxLevel="16" chips="7212" xp="317" gold="8" duration="13040" dishes="1219+25#1218+25#1214+50" />
+<wod id="2102" n="Basic" g="Coop" t="2" events="0" maxMember="5" maxLevel="9" chips="4490" xp="141" gold="5" duration="4000" dishes="1210+30#1207+40#1206+50#2223+20" />
+<wod id="2103" n="Basic" g="Coop" t="3" events="0" maxMember="5" maxLevel="16" chips="7212" xp="317" gold="9" duration="13040" dishes="1219+25#1218+25#1214+50" />
 <wod id="2104" n="Basic" g="Coop" t="4" events="0" maxMember="5" maxLevel="13" chips="2842" xp="130" gold="4" duration="9120" dishes="1208+15#1207+10#1206+15#1220+12" />
 <wod id="2105" n="Basic" g="Coop" t="5" events="0" maxMember="5" maxLevel="14" chips="2852" xp="159" gold="5" duration="6960" dishes="1203+20#1213+15#2222+10" />
 <wod id="2106" n="Basic" g="Coop" t="6" events="0" maxMember="5" maxLevel="15" chips="1654" xp="37" gold="1" duration="2160" dishes="1203+5#1201+40#1205+5#1217+8" />
 <wod id="2107" n="Basic" g="Coop" t="7" events="0" maxMember="5" maxLevel="17" chips="4106" xp="161" gold="4" duration="6240" dishes="1203+15#1212+8#1215+10#2214+30" />
 <wod id="2108" n="Basic" g="Coop" t="8" events="0" maxMember="5" maxLevel="19" chips="3904" xp="114" gold="3" duration="4560" dishes="1221+25#1206+15#1209+12#2266+10" />
 <wod id="2109" n="Basic" g="Coop" t="9" events="0" maxMember="5" maxLevel="21" chips="3280" xp="112" gold="3" duration="4560" dishes="1216+8#1202+10#1221+30#1222+6" />
-<wod id="2110" n="Basic" g="Coop" t="10" events="3" maxMember="5" maxLevel="1" chips="3100" xp="197" gold="10" duration="9600" dishes="1230+12#1229+10#1201+100#1203+10" />
+<wod id="2110" n="Basic" g="Coop" t="10" events="3" maxMember="5" maxLevel="129" chips="3100" xp="197" gold="10" duration="9600" dishes="1230+12#1229+10#1201+100#1203+10" />
 <wod id="2111" n="Basic" g="Coop" t="11" events="0" maxMember="5" maxLevel="33" chips="10512" xp="1281" gold="9" duration="8880" dishes="1224+45#1226+30#1227+50#1228+40" />
 <wod id="2112" n="Basic" g="Coop" t="12" events="0" maxMember="5" maxLevel="35" chips="10050" xp="417" gold="7" duration="7560" dishes="1204+250#1212+44#1231+8#2218+40" />
 <wod id="2113" n="Basic" g="Coop" t="13" events="0" maxMember="5" maxLevel="27" chips="11913" xp="679" gold="9" duration="6120" dishes="1217+50#1225+25#2226+30#2240+50" />
@@ -1042,9 +1042,9 @@
 <wod id="2118" n="Basic" g="Coop" t="18" events="0" maxMember="5" maxLevel="21" chips="5886" xp="498" gold="9" duration="8880" dishes="2235+20#1211+15#2237+12#1249+10" />
 <wod id="2119" n="Basic" g="Coop" t="19" events="0" maxMember="5" maxLevel="19" chips="7975" xp="62" gold="2" duration="2160" dishes="1206+30#1221+60#1214+20#2215+40" />
 <wod id="2120" n="Basic" g="Coop" t="20" events="0" maxMember="5" maxLevel="39" chips="8385" xp="344" gold="3" duration="6240" dishes="1243+20#1223+30#1233+40#2231+20" />
-<wod id="2121" n="Basic" g="Coop" t="21" events="0" maxMember="5" maxLevel="12" chips="2900" xp="132" gold="5" duration="6120" dishes="2221+50#1201+50#1211+15#1216+25" />
+<wod id="2121" n="Basic" g="Coop" t="21" events="0" maxMember="5" maxLevel="12" chips="2900" xp="132" gold="6" duration="6120" dishes="2221+50#1201+50#1211+15#1216+25" />
 <wod id="2122" n="Basic" g="Coop" t="22" events="0" maxMember="5" maxLevel="13" chips="9193" xp="68" gold="1" duration="4000" dishes="2236+100#1255+150#2229+50#2217+15" />
-<wod id="2123" n="Basic" g="Coop" t="23" events="0" maxMember="5" maxLevel="23" chips="10236" xp="243" gold="6" duration="7560" dishes="2227+30#2228+25#2215+50#2214+30" />
+<wod id="2123" n="Basic" g="Coop" t="23" events="0" maxMember="5" maxLevel="23" chips="10236" xp="243" gold="7" duration="7560" dishes="2227+30#2228+25#2215+50#2214+30" />
 <wod id="2124" n="Basic" g="Coop" t="24" events="0" maxMember="5" maxLevel="30" chips="10633" xp="420" gold="6" duration="7560" dishes="2224+20#1247+25#2239+30#2245+50" />
 <wod id="2125" n="Basic" g="Coop" t="25" events="0" maxMember="5" maxLevel="28" chips="12802" xp="775" gold="8" duration="8880" dishes="1240+30#2224+20#2217+40#2238+25" />
 <wod id="2126" n="Basic" g="Coop" t="26" events="0" maxMember="5" maxLevel="29" chips="13955" xp="737" gold="9" duration="8880" dishes="1223+80#1214+90#1209+60#1226+45" />
@@ -1061,7 +1061,7 @@
 <wod id="2137" n="Basic" g="Coop" t="38" events="0" maxMember="5" maxLevel="27" chips="10925" xp="127" gold="3" duration="6120" dishes="2245+50#1223+50#1206+50#1243+50" />
 <wod id="2138" n="Basic" g="Coop" t="39" events="0" maxMember="5" maxLevel="40" chips="12890" xp="459" gold="6" duration="7560" dishes="2257+20#1227+24#1241+50#2234+60" />
 <wod id="2139" n="Basic" g="Coop" t="40" events="0" maxMember="5" maxLevel="129" chips="6250" xp="450" gold="15" duration="20160" dishes="1255+9999#2221+5001" />
-<wod id="2140" n="Basic" g="Coop" t="41" events="0" maxMember="5" maxLevel="21" chips="30500" xp="1066" gold="9" duration="8880" dishes="2239+250#2235+50" />
+<wod id="2140" n="Basic" g="Coop" t="41" events="0" maxMember="5" maxLevel="21" chips="30500" xp="1066" gold="10" duration="8880" dishes="2239+250#2235+50" />
 <wod id="2141" n="Basic" g="Coop" t="42" events="0" maxMember="5" maxLevel="15" chips="37500" xp="313" gold="10" duration="8880" dishes="1206+100#2216+300#2267+400#2258+1200" />
 <wod id="2142" n="Basic" g="Coop" t="43" events="0" maxMember="5" maxLevel="31" chips="11387" xp="699" gold="10" duration="8880" dishes="2271+40#2270+30#2268+60" />
 <wod id="2143" n="Basic" g="Coop" t="44" events="0" maxMember="5" maxLevel="2" chips="11250" xp="103" gold="7" duration="8880" dishes="1201+600#1204+200#2279+900#1203+30" />

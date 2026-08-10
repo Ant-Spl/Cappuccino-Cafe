@@ -44,6 +44,11 @@ const MASTERY_SORT_STORAGE_KEY = 'dishDexMasterySortMode';
 const FULL_USE_MASTERIES_STORAGE_KEY = 'dishDexFullUseMasteries';
 const MAX_COOP_TEAMS = 10;
 const MAX_COOP_MEMBERS = 5;
+const COOP_GOLD_LEVEL_REDUCTION_TIERS = [
+  { levelsAbove: 30, multiplier: 0.10 },
+  { levelsAbove: 20, multiplier: 0.30 },
+  { levelsAbove: 10, multiplier: 0.50 }
+];
 const COOP_WORKLOAD_WEIGHTS = {
   minimum: 0.05,
   low: 0.65,
@@ -1346,6 +1351,7 @@ async function loadCoopRecords(languageCode) {
         shortDescription: text.shortDescription || '',
         longDescription: text.longDescription || '',
         maxMembers: Number(getAttr(node, 'maxMember') || 0),
+        maxLevel: Number(getAttr(node, 'maxLevel') || 129),
         rewardCash: Number(getAttr(node, 'chips') || 0),
         baseXp: Number(getAttr(node, 'xp') || 0),
         rewardGold: Number(getAttr(node, 'gold') || 0),
@@ -1407,6 +1413,7 @@ function handleMyDexInputChange() {
   renderMyDex();
   renderMyTime();
   renderCoopPlanner();
+  refreshCurrentCoopPlanPreview();
 }
 
 function handleProfileLevelChange() {
@@ -1424,6 +1431,7 @@ function handleProfileLevelChange() {
   renderMyTime();
   renderCoopTeamEditor();
   renderCoopPlanner();
+  refreshCurrentCoopPlanPreview();
 }
 
 
@@ -1441,6 +1449,7 @@ function handleProfileInputChange() {
   renderMyTime();
   renderCoopTeamEditor();
   renderCoopPlanner();
+  refreshCurrentCoopPlanPreview();
 }
 
 
@@ -2655,12 +2664,26 @@ function restoreLastCoopPlanPreview() {
   renderCoopPlanPreview(coopNumber, false);
 }
 
+function getCoopGoldRewardAtLevel(coop, playerLevel) {
+  const baseGold = Math.max(0, Math.trunc(Number(coop?.rewardGold || 0)));
+  if (baseGold <= 0) return 0;
+
+  const maxLevel = Number(coop?.maxLevel);
+  if (!Number.isFinite(maxLevel)) return baseGold;
+
+  const levelsAbove = Number(playerLevel || 0) - maxLevel;
+  const tier = COOP_GOLD_LEVEL_REDUCTION_TIERS.find(item => levelsAbove >= item.levelsAbove);
+  if (!tier) return baseGold;
+
+  return Math.max(1, Math.floor(baseGold * tier.multiplier));
+}
+
 function getCoopRewardAtLevel(coop, multiplier = 4, levelOverride = null) {
   const playerLevel = clampNumber(Number(levelOverride ?? userData.level ?? 1), 0, 999);
   return {
     cash: Number(coop.rewardCash || 0) * multiplier,
     xp: Math.trunc(Number(coop.baseXp || 0) * (playerLevel / 3) * multiplier),
-    gold: multiplier >= 4 ? Number(coop.rewardGold || 0) : 0,
+    gold: multiplier >= 4 ? getCoopGoldRewardAtLevel(coop, playerLevel) : 0,
     playerLevel
   };
 }
