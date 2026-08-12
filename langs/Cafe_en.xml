@@ -2,11 +2,11 @@
 <!-- Cappuccinostudios CAFE - en - 2 -->
 	<cafe>
 		<achievement>
-			<text id="Basic_Achievement_Boughtdeco" name="Tasty café"  />
+			<text id="Basic_Achievement_Boughtdeco" name="Tasty Café"  />
 			<text id="Basic_Achievement_Boughtingredients" name="Convenient Culinary"  />
 			<text id="Basic_Achievement_Cookingcount" name="Busy Bistro"  />
-			<text id="Basic_Achievement_Coopcount" name="Multitask Muffin"  />
-			<text id="Basic_Achievement_Coopgoldcount" name="Frying Foreman"  />
+			<text id="Basic_Achievement_Coopcount" name="Reliable Co-worker"  />
+			<text id="Basic_Achievement_Coopgoldcount" name="Golden Co-worker"  />
 			<text id="Basic_Achievement_Curiercount" name="Exclusive Hotpot"  />
 			<text id="Basic_Achievement_Differentdishes" name="Virtuosic Vegetable"  />
 			<text id="Basic_Achievement_Earnedchips" name="Prosperous Pudding"  />
@@ -15,8 +15,8 @@
 			<text id="Basic_Achievement_Instantcount" name="Anxious Appetizer"  />
 			<text id="Basic_Achievement_Jobclean" name="Buzzing Baker"  />
 			<text id="Basic_Achievement_Jobserve" name="Flying Hotpot"  />
-			<text id="Basic_Achievement_Masteies" name="Fast Food King"  />
-			<text id="Basic_Achievement_Masteriesgold" name="Gold Food King"  />
+			<text id="Basic_Achievement_Masteies" name="Fast Food Royalty"  />
+			<text id="Basic_Achievement_Masteriesgold" name="Gold Food Royalty"  />
 			<text id="Basic_Achievement_Muffinmancash" name="Generous Muffin"  />
 			<text id="Basic_Achievement_Muffinmangold" name="Golden Muffin"  />
 			<text id="Basic_Achievement_Overcookedfoods" name="Supreme Spoiler"  />
@@ -43,7 +43,7 @@
 			<text id="alert_addgold_copy" name="To shop here you need to register first!"  />
 			<text id="alert_addgold_title" name="Register"  />
 			<text id="alert_avatarcustom_copy" name="You cannot change while you are working!"  />
-			<text id="alert_buytiles_copy" name="1. Choose a tile\n2. Select area in your café while pressing the button on your mouse\n3. Then let go"  />
+			<text id="alert_buytiles_copy" name="1. Choose a tile\n2. Select area in your café while pressing the button on your mouse\n3. Then let go!"  />
 			<text id="alert_buytiles_title" name="Place tiles?"  />
 			<text id="alert_changePasswordFaild_copy" name="Your new password must have more than 2 characters and your old password must be entered correctly!"  />
 			<text id="alert_changePasswordFaild_title" name="Enter password"  />
@@ -51,10 +51,10 @@
 			<text id="alert_clearstove_okButton" name="Throw away"  />
 			<text id="alert_clearstove_title" name="A dish is being served from this counter. Do you want to keep the dish?"  />
 			<text id="alert_counter_outofreach_copy" name="You can't reach your counter. Try and redecorate your café."  />
-			<text id="alert_counter_outofreach_title" name="Watch out!"  />
+			<text id="alert_counter_outofreach_title" name="Cannot reach!"  />
 			<text id="alert_dekoshop_humanwaiter_copy" name="As long as there are other players working in your café, you can't customize it."  />
-			<text id="alert_dekoshop_humanwaiter_title" name="No way!"  />
-			<text id="alert_dekoshop_kickplayer_copy" name="There are still other players in your café. Do you want to kick them out and switch to the customization menu?"  />
+			<text id="alert_dekoshop_humanwaiter_title" name="Please wait!"  />
+			<text id="alert_dekoshop_kickplayer_copy" name="There are still other players in your café. Do you want to kick them out and switch to the customization menu? You can also ask them to leave!"  />
 			<text id="alert_dekoshop_kickplayer_title" name="Watch out!"  />
 			<text id="alert_FancyCooking_copy" name="Do you want to spice your dish with this fancy ingredient and earn {0} more XP and {1} more servings?"  />
 			<text id="alert_FancyCooking_title" name="Fancy ingredients"  />
@@ -88,19 +88,19 @@ Fancy ingredients also do not not take up any room in your fridge!"  />
 			<text id="alert_jobrefill_title" name="Register"  />
 			<text id="alert_lostpassword_copy" name="Enter your e-mail address and we will send you your password."  />
 			<text id="alert_lostpassword_title" name="Forgot your password?"  />
-			<text id="alert_marketplace_jobcancled_copy" name="{0} has declined the job offer. Wow!"  />
+			<text id="alert_marketplace_jobcancled_copy" name="{0} has declined the job offer. Ask someone else!"  />
 			<text id="alert_marketplace_jobcancled_title" name="Job declined"  />
 			<text id="alert_marketplace_jobempty_copy" name="You&#039;ve used up all of your job permissions for today."  />
 			<text id="alert_marketplace_jobempty_title" name="No job permissions left!"  />
 			<text id="alert_marketplace_jobhired_copy" name="{0} accepted the job! Score!"  />
-			<text id="alert_marketplace_jobhired_title" name="Job accepted"  />
+			<text id="alert_marketplace_jobhired_title" name="Job accepted!"  />
 			<text id="alert_marketplace_job_copy" name="{0} (Level {1}) offered you a job. Do you want to accept it?"  />
 			<text id="alert_marketplace_job_title" name="Job offer!"  />
 			<text id="alert_marketplace_noticeboard_copy" name="Show other players that you are looking for a job. If you have been busy already you can also fill up your job permissions here."  />
 			<text id="alert_marketplace_noticeboard_title" name="Job permissions"  />
 			<text id="alert_marketplace_playerjobempty_copy" name="The player has worked enough for today."  />
 			<text id="alert_marketplace_playerjobempty_title" name="Job declined"  />
-			<text id="alert_marketplace_playerleaved_copy" name="The player has left the market place."  />
+			<text id="alert_marketplace_playerleaved_copy" name="The player has left the Marketplace."  />
 			<text id="alert_marketplace_playerleaved_title" name="Oops!"  />
 			<text id="alert_nofreecounter_copy" name="There is no empty counter."  />
 			<text id="alert_nofreecounter_title" name="Oops!"  />
@@ -133,7 +133,7 @@ If you put it into storage, you will lose the remaining portions!"  />
 			<text id="alert_stove_outofreach_title" name="Watch out!"  />
 			<text id="alert_unlockitem_copy" name="Get the ingredients delivered by the town&#039;s courier. Exclusivity has its price though."  />
 			<text id="alert_unlockitem_title" name="Courier delivery?"  />
-			<text id="alert_userkicked_copy" name="You were kicked out of the café. Wow!"  />
+			<text id="alert_userkicked_copy" name="You were kicked out of the café. Time to do something else!"  />
 			<text id="alert_userkicked_title" name="Kicked out!"  />
 			<text id="alert_workinghero_copy" name="Your chef has pending tasks!"  />
 			<text id="alert_workinghero_title" name="Wait!"  />
