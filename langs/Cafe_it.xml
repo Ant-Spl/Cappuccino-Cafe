@@ -469,12 +469,12 @@
 		<text id="cookstep_passionfruitcheesecake2" name="Cuocendo la torta" />
 		<text id="cookstep_pietray1" name="Mescolando il preparato" />
 		<text id="cookstep_pietray2" name="Cuocendo il tutto" />
-		<text id="cookstep_meatstuffedpeppers1" name="Preparing peppers" />
-		<text id="cookstep_meatstuffedpeppers2" name="Stuffing peppers" />
-		<text id="cookstep_gourmetcheesedish1" name="Cutting cheese" />
-		<text id="cookstep_gourmetcheesedish2" name="Arranging cheese board" />
-		<text id="cookstep_bluecheesefondue1" name="Melting cheese" />
-		<text id="cookstep_bluecheesefondue2" name="Mixing fondue" />
+		<text id="cookstep_meatstuffedpeppers1" name="Preparando i peperoni" />
+		<text id="cookstep_meatstuffedpeppers2" name="Riempiendo i peperoni" />
+		<text id="cookstep_gourmetcheesedish1" name="Tagliando il formaggio" />
+		<text id="cookstep_gourmetcheesedish2" name="Preparando il tagliere" />
+		<text id="cookstep_bluecheesefondue1" name="Sciogliendo il formaggio" />
+		<text id="cookstep_bluecheesefondue2" name="Mescolando la fonduta" />
 	</cookstep>
 	<coopmission>
 		<text id="coop_title_1" name="CORSO DI CUCINA" />
@@ -624,18 +624,18 @@
 		<text id="coop_title_50" name="RUSH B" />
 		<text id="coop_desc_short_50" name="Corri!" />
 		<text id="coop_desc_long_50" name="Chef YunaStellaris sta promuovendo una corsa verso un luogo peculiare dove ti aspetterà un&apos;&quot;esplosione&quot; di sapori. Aiutala e dimostra le tue capacità!" />
-		<text id="coop_title_51" name="DORM LIFE" />
-		<text id="coop_desc_short_51" name="Hang on!" />
-		<text id="coop_desc_long_51" name="Chef Khush wants everyone to experience the college dorm diet. Give it a try!" />
-		<text id="coop_title_52" name="INTERNATIONAL FEAST!" />
-		<text id="coop_desc_short_52" name="Hello, hola, olá!" />
-		<text id="coop_desc_long_52" name="Chef Doc is organizing a feast for various world representatives. Help out and earn something!" />
-		<text id="coop_title_53" name="FONDUE FRENZY" />
-		<text id="coop_desc_short_53" name="Variety is key!" />
-		<text id="coop_desc_long_53" name="Chef DRealize wants to promote fondues as the latest culinary trend. Don&apos;t waste time and make some!" />
-		<text id="coop_title_54" name="1337" />
-		<text id="coop_desc_short_54" name="Feeling old yet?" />
-		<text id="coop_desc_long_54" name="Chef YunaStellaris fondly remembers the old Café days... Relive this memory together!" />
+		<text id="coop_title_51" name="VITA IN DORMITORIO" />
+		<text id="coop_desc_short_51" name="Tieni duro!" />
+		<text id="coop_desc_long_51" name="Chef Khush vuole che tutti abbiano un&apos;assaggio della dieta da dormitorio di un college. Provaci!" />
+		<text id="coop_title_52" name="FESTA INTERNAZIONALE!" />
+		<text id="coop_desc_short_52" name="Hello, hola, olá, ciao!" />
+		<text id="coop_desc_long_52" name="Chef Doc sta organizzano una festa per vari rappresentanti mondiali. Dai una mano e guadagna la tua parte!" />
+		<text id="coop_title_53" name="FRENESIA IN-FONDUTA" />
+		<text id="coop_desc_short_53" name="La chiave è la varietà!" />
+		<text id="coop_desc_long_53" name="Chef DRealize vuole promuovere le fondute come ultimissimo trend culinario. Non perder tempo e preparane un po&apos; anche tu!" />
+		<text id="coop_title_54" name="cmq c 6?? &lt;3" />
+		<text id="coop_desc_short_54" name="Ti senti già vecchio, o no?" />
+		<text id="coop_desc_long_54" name="Chef YunaStellaris ricorda con nostalgia il Café di una volta... riporta anche tu questi ricordi alla memoria!" />
 		<text id="coop_title_41" name="BALATON PARTY" />
 		<text id="coop_desc_short_41" name="Mangiamo in riva al lago!" />
 		<text id="coop_desc_long_41" name="Chef Flinsical sta organizzando un momento di svago nei pressi del Lago Balaton. Dai una mano con cibo e bevande per questo evento scenografico!" />
@@ -761,18 +761,18 @@
 		<text id="dialogwin_ingamehelp_2_5" name="Questi ingredienti sono sempre disponibili:" />
 		<text id="dialogwin_ingamehelp_3_1" name="Punteggi &amp; Co." />
 		<text id="dialogwin_ingamehelp_3_2" name="Ricevi punti esperienza quando servi i piatti pronti, ma puoi ottenere XP anche lavorando come cameriere in altri ristoranti, realizzando Co-Op, ottenendo trofei o servendo bevande." />
-		<text id="dialogwin_ingamehelp_3_3" name="La popolarità del tuo locale stabilisce quanti clienti verranno da te. La tua popolarità sale se i clienti sono soddisfatti quando lasciano il tuo Café, e scende se sono insoddisfatti. I tuoi clienti sono soddifsatti quando possono mangiare qualcosa." />
-		<text id="dialogwin_ingamehelp_3_4" name="Puoi guadagnare Cafédollar innanzitutto con i piatti che vendi. Ma anche lavorando come cameriere in altri ristoranti, realizzando Co-Op o ottenendo trofei." />
-		<text id="dialogwin_ingamehelp_3_5" name="Ogni oggetto ha un punteggio lusso che influisce sulla popolarità del tuo Café: più lussuoso è il tuo locale, più sarà apprezzato dai clienti!" />
+		<text id="dialogwin_ingamehelp_3_3" name="La popolarità del tuo locale stabilisce quanti clienti verranno da te. La tua popolarità sale se i clienti sono soddisfatti quando lasciano il tuo Café, e scende se sono insoddisfatti. I tuoi clienti sono soddisfatti quando possono mangiare qualcosa." />
+		<text id="dialogwin_ingamehelp_3_4" name="Puoi guadagnare Cafédollar innanzitutto con i piatti che vendi. Ma anche lavorando come cameriere in altri Café, realizzando Co-Op o ottenendo trofei." />
+		<text id="dialogwin_ingamehelp_3_5" name="Ogni oggetto ha un punteggio lusso che influisce sulla popolarità del tuo Café: più lussuoso è il tuo locale, più i clienti lo apprezzeranno e ne saranno soddisfatti!" />
 		<text id="dialogwin_ingamehelp_3_6" name="Nel menu &quot;Ristruttura&quot; troverai fornelli, banchi, tavoli e molti altri oggetti. Sii creativo!" />
 		<text id="dialogwin_ingamehelp_3_7" name="Se il tuo locale diventa troppo piccolo puoi anche espanderlo ed avere più spazio per i tuoi clienti." />
 		<text id="dialogwin_ingamehelp_4_1" name="Cos&apos;altro dovrei sapere?" />
 		<text id="dialogwin_ingamehelp_4_2" name="Al Mercato puoi conoscere altri giocatori, cercare lavoro o chattare." />
 		<text id="dialogwin_ingamehelp_4_3" name="Otterrai trofei per diversi tipi di attività e potrai così guadagnare XP e Cafédollar extra." />
-		<text id="dialogwin_ingamehelp_4_4" name="Al Mercato puoi assumere altri giocatori come camerieri, oppure farti assumere per lavorare in ristoranti altrui." />
+		<text id="dialogwin_ingamehelp_4_4" name="Al Mercato puoi assumere altri giocatori come camerieri, oppure farti assumere per lavorare in Café altrui." />
 		<text id="dialogwin_ingamehelp_4_5" name="Un Co-Op è un piano culinario comune a cui puoi partecipare con altri giocatori e al quale corrisponde, se portato a termine, una ricompensa." />
 		<text id="dialogwin_ingamehelp_4_6" name="I camerieri portano le pietanze preparate ai clienti e sparecchiano i tavoli." />
-		<text id="dialogwin_ingamehelp_4_7" name="I piatti preparati che non vengono messi sul banco in tempo vanno a male." />
+		<text id="dialogwin_ingamehelp_4_7" name="I piatti preparati che non vengono messi in tempo su un banco vanno a male." />
 		<text id="dialogwin_ingamehelp_ingredients" name="Ingredienti" />
 		<text id="dialogwin_ingredient_all" name="Tutti" />
 		<text id="dialogwin_ingredient_emptyfridge" name="Accidenti, il frigo è vuoto! Per cucinare qualcosa devi prima acquistare gli ingredienti." />
@@ -788,7 +788,7 @@
 		<text id="dialogwin_ingredient_vegatable" name="Vegetariano" />
 		<text id="dialogwin_instantcooking_copy" name="Vuoi avere il piatto subito pronto? Oggi puoi farlo ancora {0} volte!" />
 		<text id="dialogwin_instantcooking_title" name="Vuoi attivare l&apos;instant cooking?" />
-		<text id="dialogwin_jobpaycheck_copy" name="I camerieri operosi vengono premiati! Oltre alle mance hai guadagnato anche esperienza." />
+		<text id="dialogwin_jobpaycheck_copy" name="I camerieri operosi vengono premiati! Oltre alle mance hai anche guadagnato esperienza." />
 		<text id="dialogwin_jobpaycheck_title" name="Conto finale" />
 		<text id="dialogwin_levelup_copy" name="Hai raggiunto il livello {0}!" />
 		<text id="dialogwin_levelup_copy_1" name="La tua ricompensa:" />
@@ -1809,16 +1809,16 @@
 		<text id="preparestep_passionfruitcheesecake_cookies" name="Sbriciola i biscotti" />
 		<text id="preparestep_passionfruitcheesecake_sugar" name="Aggiungi lo zucchero" />
 		<text id="preparestep_passionfruitcheesecake_milk" name="Riscalda il latte" />
-		<text id="preparestep_pietray_flour" name="make crusts" />
-		<text id="preparestep_pietray_cherries" name="wash cherries" />
-		<text id="preparestep_pietray_apple" name="peel apples" />
-		<text id="preparestep_pietray_sugar" name="mix sugar" />
-		<text id="preparestep_meatstuffedpeppers_mincemeat" name="cook meat" />
-		<text id="preparestep_meatstuffedpeppers_ballpepper" name="wash peppers" />
-		<text id="preparestep_meatstuffedpeppers_cheese" name="melt cheese" />
-		<text id="preparestep_gourmetcheesedish_cheese" name="cut cheese" />
-		<text id="preparestep_bluecheesefondue_cheese" name="melt cheese" />
-		<text id="preparestep_bluecheesefondue_garlic" name="squeeze garlic" />
+		<text id="preparestep_pietray_flour" name="Fai la pasta frolla" />
+		<text id="preparestep_pietray_cherries" name="Lava le ciliegie" />
+		<text id="preparestep_pietray_apple" name="Pela le mele" />
+		<text id="preparestep_pietray_sugar" name="Mescola lo zucchero" />
+		<text id="preparestep_meatstuffedpeppers_mincemeat" name="Cucina la carne" />
+		<text id="preparestep_meatstuffedpeppers_ballpepper" name="Lava i peperoni" />
+		<text id="preparestep_meatstuffedpeppers_cheese" name="Sciogli il formaggio" />
+		<text id="preparestep_gourmetcheesedish_cheese" name="Taglia il formaggio" />
+		<text id="preparestep_bluecheesefondue_cheese" name="Sciogli il formaggio" />
+		<text id="preparestep_bluecheesefondue_garlic" name="Schiaccia l&apos;aglio" />
 		<text id="preparestep_greensalad_cookfest" name="Usa ingredienti rapidi" />
 		<text id="preparestep_omelette_cookfest" name="Usa ingredienti rapidi" />
 		<text id="preparestep_tomatosoup_cookfest" name="Usa ingredienti rapidi" />
@@ -1858,10 +1858,10 @@
 		<text id="preparestep_passionfruitfondue_cookfest" name="Usa ingredienti rapidi" />
 		<text id="preparestep_passionfruitjuice_cookfest" name="Usa ingredienti rapidi" />
 		<text id="preparestep_passionfruitcheesecake_cookfest" name="Usa ingredienti rapidi" />
-		<text id="preparestep_pietray_cookfest" name="use fast ingredients" />
-		<text id="preparestep_meatstuffedpeppers_cookfest" name="use fast ingredients" />
-		<text id="preparestep_gourmetcheesedish_cookfest" name="use fast ingredients" />
-		<text id="preparestep_bluecheesefondue_cookfest" name="use fast ingredients" />
+		<text id="preparestep_pietray_cookfest" name="Usa ingredienti rapidi" />
+		<text id="preparestep_meatstuffedpeppers_cookfest" name="Usa ingredienti rapidi" />
+		<text id="preparestep_gourmetcheesedish_cookfest" name="Usa ingredienti rapidi" />
+		<text id="preparestep_bluecheesefondue_cookfest" name="Usa ingredienti rapidi" />
 		<text id="preparestep_cookieplate_cookfest" name="Usa ingredienti rapidi" />
 		<text id="preparestep_stewedrhubarb_cookfest" name="Usa ingredienti rapidi" />
 		<text id="preparestep_combomeal_cookfest" name="Usa ingredienti rapidi" />
@@ -2090,10 +2090,10 @@
 		<text id="preparestep_passionfruitfondue_vanilla" name="Raschia la vaniglia" />
 		<text id="preparestep_passionfruitjuice_vanilla" name="Raschia la vaniglia" />
 		<text id="preparestep_passionfruitcheesecake_vanilla" name="Raschia la vaniglia" />
-		<text id="preparestep_pietray_cinnamon" name="spread cinnamon" />
-		<text id="preparestep_meatstuffedpeppers_chili" name="chop chili" />
-		<text id="preparestep_gourmetcheesedish_coriander" name="chop coriander" />
-		<text id="preparestep_bluecheesefondue_parsley" name="chop parsley" />
+		<text id="preparestep_pietray_cinnamon" name="Spargi la cannella" />
+		<text id="preparestep_meatstuffedpeppers_chili" name="Trita il peperoncino" />
+		<text id="preparestep_gourmetcheesedish_coriander" name="Trita il coriandolo" />
+		<text id="preparestep_bluecheesefondue_parsley" name="Trita il prezzemolo" />
 		<text id="preparestep_greensalad_eventspice" name="Spargi la spezia evento" />
 		<text id="preparestep_omelette_eventspice" name="Spargi la spezia evento" />
 		<text id="preparestep_tomatosoup_eventspice" name="Spargi la spezia evento" />
@@ -2133,10 +2133,10 @@
 		<text id="preparestep_passionfruitfondue_eventspice" name="Spargi la spezia evento" />
 		<text id="preparestep_passionfruitjuice_eventspice" name="Spargi la spezia evento" />
 		<text id="preparestep_passionfruitcheesecake_eventspice" name="Spargi la spezia evento" />
-		<text id="preparestep_pietray_eventspice" name="spread event spice" />
-		<text id="preparestep_meatstuffedpeppers_eventspice" name="spread event spice" />
-		<text id="preparestep_gourmetcheesedish_eventspice" name="spread event spice" />
-		<text id="preparestep_bluecheesefondue_eventspice" name="spread event spice" />
+		<text id="preparestep_pietray_eventspice" name="Spargi la spezia evento" />
+		<text id="preparestep_meatstuffedpeppers_eventspice" name="Spargi la spezia evento" />
+		<text id="preparestep_gourmetcheesedish_eventspice" name="Spargi la spezia evento" />
+		<text id="preparestep_bluecheesefondue_eventspice" name="Spargi la spezia evento" />
 		<text id="preparestep_cookieplate_eventspice" name="Spargi la spezia evento" />
 		<text id="preparestep_stewedrhubarb_eventspice" name="Spargi la spezia evento" />
 		<text id="preparestep_combomeal_eventspice" name="Spargi la spezia evento" />
@@ -2382,11 +2382,11 @@
 		<text id="recipe_passionfruitmousse" name="Mousse alla maracujá" />
 		<text id="recipe_passionfruitfondue" name="Fonduta alla maracujá" />
 		<text id="recipe_passionfruitjuice" name="Succo di maracujá" />
-		<text id="recipe_passionfruitcheesecake" name="Cheesecake alla grandiglia" />
-		<text id="recipe_pietray" name="Pie Banquet" />
-		<text id="recipe_meatstuffedpeppers" name="Meat Stuffed Peppers" />
-		<text id="recipe_gourmetcheesedish" name="Gourmet Cheese Table" />
-		<text id="recipe_bluecheesefondue" name="Blue Cheese Fondue" />
+		<text id="recipe_passionfruitcheesecake" name="Cheesecake alla maracujá" />
+		<text id="recipe_pietray" name="Banchetto di crostate" />
+		<text id="recipe_meatstuffedpeppers" name="Peperoni ripieni di carne" />
+		<text id="recipe_gourmetcheesedish" name="Tagliere di formaggi gourmet" />
+		<text id="recipe_bluecheesefondue" name="Fonduta di gorgonzola" />
 	</recipe>
 	<recipes_fastfood>
 		<text id="recipe_smoothiemaker_greensmoothie" name="Smoothie verde" />
