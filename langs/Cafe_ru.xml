@@ -469,6 +469,12 @@
 		<text id="cookstep_passionfruitcheesecake2" name="Baking" />
 		<text id="cookstep_pietray1" name="Mixing ingredients" />
 		<text id="cookstep_pietray2" name="Baking" />
+		<text id="cookstep_meatstuffedpeppers1" name="Preparing peppers" />
+		<text id="cookstep_meatstuffedpeppers2" name="Stuffing peppers" />
+		<text id="cookstep_gourmetcheesedish1" name="Cutting cheese" />
+		<text id="cookstep_gourmetcheesedish2" name="Arranging cheese board" />
+		<text id="cookstep_bluecheesefondue1" name="Melting cheese" />
+		<text id="cookstep_bluecheesefondue2" name="Mixing fondue" />
 	</cookstep>
 	<coopmission>
 		<text id="coop_desc_long_1" name="Мы начинаем кулинарный урок, чтобы отточить мастерство приготовления основных блюд. Хотите присоединиться?" />
@@ -608,7 +614,7 @@
 		<text id="coop_desc_long_46" name="Chef EarthHunt3r wants to calm down a heated situation with delicious cakes. Help out!" />
 		<text id="coop_title_47" name="ARE YOU A CHICKEN?" />
 		<text id="coop_desc_short_47" name="Bawk bawk bawk!" />
-		<text id="coop_desc_long_47" name="Chef Monchi wants to know if you're brave enough to accept his challenge. Will you chicken out?" />
+		<text id="coop_desc_long_47" name="Chef Monchi wants to know if you&apos;re brave enough to accept his challenge. Will you chicken out?" />
 		<text id="coop_title_48" name="COOKING ACADEMY" />
 		<text id="coop_desc_short_48" name="Let&apos;s graduate!" />
 		<text id="coop_desc_long_48" name="Chef EarthHunt3r wants to graduate and the Academy wants lots of dishes. Help him out and you can earn a degree too!" />
@@ -618,6 +624,18 @@
 		<text id="coop_title_50" name="RUSH B" />
 		<text id="coop_desc_short_50" name="Run!" />
 		<text id="coop_desc_long_50" name="Chef YunaStellaris is promoting a massive run to a very specific location where an &quot;explosion&quot; of flavor awaits. Help out and show your skills." />
+		<text id="coop_title_51" name="DORM LIFE" />
+		<text id="coop_desc_short_51" name="Hang on!" />
+		<text id="coop_desc_long_51" name="Chef Khush wants everyone to experience the college dorm diet. Give it a try!" />
+		<text id="coop_title_52" name="INTERNATIONAL FEAST!" />
+		<text id="coop_desc_short_52" name="Hello, hola, olá!" />
+		<text id="coop_desc_long_52" name="Chef Doc is organizing a feast for various world representatives. Help out and earn something!" />
+		<text id="coop_title_53" name="FONDUE FRENZY" />
+		<text id="coop_desc_short_53" name="Variety is key!" />
+		<text id="coop_desc_long_53" name="Chef DRealize wants to promote fondues as the latest culinary trend. Don&apos;t waste time and make some!" />
+		<text id="coop_title_54" name="1337" />
+		<text id="coop_desc_short_54" name="Feeling old yet?" />
+		<text id="coop_desc_long_54" name="Chef YunaStellaris fondly remembers the old Café days... Relive this memory together!" />
 		<text id="coop_title_30" name="МЫШЬ НА КУХНЕ!" />
 		<text id="coop_desc_short_30" name="Сделайте так, чтобы никто не увидел!" />
 		<text id="coop_desc_long_30" name="В вашем Кафе заметили мышь, и она хочет, чтобы подавали изысканную еду, иначе она разорит ваш бизнес! Почему это кажется знакомым?" />
@@ -1796,6 +1814,12 @@
 		<text id="preparestep_pietray_cherries" name="wash cherries" />
 		<text id="preparestep_pietray_apple" name="peel apples" />
 		<text id="preparestep_pietray_sugar" name="mix sugar" />
+		<text id="preparestep_meatstuffedpeppers_mincemeat" name="cook meat" />
+		<text id="preparestep_meatstuffedpeppers_ballpepper" name="wash peppers" />
+		<text id="preparestep_meatstuffedpeppers_cheese" name="melt cheese" />
+		<text id="preparestep_gourmetcheesedish_cheese" name="cut cheese" />
+		<text id="preparestep_bluecheesefondue_cheese" name="melt cheese" />
+		<text id="preparestep_bluecheesefondue_garlic" name="squeeze garlic" />
 		<text id="preparestep_greensalad_cookfest" name="use fast ingredients" />
 		<text id="preparestep_omelette_cookfest" name="use fast ingredients" />
 		<text id="preparestep_tomatosoup_cookfest" name="use fast ingredients" />
@@ -1836,6 +1860,9 @@
 		<text id="preparestep_passionfruitjuice_cookfest" name="use fast ingredients" />
 		<text id="preparestep_passionfruitcheesecake_cookfest" name="use fast ingredients" />
 		<text id="preparestep_pietray_cookfest" name="use fast ingredients" />
+		<text id="preparestep_meatstuffedpeppers_cookfest" name="use fast ingredients" />
+		<text id="preparestep_gourmetcheesedish_cookfest" name="use fast ingredients" />
+		<text id="preparestep_bluecheesefondue_cookfest" name="use fast ingredients" />
 		<text id="preparestep_cookieplate_cookfest" name="use fast ingredients" />
 		<text id="preparestep_stewedrhubarb_cookfest" name="use fast ingredients" />
 		<text id="preparestep_combomeal_cookfest" name="use fast ingredients" />
@@ -2065,6 +2092,9 @@
 		<text id="preparestep_passionfruitjuice_vanilla" name="scrape out vanilla" />
 		<text id="preparestep_passionfruitcheesecake_vanilla" name="scrape out vanilla" />
 		<text id="preparestep_pietray_cinnamon" name="spread cinnamon" />
+		<text id="preparestep_meatstuffedpeppers_chili" name="chop chili" />
+		<text id="preparestep_gourmetcheesedish_coriander" name="chop coriander" />
+		<text id="preparestep_bluecheesefondue_parsley" name="chop parsley" />
 		<text id="preparestep_greensalad_eventspice" name="spread event spice" />
 		<text id="preparestep_omelette_eventspice" name="spread event spice" />
 		<text id="preparestep_tomatosoup_eventspice" name="spread event spice" />
@@ -2105,6 +2135,9 @@
 		<text id="preparestep_passionfruitjuice_eventspice" name="spread event spice" />
 		<text id="preparestep_passionfruitcheesecake_eventspice" name="spread event spice" />
 		<text id="preparestep_pietray_eventspice" name="spread event spice" />
+		<text id="preparestep_meatstuffedpeppers_eventspice" name="spread event spice" />
+		<text id="preparestep_gourmetcheesedish_eventspice" name="spread event spice" />
+		<text id="preparestep_bluecheesefondue_eventspice" name="spread event spice" />
 		<text id="preparestep_cookieplate_eventspice" name="spread event spice" />
 		<text id="preparestep_stewedrhubarb_eventspice" name="spread event spice" />
 		<text id="preparestep_combomeal_eventspice" name="spread event spice" />
@@ -2352,6 +2385,9 @@
 		<text id="recipe_passionfruitjuice" name="Passion Fruit Juice" />
 		<text id="recipe_passionfruitcheesecake" name="Passion Fruit Cheesecake" />
 		<text id="recipe_pietray" name="Pie Banquet" />
+		<text id="recipe_meatstuffedpeppers" name="Meat Stuffed Peppers" />
+		<text id="recipe_gourmetcheesedish" name="Gourmet Cheese Table" />
+		<text id="recipe_bluecheesefondue" name="Blue Cheese Fondue" />
 	</recipe>
 	<recipes_fastfood>
 		<text id="recipe_smoothiemaker_greensmoothie" name="Зелёный бальзам" />
