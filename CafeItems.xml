@@ -729,6 +729,9 @@
 <wod id="2291" n="Basic" g="Dish" t="Passionfruitjuice" events="0" xp="20" incomePerServing="15" servings="230" duration="6" level="28" dishcategory="0" requirements="1351+1#1325+1#1408+1" />
 <wod id="2292" n="Basic" g="Dish" t="Passionfruitcheesecake" events="0" xp="2460" incomePerServing="3" servings="1647" duration="800" level="43" dishcategory="0" requirements="1351+1#1332+1#1331+1#1325+1#1330+1#1408+1" />
 <wod id="2293" n="Basic" g="Dish" t="Pietray" events="0" xp="3638" incomePerServing="4" servings="2438" duration="1320" level="44" dishcategory="0" requirements="1312+5#1339+4#1345+1#1325+5#1409+1" />
+<wod id="2294" n="Basic" g="Dish" t="Meatstuffedpeppers" events="0" xp="5149" incomePerServing="1" servings="3146" duration="1900" level="52" dishcategory="1" requirements="1316+3#1302+2#1305+1#1402+1" />
+<wod id="2295" n="Basic" g="Dish" t="Gourmetcheesedish" events="0" xp="2319" incomePerServing="1" servings="2496" duration="720" level="45" dishcategory="4" requirements="1305+6#1403+1" />
+<wod id="2296" n="Basic" g="Dish" t="Bluecheesefondue" events="0" xp="2888" incomePerServing="2" servings="1528" duration="999" level="42" dishcategory="5" requirements="1305+5#1313+1#1406+1" />
 
 <wod id="2217" n="Basic" g="Dish" t="Cookieplate" events="0" xp="508" incomePerServing="5" servings="485" duration="240" level="13" dishcategory="0" requirements="1337+1#1307+1#1312+1#1325+1#1409+1" />
 <wod id="1220" n="Basic" g="Dish" t="Stewedrhubarb" events="0" xp="1651" incomePerServing="2" servings="2340" duration="1080" level="13" dishcategory="0" requirements="1323+1#1325+1#1408+1" />
@@ -1071,6 +1074,10 @@
 <wod id="2147" n="Basic" g="Coop" t="48" events="0" maxMember="5" maxLevel="29" chips="27775" xp="1938" gold="10" duration="13480" dishes="2250+100#1226+70#1225+50#2238+50" />
 <wod id="2148" n="Basic" g="Coop" t="49" events="0" maxMember="5" maxLevel="129" chips="24870" xp="807" gold="8" duration="8880" dishes="1247+30#2263+25#2274+90#1248+90" />
 <wod id="2149" n="Basic" g="Coop" t="50" events="0" maxMember="5" maxLevel="39" chips="11375" xp="573" gold="8" duration="8880" dishes="2276+15#2283+40#2235+20" />
+<wod id="2150" n="Basic" g="Coop" t="51" events="0" maxMember="5" maxLevel="19" chips="10795" xp="175" gold="5" duration="4560" dishes="2279+150#1215+20#1221+100" />
+<wod id="2151" n="Basic" g="Coop" t="52" events="0" maxMember="5" maxLevel="26" chips="6095" xp="377" gold="6" duration="7560" dishes="2227+10#1222+20#2248+20#1243+40" />
+<wod id="2152" n="Basic" g="Coop" t="53" events="0" maxMember="5" maxLevel="42" chips="21363" xp="1563" gold="10" duration="13480" dishes="1213+50#1238+100#2290+50#2296+25" />
+<wod id="2153" n="Basic" g="Coop" t="54" events="0" maxMember="5" maxLevel="1" chips="2845" xp="19" gold="3" duration="2520" dishes="1203+10#1201+30#1204+30#1255+70" />
 
 
 <wod id="2201" n="Smoothie" g="Fastfood" t="Tomatojuice" cash="1000" gold="0" friends="0" goldNoFriends="0" releaseDate="0" world="0" events="0" xp="5" level="0" incomePerServing="1" servings="10" color="D83600" ratingBonus="20" />
@@ -1126,4 +1133,12 @@
 <wod id="4245" n="Static" g="Tile" t="Goldencream" walkable="1" cash="12999" gold="0" friends="0" goldNoFriends="0" releaseDate="1786158000" world="0" events="0" xp="0" level="10" />
 <wod id="4246" n="Static" g="Wall" t="Goldenblack" cash="99999" gold="0" friends="0" goldNoFriends="0" releaseDate="1786158000" world="0" events="0" xp="0" level="10" />
 <wod id="4247" n="Static" g="Wall" t="Goldencream" cash="99999" gold="0" friends="0" goldNoFriends="0" releaseDate="1786158000" world="0" events="0" xp="0" level="10" />
+<wod id="4248" n="Basic" g="Counter" t="Basicbabyblue" walkable="0" rotatetype="2" cash="1000" gold="0" friends="0" goldNoFriends="0" releaseDate="1786503600" world="0" events="0" xp="0" level="1" />
+<wod id="4249" n="Basic" g="Counter" t="Basicbabypink" walkable="0" rotatetype="2" cash="1000" gold="0" friends="0" goldNoFriends="0" releaseDate="1786503600" world="0" events="0" xp="0" level="1" />
+<wod id="4250" n="Basic" g="Chair" t="Daisydinerbenchblack" walkable="0" rotatetype="3" cash="8000" gold="0" friends="0" goldNoFriends="0" releaseDate="1786503600" world="0" events="0" xp="0" level="1" />
+<wod id="4251" n="Basic" g="Chair" t="Daisydinerbenchblue" walkable="0" rotatetype="3" cash="8000" gold="0" friends="0" goldNoFriends="0" releaseDate="1786503600" world="0" events="0" xp="0" level="1" />
+<wod id="4252" n="Basic" g="Chair" t="Daisydinerbenchcream" walkable="0" rotatetype="3" cash="8000" gold="0" friends="0" goldNoFriends="0" releaseDate="1786503600" world="0" events="0" xp="0" level="1" />
+<wod id="4253" n="Basic" g="Chair" t="Daisydinerbenchpink" walkable="0" rotatetype="3" cash="8000" gold="0" friends="0" goldNoFriends="0" releaseDate="1786503600" world="0" events="0" xp="0" level="1" />
+<wod id="4254" n="Basic" g="Fridge" t="Dinerwhite" walkable="0" rotatetype="3" cash="0" gold="7" friends="0" goldNoFriends="0" releaseDate="1786503600" world="0" events="0" xp="0" level="1" inventorySize="450" />
+<wod id="4255" n="Basic" g="Stove" t="Dinerwhite" walkable="0" rotatetype="3" cash="0" gold="4" friends="0" goldNoFriends="0" releaseDate="1786503600" world="0" events="0" xp="0" level="1" />
 </wodIds>

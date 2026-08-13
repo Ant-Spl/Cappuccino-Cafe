@@ -471,6 +471,12 @@ Se você estocá-la, as porções existentes serão perdidas!" />
 		<text id="cookstep_passionfruitcheesecake2" name="Assando" />
 		<text id="cookstep_pietray1" name="Misturando ingredientes" />
 		<text id="cookstep_pietray2" name="Assando" />
+		<text id="cookstep_meatstuffedpeppers1" name="Preparando pimentões" />
+		<text id="cookstep_meatstuffedpeppers2" name="Recheando pimentões" />
+		<text id="cookstep_gourmetcheesedish1" name="Cortando queijo" />
+		<text id="cookstep_gourmetcheesedish2" name="Montando a tábua de queijos" />
+		<text id="cookstep_bluecheesefondue1" name="Derretendo queijo" />
+		<text id="cookstep_bluecheesefondue2" name="Misturando fondue" />
 	</cookstep>
 	<coopmission>
 		<text id="coop_desc_long_1" name="Nós oferemos um curso de culinária para aperfeiçoar alguns pratos. Você gostaria de participar?" />
@@ -620,6 +626,22 @@ Se você estocá-la, as porções existentes serão perdidas!" />
 		<text id="coop_title_50" name="RUSH B" />
 		<text id="coop_desc_short_50" name="Corra!" />
 		<text id="coop_desc_long_50" name="A Chef YunaStellaris está promovendo uma corrida enorme para um lugar muito específico onde uma &quot;explosão&quot; de sabor aguarda. Ajude-a e mostre suas habilidades." />
+
+		<text id="coop_title_51" name="VIDA NA REPÚBLICA" />
+		<text id="coop_desc_short_51" name="Você consegue!" />
+		<text id="coop_desc_long_51" name="O Chef Khush quer que todos experimentem aquelas refeições populares na república universitária. Faça algumas!" />
+
+		<text id="coop_title_52" name="BANQUETE INTERNACIONAL!" />
+		<text id="coop_desc_short_52" name="Olá, hola, hello!" />
+		<text id="coop_desc_long_52" name="O Chef Doc está organizando um banquete para representantes mundiais. Ajude e ganhe alguma coisa!" />
+
+		<text id="coop_title_53" name="FEBRE DE FONDUE" />
+		<text id="coop_desc_short_53" name="Variedade é tudo!" />
+		<text id="coop_desc_long_53" name="Chef DRealize quer promover as fondues como a última moda culinária. Não perca tempo e faça algumas!" />
+
+		<text id="coop_title_54" name="1337" />
+		<text id="coop_desc_short_54" name="Já sente a idade?" />
+		<text id="coop_desc_long_54" name="A Chef YunaStellaris se lembra bem dos dias do Café antigo... Relembre junto com ela!" />
 	</coopmission>
 	<dialogs>
 		<text id="dialogwin_achievement_title" name="Conquistas" />
@@ -1817,6 +1839,12 @@ Apenas disponível por tempo limitado!" />
 		<text id="preparestep_pietray_cherries" name="lavar cerejas" />
 		<text id="preparestep_pietray_apple" name="descascar maçãs" />
 		<text id="preparestep_pietray_sugar" name="misturar açúcar" />
+		<text id="preparestep_meatstuffedpeppers_mincemeat" name="cozinhar carne" />
+		<text id="preparestep_meatstuffedpeppers_ballpepper" name="lavar pimentões" />
+		<text id="preparestep_meatstuffedpeppers_cheese" name="derreter queijo" />
+		<text id="preparestep_gourmetcheesedish_cheese" name="cortar queijo" />
+		<text id="preparestep_bluecheesefondue_cheese" name="derreter queijo" />
+		<text id="preparestep_bluecheesefondue_garlic" name="espremer alho" />
 		<text id="preparestep_greensalad_cookfest" name="usar ingredientes rápidos" />
 		<text id="preparestep_omelette_cookfest" name="usar ingredientes rápidos" />
 		<text id="preparestep_tomatosoup_cookfest" name="usar ingredientes rápidos" />
@@ -1857,6 +1885,9 @@ Apenas disponível por tempo limitado!" />
 		<text id="preparestep_passionfruitjuice_cookfest" name="usar ingredientes rápidos" />
 		<text id="preparestep_passionfruitcheesecake_cookfest" name="usar ingredientes rápidos" />
 		<text id="preparestep_pietray_cookfest" name="usar ingredientes rápidos" />
+		<text id="preparestep_meatstuffedpeppers_cookfest" name="usar ingredientes rápidos" />
+		<text id="preparestep_gourmetcheesedish_cookfest" name="usar ingredientes rápidos" />
+		<text id="preparestep_bluecheesefondue_cookfest" name="usar ingredientes rápidos" />
 		<text id="preparestep_cookieplate_cookfest" name="usar ingredientes rápidos" />
 		<text id="preparestep_stewedrhubarb_cookfest" name="usar ingredientes rápidos" />
 		<text id="preparestep_combomeal_cookfest" name="usar ingredientes rápidos" />
@@ -2087,6 +2118,9 @@ Apenas disponível por tempo limitado!" />
 		<text id="preparestep_passionfruitjuice_vanilla" name="raspar baunilha" />
 		<text id="preparestep_passionfruitcheesecake_vanilla" name="raspar baunilha" />
 		<text id="preparestep_pietray_cinnamon" name="espalhar canela" />
+		<text id="preparestep_meatstuffedpeppers_chili" name="picar pimenta" />
+		<text id="preparestep_gourmetcheesedish_coriander" name="picar coentro" />
+		<text id="preparestep_bluecheesefondue_parsley" name="picar salsa" />
 		<text id="preparestep_greensalad_eventspice" name="espalhar tempero de evento" />
 		<text id="preparestep_omelette_eventspice" name="espalhar tempero de evento" />
 		<text id="preparestep_tomatosoup_eventspice" name="espalhar tempero de evento" />
@@ -2127,6 +2161,9 @@ Apenas disponível por tempo limitado!" />
 		<text id="preparestep_passionfruitjuice_eventspice" name="espalhar tempero de evento" />
 		<text id="preparestep_passionfruitcheesecake_eventspice" name="espalhar tempero de evento" />
 		<text id="preparestep_pietray_eventspice" name="espalhar tempero de evento" />
+		<text id="preparestep_meatstuffedpeppers_eventspice" name="espalhar tempero de evento" />
+		<text id="preparestep_gourmetcheesedish_eventspice" name="espalhar tempero de evento" />
+		<text id="preparestep_bluecheesefondue_eventspice" name="espalhar tempero de evento" />
 		<text id="preparestep_cookieplate_eventspice" name="espalhar tempero de evento" />
 		<text id="preparestep_stewedrhubarb_eventspice" name="espalhar tempero de evento" />
 		<text id="preparestep_combomeal_eventspice" name="espalhar tempero de evento" />
@@ -2373,6 +2410,9 @@ Apenas disponível por tempo limitado!" />
 		<text id="recipe_passionfruitjuice" name="Suco de Maracujá" />
 		<text id="recipe_passionfruitcheesecake" name="Cheesecake de Maracujá" />
 		<text id="recipe_pietray" name="Banquete de Tortas" />
+		<text id="recipe_meatstuffedpeppers" name="Pimentões Recheados com Carne" />
+		<text id="recipe_gourmetcheesedish" name="Tábua de Queijos Gourmet" />
+		<text id="recipe_bluecheesefondue" name="Fondue de Queijo Azul" />
 	</recipe>
 	<recipes_fastfood>
 		<text id="recipe_smoothiemaker_greensmoothie" name="Batida Verde" />

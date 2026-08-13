@@ -2,11 +2,11 @@
 <!-- Cappuccinostudios CAFE - en - 2 -->
 	<cafe>
 		<achievement>
-			<text id="Basic_Achievement_Boughtdeco" name="Tasty Café"  />
+			<text id="Basic_Achievement_Boughtdeco" name="Tasty café"  />
 			<text id="Basic_Achievement_Boughtingredients" name="Convenient Culinary"  />
 			<text id="Basic_Achievement_Cookingcount" name="Busy Bistro"  />
-			<text id="Basic_Achievement_Coopcount" name="Reliable Co-worker"  />
-			<text id="Basic_Achievement_Coopgoldcount" name="Golden Co-worker"  />
+			<text id="Basic_Achievement_Coopcount" name="Multitask Muffin"  />
+			<text id="Basic_Achievement_Coopgoldcount" name="Frying Foreman"  />
 			<text id="Basic_Achievement_Curiercount" name="Exclusive Hotpot"  />
 			<text id="Basic_Achievement_Differentdishes" name="Virtuosic Vegetable"  />
 			<text id="Basic_Achievement_Earnedchips" name="Prosperous Pudding"  />
@@ -15,8 +15,8 @@
 			<text id="Basic_Achievement_Instantcount" name="Anxious Appetizer"  />
 			<text id="Basic_Achievement_Jobclean" name="Buzzing Baker"  />
 			<text id="Basic_Achievement_Jobserve" name="Flying Hotpot"  />
-			<text id="Basic_Achievement_Masteies" name="Fast Food Royalty"  />
-			<text id="Basic_Achievement_Masteriesgold" name="Gold Food Royalty"  />
+			<text id="Basic_Achievement_Masteies" name="Fast Food King"  />
+			<text id="Basic_Achievement_Masteriesgold" name="Gold Food King"  />
 			<text id="Basic_Achievement_Muffinmancash" name="Generous Muffin"  />
 			<text id="Basic_Achievement_Muffinmangold" name="Golden Muffin"  />
 			<text id="Basic_Achievement_Overcookedfoods" name="Supreme Spoiler"  />
@@ -43,7 +43,7 @@
 			<text id="alert_addgold_copy" name="To shop here you need to register first!"  />
 			<text id="alert_addgold_title" name="Register"  />
 			<text id="alert_avatarcustom_copy" name="You cannot change while you are working!"  />
-			<text id="alert_buytiles_copy" name="1. Choose a tile\n2. Select area in your café while pressing the button on your mouse\n3. Then let go!"  />
+			<text id="alert_buytiles_copy" name="1. Choose a tile\n2. Select area in your café while pressing the button on your mouse\n3. Then let go"  />
 			<text id="alert_buytiles_title" name="Place tiles?"  />
 			<text id="alert_changePasswordFaild_copy" name="Your new password must have more than 2 characters and your old password must be entered correctly!"  />
 			<text id="alert_changePasswordFaild_title" name="Enter password"  />
@@ -51,10 +51,10 @@
 			<text id="alert_clearstove_okButton" name="Throw away"  />
 			<text id="alert_clearstove_title" name="A dish is being served from this counter. Do you want to keep the dish?"  />
 			<text id="alert_counter_outofreach_copy" name="You can't reach your counter. Try and redecorate your café."  />
-			<text id="alert_counter_outofreach_title" name="Cannot reach!"  />
+			<text id="alert_counter_outofreach_title" name="Watch out!"  />
 			<text id="alert_dekoshop_humanwaiter_copy" name="As long as there are other players working in your café, you can't customize it."  />
-			<text id="alert_dekoshop_humanwaiter_title" name="Please wait!"  />
-			<text id="alert_dekoshop_kickplayer_copy" name="There are still other players in your café. Do you want to kick them out and switch to the customization menu? You can also ask them to leave!"  />
+			<text id="alert_dekoshop_humanwaiter_title" name="No way!"  />
+			<text id="alert_dekoshop_kickplayer_copy" name="There are still other players in your café. Do you want to kick them out and switch to the customization menu?"  />
 			<text id="alert_dekoshop_kickplayer_title" name="Watch out!"  />
 			<text id="alert_FancyCooking_copy" name="Do you want to spice your dish with this fancy ingredient and earn {0} more XP and {1} more servings?"  />
 			<text id="alert_FancyCooking_title" name="Fancy ingredients"  />
@@ -88,19 +88,19 @@ Fancy ingredients also do not not take up any room in your fridge!"  />
 			<text id="alert_jobrefill_title" name="Register"  />
 			<text id="alert_lostpassword_copy" name="Enter your e-mail address and we will send you your password."  />
 			<text id="alert_lostpassword_title" name="Forgot your password?"  />
-			<text id="alert_marketplace_jobcancled_copy" name="{0} has declined the job offer. Ask someone else!"  />
+			<text id="alert_marketplace_jobcancled_copy" name="{0} has declined the job offer. Wow!"  />
 			<text id="alert_marketplace_jobcancled_title" name="Job declined"  />
 			<text id="alert_marketplace_jobempty_copy" name="You&#039;ve used up all of your job permissions for today."  />
 			<text id="alert_marketplace_jobempty_title" name="No job permissions left!"  />
 			<text id="alert_marketplace_jobhired_copy" name="{0} accepted the job! Score!"  />
-			<text id="alert_marketplace_jobhired_title" name="Job accepted!"  />
+			<text id="alert_marketplace_jobhired_title" name="Job accepted"  />
 			<text id="alert_marketplace_job_copy" name="{0} (Level {1}) offered you a job. Do you want to accept it?"  />
 			<text id="alert_marketplace_job_title" name="Job offer!"  />
 			<text id="alert_marketplace_noticeboard_copy" name="Show other players that you are looking for a job. If you have been busy already you can also fill up your job permissions here."  />
 			<text id="alert_marketplace_noticeboard_title" name="Job permissions"  />
 			<text id="alert_marketplace_playerjobempty_copy" name="The player has worked enough for today."  />
 			<text id="alert_marketplace_playerjobempty_title" name="Job declined"  />
-			<text id="alert_marketplace_playerleaved_copy" name="The player has left the Marketplace."  />
+			<text id="alert_marketplace_playerleaved_copy" name="The player has left the market place."  />
 			<text id="alert_marketplace_playerleaved_title" name="Oops!"  />
 			<text id="alert_nofreecounter_copy" name="There is no empty counter."  />
 			<text id="alert_nofreecounter_title" name="Oops!"  />
@@ -133,7 +133,7 @@ If you put it into storage, you will lose the remaining portions!"  />
 			<text id="alert_stove_outofreach_title" name="Watch out!"  />
 			<text id="alert_unlockitem_copy" name="Get the ingredients delivered by the town&#039;s courier. Exclusivity has its price though."  />
 			<text id="alert_unlockitem_title" name="Courier delivery?"  />
-			<text id="alert_userkicked_copy" name="You were kicked out of the café. Time to do something else!"  />
+			<text id="alert_userkicked_copy" name="You were kicked out of the café. Wow!"  />
 			<text id="alert_userkicked_title" name="Kicked out!"  />
 			<text id="alert_workinghero_copy" name="Your chef has pending tasks!"  />
 			<text id="alert_workinghero_title" name="Wait!"  />
@@ -473,6 +473,12 @@ If you put it into storage, you will lose the remaining portions!"  />
 			<text id="cookstep_passionfruitcheesecake2" name="Baking"  />
 			<text id="cookstep_pietray1" name="Mixing ingredients"  />
 			<text id="cookstep_pietray2" name="Baking"  />
+			<text id="cookstep_meatstuffedpeppers1" name="Preparing peppers" />
+			<text id="cookstep_meatstuffedpeppers2" name="Stuffing peppers" />
+			<text id="cookstep_gourmetcheesedish1" name="Cutting cheese" />
+			<text id="cookstep_gourmetcheesedish2" name="Arranging cheese board" />
+			<text id="cookstep_bluecheesefondue1" name="Melting cheese" />
+			<text id="cookstep_bluecheesefondue2" name="Mixing fondue" />
 </cookstep>
 		<coopmission>
 			<text id="coop_title_1" name="COOKING CLASS" />
@@ -669,6 +675,22 @@ If you put it into storage, you will lose the remaining portions!"  />
 			<text id="coop_title_50" name="RUSH B" />
 			<text id="coop_desc_short_50" name="Run!" />
 			<text id="coop_desc_long_50" name="Chef YunaStellaris is promoting a massive run to a very specific location where an &quot;explosion&quot; of flavor awaits. Help out and show your skills." />
+
+			<text id="coop_title_51" name="DORM LIFE" />
+			<text id="coop_desc_short_51" name="Hang on!" />
+			<text id="coop_desc_long_51" name="Chef Khush wants everyone to experience the college dorm diet. Give it a try!" />
+
+			<text id="coop_title_52" name="INTERNATIONAL FEAST!" />
+			<text id="coop_desc_short_52" name="Hello, hola, olá!" />
+			<text id="coop_desc_long_52" name="Chef Doc is organizing a feast for various world representatives. Help out and earn something!" />
+
+			<text id="coop_title_53" name="FONDUE FRENZY" />
+			<text id="coop_desc_short_53" name="Variety is key!" />
+			<text id="coop_desc_long_53" name="Chef DRealize wants to promote fondues as the latest culinary trend. Don't waste time and make some!" />
+
+			<text id="coop_title_54" name="1337" />
+			<text id="coop_desc_short_54" name="Feeling old yet?" />
+			<text id="coop_desc_long_54" name="Chef YunaStellaris fondly remembers the old Café days... Relive this memory together!" />
 		</coopmission>
 		<dialogs>
 			<text id="dialogwin_achievement_title" name="Achievements"  />
@@ -1962,6 +1984,12 @@ Available for limited time only!"  />
 			<text id="preparestep_pietray_apple" name="peel apples"  />
 			<text id="preparestep_pietray_sugar" name="mix sugar"  />
 
+			<text id="preparestep_meatstuffedpeppers_mincemeat" name="cook meat" />
+			<text id="preparestep_meatstuffedpeppers_ballpepper" name="wash peppers" />
+			<text id="preparestep_meatstuffedpeppers_cheese" name="melt cheese" />
+			<text id="preparestep_gourmetcheesedish_cheese" name="cut cheese" />
+			<text id="preparestep_bluecheesefondue_cheese" name="melt cheese" />
+			<text id="preparestep_bluecheesefondue_garlic" name="squeeze garlic" />
 			<text id="preparestep_greensalad_cookfest" name="use fast ingredients" />
 			<text id="preparestep_omelette_cookfest" name="use fast ingredients" />
 			<text id="preparestep_tomatosoup_cookfest" name="use fast ingredients" />
@@ -2002,6 +2030,9 @@ Available for limited time only!"  />
 			<text id="preparestep_passionfruitjuice_cookfest" name="use fast ingredients" />
 			<text id="preparestep_passionfruitcheesecake_cookfest" name="use fast ingredients" />
 			<text id="preparestep_pietray_cookfest" name="use fast ingredients" />
+			<text id="preparestep_meatstuffedpeppers_cookfest" name="use fast ingredients" />
+			<text id="preparestep_gourmetcheesedish_cookfest" name="use fast ingredients" />
+			<text id="preparestep_bluecheesefondue_cookfest" name="use fast ingredients" />
 			<text id="preparestep_cookieplate_cookfest" name="use fast ingredients" />
 			<text id="preparestep_stewedrhubarb_cookfest" name="use fast ingredients" />
 			<text id="preparestep_combomeal_cookfest" name="use fast ingredients" />
@@ -2231,6 +2262,9 @@ Available for limited time only!"  />
 			<text id="preparestep_passionfruitjuice_vanilla" name="scrape out vanilla"  />
 			<text id="preparestep_passionfruitcheesecake_vanilla" name="scrape out vanilla"  />
 			<text id="preparestep_pietray_cinnamon" name="spread cinnamon"  />
+			<text id="preparestep_meatstuffedpeppers_chili" name="chop chili" />
+			<text id="preparestep_gourmetcheesedish_coriander" name="chop coriander" />
+			<text id="preparestep_bluecheesefondue_parsley" name="chop parsley" />
 
 			<text id="preparestep_greensalad_eventspice" name="spread event spice" />
 			<text id="preparestep_omelette_eventspice" name="spread event spice" />
@@ -2272,6 +2306,9 @@ Available for limited time only!"  />
 			<text id="preparestep_passionfruitjuice_eventspice" name="spread event spice" />
 			<text id="preparestep_passionfruitcheesecake_eventspice" name="spread event spice" />
 			<text id="preparestep_pietray_eventspice" name="spread event spice" />
+			<text id="preparestep_meatstuffedpeppers_eventspice" name="spread event spice" />
+			<text id="preparestep_gourmetcheesedish_eventspice" name="spread event spice" />
+			<text id="preparestep_bluecheesefondue_eventspice" name="spread event spice" />
 			<text id="preparestep_cookieplate_eventspice" name="spread event spice" />
 			<text id="preparestep_stewedrhubarb_eventspice" name="spread event spice" />
 			<text id="preparestep_combomeal_eventspice" name="spread event spice" />
@@ -2434,7 +2471,7 @@ Available for limited time only!"  />
 			<text id="recipe_beefstew" name="Stew"  />
 			<text id="recipe_blackforestcherrycake" name="Black Forest Cake"  />
 			<text id="recipe_cheeseburger" name="Cheeseburger"  />
-			<text id="recipe_cheesedish" name="Cheese Dish"  />
+			<text id="recipe_cheesedish" name="Cheese Table"  />
 			<text id="recipe_cheesefondue" name="Cheese Fondue"  />
 			<text id="recipe_cherriecake" name="Cherry Cake"  />
 			<text id="recipe_cherrycompote" name="Cherry Compote"  />
@@ -2518,6 +2555,9 @@ Available for limited time only!"  />
 			<text id="recipe_passionfruitjuice" name="Passion Fruit Juice"  />
 			<text id="recipe_passionfruitcheesecake" name="Passion Fruit Cheesecake"  />
 			<text id="recipe_pietray" name="Pie Banquet"  />
+			<text id="recipe_meatstuffedpeppers" name="Meat Stuffed Peppers" />
+			<text id="recipe_gourmetcheesedish" name="Gourmet Cheese Table" />
+			<text id="recipe_bluecheesefondue" name="Blue Cheese Fondue" />
 </recipe>
 		<recipes_fastfood>
 			<text id="recipe_smoothiemaker_tomatojuice" name="Tomato Juice"  />
