@@ -894,6 +894,16 @@
 		<text id="dialogwin_wheeloffortune_wonfood" name="축하합니다! 선물 상자에서 가격을 찾아보세요." />
 		<text id="dialogwin_wheeloffortune_wongold" name="황금냄비를 획득하였습니다!" />
 		<text id="dialogwin_wheeloffortune_wonitem" name="축하합니다! 아이템 목록에서 가격을 확인해 보세요!" />
+		<text id="dialogwin_cookbook_sort_default" name="Sort: Default" />
+		<text id="dialogwin_cookbook_sort_notmastered" name="Not mastered first" />
+		<text id="dialogwin_cookbook_sort_mastered" name="Mastered first" />
+		<text id="dialogwin_cookbook_sort_alphabetical" name="Name: A-Z" />
+		<text id="dialogwin_cookbook_sort_time_asc" name="Time: short to long" />
+		<text id="dialogwin_cookbook_sort_time_desc" name="Time: long to short" />
+		<text id="dialogwin_cookbook_sort_portions_asc" name="Portions: least to most" />
+		<text id="dialogwin_cookbook_sort_portions_desc" name="Portions: most to least" />
+		<text id="dialogwin_cookbook_sort_xp_desc" name="XP: most to least" />
+		<text id="dialogwin_cookbook_sort_xp_asc" name="XP: least to most" />
 	</dialogs>
 	<error_codes>
 		<text id="achievement_error" name="성과" />

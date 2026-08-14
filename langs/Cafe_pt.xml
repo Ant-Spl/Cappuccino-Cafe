@@ -908,6 +908,16 @@ Você encontrará seu presente em sua caixa de presentes!" />
 		<text id="dialogwin_wheeloffortune_wongold" name="Você ganhou ouro!" />
 		<text id="dialogwin_wheeloffortune_wonitem" name="Parabéns!
 Você já pode encontrar seu prêmio no seu modo decoração!" />
+		<text id="dialogwin_cookbook_sort_default" name="Sort: Default" />
+		<text id="dialogwin_cookbook_sort_notmastered" name="Not mastered first" />
+		<text id="dialogwin_cookbook_sort_mastered" name="Mastered first" />
+		<text id="dialogwin_cookbook_sort_alphabetical" name="Name: A-Z" />
+		<text id="dialogwin_cookbook_sort_time_asc" name="Time: short to long" />
+		<text id="dialogwin_cookbook_sort_time_desc" name="Time: long to short" />
+		<text id="dialogwin_cookbook_sort_portions_asc" name="Portions: least to most" />
+		<text id="dialogwin_cookbook_sort_portions_desc" name="Portions: most to least" />
+		<text id="dialogwin_cookbook_sort_xp_desc" name="XP: most to least" />
+		<text id="dialogwin_cookbook_sort_xp_asc" name="XP: least to most" />
 	</dialogs>
 	<error_codes>
 		<text id="achievement_error" name="Premiação" />
