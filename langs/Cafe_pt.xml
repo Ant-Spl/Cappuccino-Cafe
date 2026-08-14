@@ -914,8 +914,8 @@ Você já pode encontrar seu prêmio no seu modo decoração!" />
 		<text id="dialogwin_cookbook_sort_alphabetical" name="Ordem alfabética" />
 		<text id="dialogwin_cookbook_sort_time_asc" name="Tempo: Curto ao longo" />
 		<text id="dialogwin_cookbook_sort_time_desc" name="Tempo: Longo ao curto" />
-		<text id="dialogwin_cookbook_sort_portions_asc" name="Porções: Mais" />
-		<text id="dialogwin_cookbook_sort_portions_desc" name="Porções: Menos" />
+		<text id="dialogwin_cookbook_sort_portions_asc" name="Porções: Menos" />
+		<text id="dialogwin_cookbook_sort_portions_desc" name="Porções: Mais" />
 		<text id="dialogwin_cookbook_sort_xp_desc" name="XP: Mais" />
 		<text id="dialogwin_cookbook_sort_xp_asc" name="XP: Menos" />
 	</dialogs>
