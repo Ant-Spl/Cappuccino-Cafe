@@ -613,8 +613,8 @@
 		<text id="coop_desc_short_46" name="Rilassati con le torte!" />
 		<text id="coop_desc_long_46" name="Chef EarthHunt3r vuole calmare una situazione inalberata con torte deliziose. Dai una mano!" />
 		<text id="coop_title_47" name="SEI UN POLLETTO?" />
-		<text id="coop_desc_short_47" name="Co co coccodè!" />
-		<text id="coop_desc_long_47" name="Chef Monchi crede che i polli si stiano nascondendo come esseri umani per governare il mondo. Servi dei piatti per disgustarli e porta allo scoperto il loro travestimento!" />
+		<text id="coop_desc_short_47" name="Co-co-coccodè!" />
+		<text id="coop_desc_long_47" name="Chef Monchi vuole sapere se sei abbastanza coraggioso nell&apos;accettare la sua sfida. Mica scapperai via come un pollo?" />
 		<text id="coop_title_48" name="ACCADEMIA CULINARIA" />
 		<text id="coop_desc_short_48" name="Laureiamoci!" />
 		<text id="coop_desc_long_48" name="Chef EarthHunt3r vuole laurearsi e l&apos;Accademia vuole molti piatti. Aiutalo, e anche tu potrai indossare una corona d&apos;alloro!" />
@@ -894,16 +894,16 @@
 		<text id="dialogwin_wheeloffortune_wonfood" name="Congratulazioni! Il premio si trova nella tua scatola dei regali!" />
 		<text id="dialogwin_wheeloffortune_wongold" name="Hai vinto dell&apos;oro!" />
 		<text id="dialogwin_wheeloffortune_wonitem" name="Congratulazioni! Il premio è nel tuo magazzino!" />
-		<text id="dialogwin_cookbook_sort_default" name="Sort: Default" />
-		<text id="dialogwin_cookbook_sort_notmastered" name="Not mastered first" />
-		<text id="dialogwin_cookbook_sort_mastered" name="Mastered first" />
-		<text id="dialogwin_cookbook_sort_alphabetical" name="Name: A-Z" />
-		<text id="dialogwin_cookbook_sort_time_asc" name="Time: short to long" />
-		<text id="dialogwin_cookbook_sort_time_desc" name="Time: long to short" />
-		<text id="dialogwin_cookbook_sort_portions_asc" name="Portions: least to most" />
-		<text id="dialogwin_cookbook_sort_portions_desc" name="Portions: most to least" />
-		<text id="dialogwin_cookbook_sort_xp_desc" name="XP: most to least" />
-		<text id="dialogwin_cookbook_sort_xp_asc" name="XP: least to most" />
+		<text id="dialogwin_cookbook_sort_default" name="Ordina per: Predefinito" />
+		<text id="dialogwin_cookbook_sort_notmastered" name="Prima quelli senza stelle" />
+		<text id="dialogwin_cookbook_sort_mastered" name="Prima quelli con stelle" />
+		<text id="dialogwin_cookbook_sort_alphabetical" name="Nome: A-Z" />
+		<text id="dialogwin_cookbook_sort_time_asc" name="Tempistiche: crescente" />
+		<text id="dialogwin_cookbook_sort_time_desc" name="Tempistiche: decrescente" />
+		<text id="dialogwin_cookbook_sort_portions_asc" name="Qtà di porzioni: crescente" />
+		<text id="dialogwin_cookbook_sort_portions_desc" name="Qtà di porzioni: decrescente" />
+		<text id="dialogwin_cookbook_sort_xp_desc" name="Qtà di XP: decrescente" />
+		<text id="dialogwin_cookbook_sort_xp_asc" name="Qtà di XP: crescente" />
 	</dialogs>
 	<error_codes>
 		<text id="achievement_error" name="Trofeo" />
