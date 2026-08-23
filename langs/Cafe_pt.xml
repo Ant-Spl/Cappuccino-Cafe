@@ -1204,6 +1204,7 @@ Apenas disponível por tempo limitado!" />
 		<text id="ingredient_vegiemix" name="Seleta de Legumes" />
 		<text id="ingredient_whitechocolat" name="Chocolate Branco" />
 		<text id="ingredient_passionfruit" name="Maracujá" />
+		<text id="ingredient_pumpkin" name="Pumpkin" />
 		<text id="ingredient_eventspice" name="Tempero de Evento" />
 	</ingredients>
 	<loggedin_msg id="" />

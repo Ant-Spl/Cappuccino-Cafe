@@ -1182,6 +1182,7 @@
 		<text id="ingredient_vegiemix" name="Misto di verdure" />
 		<text id="ingredient_whitechocolat" name="Cioccolato bianco" />
 		<text id="ingredient_passionfruit" name="Maracujá" />
+		<text id="ingredient_pumpkin" name="Pumpkin" />
 		<text id="ingredient_eventspice" name="Spezia evento" />
 	</ingredients>
 	<loggedin_msg id="" />

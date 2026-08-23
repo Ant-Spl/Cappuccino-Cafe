@@ -1182,6 +1182,7 @@
 		<text id="ingredient_vanilla" name="Vanília" />
 		<text id="ingredient_vegiemix" name="Zöldségkeverék" />
 		<text id="ingredient_passionfruit" name="Passiógyümölcs" />
+		<text id="ingredient_pumpkin" name="Pumpkin" />
 		<text id="ingredient_eventspice" name="Ünnepi Fűszer" />
 		<text id="ingredient_whitechocolat" name="Fehér csokoládé" />
 	</ingredients>
