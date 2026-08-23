@@ -8,7 +8,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css?v=20260822-dishcalculator-v2">
+  <link rel="stylesheet" href="style.css?v=20260822-dishcalculator-v3-langstrings">
 </head>
 <body class="dark-theme">
   <main class="page">
@@ -818,6 +818,17 @@
               </select>
             </div>
           </div>
+
+
+          <section class="dish-calc-lang-section dish-calc-wide">
+            <div class="dish-calc-lang-heading-row">
+              <div>
+                <span id="dishCalcLangHeading" class="dish-calc-field-title">Language strings</span>
+                <small class="field-hint">Set the recipe name, cook steps and ingredient preparation text. IDs are generated automatically from the dish key.</small>
+              </div>
+            </div>
+            <div id="dishCalcLangFields" class="dish-calc-lang-fields"></div>
+          </section>
         </div>
 
         <section class="dish-calc-results" aria-live="polite">
@@ -863,6 +874,6 @@
 
   </main>
 
-  <script src="script.js?v=20260822-dishcalculator-v2" defer></script>
+  <script src="script.js?v=20260822-dishcalculator-v3-langstrings" defer></script>
 </body>
 </html>

@@ -747,6 +747,7 @@ const SORT_OPTIONS = [
 
 let allDishRecords = [];
 let allIngredientRecords = [];
+let cafeTextById = new Map();
 let allCoopRecords = [];
 const DISH_CALCULATOR_MAX_INGREDIENTS = 5;
 const DISH_CALCULATOR_MIN_XP_PER_MIN = 1;
@@ -1268,6 +1269,7 @@ async function loadDishRecords(languageCode) {
   const ingredientNodes = wodNodes.filter(node => getAttr(node, 'g') === 'Ingredient');
   const textNodes = Array.from(cafeLanguageXml.getElementsByTagName('text'));
 
+  cafeTextById = new Map(textNodes.map(node => [String(getAttr(node, 'id') || '').toLowerCase(), decodeEntities(getAttr(node, 'name') || '')]).filter(([id]) => id));
   const recipeNameByDishKey = buildRecipeNameMap(textNodes);
   const ingredientNameByKey = buildIngredientNameMap(textNodes);
   const costById = {};
@@ -4138,7 +4140,7 @@ function setupDishCalculator() {
   buildDishCalculatorIngredientRows();
 
   const recalculationIds = [
-    'dishCalcName', 'dishCalcCategory', 'dishCalcLevel', 'dishCalcFancy',
+    'dishCalcCategory', 'dishCalcLevel',
     'dishCalcProfitMode', 'dishCalcProfitValue', 'dishCalcPortionsMode',
     'dishCalcPortionsValue', 'dishCalcPriceMode', 'dishCalcPriceValue',
     'dishCalcXpBonus', 'dishCalcCooktime'
@@ -4150,20 +4152,20 @@ function setupDishCalculator() {
     element.addEventListener('change', calculateDishCalculator);
   });
 
-  const ingredientRows = document.getElementById('dishCalcIngredientRows');
-  ingredientRows?.addEventListener('input', event => {
-    const searchInput = event.target.closest('.dish-calc-ingredient-search');
-    if (searchInput) {
-      filterDishCalculatorIngredientRow(searchInput.closest('.dish-calc-ingredient-row'));
-      return;
-    }
-    handleDishCalculatorIngredientChange();
+  const nameInput = document.getElementById('dishCalcName');
+  nameInput?.addEventListener('input', () => {
+    renderDishCalculatorLanguageFields({ preserve: true });
+    calculateDishCalculator();
   });
-  ingredientRows?.addEventListener('change', event => {
-    if (event.target.matches('.dish-calc-ingredient-select, .dish-calc-ingredient-amount')) {
-      handleDishCalculatorIngredientChange();
-    }
+
+  document.getElementById('dishCalcFancy')?.addEventListener('change', () => {
+    renderDishCalculatorLanguageFields({ preserve: true });
+    calculateDishCalculator();
   });
+
+  document.getElementById('dishCalcIngredientRows')?.addEventListener('input', handleDishCalculatorIngredientChange);
+  document.getElementById('dishCalcIngredientRows')?.addEventListener('change', handleDishCalculatorIngredientChange);
+  document.getElementById('dishCalcLangFields')?.addEventListener('input', calculateDishCalculator);
   document.getElementById('dishCalcCooktimeUnit')?.addEventListener('change', handleDishCalculatorCooktimeUnitChange);
   document.getElementById('dishCalcSearch')?.addEventListener('input', renderDishCalculatorCurrentList);
   document.getElementById('dishCalcResetButton')?.addEventListener('click', resetDishCalculator);
@@ -4178,6 +4180,7 @@ function setupDishCalculator() {
 function refreshDishCalculator() {
   if (!document.getElementById('dishCalculatorScreen')) return;
   populateDishCalculatorIngredientOptions();
+  renderDishCalculatorLanguageFields({ preserve: true });
   renderDishCalculatorCurrentList();
   calculateDishCalculator();
 }
@@ -4187,7 +4190,7 @@ function buildDishCalculatorIngredientRows() {
   if (!container || container.children.length) return;
   container.innerHTML = Array.from({ length: DISH_CALCULATOR_MAX_INGREDIENTS }, (_, index) => `
     <div class="dish-calc-ingredient-row" data-ingredient-slot="${index}">
-      <input class="dish-calc-ingredient-search" type="search" autocomplete="off" placeholder="Search ingredient…" aria-label="Search ingredient ${index + 1}">
+      <input class="dish-calc-ingredient-search" type="search" autocomplete="off" placeholder="Search ingredient..." aria-label="Search ingredient ${index + 1}">
       <select class="dish-calc-ingredient-select" aria-label="Ingredient ${index + 1}">
         <option value="">— Ingredient ${index + 1} —</option>
       </select>
@@ -4201,9 +4204,7 @@ function buildDishCalculatorIngredientRows() {
 
 function populateDishCalculatorIngredientOptions() {
   document.querySelectorAll('.dish-calc-ingredient-row').forEach((row, index) => {
-    const select = row.querySelector('.dish-calc-ingredient-select');
-    if (!select) return;
-    populateDishCalculatorIngredientSelect(select, index, row.querySelector('.dish-calc-ingredient-search')?.value || '');
+    populateDishCalculatorIngredientSelect(row, index);
   });
 
   const fancyIngredients = allIngredientRecords.filter(item => item.category === 'fancy');
@@ -4217,38 +4218,38 @@ function populateDishCalculatorIngredientOptions() {
   }
 }
 
-function populateDishCalculatorIngredientSelect(select, index, searchTerm = '', preferredValue = null) {
+function populateDishCalculatorIngredientSelect(row, index) {
+  if (!row) return;
+  const select = row.querySelector('.dish-calc-ingredient-select');
+  if (!select) return;
+  const search = normalizeItemKey(row.querySelector('.dish-calc-ingredient-search')?.value || '');
+  const previous = String(select.value || '');
   const regularIngredients = allIngredientRecords.filter(item => item.category !== 'fancy');
-  const previous = preferredValue !== null ? String(preferredValue || '') : String(select.value || '');
-  const query = normalizeItemKey(searchTerm);
   let filtered = regularIngredients.filter(item => {
-    if (!query) return true;
-    return normalizeItemKey(`${item.name} ${item.key} ${item.id}`).includes(query);
+    if (!search) return true;
+    return normalizeItemKey(`${item.name} ${item.key} ${item.id} ${item.level}`).includes(search);
   });
-
-  const selectedItem = previous ? regularIngredients.find(item => item.id === previous) : null;
-  if (selectedItem && !filtered.some(item => item.id === selectedItem.id)) {
-    filtered = [selectedItem, ...filtered];
-  }
-
+  const selectedItem = regularIngredients.find(item => item.id === previous);
+  if (selectedItem && !filtered.some(item => item.id === previous)) filtered = [selectedItem, ...filtered];
   select.innerHTML = `<option value="">— Ingredient ${index + 1} —</option>` + filtered.map(item => {
     const price = item.gold > 0 ? `${item.gold} gold` : `${number(item.cash)} cash`;
     return `<option value="${escapeHtml(item.id)}">${escapeHtml(item.name)} · Lv ${number(item.level)} · ${escapeHtml(price)}</option>`;
   }).join('');
-  if (selectedItem) select.value = selectedItem.id;
+  if (selectedItem) select.value = previous;
 }
 
-function filterDishCalculatorIngredientRow(row) {
-  if (!row) return;
-  const index = Number(row.getAttribute('data-ingredient-slot') || 0);
-  const select = row.querySelector('.dish-calc-ingredient-select');
-  const searchInput = row.querySelector('.dish-calc-ingredient-search');
-  if (!select || !searchInput) return;
-  populateDishCalculatorIngredientSelect(select, index, searchInput.value);
-}
-
-function handleDishCalculatorIngredientChange() {
-  enforceDishCalculatorUniqueIngredients();
+function handleDishCalculatorIngredientChange(event) {
+  const target = event?.target;
+  if (target?.classList?.contains('dish-calc-ingredient-search')) {
+    const row = target.closest('.dish-calc-ingredient-row');
+    const index = Number(row?.getAttribute('data-ingredient-slot') || 0);
+    populateDishCalculatorIngredientSelect(row, index);
+    return;
+  }
+  if (target?.classList?.contains('dish-calc-ingredient-select')) {
+    enforceDishCalculatorUniqueIngredients();
+    renderDishCalculatorLanguageFields({ preserve: true });
+  }
   calculateDishCalculator();
 }
 
@@ -4306,6 +4307,85 @@ function getDishCalculatorSelectedIngredients() {
 function getDishCalculatorFancyIngredient() {
   const id = String(document.getElementById('dishCalcFancy')?.value || '');
   return allIngredientRecords.find(item => item.id === id && item.category === 'fancy') || null;
+}
+
+function getDishCalculatorExistingLangValues() {
+  const values = new Map();
+  document.querySelectorAll('.dish-calc-lang-input').forEach(input => {
+    values.set(String(input.getAttribute('data-lang-id') || '').toLowerCase(), input.value);
+  });
+  return values;
+}
+
+function buildDishCalculatorLanguageDescriptors(dishKey, selectedIngredients, fancy) {
+  const key = String(dishKey || '').toLowerCase();
+  if (!key) return [];
+  const descriptors = [
+    { id: `recipe_${key}`, label: 'Recipe name', kind: 'recipe' },
+    { id: `cookstep_${key}1`, label: 'Cook step 1', kind: 'cookstep' },
+    { id: `cookstep_${key}2`, label: 'Cook step 2', kind: 'cookstep' }
+  ];
+  selectedIngredients.forEach(ingredient => {
+    descriptors.push({
+      id: `preparestep_${key}_${String(ingredient.key || '').toLowerCase()}`,
+      label: `Prepare · ${ingredient.name}`,
+      kind: 'prepare'
+    });
+  });
+  if (fancy) {
+    descriptors.push({
+      id: `preparestep_${key}_${String(fancy.key || '').toLowerCase()}`,
+      label: `Prepare · Fancy: ${fancy.name}`,
+      kind: 'prepare'
+    });
+  }
+  descriptors.push(
+    { id: `preparestep_${key}_cookfest`, label: 'Prepare · Cookfest fallback', kind: 'fallback', defaultValue: 'use fast ingredients' },
+    { id: `preparestep_${key}_eventspice`, label: 'Prepare · Event Spice fallback', kind: 'fallback', defaultValue: 'spread event spice' }
+  );
+  return descriptors;
+}
+
+function renderDishCalculatorLanguageFields({ preserve = true, fromSource = false } = {}) {
+  const container = document.getElementById('dishCalcLangFields');
+  if (!container) return;
+  const heading = document.getElementById('dishCalcLangHeading');
+  const languageCode = getCafeLanguageCode(currentLanguage);
+  if (heading) heading.textContent = `Language strings (${languageCode})`;
+
+  const dishName = String(document.getElementById('dishCalcName')?.value || '').trim();
+  const dishKey = normalizeDishCalculatorKey(dishName);
+  const selectedIngredients = getDishCalculatorSelectedIngredients();
+  const fancy = getDishCalculatorFancyIngredient();
+  const previousValues = preserve ? getDishCalculatorExistingLangValues() : new Map();
+  const descriptors = buildDishCalculatorLanguageDescriptors(dishKey, selectedIngredients, fancy);
+
+  if (!descriptors.length) {
+    container.innerHTML = '<div class="dish-calc-lang-empty">Enter a Dish name first. The localization IDs will appear here automatically.</div>';
+    return;
+  }
+
+  const editingExisting = Boolean(dishCalculatorState.existingDishId);
+  container.innerHTML = descriptors.map(descriptor => {
+    const idKey = descriptor.id.toLowerCase();
+    let value = previousValues.has(idKey) ? previousValues.get(idKey) : '';
+    if (fromSource) value = cafeTextById.get(idKey) || '';
+    if (!value && !editingExisting && descriptor.defaultValue && languageCode === 'en') value = descriptor.defaultValue;
+    return `
+      <label class="dish-calc-lang-field ${descriptor.kind === 'prepare' || descriptor.kind === 'fallback' ? 'dish-calc-lang-compact' : ''}">
+        <span>${escapeHtml(descriptor.label)}</span>
+        <input class="dish-calc-lang-input" data-lang-id="${escapeHtml(descriptor.id)}" type="text" autocomplete="off" value="${escapeHtml(value)}" placeholder="${escapeHtml(descriptor.id)}">
+        <small>${escapeHtml(descriptor.id)}</small>
+      </label>
+    `;
+  }).join('');
+}
+
+function getDishCalculatorLanguageStrings() {
+  return Array.from(document.querySelectorAll('.dish-calc-lang-input')).map(input => ({
+    id: String(input.getAttribute('data-lang-id') || ''),
+    value: String(input.value || '').trim()
+  })).filter(item => item.id);
 }
 
 function enforceDishCalculatorMinimumLevel(selectedIngredients) {
@@ -4434,6 +4514,7 @@ function calculateDishCalculator() {
   const requirements = buildDishCalculatorRequirements(selectedIngredients, fancy);
   const dishName = String(document.getElementById('dishCalcName')?.value || '').trim();
   const dishKey = normalizeDishCalculatorKey(dishName);
+  const languageStrings = getDishCalculatorLanguageStrings();
 
   renderDishCalculatorResultCards({
     level, duration, cashCost, goldCost, portions, pricePerPortion, revenue,
@@ -4444,7 +4525,8 @@ function calculateDishCalculator() {
     dishName, dishKey, categoryId, level, duration, selectedIngredients, fancy,
     cashCost, goldCost, profitMode, profitValue, targetProfit, targetRevenue,
     portionsMode, portions, priceMode, pricePerPortion, revenue, actualProfit,
-    actualProfitPercent, xpResult, requirements, similar: similarEstimate.similar
+    actualProfitPercent, xpResult, requirements, similar: similarEstimate.similar,
+    languageStrings, languageCode: getCafeLanguageCode(currentLanguage)
   });
   const outputElement = document.getElementById('dishCalcOutput');
   if (outputElement) outputElement.value = output;
@@ -4493,8 +4575,10 @@ function buildDishCalculatorCopyBlock(data) {
   const idAttribute = dishCalculatorState.existingDishId ? ` id="${dishCalculatorState.existingDishId}"` : ' id="NEW_ID"';
   const xmlName = data.dishKey || 'DishKey';
   const suggestedXml = `<wod${idAttribute} n="Basic" g="Dish" t="${escapeXmlAttribute(xmlName)}" events="0" xp="${data.xpResult.xp}" incomePerServing="${data.pricePerPortion}" servings="${data.portions}" duration="${formatDishCalculatorInputNumber(data.duration, 4)}" level="${data.level}" dishcategory="${data.categoryId}" requirements="${escapeXmlAttribute(data.requirements)}" />`;
+  const languageLines = (data.languageStrings || []).filter(item => item.value).map(item => `<text id="${escapeXmlAttribute(item.id)}" name="${escapeXmlAttribute(item.value)}" />`);
+  const languageSummary = (data.languageStrings || []).map(item => `- ${item.id}: ${item.value || '(blank)'}`).join('\n') || '- None';
 
-  return `DISH CALCULATOR DATA\nAction: ${action}\nDish name: ${data.dishName || `Basic_Dish_${xmlName}`}\nInternal key: ${xmlName}\nCategory: ${categoryName} (${data.categoryId})\nLevel: ${data.level}\n\nIngredients:\n${ingredientLines}\nFancy: ${fancyLine}\nRequirements: ${data.requirements || '(none)'}\n\nCooktime: ${formatDishCalculatorInputNumber(data.duration, 4)} minutes (${formatDuration(data.duration)})\nXP bonus: ${formatDishCalculatorInputNumber(data.xpResult.multiplier, 3)}x\nBase XP/min after long-time floor: ${formatDishCalculatorInputNumber(data.xpResult.baseXpPerMin, 6)}\nCalculated XP: ${data.xpResult.xp}\n\nIngredient cost: ${data.cashCost} cash${data.goldCost ? ` + ${data.goldCost} gold` : ''}\nProfit target: ${data.profitMode === 'percent' ? `${formatDishCalculatorInputNumber(data.profitValue, 3)}%` : `${formatDishCalculatorInputNumber(data.profitValue, 2)} cash`}\nTarget profit amount: ${formatDishCalculatorInputNumber(data.targetProfit, 2)} cash\nPortions mode: ${data.portionsMode}\nPortions: ${data.portions}\nPrice per portion mode: ${data.priceMode}\nPrice per portion: ${data.pricePerPortion}\nRevenue: ${data.revenue} cash\nActual profit: ${data.actualProfit} cash (${formatDishCalculatorInputNumber(data.actualProfitPercent, 3)}%)\nSimilar dishes used: ${similarLine}\n\nSuggested CafeItems XML:\n${suggestedXml}\n`;
+  return `DISH CALCULATOR DATA\nAction: ${action}\nDish name: ${data.dishName || `Basic_Dish_${xmlName}`}\nInternal key: ${xmlName}\nCategory: ${categoryName} (${data.categoryId})\nLevel: ${data.level}\n\nIngredients:\n${ingredientLines}\nFancy: ${fancyLine}\nRequirements: ${data.requirements || '(none)'}\n\nCooktime: ${formatDishCalculatorInputNumber(data.duration, 4)} minutes (${formatDuration(data.duration)})\nXP bonus: ${formatDishCalculatorInputNumber(data.xpResult.multiplier, 3)}x\nBase XP/min after long-time floor: ${formatDishCalculatorInputNumber(data.xpResult.baseXpPerMin, 6)}\nCalculated XP: ${data.xpResult.xp}\n\nIngredient cost: ${data.cashCost} cash${data.goldCost ? ` + ${data.goldCost} gold` : ''}\nProfit target: ${data.profitMode === 'percent' ? `${formatDishCalculatorInputNumber(data.profitValue, 3)}%` : `${formatDishCalculatorInputNumber(data.profitValue, 2)} cash`}\nTarget profit amount: ${formatDishCalculatorInputNumber(data.targetProfit, 2)} cash\nPortions mode: ${data.portionsMode}\nPortions: ${data.portions}\nPrice per portion mode: ${data.priceMode}\nPrice per portion: ${data.pricePerPortion}\nRevenue: ${data.revenue} cash\nActual profit: ${data.actualProfit} cash (${formatDishCalculatorInputNumber(data.actualProfitPercent, 3)}%)\nSimilar dishes used: ${similarLine}\n\nLANG STRINGS (${data.languageCode || 'en'}):\n${languageSummary}\n\nSuggested CafeItems XML:\n${suggestedXml}\n\nSuggested language XML entries:\n${languageLines.length ? languageLines.join('\n') : '(no non-blank language strings)'}\n`;
 }
 
 function normalizeDishCalculatorKey(value) {
@@ -4535,21 +4619,16 @@ function renderDishCalculatorCurrentList() {
   body.innerHTML = records.map(record => `
     <tr class="${categoryClass(record.categoryId)}">
       <td>${imageHtml(record)}</td>
-      <td class="dish-name">
-        ${escapeHtml(record.dishName)}
-        <small>${escapeHtml(`Basic_Dish_${record.dishKey}`)}</small>
-        <small>ID ${escapeHtml(record.dishId)}</small>
+      <td class="dish-name dish-calc-dish-cell">
+        <strong>${escapeHtml(record.dishName)}</strong>
+        <small>${escapeHtml(`Basic_Dish_${record.dishKey}`)} · ID ${escapeHtml(record.dishId)}</small>
       </td>
-      <td class="dish-calc-load-cell"><button type="button" class="plan-button dish-calc-load-button" data-dish-calc-load-id="${escapeHtml(record.dishId)}">Load</button></td>
+      <td><button type="button" class="plan-button dish-calc-load-button" data-dish-calc-load-id="${escapeHtml(record.dishId)}">Load</button></td>
       <td><strong>Lv ${number(record.level)}</strong><br><small>${number(record.xp)} XP</small></td>
       <td>${escapeHtml(record.durationText)}</td>
-      <td><strong>${number(record.servings)}</strong><br><small>× ${number(record.incomePerServing)} each</small></td>
-      <td class="dish-calc-economy-cell">
-        <small>Cost ${number(record.ingredientCost)}</small>
-        <strong>Profit ${number(record.profit)}</strong>
-        <small>${record.ingredientCost > 0 ? formatDishCalculatorInputNumber((record.profit / record.ingredientCost) * 100, 1) : '0'}%</small>
-      </td>
-      <td class="requirements-cell dish-calc-requirements-cell">${escapeHtml(record.requirements || '—')}</td>
+      <td><strong>${number(record.servings)} portions</strong><br><small>${number(record.incomePerServing)} each</small></td>
+      <td><strong>Cost ${number(record.ingredientCost)}</strong><br><small>Revenue ${number(record.revenue)} · Profit ${number(record.profit)} (${record.ingredientCost > 0 ? formatDishCalculatorInputNumber((record.profit / record.ingredientCost) * 100, 1) : '0'}%)</small></td>
+      <td class="requirements-cell">${escapeHtml(record.requirements || '—')}</td>
     </tr>
   `).join('');
 }
@@ -4589,12 +4668,13 @@ function loadDishIntoCalculator(dishId) {
   rows.forEach((row, index) => {
     const item = regular[index];
     const searchInput = row.querySelector('.dish-calc-ingredient-search');
-    const select = row.querySelector('.dish-calc-ingredient-select');
     if (searchInput) searchInput.value = '';
-    if (select) populateDishCalculatorIngredientSelect(select, index, '', item?.ingredient.id || '');
+    populateDishCalculatorIngredientSelect(row, index);
+    row.querySelector('.dish-calc-ingredient-select').value = item?.ingredient.id || '';
     row.querySelector('.dish-calc-ingredient-amount').value = String(item?.amount || 1);
   });
   document.getElementById('dishCalcFancy').value = fancy?.id || '';
+  renderDishCalculatorLanguageFields({ preserve: false, fromSource: true });
 
   const notice = document.getElementById('dishCalcExistingNotice');
   if (notice) {
@@ -4626,11 +4706,12 @@ function resetDishCalculator() {
   document.getElementById('dishCalcCooktime').step = '0.5';
   document.querySelectorAll('.dish-calc-ingredient-row').forEach((row, index) => {
     const searchInput = row.querySelector('.dish-calc-ingredient-search');
-    const select = row.querySelector('.dish-calc-ingredient-select');
     if (searchInput) searchInput.value = '';
-    if (select) populateDishCalculatorIngredientSelect(select, index, '', '');
+    populateDishCalculatorIngredientSelect(row, index);
+    row.querySelector('.dish-calc-ingredient-select').value = '';
     row.querySelector('.dish-calc-ingredient-amount').value = '1';
   });
+  renderDishCalculatorLanguageFields({ preserve: false, fromSource: false });
   const notice = document.getElementById('dishCalcExistingNotice');
   if (notice) notice.classList.add('hidden');
   calculateDishCalculator();

@@ -931,6 +931,7 @@
 <wod id="1349" n="Basic" g="Ingredient" t="Curryspice" cash="850" gold="0" friends="0" goldNoFriends="0" releaseDate="0" world="0" events="0" xp="0" level="28" category="other" amount="1" />
 <wod id="1350" n="Basic" g="Ingredient" t="Goldeneggs" cash="99999" gold="0" friends="0" goldNoFriends="0" releaseDate="0" world="0" events="0" xp="0" level="14" category="meat" amount="1" />
 <wod id="1351" n="Basic" g="Ingredient" t="Passionfruit" cash="2000" gold="0" friends="0" goldNoFriends="0" releaseDate="0" world="0" events="0" xp="0" level="23" category="fruits" amount="1" />
+<wod id="1352" n="Basic" g="Ingredient" t="Pumpkin" cash="1031" gold="0" friends="0" goldNoFriends="0" releaseDate="0" world="0" events="0" xp="0" level="18" category="vegatables" amount="1" />
 <wod id="1501" n="Cafe" g="Background" t="Village" />
 <wod id="1502" n="Marketplace" g="Background" t="Normal" />
 <wod id="1503" n="Static" g="Background" t="Villagewinter" />

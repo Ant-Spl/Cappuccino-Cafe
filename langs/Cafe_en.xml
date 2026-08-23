@@ -1269,6 +1269,7 @@ Available for limited time only!"  />
 			<text id="ingredient_vegiemix" name="Vegetable Mix"  />
 			<text id="ingredient_whitechocolat" name="White Chocolate"  />
 					<text id="ingredient_passionfruit" name="Passion Fruit"  />
+					<text id="ingredient_pumpkin" name="Pumpkin"  />
 			<text id="ingredient_eventspice" name="Event Spice"  />
 		</ingredients>
 		<loggedin_msg id=""  />
