@@ -80,7 +80,8 @@ const SPECIAL_INGREDIENT_KEYS = [
 const HOLIDAY_DISH_KEYS = [
   'Christmasturkey',
   'Easterdish',
-  'Fruitpudding'
+  'Fruitpudding',
+  'Spookymousse'
 ];
 
 const CATEGORY_NAMES = {
@@ -297,7 +298,7 @@ const I18N = {
     specialDishes: 'Special Dishes',
     specialDishesNote: 'Special dishes are shown separately.',
     holidayDishes: 'Holiday Dishes',
-    holidayDishesNote: 'Holiday dishes are shown separately. Auto mode uses Christmas and Easter seasons.',
+    holidayDishesNote: 'Holiday dishes are shown separately. Auto mode uses Christmas, Easter, and Halloween seasons.',
     completeDishList: 'Complete dish list',
     sortFullDishDex: 'Sort Full DishDex',
     sortBy: 'Sort by',
@@ -324,6 +325,7 @@ const I18N = {
     fullTagSpecial: 'Special',
     fullTagChristmas: 'Christmas',
     fullTagEaster: 'Easter',
+    fullTagHalloween: 'Halloween',
     holidayActive: 'Holiday: Active',
     holidayInactive: 'Holiday: Inactive',
     profitLower: 'profit',
@@ -603,7 +605,7 @@ const I18N = {
     specialDishes: 'Pratos especiais',
     specialDishesNote: 'Pratos especiais são exibidos separadamente.',
     holidayDishes: 'Pratos de feriado',
-    holidayDishesNote: 'Pratos de feriado são exibidos separadamente. O modo Auto usa as épocas de Natal e Páscoa.',
+    holidayDishesNote: 'Pratos de feriado são exibidos separadamente. O modo Auto usa as épocas de Natal, Páscoa e Halloween.',
     completeDishList: 'Lista completa de pratos',
     sortFullDishDex: 'Ordenar DishDex completo',
     sortBy: 'Ordenar por',
@@ -630,6 +632,7 @@ const I18N = {
     fullTagSpecial: 'Especial',
     fullTagChristmas: 'Natal',
     fullTagEaster: 'Páscoa',
+    fullTagHalloween: 'Halloween',
     holidayActive: 'Feriado: ativo',
     holidayInactive: 'Feriado: inativo',
     profitLower: 'lucro',
@@ -5077,6 +5080,7 @@ function fullDishTypeTag(record) {
   if (record?.dishType === 'Special') return t('fullTagSpecial');
   if (key === 'christmasturkey') return t('fullTagChristmas');
   if (key === 'easterdish' || key === 'fruitpudding') return t('fullTagEaster');
+  if (key === 'spookymousse') return t('fullTagHalloween');
   return '';
 }
 
@@ -5095,6 +5099,9 @@ function isHolidayDishActive(dishKey, date) {
   const day = current.getDate();
 
   if (key === 'christmasturkey') return month === 12 || (month === 1 && day <= 6);
+
+  // Halloween dishes are active throughout October and through All Souls' Day.
+  if (key === 'spookymousse') return month === 10 || (month === 11 && day <= 2);
 
   if (key === 'easterdish' || key === 'fruitpudding') {
     const easter = calculateEasterDate(year);
