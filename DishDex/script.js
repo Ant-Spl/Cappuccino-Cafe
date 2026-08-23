@@ -4395,14 +4395,22 @@ function enforceDishCalculatorMinimumLevel(selectedIngredients) {
   const input = document.getElementById('dishCalcLevel');
   if (!input) return 0;
   const minimumLevel = selectedIngredients.reduce((max, ingredient) => Math.max(max, Number(ingredient.level || 0)), 0);
-  input.min = String(minimumLevel);
-  let level = Math.max(0, Math.floor(Number(input.value || 0)));
-  if (level < minimumLevel) {
-    level = minimumLevel;
-    input.value = String(minimumLevel);
-  }
+
+  // Keep typing free-form. Deleting "18" to type "50" must not make the
+  // intermediate "5" snap back to 18. Ingredient level is validation only.
+  input.min = '0';
+  const rawValue = String(input.value ?? '').trim();
+  const parsedLevel = Number(rawValue);
+  const level = Number.isFinite(parsedLevel) ? Math.max(0, Math.floor(parsedLevel)) : 0;
+  const isBelowMinimum = rawValue !== '' && level < minimumLevel;
+
   const hint = document.getElementById('dishCalcLevelHint');
-  if (hint) hint.textContent = `Minimum from ingredients: ${minimumLevel}`;
+  if (hint) {
+    hint.textContent = isBelowMinimum
+      ? `Minimum dish level: ${minimumLevel}`
+      : `Minimum from ingredients: ${minimumLevel}`;
+  }
+  input.setAttribute('aria-invalid', isBelowMinimum ? 'true' : 'false');
   return level;
 }
 
@@ -4425,6 +4433,44 @@ function calculateDishCalculatorXp(level, cooktimeMinutes, multiplier) {
     exactXp,
     xp: Math.max(1, Math.round(exactXp))
   };
+}
+
+function inferDishCalculatorPeerXpBoost(record) {
+  if (!record || Number(record.duration || 0) <= 0 || Number(record.xp || 0) <= 0) return 1;
+  const baseline = calculateDishCalculatorXp(Number(record.level || 0), Number(record.duration || 0), 1);
+  const baselineXp = Math.max(1, Number(baseline.xp || 1));
+  const actualXp = Number(record.xp || 0);
+
+  // Integer XP creates fake-looking boosts on tiny recipes. Ignore differences
+  // small enough to be normal rounding/noise.
+  const roundingTolerance = Math.max(2, Math.round(baselineXp * 0.025));
+  if (actualXp - baselineXp <= roundingTolerance) return 1;
+
+  const impliedBoost = baseline.exactXp > 0 ? actualXp / baseline.exactXp : 1;
+  if (!Number.isFinite(impliedBoost) || impliedBoost <= 1) return 1;
+
+  // Some legacy/special regular dishes have extreme hand-authored XP (2×–10×).
+  // Those are special-case rewards, not useful baselines for an ordinary new
+  // recipe. Only moderate boosts are allowed to influence the suggestion.
+  if (impliedBoost > 1.75) return 1;
+  return impliedBoost;
+}
+
+function suggestDishCalculatorXpBoost(similarDishes) {
+  const peers = Array.isArray(similarDishes) ? similarDishes.filter(Boolean) : [];
+  if (!peers.length) return { boost: 1, peerBoosts: [], boostedPeers: [] };
+
+  const peerBoosts = peers.map(record => ({
+    record,
+    boost: inferDishCalculatorPeerXpBoost(record)
+  }));
+  const boostedPeers = peerBoosts.filter(item => item.boost > 1.0001);
+
+  // Include normal 1.00× peers in the mean. Example: one 1.50× peer among four
+  // normal peers suggests 1.10× instead of blindly copying 1.50×.
+  const meanBoost = peerBoosts.reduce((sum, item) => sum + item.boost, 0) / peerBoosts.length;
+  const boost = boostedPeers.length ? Math.max(1, Math.round(meanBoost * 100) / 100) : 1;
+  return { boost, peerBoosts, boostedPeers };
 }
 
 function findDishCalculatorSimilarDishes(level, duration, categoryId, excludeDishId = null) {
@@ -4650,6 +4696,15 @@ function calculateDishCalculator() {
   const economyHint = document.getElementById('dishCalcEconomyHint');
   if (economyHint) economyHint.textContent = economy.strategy;
 
+  const xpBoostSuggestion = suggestDishCalculatorXpBoost(similarEstimate.similar);
+  const xpBoostHint = document.getElementById('dishCalcXpBoostHint');
+  if (xpBoostHint) {
+    xpBoostHint.textContent = `Suggested boost: ${Number(xpBoostSuggestion.boost || 1).toFixed(2)}×`;
+    xpBoostHint.title = xpBoostSuggestion.boostedPeers.length
+      ? `Boosted comparable dishes: ${xpBoostSuggestion.boostedPeers.map(item => `${item.record.dishName} (${formatDishCalculatorInputNumber(item.boost, 2)}×)`).join(', ')}`
+      : 'No meaningful XP boosts detected among the comparable dishes.';
+  }
+
   const revenue = portions * pricePerPortion;
   const actualProfit = revenue - cashCost;
   const actualProfitPercent = cashCost > 0 ? (actualProfit / cashCost) * 100 : 0;
@@ -4669,6 +4724,7 @@ function calculateDishCalculator() {
     cashCost, goldCost, profitMode, profitValue, targetProfit, targetRevenue,
     portionsMode, portions, priceMode, pricePerPortion, revenue, actualProfit,
     actualProfitPercent, xpResult, requirements, similar: similarEstimate.similar,
+    xpBoostSuggestion,
     economyStrategy: economy.strategy,
     languageStrings, languageCode: getCafeLanguageCode(currentLanguage)
   });
@@ -4722,7 +4778,7 @@ function buildDishCalculatorCopyBlock(data) {
   const languageLines = (data.languageStrings || []).filter(item => item.value).map(item => `<text id="${escapeXmlAttribute(item.id)}" name="${escapeXmlAttribute(item.value)}" />`);
   const languageSummary = (data.languageStrings || []).map(item => `- ${item.id}: ${item.value || '(blank)'}`).join('\n') || '- None';
 
-  return `DISH CALCULATOR DATA\nAction: ${action}\nDish name: ${data.dishName || `Basic_Dish_${xmlName}`}\nInternal key: ${xmlName}\nCategory: ${categoryName} (${data.categoryId})\nLevel: ${data.level}\n\nIngredients:\n${ingredientLines}\nFancy: ${fancyLine}\nRequirements: ${data.requirements || '(none)'}\n\nCooktime: ${formatDishCalculatorInputNumber(data.duration, 4)} minutes (${formatDuration(data.duration)})\nXP bonus: ${formatDishCalculatorInputNumber(data.xpResult.multiplier, 3)}x\nBase XP/min after long-time floor: ${formatDishCalculatorInputNumber(data.xpResult.baseXpPerMin, 6)}\nCalculated XP: ${data.xpResult.xp}\n\nIngredient cost: ${data.cashCost} cash${data.goldCost ? ` + ${data.goldCost} gold` : ''}\nProfit target: ${data.profitMode === 'percent' ? `${formatDishCalculatorInputNumber(data.profitValue, 3)}%` : `${formatDishCalculatorInputNumber(data.profitValue, 2)} cash`}\nTarget profit amount: ${formatDishCalculatorInputNumber(data.targetProfit, 2)} cash\nPortions mode: ${data.portionsMode}\nPortions: ${data.portions}\nPrice per portion mode: ${data.priceMode}\nPrice per portion: ${data.pricePerPortion}\nRevenue: ${data.revenue} cash\nActual profit: ${data.actualProfit} cash (${formatDishCalculatorInputNumber(data.actualProfitPercent, 3)}%)\nEconomy balance: ${data.economyStrategy || 'Custom values'}\nSimilar dishes used: ${similarLine}\n\nLANG STRINGS (${data.languageCode || 'en'}):\n${languageSummary}\n\nSuggested CafeItems XML:\n${suggestedXml}\n\nSuggested language XML entries:\n${languageLines.length ? languageLines.join('\n') : '(no non-blank language strings)'}\n`;
+  return `DISH CALCULATOR DATA\nAction: ${action}\nDish name: ${data.dishName || `Basic_Dish_${xmlName}`}\nInternal key: ${xmlName}\nCategory: ${categoryName} (${data.categoryId})\nLevel: ${data.level}\n\nIngredients:\n${ingredientLines}\nFancy: ${fancyLine}\nRequirements: ${data.requirements || '(none)'}\n\nCooktime: ${formatDishCalculatorInputNumber(data.duration, 4)} minutes (${formatDuration(data.duration)})\nXP bonus: ${formatDishCalculatorInputNumber(data.xpResult.multiplier, 3)}x\nSuggested boost: ${Number(data.xpBoostSuggestion?.boost || 1).toFixed(2)}x\nBase XP/min after long-time floor: ${formatDishCalculatorInputNumber(data.xpResult.baseXpPerMin, 6)}\nCalculated XP: ${data.xpResult.xp}\n\nIngredient cost: ${data.cashCost} cash${data.goldCost ? ` + ${data.goldCost} gold` : ''}\nProfit target: ${data.profitMode === 'percent' ? `${formatDishCalculatorInputNumber(data.profitValue, 3)}%` : `${formatDishCalculatorInputNumber(data.profitValue, 2)} cash`}\nTarget profit amount: ${formatDishCalculatorInputNumber(data.targetProfit, 2)} cash\nPortions mode: ${data.portionsMode}\nPortions: ${data.portions}\nPrice per portion mode: ${data.priceMode}\nPrice per portion: ${data.pricePerPortion}\nRevenue: ${data.revenue} cash\nActual profit: ${data.actualProfit} cash (${formatDishCalculatorInputNumber(data.actualProfitPercent, 3)}%)\nEconomy balance: ${data.economyStrategy || 'Custom values'}\nSimilar dishes used: ${similarLine}\n\nLANG STRINGS (${data.languageCode || 'en'}):\n${languageSummary}\n\nSuggested CafeItems XML:\n${suggestedXml}\n\nSuggested language XML entries:\n${languageLines.length ? languageLines.join('\n') : '(no non-blank language strings)'}\n`;
 }
 
 function normalizeDishCalculatorKey(value) {

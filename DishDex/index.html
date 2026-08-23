@@ -750,7 +750,7 @@
           <label>
             <span>Level</span>
             <input id="dishCalcLevel" type="number" min="0" max="999" step="1" value="1">
-            <small id="dishCalcLevelHint" class="field-hint">Minimum from ingredients: 0</small>
+            <small id="dishCalcLevelHint" class="field-hint" aria-live="polite">Minimum from ingredients: 0</small>
           </label>
 
           <div class="dish-calc-field dish-calc-wide">
@@ -806,7 +806,8 @@
               <input id="dishCalcXpBonus" type="number" min="0.01" step="0.01" value="1.00">
               <span class="dish-calc-unit">×</span>
             </div>
-            <small class="field-hint">1.00× = normal XP. Long dishes use a 1 XP/min floor before the multiplier.</small>
+            <small id="dishCalcXpBoostHint" class="field-hint" title="No meaningful XP boosts detected among the comparable dishes.">Suggested boost: 1.00×</small>
+            <small class="field-hint">1.00× = normal XP. Long dishes use the 1 XP/min floor. Suggested boost is informational only; it is never applied automatically.</small>
           </label>
 
           <div class="dish-calc-field">
@@ -875,6 +876,6 @@
 
   </main>
 
-  <script src="script.js?v=20260822-dishcalculator-v4-economy-balance" defer></script>
+  <script src="script.js?v=20260823-dishcalculator-v6-xpboost-levelinput" defer></script>
 </body>
 </html>
