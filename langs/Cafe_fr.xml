@@ -475,6 +475,22 @@
 		<text id="cookstep_gourmetcheesedish2" name="Arranging cheese board" />
 		<text id="cookstep_bluecheesefondue1" name="Melting cheese" />
 		<text id="cookstep_bluecheesefondue2" name="Mixing fondue" />
+		<text id="cookstep_pumpkinpie1" name="Mixing ingredients" />
+		<text id="cookstep_pumpkinpie2" name="Baking" />
+		<text id="cookstep_pumpkincake1" name="mixing ingredients" />
+		<text id="cookstep_pumpkincake2" name="baking" />
+		<text id="cookstep_sugarglazeroastchicken1" name="seasoning chicken" />
+		<text id="cookstep_sugarglazeroastchicken2" name="glazing" />
+		<text id="cookstep_pumpkinsoup1" name="mixing ingredients" />
+		<text id="cookstep_pumpkinsoup2" name="boiling" />
+		<text id="cookstep_pumpkinfondue1" name="melting cheese" />
+		<text id="cookstep_pumpkinfondue2" name="mixing ingredients" />
+		<text id="cookstep_krabbypatty1" name="frying pineapple patty" />
+		<text id="cookstep_krabbypatty2" name="melting cheese" />
+		<text id="cookstep_pumpkinspicelatte1" name="mixing ingredients" />
+		<text id="cookstep_pumpkinspicelatte2" name="pouring drinks" />
+		<text id="cookstep_spookymousse1" name="haunting chocolate" />
+		<text id="cookstep_spookymousse2" name="mixing spirits" />
 		<text id="cookstep_feijoada1" name="Préparer les morceaux de porc" />
 		<text id="cookstep_feijoada2" name="Préparer les tranches d’orange" />
 		<text id="cookstep_spanishomelette1" name="Battre les œufs" />
@@ -1967,6 +1983,46 @@
 		<text id="preparestep_marblecake_cookfest" name="use fast ingredients" />
 		<text id="preparestep_pizzahawaii_cookfest" name="use fast ingredients" />
 		<text id="preparestep_chocolatecheesecake_cookfest" name="use fast ingredients" />
+		<text id="preparestep_pumpkinpie_pumpkin" name="mash pumpkin" />
+		<text id="preparestep_pumpkinpie_sugar" name="add sugar" />
+		<text id="preparestep_pumpkinpie_eggs" name="crack eggs" />
+		<text id="preparestep_pumpkinpie_milk" name="add milk" />
+		<text id="preparestep_pumpkinpie_cream" name="whip cream" />
+		<text id="preparestep_pumpkinpie_cookfest" name="use fast ingredients" />
+		<text id="preparestep_pumpkincake_pumpkin" name="wash pumpkin" />
+		<text id="preparestep_pumpkincake_flour" name="sift flour" />
+		<text id="preparestep_pumpkincake_sugar" name="caramelize sugar" />
+		<text id="preparestep_pumpkincake_eggs" name="crack eggs" />
+		<text id="preparestep_pumpkincake_cream" name="make frosting" />
+		<text id="preparestep_pumpkincake_cookfest" name="use fast ingredients" />
+		<text id="preparestep_sugarglazeroastchicken_chicken" name="defrost chicken" />
+		<text id="preparestep_sugarglazeroastchicken_sugar" name="caramelize sugar" />
+		<text id="preparestep_sugarglazeroastchicken_potato" name="peel potatoes" />
+		<text id="preparestep_sugarglazeroastchicken_onion" name="cut onion" />
+		<text id="preparestep_sugarglazeroastchicken_garlic" name="crush garlic" />
+		<text id="preparestep_sugarglazeroastchicken_cookfest" name="use fast ingredients" />
+		<text id="preparestep_pumpkinsoup_pumpkin" name="mash pumpkin" />
+		<text id="preparestep_pumpkinsoup_tomato" name="peel tomatoes" />
+		<text id="preparestep_pumpkinsoup_onion" name="chop onions" />
+		<text id="preparestep_pumpkinsoup_cream" name="whip cream" />
+		<text id="preparestep_pumpkinsoup_cookfest" name="use fast ingredients" />
+		<text id="preparestep_pumpkinfondue_pumpkin" name="mash pumpkin" />
+		<text id="preparestep_pumpkinfondue_cheese" name="cut cheese" />
+		<text id="preparestep_pumpkinfondue_cookfest" name="use fast ingredients" />
+		<text id="preparestep_krabbypatty_pinapple" name="make patties" />
+		<text id="preparestep_krabbypatty_flour" name="make buns" />
+		<text id="preparestep_krabbypatty_tomato" name="wash tomatoes" />
+		<text id="preparestep_krabbypatty_cheese" name="organize cheese" />
+		<text id="preparestep_krabbypatty_lettuce" name="wash lettuce" />
+		<text id="preparestep_krabbypatty_cookfest" name="use fast ingredients" />
+		<text id="preparestep_pumpkinspicelatte_milk" name="heat milk" />
+		<text id="preparestep_pumpkinspicelatte_pumpkin" name="mash pumpkin" />
+		<text id="preparestep_pumpkinspicelatte_sugar" name="add sugar" />
+		<text id="preparestep_pumpkinspicelatte_cookfest" name="use fast ingredients" />
+		<text id="preparestep_spookymousse_milk" name="pour milk" />
+		<text id="preparestep_spookymousse_whitechocolat" name="melt chocolate" />
+		<text id="preparestep_spookymousse_sugar" name="lure ghost" />
+		<text id="preparestep_spookymousse_cookfest" name="use fast ingredients" />
 		<text id="preparestep_feijoada_coriander" name="Ajouter de la coriandre" />
 	</preparestep>
 	<preparestep_fancy>
@@ -2243,6 +2299,22 @@
 		<text id="preparestep_marblecake_eventspice" name="spread event spice" />
 		<text id="preparestep_pizzahawaii_eventspice" name="spread event spice" />
 		<text id="preparestep_chocolatecheesecake_eventspice" name="spread event spice" />
+		<text id="preparestep_pumpkinpie_nutmeg" name="grate nutmeg" />
+		<text id="preparestep_pumpkinpie_eventspice" name="spread event spice" />
+		<text id="preparestep_pumpkincake_cinnamon" name="grate cinnamon" />
+		<text id="preparestep_pumpkincake_eventspice" name="spread event spice" />
+		<text id="preparestep_sugarglazeroastchicken_parsley" name="chop parsley" />
+		<text id="preparestep_sugarglazeroastchicken_eventspice" name="spread event spice" />
+		<text id="preparestep_pumpkinsoup_chili" name="chop chili" />
+		<text id="preparestep_pumpkinsoup_eventspice" name="spread event spice" />
+		<text id="preparestep_pumpkinfondue_chili" name="chop chili" />
+		<text id="preparestep_pumpkinfondue_eventspice" name="spread event spice" />
+		<text id="preparestep_krabbypatty_chili" name="make hot sauce" />
+		<text id="preparestep_krabbypatty_eventspice" name="spread event spice" />
+		<text id="preparestep_pumpkinspicelatte_cinnamon" name="grate cinnamon" />
+		<text id="preparestep_pumpkinspicelatte_eventspice" name="spread event spice" />
+		<text id="preparestep_spookymousse_nutmeg" name="grate nutmeg" />
+		<text id="preparestep_spookymousse_eventspice" name="spread event spice" />
 		<text id="preparestep_pizzasalad_chili" name="Couper le chili" />
 	</preparestep_fancy>
 	<recipe>
@@ -2404,6 +2476,14 @@
 		<text id="recipe_meatstuffedpeppers" name="Meat Stuffed Peppers" />
 		<text id="recipe_gourmetcheesedish" name="Gourmet Cheese Table" />
 		<text id="recipe_bluecheesefondue" name="Blue Cheese Fondue" />
+		<text id="recipe_pumpkinpie" name="Pumpkin Pie" />
+		<text id="recipe_pumpkincake" name="Pumpkin Cake" />
+		<text id="recipe_sugarglazeroastchicken" name="Sugar Glaze R. Chicken" />
+		<text id="recipe_pumpkinsoup" name="Pumpkin Soup" />
+		<text id="recipe_pumpkinfondue" name="Pumpkin Fondue" />
+		<text id="recipe_krabbypatty" name="Krabby Patty" />
+		<text id="recipe_pumpkinspicelatte" name="Pumpkin Spice Latte" />
+		<text id="recipe_spookymousse" name="Spooky Mousse" />
 	</recipe>
 	<recipes_fastfood>
 		<text id="recipe_smoothiemaker_greensmoothie" name="Smoothie vert" />
