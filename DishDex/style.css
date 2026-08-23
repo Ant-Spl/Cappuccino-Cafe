@@ -3396,3 +3396,234 @@ body.dark-theme #recommendedMasteriesBody .effect-total,
 body.dark-theme .recommended-masteries-table .effect-total {
   color: #6f5530;
 }
+
+/* Hidden Dish Calculator (#dishcalculator) */
+.dish-calculator-panel,
+.dish-calculator-current-panel {
+  max-width: 1180px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.calculator-heading-row {
+  align-items: center;
+}
+
+.dish-calc-existing-notice {
+  margin-bottom: 14px;
+  border: 2px solid #d6a600;
+  border-radius: 14px;
+  padding: 10px 12px;
+  background: rgba(255, 230, 128, 0.18);
+  color: var(--text);
+  font-weight: 900;
+}
+
+.dish-calc-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(260px, 1fr));
+  gap: 14px;
+}
+
+.dish-calc-wide {
+  grid-column: 1 / -1;
+}
+
+.dish-calc-field {
+  display: grid;
+  gap: 6px;
+  color: var(--brown-dark);
+  font-weight: 800;
+}
+
+.dish-calc-field-title {
+  color: var(--brown-dark);
+  font-weight: 900;
+}
+
+.field-hint {
+  color: var(--muted);
+  font-size: 0.84rem;
+  font-weight: 800;
+  line-height: 1.3;
+}
+
+.dish-calc-mode-row {
+  display: grid;
+  grid-template-columns: minmax(120px, 1fr) minmax(100px, 0.7fr) auto;
+  gap: 8px;
+  align-items: center;
+}
+
+.dish-calc-mode-row > :only-child {
+  grid-column: 1 / -1;
+}
+
+.dish-calc-unit {
+  min-width: 24px;
+  color: var(--brown-dark);
+  font-weight: 1000;
+  text-align: center;
+}
+
+.dish-calc-ingredient-rows {
+  display: grid;
+  gap: 8px;
+}
+
+.dish-calc-ingredient-row {
+  display: grid;
+  grid-template-columns: minmax(260px, 1fr) 110px;
+  gap: 10px;
+  align-items: center;
+}
+
+.dish-calc-amount-label {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  align-items: center;
+  gap: 6px;
+  color: var(--muted);
+}
+
+.dish-calc-amount-label input {
+  text-align: center;
+}
+
+.dish-calc-inline-summary {
+  border: 2px solid var(--border);
+  border-radius: 12px;
+  background: var(--plain-cell);
+  padding: 9px 12px;
+  color: var(--text);
+  font-weight: 900;
+}
+
+.dish-calc-results {
+  margin-top: 18px;
+  border-top: 2px solid var(--border);
+  padding-top: 18px;
+}
+
+.dish-calc-results h3 {
+  margin: 0 0 12px;
+  color: var(--brown-dark);
+}
+
+.dish-calc-result-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(180px, 1fr));
+  gap: 10px;
+  margin-bottom: 14px;
+}
+
+.dish-calc-result-card {
+  border: 2px solid var(--border);
+  border-radius: 14px;
+  background: var(--plain-cell);
+  padding: 12px;
+  display: grid;
+  gap: 4px;
+  min-width: 0;
+}
+
+.dish-calc-result-card span,
+.dish-calc-result-card small {
+  color: var(--muted);
+  font-weight: 800;
+}
+
+.dish-calc-result-card strong {
+  color: var(--text);
+  font-size: 1.05rem;
+  overflow-wrap: anywhere;
+}
+
+.dish-calc-output-label {
+  display: grid;
+  gap: 8px;
+}
+
+#dishCalcOutput {
+  width: 100%;
+  resize: vertical;
+  min-height: 300px;
+  border: 2px solid var(--border);
+  border-radius: 14px;
+  padding: 12px;
+  background: var(--input-bg);
+  color: var(--text);
+  font: 700 0.92rem/1.35 ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  text-align: left;
+}
+
+.dish-calc-copy-actions {
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+
+.dish-calc-copy-status {
+  margin: 0;
+  font-weight: 900;
+}
+
+.dish-calc-current-list {
+  max-height: min(720px, 72vh);
+  overflow: auto;
+  overscroll-behavior: contain;
+}
+
+.dish-calc-current-list thead th {
+  position: sticky;
+  top: 0;
+  z-index: 3;
+}
+
+.dish-calc-table {
+  min-width: 1500px;
+}
+
+.dish-calc-table td small {
+  color: #6f5530;
+  font-weight: 800;
+}
+
+.dish-calc-load-button {
+  white-space: nowrap;
+}
+
+#dishCalcPortionsValue:disabled,
+#dishCalcPriceValue:disabled {
+  opacity: 0.72;
+  cursor: not-allowed;
+}
+
+body.dark-theme .dish-calc-existing-notice,
+body.dark-theme .dish-calc-result-card,
+body.dark-theme .dish-calc-inline-summary,
+body.dark-theme #dishCalcOutput {
+  color: var(--text);
+}
+
+@media (max-width: 900px) {
+  .dish-calc-grid,
+  .dish-calc-result-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .dish-calc-wide {
+    grid-column: auto;
+  }
+}
+
+@media (max-width: 620px) {
+  .dish-calc-ingredient-row,
+  .dish-calc-mode-row {
+    grid-template-columns: 1fr;
+  }
+
+  .dish-calc-unit {
+    text-align: left;
+  }
+}

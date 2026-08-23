@@ -8,7 +8,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css?v=20260701-profile-fashiondex-v3">
+  <link rel="stylesheet" href="style.css?v=20260822-dishcalculator-v1">
 </head>
 <body class="dark-theme">
   <main class="page">
@@ -704,8 +704,169 @@
         </div>
       </section>
     </section>
+
+
+    <section id="dishCalculatorScreen" class="screen hidden">
+      <header class="sub-hero">
+        <button class="back-button" type="button" data-back>← Back</button>
+        <div class="title-row compact-title-row">
+          <img src="DishDex.png" alt="" class="title-logo small-logo" onerror="this.style.display='none'">
+          <div>
+            <p class="eyebrow">Dish development tool</p>
+            <h1>Dish Calculator</h1>
+          </div>
+        </div>
+      </header>
+
+      <section class="panel dish-calculator-panel">
+        <div class="section-heading-row calculator-heading-row">
+          <div>
+            <h2>Dish Builder</h2>
+            <p class="section-note">Create a new dish or load an existing one below and adjust its values.</p>
+          </div>
+          <button id="dishCalcResetButton" type="button" class="action-button">New dish</button>
+        </div>
+
+        <div id="dishCalcExistingNotice" class="dish-calc-existing-notice hidden"></div>
+
+        <div class="dish-calc-grid">
+          <label class="dish-calc-wide">
+            <span>Dish name</span>
+            <input id="dishCalcName" type="text" autocomplete="off" placeholder="Basic_Dish_Sugarglazeroastchicken">
+          </label>
+
+          <label>
+            <span>Category</span>
+            <select id="dishCalcCategory">
+              <option value="0">Dessert</option>
+              <option value="1" selected>Main Dish</option>
+              <option value="2">Soup</option>
+              <option value="3">Salad</option>
+              <option value="4">Vegetarian</option>
+              <option value="5">Snack</option>
+            </select>
+          </label>
+
+          <label>
+            <span>Level</span>
+            <input id="dishCalcLevel" type="number" min="0" max="999" step="1" value="1">
+            <small id="dishCalcLevelHint" class="field-hint">Minimum from ingredients: 0</small>
+          </label>
+
+          <div class="dish-calc-field dish-calc-wide">
+            <span class="dish-calc-field-title">Ingredients (up to 5)</span>
+            <div id="dishCalcIngredientRows" class="dish-calc-ingredient-rows"></div>
+            <div id="dishCalcIngredientCost" class="dish-calc-inline-summary">Ingredient cost: 0 cash</div>
+          </div>
+
+          <label class="dish-calc-wide">
+            <span>Fancy ingredient</span>
+            <select id="dishCalcFancy"></select>
+          </label>
+
+          <div class="dish-calc-field">
+            <span class="dish-calc-field-title">Profit target</span>
+            <div class="dish-calc-mode-row">
+              <select id="dishCalcProfitMode" aria-label="Profit target mode">
+                <option value="percent" selected>Percentage</option>
+                <option value="amount">Cash amount</option>
+              </select>
+              <input id="dishCalcProfitValue" type="number" min="0" step="0.01" value="30" aria-label="Profit target value">
+              <span id="dishCalcProfitUnit" class="dish-calc-unit">%</span>
+            </div>
+          </div>
+
+          <div class="dish-calc-field">
+            <span class="dish-calc-field-title">Portions</span>
+            <div class="dish-calc-mode-row">
+              <select id="dishCalcPortionsMode" aria-label="Portions mode">
+                <option value="similar" selected>Similar dishes</option>
+                <option value="custom">Custom</option>
+              </select>
+              <input id="dishCalcPortionsValue" type="number" min="1" step="1" value="100" aria-label="Portions value">
+            </div>
+            <small id="dishCalcSimilarHint" class="field-hint"></small>
+          </div>
+
+          <div class="dish-calc-field">
+            <span class="dish-calc-field-title">Price per portion</span>
+            <div class="dish-calc-mode-row">
+              <select id="dishCalcPriceMode" aria-label="Price mode">
+                <option value="automatic" selected>Automatic</option>
+                <option value="custom">Custom</option>
+              </select>
+              <input id="dishCalcPriceValue" type="number" min="1" step="1" value="1" aria-label="Price per portion">
+            </div>
+          </div>
+
+          <label>
+            <span>XP bonus</span>
+            <div class="dish-calc-mode-row">
+              <input id="dishCalcXpBonus" type="number" min="0.01" step="0.01" value="1.00">
+              <span class="dish-calc-unit">×</span>
+            </div>
+            <small class="field-hint">1.00× = normal XP. Long dishes use a 1 XP/min floor before the multiplier.</small>
+          </label>
+
+          <div class="dish-calc-field">
+            <span class="dish-calc-field-title">Cooktime</span>
+            <div class="dish-calc-mode-row">
+              <input id="dishCalcCooktime" type="number" min="0.5" step="0.5" value="60" aria-label="Cooktime">
+              <select id="dishCalcCooktimeUnit" aria-label="Cooktime unit">
+                <option value="minutes" selected>Minutes</option>
+                <option value="hours">Hours</option>
+              </select>
+            </div>
+          </div>
+        </div>
+
+        <section class="dish-calc-results" aria-live="polite">
+          <h3>Calculated result</h3>
+          <div id="dishCalcResultCards" class="dish-calc-result-grid"></div>
+          <label class="dish-calc-output-label">
+            <span>Copy this block and send it for implementation</span>
+            <textarea id="dishCalcOutput" rows="16" readonly></textarea>
+          </label>
+          <div class="data-actions dish-calc-copy-actions">
+            <button id="dishCalcCopyButton" type="button" class="action-button">Copy dish data</button>
+            <span id="dishCalcCopyStatus" class="hint dish-calc-copy-status"></span>
+          </div>
+        </section>
+      </section>
+
+      <section class="panel dish-calculator-current-panel">
+        <h2>Current Dishes</h2>
+        <p class="section-note">Search any current dish, inspect its values, then load it into the builder above.</p>
+        <label class="search-label">
+          <span>Search dish</span>
+          <input id="dishCalcSearch" type="search" autocomplete="off" placeholder="Search by name, internal key, ID or ingredient...">
+        </label>
+        <div class="table-wrap dish-calc-current-list">
+          <table class="dish-calc-table">
+            <thead>
+              <tr>
+                <th>Image</th>
+                <th>Dish</th>
+                <th>ID</th>
+                <th>Level</th>
+                <th>XP</th>
+                <th>Time</th>
+                <th>Portions</th>
+                <th>Price</th>
+                <th>Cost</th>
+                <th>Profit</th>
+                <th>Ingredients</th>
+                <th>Load</th>
+              </tr>
+            </thead>
+            <tbody id="dishCalcCurrentBody"></tbody>
+          </table>
+        </div>
+      </section>
+    </section>
+
   </main>
 
-  <script src="script.js?v=20260810-coop-gold-levels-v1" defer></script>
+  <script src="script.js?v=20260822-dishcalculator-v1" defer></script>
 </body>
 </html>

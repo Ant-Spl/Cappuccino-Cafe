@@ -746,7 +746,16 @@ const SORT_OPTIONS = [
 ];
 
 let allDishRecords = [];
+let allIngredientRecords = [];
 let allCoopRecords = [];
+const DISH_CALCULATOR_MAX_INGREDIENTS = 5;
+const DISH_CALCULATOR_MIN_XP_PER_MIN = 1;
+let dishCalculatorState = {
+  existingDishId: null,
+  cooktimeUnit: 'minutes',
+  cooktimeMinutes: 60,
+  similarDishes: []
+};
 let levelLimitsByLevel = new Map();
 let currentLanguage = 'en';
 let uiTranslations = {};
@@ -763,6 +772,7 @@ async function main() {
     await loadDishDexUiLanguage(currentLanguage);
     setupNavigation();
     setupDataActions();
+    setupDishCalculator();
     applyUiLanguage();
 
     setStatus(t('loadingXml'), 'ok');
@@ -788,6 +798,7 @@ async function main() {
     renderCoopPlanner();
     restoreLastCoopPlanPreview();
     renderMasteries();
+    refreshDishCalculator();
     if (!window.location.hash) {
       history.replaceState(null, '', '#home');
     }
@@ -892,6 +903,7 @@ function setupLanguage() {
       renderCoopPlanner();
       restoreLastCoopPlanPreview();
       renderMasteries();
+      refreshDishCalculator();
     } catch (error) {
       console.error(error);
       setStatus(t('couldNotLoadData'), 'bad');
@@ -939,7 +951,8 @@ const SCREEN_HASHES = {
   myTimeScreen: 'mytime',
   coopPlannerScreen: 'coopplanner',
   profileScreen: 'profile',
-  masteriesScreen: 'masteries'
+  masteriesScreen: 'masteries',
+  dishCalculatorScreen: 'dishcalculator'
 };
 
 const HASH_SCREENS = Object.fromEntries(
@@ -1270,6 +1283,21 @@ async function loadDishRecords(languageCode) {
     ingredientNameById[id] = ingredientNameByKey[ingredientKey.toLowerCase()] || prettyName(ingredientKey);
   });
 
+  allIngredientRecords = ingredientNodes.map(node => {
+    const id = getAttr(node, 'id');
+    const ingredientKey = getAttr(node, 't');
+    return {
+      id: String(id || ''),
+      key: ingredientKey,
+      name: ingredientNameById[id] || prettyName(ingredientKey),
+      level: Number(getAttr(node, 'level') || 0),
+      cash: Number(getAttr(node, 'cash') || 0),
+      gold: Number(getAttr(node, 'gold') || 0),
+      category: String(getAttr(node, 'category') || '').toLowerCase(),
+      events: Number(getAttr(node, 'events') || 0)
+    };
+  }).filter(item => item.id).sort((a, b) => a.name.localeCompare(b.name));
+
   const records = dishNodes.map((node, sourceIndex) => {
     const dishId = getAttr(node, 'id');
     const dishKey = getAttr(node, 't');
@@ -1304,6 +1332,9 @@ async function loadDishRecords(languageCode) {
       categoryId,
       categoryName: getCategoryName(categoryId),
       requirements: formatRequirements(requirements, ingredientNameById),
+      rawRequirements: requirements,
+      requirementItems: parseDishRequirementItems(requirements),
+      events: Number(getAttr(node, 'events') || 0),
       dishType: getDishType(dishKey, requirements, ingredientKeyById),
       imageUrl: PATHS.imageBase + dishKey + '.png'
     };
@@ -4094,6 +4125,495 @@ function deleteUserData() {
   renderFullDishDex();
   renderMyTime();
   setDataStatus(t('dataDeleted'));
+}
+
+
+
+/* Hidden Dish Calculator (#dishcalculator) */
+function setupDishCalculator() {
+  const screen = document.getElementById('dishCalculatorScreen');
+  if (!screen || screen.dataset.bound === 'true') return;
+  screen.dataset.bound = 'true';
+
+  buildDishCalculatorIngredientRows();
+
+  const recalculationIds = [
+    'dishCalcName', 'dishCalcCategory', 'dishCalcLevel', 'dishCalcFancy',
+    'dishCalcProfitMode', 'dishCalcProfitValue', 'dishCalcPortionsMode',
+    'dishCalcPortionsValue', 'dishCalcPriceMode', 'dishCalcPriceValue',
+    'dishCalcXpBonus', 'dishCalcCooktime'
+  ];
+  recalculationIds.forEach(id => {
+    const element = document.getElementById(id);
+    if (!element) return;
+    element.addEventListener('input', calculateDishCalculator);
+    element.addEventListener('change', calculateDishCalculator);
+  });
+
+  document.getElementById('dishCalcIngredientRows')?.addEventListener('input', handleDishCalculatorIngredientChange);
+  document.getElementById('dishCalcIngredientRows')?.addEventListener('change', handleDishCalculatorIngredientChange);
+  document.getElementById('dishCalcCooktimeUnit')?.addEventListener('change', handleDishCalculatorCooktimeUnitChange);
+  document.getElementById('dishCalcSearch')?.addEventListener('input', renderDishCalculatorCurrentList);
+  document.getElementById('dishCalcResetButton')?.addEventListener('click', resetDishCalculator);
+  document.getElementById('dishCalcCopyButton')?.addEventListener('click', copyDishCalculatorOutput);
+  document.getElementById('dishCalcCurrentBody')?.addEventListener('click', event => {
+    const button = event.target.closest('[data-dish-calc-load-id]');
+    if (!button) return;
+    loadDishIntoCalculator(String(button.getAttribute('data-dish-calc-load-id') || ''));
+  });
+}
+
+function refreshDishCalculator() {
+  if (!document.getElementById('dishCalculatorScreen')) return;
+  populateDishCalculatorIngredientOptions();
+  renderDishCalculatorCurrentList();
+  calculateDishCalculator();
+}
+
+function buildDishCalculatorIngredientRows() {
+  const container = document.getElementById('dishCalcIngredientRows');
+  if (!container || container.children.length) return;
+  container.innerHTML = Array.from({ length: DISH_CALCULATOR_MAX_INGREDIENTS }, (_, index) => `
+    <div class="dish-calc-ingredient-row" data-ingredient-slot="${index}">
+      <select class="dish-calc-ingredient-select" aria-label="Ingredient ${index + 1}">
+        <option value="">— Ingredient ${index + 1} —</option>
+      </select>
+      <label class="dish-calc-amount-label">
+        <span>×</span>
+        <input class="dish-calc-ingredient-amount" type="number" min="1" max="99" step="1" value="1" aria-label="Ingredient ${index + 1} amount">
+      </label>
+    </div>
+  `).join('');
+}
+
+function populateDishCalculatorIngredientOptions() {
+  const regularIngredients = allIngredientRecords.filter(item => item.category !== 'fancy');
+  const fancyIngredients = allIngredientRecords.filter(item => item.category === 'fancy');
+
+  document.querySelectorAll('.dish-calc-ingredient-select').forEach((select, index) => {
+    const previous = select.value;
+    select.innerHTML = `<option value="">— Ingredient ${index + 1} —</option>` + regularIngredients.map(item => {
+      const price = item.gold > 0 ? `${item.gold} gold` : `${number(item.cash)} cash`;
+      return `<option value="${escapeHtml(item.id)}">${escapeHtml(item.name)} · Lv ${number(item.level)} · ${escapeHtml(price)}</option>`;
+    }).join('');
+    if (regularIngredients.some(item => item.id === previous)) select.value = previous;
+  });
+
+  const fancySelect = document.getElementById('dishCalcFancy');
+  if (fancySelect) {
+    const previous = fancySelect.value;
+    fancySelect.innerHTML = `<option value="">None</option>` + fancyIngredients.map(item => {
+      return `<option value="${escapeHtml(item.id)}">${escapeHtml(item.name)} (${escapeHtml(item.key)})</option>`;
+    }).join('');
+    if (fancyIngredients.some(item => item.id === previous)) fancySelect.value = previous;
+  }
+}
+
+function handleDishCalculatorIngredientChange() {
+  enforceDishCalculatorUniqueIngredients();
+  calculateDishCalculator();
+}
+
+function enforceDishCalculatorUniqueIngredients() {
+  const selects = Array.from(document.querySelectorAll('.dish-calc-ingredient-select'));
+  const seen = new Set();
+  selects.forEach(select => {
+    const value = String(select.value || '');
+    if (!value) return;
+    if (seen.has(value)) select.value = '';
+    else seen.add(value);
+  });
+}
+
+function handleDishCalculatorCooktimeUnitChange() {
+  const unitSelect = document.getElementById('dishCalcCooktimeUnit');
+  const input = document.getElementById('dishCalcCooktime');
+  if (!unitSelect || !input) return;
+  const nextUnit = unitSelect.value === 'hours' ? 'hours' : 'minutes';
+  const currentUnit = dishCalculatorState.cooktimeUnit || 'minutes';
+  const currentValue = Math.max(0, Number(input.value || 0));
+
+  let minutes = currentUnit === 'hours' ? currentValue * 60 : currentValue;
+  if (!Number.isFinite(minutes)) minutes = 0;
+  dishCalculatorState.cooktimeMinutes = minutes;
+  dishCalculatorState.cooktimeUnit = nextUnit;
+
+  input.value = nextUnit === 'hours'
+    ? formatDishCalculatorInputNumber(minutes / 60, 4)
+    : formatDishCalculatorInputNumber(minutes, 2);
+  input.step = nextUnit === 'hours' ? '0.01' : '0.5';
+  calculateDishCalculator();
+}
+
+function getDishCalculatorCooktimeMinutes() {
+  const input = document.getElementById('dishCalcCooktime');
+  const unit = document.getElementById('dishCalcCooktimeUnit')?.value === 'hours' ? 'hours' : 'minutes';
+  const value = Math.max(0.5, Number(input?.value || 0.5));
+  const minutes = unit === 'hours' ? value * 60 : value;
+  dishCalculatorState.cooktimeUnit = unit;
+  dishCalculatorState.cooktimeMinutes = minutes;
+  return minutes;
+}
+
+function getDishCalculatorSelectedIngredients() {
+  const ingredientById = new Map(allIngredientRecords.map(item => [item.id, item]));
+  return Array.from(document.querySelectorAll('.dish-calc-ingredient-row')).map(row => {
+    const id = String(row.querySelector('.dish-calc-ingredient-select')?.value || '');
+    const amount = Math.max(1, Math.floor(Number(row.querySelector('.dish-calc-ingredient-amount')?.value || 1)));
+    const ingredient = ingredientById.get(id);
+    return ingredient ? { ...ingredient, amount } : null;
+  }).filter(Boolean);
+}
+
+function getDishCalculatorFancyIngredient() {
+  const id = String(document.getElementById('dishCalcFancy')?.value || '');
+  return allIngredientRecords.find(item => item.id === id && item.category === 'fancy') || null;
+}
+
+function enforceDishCalculatorMinimumLevel(selectedIngredients) {
+  const input = document.getElementById('dishCalcLevel');
+  if (!input) return 0;
+  const minimumLevel = selectedIngredients.reduce((max, ingredient) => Math.max(max, Number(ingredient.level || 0)), 0);
+  input.min = String(minimumLevel);
+  let level = Math.max(0, Math.floor(Number(input.value || 0)));
+  if (level < minimumLevel) {
+    level = minimumLevel;
+    input.value = String(minimumLevel);
+  }
+  const hint = document.getElementById('dishCalcLevelHint');
+  if (hint) hint.textContent = `Minimum from ingredients: ${minimumLevel}`;
+  return level;
+}
+
+function calculateDishCalculatorXp(level, cooktimeMinutes, multiplier) {
+  const rawXpPerMin = 1.7 + (level * 0.045);
+  const longTimePenalty = cooktimeMinutes * 0.001 * 0.7;
+  const spreadsheetBaseXpPerMin = rawXpPerMin - longTimePenalty;
+  // The old sheet could become negative on very long dishes.  Christmas Roast
+  // already demonstrates the intended practical floor: 1 XP/min. Apply the
+  // floor BEFORE the bonus so bonus multipliers stay positive and intuitive.
+  const baseXpPerMin = Math.max(DISH_CALCULATOR_MIN_XP_PER_MIN, spreadsheetBaseXpPerMin);
+  const safeMultiplier = Math.max(0.01, Number(multiplier || 1));
+  const exactXp = baseXpPerMin * cooktimeMinutes * safeMultiplier;
+  return {
+    rawXpPerMin,
+    longTimePenalty,
+    spreadsheetBaseXpPerMin,
+    baseXpPerMin,
+    multiplier: safeMultiplier,
+    exactXp,
+    xp: Math.max(1, Math.round(exactXp))
+  };
+}
+
+function findDishCalculatorSimilarDishes(level, duration, categoryId, excludeDishId = null) {
+  if (!allDishRecords.length || duration <= 0) return [];
+  return allDishRecords
+    .filter(record => String(record.dishId) !== String(excludeDishId || ''))
+    .filter(record => record.dishType === 'Regular' && record.duration > 0 && record.servings > 0)
+    .map(record => {
+      const durationDistance = Math.abs(Math.log((record.duration + 1) / (duration + 1)));
+      const levelDistance = Math.abs(Number(record.level || 0) - level) / 20;
+      const categoryPenalty = String(record.categoryId) === String(categoryId) ? 0 : 0.35;
+      return { record, score: durationDistance * 4 + levelDistance + categoryPenalty };
+    })
+    .sort((a, b) => a.score - b.score || a.record.level - b.record.level)
+    .slice(0, 5)
+    .map(item => item.record);
+}
+
+function estimateDishCalculatorPortions(level, duration, categoryId, excludeDishId = null) {
+  const similar = findDishCalculatorSimilarDishes(level, duration, categoryId, excludeDishId);
+  if (!similar.length) return { portions: 100, similar: [] };
+  const scaled = similar.map(record => {
+    const durationRatio = duration / Math.max(0.5, record.duration);
+    // Light scaling keeps the estimate near actual comparable dishes without
+    // making cooktime the only thing that controls portions.
+    return record.servings * Math.pow(durationRatio, 0.55);
+  }).sort((a, b) => a - b);
+  const middle = Math.floor(scaled.length / 2);
+  const median = scaled.length % 2 ? scaled[middle] : (scaled[middle - 1] + scaled[middle]) / 2;
+  return { portions: Math.max(1, Math.round(median)), similar };
+}
+
+function calculateDishCalculator() {
+  const screen = document.getElementById('dishCalculatorScreen');
+  if (!screen) return;
+
+  const selectedIngredients = getDishCalculatorSelectedIngredients();
+  const fancy = getDishCalculatorFancyIngredient();
+  const level = enforceDishCalculatorMinimumLevel(selectedIngredients);
+  const duration = getDishCalculatorCooktimeMinutes();
+  const categoryId = String(document.getElementById('dishCalcCategory')?.value || '1');
+  const xpBonus = Math.max(0.01, Number(document.getElementById('dishCalcXpBonus')?.value || 1));
+
+  const cashCost = selectedIngredients.reduce((sum, ingredient) => sum + Number(ingredient.cash || 0) * ingredient.amount, 0);
+  const goldCost = selectedIngredients.reduce((sum, ingredient) => sum + Number(ingredient.gold || 0) * ingredient.amount, 0);
+  const costLabel = document.getElementById('dishCalcIngredientCost');
+  if (costLabel) {
+    costLabel.textContent = `Ingredient cost: ${number(cashCost)} cash${goldCost ? ` + ${number(goldCost)} gold` : ''}`;
+  }
+
+  const profitMode = document.getElementById('dishCalcProfitMode')?.value === 'amount' ? 'amount' : 'percent';
+  const profitValueInput = document.getElementById('dishCalcProfitValue');
+  const profitValue = Math.max(0, Number(profitValueInput?.value || 0));
+  const profitUnit = document.getElementById('dishCalcProfitUnit');
+  if (profitUnit) profitUnit.textContent = profitMode === 'percent' ? '%' : 'cash';
+  if (profitValueInput) profitValueInput.step = profitMode === 'percent' ? '0.1' : '1';
+  const targetProfit = profitMode === 'percent' ? cashCost * (profitValue / 100) : profitValue;
+  const targetRevenue = cashCost + targetProfit;
+
+  const portionsMode = document.getElementById('dishCalcPortionsMode')?.value === 'custom' ? 'custom' : 'similar';
+  const portionsInput = document.getElementById('dishCalcPortionsValue');
+  let portions = Math.max(1, Math.round(Number(portionsInput?.value || 1)));
+  const similarEstimate = estimateDishCalculatorPortions(level, duration, categoryId, dishCalculatorState.existingDishId);
+  dishCalculatorState.similarDishes = similarEstimate.similar;
+  if (portionsMode === 'similar') {
+    portions = similarEstimate.portions;
+    if (portionsInput) portionsInput.value = String(portions);
+  }
+  if (portionsInput) portionsInput.disabled = portionsMode === 'similar';
+  const similarHint = document.getElementById('dishCalcSimilarHint');
+  if (similarHint) {
+    similarHint.textContent = portionsMode === 'similar' && similarEstimate.similar.length
+      ? `Based on: ${similarEstimate.similar.map(record => record.dishName).join(', ')}`
+      : '';
+  }
+
+  const priceMode = document.getElementById('dishCalcPriceMode')?.value === 'custom' ? 'custom' : 'automatic';
+  const priceInput = document.getElementById('dishCalcPriceValue');
+  let pricePerPortion = Math.max(1, Math.round(Number(priceInput?.value || 1)));
+  if (priceMode === 'automatic') {
+    pricePerPortion = Math.max(1, Math.ceil(targetRevenue / Math.max(1, portions)));
+    if (priceInput) priceInput.value = String(pricePerPortion);
+  }
+  if (priceInput) priceInput.disabled = priceMode === 'automatic';
+
+  const revenue = portions * pricePerPortion;
+  const actualProfit = revenue - cashCost;
+  const actualProfitPercent = cashCost > 0 ? (actualProfit / cashCost) * 100 : 0;
+  const xpResult = calculateDishCalculatorXp(level, duration, xpBonus);
+  const requirements = buildDishCalculatorRequirements(selectedIngredients, fancy);
+  const dishName = String(document.getElementById('dishCalcName')?.value || '').trim();
+  const dishKey = normalizeDishCalculatorKey(dishName);
+
+  renderDishCalculatorResultCards({
+    level, duration, cashCost, goldCost, portions, pricePerPortion, revenue,
+    actualProfit, actualProfitPercent, xpResult, requirements
+  });
+
+  const output = buildDishCalculatorCopyBlock({
+    dishName, dishKey, categoryId, level, duration, selectedIngredients, fancy,
+    cashCost, goldCost, profitMode, profitValue, targetProfit, targetRevenue,
+    portionsMode, portions, priceMode, pricePerPortion, revenue, actualProfit,
+    actualProfitPercent, xpResult, requirements, similar: similarEstimate.similar
+  });
+  const outputElement = document.getElementById('dishCalcOutput');
+  if (outputElement) outputElement.value = output;
+}
+
+function buildDishCalculatorRequirements(ingredients, fancy) {
+  const parts = ingredients.map(ingredient => `${ingredient.id}+${ingredient.amount}`);
+  if (fancy) parts.push(`${fancy.id}+1`);
+  return parts.join('#');
+}
+
+function renderDishCalculatorResultCards(result) {
+  const container = document.getElementById('dishCalcResultCards');
+  if (!container) return;
+  const floorWasUsed = result.xpResult.spreadsheetBaseXpPerMin < DISH_CALCULATOR_MIN_XP_PER_MIN;
+  const cards = [
+    ['XP', number(result.xpResult.xp), `${decimal(result.xpResult.baseXpPerMin)} base XP/min × ${formatDishCalculatorInputNumber(result.xpResult.multiplier, 3)}×${floorWasUsed ? ' · long-time floor active' : ''}`],
+    ['Level', number(result.level), `Minimum ingredient level enforced`],
+    ['Cooktime', formatDuration(result.duration), `${formatDishCalculatorInputNumber(result.duration, 2)} minutes`],
+    ['Ingredient cost', `${number(result.cashCost)} cash${result.goldCost ? ` + ${number(result.goldCost)} gold` : ''}`, 'Fancy ingredient excluded from normal profit cost'],
+    ['Portions', number(result.portions), 'Final servings'],
+    ['Price / portion', number(result.pricePerPortion), 'Cash per serving'],
+    ['Revenue', number(result.revenue), 'Cash'],
+    ['Actual profit', `${number(result.actualProfit)} (${formatDishCalculatorInputNumber(result.actualProfitPercent, 2)}%)`, 'After integer portion price'],
+    ['Requirements', result.requirements || '—', 'CafeItems requirement string']
+  ];
+  container.innerHTML = cards.map(([title, value, note]) => `
+    <article class="dish-calc-result-card">
+      <span>${escapeHtml(title)}</span>
+      <strong>${escapeHtml(value)}</strong>
+      <small>${escapeHtml(note)}</small>
+    </article>
+  `).join('');
+}
+
+function buildDishCalculatorCopyBlock(data) {
+  const action = dishCalculatorState.existingDishId
+    ? `UPDATE EXISTING DISH (ID ${dishCalculatorState.existingDishId})`
+    : 'NEW DISH';
+  const categoryName = CATEGORY_NAMES.en[String(data.categoryId)] || String(data.categoryId);
+  const ingredientLines = data.selectedIngredients.length
+    ? data.selectedIngredients.map(item => `- ${item.name} [${item.id}] x${item.amount} (Lv ${item.level}, ${item.cash} cash${item.gold ? `, ${item.gold} gold` : ''})`).join('\n')
+    : '- None selected';
+  const fancyLine = data.fancy ? `${data.fancy.name} [${data.fancy.id}] x1` : 'None';
+  const similarLine = data.similar.length ? data.similar.map(record => `${record.dishName} (Lv ${record.level}, ${formatDuration(record.duration)}, ${record.servings} portions)`).join('; ') : 'None';
+  const idAttribute = dishCalculatorState.existingDishId ? ` id="${dishCalculatorState.existingDishId}"` : ' id="NEW_ID"';
+  const xmlName = data.dishKey || 'DishKey';
+  const suggestedXml = `<wod${idAttribute} n="Basic" g="Dish" t="${escapeXmlAttribute(xmlName)}" events="0" xp="${data.xpResult.xp}" incomePerServing="${data.pricePerPortion}" servings="${data.portions}" duration="${formatDishCalculatorInputNumber(data.duration, 4)}" level="${data.level}" dishcategory="${data.categoryId}" requirements="${escapeXmlAttribute(data.requirements)}" />`;
+
+  return `DISH CALCULATOR DATA\nAction: ${action}\nDish name: ${data.dishName || `Basic_Dish_${xmlName}`}\nInternal key: ${xmlName}\nCategory: ${categoryName} (${data.categoryId})\nLevel: ${data.level}\n\nIngredients:\n${ingredientLines}\nFancy: ${fancyLine}\nRequirements: ${data.requirements || '(none)'}\n\nCooktime: ${formatDishCalculatorInputNumber(data.duration, 4)} minutes (${formatDuration(data.duration)})\nXP bonus: ${formatDishCalculatorInputNumber(data.xpResult.multiplier, 3)}x\nBase XP/min after long-time floor: ${formatDishCalculatorInputNumber(data.xpResult.baseXpPerMin, 6)}\nCalculated XP: ${data.xpResult.xp}\n\nIngredient cost: ${data.cashCost} cash${data.goldCost ? ` + ${data.goldCost} gold` : ''}\nProfit target: ${data.profitMode === 'percent' ? `${formatDishCalculatorInputNumber(data.profitValue, 3)}%` : `${formatDishCalculatorInputNumber(data.profitValue, 2)} cash`}\nTarget profit amount: ${formatDishCalculatorInputNumber(data.targetProfit, 2)} cash\nPortions mode: ${data.portionsMode}\nPortions: ${data.portions}\nPrice per portion mode: ${data.priceMode}\nPrice per portion: ${data.pricePerPortion}\nRevenue: ${data.revenue} cash\nActual profit: ${data.actualProfit} cash (${formatDishCalculatorInputNumber(data.actualProfitPercent, 3)}%)\nSimilar dishes used: ${similarLine}\n\nSuggested CafeItems XML:\n${suggestedXml}\n`;
+}
+
+function normalizeDishCalculatorKey(value) {
+  return String(value || '').trim().replace(/^Basic_Dish_/i, '').replace(/\s+/g, '');
+}
+
+function escapeXmlAttribute(value) {
+  return String(value || '')
+    .replace(/&/g, '&amp;')
+    .replace(/"/g, '&quot;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;');
+}
+
+function formatDishCalculatorInputNumber(value, decimals = 3) {
+  const numberValue = Number(value || 0);
+  if (!Number.isFinite(numberValue)) return '0';
+  return Number(numberValue.toFixed(decimals)).toString();
+}
+
+function renderDishCalculatorCurrentList() {
+  const body = document.getElementById('dishCalcCurrentBody');
+  if (!body) return;
+  const query = normalizeItemKey(document.getElementById('dishCalcSearch')?.value || '');
+  const ingredientById = new Map(allIngredientRecords.map(item => [item.id, item]));
+  const records = allDishRecords.filter(record => {
+    if (!query) return true;
+    const requirementNames = (record.requirementItems || []).map(item => ingredientById.get(item.id)?.name || '').join(' ');
+    const haystack = normalizeItemKey(`${record.dishName} ${record.dishKey} ${record.dishId} ${record.requirements} ${requirementNames}`);
+    return haystack.includes(query);
+  });
+
+  if (!records.length) {
+    body.innerHTML = emptyRow(12, 'No dishes match this search.');
+    return;
+  }
+
+  body.innerHTML = records.map(record => `
+    <tr class="${categoryClass(record.categoryId)}">
+      <td>${imageHtml(record)}</td>
+      <td class="dish-name">${escapeHtml(record.dishName)}<br><small>${escapeHtml(`Basic_Dish_${record.dishKey}`)}</small></td>
+      <td>${escapeHtml(record.dishId)}</td>
+      <td>${number(record.level)}</td>
+      <td>${number(record.xp)}</td>
+      <td>${escapeHtml(record.durationText)}</td>
+      <td>${number(record.servings)}</td>
+      <td>${number(record.incomePerServing)}</td>
+      <td>${number(record.ingredientCost)}</td>
+      <td>${number(record.profit)} (${record.ingredientCost > 0 ? formatDishCalculatorInputNumber((record.profit / record.ingredientCost) * 100, 1) : '0'}%)</td>
+      <td class="requirements-cell">${escapeHtml(record.requirements || '—')}</td>
+      <td><button type="button" class="plan-button dish-calc-load-button" data-dish-calc-load-id="${escapeHtml(record.dishId)}">Load</button></td>
+    </tr>
+  `).join('');
+}
+
+function loadDishIntoCalculator(dishId) {
+  const record = allDishRecords.find(item => String(item.dishId) === String(dishId));
+  if (!record) return;
+  const ingredientById = new Map(allIngredientRecords.map(item => [item.id, item]));
+  const requirementItems = (record.requirementItems || []).map(item => ({ ...item, ingredient: ingredientById.get(item.id) })).filter(item => item.ingredient);
+  const regular = requirementItems.filter(item => item.ingredient.category !== 'fancy').slice(0, DISH_CALCULATOR_MAX_INGREDIENTS);
+  const fancy = requirementItems.find(item => item.ingredient.category === 'fancy')?.ingredient || null;
+
+  dishCalculatorState.existingDishId = String(record.dishId);
+  document.getElementById('dishCalcName').value = `Basic_Dish_${record.dishKey}`;
+  document.getElementById('dishCalcCategory').value = String(record.categoryId || '1');
+  document.getElementById('dishCalcLevel').value = String(record.level);
+  document.getElementById('dishCalcProfitMode').value = 'percent';
+  document.getElementById('dishCalcProfitValue').value = record.ingredientCost > 0
+    ? formatDishCalculatorInputNumber((record.profit / record.ingredientCost) * 100, 6)
+    : '0';
+  document.getElementById('dishCalcPortionsMode').value = 'custom';
+  document.getElementById('dishCalcPortionsValue').value = String(record.servings);
+  document.getElementById('dishCalcPriceMode').value = 'custom';
+  document.getElementById('dishCalcPriceValue').value = String(record.incomePerServing);
+
+  dishCalculatorState.cooktimeUnit = 'minutes';
+  dishCalculatorState.cooktimeMinutes = record.duration;
+  document.getElementById('dishCalcCooktimeUnit').value = 'minutes';
+  document.getElementById('dishCalcCooktime').value = formatDishCalculatorInputNumber(record.duration, 4);
+  document.getElementById('dishCalcCooktime').step = '0.5';
+
+  const baseXp = calculateDishCalculatorXp(record.level, record.duration, 1).exactXp;
+  const inferredMultiplier = baseXp > 0 ? record.xp / baseXp : 1;
+  document.getElementById('dishCalcXpBonus').value = formatDishCalculatorInputNumber(Math.max(0.01, inferredMultiplier), 4);
+
+  const rows = Array.from(document.querySelectorAll('.dish-calc-ingredient-row'));
+  rows.forEach((row, index) => {
+    const item = regular[index];
+    row.querySelector('.dish-calc-ingredient-select').value = item?.ingredient.id || '';
+    row.querySelector('.dish-calc-ingredient-amount').value = String(item?.amount || 1);
+  });
+  document.getElementById('dishCalcFancy').value = fancy?.id || '';
+
+  const notice = document.getElementById('dishCalcExistingNotice');
+  if (notice) {
+    notice.classList.remove('hidden');
+    notice.textContent = `Editing current dish ID ${record.dishId}: ${record.dishName}. The copied block will mark this as an update.`;
+  }
+
+  calculateDishCalculator();
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+}
+
+function resetDishCalculator() {
+  dishCalculatorState.existingDishId = null;
+  dishCalculatorState.cooktimeUnit = 'minutes';
+  dishCalculatorState.cooktimeMinutes = 60;
+  document.getElementById('dishCalcName').value = '';
+  document.getElementById('dishCalcCategory').value = '1';
+  document.getElementById('dishCalcLevel').value = '1';
+  document.getElementById('dishCalcFancy').value = '';
+  document.getElementById('dishCalcProfitMode').value = 'percent';
+  document.getElementById('dishCalcProfitValue').value = '30';
+  document.getElementById('dishCalcPortionsMode').value = 'similar';
+  document.getElementById('dishCalcPortionsValue').value = '100';
+  document.getElementById('dishCalcPriceMode').value = 'automatic';
+  document.getElementById('dishCalcPriceValue').value = '1';
+  document.getElementById('dishCalcXpBonus').value = '1.00';
+  document.getElementById('dishCalcCooktimeUnit').value = 'minutes';
+  document.getElementById('dishCalcCooktime').value = '60';
+  document.getElementById('dishCalcCooktime').step = '0.5';
+  document.querySelectorAll('.dish-calc-ingredient-row').forEach(row => {
+    row.querySelector('.dish-calc-ingredient-select').value = '';
+    row.querySelector('.dish-calc-ingredient-amount').value = '1';
+  });
+  const notice = document.getElementById('dishCalcExistingNotice');
+  if (notice) notice.classList.add('hidden');
+  calculateDishCalculator();
+}
+
+async function copyDishCalculatorOutput() {
+  const output = document.getElementById('dishCalcOutput')?.value || '';
+  const status = document.getElementById('dishCalcCopyStatus');
+  try {
+    await navigator.clipboard.writeText(output);
+    if (status) status.textContent = 'Copied!';
+  } catch (error) {
+    const textarea = document.getElementById('dishCalcOutput');
+    if (textarea) {
+      textarea.focus();
+      textarea.select();
+      document.execCommand('copy');
+    }
+    if (status) status.textContent = 'Copied!';
+  }
+  window.setTimeout(() => {
+    if (status) status.textContent = '';
+  }, 1800);
+}
+
+function parseDishRequirementItems(requirements) {
+  if (!requirements) return [];
+  return String(requirements).split('#').map(part => {
+    const [id, amount] = String(part || '').split('+');
+    return { id: String(id || ''), amount: Math.max(0, Number(amount || 0)) };
+  }).filter(item => item.id && item.amount > 0);
 }
 
 async function fetchText(path) {
