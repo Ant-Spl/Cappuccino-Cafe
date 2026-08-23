@@ -1182,6 +1182,7 @@
 		<text id="ingredient_vanilla" name="Vainilla" />
 		<text id="ingredient_vegiemix" name="Mix de vegetales" />
 		<text id="ingredient_passionfruit" name="Fruta de la pasión" />
+		<text id="ingredient_pumpkin" name="Pumpkin" />
 		<text id="ingredient_eventspice" name="Especias de evento" />
 		<text id="ingredient_whitechocolat" name="Chocolate blanco" />
 	</ingredients>

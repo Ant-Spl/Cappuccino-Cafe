@@ -1191,6 +1191,7 @@
 		<text id="ingredient_vegiemix" name="綜合蔬菜包" />
 		<text id="ingredient_whitechocolat" name="白巧克力" />
 		<text id="ingredient_passionfruit" name="Passion Fruit" />
+		<text id="ingredient_pumpkin" name="Pumpkin" />
 		<text id="ingredient_eventspice" name="Event Spice" />
 	</ingredients>
 	<loggedin_msg id="" />

@@ -1186,6 +1186,7 @@
 		<text id="ingredient_vanilla" name="Vanille" />
 		<text id="ingredient_vegiemix" name="Jardinière de légumes" />
 		<text id="ingredient_passionfruit" name="Passion Fruit" />
+		<text id="ingredient_pumpkin" name="Pumpkin" />
 		<text id="ingredient_eventspice" name="Event Spice" />
 		<text id="ingredient_whitechocolat" name="Chocolat blanc" />
 	</ingredients>

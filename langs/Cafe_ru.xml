@@ -1182,6 +1182,7 @@
 		<text id="ingredient_vanilla" name="Ваниль" />
 		<text id="ingredient_vegiemix" name="Смесь овощей" />
 		<text id="ingredient_passionfruit" name="Passion Fruit" />
+		<text id="ingredient_pumpkin" name="Pumpkin" />
 		<text id="ingredient_eventspice" name="Event Spice" />
 		<text id="ingredient_whitechocolat" name="Белый шоколад" />
 	</ingredients>
