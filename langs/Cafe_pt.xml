@@ -477,6 +477,22 @@ Se você estocá-la, as porções existentes serão perdidas!" />
 		<text id="cookstep_gourmetcheesedish2" name="Montando a tábua de queijos" />
 		<text id="cookstep_bluecheesefondue1" name="Derretendo queijo" />
 		<text id="cookstep_bluecheesefondue2" name="Misturando fondue" />
+		<text id="cookstep_pumpkinpie1" name="Misturando ingredientes" />
+		<text id="cookstep_pumpkinpie2" name="Assando" />
+		<text id="cookstep_pumpkincake1" name="Misturando ingredientes" />
+		<text id="cookstep_pumpkincake2" name="Assando" />
+		<text id="cookstep_sugarglazeroastchicken1" name="Temperando frango" />
+		<text id="cookstep_sugarglazeroastchicken2" name="Caramelizando" />
+		<text id="cookstep_pumpkinsoup1" name="Misturando ingredientes" />
+		<text id="cookstep_pumpkinsoup2" name="Cozinhando sopa" />
+		<text id="cookstep_pumpkinfondue1" name="Derretendo queijo" />
+		<text id="cookstep_pumpkinfondue2" name="Misturando ingredientes" />
+		<text id="cookstep_krabbypatty1" name="Fritando hambúrger de abacaxi" />
+		<text id="cookstep_krabbypatty2" name="Derretendo queijo" />
+		<text id="cookstep_pumpkinspicelatte1" name="Misturando ingredientes" />
+		<text id="cookstep_pumpkinspicelatte2" name="Servindo bebidas" />
+		<text id="cookstep_spookymousse1" name="Assombrando chocolate" />
+		<text id="cookstep_spookymousse2" name="Misturando espíritos" />
 	</cookstep>
 	<coopmission>
 		<text id="coop_desc_long_1" name="Nós oferemos um curso de culinária para aperfeiçoar alguns pratos. Você gostaria de participar?" />
@@ -1204,7 +1220,7 @@ Apenas disponível por tempo limitado!" />
 		<text id="ingredient_vegiemix" name="Seleta de Legumes" />
 		<text id="ingredient_whitechocolat" name="Chocolate Branco" />
 		<text id="ingredient_passionfruit" name="Maracujá" />
-		<text id="ingredient_pumpkin" name="Pumpkin" />
+		<text id="ingredient_pumpkin" name="Abóbora" />
 		<text id="ingredient_eventspice" name="Tempero de Evento" />
 	</ingredients>
 	<loggedin_msg id="" />
@@ -1984,6 +2000,46 @@ Apenas disponível por tempo limitado!" />
 		<text id="preparestep_marblecake_cookfest" name="usar ingredientes rápidos" />
 		<text id="preparestep_pizzahawaii_cookfest" name="usar ingredientes rápidos" />
 		<text id="preparestep_chocolatecheesecake_cookfest" name="usar ingredientes rápidos" />
+		<text id="preparestep_pumpkinpie_pumpkin" name="amassar abóbora" />
+		<text id="preparestep_pumpkinpie_sugar" name="adicionar açúcar" />
+		<text id="preparestep_pumpkinpie_eggs" name="quebrar ovos" />
+		<text id="preparestep_pumpkinpie_milk" name="adicionar leite" />
+		<text id="preparestep_pumpkinpie_cream" name="bater creme" />
+		<text id="preparestep_pumpkinpie_cookfest" name="usar ingredientes rápidos" />
+		<text id="preparestep_pumpkincake_pumpkin" name="lavar abóbora" />
+		<text id="preparestep_pumpkincake_flour" name="peneirar farinha" />
+		<text id="preparestep_pumpkincake_sugar" name="caramelizar açúcar" />
+		<text id="preparestep_pumpkincake_eggs" name="quebrar ovos" />
+		<text id="preparestep_pumpkincake_cream" name="fazer cobertura" />
+		<text id="preparestep_pumpkincake_cookfest" name="usar ingredientes rápidos" />
+		<text id="preparestep_sugarglazeroastchicken_chicken" name="descongelar frango" />
+		<text id="preparestep_sugarglazeroastchicken_sugar" name="caramelizar açúcar" />
+		<text id="preparestep_sugarglazeroastchicken_potato" name="descascar batatas" />
+		<text id="preparestep_sugarglazeroastchicken_onion" name="cortar cebola" />
+		<text id="preparestep_sugarglazeroastchicken_garlic" name="espremer alho" />
+		<text id="preparestep_sugarglazeroastchicken_cookfest" name="usar ingredientes rápidos" />
+		<text id="preparestep_pumpkinsoup_pumpkin" name="amassar abóbora" />
+		<text id="preparestep_pumpkinsoup_tomato" name="tirar pele dos tomates" />
+		<text id="preparestep_pumpkinsoup_onion" name="picar cebolas" />
+		<text id="preparestep_pumpkinsoup_cream" name="bater creme" />
+		<text id="preparestep_pumpkinsoup_cookfest" name="usar ingredientes rápidos" />
+		<text id="preparestep_pumpkinfondue_pumpkin" name="amassar abóbora" />
+		<text id="preparestep_pumpkinfondue_cheese" name="cortar queijo" />
+		<text id="preparestep_pumpkinfondue_cookfest" name="usar ingredientes rápidos" />
+		<text id="preparestep_krabbypatty_pinapple" name="fazer hambúrgueres" />
+		<text id="preparestep_krabbypatty_flour" name="fazer pães" />
+		<text id="preparestep_krabbypatty_tomato" name="lavar tomates" />
+		<text id="preparestep_krabbypatty_cheese" name="organizar queijo" />
+		<text id="preparestep_krabbypatty_lettuce" name="lavar alface" />
+		<text id="preparestep_krabbypatty_cookfest" name="usar ingredientes rápidos" />
+		<text id="preparestep_pumpkinspicelatte_milk" name="aquecer leite" />
+		<text id="preparestep_pumpkinspicelatte_pumpkin" name="amassar abóbora" />
+		<text id="preparestep_pumpkinspicelatte_sugar" name="adicionar açúcar" />
+		<text id="preparestep_pumpkinspicelatte_cookfest" name="usar ingredientes rápidos" />
+		<text id="preparestep_spookymousse_milk" name="despejar leite" />
+		<text id="preparestep_spookymousse_whitechocolat" name="derreter chocolate" />
+		<text id="preparestep_spookymousse_sugar" name="atrair fantasma" />
+		<text id="preparestep_spookymousse_cookfest" name="usar ingredientes rápidos" />
 	</preparestep>
 	<preparestep_fancy>
 		<text id="preparestep_duckalcitrus_cinnamon" name="moer canela" />
@@ -2260,6 +2316,22 @@ Apenas disponível por tempo limitado!" />
 		<text id="preparestep_marblecake_eventspice" name="espalhar tempero de evento" />
 		<text id="preparestep_pizzahawaii_eventspice" name="espalhar tempero de evento" />
 		<text id="preparestep_chocolatecheesecake_eventspice" name="espalhar tempero de evento" />
+		<text id="preparestep_pumpkinpie_nutmeg" name="ralar noz moscada" />
+		<text id="preparestep_pumpkinpie_eventspice" name="espalhar tempero de evento" />
+		<text id="preparestep_pumpkincake_cinnamon" name="moer canela" />
+		<text id="preparestep_pumpkincake_eventspice" name="espalhar tempero de evento" />
+		<text id="preparestep_sugarglazeroastchicken_parsley" name="picar salsinha" />
+		<text id="preparestep_sugarglazeroastchicken_eventspice" name="espalhar tempero de evento" />
+		<text id="preparestep_pumpkinsoup_chili" name="picar chili" />
+		<text id="preparestep_pumpkinsoup_eventspice" name="espalhar tempero de evento" />
+		<text id="preparestep_pumpkinfondue_chili" name="picar chili" />
+		<text id="preparestep_pumpkinfondue_eventspice" name="espalhar tempero de evento" />
+		<text id="preparestep_krabbypatty_chili" name="fazer molho picante" />
+		<text id="preparestep_krabbypatty_eventspice" name="espalhar tempero de evento" />
+		<text id="preparestep_pumpkinspicelatte_cinnamon" name="moer canela" />
+		<text id="preparestep_pumpkinspicelatte_eventspice" name="espalhar tempero de evento" />
+		<text id="preparestep_spookymousse_nutmeg" name="ralar noz moscada" />
+		<text id="preparestep_spookymousse_eventspice" name="espalhar tempero de evento" />
 	</preparestep_fancy>
 	<recipe>
 		<text id="recipe_bananasplit" name="Banana Split" />
@@ -2420,6 +2492,14 @@ Apenas disponível por tempo limitado!" />
 		<text id="recipe_meatstuffedpeppers" name="Pimentões com Carne" />
 		<text id="recipe_gourmetcheesedish" name="Tábua de Queijos Gourmet" />
 		<text id="recipe_bluecheesefondue" name="Fondue de Queijo Azul" />
+		<text id="recipe_pumpkinpie" name="Torta de Abóbora" />
+		<text id="recipe_pumpkincake" name="Bolo de Abóbora" />
+		<text id="recipe_sugarglazeroastchicken" name="Frango Caramelizado" />
+		<text id="recipe_pumpkinsoup" name="Sopa de Abóbora" />
+		<text id="recipe_pumpkinfondue" name="Fondue de Abóbora" />
+		<text id="recipe_krabbypatty" name="Hambúrger de Siri" />
+		<text id="recipe_pumpkinspicelatte" name="Latte de Abóbora" />
+		<text id="recipe_spookymousse" name="Mousse Assombrado" />
 	</recipe>
 	<recipes_fastfood>
 		<text id="recipe_smoothiemaker_greensmoothie" name="Batida Verde" />
