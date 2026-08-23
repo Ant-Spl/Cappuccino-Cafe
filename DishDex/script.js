@@ -4442,7 +4442,7 @@ function findDishCalculatorSimilarDishes(level, duration, categoryId, excludeDis
 
 function estimateDishCalculatorPortions(level, duration, categoryId, excludeDishId = null) {
   const similar = findDishCalculatorSimilarDishes(level, duration, categoryId, excludeDishId);
-  if (!similar.length) return { portions: 100, similar: [] };
+  if (!similar.length) return { portions: 100, similar: [], scaledPortions: [100] };
   const scaled = similar.map(record => {
     const durationRatio = duration / Math.max(0.5, record.duration);
     // Light scaling keeps the estimate near actual comparable dishes without
@@ -4451,7 +4451,135 @@ function estimateDishCalculatorPortions(level, duration, categoryId, excludeDish
   }).sort((a, b) => a - b);
   const middle = Math.floor(scaled.length / 2);
   const median = scaled.length % 2 ? scaled[middle] : (scaled[middle - 1] + scaled[middle]) / 2;
-  return { portions: Math.max(1, Math.round(median)), similar };
+  return { portions: Math.max(1, Math.round(median)), similar, scaledPortions: scaled };
+}
+
+function getDishCalculatorNicePortionStep(portions) {
+  const value = Math.max(1, Number(portions || 1));
+  if (value < 250) return 5;
+  if (value < 1000) return 10;
+  if (value < 2500) return 25;
+  if (value < 5000) return 50;
+  return 100;
+}
+
+function addDishCalculatorPortionCandidates(set, value, step) {
+  const numeric = Math.max(1, Number(value || 1));
+  set.add(Math.max(1, Math.round(numeric)));
+  const nice = Math.max(1, Math.round(numeric / step) * step);
+  for (let offset = -3; offset <= 3; offset += 1) {
+    const candidate = nice + offset * step;
+    if (candidate > 0) set.add(candidate);
+  }
+}
+
+function chooseDishCalculatorAutomaticPrice(targetRevenue, portions) {
+  const safePortions = Math.max(1, Math.round(Number(portions || 1)));
+  if (targetRevenue <= 0) return 1;
+  const exact = targetRevenue / safePortions;
+  const candidates = new Set([
+    Math.max(1, Math.floor(exact)),
+    Math.max(1, Math.ceil(exact)),
+    Math.max(1, Math.round(exact))
+  ]);
+  return Array.from(candidates).sort((a, b) => {
+    const aError = Math.abs(a * safePortions - targetRevenue);
+    const bError = Math.abs(b * safePortions - targetRevenue);
+    if (aError !== bError) return aError - bError;
+    const aUnder = a * safePortions < targetRevenue ? 1 : 0;
+    const bUnder = b * safePortions < targetRevenue ? 1 : 0;
+    return aUnder - bUnder || a - b;
+  })[0] || 1;
+}
+
+function solveDishCalculatorEconomy({
+  targetRevenue,
+  portionsMode,
+  customPortions,
+  priceMode,
+  customPrice,
+  similarEstimate
+}) {
+  const anchor = Math.max(1, Math.round(Number(similarEstimate?.portions || 100)));
+  const scaledPortions = Array.isArray(similarEstimate?.scaledPortions) && similarEstimate.scaledPortions.length
+    ? similarEstimate.scaledPortions
+    : [anchor];
+  const fixedPortions = Math.max(1, Math.round(Number(customPortions || anchor)));
+  const fixedPrice = Math.max(1, Math.round(Number(customPrice || 1)));
+
+  if (portionsMode === 'custom' && priceMode === 'custom') {
+    return {
+      portions: fixedPortions,
+      pricePerPortion: fixedPrice,
+      strategy: 'Both portions and price are custom; profit is informational only.'
+    };
+  }
+
+  if (portionsMode === 'custom') {
+    const pricePerPortion = chooseDishCalculatorAutomaticPrice(targetRevenue, fixedPortions);
+    return {
+      portions: fixedPortions,
+      pricePerPortion,
+      strategy: `Automatic price balanced against the profit target with ${fixedPortions} custom portions.`
+    };
+  }
+
+  const step = getDishCalculatorNicePortionStep(anchor);
+  const basePortionCandidates = new Set();
+  addDishCalculatorPortionCandidates(basePortionCandidates, anchor, step);
+  scaledPortions.forEach(value => addDishCalculatorPortionCandidates(basePortionCandidates, value, step));
+
+  const priceCandidates = new Set();
+  if (priceMode === 'custom') {
+    priceCandidates.add(fixedPrice);
+  } else {
+    const similarPrices = (similarEstimate?.similar || [])
+      .map(record => Math.max(1, Math.round(Number(record.incomePerServing || 1))))
+      .filter(Number.isFinite);
+    similarPrices.forEach(price => priceCandidates.add(price));
+    const exactAtAnchor = targetRevenue > 0 ? targetRevenue / anchor : 1;
+    const maxSimilarPrice = similarPrices.length ? Math.max(...similarPrices) : 1;
+    const maxPrice = Math.min(999, Math.max(8, maxSimilarPrice + 4, Math.ceil(exactAtAnchor * 2) + 2));
+    for (let price = 1; price <= maxPrice; price += 1) priceCandidates.add(price);
+  }
+
+  const candidates = [];
+  priceCandidates.forEach(price => {
+    const safePrice = Math.max(1, Math.round(Number(price || 1)));
+    const portionCandidates = new Set(basePortionCandidates);
+    if (targetRevenue > 0) addDishCalculatorPortionCandidates(portionCandidates, targetRevenue / safePrice, step);
+    portionCandidates.forEach(portions => {
+      const safePortions = Math.max(1, Math.round(Number(portions || 1)));
+      const revenue = safePortions * safePrice;
+      const targetBase = Math.max(1, targetRevenue || revenue || 1);
+      const revenueErrorRatio = Math.abs(revenue - targetRevenue) / targetBase;
+      // If revenue is already within ~2.5% of the target, prioritize a natural
+      // portion count close to comparable dishes rather than chasing decimals.
+      const profitPenalty = Math.max(0, revenueErrorRatio - 0.025) * 20;
+      const portionDeviation = Math.abs(Math.log(safePortions / anchor));
+      const nicePenalty = safePortions % step === 0 ? 0 : 0.035;
+      const underTargetPenalty = revenue < targetRevenue && revenueErrorRatio > 0.025 ? 0.03 : 0;
+      const score = profitPenalty + portionDeviation * 0.55 + nicePenalty + underTargetPenalty;
+      candidates.push({ portions: safePortions, pricePerPortion: safePrice, revenue, score, revenueErrorRatio });
+    });
+  });
+
+  candidates.sort((a, b) => {
+    if (a.score !== b.score) return a.score - b.score;
+    if (a.revenueErrorRatio !== b.revenueErrorRatio) return a.revenueErrorRatio - b.revenueErrorRatio;
+    const aPortionDistance = Math.abs(a.portions - anchor);
+    const bPortionDistance = Math.abs(b.portions - anchor);
+    return aPortionDistance - bPortionDistance || a.pricePerPortion - b.pricePerPortion;
+  });
+
+  const best = candidates[0] || { portions: anchor, pricePerPortion: fixedPrice };
+  return {
+    portions: best.portions,
+    pricePerPortion: best.pricePerPortion,
+    strategy: priceMode === 'custom'
+      ? `Portions auto-balanced around similar dishes for the profit target at ${fixedPrice} cash per portion.`
+      : 'Portions and price auto-balanced together using similar dishes as a soft target.'
+  };
 }
 
 function calculateDishCalculator() {
@@ -4483,29 +4611,41 @@ function calculateDishCalculator() {
 
   const portionsMode = document.getElementById('dishCalcPortionsMode')?.value === 'custom' ? 'custom' : 'similar';
   const portionsInput = document.getElementById('dishCalcPortionsValue');
-  let portions = Math.max(1, Math.round(Number(portionsInput?.value || 1)));
+  const customPortions = Math.max(1, Math.round(Number(portionsInput?.value || 1)));
   const similarEstimate = estimateDishCalculatorPortions(level, duration, categoryId, dishCalculatorState.existingDishId);
   dishCalculatorState.similarDishes = similarEstimate.similar;
-  if (portionsMode === 'similar') {
-    portions = similarEstimate.portions;
-    if (portionsInput) portionsInput.value = String(portions);
+
+  const priceMode = document.getElementById('dishCalcPriceMode')?.value === 'custom' ? 'custom' : 'automatic';
+  const priceInput = document.getElementById('dishCalcPriceValue');
+  const customPrice = Math.max(1, Math.round(Number(priceInput?.value || 1)));
+  const economy = solveDishCalculatorEconomy({
+    targetRevenue,
+    portionsMode,
+    customPortions,
+    priceMode,
+    customPrice,
+    similarEstimate
+  });
+  const portions = economy.portions;
+  const pricePerPortion = economy.pricePerPortion;
+
+  if (portionsInput) {
+    portionsInput.disabled = portionsMode === 'similar';
+    if (portionsMode === 'similar') portionsInput.value = String(portions);
   }
-  if (portionsInput) portionsInput.disabled = portionsMode === 'similar';
+  if (priceInput) {
+    priceInput.disabled = priceMode === 'automatic';
+    if (priceMode === 'automatic') priceInput.value = String(pricePerPortion);
+  }
+
   const similarHint = document.getElementById('dishCalcSimilarHint');
   if (similarHint) {
     similarHint.textContent = portionsMode === 'similar' && similarEstimate.similar.length
       ? `Based on: ${similarEstimate.similar.map(record => record.dishName).join(', ')}`
       : '';
   }
-
-  const priceMode = document.getElementById('dishCalcPriceMode')?.value === 'custom' ? 'custom' : 'automatic';
-  const priceInput = document.getElementById('dishCalcPriceValue');
-  let pricePerPortion = Math.max(1, Math.round(Number(priceInput?.value || 1)));
-  if (priceMode === 'automatic') {
-    pricePerPortion = Math.max(1, Math.ceil(targetRevenue / Math.max(1, portions)));
-    if (priceInput) priceInput.value = String(pricePerPortion);
-  }
-  if (priceInput) priceInput.disabled = priceMode === 'automatic';
+  const economyHint = document.getElementById('dishCalcEconomyHint');
+  if (economyHint) economyHint.textContent = economy.strategy;
 
   const revenue = portions * pricePerPortion;
   const actualProfit = revenue - cashCost;
@@ -4526,6 +4666,7 @@ function calculateDishCalculator() {
     cashCost, goldCost, profitMode, profitValue, targetProfit, targetRevenue,
     portionsMode, portions, priceMode, pricePerPortion, revenue, actualProfit,
     actualProfitPercent, xpResult, requirements, similar: similarEstimate.similar,
+    economyStrategy: economy.strategy,
     languageStrings, languageCode: getCafeLanguageCode(currentLanguage)
   });
   const outputElement = document.getElementById('dishCalcOutput');
@@ -4578,7 +4719,7 @@ function buildDishCalculatorCopyBlock(data) {
   const languageLines = (data.languageStrings || []).filter(item => item.value).map(item => `<text id="${escapeXmlAttribute(item.id)}" name="${escapeXmlAttribute(item.value)}" />`);
   const languageSummary = (data.languageStrings || []).map(item => `- ${item.id}: ${item.value || '(blank)'}`).join('\n') || '- None';
 
-  return `DISH CALCULATOR DATA\nAction: ${action}\nDish name: ${data.dishName || `Basic_Dish_${xmlName}`}\nInternal key: ${xmlName}\nCategory: ${categoryName} (${data.categoryId})\nLevel: ${data.level}\n\nIngredients:\n${ingredientLines}\nFancy: ${fancyLine}\nRequirements: ${data.requirements || '(none)'}\n\nCooktime: ${formatDishCalculatorInputNumber(data.duration, 4)} minutes (${formatDuration(data.duration)})\nXP bonus: ${formatDishCalculatorInputNumber(data.xpResult.multiplier, 3)}x\nBase XP/min after long-time floor: ${formatDishCalculatorInputNumber(data.xpResult.baseXpPerMin, 6)}\nCalculated XP: ${data.xpResult.xp}\n\nIngredient cost: ${data.cashCost} cash${data.goldCost ? ` + ${data.goldCost} gold` : ''}\nProfit target: ${data.profitMode === 'percent' ? `${formatDishCalculatorInputNumber(data.profitValue, 3)}%` : `${formatDishCalculatorInputNumber(data.profitValue, 2)} cash`}\nTarget profit amount: ${formatDishCalculatorInputNumber(data.targetProfit, 2)} cash\nPortions mode: ${data.portionsMode}\nPortions: ${data.portions}\nPrice per portion mode: ${data.priceMode}\nPrice per portion: ${data.pricePerPortion}\nRevenue: ${data.revenue} cash\nActual profit: ${data.actualProfit} cash (${formatDishCalculatorInputNumber(data.actualProfitPercent, 3)}%)\nSimilar dishes used: ${similarLine}\n\nLANG STRINGS (${data.languageCode || 'en'}):\n${languageSummary}\n\nSuggested CafeItems XML:\n${suggestedXml}\n\nSuggested language XML entries:\n${languageLines.length ? languageLines.join('\n') : '(no non-blank language strings)'}\n`;
+  return `DISH CALCULATOR DATA\nAction: ${action}\nDish name: ${data.dishName || `Basic_Dish_${xmlName}`}\nInternal key: ${xmlName}\nCategory: ${categoryName} (${data.categoryId})\nLevel: ${data.level}\n\nIngredients:\n${ingredientLines}\nFancy: ${fancyLine}\nRequirements: ${data.requirements || '(none)'}\n\nCooktime: ${formatDishCalculatorInputNumber(data.duration, 4)} minutes (${formatDuration(data.duration)})\nXP bonus: ${formatDishCalculatorInputNumber(data.xpResult.multiplier, 3)}x\nBase XP/min after long-time floor: ${formatDishCalculatorInputNumber(data.xpResult.baseXpPerMin, 6)}\nCalculated XP: ${data.xpResult.xp}\n\nIngredient cost: ${data.cashCost} cash${data.goldCost ? ` + ${data.goldCost} gold` : ''}\nProfit target: ${data.profitMode === 'percent' ? `${formatDishCalculatorInputNumber(data.profitValue, 3)}%` : `${formatDishCalculatorInputNumber(data.profitValue, 2)} cash`}\nTarget profit amount: ${formatDishCalculatorInputNumber(data.targetProfit, 2)} cash\nPortions mode: ${data.portionsMode}\nPortions: ${data.portions}\nPrice per portion mode: ${data.priceMode}\nPrice per portion: ${data.pricePerPortion}\nRevenue: ${data.revenue} cash\nActual profit: ${data.actualProfit} cash (${formatDishCalculatorInputNumber(data.actualProfitPercent, 3)}%)\nEconomy balance: ${data.economyStrategy || 'Custom values'}\nSimilar dishes used: ${similarLine}\n\nLANG STRINGS (${data.languageCode || 'en'}):\n${languageSummary}\n\nSuggested CafeItems XML:\n${suggestedXml}\n\nSuggested language XML entries:\n${languageLines.length ? languageLines.join('\n') : '(no non-blank language strings)'}\n`;
 }
 
 function normalizeDishCalculatorKey(value) {
