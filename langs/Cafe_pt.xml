@@ -1244,7 +1244,7 @@ Apenas disponível por tempo limitado!" />
 		<text id="panelwin_login_rememberpassword" name="Salvar senha" />
 		<text id="panelwin_name_cafe" name="CAFÉ" />
 		<text id="panelwin_social_bot" name="Jogo" />
-		<text id="panelwin_social_comein" name="entrou no Café" />
+		<text id="panelwin_social_comein" name="está no Café" />
 		<text id="panelwin_social_comeinmarketplace" name="chegou ao mercado" />
 		<text id="panelwin_social_goout" name="saiu do Café" />
 		<text id="panelwin_social_gooutmarketplace" name="deixou o mercado" />
@@ -1253,7 +1253,7 @@ Apenas disponível por tempo limitado!" />
 		<text id="panelwin_social_say" name=":" />
 		<text id="panelwin_social_standardanswer" name="Em breve você poderá bater papo com outros jogadores no seu café!" />
 		<text id="panelwin_social_welcome_marketplace" name="Bem vindo! Clique no quadro negro se você está a procura de trabalho!" />
-		<text id="panelwin_social_welcome_mycafe" name="Olá, Chef! Esperamos que você se divirta no Café hoje!" />
+		<text id="panelwin_social_welcome_mycafe" name="Olá, Chef! Esperamos que você tenha um bom dia! Se você precisar de ajuda, quiser reportar alguém ou tem uma pergunta, entre no nosso Discord e fale com a gente!" />
 		<text id="panelwin_social_writeable" name="Só jogadores registrados a partir do nível 1 podem utilizar o bate-papo." />
 		<text id="panelwin_deco_sort_default" name="Ordenar: Padrão" />
 		<text id="panelwin_deco_sort_newest" name="Itens recentes" />

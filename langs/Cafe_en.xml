@@ -1220,7 +1220,7 @@
 		<text id="panelwin_login_rememberpassword" name="Save password" />
 		<text id="panelwin_name_cafe" name="CAFÉ" />
 		<text id="panelwin_social_bot" name="Game" />
-		<text id="panelwin_social_comein" name="entered the café" />
+		<text id="panelwin_social_comein" name="is in the Café" />
 		<text id="panelwin_social_comeinmarketplace" name="has entered the market place" />
 		<text id="panelwin_social_goout" name="has left the café" />
 		<text id="panelwin_social_gooutmarketplace" name="has left the market place" />
@@ -1229,7 +1229,7 @@
 		<text id="panelwin_social_say" name=":" />
 		<text id="panelwin_social_standardanswer" name="Soon you will be able to chat with other players in your café!" />
 		<text id="panelwin_social_welcome_marketplace" name="Welcome! Click onto the black board if you are looking for a job!" />
-		<text id="panelwin_social_welcome_mycafe" name="Hey there, Chef! We hope you have a great time!" />
+		<text id="panelwin_social_welcome_mycafe" name="Hey there, Chef! We hope you have a great time! If you need help, need to report a player or have a question, join our Discord and contact us!" />
 		<text id="panelwin_social_writeable" name="You need to register and reach level 1 to use the chat." />
 		<text id="panelwin_deco_sort_default" name="Sort: Default" />
 		<text id="panelwin_deco_sort_newest" name="Newest released" />
