@@ -410,7 +410,7 @@
 	<wod id="9525" n="Basic" g="Deco" t="Centralwellfallnight" walkable="0" rotatetype="0" />
 	<wod id="9526" n="Basic" g="Deco" t="Stonewallleftfallnight" walkable="0" rotatetype="0" />
 	<wod id="9527" n="Basic" g="Deco" t="Stonewallrightfallnight" walkable="0" rotatetype="0" />
-	<wod id="9528" n="Basic" g="Deco" t="Cottoncandymachinetoughluck" walkable="0" rotatetype="3" cash="200000" gold="0" friends="0" goldNoFriends="0" releaseDate="0" world="0" events="0" xp="0" level="9" />
+	<wod id="9528" n="Basic" g="Deco" t="Cottoncandymachinetoughluck" walkable="0" rotatetype="3" cash="0" gold="25" friends="0" goldNoFriends="0" releaseDate="0" world="0" events="0" xp="0" level="9" />
 	<wod id="1" n="Static" g="Tile" t="Stonemediumgrey" walkable="1" rotatetype="0" cash="20" gold="0" friends="0" goldNoFriends="0" releaseDate="0" world="0" events="0" xp="0" level="0" />
 	<wod id="2" n="Static" g="Tile" t="Wooddarkbrown" walkable="1" rotatetype="0" cash="20" gold="0" friends="0" goldNoFriends="0" releaseDate="0" world="0" events="0" xp="0" level="1" />
 	<wod id="3" n="Static" g="Tile" t="Blank" walkable="1" rotatetype="0" />
