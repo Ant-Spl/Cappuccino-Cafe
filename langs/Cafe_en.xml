@@ -2018,10 +2018,10 @@
 		<text id="preparestep_spookymousse_whitechocolat" name="melt chocolate" />
 		<text id="preparestep_spookymousse_sugar" name="lure ghost" />
 		<text id="preparestep_spookymousse_cookfest" name="use fast ingredients" />
-		<text id="preparestep_fallchips_pumpkin" name="Mash pumpkin" />
-		<text id="preparestep_fallchips_potato" name="Peel potatoes" />
-		<text id="preparestep_fallchips_oil" name="Heat oil" />
-		<text id="preparestep_fallchips_cookfest" name="Use fast ingredients" />
+		<text id="preparestep_fallchips_pumpkin" name="mash pumpkin" />
+		<text id="preparestep_fallchips_potato" name="peel potatoes" />
+		<text id="preparestep_fallchips_oil" name="heat oil" />
+		<text id="preparestep_fallchips_cookfest" name="use fast ingredients" />
 	</preparestep>
 	<preparestep_fancy>
 		<text id="preparestep_duckalcitrus_cinnamon" name="sprinkle cinnamon" />
@@ -2313,8 +2313,8 @@
 		<text id="preparestep_pumpkinspicelatte_eventspice" name="spread event spice" />
 		<text id="preparestep_spookymousse_nutmeg" name="grate nutmeg" />
 		<text id="preparestep_spookymousse_eventspice" name="spread event spice" />
-		<text id="preparestep_fallchips_rosemary" name="Add rosemary" />
-		<text id="preparestep_fallchips_eventspice" name="Use event spice" />
+		<text id="preparestep_fallchips_rosemary" name="add rosemary" />
+		<text id="preparestep_fallchips_eventspice" name="use event spice" />
 	</preparestep_fancy>
 	<recipe>
 		<text id="recipe_bananasplit" name="Bananasplit" />
