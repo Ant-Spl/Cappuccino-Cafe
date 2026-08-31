@@ -493,6 +493,8 @@ Se você estocá-la, as porções existentes serão perdidas!" />
 		<text id="cookstep_pumpkinspicelatte2" name="Servindo bebidas" />
 		<text id="cookstep_spookymousse1" name="Assombrando chocolate" />
 		<text id="cookstep_spookymousse2" name="Misturando espíritos" />
+		<text id="cookstep_fallchips1" name="Descascando batatas" />
+		<text id="cookstep_fallchips2" name="Fritando" />
 	</cookstep>
 	<coopmission>
 		<text id="coop_desc_long_1" name="Nós oferemos um curso de culinária para aperfeiçoar alguns pratos. Você gostaria de participar?" />
@@ -2040,6 +2042,10 @@ Apenas disponível por tempo limitado!" />
 		<text id="preparestep_spookymousse_whitechocolat" name="derreter chocolate" />
 		<text id="preparestep_spookymousse_sugar" name="atrair fantasma" />
 		<text id="preparestep_spookymousse_cookfest" name="usar ingredientes rápidos" />
+		<text id="preparestep_fallchips_pumpkin" name="amassar abóbora" />
+		<text id="preparestep_fallchips_potato" name="descascar batatas" />
+		<text id="preparestep_fallchips_oil" name="aquecer óleo" />
+		<text id="preparestep_fallchips_cookfest" name="usar ingredientes rápidos" />
 	</preparestep>
 	<preparestep_fancy>
 		<text id="preparestep_duckalcitrus_cinnamon" name="moer canela" />
@@ -2332,6 +2338,8 @@ Apenas disponível por tempo limitado!" />
 		<text id="preparestep_pumpkinspicelatte_eventspice" name="espalhar tempero de evento" />
 		<text id="preparestep_spookymousse_nutmeg" name="ralar noz moscada" />
 		<text id="preparestep_spookymousse_eventspice" name="espalhar tempero de evento" />
+		<text id="preparestep_fallchips_rosemary" name="adicionar alecrim" />
+		<text id="preparestep_fallchips_eventspice" name="usar tempero de evento" />
 	</preparestep_fancy>
 	<recipe>
 		<text id="recipe_bananasplit" name="Banana Split" />
@@ -2500,6 +2508,7 @@ Apenas disponível por tempo limitado!" />
 		<text id="recipe_krabbypatty" name="Hambúrger de Siri" />
 		<text id="recipe_pumpkinspicelatte" name="Latte de Abóbora" />
 		<text id="recipe_spookymousse" name="Mousse Assombrado" />
+		<text id="recipe_fallchips" name="Fritas de Outono" />
 	</recipe>
 	<recipes_fastfood>
 		<text id="recipe_smoothiemaker_greensmoothie" name="Batida Verde" />
