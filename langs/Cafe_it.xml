@@ -491,6 +491,8 @@
 		<text id="cookstep_pumpkinspicelatte2" name="Versando i drink" />
 		<text id="cookstep_spookymousse1" name="Spaventando il cioccolato" />
 		<text id="cookstep_spookymousse2" name="Mescolando gli spiriti" />
+		<text id="cookstep_fallchips1" name="Peeling potatoes" />
+		<text id="cookstep_fallchips2" name="Frying" />
 	</cookstep>
 	<coopmission>
 		<text id="coop_title_1" name="CORSO DI CUCINA" />
@@ -2018,6 +2020,10 @@
 		<text id="preparestep_spookymousse_whitechocolat" name="Sciogli il cioccolato" />
 		<text id="preparestep_spookymousse_sugar" name="Attira un fantasma" />
 		<text id="preparestep_spookymousse_cookfest" name="Usa ingredienti rapidi" />
+		<text id="preparestep_fallchips_pumpkin" name="Mash pumpkin" />
+		<text id="preparestep_fallchips_potato" name="Peel potatoes" />
+		<text id="preparestep_fallchips_oil" name="Heat oil" />
+		<text id="preparestep_fallchips_cookfest" name="Use fast ingredients" />
 	</preparestep>
 	<preparestep_fancy>
 		<text id="preparestep_duckalcitrus_cinnamon" name="Macina la cannella" />
@@ -2309,6 +2315,8 @@
 		<text id="preparestep_pumpkinspicelatte_eventspice" name="Spargi la spezia evento" />
 		<text id="preparestep_spookymousse_nutmeg" name="Grattugia la noce moscata" />
 		<text id="preparestep_spookymousse_eventspice" name="Spargi la spezia evento" />
+		<text id="preparestep_fallchips_rosemary" name="Add rosemary" />
+		<text id="preparestep_fallchips_eventspice" name="Use event spice" />
 		<text id="preparestep_whitechocmousse_vanilla" name="Raschia la vaniglia" />
 	</preparestep_fancy>
 	<recipe>
@@ -2478,6 +2486,7 @@
 		<text id="recipe_krabbypatty" name="Krabby Patty" />
 		<text id="recipe_pumpkinspicelatte" name="Latte speziato alla zucca" />
 		<text id="recipe_spookymousse" name="Mousse spettrale" />
+		<text id="recipe_fallchips" name="Fall Chips" />
 	</recipe>
 	<recipes_fastfood>
 		<text id="recipe_smoothiemaker_greensmoothie" name="Smoothie verde" />

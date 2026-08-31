@@ -494,6 +494,8 @@
 		<text id="cookstep_pumpkinspicelatte2" name="pouring drinks" />
 		<text id="cookstep_spookymousse1" name="haunting chocolate" />
 		<text id="cookstep_spookymousse2" name="mixing spirits" />
+		<text id="cookstep_fallchips1" name="Peeling potatoes" />
+		<text id="cookstep_fallchips2" name="Frying" />
 	</cookstep>
 	<coopmission>
 		<text id="coop_desc_long_1" name="我们正筹备开设一个厨师课程来让我们的菜式更加完美。您想来加入么？" />
@@ -2048,6 +2050,10 @@
 		<text id="preparestep_spookymousse_whitechocolat" name="melt chocolate" />
 		<text id="preparestep_spookymousse_sugar" name="lure ghost" />
 		<text id="preparestep_spookymousse_cookfest" name="use fast ingredients" />
+		<text id="preparestep_fallchips_pumpkin" name="Mash pumpkin" />
+		<text id="preparestep_fallchips_potato" name="Peel potatoes" />
+		<text id="preparestep_fallchips_oil" name="Heat oil" />
+		<text id="preparestep_fallchips_cookfest" name="Use fast ingredients" />
 	</preparestep>
 	<preparestep_fancy>
 		<text id="preparestep_duckalcitrus_cinnamon" name="Sprinkle cinnamon" />
@@ -2339,6 +2345,8 @@
 		<text id="preparestep_pumpkinspicelatte_eventspice" name="spread event spice" />
 		<text id="preparestep_spookymousse_nutmeg" name="grate nutmeg" />
 		<text id="preparestep_spookymousse_eventspice" name="spread event spice" />
+		<text id="preparestep_fallchips_rosemary" name="Add rosemary" />
+		<text id="preparestep_fallchips_eventspice" name="Use event spice" />
 		<text id="preparestep_whitechocmousse_vanilla" name="刮香草夹" />
 	</preparestep_fancy>
 	<recipe>
@@ -2508,6 +2516,7 @@
 		<text id="recipe_krabbypatty" name="Krabby Patty" />
 		<text id="recipe_pumpkinspicelatte" name="Pumpkin Spice Latte" />
 		<text id="recipe_spookymousse" name="Spooky Mousse" />
+		<text id="recipe_fallchips" name="Fall Chips" />
 	</recipe>
 	<recipes_fastfood>
 		<text id="recipe_smoothiemaker_greensmoothie" name="绿色 Smoothie" />

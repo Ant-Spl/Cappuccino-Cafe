@@ -491,6 +491,8 @@
 		<text id="cookstep_pumpkinspicelatte2" name="verser les boissons" />
 		<text id="cookstep_spookymousse1" name="ensorceler le chocolat" />
 		<text id="cookstep_spookymousse2" name="mélanger les esprits" />
+		<text id="cookstep_fallchips1" name="Peeling potatoes" />
+		<text id="cookstep_fallchips2" name="Frying" />
 		<text id="cookstep_feijoada1" name="Préparer les morceaux de porc" />
 		<text id="cookstep_feijoada2" name="Préparer les tranches d’orange" />
 		<text id="cookstep_spanishomelette1" name="Battre les œufs" />
@@ -2023,6 +2025,10 @@
 		<text id="preparestep_spookymousse_whitechocolat" name="faire fondre le chocolat" />
 		<text id="preparestep_spookymousse_sugar" name="attirer le fantôme" />
 		<text id="preparestep_spookymousse_cookfest" name="utiliser les ingrédients express" />
+		<text id="preparestep_fallchips_pumpkin" name="Mash pumpkin" />
+		<text id="preparestep_fallchips_potato" name="Peel potatoes" />
+		<text id="preparestep_fallchips_oil" name="Heat oil" />
+		<text id="preparestep_fallchips_cookfest" name="Use fast ingredients" />
 		<text id="preparestep_feijoada_coriander" name="Ajouter de la coriandre" />
 	</preparestep>
 	<preparestep_fancy>
@@ -2315,6 +2321,8 @@
 		<text id="preparestep_pumpkinspicelatte_eventspice" name="saupoudrer l’épice spéciale" />
 		<text id="preparestep_spookymousse_nutmeg" name="râper la noix de muscade" />
 		<text id="preparestep_spookymousse_eventspice" name="saupoudrer l’épice spéciale" />
+		<text id="preparestep_fallchips_rosemary" name="Add rosemary" />
+		<text id="preparestep_fallchips_eventspice" name="Use event spice" />
 		<text id="preparestep_pizzasalad_chili" name="Couper le chili" />
 	</preparestep_fancy>
 	<recipe>
@@ -2484,6 +2492,7 @@
 		<text id="recipe_krabbypatty" name="Pâté de crabe" />
 		<text id="recipe_pumpkinspicelatte" name="Latte à la citrouille épicée" />
 		<text id="recipe_spookymousse" name="Mousse hantée" />
+		<text id="recipe_fallchips" name="Fall Chips" />
 	</recipe>
 	<recipes_fastfood>
 		<text id="recipe_smoothiemaker_greensmoothie" name="Smoothie vert" />
