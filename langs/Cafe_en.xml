@@ -2,7 +2,7 @@
 <!-- Cappuccinostudios CAFE - en - 2 -->
 <cafe>
 	<achievement>
-		<text id="Basic_Achievement_Boughtdeco" name="Tasty café" />
+		<text id="Basic_Achievement_Boughtdeco" name="Tasty Café" />
 		<text id="Basic_Achievement_Boughtingredients" name="Convenient Culinary" />
 		<text id="Basic_Achievement_Cookingcount" name="Busy Bistro" />
 		<text id="Basic_Achievement_Coopcount" name="Multitask Muffin" />
@@ -1222,7 +1222,7 @@
 		<text id="panelwin_login_rememberpassword" name="Save password" />
 		<text id="panelwin_name_cafe" name="CAFÉ" />
 		<text id="panelwin_social_bot" name="Game" />
-		<text id="panelwin_social_comein" name="is in the Café" />
+		<text id="panelwin_social_comein" name="entered the Café" />
 		<text id="panelwin_social_comeinmarketplace" name="has entered the market place" />
 		<text id="panelwin_social_goout" name="has left the café" />
 		<text id="panelwin_social_gooutmarketplace" name="has left the market place" />

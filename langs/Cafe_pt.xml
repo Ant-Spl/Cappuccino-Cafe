@@ -1246,7 +1246,7 @@ Apenas disponível por tempo limitado!" />
 		<text id="panelwin_login_rememberpassword" name="Salvar senha" />
 		<text id="panelwin_name_cafe" name="CAFÉ" />
 		<text id="panelwin_social_bot" name="Jogo" />
-		<text id="panelwin_social_comein" name="está no Café" />
+		<text id="panelwin_social_comein" name="entrou no Café" />
 		<text id="panelwin_social_comeinmarketplace" name="chegou ao mercado" />
 		<text id="panelwin_social_goout" name="saiu do Café" />
 		<text id="panelwin_social_gooutmarketplace" name="deixou o mercado" />
