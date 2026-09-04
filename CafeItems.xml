@@ -598,7 +598,7 @@
 	<wod id="539" n="Basic" g="Deco" t="Springpussywillowlong" walkable="0" rotatetype="2" cash="12500" gold="0" friends="0" goldNoFriends="0" releaseDate="1785985200" world="0" events="5" xp="0" level="1" />
 	<wod id="540" n="Basic" g="Deco" t="Springpussywillowround" walkable="0" rotatetype="2" cash="10000" gold="0" friends="0" goldNoFriends="0" releaseDate="1785985200" world="0" events="5" xp="0" level="1" />
 	<wod id="541" n="Basic" g="Deco" t="Cottoncandymachine" walkable="0" rotatetype="3" cash="0" gold="25" friends="0" goldNoFriends="0" releaseDate="0" world="0" events="4" xp="0" level="0" />
-	<wod id="542" n="Basic" g="Deco" t="Pool" walkable="0" rotatetype="2" cash="0" gold="10" friends="0" goldNoFriends="0" releaseDate="1787454000" world="0" events="0" xp="0" level="1" />
+	<wod id="542" n="Basic" g="Deco" t="Pool" walkable="0" rotatetype="2" cash="80000" gold="0" friends="0" goldNoFriends="0" releaseDate="1787454000" world="0" events="0" xp="0" level="1" />
 	<wod id="601" n="Basic" g="Chair" t="Basicwhite" walkable="0" rotatetype="3" cash="100" gold="0" friends="0" goldNoFriends="0" releaseDate="0" world="0" events="0" xp="0" level="0" />
 	<wod id="602" n="Basic" g="Chair" t="Basicblue" walkable="0" rotatetype="3" cash="100" gold="0" friends="0" goldNoFriends="0" releaseDate="0" world="0" events="0" xp="0" level="1" />
 	<wod id="2207" n="Basic" g="Chair" t="Basicblack" walkable="0" rotatetype="3" cash="100" gold="0" friends="0" goldNoFriends="0" releaseDate="1769300230" world="0" events="0" xp="0" level="1" />
@@ -1100,6 +1100,7 @@
 	<wod id="1530" n="Cafe" g="Background" t="Villagefallsunset" />
 	<wod id="1531" n="Marketplace" g="Background" t="Fallweather" />
 	<wod id="1532" n="Marketplace" g="Background" t="Fallnightweather" />
+	<wod id="1533" n="Static" g="Background" t="Villagefallnightlcookfest" />
 	<wod id="2297" n="Basic" g="Dish" t="Pumpkinpie" events="0" xp="1692" incomePerServing="2" servings="1950" duration="900" level="18" dishcategory="0" requirements="1352+1#1325+1#1311+1#1330+1#1308+1#1404+1" />
 	<wod id="2298" n="Basic" g="Dish" t="Pumpkincake" events="0" xp="2026" incomePerServing="3" servings="1300" duration="540" level="54" dishcategory="0" requirements="1352+1#1312+1#1325+1#1311+1#1308+1#1409+1" />
 	<wod id="2299" n="Basic" g="Dish" t="Sugarglazeroastchicken" events="0" xp="6996" incomePerServing="3" servings="2900" duration="3000" level="56" dishcategory="1" requirements="1306+1#1325+3#1322+2#1318+1#1313+2#1406+1" />
