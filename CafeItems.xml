@@ -1110,6 +1110,6 @@
 	<wod id="2303" n="Basic" g="Dish" t="Pumpkinspicelatte" events="0" xp="153" incomePerServing="23" servings="130" duration="60" level="18" dishcategory="0" requirements="1330+1#1352+1#1325+1#1409+1" />
 	<wod id="2304" n="Basic" g="Dish" t="Spookymousse" events="2" xp="334" incomePerServing="16" servings="145" duration="60" level="25" dishcategory="0" requirements="1330+1#1342+1#1325+1#1404+1" />
 	<wod id="2305" n="Basic" g="Dish" t="Fallchips" events="0" xp="334" incomePerServing="12" servings="205" duration="90" level="46" dishcategory="5" requirements="1352+1#1322+1#1317+1#1407+1" />
-	<wod id="2306" n="Basic" g="Dish" t="Orangecompote" events="0" xp="11250" incomePerServing="1" servings="25000" duration="4320" level="32" dishcategory="0" requirements="1340+1#1325+15#1408+1" />
-	<wod id="2307" n="Basic" g="Dish" t="Citruscompote" events="0" xp="9072" incomePerServing="2" servings="11550" duration="4320" level="32" dishcategory="0" requirements="1347+1#1325+15#1408+1" />
+	<wod id="2306" n="Basic" g="Dish" t="Orangecompote" events="0" xp="20561" incomePerServing="1" servings="25000" duration="4320" level="32" dishcategory="0" requirements="1340+5#1325+3#1408+1" />
+	<wod id="2307" n="Basic" g="Dish" t="Citruscompote" events="0" xp="9504" incomePerServing="2" servings="11550" duration="4320" level="32" dishcategory="0" requirements="1347+5#1325+3#1408+1" />
 </wodIds>
