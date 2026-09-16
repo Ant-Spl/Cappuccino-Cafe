@@ -495,6 +495,10 @@ Se você estocá-la, as porções existentes serão perdidas!" />
 		<text id="cookstep_spookymousse2" name="Misturando espíritos" />
 		<text id="cookstep_fallchips1" name="Descascando batatas" />
 		<text id="cookstep_fallchips2" name="Fritando" />
+		<text id="cookstep_orangecompote1" name="Derretendo laranjas" />
+		<text id="cookstep_orangecompote2" name="Cozinhando lentamente" />
+		<text id="cookstep_citruscompote1" name="Derretendo frutas cítricas" />
+		<text id="cookstep_citruscompote2" name="Cozinhando lentamente" />
 	</cookstep>
 	<coopmission>
 		<text id="coop_desc_long_1" name="Nós oferemos um curso de culinária para aperfeiçoar alguns pratos. Você gostaria de participar?" />
@@ -1496,7 +1500,7 @@ Apenas disponível por tempo limitado!" />
 		<text id="preparestep_potatosoup_onion" name="picar cebola" />
 		<text id="preparestep_potatosoup_beetroot" name="cortar beterraba" />
 		<text id="preparestep_potatosoup_cream" name="adicionar creme" />
-		<text id="preparestep_potatosoup_carrot" name="picar cenouras" />
+		<text id="preparestep_potatosoup_carrots" name="picar cenouras" />
 		<text id="preparestep_chocochipcake_cookies" name="organizar biscoitos" />
 		<text id="preparestep_chocochipcake_chocolate" name="derreter chocolate" />
 		<text id="preparestep_chocochipcake_flour" name="peneirar farinha" />
@@ -2046,6 +2050,12 @@ Apenas disponível por tempo limitado!" />
 		<text id="preparestep_fallchips_potato" name="descascar batatas" />
 		<text id="preparestep_fallchips_oil" name="aquecer óleo" />
 		<text id="preparestep_fallchips_cookfest" name="usar ingredientes rápidos" />
+		<text id="preparestep_orangecompote_orange" name="fatiar laranjas" />
+		<text id="preparestep_orangecompote_sugar" name="caramelizar açúcar" />
+		<text id="preparestep_orangecompote_cookfest" name="usar ingredientes rápidos" />
+		<text id="preparestep_citruscompote_citrus" name="fatiar frutas cítricas" />
+		<text id="preparestep_citruscompote_sugar" name="caramelizar açúcar" />
+		<text id="preparestep_citruscompote_cookfest" name="usar ingredientes rápidos" />
 	</preparestep>
 	<preparestep_fancy>
 		<text id="preparestep_duckalcitrus_cinnamon" name="moer canela" />
@@ -2340,6 +2350,10 @@ Apenas disponível por tempo limitado!" />
 		<text id="preparestep_spookymousse_eventspice" name="espalhar tempero de evento" />
 		<text id="preparestep_fallchips_rosemary" name="adicionar alecrim" />
 		<text id="preparestep_fallchips_eventspice" name="usar tempero de evento" />
+		<text id="preparestep_orangecompote_vanilla" name="raspar baunilha" />
+		<text id="preparestep_orangecompote_eventspice" name="espalhar tempero de evento" />
+		<text id="preparestep_citruscompote_vanilla" name="raspar baunilha" />
+		<text id="preparestep_citruscompote_eventspice" name="espalhar tempero de evento" />
 	</preparestep_fancy>
 	<recipe>
 		<text id="recipe_bananasplit" name="Banana Split" />
@@ -2509,6 +2523,8 @@ Apenas disponível por tempo limitado!" />
 		<text id="recipe_pumpkinspicelatte" name="Latte de Abóbora" />
 		<text id="recipe_spookymousse" name="Mousse Assombrado" />
 		<text id="recipe_fallchips" name="Fritas de Outono" />
+		<text id="recipe_orangecompote" name="Compota de Laranja" />
+		<text id="recipe_citruscompote" name="Compota Cítrica" />
 	</recipe>
 	<recipes_fastfood>
 		<text id="recipe_smoothiemaker_greensmoothie" name="Batida Verde" />

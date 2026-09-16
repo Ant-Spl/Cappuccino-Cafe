@@ -494,6 +494,10 @@
 		<text id="cookstep_spookymousse2" name="mixing spirits" />
 		<text id="cookstep_fallchips1" name="Peeling potatoes" />
 		<text id="cookstep_fallchips2" name="Frying" />
+		<text id="cookstep_orangecompote1" name="Melting oranges" />
+		<text id="cookstep_orangecompote2" name="Stewing" />
+		<text id="cookstep_citruscompote1" name="Melting citrus" />
+		<text id="cookstep_citruscompote2" name="Stewing" />
 	</cookstep>
 	<coopmission>
 		<text id="coop_title_1" name="COOKING CLASS" />
@@ -1472,7 +1476,7 @@
 		<text id="preparestep_potatosoup_onion" name="chop onion" />
 		<text id="preparestep_potatosoup_beetroot" name="slice beetroot" />
 		<text id="preparestep_potatosoup_cream" name="pour cream" />
-		<text id="preparestep_potatosoup_carrot" name="dice carrots" />
+		<text id="preparestep_potatosoup_carrots" name="dice carrots" />
 		<text id="preparestep_chocochipcake_cookies" name="organize cookies" />
 		<text id="preparestep_chocochipcake_chocolate" name="melt chocolate" />
 		<text id="preparestep_chocochipcake_flour" name="sift flour" />
@@ -2022,6 +2026,12 @@
 		<text id="preparestep_fallchips_potato" name="peel potatoes" />
 		<text id="preparestep_fallchips_oil" name="heat oil" />
 		<text id="preparestep_fallchips_cookfest" name="use fast ingredients" />
+		<text id="preparestep_orangecompote_orange" name="Slice oranges" />
+		<text id="preparestep_orangecompote_sugar" name="Caramelize sugar" />
+		<text id="preparestep_orangecompote_cookfest" name="Use fast ingredients" />
+		<text id="preparestep_citruscompote_citrus" name="Slice citrus fruits" />
+		<text id="preparestep_citruscompote_sugar" name="Caramelize sugar" />
+		<text id="preparestep_citruscompote_cookfest" name="Use fast ingredients" />
 	</preparestep>
 	<preparestep_fancy>
 		<text id="preparestep_duckalcitrus_cinnamon" name="sprinkle cinnamon" />
@@ -2315,6 +2325,10 @@
 		<text id="preparestep_spookymousse_eventspice" name="spread event spice" />
 		<text id="preparestep_fallchips_rosemary" name="add rosemary" />
 		<text id="preparestep_fallchips_eventspice" name="use event spice" />
+		<text id="preparestep_orangecompote_vanilla" name="Scrap vanilla" />
+		<text id="preparestep_orangecompote_eventspice" name="Spread event spice" />
+		<text id="preparestep_citruscompote_vanilla" name="Scrap vanilla" />
+		<text id="preparestep_citruscompote_eventspice" name="Spread event spice" />
 	</preparestep_fancy>
 	<recipe>
 		<text id="recipe_bananasplit" name="Bananasplit" />
@@ -2484,6 +2498,8 @@
 		<text id="recipe_pumpkinspicelatte" name="Pumpkin Spice Latte" />
 		<text id="recipe_spookymousse" name="Spooky Mousse" />
 		<text id="recipe_fallchips" name="Fall Chips" />
+		<text id="recipe_orangecompote" name="Orange Compote" />
+		<text id="recipe_citruscompote" name="Citrus Compote" />
 	</recipe>
 	<recipes_fastfood>
 		<text id="recipe_smoothiemaker_tomatojuice" name="Tomato Juice" />
