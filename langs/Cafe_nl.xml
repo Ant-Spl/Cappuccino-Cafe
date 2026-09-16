@@ -493,6 +493,10 @@
 		<text id="cookstep_spookymousse2" name="mixing spirits" />
 		<text id="cookstep_fallchips1" name="Peeling potatoes" />
 		<text id="cookstep_fallchips2" name="Frying" />
+		<text id="cookstep_orangecompote1" name="Melting oranges" />
+		<text id="cookstep_orangecompote2" name="Stewing" />
+		<text id="cookstep_citruscompote1" name="Melting citrus" />
+		<text id="cookstep_citruscompote2" name="Stewing" />
 	</cookstep>
 	<coopmission>
 		<text id="coop_desc_long_1" name="We hebben een kook-klasje opgericht om onze schotels nog lekkerder te kunnen maken. Wil je ook meedoen?" />
@@ -2025,6 +2029,12 @@
 		<text id="preparestep_fallchips_potato" name="Peel potatoes" />
 		<text id="preparestep_fallchips_oil" name="Heat oil" />
 		<text id="preparestep_fallchips_cookfest" name="Use fast ingredients" />
+		<text id="preparestep_orangecompote_orange" name="Slice oranges" />
+		<text id="preparestep_orangecompote_sugar" name="Caramelize sugar" />
+		<text id="preparestep_orangecompote_cookfest" name="Use fast ingredients" />
+		<text id="preparestep_citruscompote_citrus" name="Slice citrus fruits" />
+		<text id="preparestep_citruscompote_sugar" name="Caramelize sugar" />
+		<text id="preparestep_citruscompote_cookfest" name="Use fast ingredients" />
 	</preparestep>
 	<preparestep_fancy>
 		<text id="preparestep_duckalcitrus_cinnamon" name="Sprinkle cinnamon" />
@@ -2318,6 +2328,10 @@
 		<text id="preparestep_spookymousse_eventspice" name="spread event spice" />
 		<text id="preparestep_fallchips_rosemary" name="Add rosemary" />
 		<text id="preparestep_fallchips_eventspice" name="Use event spice" />
+		<text id="preparestep_orangecompote_vanilla" name="Scrap vanilla" />
+		<text id="preparestep_orangecompote_eventspice" name="Spread event spice" />
+		<text id="preparestep_citruscompote_vanilla" name="Scrap vanilla" />
+		<text id="preparestep_citruscompote_eventspice" name="Spread event spice" />
 		<text id="preparestep_whitechocmousse_vanilla" name="vanillestokjes schrapen" />
 	</preparestep_fancy>
 	<recipe>
@@ -2488,6 +2502,8 @@
 		<text id="recipe_pumpkinspicelatte" name="Pumpkin Spice Latte" />
 		<text id="recipe_spookymousse" name="Spooky Mousse" />
 		<text id="recipe_fallchips" name="Fall Chips" />
+		<text id="recipe_orangecompote" name="Orange Compote" />
+		<text id="recipe_citruscompote" name="Citrus Compote" />
 	</recipe>
 	<recipes_fastfood>
 		<text id="recipe_smoothiemaker_greensmoothie" name="Groene Smoothie" />
