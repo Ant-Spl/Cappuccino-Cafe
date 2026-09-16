@@ -493,6 +493,10 @@
 		<text id="cookstep_spookymousse2" name="Mescolando gli spiriti" />
 		<text id="cookstep_fallchips1" name="Peeling potatoes" />
 		<text id="cookstep_fallchips2" name="Frying" />
+		<text id="cookstep_orangecompote1" name="Melting oranges" />
+		<text id="cookstep_orangecompote2" name="Stewing" />
+		<text id="cookstep_citruscompote1" name="Melting citrus" />
+		<text id="cookstep_citruscompote2" name="Stewing" />
 	</cookstep>
 	<coopmission>
 		<text id="coop_title_1" name="CORSO DI CUCINA" />
@@ -2024,6 +2028,12 @@
 		<text id="preparestep_fallchips_potato" name="Peel potatoes" />
 		<text id="preparestep_fallchips_oil" name="Heat oil" />
 		<text id="preparestep_fallchips_cookfest" name="Use fast ingredients" />
+		<text id="preparestep_orangecompote_orange" name="Slice oranges" />
+		<text id="preparestep_orangecompote_sugar" name="Caramelize sugar" />
+		<text id="preparestep_orangecompote_cookfest" name="Use fast ingredients" />
+		<text id="preparestep_citruscompote_citrus" name="Slice citrus fruits" />
+		<text id="preparestep_citruscompote_sugar" name="Caramelize sugar" />
+		<text id="preparestep_citruscompote_cookfest" name="Use fast ingredients" />
 	</preparestep>
 	<preparestep_fancy>
 		<text id="preparestep_duckalcitrus_cinnamon" name="Macina la cannella" />
@@ -2317,6 +2327,10 @@
 		<text id="preparestep_spookymousse_eventspice" name="Spargi la spezia evento" />
 		<text id="preparestep_fallchips_rosemary" name="Add rosemary" />
 		<text id="preparestep_fallchips_eventspice" name="Use event spice" />
+		<text id="preparestep_orangecompote_vanilla" name="Scrap vanilla" />
+		<text id="preparestep_orangecompote_eventspice" name="Spread event spice" />
+		<text id="preparestep_citruscompote_vanilla" name="Scrap vanilla" />
+		<text id="preparestep_citruscompote_eventspice" name="Spread event spice" />
 		<text id="preparestep_whitechocmousse_vanilla" name="Raschia la vaniglia" />
 	</preparestep_fancy>
 	<recipe>
@@ -2487,6 +2501,8 @@
 		<text id="recipe_pumpkinspicelatte" name="Latte speziato alla zucca" />
 		<text id="recipe_spookymousse" name="Mousse spettrale" />
 		<text id="recipe_fallchips" name="Fall Chips" />
+		<text id="recipe_orangecompote" name="Orange Compote" />
+		<text id="recipe_citruscompote" name="Citrus Compote" />
 	</recipe>
 	<recipes_fastfood>
 		<text id="recipe_smoothiemaker_greensmoothie" name="Smoothie verde" />

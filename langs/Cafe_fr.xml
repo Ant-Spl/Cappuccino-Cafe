@@ -493,6 +493,10 @@
 		<text id="cookstep_spookymousse2" name="mélanger les esprits" />
 		<text id="cookstep_fallchips1" name="Peeling potatoes" />
 		<text id="cookstep_fallchips2" name="Frying" />
+		<text id="cookstep_orangecompote1" name="Melting oranges" />
+		<text id="cookstep_orangecompote2" name="Stewing" />
+		<text id="cookstep_citruscompote1" name="Melting citrus" />
+		<text id="cookstep_citruscompote2" name="Stewing" />
 		<text id="cookstep_feijoada1" name="Préparer les morceaux de porc" />
 		<text id="cookstep_feijoada2" name="Préparer les tranches d’orange" />
 		<text id="cookstep_spanishomelette1" name="Battre les œufs" />
@@ -2029,6 +2033,12 @@
 		<text id="preparestep_fallchips_potato" name="Peel potatoes" />
 		<text id="preparestep_fallchips_oil" name="Heat oil" />
 		<text id="preparestep_fallchips_cookfest" name="Use fast ingredients" />
+		<text id="preparestep_orangecompote_orange" name="Slice oranges" />
+		<text id="preparestep_orangecompote_sugar" name="Caramelize sugar" />
+		<text id="preparestep_orangecompote_cookfest" name="Use fast ingredients" />
+		<text id="preparestep_citruscompote_citrus" name="Slice citrus fruits" />
+		<text id="preparestep_citruscompote_sugar" name="Caramelize sugar" />
+		<text id="preparestep_citruscompote_cookfest" name="Use fast ingredients" />
 		<text id="preparestep_feijoada_coriander" name="Ajouter de la coriandre" />
 	</preparestep>
 	<preparestep_fancy>
@@ -2323,6 +2333,10 @@
 		<text id="preparestep_spookymousse_eventspice" name="saupoudrer l’épice spéciale" />
 		<text id="preparestep_fallchips_rosemary" name="Add rosemary" />
 		<text id="preparestep_fallchips_eventspice" name="Use event spice" />
+		<text id="preparestep_orangecompote_vanilla" name="Scrap vanilla" />
+		<text id="preparestep_orangecompote_eventspice" name="Spread event spice" />
+		<text id="preparestep_citruscompote_vanilla" name="Scrap vanilla" />
+		<text id="preparestep_citruscompote_eventspice" name="Spread event spice" />
 		<text id="preparestep_pizzasalad_chili" name="Couper le chili" />
 	</preparestep_fancy>
 	<recipe>
@@ -2493,6 +2507,8 @@
 		<text id="recipe_pumpkinspicelatte" name="Latte à la citrouille épicée" />
 		<text id="recipe_spookymousse" name="Mousse hantée" />
 		<text id="recipe_fallchips" name="Fall Chips" />
+		<text id="recipe_orangecompote" name="Orange Compote" />
+		<text id="recipe_citruscompote" name="Citrus Compote" />
 	</recipe>
 	<recipes_fastfood>
 		<text id="recipe_smoothiemaker_greensmoothie" name="Smoothie vert" />
