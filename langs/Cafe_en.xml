@@ -498,6 +498,8 @@
 		<text id="cookstep_orangecompote2" name="Stewing" />
 		<text id="cookstep_citruscompote1" name="Melting citrus" />
 		<text id="cookstep_citruscompote2" name="Stewing" />
+		<text id="cookstep_pierogi1" name="prepping dough" />
+		<text id="cookstep_pierogi2" name="folding" />
 	</cookstep>
 	<coopmission>
 		<text id="coop_title_1" name="COOKING CLASS" />
@@ -659,6 +661,39 @@
 		<text id="coop_title_54" name="1337" />
 		<text id="coop_desc_short_54" name="Feeling old yet?" />
 		<text id="coop_desc_long_54" name="Chef YunaStellaris fondly remembers the old Café days... Relive this memory together!" />
+		<text id="coop_title_55" name="IT'S GETTING JUICY" />
+		<text id="coop_desc_short_55" name="Fill the glasses!" />
+		<text id="coop_desc_long_55" name="Chef Joey proposes this mission to you. Are you ready?" />
+		<text id="coop_title_56" name="IT'S GETTING VERY JUICY!" />
+		<text id="coop_desc_short_56" name="Even more juice!" />
+		<text id="coop_desc_long_56" name="Chef YunaStellaris proposes this mission to you. Are you ready?" />
+		<text id="coop_title_57" name="A BUNNY'S BUFFET!" />
+		<text id="coop_desc_short_57" name="Carrots, berries and greens!" />
+		<text id="coop_desc_long_57" name="Chef YunaStellaris proposes this mission to you. Are you ready?" />
+		<text id="coop_title_58" name="DOLLY'S MEMORIES" />
+		<text id="coop_desc_short_58" name="A taste of the past!" />
+		<text id="coop_desc_long_58" name="Chef EarthHunt3r proposes this mission to you. Are you ready?" />
+		<text id="coop_title_59" name="NETFLIX &amp; FISH" />
+		<text id="coop_desc_short_59" name="Fish night is on!" />
+		<text id="coop_desc_long_59" name="Chef Mignon proposes this mission to you. Are you ready?" />
+		<text id="coop_title_60" name="WILD AND CRAZY" />
+		<text id="coop_desc_short_60" name="Are you feeling it now?" />
+		<text id="coop_desc_long_60" name="Chef Celeste proposes this mission to you. Are you ready?" />
+		<text id="coop_title_61" name="SWEET LIKE A STRAWBERRY 2!" />
+		<text id="coop_desc_short_61" name="The harvest got even better!" />
+		<text id="coop_desc_long_61" name="Last time, the strawberry harvest was excellent. Somehow, this year's crop is even bigger! Chefs Lily_007 and Nightfall need your help turning all those strawberries into delicious dishes." />
+		<text id="coop_title_62" name="HEAVY ROAST &amp; DESSERT" />
+		<text id="coop_desc_short_62" name="A feast worth the wait!" />
+		<text id="coop_desc_long_62" name="It’s a roast-a-thon! Bring on the crackling, pile up the chicken, and save room for something sweet." />
+		<text id="coop_title_63" name="SUNDAY BRUNCH BASH" />
+		<text id="coop_desc_short_63" name="Sunday crowd incoming!" />
+		<text id="coop_desc_long_63" name="Brunch is officially ON! The café is packed, the orders are flying in, and your team has one goal: feed the HUNGRY Sunday crowd!" />
+		<text id="coop_title_64" name="ULTIMATE DESSERT FESTIVAL" />
+		<text id="coop_desc_short_64" name="Save room for dessert!" />
+		<text id="coop_desc_long_64" name="Warning: Serious sweet tooth ahead! The café has been transformed into a dessert lover’s dream, and customers are coming in by the hundreds!" />
+		<text id="coop_title_65" name="VEGGIE WEEKEND" />
+		<text id="coop_desc_short_65" name="Fresh and vegetarian!" />
+		<text id="coop_desc_long_65" name="Fresh, Tasty, 100% Vegetarian. Lets get to work!" />
 	</coopmission>
 	<dialogs>
 		<text id="dialogwin_achievement_title" name="Achievements" />
@@ -2032,6 +2067,11 @@
 		<text id="preparestep_citruscompote_citrus" name="Slice citrus fruits" />
 		<text id="preparestep_citruscompote_sugar" name="Caramelize sugar" />
 		<text id="preparestep_citruscompote_cookfest" name="Use fast ingredients" />
+		<text id="preparestep_pierogi_potato" name="peel potatoes" />
+		<text id="preparestep_pierogi_flour" name="sift flour" />
+		<text id="preparestep_pierogi_onion" name="chop onion" />
+		<text id="preparestep_pierogi_meat" name="mince meat" />
+		<text id="preparestep_pierogi_cookfest" name="use fast ingredients" />
 	</preparestep>
 	<preparestep_fancy>
 		<text id="preparestep_duckalcitrus_cinnamon" name="sprinkle cinnamon" />
@@ -2329,6 +2369,8 @@
 		<text id="preparestep_orangecompote_eventspice" name="Spread event spice" />
 		<text id="preparestep_citruscompote_vanilla" name="Scrap vanilla" />
 		<text id="preparestep_citruscompote_eventspice" name="Spread event spice" />
+		<text id="preparestep_pierogi_parsley" name="chop parsley" />
+		<text id="preparestep_pierogi_eventspice" name="spread event spice" />
 	</preparestep_fancy>
 	<recipe>
 		<text id="recipe_bananasplit" name="Bananasplit" />
@@ -2500,6 +2542,7 @@
 		<text id="recipe_fallchips" name="Fall Chips" />
 		<text id="recipe_orangecompote" name="Orange Compote" />
 		<text id="recipe_citruscompote" name="Citrus Compote" />
+		<text id="recipe_pierogi" name="Pierogi" />
 	</recipe>
 	<recipes_fastfood>
 		<text id="recipe_smoothiemaker_tomatojuice" name="Tomato Juice" />

@@ -499,6 +499,8 @@ Se você estocá-la, as porções existentes serão perdidas!" />
 		<text id="cookstep_orangecompote2" name="Cozinhando lentamente" />
 		<text id="cookstep_citruscompote1" name="Derretendo frutas cítricas" />
 		<text id="cookstep_citruscompote2" name="Cozinhando lentamente" />
+		<text id="cookstep_pierogi1" name="Preparando massa" />
+		<text id="cookstep_pierogi2" name="Dobrando" />
 	</cookstep>
 	<coopmission>
 		<text id="coop_desc_long_1" name="Nós oferemos um curso de culinária para aperfeiçoar alguns pratos. Você gostaria de participar?" />
@@ -660,6 +662,39 @@ Se você estocá-la, as porções existentes serão perdidas!" />
 		<text id="coop_title_54" name="1337" />
 		<text id="coop_desc_short_54" name="Já sente a idade?" />
 		<text id="coop_desc_long_54" name="A Chef YunaStellaris se lembra bem dos dias do Café antigo... Relembre junto com ela!" />
+		<text id="coop_title_55" name="TÁ FICANDO SUCULENTO!" />
+		<text id="coop_desc_short_55" name="Encha os copos!" />
+		<text id="coop_desc_long_55" name="Chef Joey propõe esta missão para você. Está pronto?" />
+		<text id="coop_title_56" name="TÁ FICANDO MUITO SUCULENTO!" />
+		<text id="coop_desc_short_56" name="Ainda mais suco!" />
+		<text id="coop_desc_long_56" name="Chef YunaStellaris propõe esta missão para você. Está pronto?" />
+		<text id="coop_title_57" name="BUFFET DO COELHINHO!" />
+		<text id="coop_desc_short_57" name="Cenouras, frutas e verduras!" />
+		<text id="coop_desc_long_57" name="Chef YunaStellaris propõe esta missão para você. Está pronto?" />
+		<text id="coop_title_58" name="MEMÓRIAS DA DOLLY" />
+		<text id="coop_desc_short_58" name="Um sabor do passado!" />
+		<text id="coop_desc_long_58" name="Chef EarthHunt3r propõe esta missão para você. Está pronto?" />
+		<text id="coop_title_59" name="NETFLIX &amp; PEIXE" />
+		<text id="coop_desc_short_59" name="Noite do peixe!" />
+		<text id="coop_desc_long_59" name="Chef Mignon propõe esta missão para você. Está pronto?" />
+		<text id="coop_title_60" name="SELVAGEM E LOUCO!" />
+		<text id="coop_desc_short_60" name="Está sentindo agora?" />
+		<text id="coop_desc_long_60" name="Chef Celeste propõe esta missão para você. Está pronto?" />
+		<text id="coop_title_61" name="DOCE COMO UM MORANGO 2!" />
+		<text id="coop_desc_short_61" name="A colheita ficou ainda melhor!" />
+		<text id="coop_desc_long_61" name="Da última vez, a colheita de morangos foi excelente. De algum jeito, a safra deste ano está ainda maior! As chefs Lily_007 e Nightfall precisam da sua ajuda para transformar todos esses morangos em pratos deliciosos." />
+		<text id="coop_title_62" name="ASSADOS E SOBREMESA" />
+		<text id="coop_desc_short_62" name="Um banquete que vale a espera!" />
+		<text id="coop_desc_long_62" name="É uma maratona de assados! Traga a carne crocante, capriche no frango e deixe espaço para algo doce." />
+		<text id="coop_title_63" name="FESTA DO BRUNCH DE DOMINGO" />
+		<text id="coop_desc_short_63" name="A multidão de domingo chegou!" />
+		<text id="coop_desc_long_63" name="O brunch está oficialmente ABERTO! O Café está lotado, os pedidos estão chegando sem parar e sua equipe tem um objetivo: alimentar a multidão FAMINTA de domingo!" />
+		<text id="coop_title_64" name="FESTIVAL DEFINITIVO DE SOBREMESAS" />
+		<text id="coop_desc_short_64" name="Guarde espaço para a sobremesa!" />
+		<text id="coop_desc_long_64" name="Atenção: vontade séria de doces! O Café foi transformado no sonho de qualquer amante de sobremesas, e os clientes estão chegando às centenas!" />
+		<text id="coop_title_65" name="FIM DE SEMANA VEGETARIANO" />
+		<text id="coop_desc_short_65" name="Fresco e vegetariano!" />
+		<text id="coop_desc_long_65" name="Fresco, saboroso, 100% vegetariano. Vamos trabalhar!" />
 	</coopmission>
 	<dialogs>
 		<text id="dialogwin_achievement_title" name="Conquistas" />
@@ -2056,6 +2091,11 @@ Apenas disponível por tempo limitado!" />
 		<text id="preparestep_citruscompote_citrus" name="fatiar frutas cítricas" />
 		<text id="preparestep_citruscompote_sugar" name="caramelizar açúcar" />
 		<text id="preparestep_citruscompote_cookfest" name="usar ingredientes rápidos" />
+		<text id="preparestep_pierogi_potato" name="descascar batatas" />
+		<text id="preparestep_pierogi_flour" name="peneirar farinha" />
+		<text id="preparestep_pierogi_onion" name="picar cebola" />
+		<text id="preparestep_pierogi_meat" name="moer carne" />
+		<text id="preparestep_pierogi_cookfest" name="usar ingredientes rápidos" />
 	</preparestep>
 	<preparestep_fancy>
 		<text id="preparestep_duckalcitrus_cinnamon" name="moer canela" />
@@ -2354,6 +2394,8 @@ Apenas disponível por tempo limitado!" />
 		<text id="preparestep_orangecompote_eventspice" name="espalhar tempero de evento" />
 		<text id="preparestep_citruscompote_vanilla" name="raspar baunilha" />
 		<text id="preparestep_citruscompote_eventspice" name="espalhar tempero de evento" />
+		<text id="preparestep_pierogi_parsley" name="picar salsa" />
+		<text id="preparestep_pierogi_eventspice" name="espalhar tempero de evento" />
 	</preparestep_fancy>
 	<recipe>
 		<text id="recipe_bananasplit" name="Banana Split" />
@@ -2525,6 +2567,7 @@ Apenas disponível por tempo limitado!" />
 		<text id="recipe_fallchips" name="Fritas de Outono" />
 		<text id="recipe_orangecompote" name="Compota de Laranja" />
 		<text id="recipe_citruscompote" name="Compota Cítrica" />
+		<text id="recipe_pierogi" name="Pierogi" />
 	</recipe>
 	<recipes_fastfood>
 		<text id="recipe_smoothiemaker_greensmoothie" name="Batida Verde" />
