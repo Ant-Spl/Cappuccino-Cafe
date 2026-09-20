@@ -978,7 +978,7 @@ Você já pode encontrar seu prêmio no seu modo decoração!" />
 		<text id="dialogwin_coop_daily_remaining" name= "{0}/{1} hoje"/>
 		<text id="dialogwin_coop_daily_loading" name= "Carregando..."/>
 		<text id="dialogwin_coop_daily_tooltip" name= "Começar ou entrar em uma Co-Op usa 1 ponto. Eles recarregam todo dia às 21:00 BRT!"/>
-	<dialogs>
+	</dialogs>
 	<error_codes>
 		<text id="achievement_error" name="Premiação" />
 		<text id="achievement_errorcode_1" name="Erro" />
