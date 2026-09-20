@@ -958,6 +958,9 @@
 		<text id="dialogwin_cookbook_sort_portions_desc" name="Portions: most to least" />
 		<text id="dialogwin_cookbook_sort_xp_desc" name="XP: most to least" />
 		<text id="dialogwin_cookbook_sort_xp_asc" name="XP: least to most" />
+		<text id="dialogwin_coop_daily_remaining" name="{0}/{1} today" />
+		<text id="dialogwin_coop_daily_loading" name="Loading..." />
+		<text id="dialogwin_coop_daily_tooltip" name="Starting or joining a co-op uses one entry. Resets daily at 00:00 UTC!" />
 	</dialogs>
 	<error_codes>
 		<text id="achievement_error" name="Osiągnięcia" />
