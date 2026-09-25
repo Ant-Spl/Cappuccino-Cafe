@@ -499,6 +499,10 @@
 		<text id="cookstep_citruscompote2" name="Stewing" />
 		<text id="cookstep_pierogi1" name="prepping dough" />
 		<text id="cookstep_pierogi2" name="folding" />
+		<text id="cookstep_fourcheesepizza1" name="Melting cheese" />
+		<text id="cookstep_fourcheesepizza2" name="Melting more cheese" />
+		<text id="cookstep_superchocolatecake1" name="Mixing ingredients" />
+		<text id="cookstep_superchocolatecake2" name="Baking" />
 	</cookstep>
 	<coopmission>
 		<text id="coop_desc_long_1" name="Comenzaremos una clase de cocina para perfeccionar nuestros platos. ¿Quieres unirte?" />
@@ -2078,6 +2082,15 @@
 		<text id="preparestep_pierogi_onion" name="chop onion" />
 		<text id="preparestep_pierogi_meat" name="mince meat" />
 		<text id="preparestep_pierogi_cookfest" name="use fast ingredients" />
+		<text id="preparestep_fourcheesepizza_flour" name="sift flour" />
+		<text id="preparestep_fourcheesepizza_cheese" name="cut cheese" />
+		<text id="preparestep_fourcheesepizza_cookfest" name="use fast ingredients" />
+		<text id="preparestep_superchocolatecake_flour" name="sift lots of flour" />
+		<text id="preparestep_superchocolatecake_chocolate" name="melt lots of chocolate" />
+		<text id="preparestep_superchocolatecake_sugar" name="add lots sugar" />
+		<text id="preparestep_superchocolatecake_eggs" name="crack tens of eggs" />
+		<text id="preparestep_superchocolatecake_milk" name="add lots of milk" />
+		<text id="preparestep_superchocolatecake_cookfest" name="use fast ingredients" />
 	</preparestep>
 	<preparestep_fancy>
 		<text id="preparestep_duckalcitrus_cinnamon" name="espolvorear canela" />
@@ -2377,6 +2390,10 @@
 		<text id="preparestep_citruscompote_eventspice" name="Spread event spice" />
 		<text id="preparestep_pierogi_parsley" name="chop parsley" />
 		<text id="preparestep_pierogi_eventspice" name="spread event spice" />
+		<text id="preparestep_fourcheesepizza_parsley" name="chop parsley" />
+		<text id="preparestep_fourcheesepizza_eventspice" name="spread event spice" />
+		<text id="preparestep_superchocolatecake_cinnamon" name="grate cinnamon" />
+		<text id="preparestep_superchocolatecake_eventspice" name="spread event spice" />
 		<text id="preparestep_matildacake_vanilla" name="raspar vainilla" />
 	</preparestep_fancy>
 	<recipe>
@@ -2550,6 +2567,8 @@
 		<text id="recipe_orangecompote" name="Orange Compote" />
 		<text id="recipe_citruscompote" name="Citrus Compote" />
 		<text id="recipe_pierogi" name="Pierogi" />
+		<text id="recipe_fourcheesepizza" name="Four Cheese Pizza" />
+		<text id="recipe_superchocolatecake" name="Super Chocolate Cake" />
 	</recipe>
 	<recipes_fastfood>
 		<text id="recipe_smoothiemaker_greensmoothie" name="Smoothie verde" />
