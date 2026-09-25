@@ -1124,6 +1124,6 @@
 	<wod id="2306" n="Basic" g="Dish" t="Orangecompote" events="0" xp="20561" incomePerServing="1" servings="25000" duration="4320" level="32" dishcategory="0" requirements="1340+5#1325+3#1408+1" />
 	<wod id="2307" n="Basic" g="Dish" t="Citruscompote" events="0" xp="9504" incomePerServing="2" servings="11550" duration="4320" level="32" dishcategory="0" requirements="1347+5#1325+3#1408+1" />
 	<wod id="2308" n="Basic" g="Dish" t="Pierogi" events="0" xp="3469" incomePerServing="2" servings="1975" duration="1080" level="47" dishcategory="5" requirements="1322+2#1312+1#1318+1#1315+1#1406+1" />
-	<wod id="2309" n="Basic" g="Dish" t="Fourcheesepizza" events="0" xp="4" incomePerServing="204" servings="8" duration="1" level="17" dishcategory="5" requirements="1312+1#1305+4#1406+1" />
+	<wod id="2309" n="Basic" g="Dish" t="Fourcheesepizza" events="0" xp="4" incomePerServing="215" servings="7" duration="1" level="17" dishcategory="5" requirements="1312+1#1305+4#1406+1" />
 	<wod id="2310" n="Basic" g="Dish" t="Superchocolatecake" events="0" xp="45763" incomePerServing="1" servings="109200" duration="10080" level="33" dishcategory="0" requirements="1312+50#1307+50#1325+35#1311+20#1330+20#1409+1" />
 </wodIds>
