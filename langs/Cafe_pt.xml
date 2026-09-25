@@ -979,9 +979,9 @@ Você já pode encontrar seu prêmio no seu modo decoração!" />
 		<text id="dialogwin_cookbook_sort_portions_desc" name="Porções: Mais" />
 		<text id="dialogwin_cookbook_sort_xp_desc" name="XP: Mais" />
 		<text id="dialogwin_cookbook_sort_xp_asc" name="XP: Menos" />
-		<text id="dialogwin_coop_daily_remaining" name= "{0}/{1} hoje"/>
-		<text id="dialogwin_coop_daily_loading" name= "Carregando..."/>
-		<text id="dialogwin_coop_daily_tooltip" name= "Começar ou entrar em uma Co-Op usa 1 ponto. Eles recarregam todo dia às 21:00 BRT!"/>
+		<text id="dialogwin_coop_daily_remaining" name="{0}/{1} hoje" />
+		<text id="dialogwin_coop_daily_loading" name="Carregando..." />
+		<text id="dialogwin_coop_daily_tooltip" name="Começar ou entrar em uma Co-Op usa 1 ponto. Eles recarregam todo dia às 21:00 BRT!" />
 	</dialogs>
 	<error_codes>
 		<text id="achievement_error" name="Premiação" />
