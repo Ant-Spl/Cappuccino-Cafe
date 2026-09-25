@@ -491,14 +491,14 @@
 		<text id="cookstep_pumpkinspicelatte2" name="Versando i drink" />
 		<text id="cookstep_spookymousse1" name="Spaventando il cioccolato" />
 		<text id="cookstep_spookymousse2" name="Mescolando gli spiriti" />
-		<text id="cookstep_fallchips1" name="Peeling potatoes" />
-		<text id="cookstep_fallchips2" name="Frying" />
-		<text id="cookstep_orangecompote1" name="Melting oranges" />
-		<text id="cookstep_orangecompote2" name="Stewing" />
-		<text id="cookstep_citruscompote1" name="Melting citrus" />
-		<text id="cookstep_citruscompote2" name="Stewing" />
-		<text id="cookstep_pierogi1" name="prepping dough" />
-		<text id="cookstep_pierogi2" name="folding" />
+		<text id="cookstep_fallchips1" name="Pelando le patate" />
+		<text id="cookstep_fallchips2" name="Friggendo le patate" />
+		<text id="cookstep_orangecompote1" name="Sciogliendo le arance" />
+		<text id="cookstep_orangecompote2" name="Stufando le arance" />
+		<text id="cookstep_citruscompote1" name="Sciogliendo i cedri" />
+		<text id="cookstep_citruscompote2" name="Stufando il tutto" />
+		<text id="cookstep_pierogi1" name="Preparando l&apos;impasto" />
+		<text id="cookstep_pierogi2" name="Ripiegando i ravioli" />
 	</cookstep>
 	<coopmission>
 		<text id="coop_title_1" name="CORSO DI CUCINA" />
@@ -660,39 +660,39 @@
 		<text id="coop_title_54" name="cmq c 6?? &lt;3" />
 		<text id="coop_desc_short_54" name="Ti senti già vecchio, o no?" />
 		<text id="coop_desc_long_54" name="Chef YunaStellaris ricorda con nostalgia il Café di una volta... riporta anche tu questi ricordi alla memoria!" />
-		<text id="coop_title_55" name="IT&apos;S GETTING JUICY" />
-		<text id="coop_desc_short_55" name="Fill the glasses!" />
-		<text id="coop_desc_long_55" name="Chef Joey proposes this mission to you. Are you ready?" />
-		<text id="coop_title_56" name="IT&apos;S GETTING VERY JUICY!" />
-		<text id="coop_desc_short_56" name="Even more juice!" />
-		<text id="coop_desc_long_56" name="Chef YunaStellaris proposes this mission to you. Are you ready?" />
-		<text id="coop_title_57" name="A BUNNY&apos;S BUFFET!" />
-		<text id="coop_desc_short_57" name="Carrots, berries and greens!" />
-		<text id="coop_desc_long_57" name="Chef YunaStellaris proposes this mission to you. Are you ready?" />
-		<text id="coop_title_58" name="DOLLY&apos;S MEMORIES" />
-		<text id="coop_desc_short_58" name="A taste of the past!" />
-		<text id="coop_desc_long_58" name="Chef EarthHunt3r proposes this mission to you. Are you ready?" />
+		<text id="coop_title_55" name="LA SITUAZIONE SI FA SUCCOSA" />
+		<text id="coop_desc_short_55" name="Riempi i bicchierini!" />
+		<text id="coop_desc_long_55" name="Chef Joey ti propone questa missione. Sei pronto?" />
+		<text id="coop_title_56" name="LA SITUAZIONE SI FA MOLTO SUCCOSA!" />
+		<text id="coop_desc_short_56" name="Riempi i bicchieroni!" />
+		<text id="coop_desc_long_56" name="Chef YunaStellaris ti propone questa missione. Ne sei all&apos;altezza?" />
+		<text id="coop_title_57" name="IL BUFFET DI UN CONIGLIO!" />
+		<text id="coop_desc_short_57" name="Carote, bacche e verdure!" />
+		<text id="coop_desc_long_57" name="Chef YunaStellaris ti propone questa missione. Ne sei all&apos;altezza?" />
+		<text id="coop_title_58" name="I RICORDI DI DOLLY" />
+		<text id="coop_desc_short_58" name="Un assaggio del passato!" />
+		<text id="coop_desc_long_58" name="Chef EarthHunt3r ti propone questa missione. Ne sei all&apos;altezza?" />
 		<text id="coop_title_59" name="NETFLIX &amp; FISH" />
-		<text id="coop_desc_short_59" name="Fish night is on!" />
-		<text id="coop_desc_long_59" name="Chef Mignon proposes this mission to you. Are you ready?" />
-		<text id="coop_title_60" name="WILD AND CRAZY" />
-		<text id="coop_desc_short_60" name="Are you feeling it now?" />
-		<text id="coop_desc_long_60" name="Chef Celeste proposes this mission to you. Are you ready?" />
-		<text id="coop_title_61" name="SWEET LIKE A STRAWBERRY 2!" />
-		<text id="coop_desc_short_61" name="The harvest got even better!" />
-		<text id="coop_desc_long_61" name="Last time, the strawberry harvest was excellent. Somehow, this year&apos;s crop is even bigger! Chefs Lily_007 and Nightfall need your help turning all those strawberries into delicious dishes." />
-		<text id="coop_title_62" name="HEAVY ROAST &amp; DESSERT" />
-		<text id="coop_desc_short_62" name="A feast worth the wait!" />
-		<text id="coop_desc_long_62" name="It’s a roast-a-thon! Bring on the crackling, pile up the chicken, and save room for something sweet." />
-		<text id="coop_title_63" name="SUNDAY BRUNCH BASH" />
-		<text id="coop_desc_short_63" name="Sunday crowd incoming!" />
-		<text id="coop_desc_long_63" name="Brunch is officially ON! The café is packed, the orders are flying in, and your team has one goal: feed the HUNGRY Sunday crowd!" />
-		<text id="coop_title_64" name="ULTIMATE DESSERT FESTIVAL" />
-		<text id="coop_desc_short_64" name="Save room for dessert!" />
-		<text id="coop_desc_long_64" name="Warning: Serious sweet tooth ahead! The café has been transformed into a dessert lover’s dream, and customers are coming in by the hundreds!" />
-		<text id="coop_title_65" name="VEGGIE WEEKEND" />
-		<text id="coop_desc_short_65" name="Fresh and vegetarian!" />
-		<text id="coop_desc_long_65" name="Fresh, Tasty, 100% Vegetarian. Lets get to work!" />
+		<text id="coop_desc_short_59" name="Stasera c&apos;è profumo di mare!" />
+		<text id="coop_desc_long_59" name="Chef Mignon ti propone questa missione. Ne sei all&apos;altezza?" />
+		<text id="coop_title_60" name="PAZZIA INARRESTABILE" />
+		<text id="coop_desc_short_60" name="Riesci a percepirla?" />
+		<text id="coop_desc_long_60" name="Chef Celeste ti propone questa missione. Ne sei all&apos;altezza?" />
+		<text id="coop_title_61" name="DOLCE COME UNA FRAGOLA 2!" />
+		<text id="coop_desc_short_61" name="Una raccolta strabiliante!" />
+		<text id="coop_desc_long_61" name="L&apos;anno scorso, la raccolta era eccellente. Ma quest&apos;anno le fragole si sono duplicate! Chef Lily_007 e Chef Nightfall richiedono il tuo aiuto per trasformare tutte le fragole in dei piatti deliziosi." />
+		<text id="coop_title_62" name="ARROSTO &amp; DESSERT" />
+		<text id="coop_desc_short_62" name="L&apos;attesa ne è valsa la pena!" />
+		<text id="coop_desc_long_62" name="Che la grande grigliata abbia inizio! Goditi il suono della carne che cuoce, preparati a delle montagne di pollo ...e lascia dello spazio per il dolce." />
+		<text id="coop_title_63" name="BRUNCH DOMENICALE" />
+		<text id="coop_desc_short_63" name="Arriva la folla della domenica!" />
+		<text id="coop_desc_long_63" name="Il brunch è iniziato! Il Café è affollato, gli ordini schizzano da tutte le parti, ma voi Chef avete un sol obiettivo: saziare la FAMELICA folla domenicale!" />
+		<text id="coop_title_64" name="FESTIVAL DEI MIGLIORI DESSERT" />
+		<text id="coop_desc_short_64" name="C&apos;è sempre spazio per il dolce!" />
+		<text id="coop_desc_long_64" name="Attenzione: locale estremamente zuccheroso! Il Café è stato trasformato nel paradiso per gli amanti dei dolci, e di clienti se ne vedono a centinaia! Riuscirai a domarli?" />
+		<text id="coop_title_65" name="WEEKEND VERDUROSO" />
+		<text id="coop_desc_short_65" name="Fresco e vegetariano!" />
+		<text id="coop_desc_long_65" name="Rinfrescante, saporito e 100% vegetariano. Mettiamoci all&apos;opera!" />
 		<text id="coop_title_41" name="BALATON PARTY" />
 		<text id="coop_desc_short_41" name="Mangiamo in riva al lago!" />
 		<text id="coop_desc_long_41" name="Chef Flinsical sta organizzando un momento di svago nei pressi del Lago Balaton. Dai una mano con cibo e bevande per questo evento scenografico!" />
@@ -961,9 +961,9 @@
 		<text id="dialogwin_cookbook_sort_portions_desc" name="Qtà di porzioni: decrescente" />
 		<text id="dialogwin_cookbook_sort_xp_desc" name="Qtà di XP: decrescente" />
 		<text id="dialogwin_cookbook_sort_xp_asc" name="Qtà di XP: crescente" />
-		<text id="dialogwin_coop_daily_remaining" name="{0}/{1} today" />
-		<text id="dialogwin_coop_daily_loading" name="Loading..." />
-		<text id="dialogwin_coop_daily_tooltip" name="Starting or joining a co-op uses one entry. Resets daily at 00:00 UTC!" />
+		<text id="dialogwin_coop_daily_remaining" name="{0}/{1} oggi" />
+		<text id="dialogwin_coop_daily_loading" name="Caricamento..." />
+		<text id="dialogwin_coop_daily_tooltip" name="Cominciare o partecipare ad un Co-Op consuma un&apos;unità. Si resetta ogni giorno alle 00:00 UTC!" />
 	</dialogs>
 	<error_codes>
 		<text id="achievement_error" name="Trofeo" />
@@ -2062,21 +2062,21 @@
 		<text id="preparestep_spookymousse_whitechocolat" name="Sciogli il cioccolato" />
 		<text id="preparestep_spookymousse_sugar" name="Attira un fantasma" />
 		<text id="preparestep_spookymousse_cookfest" name="Usa ingredienti rapidi" />
-		<text id="preparestep_fallchips_pumpkin" name="Mash pumpkin" />
-		<text id="preparestep_fallchips_potato" name="Peel potatoes" />
-		<text id="preparestep_fallchips_oil" name="Heat oil" />
-		<text id="preparestep_fallchips_cookfest" name="Use fast ingredients" />
-		<text id="preparestep_orangecompote_orange" name="Slice oranges" />
-		<text id="preparestep_orangecompote_sugar" name="Caramelize sugar" />
-		<text id="preparestep_orangecompote_cookfest" name="Use fast ingredients" />
-		<text id="preparestep_citruscompote_citrus" name="Slice citrus fruits" />
-		<text id="preparestep_citruscompote_sugar" name="Caramelize sugar" />
-		<text id="preparestep_citruscompote_cookfest" name="Use fast ingredients" />
-		<text id="preparestep_pierogi_potato" name="peel potatoes" />
-		<text id="preparestep_pierogi_flour" name="sift flour" />
-		<text id="preparestep_pierogi_onion" name="chop onion" />
-		<text id="preparestep_pierogi_meat" name="mince meat" />
-		<text id="preparestep_pierogi_cookfest" name="use fast ingredients" />
+		<text id="preparestep_fallchips_pumpkin" name="Schiaccia la zucca" />
+		<text id="preparestep_fallchips_potato" name="Pela le patate" />
+		<text id="preparestep_fallchips_oil" name="Riscalda l&apos;olio" />
+		<text id="preparestep_fallchips_cookfest" name="Usa ingredienti rapidi" />
+		<text id="preparestep_orangecompote_orange" name="Affetta le arance" />
+		<text id="preparestep_orangecompote_sugar" name="Caramella lo zucchero" />
+		<text id="preparestep_orangecompote_cookfest" name="Usa ingredienti rapidi" />
+		<text id="preparestep_citruscompote_citrus" name="Affetta i frutti del cedro" />
+		<text id="preparestep_citruscompote_sugar" name="Caramella lo zucchero" />
+		<text id="preparestep_citruscompote_cookfest" name="Usa ingredienti rapidi" />
+		<text id="preparestep_pierogi_potato" name="Pela le patate" />
+		<text id="preparestep_pierogi_flour" name="Setaccia la farina" />
+		<text id="preparestep_pierogi_onion" name="Taglia la cipolla" />
+		<text id="preparestep_pierogi_meat" name="Trita la carne" />
+		<text id="preparestep_pierogi_cookfest" name="Usa ingredienti rapidi" />
 	</preparestep>
 	<preparestep_fancy>
 		<text id="preparestep_duckalcitrus_cinnamon" name="Macina la cannella" />
@@ -2368,14 +2368,14 @@
 		<text id="preparestep_pumpkinspicelatte_eventspice" name="Spargi la spezia evento" />
 		<text id="preparestep_spookymousse_nutmeg" name="Grattugia la noce moscata" />
 		<text id="preparestep_spookymousse_eventspice" name="Spargi la spezia evento" />
-		<text id="preparestep_fallchips_rosemary" name="Add rosemary" />
-		<text id="preparestep_fallchips_eventspice" name="Use event spice" />
-		<text id="preparestep_orangecompote_vanilla" name="Scrap vanilla" />
-		<text id="preparestep_orangecompote_eventspice" name="Spread event spice" />
-		<text id="preparestep_citruscompote_vanilla" name="Scrap vanilla" />
-		<text id="preparestep_citruscompote_eventspice" name="Spread event spice" />
-		<text id="preparestep_pierogi_parsley" name="chop parsley" />
-		<text id="preparestep_pierogi_eventspice" name="spread event spice" />
+		<text id="preparestep_fallchips_rosemary" name="Aggiungi il rosmarino" />
+		<text id="preparestep_fallchips_eventspice" name="Spargi la spezia evento" />
+		<text id="preparestep_orangecompote_vanilla" name="Raschia la vaniglia" />
+		<text id="preparestep_orangecompote_eventspice" name="Spargi la spezia evento" />
+		<text id="preparestep_citruscompote_vanilla" name="Raschia la vaniglia" />
+		<text id="preparestep_citruscompote_eventspice" name="Spargi la spezia evento" />
+		<text id="preparestep_pierogi_parsley" name="Trita il prezzemolo" />
+		<text id="preparestep_pierogi_eventspice" name="Spargi la spezia evento" />
 		<text id="preparestep_whitechocmousse_vanilla" name="Raschia la vaniglia" />
 	</preparestep_fancy>
 	<recipe>
@@ -2545,9 +2545,9 @@
 		<text id="recipe_krabbypatty" name="Krabby Patty" />
 		<text id="recipe_pumpkinspicelatte" name="Latte speziato alla zucca" />
 		<text id="recipe_spookymousse" name="Mousse spettrale" />
-		<text id="recipe_fallchips" name="Fall Chips" />
-		<text id="recipe_orangecompote" name="Orange Compote" />
-		<text id="recipe_citruscompote" name="Citrus Compote" />
+		<text id="recipe_fallchips" name="Patatine autunnali" />
+		<text id="recipe_orangecompote" name="Composto d&apos;arancia" />
+		<text id="recipe_citruscompote" name="Composto di cedri" />
 		<text id="recipe_pierogi" name="Pierogi" />
 	</recipe>
 	<recipes_fastfood>
