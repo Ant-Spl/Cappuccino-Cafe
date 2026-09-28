@@ -599,6 +599,7 @@
 	<wod id="540" n="Basic" g="Deco" t="Springpussywillowround" walkable="0" rotatetype="2" cash="10000" gold="0" friends="0" goldNoFriends="0" releaseDate="1785985200" world="0" events="0" xp="0" level="1" />
 	<wod id="541" n="Basic" g="Deco" t="Cottoncandymachine" walkable="0" rotatetype="3" cash="0" gold="25" friends="0" goldNoFriends="0" releaseDate="0" world="0" events="4" xp="0" level="0" />
 	<wod id="542" n="Basic" g="Deco" t="Pool" walkable="0" rotatetype="2" cash="80000" gold="0" friends="0" goldNoFriends="0" releaseDate="1787454000" world="0" events="0" xp="0" level="1" />
+	<wod id="543" n="Basic" g="Deco" t="Bigcherry" walkable="0" rotatetype="2" cash="0" gold="5" friends="0" goldNoFriends="0" releaseDate="1790618160" world="0" events="0" xp="0" level="9" />
 	<wod id="601" n="Basic" g="Chair" t="Basicwhite" walkable="0" rotatetype="3" cash="100" gold="0" friends="0" goldNoFriends="0" releaseDate="0" world="0" events="0" xp="0" level="0" />
 	<wod id="602" n="Basic" g="Chair" t="Basicblue" walkable="0" rotatetype="3" cash="100" gold="0" friends="0" goldNoFriends="0" releaseDate="0" world="0" events="0" xp="0" level="1" />
 	<wod id="2207" n="Basic" g="Chair" t="Basicblack" walkable="0" rotatetype="3" cash="100" gold="0" friends="0" goldNoFriends="0" releaseDate="1769300230" world="0" events="0" xp="0" level="1" />
@@ -658,7 +659,7 @@
 	<wod id="932" n="Basic" g="Wallobject" t="Xmasstnicholassock" cash="2500" gold="0" friends="0" goldNoFriends="0" releaseDate="1291134071" world="0" events="3" xp="0" level="1" />
 	<wod id="933" n="Basic" g="Wallobject" t="Windowxmasgold" cash="15000" gold="0" friends="0" goldNoFriends="0" releaseDate="1291134071" world="0" events="3" xp="0" level="1" width="2" />
 	<wod id="934" n="Basic" g="Wallobject" t="Springcollar" cash="0" gold="2" friends="0" goldNoFriends="0" releaseDate="1785985200" world="0" events="5" xp="0" level="1" />
-	<wod id="935" n="Basic" g="Wallobject" t="Dancingchefportrait" cash="12000" gold="0" friends="0" goldNoFriends="0" releaseDate="0" world="0" events="0" xp="0" level="1" />
+	<wod id="935" n="Basic" g="Wallobject" t="Dancingchefportrait" cash="12000" gold="0" friends="0" goldNoFriends="0" releaseDate="1790564040" world="0" events="0" xp="0" level="1" />
 	<wod id="1001" n="Top" g="Avatar" t="Girl" gender="1" colors="798F8F#C5CBE3#76AFB7#61B866#FFE266#F6BCC4#FF7C91#CE8AC5#4A877D#568C49#6BA831#87C7A8#79AEB8#3C7385#B3B4B7#BB8731#BA5C33#FFB7B2#FFDAC1#E2F0CB#B5EAD7#C7CEEA#F9F9FB#E0BBE4#957DAD#D291BC#FEC8D8#39FF14#FF3131#00FFFF#FF00FF#FFFF33#FF5E00#8A2BE2#08FF08#BCFF00#FF1493#FF0000#0000FF#008000#FFFF00#800080#008080#FF4500#FFD700#40E0D0#1A1A1D#2C3E50#013220#310E0E#1B2631#3E2723#4B0082#212F3C#191970#FFFFFF#000000" />
 	<wod id="1002" n="Top" g="Avatar" t="Boy" gender="2" colors="475454#C5CBE3#76AFB7#61B866#FFE266#F6BCC4#FF7C91#CE8AC5#4A877D#568C49#6BA831#87C7A8#79AEB8#3C7385#B3B4B7#BB8731#BA5C33#FFB7B2#FFDAC1#E2F0CB#B5EAD7#C7CEEA#F9F9FB#E0BBE4#957DAD#D291BC#FEC8D8#39FF14#FF3131#00FFFF#FF00FF#FFFF33#FF5E00#8A2BE2#08FF08#BCFF00#FF1493#FF0000#0000FF#008000#FFFF00#800080#008080#FF4500#FFD700#40E0D0#1A1A1D#2C3E50#013220#310E0E#1B2631#3E2723#4B0082#212F3C#191970#FFFFFF#000000" />
 	<wod id="1021" n="Skin" g="Avatar" t="Girl" gender="1" colors="F4C0A6#F2B187#E89C73#AB6845#CE875C#F3BD90#EEA675#DC9467#FFF5E1#FFEDD6#FEEDD1#FBF2EA#F8D9C0#F5D1B3#EFD6BD#EBCBB2#E5C298#E1AD84#E2B98F#DEB887#D2B48C#C68642#C58C85#BD9778#B9936C#B58A67#AC8062#A0785A#96714F#8D6745#825E39#71492C#634439#5C3836#503335#4B352D#E8BEAC#D1A384#B98865#A26F4A#8B562F" />
@@ -1004,7 +1005,7 @@
 	<wod id="2126" n="Basic" g="Coop" t="26" events="0" maxMember="5" maxLevel="29" chips="13955" xp="737" gold="9" duration="8880" dishes="1223+80#1214+90#1209+60#1226+45" />
 	<wod id="2127" n="Basic" g="Coop" t="27" events="0" maxMember="5" maxLevel="27" chips="22000" xp="576" gold="8" duration="8880" dishes="2226+50#1225+30#2245+200" />
 	<wod id="2128" n="Basic" g="Coop" t="28" events="0" maxMember="5" maxLevel="29" chips="7700" xp="368" gold="7" duration="7560" dishes="2215+60#1203+40#2222+30#1226+20" />
-	<wod id="2129" n="Basic" g="Coop" t="31" events="0" maxMember="5" maxLevel="36" chips="35738" xp="1276" gold="10" duration="8880" dishes="1258+50#1259+50#2250+150" />
+	<wod id="2129" n="Basic" g="Coop" t="31" events="0" maxMember="5" maxLevel="36" chips="40957" xp="1783" gold="10" duration="13480" dishes="1258+50#1259+50#2250+150#2311+50" />
 	<wod id="2130" n="Basic" g="Coop" t="30" events="0" maxMember="5" maxLevel="33" chips="16588" xp="299" gold="5" duration="7560" dishes="1260+25#1261+30#1256+150" />
 	<wod id="2131" n="Basic" g="Coop" t="32" events="0" maxMember="5" maxLevel="34" chips="32025" xp="705" gold="7" duration="8880" dishes="2244+30#2248+30#2247+30#2241+300" />
 	<wod id="2132" n="Basic" g="Coop" t="33" events="0" maxMember="5" maxLevel="37" chips="9538" xp="353" gold="4" duration="7560" dishes="2251+20#2235+5#2242+20#2229+70" />
@@ -1131,4 +1132,6 @@
 	<wod id="2308" n="Basic" g="Dish" t="Pierogi" events="0" xp="3469" incomePerServing="2" servings="1975" duration="1080" level="47" dishcategory="5" requirements="1322+2#1312+1#1318+1#1315+1#1406+1" />
 	<wod id="2309" n="Basic" g="Dish" t="Fourcheesepizza" events="0" xp="4" incomePerServing="215" servings="7" duration="1" level="17" dishcategory="5" requirements="1312+1#1305+4#1406+1" />
 	<wod id="2310" n="Basic" g="Dish" t="Superchocolatecake" events="0" xp="45763" incomePerServing="1" servings="109200" duration="10080" level="33" dishcategory="0" requirements="1312+50#1307+50#1325+35#1311+20#1330+20#1409+1" />
+	<wod id="2311" n="Basic" g="Dish" t="Chickencurry" events="0" xp="2028" incomePerServing="1" servings="2875" duration="720" level="36" dishcategory="1" requirements="1306+1#1349+1#1327+1#1318+1#1324+1#1403+1" />
+	<wod id="2312" n="Basic" g="Dish" t="Spookyfondue" events="2" xp="5580" incomePerServing="1" servings="1700" duration="1860" level="9" dishcategory="5" requirements="1305+1#1308+1#1347+1#1405+1" />
 </wodIds>
