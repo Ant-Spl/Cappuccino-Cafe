@@ -2408,7 +2408,7 @@
 		<text id="preparestep_chickencurry_coriander" name="add coriander" />
 		<text id="preparestep_chickencurry_eventspice" name="spread event spice" />
 		<text id="preparestep_spookyfondue_horseradish" name="add magical ingredient" />
-		<text id="preparestep_spookyfondue_eventspice" name="spread event spice" />
+		<text id="preparestep_spookyfondue_eventspice" name="spread event spice spookily" />
 	</preparestep_fancy>
 	<recipe>
 		<text id="recipe_bananasplit" name="Bananasplit" />
