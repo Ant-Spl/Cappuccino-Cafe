@@ -658,6 +658,7 @@
 	<wod id="932" n="Basic" g="Wallobject" t="Xmasstnicholassock" cash="2500" gold="0" friends="0" goldNoFriends="0" releaseDate="1291134071" world="0" events="3" xp="0" level="1" />
 	<wod id="933" n="Basic" g="Wallobject" t="Windowxmasgold" cash="15000" gold="0" friends="0" goldNoFriends="0" releaseDate="1291134071" world="0" events="3" xp="0" level="1" width="2" />
 	<wod id="934" n="Basic" g="Wallobject" t="Springcollar" cash="0" gold="2" friends="0" goldNoFriends="0" releaseDate="1785985200" world="0" events="5" xp="0" level="1" />
+	<wod id="935" n="Basic" g="Wallobject" t="Dancingchefportrait" cash="12000" gold="0" friends="0" goldNoFriends="0" releaseDate="0" world="0" events="0" xp="0" level="1" />
 	<wod id="1001" n="Top" g="Avatar" t="Girl" gender="1" colors="798F8F#C5CBE3#76AFB7#61B866#FFE266#F6BCC4#FF7C91#CE8AC5#4A877D#568C49#6BA831#87C7A8#79AEB8#3C7385#B3B4B7#BB8731#BA5C33#FFB7B2#FFDAC1#E2F0CB#B5EAD7#C7CEEA#F9F9FB#E0BBE4#957DAD#D291BC#FEC8D8#39FF14#FF3131#00FFFF#FF00FF#FFFF33#FF5E00#8A2BE2#08FF08#BCFF00#FF1493#FF0000#0000FF#008000#FFFF00#800080#008080#FF4500#FFD700#40E0D0#1A1A1D#2C3E50#013220#310E0E#1B2631#3E2723#4B0082#212F3C#191970#FFFFFF#000000" />
 	<wod id="1002" n="Top" g="Avatar" t="Boy" gender="2" colors="475454#C5CBE3#76AFB7#61B866#FFE266#F6BCC4#FF7C91#CE8AC5#4A877D#568C49#6BA831#87C7A8#79AEB8#3C7385#B3B4B7#BB8731#BA5C33#FFB7B2#FFDAC1#E2F0CB#B5EAD7#C7CEEA#F9F9FB#E0BBE4#957DAD#D291BC#FEC8D8#39FF14#FF3131#00FFFF#FF00FF#FFFF33#FF5E00#8A2BE2#08FF08#BCFF00#FF1493#FF0000#0000FF#008000#FFFF00#800080#008080#FF4500#FFD700#40E0D0#1A1A1D#2C3E50#013220#310E0E#1B2631#3E2723#4B0082#212F3C#191970#FFFFFF#000000" />
 	<wod id="1021" n="Skin" g="Avatar" t="Girl" gender="1" colors="F4C0A6#F2B187#E89C73#AB6845#CE875C#F3BD90#EEA675#DC9467#FFF5E1#FFEDD6#FEEDD1#FBF2EA#F8D9C0#F5D1B3#EFD6BD#EBCBB2#E5C298#E1AD84#E2B98F#DEB887#D2B48C#C68642#C58C85#BD9778#B9936C#B58A67#AC8062#A0785A#96714F#8D6745#825E39#71492C#634439#5C3836#503335#4B352D#E8BEAC#D1A384#B98865#A26F4A#8B562F" />
@@ -1112,6 +1113,10 @@
 	<wod id="1531" n="Marketplace" g="Background" t="Fallweather" />
 	<wod id="1532" n="Marketplace" g="Background" t="Fallnightweather" />
 	<wod id="1533" n="Static" g="Background" t="Villagefallnightlcookfest" />
+	<wod id="1534" n="Static" g="Background" t="Halloween" />
+	<wod id="1535" n="Static" g="Background" t="Halloweenrain" />
+	<wod id="1536" n="Marketplace" g="Background" t="Halloween" />
+	<wod id="1537" n="Marketplace" g="Background" t="Halloweenrain" />
 	<wod id="2297" n="Basic" g="Dish" t="Pumpkinpie" events="0" xp="1692" incomePerServing="2" servings="1950" duration="900" level="18" dishcategory="0" requirements="1352+1#1325+1#1311+1#1330+1#1308+1#1404+1" />
 	<wod id="2298" n="Basic" g="Dish" t="Pumpkincake" events="0" xp="2026" incomePerServing="3" servings="1300" duration="540" level="54" dishcategory="0" requirements="1352+1#1312+1#1325+1#1311+1#1308+1#1409+1" />
 	<wod id="2299" n="Basic" g="Dish" t="Sugarglazeroastchicken" events="0" xp="6996" incomePerServing="3" servings="2900" duration="3000" level="56" dishcategory="1" requirements="1306+1#1325+3#1322+2#1318+1#1313+2#1406+1" />
