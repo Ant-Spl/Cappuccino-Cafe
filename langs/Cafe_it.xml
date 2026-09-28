@@ -499,10 +499,10 @@
 		<text id="cookstep_citruscompote2" name="Stufando il tutto" />
 		<text id="cookstep_pierogi1" name="Preparando l&apos;impasto" />
 		<text id="cookstep_pierogi2" name="Ripiegando i ravioli" />
-		<text id="cookstep_fourcheesepizza1" name="Melting cheese" />
-		<text id="cookstep_fourcheesepizza2" name="Melting more cheese" />
-		<text id="cookstep_superchocolatecake1" name="Mixing ingredients" />
-		<text id="cookstep_superchocolatecake2" name="Baking" />
+		<text id="cookstep_fourcheesepizza1" name="Sciogliendo il formaggio" />
+		<text id="cookstep_fourcheesepizza2" name="Sciogliendo altro formaggio" />
+		<text id="cookstep_superchocolatecake1" name="Mescolando gli ingredienti" />
+		<text id="cookstep_superchocolatecake2" name="Cuocendo il tutto" />
 	</cookstep>
 	<coopmission>
 		<text id="coop_title_1" name="CORSO DI CUCINA" />
@@ -2081,15 +2081,15 @@
 		<text id="preparestep_pierogi_onion" name="Taglia la cipolla" />
 		<text id="preparestep_pierogi_meat" name="Trita la carne" />
 		<text id="preparestep_pierogi_cookfest" name="Usa ingredienti rapidi" />
-		<text id="preparestep_fourcheesepizza_flour" name="sift flour" />
-		<text id="preparestep_fourcheesepizza_cheese" name="cut cheese" />
-		<text id="preparestep_fourcheesepizza_cookfest" name="use fast ingredients" />
-		<text id="preparestep_superchocolatecake_flour" name="sift lots of flour" />
-		<text id="preparestep_superchocolatecake_chocolate" name="melt lots of chocolate" />
-		<text id="preparestep_superchocolatecake_sugar" name="add lots sugar" />
-		<text id="preparestep_superchocolatecake_eggs" name="crack tens of eggs" />
-		<text id="preparestep_superchocolatecake_milk" name="add lots of milk" />
-		<text id="preparestep_superchocolatecake_cookfest" name="use fast ingredients" />
+		<text id="preparestep_fourcheesepizza_flour" name="Setaccia la farina" />
+		<text id="preparestep_fourcheesepizza_cheese" name="Taglia i formaggi" />
+		<text id="preparestep_fourcheesepizza_cookfest" name="Usa ingredienti rapidi" />
+		<text id="preparestep_superchocolatecake_flour" name="Setaccia molta farina" />
+		<text id="preparestep_superchocolatecake_chocolate" name="Sciogli tantissimo cioccolato" />
+		<text id="preparestep_superchocolatecake_sugar" name="Aggiungi tanto zucchero" />
+		<text id="preparestep_superchocolatecake_eggs" name="Rompi decine di uova" />
+		<text id="preparestep_superchocolatecake_milk" name="Aggiungi un botto di latte" />
+		<text id="preparestep_superchocolatecake_cookfest" name="Usa ingredienti rapidi" />
 	</preparestep>
 	<preparestep_fancy>
 		<text id="preparestep_duckalcitrus_cinnamon" name="Macina la cannella" />
@@ -2389,10 +2389,10 @@
 		<text id="preparestep_citruscompote_eventspice" name="Spargi la spezia evento" />
 		<text id="preparestep_pierogi_parsley" name="Trita il prezzemolo" />
 		<text id="preparestep_pierogi_eventspice" name="Spargi la spezia evento" />
-		<text id="preparestep_fourcheesepizza_parsley" name="chop parsley" />
-		<text id="preparestep_fourcheesepizza_eventspice" name="spread event spice" />
-		<text id="preparestep_superchocolatecake_cinnamon" name="grate cinnamon" />
-		<text id="preparestep_superchocolatecake_eventspice" name="spread event spice" />
+		<text id="preparestep_fourcheesepizza_parsley" name="Trita il prezzemolo" />
+		<text id="preparestep_fourcheesepizza_eventspice" name="Spargi la spezia evento" />
+		<text id="preparestep_superchocolatecake_cinnamon" name="Grattugia la cannella" />
+		<text id="preparestep_superchocolatecake_eventspice" name="Spargi la spezia evento" />
 		<text id="preparestep_whitechocmousse_vanilla" name="Raschia la vaniglia" />
 	</preparestep_fancy>
 	<recipe>
@@ -2566,8 +2566,8 @@
 		<text id="recipe_orangecompote" name="Composto d&apos;arancia" />
 		<text id="recipe_citruscompote" name="Composto di cedri" />
 		<text id="recipe_pierogi" name="Pierogi" />
-		<text id="recipe_fourcheesepizza" name="Four Cheese Pizza" />
-		<text id="recipe_superchocolatecake" name="Super Chocolate Cake" />
+		<text id="recipe_fourcheesepizza" name="Pizza ai quattro formaggi" />
+		<text id="recipe_superchocolatecake" name="Super torta al cioccolato" />
 	</recipe>
 	<recipes_fastfood>
 		<text id="recipe_smoothiemaker_greensmoothie" name="Smoothie verde" />
