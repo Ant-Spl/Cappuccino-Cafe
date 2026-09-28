@@ -2092,11 +2092,11 @@
 		<text id="preparestep_superchocolatecake_eggs" name="crack tens of eggs" />
 		<text id="preparestep_superchocolatecake_milk" name="add lots of milk" />
 		<text id="preparestep_superchocolatecake_cookfest" name="use fast ingredients" />
-		<text id="preparestep_chickencurry_chicken" name="Cut chicken" />
-		<text id="preparestep_chickencurry_curryspice" name="Spread curry" />
-		<text id="preparestep_chickencurry_tomato" name="Chop tomatoes" />
-		<text id="preparestep_chickencurry_onion" name="Chop onions" />
-		<text id="preparestep_chickencurry_rice" name="Cook rice" />
+		<text id="preparestep_chickencurry_chicken" name="cut chicken" />
+		<text id="preparestep_chickencurry_curryspice" name="spread curry" />
+		<text id="preparestep_chickencurry_tomato" name="chop tomatoes" />
+		<text id="preparestep_chickencurry_onion" name="chop onions" />
+		<text id="preparestep_chickencurry_rice" name="cook rice" />
 		<text id="preparestep_chickencurry_cookfest" name="use fast ingredients" />
 		<text id="preparestep_spookyfondue_cheese" name="cut cheese" />
 		<text id="preparestep_spookyfondue_cream" name="whip cream" />
@@ -2405,7 +2405,7 @@
 		<text id="preparestep_fourcheesepizza_eventspice" name="spread event spice" />
 		<text id="preparestep_superchocolatecake_cinnamon" name="grate cinnamon" />
 		<text id="preparestep_superchocolatecake_eventspice" name="spread event spice" />
-		<text id="preparestep_chickencurry_coriander" name="Add coriander" />
+		<text id="preparestep_chickencurry_coriander" name="add coriander" />
 		<text id="preparestep_chickencurry_eventspice" name="spread event spice" />
 		<text id="preparestep_spookyfondue_horseradish" name="add magical ingredient" />
 		<text id="preparestep_spookyfondue_eventspice" name="spread event spice" />
