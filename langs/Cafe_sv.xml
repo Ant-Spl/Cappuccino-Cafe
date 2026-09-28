@@ -503,6 +503,10 @@
 		<text id="cookstep_fourcheesepizza2" name="Melting more cheese" />
 		<text id="cookstep_superchocolatecake1" name="Mixing ingredients" />
 		<text id="cookstep_superchocolatecake2" name="Baking" />
+		<text id="cookstep_chickencurry1" name="Dissolving spices" />
+		<text id="cookstep_chickencurry2" name="Cooking rice" />
+		<text id="cookstep_spookyfondue1" name="Melting cheese" />
+		<text id="cookstep_spookyfondue2" name="Mixing concoction" />
 		<text id="cookstep_feijoada1" name="Ordnar fläskkotletter" />
 		<text id="cookstep_feijoada2" name="Manifesterar apelsinskivor" />
 	</cookstep>
@@ -2093,6 +2097,16 @@
 		<text id="preparestep_superchocolatecake_eggs" name="crack tens of eggs" />
 		<text id="preparestep_superchocolatecake_milk" name="add lots of milk" />
 		<text id="preparestep_superchocolatecake_cookfest" name="use fast ingredients" />
+		<text id="preparestep_chickencurry_chicken" name="cut chicken" />
+		<text id="preparestep_chickencurry_curryspice" name="spread curry" />
+		<text id="preparestep_chickencurry_tomato" name="chop tomatoes" />
+		<text id="preparestep_chickencurry_onion" name="chop onions" />
+		<text id="preparestep_chickencurry_rice" name="cook rice" />
+		<text id="preparestep_chickencurry_cookfest" name="use fast ingredients" />
+		<text id="preparestep_spookyfondue_cheese" name="cut cheese" />
+		<text id="preparestep_spookyfondue_cream" name="whip cream" />
+		<text id="preparestep_spookyfondue_citrus" name="make green dye" />
+		<text id="preparestep_spookyfondue_cookfest" name="use fast ingredients" />
 		<text id="preparestep_feijoada_sausage" name="Skär upp korv" />
 		<text id="preparestep_feijoada_onion" name="Hacka lök" />
 		<text id="preparestep_feijoada_garlic" name="Kasta i vitlök" />
@@ -2399,6 +2413,10 @@
 		<text id="preparestep_fourcheesepizza_eventspice" name="spread event spice" />
 		<text id="preparestep_superchocolatecake_cinnamon" name="grate cinnamon" />
 		<text id="preparestep_superchocolatecake_eventspice" name="spread event spice" />
+		<text id="preparestep_chickencurry_coriander" name="add coriander" />
+		<text id="preparestep_chickencurry_eventspice" name="spread event spice" />
+		<text id="preparestep_spookyfondue_horseradish" name="add magical ingredient" />
+		<text id="preparestep_spookyfondue_eventspice" name="spread event spice spookily" />
 		<text id="preparestep_pizzasalad_chili" name="Hacka chili" />
 	</preparestep_fancy>
 	<recipe>
@@ -2574,6 +2592,8 @@
 		<text id="recipe_pierogi" name="Pierogi" />
 		<text id="recipe_fourcheesepizza" name="Four Cheese Pizza" />
 		<text id="recipe_superchocolatecake" name="Super Chocolate Cake" />
+		<text id="recipe_chickencurry" name="Chicken Curry" />
+		<text id="recipe_spookyfondue" name="Spooky Fondue" />
 	</recipe>
 	<recipes_fastfood>
 		<text id="recipe_smoothiemaker_greensmoothie" name="Grön-smoothie" />
