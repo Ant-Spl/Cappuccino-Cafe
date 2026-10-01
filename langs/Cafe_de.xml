@@ -377,8 +377,8 @@
 		<text id="cookstep_omelette2" name="Eier zusammenklappen" />
 		<text id="cookstep_onionsoup1" name="Zwiebeln dünsten" />
 		<text id="cookstep_onionsoup2" name="Käse überbacken" />
-		<text id="cookstep_goldenomelette1" name="Season eggs" />
-		<text id="cookstep_goldenomelette2" name="Fold eggs" />
+		<text id="cookstep_goldenomelette1" name="Eier würzen" />
+		<text id="cookstep_goldenomelette2" name="Eier falten" />
 		<text id="cookstep_peasoup1" name="Zwiebeln andünsten" />
 		<text id="cookstep_peasoup2" name="Suppe kochen" />
 		<text id="cookstep_pizza1" name="Pizza belegen" />
@@ -432,7 +432,7 @@
 		<text id="cookstep_tomatosoup1" name="Zwiebeln anbraten" />
 		<text id="cookstep_tomatosoup2" name="Tomaten kochen" />
 		<text id="cookstep_trifle1" name="Pudding kochen" />
-		<text id="cookstep_trifle2" name="Trifle schichten" />
+		<text id="cookstep_trifle2" name="Trüffel schichten" />
 		<text id="cookstep_veganstirfry1" name="Gemüse dünsten" />
 		<text id="cookstep_veganstirfry2" name="Reis kochen" />
 		<text id="cookstep_vegetablesoup1" name="Zwiebeln anbraten" />
@@ -491,22 +491,22 @@
 		<text id="cookstep_pumpkinspicelatte2" name="Drinks verteilen" />
 		<text id="cookstep_spookymousse1" name="Schokolade erschrecken" />
 		<text id="cookstep_spookymousse2" name="Geister mischen" />
-		<text id="cookstep_fallchips1" name="Peeling potatoes" />
-		<text id="cookstep_fallchips2" name="Frying" />
-		<text id="cookstep_orangecompote1" name="Melting oranges" />
-		<text id="cookstep_orangecompote2" name="Stewing" />
-		<text id="cookstep_citruscompote1" name="Melting citrus" />
-		<text id="cookstep_citruscompote2" name="Stewing" />
-		<text id="cookstep_pierogi1" name="prepping dough" />
-		<text id="cookstep_pierogi2" name="folding" />
-		<text id="cookstep_fourcheesepizza1" name="Melting cheese" />
-		<text id="cookstep_fourcheesepizza2" name="Melting more cheese" />
-		<text id="cookstep_superchocolatecake1" name="Mixing ingredients" />
-		<text id="cookstep_superchocolatecake2" name="Baking" />
-		<text id="cookstep_chickencurry1" name="Dissolving spices" />
-		<text id="cookstep_chickencurry2" name="Cooking rice" />
-		<text id="cookstep_spookyfondue1" name="Melting cheese" />
-		<text id="cookstep_spookyfondue2" name="Mixing concoction" />
+		<text id="cookstep_fallchips1" name="Kartoffeln schälen" />
+		<text id="cookstep_fallchips2" name="Chips frittieren" />
+		<text id="cookstep_orangecompote1" name="Orangen kochen" />
+		<text id="cookstep_orangecompote2" name="Orangen gären lassen" />
+		<text id="cookstep_citruscompote1" name="Zitrus kochen" />
+		<text id="cookstep_citruscompote2" name="Zitrus gären lassen" />
+		<text id="cookstep_pierogi1" name="Teig vorbereiten" />
+		<text id="cookstep_pierogi2" name="Teig falten" />
+		<text id="cookstep_fourcheesepizza1" name="Käse schmelzen" />
+		<text id="cookstep_fourcheesepizza2" name="Noch mehr Käse schmelzen" />
+		<text id="cookstep_superchocolatecake1" name="Zutaten langsam vermischen" />
+		<text id="cookstep_superchocolatecake2" name="Langsam backen" />
+		<text id="cookstep_chickencurry1" name="Gewürze auflösen" />
+		<text id="cookstep_chickencurry2" name="Reis kochen" />
+		<text id="cookstep_spookyfondue1" name="Käse schmelzen" />
+		<text id="cookstep_spookyfondue2" name="Gebräu mischen" />
 	</cookstep>
 	<coopmission>
 		<text id="coop_desc_long_1" name="Wir veranstalten einen Kochkurs, um einige Gerichte zu perfektionieren. Möchtest du mitmachen?" />
@@ -914,7 +914,7 @@
 		<text id="dialogwin_settings_low" name="Gering" />
 		<text id="dialogwin_settings_medium" name="Mittel" />
 		<text id="dialogwin_settings_quality" name="Qualität" />
-		<text id="dialogwin_settings_cappFancy" name="Skip Fancy Ingredients" />
+		<text id="dialogwin_settings_cappFancy" name="Fancy Zutaten überspringen" />
 		<text id="dialogwin_shippingconfirmation_copy1" name="Klicke den Link in der Email, um das das Gold abzuholen." />
 		<text id="dialogwin_shippingconfirmation_copy2" name="Email noch nicht angekommen? Einige Minuten kann es schon dauern. Wenn dann auch im Spam-Ordner nichts ist, hilft dir unser Support gerne weiter." />
 		<text id="dialogwin_shippingconfirmation_title" name="Gold-Email unterwegs!" />
@@ -959,19 +959,19 @@
 		<text id="dialogwin_wheeloffortune_wonfood" name="Herzlichen Glückwunsch! Dein Preis befindet sich in deiner Geschenkbox!" />
 		<text id="dialogwin_wheeloffortune_wongold" name="Du hast den Goldtopf gewonnen!" />
 		<text id="dialogwin_wheeloffortune_wonitem" name="Herzlichen Glückwunsch! Dein Preis befindet sich in deinem Lager!" />
-		<text id="dialogwin_cookbook_sort_default" name="Sort: Default" />
-		<text id="dialogwin_cookbook_sort_notmastered" name="Not mastered first" />
-		<text id="dialogwin_cookbook_sort_mastered" name="Mastered first" />
+		<text id="dialogwin_cookbook_sort_default" name="Sortierung: Normal" />
+		<text id="dialogwin_cookbook_sort_notmastered" name="Nicht gemastert zuerst" />
+		<text id="dialogwin_cookbook_sort_mastered" name="Gemastert zuerst" />
 		<text id="dialogwin_cookbook_sort_alphabetical" name="Name: A-Z" />
-		<text id="dialogwin_cookbook_sort_time_asc" name="Time: short to long" />
-		<text id="dialogwin_cookbook_sort_time_desc" name="Time: long to short" />
-		<text id="dialogwin_cookbook_sort_portions_asc" name="Portions: least to most" />
-		<text id="dialogwin_cookbook_sort_portions_desc" name="Portions: most to least" />
-		<text id="dialogwin_cookbook_sort_xp_desc" name="XP: most to least" />
-		<text id="dialogwin_cookbook_sort_xp_asc" name="XP: least to most" />
-		<text id="dialogwin_coop_daily_remaining" name="{0}/{1} today" />
-		<text id="dialogwin_coop_daily_loading" name="Loading..." />
-		<text id="dialogwin_coop_daily_tooltip" name="Starting or joining a co-op uses one entry. Resets daily at 00:00 UTC!" />
+		<text id="dialogwin_cookbook_sort_time_asc" name="Zeit: Kurz nach Lang" />
+		<text id="dialogwin_cookbook_sort_time_desc" name="Zeit: Lang nach Kurz" />
+		<text id="dialogwin_cookbook_sort_portions_asc" name="Portionen: Wenigste zu Meiste" />
+		<text id="dialogwin_cookbook_sort_portions_desc" name="Portionen: Meiste zu Wenigste" />
+		<text id="dialogwin_cookbook_sort_xp_desc" name="XP: Meiste zu Wenigste" />
+		<text id="dialogwin_cookbook_sort_xp_asc" name="XP: Wenigste zu Meiste" />
+		<text id="dialogwin_coop_daily_remaining" name="{0}/{1} heute" />
+		<text id="dialogwin_coop_daily_loading" name="Laden..." />
+		<text id="dialogwin_coop_daily_tooltip" name="Eine Co-Op starten oder bei einer mitmachen braucht einen Punkt. Setzt sich täglich um 00:00 UTC zurück!" />
 	</dialogs>
 	<error_codes>
 		<text id="achievement_error" name="Auszeichnung" />
@@ -2071,40 +2071,40 @@
 		<text id="preparestep_spookymousse_milk" name="Milch ausschenken" />
 		<text id="preparestep_spookymousse_whitechocolat" name="Schokolade schmelzen" />
 		<text id="preparestep_spookymousse_sugar" name="Geist ködern" />
-		<text id="preparestep_fallchips_pumpkin" name="Mash pumpkin" />
-		<text id="preparestep_fallchips_potato" name="Peel potatoes" />
-		<text id="preparestep_fallchips_oil" name="Heat oil" />
-		<text id="preparestep_fallchips_cookfest" name="Use fast ingredients" />
-		<text id="preparestep_orangecompote_orange" name="Slice oranges" />
-		<text id="preparestep_orangecompote_sugar" name="Caramelize sugar" />
-		<text id="preparestep_orangecompote_cookfest" name="Use fast ingredients" />
-		<text id="preparestep_citruscompote_citrus" name="Slice citrus fruits" />
-		<text id="preparestep_citruscompote_sugar" name="Caramelize sugar" />
-		<text id="preparestep_citruscompote_cookfest" name="Use fast ingredients" />
-		<text id="preparestep_pierogi_potato" name="peel potatoes" />
-		<text id="preparestep_pierogi_flour" name="sift flour" />
-		<text id="preparestep_pierogi_onion" name="chop onion" />
-		<text id="preparestep_pierogi_meat" name="mince meat" />
-		<text id="preparestep_pierogi_cookfest" name="use fast ingredients" />
-		<text id="preparestep_fourcheesepizza_flour" name="sift flour" />
-		<text id="preparestep_fourcheesepizza_cheese" name="cut cheese" />
-		<text id="preparestep_fourcheesepizza_cookfest" name="use fast ingredients" />
-		<text id="preparestep_superchocolatecake_flour" name="sift lots of flour" />
-		<text id="preparestep_superchocolatecake_chocolate" name="melt lots of chocolate" />
-		<text id="preparestep_superchocolatecake_sugar" name="add lots sugar" />
-		<text id="preparestep_superchocolatecake_eggs" name="crack tens of eggs" />
-		<text id="preparestep_superchocolatecake_milk" name="add lots of milk" />
-		<text id="preparestep_superchocolatecake_cookfest" name="use fast ingredients" />
-		<text id="preparestep_chickencurry_chicken" name="cut chicken" />
-		<text id="preparestep_chickencurry_curryspice" name="spread curry" />
-		<text id="preparestep_chickencurry_tomato" name="chop tomatoes" />
-		<text id="preparestep_chickencurry_onion" name="chop onions" />
-		<text id="preparestep_chickencurry_rice" name="cook rice" />
-		<text id="preparestep_chickencurry_cookfest" name="use fast ingredients" />
-		<text id="preparestep_spookyfondue_cheese" name="cut cheese" />
-		<text id="preparestep_spookyfondue_cream" name="whip cream" />
-		<text id="preparestep_spookyfondue_citrus" name="make green dye" />
-		<text id="preparestep_spookyfondue_cookfest" name="use fast ingredients" />
+		<text id="preparestep_fallchips_pumpkin" name="Kürbis zerdrücken" />
+		<text id="preparestep_fallchips_potato" name="Kartoffeln schälen" />
+		<text id="preparestep_fallchips_oil" name="Öl erhitzen" />
+		<text id="preparestep_fallchips_cookfest" name="schnelle Zutaten benutzen" />
+		<text id="preparestep_orangecompote_orange" name="Orangen aufschneiden" />
+		<text id="preparestep_orangecompote_sugar" name="Zucker karamellisieren" />
+		<text id="preparestep_orangecompote_cookfest" name="schnelle Zutaten benutzen" />
+		<text id="preparestep_citruscompote_citrus" name="Zitrus aufschneiden" />
+		<text id="preparestep_citruscompote_sugar" name="Zucker karamellisieren" />
+		<text id="preparestep_citruscompote_cookfest" name="schnelle Zutaten benutzen" />
+		<text id="preparestep_pierogi_potato" name="Kartoffeln schälen" />
+		<text id="preparestep_pierogi_flour" name="Mehl sieben" />
+		<text id="preparestep_pierogi_onion" name="Zwiebeln schneiden" />
+		<text id="preparestep_pierogi_meat" name="Fleisch dünn schneiden" />
+		<text id="preparestep_pierogi_cookfest" name="schnelle Zutaten benutzen" />
+		<text id="preparestep_fourcheesepizza_flour" name="Mehl sieben" />
+		<text id="preparestep_fourcheesepizza_cheese" name="Käse schneiden" />
+		<text id="preparestep_fourcheesepizza_cookfest" name="schnelle Zutaten benutzen" />
+		<text id="preparestep_superchocolatecake_flour" name="Viel Mehl sieben" />
+		<text id="preparestep_superchocolatecake_chocolate" name="Viel Schokolade schmelzen" />
+		<text id="preparestep_superchocolatecake_sugar" name="Viel Zucker hinzufügen" />
+		<text id="preparestep_superchocolatecake_eggs" name="Viele Eier aufschlagen" />
+		<text id="preparestep_superchocolatecake_milk" name="Viel Milch hinzufügen" />
+		<text id="preparestep_superchocolatecake_cookfest" name="schnelle Zutaten benutzen" />
+		<text id="preparestep_chickencurry_chicken" name="Huhn schneiden" />
+		<text id="preparestep_chickencurry_curryspice" name="Curry verteilen" />
+		<text id="preparestep_chickencurry_tomato" name="Tomaten schneiden" />
+		<text id="preparestep_chickencurry_onion" name="Zwiebeln schneiden" />
+		<text id="preparestep_chickencurry_rice" name="Reis kochen" />
+		<text id="preparestep_chickencurry_cookfest" name="schnelle Zutaten benutzen" />
+		<text id="preparestep_spookyfondue_cheese" name="Käse schneiden" />
+		<text id="preparestep_spookyfondue_cream" name="Sahne böse aufschlagen" />
+		<text id="preparestep_spookyfondue_citrus" name="Grüne Farbe machen" />
+		<text id="preparestep_spookyfondue_cookfest" name="schnelle Zutaten benutzen" />
 	</preparestep>
 	<preparestep_fancy>
 		<text id="preparestep_duckalcitrus_cinnamon" name="Zimt aufstreuen" />
@@ -2199,7 +2199,7 @@
 		<text id="preparestep_nasigoreng_chili" name="Chili schneiden" />
 		<text id="preparestep_newyorkcheesecake_vanilla" name="Vanille ausschaben" />
 		<text id="preparestep_noodlesalad_parsley" name="Petersilie hacken" />
-		<text id="preparestep_goldenomelette_nutmeg" name="Grate nutmeg" />
+		<text id="preparestep_goldenomelette_nutmeg" name="Muskatnuss reiben" />
 		<text id="preparestep_omelette_chili" name="Chili hacken" />
 		<text id="preparestep_onionsoup_chili" name="Chili schneiden" />
 		<text id="preparestep_peasoup_parsley" name="Petersilie hacken" />
@@ -2397,21 +2397,21 @@
 		<text id="preparestep_pumpkinspicelatte_cinnamon" name="Zimt hobeln" />
 		<text id="preparestep_spookymousse_nutmeg" name="Muskatnuss hobeln" />
 		<text id="preparestep_fallchips_rosemary" name="Add rosemary" />
-		<text id="preparestep_fallchips_eventspice" name="Use event spice" />
+		<text id="preparestep_fallchips_eventspice" name="Event Gewürz verteilen" />
 		<text id="preparestep_orangecompote_vanilla" name="Scrap vanilla" />
-		<text id="preparestep_orangecompote_eventspice" name="Spread event spice" />
+		<text id="preparestep_orangecompote_eventspice" name="Event Gewürz verteilen" />
 		<text id="preparestep_citruscompote_vanilla" name="Scrap vanilla" />
-		<text id="preparestep_citruscompote_eventspice" name="Spread event spice" />
-		<text id="preparestep_pierogi_parsley" name="chop parsley" />
-		<text id="preparestep_pierogi_eventspice" name="spread event spice" />
-		<text id="preparestep_fourcheesepizza_parsley" name="chop parsley" />
-		<text id="preparestep_fourcheesepizza_eventspice" name="spread event spice" />
-		<text id="preparestep_superchocolatecake_cinnamon" name="grate cinnamon" />
-		<text id="preparestep_superchocolatecake_eventspice" name="spread event spice" />
-		<text id="preparestep_chickencurry_coriander" name="add coriander" />
-		<text id="preparestep_chickencurry_eventspice" name="spread event spice" />
-		<text id="preparestep_spookyfondue_horseradish" name="add magical ingredient" />
-		<text id="preparestep_spookyfondue_eventspice" name="spread event spice spookily" />
+		<text id="preparestep_citruscompote_eventspice" name="Event Gewürz verteilen" />
+		<text id="preparestep_pierogi_parsley" name="Petersilie hacken" />
+		<text id="preparestep_pierogi_eventspice" name="Event Gewürz verteilen" />
+		<text id="preparestep_fourcheesepizza_parsley" name="Petersilie hacken" />
+		<text id="preparestep_fourcheesepizza_eventspice" name="Event Gewürz verteilen" />
+		<text id="preparestep_superchocolatecake_cinnamon" name="Zimt hinzufügen" />
+		<text id="preparestep_superchocolatecake_eventspice" name="Event Gewürz verteilen" />
+		<text id="preparestep_chickencurry_coriander" name="Koriander hinzufügen" />
+		<text id="preparestep_chickencurry_eventspice" name="Event Gewürz verteilen" />
+		<text id="preparestep_spookyfondue_horseradish" name="Magische Zutat hinzufügen" />
+		<text id="preparestep_spookyfondue_eventspice" name="Event Gewürz erschreckend verteilen" />
 		<text id="preparestep_whitechocmousse_vanilla" name="Vanille ausschaben" />
 	</preparestep_fancy>
 	<recipe>
@@ -2419,9 +2419,9 @@
 		<text id="recipe_brigadeiro" name="Brigadeiro" />
 		<text id="recipe_beefstew" name="Gulasch" />
 		<text id="recipe_pizzasalad" name="Pizza mit Salat" />
-		<text id="recipe_tripleomelette" name="Dreifach Omelette" />
+		<text id="recipe_tripleomelette" name="Dreifach Omelett" />
 		<text id="recipe_chocolatewaffles" name="Schokoladenwaffeln" />
-		<text id="recipe_spanishomelette" name="Spanisches Omelette" />
+		<text id="recipe_spanishomelette" name="Spanisches Omelett" />
 		<text id="recipe_sausagepasta" name="Spaghetti mit Würstchen" />
 		<text id="recipe_applepie" name="Apfelkuchen" />
 		<text id="recipe_ramen" name="Ramen" />
@@ -2525,7 +2525,7 @@
 		<text id="recipe_noodlesalad" name="Nudelsalat" />
 		<text id="recipe_omelette" name="Omelett" />
 		<text id="recipe_onionsoup" name="Überbackene Zwiebelsuppe" />
-		<text id="recipe_goldenomelette" name="Golden Omelette" />
+		<text id="recipe_goldenomelette" name="Goldenes Omelett" />
 		<text id="recipe_peasoup" name="Erbsensuppe" />
 		<text id="recipe_pizza" name="Pizza" />
 		<text id="recipe_pizzahawaii" name="Pizza Hawaii" />
@@ -2566,7 +2566,7 @@
 		<text id="recipe_croissant" name="Croissant" />
 		<text id="recipe_vegetariansushi" name="Vegetarisches Sushi" />
 		<text id="recipe_passionfruitmousse" name="Passionsfrucht-Mousse" />
-		<text id="recipe_passionfruitfondue" name="Passionsfrucht-Fondue" />
+		<text id="recipe_passionfruitfondue" name="Passionsfruchtfondue" />
 		<text id="recipe_passionfruitjuice" name="Passionsfrucht Saft" />
 		<text id="recipe_passionfruitcheesecake" name="Passionsfrucht Käsekuchen" />
 		<text id="recipe_pietray" name="Kuchen-Bankett" />
@@ -2577,18 +2577,18 @@
 		<text id="recipe_pumpkincake" name="Kürbistorte" />
 		<text id="recipe_sugarglazeroastchicken" name="Glasiertes Brathähnchen" />
 		<text id="recipe_pumpkinsoup" name="Kürbissuppe" />
-		<text id="recipe_pumpkinfondue" name="Kürbis-Fondue" />
+		<text id="recipe_pumpkinfondue" name="Kürbisfondue" />
 		<text id="recipe_krabbypatty" name="Krabbenburger" />
 		<text id="recipe_pumpkinspicelatte" name="Pumpkin Spice Latte" />
 		<text id="recipe_spookymousse" name="Grusel Mousse" />
 		<text id="recipe_fallchips" name="Fall Chips" />
-		<text id="recipe_orangecompote" name="Orange Compote" />
-		<text id="recipe_citruscompote" name="Citrus Compote" />
+		<text id="recipe_orangecompote" name="Orangenkompott" />
+		<text id="recipe_citruscompote" name="Zitruskompott" />
 		<text id="recipe_pierogi" name="Pierogi" />
-		<text id="recipe_fourcheesepizza" name="Four Cheese Pizza" />
-		<text id="recipe_superchocolatecake" name="Super Chocolate Cake" />
-		<text id="recipe_chickencurry" name="Chicken Curry" />
-		<text id="recipe_spookyfondue" name="Spooky Fondue" />
+		<text id="recipe_fourcheesepizza" name="Pizza Vier Käse" />
+		<text id="recipe_superchocolatecake" name="Super Schokokuchen" />
+		<text id="recipe_chickencurry" name="Curryhuhn" />
+		<text id="recipe_spookyfondue" name="Gruselfondue" />
 	</recipe>
 	<recipes_fastfood>
 		<text id="recipe_smoothiemaker_greensmoothie" name="Grüner Smoothie" />
