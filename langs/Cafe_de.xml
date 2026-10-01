@@ -1899,6 +1899,64 @@
 		<text id="preparestep_gourmetcheesedish_cheese" name="Käse schneiden" />
 		<text id="preparestep_bluecheesefondue_cheese" name="Käse schmelzen" />
 		<text id="preparestep_bluecheesefondue_garlic" name="Knoblauch auspressen" />
+		<text id="preparestep_pumpkinpie_pumpkin" name="Kürbis zermatschen" />
+		<text id="preparestep_pumpkinpie_sugar" name="Zucker hinzufügen" />
+		<text id="preparestep_pumpkinpie_eggs" name="Eier öffnen" />
+		<text id="preparestep_pumpkinpie_milk" name="Milch hinzufügen" />
+		<text id="preparestep_pumpkinpie_cream" name="Sahne schlagen" />
+		<text id="preparestep_pumpkincake_pumpkin" name="Kürbis waschen" />
+		<text id="preparestep_pumpkincake_flour" name="Mehl sieben" />
+		<text id="preparestep_pumpkincake_sugar" name="Zucker karamelisieren" />
+		<text id="preparestep_pumpkincake_eggs" name="Eier öffnen" />
+		<text id="preparestep_pumpkincake_cream" name="Zuckerguss erstellen" />
+		<text id="preparestep_sugarglazeroastchicken_chicken" name="Huhn auftauen" />
+		<text id="preparestep_sugarglazeroastchicken_sugar" name="Zucker karamelisieren" />
+		<text id="preparestep_sugarglazeroastchicken_potato" name="Kartoffeln schälen" />
+		<text id="preparestep_sugarglazeroastchicken_onion" name="Zwiebeln schneiden" />
+		<text id="preparestep_sugarglazeroastchicken_garlic" name="Knoblauch zerdrücken" />
+		<text id="preparestep_pumpkinsoup_pumpkin" name="Kürbis zerdrücken" />
+		<text id="preparestep_pumpkinsoup_tomato" name="Tomaten schälen" />
+		<text id="preparestep_pumpkinsoup_onion" name="Zwiebeln schneiden" />
+		<text id="preparestep_pumpkinsoup_cream" name="Sahne schlagen" />
+		<text id="preparestep_pumpkinfondue_pumpkin" name="Kürbis zerdrücken" />
+		<text id="preparestep_pumpkinfondue_cheese" name="Käse schneiden" />
+		<text id="preparestep_krabbypatty_pinapple" name="Patties erstellen" />
+		<text id="preparestep_krabbypatty_flour" name="Semmel backen" />
+		<text id="preparestep_krabbypatty_tomato" name="Tomaten waschen" />
+		<text id="preparestep_krabbypatty_cheese" name="Käse organisieren" />
+		<text id="preparestep_krabbypatty_lettuce" name="Salat waschen" />
+		<text id="preparestep_pumpkinspicelatte_milk" name="Milch erhitzen" />
+		<text id="preparestep_pumpkinspicelatte_pumpkin" name="Kürbis zerdrücken" />
+		<text id="preparestep_pumpkinspicelatte_sugar" name="Zucker hinzufügen" />
+		<text id="preparestep_spookymousse_milk" name="Milch ausschenken" />
+		<text id="preparestep_spookymousse_whitechocolat" name="Schokolade schmelzen" />
+		<text id="preparestep_spookymousse_sugar" name="Geist ködern" />
+		<text id="preparestep_fallchips_pumpkin" name="Kürbis zerdrücken" />
+		<text id="preparestep_fallchips_potato" name="Kartoffeln schälen" />
+		<text id="preparestep_fallchips_oil" name="Öl erhitzen" />
+		<text id="preparestep_orangecompote_orange" name="Orangen aufschneiden" />
+		<text id="preparestep_orangecompote_sugar" name="Zucker karamellisieren" />
+		<text id="preparestep_citruscompote_citrus" name="Zitrus aufschneiden" />
+		<text id="preparestep_citruscompote_sugar" name="Zucker karamellisieren" />
+		<text id="preparestep_pierogi_potato" name="Kartoffeln schälen" />
+		<text id="preparestep_pierogi_flour" name="Mehl sieben" />
+		<text id="preparestep_pierogi_onion" name="Zwiebeln schneiden" />
+		<text id="preparestep_pierogi_meat" name="Fleisch dünn schneiden" />
+		<text id="preparestep_fourcheesepizza_flour" name="Mehl sieben" />
+		<text id="preparestep_fourcheesepizza_cheese" name="Käse schneiden" />
+		<text id="preparestep_superchocolatecake_flour" name="Viel Mehl sieben" />
+		<text id="preparestep_superchocolatecake_chocolate" name="Viel Schokolade schmelzen" />
+		<text id="preparestep_superchocolatecake_sugar" name="Viel Zucker hinzufügen" />
+		<text id="preparestep_superchocolatecake_eggs" name="Viele Eier aufschlagen" />
+		<text id="preparestep_superchocolatecake_milk" name="Viel Milch hinzufügen" />
+		<text id="preparestep_chickencurry_chicken" name="Huhn schneiden" />
+		<text id="preparestep_chickencurry_curryspice" name="Curry verteilen" />
+		<text id="preparestep_chickencurry_tomato" name="Tomaten schneiden" />
+		<text id="preparestep_chickencurry_onion" name="Zwiebeln schneiden" />
+		<text id="preparestep_chickencurry_rice" name="Reis kochen" />
+		<text id="preparestep_spookyfondue_cheese" name="Käse schneiden" />
+		<text id="preparestep_spookyfondue_cream" name="Sahne böse aufschlagen" />
+		<text id="preparestep_spookyfondue_citrus" name="Grüne Farbe machen" />
 		<text id="preparestep_greensalad_cookfest" name="schnelle Zutaten benutzen" />
 		<text id="preparestep_omelette_cookfest" name="schnelle Zutaten benutzen" />
 		<text id="preparestep_tomatosoup_cookfest" name="schnelle Zutaten benutzen" />
@@ -2039,71 +2097,13 @@
 		<text id="preparestep_krabbypatty_cookfest" name="schnelle Zutaten benutzen" />
 		<text id="preparestep_pumpkinspicelatte_cookfest" name="schnelle Zutaten benutzen" />
 		<text id="preparestep_spookymousse_cookfest" name="schnelle Zutaten benutzen" />
-		<text id="preparestep_pumpkinpie_pumpkin" name="Kürbis zermatschen" />
-		<text id="preparestep_pumpkinpie_sugar" name="Zucker hinzufügen" />
-		<text id="preparestep_pumpkinpie_eggs" name="Eier öffnen" />
-		<text id="preparestep_pumpkinpie_milk" name="Milch hinzufügen" />
-		<text id="preparestep_pumpkinpie_cream" name="Sahne schlagen" />
-		<text id="preparestep_pumpkincake_pumpkin" name="Kürbis waschen" />
-		<text id="preparestep_pumpkincake_flour" name="Mehl sieben" />
-		<text id="preparestep_pumpkincake_sugar" name="Zucker karamelisieren" />
-		<text id="preparestep_pumpkincake_eggs" name="Eier öffnen" />
-		<text id="preparestep_pumpkincake_cream" name="Zuckerguss erstellen" />
-		<text id="preparestep_sugarglazeroastchicken_chicken" name="Huhn auftauen" />
-		<text id="preparestep_sugarglazeroastchicken_sugar" name="Zucker karamelisieren" />
-		<text id="preparestep_sugarglazeroastchicken_potato" name="Kartoffeln schälen" />
-		<text id="preparestep_sugarglazeroastchicken_onion" name="Zwiebeln schneiden" />
-		<text id="preparestep_sugarglazeroastchicken_garlic" name="Knoblauch zerdrücken" />
-		<text id="preparestep_pumpkinsoup_pumpkin" name="Kürbis zerdrücken" />
-		<text id="preparestep_pumpkinsoup_tomato" name="Tomaten schälen" />
-		<text id="preparestep_pumpkinsoup_onion" name="Zwiebeln schneiden" />
-		<text id="preparestep_pumpkinsoup_cream" name="Sahne schlagen" />
-		<text id="preparestep_pumpkinfondue_pumpkin" name="Kürbis zerdrücken" />
-		<text id="preparestep_pumpkinfondue_cheese" name="Käse schneiden" />
-		<text id="preparestep_krabbypatty_pinapple" name="Patties erstellen" />
-		<text id="preparestep_krabbypatty_flour" name="Semmel backen" />
-		<text id="preparestep_krabbypatty_tomato" name="Tomaten waschen" />
-		<text id="preparestep_krabbypatty_cheese" name="Käse organisieren" />
-		<text id="preparestep_krabbypatty_lettuce" name="Salat waschen" />
-		<text id="preparestep_pumpkinspicelatte_milk" name="Milch erhitzen" />
-		<text id="preparestep_pumpkinspicelatte_pumpkin" name="Kürbis zerdrücken" />
-		<text id="preparestep_pumpkinspicelatte_sugar" name="Zucker hinzufügen" />
-		<text id="preparestep_spookymousse_milk" name="Milch ausschenken" />
-		<text id="preparestep_spookymousse_whitechocolat" name="Schokolade schmelzen" />
-		<text id="preparestep_spookymousse_sugar" name="Geist ködern" />
-		<text id="preparestep_fallchips_pumpkin" name="Kürbis zerdrücken" />
-		<text id="preparestep_fallchips_potato" name="Kartoffeln schälen" />
-		<text id="preparestep_fallchips_oil" name="Öl erhitzen" />
 		<text id="preparestep_fallchips_cookfest" name="schnelle Zutaten benutzen" />
-		<text id="preparestep_orangecompote_orange" name="Orangen aufschneiden" />
-		<text id="preparestep_orangecompote_sugar" name="Zucker karamellisieren" />
 		<text id="preparestep_orangecompote_cookfest" name="schnelle Zutaten benutzen" />
-		<text id="preparestep_citruscompote_citrus" name="Zitrus aufschneiden" />
-		<text id="preparestep_citruscompote_sugar" name="Zucker karamellisieren" />
-		<text id="preparestep_citruscompote_cookfest" name="schnelle Zutaten benutzen" />
-		<text id="preparestep_pierogi_potato" name="Kartoffeln schälen" />
-		<text id="preparestep_pierogi_flour" name="Mehl sieben" />
-		<text id="preparestep_pierogi_onion" name="Zwiebeln schneiden" />
-		<text id="preparestep_pierogi_meat" name="Fleisch dünn schneiden" />
 		<text id="preparestep_pierogi_cookfest" name="schnelle Zutaten benutzen" />
-		<text id="preparestep_fourcheesepizza_flour" name="Mehl sieben" />
-		<text id="preparestep_fourcheesepizza_cheese" name="Käse schneiden" />
-		<text id="preparestep_fourcheesepizza_cookfest" name="schnelle Zutaten benutzen" />
-		<text id="preparestep_superchocolatecake_flour" name="Viel Mehl sieben" />
-		<text id="preparestep_superchocolatecake_chocolate" name="Viel Schokolade schmelzen" />
-		<text id="preparestep_superchocolatecake_sugar" name="Viel Zucker hinzufügen" />
-		<text id="preparestep_superchocolatecake_eggs" name="Viele Eier aufschlagen" />
-		<text id="preparestep_superchocolatecake_milk" name="Viel Milch hinzufügen" />
+		<text id="preparestep_citruscompote_cookfest" name="schnelle Zutaten benutzen" />
 		<text id="preparestep_superchocolatecake_cookfest" name="schnelle Zutaten benutzen" />
-		<text id="preparestep_chickencurry_chicken" name="Huhn schneiden" />
-		<text id="preparestep_chickencurry_curryspice" name="Curry verteilen" />
-		<text id="preparestep_chickencurry_tomato" name="Tomaten schneiden" />
-		<text id="preparestep_chickencurry_onion" name="Zwiebeln schneiden" />
-		<text id="preparestep_chickencurry_rice" name="Reis kochen" />
 		<text id="preparestep_chickencurry_cookfest" name="schnelle Zutaten benutzen" />
-		<text id="preparestep_spookyfondue_cheese" name="Käse schneiden" />
-		<text id="preparestep_spookyfondue_cream" name="Sahne böse aufschlagen" />
-		<text id="preparestep_spookyfondue_citrus" name="Grüne Farbe machen" />
+		<text id="preparestep_fourcheesepizza_cookfest" name="schnelle Zutaten benutzen" />
 		<text id="preparestep_spookyfondue_cookfest" name="schnelle Zutaten benutzen" />
 	</preparestep>
 	<preparestep_fancy>
@@ -2248,6 +2248,23 @@
 		<text id="preparestep_meatstuffedpeppers_chili" name="Chili hacken" />
 		<text id="preparestep_gourmetcheesedish_coriander" name="Koriander hacken" />
 		<text id="preparestep_bluecheesefondue_parsley" name="Petersilie hacken" />
+		<text id="preparestep_pumpkinpie_nutmeg" name="Muskatnuss hobeln" />
+		<text id="preparestep_pumpkincake_cinnamon" name="Zimt hobeln" />
+		<text id="preparestep_sugarglazeroastchicken_parsley" name="Petersilie hacken" />
+		<text id="preparestep_pumpkinsoup_chili" name="Chili schneiden" />
+		<text id="preparestep_pumpkinfondue_chili" name="Chili schneiden" />
+		<text id="preparestep_krabbypatty_chili" name="Scharfe Soße machen" />
+		<text id="preparestep_pumpkinspicelatte_cinnamon" name="Zimt hobeln" />
+		<text id="preparestep_spookymousse_nutmeg" name="Muskatnuss hobeln" />
+		<text id="preparestep_fallchips_rosemary" name="Rosmarin hinzufügen" />
+		<text id="preparestep_orangecompote_vanilla" name="Vanille ausschaben" />
+		<text id="preparestep_citruscompote_vanilla" name="Vanille ausschaben" />
+		<text id="preparestep_pierogi_parsley" name="Petersilie hacken" />
+		<text id="preparestep_fourcheesepizza_parsley" name="Petersilie hacken" />
+		<text id="preparestep_superchocolatecake_cinnamon" name="Zimt hinzufügen" />
+		<text id="preparestep_chickencurry_coriander" name="Koriander hinzufügen" />
+		<text id="preparestep_spookyfondue_horseradish" name="Magische Zutat hinzufügen" />
+		<text id="preparestep_whitechocmousse_vanilla" name="Vanille ausschaben" />
 		<text id="preparestep_greensalad_eventspice" name="Event Gewürz verteilen" />
 		<text id="preparestep_omelette_eventspice" name="Event Gewürz verteilen" />
 		<text id="preparestep_tomatosoup_eventspice" name="Event Gewürz verteilen" />
@@ -2388,31 +2405,14 @@
 		<text id="preparestep_krabbypatty_eventspice" name="Event Gewürz verteilen" />
 		<text id="preparestep_pumpkinspicelatte_eventspice" name="Event Gewürz verteilen" />
 		<text id="preparestep_spookymousse_eventspice" name="Event Gewürz verteilen" />
-		<text id="preparestep_pumpkinpie_nutmeg" name="Muskatnuss hobeln" />
-		<text id="preparestep_pumpkincake_cinnamon" name="Zimt hobeln" />
-		<text id="preparestep_sugarglazeroastchicken_parsley" name="Petersilie hacken" />
-		<text id="preparestep_pumpkinsoup_chili" name="Chili schneiden" />
-		<text id="preparestep_pumpkinfondue_chili" name="Chili schneiden" />
-		<text id="preparestep_krabbypatty_chili" name="Scharfe Soße machen" />
-		<text id="preparestep_pumpkinspicelatte_cinnamon" name="Zimt hobeln" />
-		<text id="preparestep_spookymousse_nutmeg" name="Muskatnuss hobeln" />
-		<text id="preparestep_fallchips_rosemary" name="Add rosemary" />
 		<text id="preparestep_fallchips_eventspice" name="Event Gewürz verteilen" />
-		<text id="preparestep_orangecompote_vanilla" name="Scrap vanilla" />
 		<text id="preparestep_orangecompote_eventspice" name="Event Gewürz verteilen" />
-		<text id="preparestep_citruscompote_vanilla" name="Scrap vanilla" />
 		<text id="preparestep_citruscompote_eventspice" name="Event Gewürz verteilen" />
-		<text id="preparestep_pierogi_parsley" name="Petersilie hacken" />
 		<text id="preparestep_pierogi_eventspice" name="Event Gewürz verteilen" />
-		<text id="preparestep_fourcheesepizza_parsley" name="Petersilie hacken" />
 		<text id="preparestep_fourcheesepizza_eventspice" name="Event Gewürz verteilen" />
-		<text id="preparestep_superchocolatecake_cinnamon" name="Zimt hinzufügen" />
 		<text id="preparestep_superchocolatecake_eventspice" name="Event Gewürz verteilen" />
-		<text id="preparestep_chickencurry_coriander" name="Koriander hinzufügen" />
 		<text id="preparestep_chickencurry_eventspice" name="Event Gewürz verteilen" />
-		<text id="preparestep_spookyfondue_horseradish" name="Magische Zutat hinzufügen" />
 		<text id="preparestep_spookyfondue_eventspice" name="Event Gewürz erschreckend verteilen" />
-		<text id="preparestep_whitechocmousse_vanilla" name="Vanille ausschaben" />
 	</preparestep_fancy>
 	<recipe>
 		<text id="recipe_bananasplit" name="Bananensplit" />
