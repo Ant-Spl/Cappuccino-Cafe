@@ -2412,6 +2412,7 @@
 		<text id="preparestep_fourcheesepizza_eventspice" name="Event Gewürz verteilen" />
 		<text id="preparestep_superchocolatecake_eventspice" name="Event Gewürz verteilen" />
 		<text id="preparestep_chickencurry_eventspice" name="Event Gewürz verteilen" />
+		<text id="preparestep_sweetpizza_eventspice" name="spread event spice" />
 		<text id="preparestep_spookyfondue_eventspice" name="Event Gewürz erschreckend verteilen" />
 	</preparestep_fancy>
 	<recipe>
