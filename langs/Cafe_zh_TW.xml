@@ -2420,6 +2420,7 @@
 		<text id="preparestep_chickencurry_eventspice" name="spread event spice" />
 		<text id="preparestep_spookyfondue_horseradish" name="add magical ingredient" />
 		<text id="preparestep_spookyfondue_eventspice" name="spread event spice spookily" />
+		<text id="preparestep_sweetpizza_eventspice" name="spread event spice" />
 		<text id="preparestep_whitechocmousse_vanilla" name="香草切成碎片" />
 	</preparestep_fancy>
 	<recipe>

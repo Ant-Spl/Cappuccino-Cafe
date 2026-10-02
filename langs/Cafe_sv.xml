@@ -2417,6 +2417,7 @@
 		<text id="preparestep_chickencurry_eventspice" name="spread event spice" />
 		<text id="preparestep_spookyfondue_horseradish" name="add magical ingredient" />
 		<text id="preparestep_spookyfondue_eventspice" name="spread event spice spookily" />
+		<text id="preparestep_sweetpizza_eventspice" name="spread event spice" />
 		<text id="preparestep_pizzasalad_chili" name="Hacka chili" />
 	</preparestep_fancy>
 	<recipe>
