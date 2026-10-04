@@ -1005,7 +1005,7 @@
 	<wod id="2126" n="Basic" g="Coop" t="26" events="0" maxMember="5" maxLevel="29" chips="13955" xp="737" gold="9" duration="8880" dishes="1223+80#1214+90#1209+60#1226+45" />
 	<wod id="2127" n="Basic" g="Coop" t="27" events="0" maxMember="5" maxLevel="27" chips="22000" xp="576" gold="8" duration="8880" dishes="2226+50#1225+30#2245+200" />
 	<wod id="2128" n="Basic" g="Coop" t="28" events="0" maxMember="5" maxLevel="29" chips="7700" xp="368" gold="7" duration="7560" dishes="2215+60#1203+40#2222+30#1226+20" />
-	<wod id="2129" n="Basic" g="Coop" t="31" events="0" maxMember="5" maxLevel="36" chips="40957" xp="1783" gold="10" duration="13480" dishes="1258+50#1259+50#2250+150#2311+50" />
+	<wod id="2129" n="Basic" g="Coop" t="31" events="0" maxMember="5" maxLevel="129" chips="40957" xp="1783" gold="10" duration="13480" dishes="1258+50#1259+50#2250+150#2311+50" />
 	<wod id="2130" n="Basic" g="Coop" t="30" events="0" maxMember="5" maxLevel="33" chips="16588" xp="299" gold="5" duration="7560" dishes="1260+25#1261+30#1256+150" />
 	<wod id="2131" n="Basic" g="Coop" t="32" events="0" maxMember="5" maxLevel="34" chips="32025" xp="705" gold="7" duration="8880" dishes="2244+30#2248+30#2247+30#2241+300" />
 	<wod id="2132" n="Basic" g="Coop" t="33" events="0" maxMember="5" maxLevel="37" chips="9538" xp="353" gold="4" duration="7560" dishes="2251+20#2235+5#2242+20#2229+70" />
@@ -1022,25 +1022,25 @@
 	<wod id="2143" n="Basic" g="Coop" t="44" events="0" maxMember="5" maxLevel="2" chips="11250" xp="103" gold="7" duration="8880" dishes="1201+300#1204+100#2279+450#1203+15" />
 	<wod id="2144" n="Basic" g="Coop" t="45" events="0" maxMember="5" maxLevel="28" chips="58365" xp="533" gold="9" duration="8880" dishes="2291+300#2288+33#2289+33" />
 	<wod id="2145" n="Basic" g="Coop" t="46" events="0" maxMember="5" maxLevel="30" chips="10125" xp="812" gold="8" duration="8880" dishes="2242+20#2270+60#1224+40" />
-	<wod id="2146" n="Basic" g="Coop" t="47" events="0" maxMember="5" maxLevel="129" chips="33628" xp="1153" gold="9" duration="8880" dishes="2267+300#1244+100#1245+30#1232+25" />
-	<wod id="2147" n="Basic" g="Coop" t="48" events="0" maxMember="5" maxLevel="29" chips="27775" xp="1938" gold="10" duration="13480" dishes="2250+100#1226+70#1225+50#2238+50" />
-	<wod id="2148" n="Basic" g="Coop" t="49" events="0" maxMember="5" maxLevel="129" chips="24870" xp="807" gold="8" duration="8880" dishes="1247+30#2263+25#2274+90#1248+90" />
+	<wod id="2146" n="Basic" g="Coop" t="47" events="0" maxMember="5" maxLevel="49" chips="33628" xp="1153" gold="9" duration="8880" dishes="2267+300#1244+100#1245+30#1232+25" />
+	<wod id="2147" n="Basic" g="Coop" t="48" events="0" maxMember="5" maxLevel="129" chips="27775" xp="1938" gold="10" duration="13480" dishes="2250+100#1226+70#1225+50#2238+50" />
+	<wod id="2148" n="Basic" g="Coop" t="49" events="0" maxMember="5" maxLevel="59" chips="24870" xp="807" gold="8" duration="8880" dishes="1247+30#2263+25#2274+90#1248+90" />
 	<wod id="2149" n="Basic" g="Coop" t="50" events="0" maxMember="5" maxLevel="39" chips="11375" xp="573" gold="8" duration="8880" dishes="2276+15#2283+40#2235+20" />
 	<wod id="2150" n="Basic" g="Coop" t="51" events="0" maxMember="5" maxLevel="19" chips="10795" xp="175" gold="5" duration="4560" dishes="2279+150#1215+20#1221+100" />
 	<wod id="2151" n="Basic" g="Coop" t="52" events="0" maxMember="5" maxLevel="26" chips="6095" xp="377" gold="6" duration="7560" dishes="2227+10#1222+20#2248+20#1243+40" />
-	<wod id="2152" n="Basic" g="Coop" t="53" events="0" maxMember="5" maxLevel="42" chips="21363" xp="1563" gold="10" duration="13480" dishes="1213+50#1238+100#2290+50#2296+25" />
+	<wod id="2152" n="Basic" g="Coop" t="53" events="0" maxMember="5" maxLevel="129" chips="21363" xp="1563" gold="10" duration="13480" dishes="1213+50#1238+100#2290+50#2296+25" />
 	<wod id="2153" n="Basic" g="Coop" t="54" events="0" maxMember="5" maxLevel="1" chips="2845" xp="19" gold="3" duration="2520" dishes="1203+10#1201+30#1204+30#1255+70" />
 	<wod id="2154" n="Basic" g="Coop" t="55" events="0" maxMember="5" maxLevel="34" chips="48315" xp="60" gold="5" duration="4000" dishes="2241+175#2231+200#2229+150#2291+150" />
 	<wod id="2155" n="Basic" g="Coop" t="56" events="0" maxMember="5" maxLevel="42" chips="51647" xp="88" gold="5" duration="4000" dishes="2232+200#2233+200#2234+150#2243+150" />
 	<wod id="2156" n="Basic" g="Coop" t="57" events="0" maxMember="5" maxLevel="42" chips="17106" xp="903" gold="9" duration="8880" dishes="2243+100#2255+35#2242+35#2285+100" />
-	<wod id="2157" n="Basic" g="Coop" t="58" events="0" maxMember="5" maxLevel="38" chips="29640" xp="1826" gold="10" duration="13480" dishes="2252+60#2225+60#1214+200#2217+80" />
+	<wod id="2157" n="Basic" g="Coop" t="58" events="0" maxMember="5" maxLevel="129" chips="29640" xp="1826" gold="10" duration="13480" dishes="2252+60#2225+60#1214+200#2217+80" />
 	<wod id="2158" n="Basic" g="Coop" t="59" events="0" maxMember="5" maxLevel="39" chips="19050" xp="1418" gold="10" duration="8880" dishes="1225+50#1247+70#1233+50" />
 	<wod id="2159" n="Basic" g="Coop" t="60" events="0" maxMember="5" maxLevel="60" chips="50231" xp="731" gold="9" duration="8880" dishes="2241+420#2215+100#1224+50#2302+15" />
 	<wod id="2160" n="Basic" g="Coop" t="61" events="0" maxMember="5" maxLevel="40" chips="20603" xp="943" gold="10" duration="13480" dishes="2257+40#1227+50#1241+100#2285+200" />
-	<wod id="2161" n="Basic" g="Coop" t="62" events="0" maxMember="5" maxLevel="41" chips="16331" xp="2007" gold="10" duration="13480" dishes="1234+25#1232+45#2242+40" />
+	<wod id="2161" n="Basic" g="Coop" t="62" events="0" maxMember="5" maxLevel="129" chips="16331" xp="2007" gold="10" duration="13480" dishes="1234+25#1232+45#2242+40" />
 	<wod id="2162" n="Basic" g="Coop" t="63" events="0" maxMember="5" maxLevel="29" chips="18236" xp="296" gold="6" duration="7560" dishes="2261+20#2228+25#2285+150#2273+125" />
 	<wod id="2163" n="Basic" g="Coop" t="64" events="0" maxMember="5" maxLevel="35" chips="25424" xp="918" gold="9" duration="8880" dishes="2246+160#2268+80#1240+35#2249+25" />
-	<wod id="2164" n="Basic" g="Coop" t="65" events="0" maxMember="5" maxLevel="39" chips="36058" xp="2267" gold="10" duration="13480" dishes="2255+60#2252+50#1260+60#2233+400" />
+	<wod id="2164" n="Basic" g="Coop" t="65" events="0" maxMember="5" maxLevel="129" chips="36058" xp="2267" gold="10" duration="13480" dishes="2255+60#2252+50#1260+60#2233+400" />
 	<wod id="2201" n="Smoothie" g="Fastfood" t="Tomatojuice" cash="1000" gold="0" friends="0" goldNoFriends="0" releaseDate="0" world="0" events="0" xp="5" level="0" incomePerServing="1" servings="10" color="D83600" ratingBonus="20" />
 	<wod id="2202" n="Smoothie" g="Fastfood" t="Greensmoothie" cash="2500" gold="0" friends="0" goldNoFriends="0" releaseDate="0" world="0" events="0" xp="8" level="0" incomePerServing="2" servings="60" color="B1CC28" ratingBonus="40" />
 	<wod id="2203" n="Smoothie" g="Fastfood" t="Kiba" cash="0" gold="1" friends="0" goldNoFriends="0" releaseDate="0" world="0" events="0" xp="12" level="0" incomePerServing="3" servings="400" color="E65C8A" ratingBonus="60" />
