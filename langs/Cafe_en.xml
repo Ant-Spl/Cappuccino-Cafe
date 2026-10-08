@@ -799,7 +799,7 @@
 		<text id="dialogwin_giftbox_friendlist_empty" name="You can send your network friends one gift per day." />
 		<text id="dialogwin_giftbox_friendlist_notavailable" name="You can send gifts to your friends from tomorrow onwards!" />
 		<text id="dialogwin_giftbox_ggsgifts_empty" name="No gifts! You will receive new gifts with the login bonus!" />
-		<text id="dialogwin_giftbox_mygifts_empty" name="You havn't received any gifts today. Send some to your friends, maybe they'll send you something back." />
+		<text id="dialogwin_giftbox_mygifts_empty" name="You haven't received any gifts today. Send some to your friends, maybe they'll send you something back." />
 		<text id="dialogwin_giftbox_remove" name="Delete" />
 		<text id="dialogwin_giftbox_send" name="Send" />
 		<text id="dialogwin_giftbox_sendablegifts_empty" name="No gifts today." />
