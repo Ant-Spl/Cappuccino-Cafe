@@ -1285,6 +1285,7 @@
 		<text id="panelwin_social_welcome_marketplace" name="Che piacere averti qui! Clicca sulla lavagna se cerchi un lavoro!" />
 		<text id="panelwin_social_welcome_mycafe" name="Salve Chef! Se hai bisogno di aiuto, porre una domanda o segnalare un giocatore, contattaci sul nostro server Discord!" />
 		<text id="panelwin_social_writeable" name="Solo gli utenti registrati e che hanno raggiunto il livello 1 possono utilizzare la chat." />
+		<text id="capp_dekoshop_exclusive_tooltip" name="Cappuccino Exclusive Item" />
 		<text id="panelwin_deco_sort_default" name="Ordina per: Predefinito" />
 		<text id="panelwin_deco_sort_newest" name="Più recenti" />
 		<text id="panelwin_deco_sort_cash_asc" name="Prezzo (CaféDollar): crescente" />

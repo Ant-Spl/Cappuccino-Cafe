@@ -1286,6 +1286,7 @@
 		<text id="panelwin_social_welcome_marketplace" name="ようこそ! ジョブをお探しでしたら、掲示板をクリックしてください!" />
 		<text id="panelwin_social_welcome_mycafe" name="ようこそ!" />
 		<text id="panelwin_social_writeable" name="チャットの使用は、レベル1以上の登録済みプレイヤーのみ可能です。" />
+		<text id="capp_dekoshop_exclusive_tooltip" name="Cappuccino Exclusive Item" />
 		<text id="panelwin_deco_sort_default" name="Sort: Default" />
 		<text id="panelwin_deco_sort_newest" name="Newest released" />
 		<text id="panelwin_deco_sort_cash_asc" name="Price (Cash): low to high" />

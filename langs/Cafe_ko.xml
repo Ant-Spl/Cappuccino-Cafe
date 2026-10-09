@@ -1286,6 +1286,7 @@
 		<text id="panelwin_social_welcome_marketplace" name="환영합니다! 일을 찾고 계신다면 게시판을 클릭하세요!" />
 		<text id="panelwin_social_welcome_mycafe" name="환영합니다" />
 		<text id="panelwin_social_writeable" name="등록한 플레이어만 채팅기능을 사용할 수 있습니다." />
+		<text id="capp_dekoshop_exclusive_tooltip" name="Cappuccino Exclusive Item" />
 		<text id="panelwin_deco_sort_default" name="Sort: Default" />
 		<text id="panelwin_deco_sort_newest" name="Newest released" />
 		<text id="panelwin_deco_sort_cash_asc" name="Price (Cash): low to high" />

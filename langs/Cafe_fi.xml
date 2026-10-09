@@ -1286,6 +1286,7 @@
 		<text id="panelwin_social_welcome_marketplace" name="Tervetuloa! Klikkaa liitutaulua, jos olet etsimässä työtä!" />
 		<text id="panelwin_social_welcome_mycafe" name="Tervetuloa" />
 		<text id="panelwin_social_writeable" name="Sinun täytyy rekisteröityä ja saavuttaa taso 1 käyttääksesi chattia." />
+		<text id="capp_dekoshop_exclusive_tooltip" name="Cappuccino Exclusive Item" />
 		<text id="panelwin_deco_sort_default" name="Sort: Default" />
 		<text id="panelwin_deco_sort_newest" name="Newest released" />
 		<text id="panelwin_deco_sort_cash_asc" name="Price (Cash): low to high" />

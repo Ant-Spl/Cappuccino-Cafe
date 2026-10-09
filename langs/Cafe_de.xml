@@ -1286,6 +1286,7 @@
 		<text id="panelwin_social_welcome_marketplace" name="Willkommen! Klicke auf das Schwarze Brett, wenn du einen Job suchst!" />
 		<text id="panelwin_social_welcome_mycafe" name="Willkommen" />
 		<text id="panelwin_social_writeable" name="Nur registrierte Spieler ab Level 1 dürfen den Chat benutzen." />
+		<text id="capp_dekoshop_exclusive_tooltip" name="Cappuccino Exclusive Item" />
 		<text id="panelwin_deco_sort_default" name="Sortieren: Default" />
 		<text id="panelwin_deco_sort_newest" name="Neuste Veröffentlichung" />
 		<text id="panelwin_deco_sort_cash_asc" name="Preis (Cash): niedrig nach hoch" />

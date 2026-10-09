@@ -1286,6 +1286,7 @@
 		<text id="panelwin_social_welcome_marketplace" name="¡Bienvenido! ¡Haz clic sobre la cartelera si buscas un trabajo!" />
 		<text id="panelwin_social_welcome_mycafe" name="Bienvenido" />
 		<text id="panelwin_social_writeable" name="Sólo jugadores registrados a partir del nivel 1 pueden usar el chat." />
+		<text id="capp_dekoshop_exclusive_tooltip" name="Cappuccino Exclusive Item" />
 		<text id="panelwin_deco_sort_default" name="Ordenar: Predeterminado" />
 		<text id="panelwin_deco_sort_newest" name="Novedades" />
 		<text id="panelwin_deco_sort_cash_asc" name="Precio (Dinero): menos a más" />

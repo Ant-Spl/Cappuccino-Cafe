@@ -1290,6 +1290,7 @@
 		<text id="panelwin_social_welcome_marketplace" name="Bienvenue ! clique sur le tableau noir si tu recherches un emploi." />
 		<text id="panelwin_social_welcome_mycafe" name="Bienvenue" />
 		<text id="panelwin_social_writeable" name="Tu dois être inscrit et atteindre le niveau 1 pour utiliser le mode chat." />
+		<text id="capp_dekoshop_exclusive_tooltip" name="Cappuccino Exclusive Item" />
 		<text id="panelwin_deco_sort_default" name="Tri: Par défaut" />
 		<text id="panelwin_deco_sort_newest" name="Nouveautés en premier" />
 		<text id="panelwin_deco_sort_cash_asc" name="Prix (Dollars-café): ordre croissant" />
