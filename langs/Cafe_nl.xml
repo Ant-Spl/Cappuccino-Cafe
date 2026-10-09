@@ -1286,6 +1286,7 @@
 		<text id="panelwin_social_welcome_marketplace" name="Welkom! Klik op het krijtbord als je op zoek bent naar een job!" />
 		<text id="panelwin_social_welcome_mycafe" name="Welkom" />
 		<text id="panelwin_social_writeable" name="Je moet je aanmelden en level 1 bereikt hebben om te kunnen chatten." />
+		<text id="capp_dekoshop_exclusive_tooltip" name="Cappuccino Exclusive Item" />
 		<text id="panelwin_deco_sort_default" name="Sort: Default" />
 		<text id="panelwin_deco_sort_newest" name="Newest released" />
 		<text id="panelwin_deco_sort_cash_asc" name="Price (Cash): low to high" />

@@ -1286,6 +1286,7 @@
 		<text id="panelwin_social_welcome_marketplace" name="Velkommen! Klik på det sorte bræt, når du søger et job!" />
 		<text id="panelwin_social_welcome_mycafe" name="Velkommen" />
 		<text id="panelwin_social_writeable" name="Kun registrerede spillere fra level 1 af må benytte chatten." />
+		<text id="capp_dekoshop_exclusive_tooltip" name="Cappuccino Exclusive Item" />
 		<text id="panelwin_deco_sort_default" name="Sort: Default" />
 		<text id="panelwin_deco_sort_newest" name="Newest released" />
 		<text id="panelwin_deco_sort_cash_asc" name="Price (Cash): low to high" />

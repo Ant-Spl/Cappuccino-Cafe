@@ -1288,6 +1288,7 @@
 		<text id="panelwin_social_welcome_marketplace" name="Välkommen! Klicka på den svarta tavlan om du letar efter ett jobb!" />
 		<text id="panelwin_social_welcome_mycafe" name="Välkommen" />
 		<text id="panelwin_social_writeable" name="Du måste registrera dig och nå nivå 1 för att få använda chatfunktionen." />
+		<text id="capp_dekoshop_exclusive_tooltip" name="Cappuccino Exclusive Item" />
 		<text id="panelwin_deco_sort_default" name="Sort: Default" />
 		<text id="panelwin_deco_sort_newest" name="Newest released" />
 		<text id="panelwin_deco_sort_cash_asc" name="Price (Cash): low to high" />

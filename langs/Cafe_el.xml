@@ -1331,6 +1331,7 @@
 		<text id="panelwin_social_welcome_marketplace" name="Καλώς ήρθες! Επέλεξε το μαύρο πίνακα αν ψάχνεις για μια εργασία!" />
 		<text id="panelwin_social_welcome_mycafe" name="Καλώς ήρθες" />
 		<text id="panelwin_social_writeable" name="Πρέπει να κάνεις εγγραφή και να φτάσεις το επίπεδο 1 για να χρησιμοποιήσεις τη συζήτηση." />
+		<text id="capp_dekoshop_exclusive_tooltip" name="Cappuccino Exclusive Item" />
 		<text id="panelwin_deco_sort_default" name="Sort: Default" />
 		<text id="panelwin_deco_sort_newest" name="Newest released" />
 		<text id="panelwin_deco_sort_cash_asc" name="Price (Cash): low to high" />

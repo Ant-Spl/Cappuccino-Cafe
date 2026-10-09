@@ -1315,6 +1315,7 @@
 		<text id="panelwin_social_welcome_marketplace" name="欢迎光临！如果您正在寻找工作请点击黑板！" />
 		<text id="panelwin_social_welcome_mycafe" name="欢迎光临!" />
 		<text id="panelwin_social_writeable" name="您需要注册并且到达等级1才能使用聊天功能。" />
+		<text id="capp_dekoshop_exclusive_tooltip" name="Cappuccino Exclusive Item" />
 		<text id="panelwin_deco_sort_default" name="Sort: Default" />
 		<text id="panelwin_deco_sort_newest" name="Newest released" />
 		<text id="panelwin_deco_sort_cash_asc" name="Price (Cash): low to high" />
