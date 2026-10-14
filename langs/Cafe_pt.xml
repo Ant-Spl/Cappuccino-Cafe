@@ -509,6 +509,10 @@ Se você estocá-la, as porções existentes serão perdidas!" />
 		<text id="cookstep_chickencurry2" name="Cozinhando arroz" />
 		<text id="cookstep_spookyfondue1" name="Derretendo queijo" />
 		<text id="cookstep_spookyfondue2" name="Misturando a poção" />
+		<text id="cookstep_simplefruitsalad1" name="Lavando as frutas" />
+		<text id="cookstep_simplefruitsalad2" name="Montando as saladas" />
+		<text id="cookstep_whitechocpizza1" name="Derretendo chocolate" />
+		<text id="cookstep_whitechocpizza2" name="Adicionando frutas" />
 	</cookstep>
 	<coopmission>
 		<text id="coop_desc_long_1" name="Nós oferemos um curso de culinária para aperfeiçoar alguns pratos. Você gostaria de participar?" />
@@ -2127,6 +2131,18 @@ Apenas disponível por tempo limitado!" />
 		<text id="preparestep_spookyfondue_cream" name="bater creme" />
 		<text id="preparestep_spookyfondue_citrus" name="fazer corante verde" />
 		<text id="preparestep_spookyfondue_cookfest" name="usar ingredientes rápidos" />
+		<text id="preparestep_simplefruitsalad_banana" name="fatiar bananas" />
+		<text id="preparestep_simplefruitsalad_apple" name="cortar maçãs em cubos" />
+		<text id="preparestep_simplefruitsalad_cherries" name="descaroçar cerejas" />
+		<text id="preparestep_simplefruitsalad_citrus" name="fatiar frutas cítricas" />
+		<text id="preparestep_simplefruitsalad_cookfest" name="usar ingredientes rápidos" />
+		<text id="preparestep_fruitsalad_cookfest" name="usar ingredientes rápidos" />
+		<text id="preparestep_whitechocpizza_banana" name="fatiar bananas" />
+		<text id="preparestep_whitechocpizza_cherries" name="descaroçar cerejas" />
+		<text id="preparestep_whitechocpizza_flour" name="peneirar farinha" />
+		<text id="preparestep_whitechocpizza_whitechocolat" name="derreter chocolate" />
+		<text id="preparestep_whitechocpizza_strawberry" name="lavar morangos" />
+		<text id="preparestep_whitechocpizza_cookfest" name="usar ingredientes rápidos" />
 	</preparestep>
 	<preparestep_fancy>
 		<text id="preparestep_duckalcitrus_cinnamon" name="moer canela" />
@@ -2435,6 +2451,11 @@ Apenas disponível por tempo limitado!" />
 		<text id="preparestep_chickencurry_eventspice" name="espalhar tempero de evento" />
 		<text id="preparestep_spookyfondue_horseradish" name="adicionar ingrediente mágico" />
 		<text id="preparestep_spookyfondue_eventspice" name="espalhar tempero de evento" />
+		<text id="preparestep_simplefruitsalad_vanilla" name="raspar baunilha" />
+		<text id="preparestep_simplefruitsalad_eventspice" name="espalhar tempero de evento" />
+		<text id="preparestep_fruitsalad_eventspice" name="espalhar tempero de evento" />
+		<text id="preparestep_whitechocpizza_nutmeg" name="moer noz-moscada" />
+		<text id="preparestep_whitechocpizza_eventspice" name="espalhar tempero de evento" />
 	</preparestep_fancy>
 	<recipe>
 		<text id="recipe_bananasplit" name="Banana Split" />
@@ -2611,6 +2632,8 @@ Apenas disponível por tempo limitado!" />
 		<text id="recipe_superchocolatecake" name="Super Bolo de Chocolate" />
 		<text id="recipe_chickencurry" name="Curry de frango" />
 		<text id="recipe_spookyfondue" name="Fondue Assustadora" />
+		<text id="recipe_simplefruitsalad" name="Salada de Frutas Simples" />
+		<text id="recipe_whitechocpizza" name="Pizza de Chocolate Branco" />
 	</recipe>
 	<recipes_fastfood>
 		<text id="recipe_smoothiemaker_greensmoothie" name="Batida Verde" />
