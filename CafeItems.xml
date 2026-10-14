@@ -803,7 +803,7 @@
 	<wod id="2276" n="Basic" g="Dish" t="Goulash" events="0" xp="3029" incomePerServing="2" servings="2951" duration="1140" level="39" dishcategory="2" requirements="1318+3#1315+2#1302+1#1322+1#1327+4#1402+1" />
 	<wod id="2234" n="Basic" g="Dish" t="Strawberryjuice" events="0" xp="27" incomePerServing="10" servings="141" duration="6" level="40" dishcategory="0" requirements="1328+1#1325+1#1408+1" />
 	<wod id="2257" n="Basic" g="Dish" t="Strawberrycheesecake" events="0" xp="2304" incomePerServing="1" servings="1690" duration="780" level="40" dishcategory="0" requirements="1308+1#1330+1#1331+1#1332+1#1328+1#1408+1" />
-	<wod id="2263" n="Basic" g="Dish" t="Sweetpizza" events="0" xp="2964" incomePerServing="2" servings="1170" duration="1080" level="40" dishcategory="0" requirements="1312+1#1307+2#1328+1#1346+1#1409+1" />
+	<wod id="2263" n="Basic" g="Dish" t="Sweetpizza" events="0" xp="2964" incomePerServing="2" servings="1245" duration="1080" level="40" dishcategory="0" requirements="1312+1#1307+2#1328+1#1353+1#1409+1" />
 	<wod id="1234" n="Basic" g="Dish" t="Porkroastwithcrackling" events="0" xp="6605" incomePerServing="3" servings="3000" duration="2880" level="41" dishcategory="1" requirements="1315+2#1338+4#1318+1#1313+2#1407+1" />
 	<wod id="2274" n="Basic" g="Dish" t="Tofupizza" events="0" xp="231" incomePerServing="15" servings="294" duration="60" level="41" dishcategory="4" requirements="1343+3#1318+1#1312+1#1308+1#1313+1#1406+1" />
 	<wod id="2243" n="Basic" g="Dish" t="Carrotjuice" events="0" xp="28" incomePerServing="25" servings="81" duration="6" level="42" dishcategory="0" requirements="1338+1#1325+1#1408+1" />
@@ -883,6 +883,7 @@
 	<wod id="1350" n="Basic" g="Ingredient" t="Goldeneggs" cash="99999" gold="0" friends="0" goldNoFriends="0" releaseDate="0" world="0" events="0" xp="0" level="14" category="meat" amount="1" />
 	<wod id="1351" n="Basic" g="Ingredient" t="Passionfruit" cash="2000" gold="0" friends="0" goldNoFriends="0" releaseDate="0" world="0" events="0" xp="0" level="23" category="fruits" amount="1" />
 	<wod id="1352" n="Basic" g="Ingredient" t="Pumpkin" cash="1031" gold="0" friends="0" goldNoFriends="0" releaseDate="0" world="0" events="0" xp="0" level="18" category="vegatables" amount="1" />
+	<wod id="1353" n="Basic" g="Ingredient" t="Banana" cash="950" gold="0" friends="0" goldNoFriends="0" releaseDate="0" world="0" events="0" xp="0" level="40" category="fruits" amount="1" />
 	<wod id="1501" n="Cafe" g="Background" t="Village" />
 	<wod id="1502" n="Marketplace" g="Background" t="Normal" />
 	<wod id="1503" n="Static" g="Background" t="Villagewinter" />

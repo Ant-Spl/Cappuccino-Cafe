@@ -1500,6 +1500,7 @@
 		<text id="preparestep_sweetpizza_chocolate" name="melt chocolate" />
 		<text id="preparestep_sweetpizza_strawberry" name="slice strawberries" />
 		<text id="preparestep_sweetpizza_cookfest" name="find fruits" />
+		<text id="preparestep_sweetpizza_banana" name="slice bananas" />
 		<text id="preparestep_shakshuka_onion" name="chop onions" />
 		<text id="preparestep_shakshuka_garlic" name="crush garlic" />
 		<text id="preparestep_shakshuka_tomato" name="chop tomatoes" />
