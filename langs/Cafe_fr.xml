@@ -507,6 +507,10 @@
 		<text id="cookstep_chickencurry2" name="Cooking rice" />
 		<text id="cookstep_spookyfondue1" name="Melting cheese" />
 		<text id="cookstep_spookyfondue2" name="Mixing concoction" />
+		<text id="cookstep_simplefruitsalad1" name="Washing fruit" />
+		<text id="cookstep_simplefruitsalad2" name="Building salads" />
+		<text id="cookstep_whitechocpizza1" name="Melting chocolate" />
+		<text id="cookstep_whitechocpizza2" name="Adding fruit" />
 		<text id="cookstep_feijoada1" name="Préparer les morceaux de porc" />
 		<text id="cookstep_feijoada2" name="Préparer les tranches d’orange" />
 		<text id="cookstep_spanishomelette1" name="Battre les œufs" />
@@ -1507,6 +1511,7 @@
 		<text id="preparestep_sweetpizza_chocolate" name="Faire fondre le chocolat" />
 		<text id="preparestep_sweetpizza_strawberry" name="Trancher les fraises" />
 		<text id="preparestep_sweetpizza_cookfest" name="Chercher des fruits" />
+		<text id="preparestep_sweetpizza_banana" name="slice bananas" />
 		<text id="preparestep_shakshuka_onion" name="Hacher les oignons" />
 		<text id="preparestep_shakshuka_garlic" name="Écraser l’ail" />
 		<text id="preparestep_shakshuka_tomato" name="Hacher les tomates" />
@@ -2110,6 +2115,18 @@
 		<text id="preparestep_spookyfondue_cream" name="whip cream" />
 		<text id="preparestep_spookyfondue_citrus" name="make green dye" />
 		<text id="preparestep_spookyfondue_cookfest" name="use fast ingredients" />
+		<text id="preparestep_simplefruitsalad_banana" name="slice bananas" />
+		<text id="preparestep_simplefruitsalad_apple" name="dice apples" />
+		<text id="preparestep_simplefruitsalad_cherries" name="pit cherries" />
+		<text id="preparestep_simplefruitsalad_citrus" name="slice citrus" />
+		<text id="preparestep_simplefruitsalad_cookfest" name="use fast ingredients" />
+		<text id="preparestep_fruitsalad_cookfest" name="use fast ingredients" />
+		<text id="preparestep_whitechocpizza_banana" name="slice bananas" />
+		<text id="preparestep_whitechocpizza_cherries" name="pit cherries" />
+		<text id="preparestep_whitechocpizza_flour" name="sift flour" />
+		<text id="preparestep_whitechocpizza_whitechocolat" name="melt chocolate" />
+		<text id="preparestep_whitechocpizza_strawberry" name="wash strawberries" />
+		<text id="preparestep_whitechocpizza_cookfest" name="use fast ingredients" />
 		<text id="preparestep_feijoada_coriander" name="Ajouter de la coriandre" />
 	</preparestep>
 	<preparestep_fancy>
@@ -2419,6 +2436,11 @@
 		<text id="preparestep_spookyfondue_horseradish" name="add magical ingredient" />
 		<text id="preparestep_spookyfondue_eventspice" name="spread event spice spookily" />
 		<text id="preparestep_sweetpizza_eventspice" name="spread event spice" />
+		<text id="preparestep_simplefruitsalad_vanilla" name="scrape out vanilla" />
+		<text id="preparestep_simplefruitsalad_eventspice" name="spread event spice" />
+		<text id="preparestep_fruitsalad_eventspice" name="spread event spice" />
+		<text id="preparestep_whitechocpizza_nutmeg" name="ground nutmeg" />
+		<text id="preparestep_whitechocpizza_eventspice" name="spread event spice" />
 		<text id="preparestep_pizzasalad_chili" name="Couper le chili" />
 	</preparestep_fancy>
 	<recipe>
@@ -2596,6 +2618,8 @@
 		<text id="recipe_superchocolatecake" name="Super Chocolate Cake" />
 		<text id="recipe_chickencurry" name="Chicken Curry" />
 		<text id="recipe_spookyfondue" name="Spooky Fondue" />
+		<text id="recipe_simplefruitsalad" name="Simple Fruit Salad" />
+		<text id="recipe_whitechocpizza" name="White Choc Pizza" />
 	</recipe>
 	<recipes_fastfood>
 		<text id="recipe_smoothiemaker_greensmoothie" name="Smoothie vert" />
