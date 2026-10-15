@@ -1311,7 +1311,19 @@ Apenas disponível por tempo limitado!" />
 		<text id="panelwin_social_welcome_marketplace" name="Bem vindo! Clique no quadro negro se você está a procura de trabalho!" />
 		<text id="panelwin_social_welcome_mycafe" name="Olá, Chef! Esperamos que você tenha um bom dia! Se você precisar de ajuda, quiser reportar alguém ou tem uma pergunta, entre no nosso Discord e fale com a gente!" />
 		<text id="panelwin_social_writeable" name="Só jogadores registrados a partir do nível 1 podem utilizar o bate-papo." />
-		<text id="capp_dekoshop_exclusive_tooltip" name="Cappuccino Exclusive Item" />
+		<text id="capp_cooking_confirm_cancel" name="Cancelar" />
+		<text id="capp_dekoshop_buy_multiple_copy" name="Comprar diretamente para o inventário de móveis." />
+		<text id="capp_dekoshop_buy_multiple_title" name="Comprar vários" />
+		<text id="capp_dekoshop_buy_multiple_tooltip" name="Comprar vários para o inventário" />
+		<text id="capp_dekoshop_buy_multiple_unavailable_copy" name="Moedas insuficientes ou limite de armazenamento atingido." />
+		<text id="capp_dekoshop_buy_multiple_unavailable_title" name="Não é possível comprar mais" />
+		<text id="capp_dekoshop_exclusive_tooltip" name="Exclusivo do Cappuccino" />
+		<text id="capp_discarddish_confirm_button" name="Jogar fora" />
+		<text id="capp_discarddish_confirm_copy" name="Jogar “{0}” fora? Esta ação não pode ser desfeita." />
+		<text id="capp_discarddish_confirm_title" name="Jogar este prato fora?" />
+		<text id="capp_instantcook_confirm_copy" name="Gastar {1} de ouro para concluir o preparo de “{0}” agora?" />
+		<text id="capp_instantcook_confirm_title" name="Preparo instantâneo" />
+		<text id="capp_instantcook_confirm_tooltip" name="Concluir o preparo agora" />
 		<text id="panelwin_deco_sort_default" name="Ordenar: Padrão" />
 		<text id="panelwin_deco_sort_newest" name="Itens recentes" />
 		<text id="panelwin_deco_sort_cash_asc" name="Preço (Dinheiro): menor para maior" />

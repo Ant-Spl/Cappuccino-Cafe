@@ -1287,7 +1287,19 @@
 		<text id="panelwin_social_welcome_marketplace" name="Welcome! Click onto the black board if you are looking for a job!" />
 		<text id="panelwin_social_welcome_mycafe" name="Hey there, Chef! We hope you have a great time! If you need help, need to report a player or have a question, join our Discord and contact us!" />
 		<text id="panelwin_social_writeable" name="You need to register and reach level 1 to use the chat." />
+		<text id="capp_cooking_confirm_cancel" name="Cancel" />
+		<text id="capp_dekoshop_buy_multiple_copy" name="Purchase directly into your furniture inventory." />
+		<text id="capp_dekoshop_buy_multiple_title" name="Buy multiple" />
+		<text id="capp_dekoshop_buy_multiple_tooltip" name="Buy multiple into storage" />
+		<text id="capp_dekoshop_buy_multiple_unavailable_copy" name="Not enough currency or storage capacity for this purchase." />
+		<text id="capp_dekoshop_buy_multiple_unavailable_title" name="Cannot buy more" />
 		<text id="capp_dekoshop_exclusive_tooltip" name="Cappuccino Exclusive Item" />
+		<text id="capp_discarddish_confirm_button" name="Throw away" />
+		<text id="capp_discarddish_confirm_copy" name="Throw away “{0}”? This cannot be undone." />
+		<text id="capp_discarddish_confirm_title" name="Throw this dish away?" />
+		<text id="capp_instantcook_confirm_copy" name="Spend {1} gold to finish cooking “{0}” now?" />
+		<text id="capp_instantcook_confirm_title" name="Instant cooking" />
+		<text id="capp_instantcook_confirm_tooltip" name="Finish cooking now" />
 		<text id="panelwin_deco_sort_default" name="Sort: Default" />
 		<text id="panelwin_deco_sort_newest" name="Newest released" />
 		<text id="panelwin_deco_sort_cash_asc" name="Price (Cash): low to high" />
