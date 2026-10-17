@@ -513,6 +513,8 @@ Se você estocá-la, as porções existentes serão perdidas!" />
 		<text id="cookstep_simplefruitsalad2" name="Montando as saladas" />
 		<text id="cookstep_whitechocpizza1" name="Derretendo chocolate" />
 		<text id="cookstep_whitechocpizza2" name="Adicionando frutas" />
+		<text id="cookstep_icecream1" name="Misturando ingredientes" />
+		<text id="cookstep_icecream2" name="Resfriando" />
 	</cookstep>
 	<coopmission>
 		<text id="coop_desc_long_1" name="Nós oferemos um curso de culinária para aperfeiçoar alguns pratos. Você gostaria de participar?" />
@@ -2156,6 +2158,12 @@ Apenas disponível por tempo limitado!" />
 		<text id="preparestep_whitechocpizza_whitechocolat" name="derreter chocolate" />
 		<text id="preparestep_whitechocpizza_strawberry" name="lavar morangos" />
 		<text id="preparestep_whitechocpizza_cookfest" name="usar ingredientes rápidos" />
+		<text id="preparestep_icecream_milk" name="adicionar leite" />
+		<text id="preparestep_icecream_cream" name="bater creme" />
+		<text id="preparestep_icecream_sugar" name="adicionar açúcar" />
+		<text id="preparestep_icecream_chocolate" name="derreter chocolate" />
+		<text id="preparestep_icecream_cherries" name="lavar cerejas" />
+		<text id="preparestep_icecream_cookfest" name="usar ingredientes rápidos" />
 	</preparestep>
 	<preparestep_fancy>
 		<text id="preparestep_duckalcitrus_cinnamon" name="moer canela" />
@@ -2470,6 +2478,8 @@ Apenas disponível por tempo limitado!" />
 		<text id="preparestep_fruitsalad_eventspice" name="espalhar tempero de evento" />
 		<text id="preparestep_whitechocpizza_nutmeg" name="moer noz-moscada" />
 		<text id="preparestep_whitechocpizza_eventspice" name="espalhar tempero de evento" />
+		<text id="preparestep_icecream_vanilla" name="preparar extrato de baunilha" />
+		<text id="preparestep_icecream_eventspice" name="espalhar tempero de evento" />
 	</preparestep_fancy>
 	<recipe>
 		<text id="recipe_bananasplit" name="Banana Split" />
@@ -2648,6 +2658,7 @@ Apenas disponível por tempo limitado!" />
 		<text id="recipe_spookyfondue" name="Fondue Assustadora" />
 		<text id="recipe_simplefruitsalad" name="Salada de Frutas Simples" />
 		<text id="recipe_whitechocpizza" name="Pizza de Chocolate Branco" />
+		<text id="recipe_icecream" name="Sorvete" />
 	</recipe>
 	<recipes_fastfood>
 		<text id="recipe_smoothiemaker_greensmoothie" name="Batida Verde" />
