@@ -1133,7 +1133,7 @@
 	<wod id="2308" n="Basic" g="Dish" t="Pierogi" events="0" xp="3469" incomePerServing="2" servings="1975" duration="1080" level="47" dishcategory="5" requirements="1322+2#1312+1#1318+1#1315+1#1406+1" />
 	<wod id="2309" n="Basic" g="Dish" t="Fourcheesepizza" events="0" xp="4" incomePerServing="215" servings="7" duration="1" level="17" dishcategory="5" requirements="1312+1#1305+4#1406+1" />
 	<wod id="2310" n="Basic" g="Dish" t="Superchocolatecake" events="0" xp="45763" incomePerServing="1" servings="109200" duration="10080" level="33" dishcategory="0" requirements="1312+50#1307+50#1325+35#1311+20#1330+20#1409+1" />
-	<wod id="2311" n="Basic" g="Dish" t="Chickencurry" events="0" xp="2028" incomePerServing="1" servings="2875" duration="720" level="36" dishcategory="1" requirements="1306+1#1349+1#1327+1#1318+1#1324+1#1403+1" />
+	<wod id="2311" n="Basic" g="Dish" t="Chickencurry" events="0" xp="2035" incomePerServing="1" servings="2875" duration="720" level="36" dishcategory="1" requirements="1306+1#1349+1#1327+1#1318+1#1324+1#1403+1" />
 	<wod id="2312" n="Basic" g="Dish" t="Spookyfondue" events="2" xp="5580" incomePerServing="1" servings="1700" duration="1860" level="9" dishcategory="5" requirements="1305+1#1308+1#1347+1#1405+1" />
 	<wod id="2313" n="Basic" g="Dish" t="Simplefruitsalad" events="0" xp="2416" incomePerServing="2" servings="1550" duration="720" level="48" dishcategory="3" requirements="1353+1#1345+1#1339+1#1347+1#1408+1" />
 	<wod id="2314" n="Basic" g="Dish" t="Fruitsalad" events="0" xp="4197" incomePerServing="7" servings="1550" duration="720" level="48" dishcategory="3" requirements="1353+1#1345+1#1339+1#1340+1#1408+1" />
