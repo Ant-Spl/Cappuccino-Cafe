@@ -511,6 +511,8 @@
 		<text id="cookstep_simplefruitsalad2" name="Building salads" />
 		<text id="cookstep_whitechocpizza1" name="Melting chocolate" />
 		<text id="cookstep_whitechocpizza2" name="Adding fruit" />
+		<text id="cookstep_icecream1" name="Mixing ingredients" />
+		<text id="cookstep_icecream2" name="Cooling" />
 	</cookstep>
 	<coopmission>
 		<text id="coop_desc_long_1" name="Vi laver et kogekursus, for at perfektionere nogle retter. Ønsker du at deltage?" />
@@ -2135,6 +2137,12 @@
 		<text id="preparestep_whitechocpizza_whitechocolat" name="melt chocolate" />
 		<text id="preparestep_whitechocpizza_strawberry" name="wash strawberries" />
 		<text id="preparestep_whitechocpizza_cookfest" name="use fast ingredients" />
+		<text id="preparestep_icecream_milk" name="add milk" />
+		<text id="preparestep_icecream_cream" name="whip cream" />
+		<text id="preparestep_icecream_sugar" name="add sugar" />
+		<text id="preparestep_icecream_chocolate" name="melt chocolate" />
+		<text id="preparestep_icecream_cherries" name="wash cherries" />
+		<text id="preparestep_icecream_cookfest" name="use fast ingredients" />
 	</preparestep>
 	<preparestep_fancy>
 		<text id="preparestep_duckalcitrus_cinnamon" name="Tilsæt kanel" />
@@ -2448,6 +2456,8 @@
 		<text id="preparestep_fruitsalad_eventspice" name="spread event spice" />
 		<text id="preparestep_whitechocpizza_nutmeg" name="ground nutmeg" />
 		<text id="preparestep_whitechocpizza_eventspice" name="spread event spice" />
+		<text id="preparestep_icecream_vanilla" name="make vanilla extract" />
+		<text id="preparestep_icecream_eventspice" name="spread event spice" />
 		<text id="preparestep_whitechocmousse_vanilla" name="Vanilje udskrabes" />
 	</preparestep_fancy>
 	<recipe>
@@ -2627,6 +2637,7 @@
 		<text id="recipe_spookyfondue" name="Spooky Fondue" />
 		<text id="recipe_simplefruitsalad" name="Simple Fruit Salad" />
 		<text id="recipe_whitechocpizza" name="White Choc Pizza" />
+		<text id="recipe_icecream" name="Ice Cream" />
 	</recipe>
 	<recipes_fastfood>
 		<text id="recipe_smoothiemaker_greensmoothie" name="Grøn Smoothie" />
