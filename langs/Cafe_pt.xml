@@ -2164,6 +2164,11 @@ Apenas disponível por tempo limitado!" />
 		<text id="preparestep_icecream_chocolate" name="derreter chocolate" />
 		<text id="preparestep_icecream_cherries" name="lavar cerejas" />
 		<text id="preparestep_icecream_cookfest" name="usar ingredientes rápidos" />
+		<text id="preparestep_bananasplit_cookfest" name="usar ingredientes rápidos" />
+		<text id="preparestep_steak_cookfest" name="usar ingredientes rápidos" />
+		<text id="preparestep_ricepudding_cookfest" name="usar ingredientes rápidos" />
+		<text id="preparestep_maplepancakes_cookfest" name="usar ingredientes rápidos" />
+		<text id="preparestep_maplepancakes_maplesyrup" name="provar xarope" />
 	</preparestep>
 	<preparestep_fancy>
 		<text id="preparestep_duckalcitrus_cinnamon" name="moer canela" />
@@ -2480,6 +2485,10 @@ Apenas disponível por tempo limitado!" />
 		<text id="preparestep_whitechocpizza_eventspice" name="espalhar tempero de evento" />
 		<text id="preparestep_icecream_vanilla" name="preparar extrato de baunilha" />
 		<text id="preparestep_icecream_eventspice" name="espalhar tempero de evento" />
+		<text id="preparestep_bananasplit_eventspice" name="espalhar tempero de evento" />
+		<text id="preparestep_steak_eventspice" name="espalhar tempero de evento" />
+		<text id="preparestep_ricepudding_eventspice" name="espalhar tempero de evento" />
+		<text id="preparestep_maplepancakes_eventspice" name="espalhar tempero de evento" />
 	</preparestep_fancy>
 	<recipe>
 		<text id="recipe_bananasplit" name="Banana Split" />
