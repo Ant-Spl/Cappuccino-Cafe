@@ -1249,7 +1249,7 @@ Apenas disponível por tempo limitado!" />
 		<text id="ingredient_horseradish" name="Raíz Forte" />
 		<text id="ingredient_kidney" name="Fígado" />
 		<text id="ingredient_lettuce" name="Alface" />
-		<text id="ingredient_maplesyrup" name="Melado" />
+		<text id="ingredient_maplesyrup" name="Xarope de Bordo" />
 		<text id="ingredient_meat" name="Carne" />
 		<text id="ingredient_milk" name="Leite" />
 		<text id="ingredient_mincemeat" name="Carne Moída" />
@@ -1731,7 +1731,7 @@ Apenas disponível por tempo limitado!" />
 		<text id="preparestep_macncheese_pasta" name="cozinhar macarrão" />
 		<text id="preparestep_maplepancakes_eggs" name="separar ovos" />
 		<text id="preparestep_maplepancakes_flour" name="peneirar farinha" />
-		<text id="preparestep_maplepancakes_maple" name="provar melado" />
+		<text id="preparestep_maplepancakes_maple" name="provar xarope" />
 		<text id="preparestep_maplepancakes_milk" name="medir leite" />
 		<text id="preparestep_marblecake_butter" name="derreter manteiga" />
 		<text id="preparestep_marblecake_chocolate" name="derreter chocolate" />
@@ -2583,7 +2583,7 @@ Apenas disponível por tempo limitado!" />
 		<text id="recipe_jamspongepudding" name="Pudim com Geléia" />
 		<text id="recipe_lasagne" name="Lasanha" />
 		<text id="recipe_macncheese" name="Macarrão com Queijo" />
-		<text id="recipe_maplepancakes" name="Panqueca com Melado" />
+		<text id="recipe_maplepancakes" name="Panquecas com Xarope de Bordo" />
 		<text id="recipe_marblecake" name="Bolo Mármore" />
 		<text id="recipe_mexicansalad" name="Salada de Feijão Mexicana" />
 		<text id="recipe_minestrone" name="Minestrone" />

@@ -849,7 +849,7 @@
 	<wod id="1327" n="Basic" g="Ingredient" t="Tomato" cash="90" gold="0" friends="0" goldNoFriends="0" releaseDate="0" world="0" events="0" xp="0" level="0" category="vegatables" amount="1" />
 	<wod id="1328" n="Basic" g="Ingredient" t="Strawberry" cash="200" gold="0" friends="0" goldNoFriends="0" releaseDate="0" world="0" events="0" xp="0" level="12" category="fruits" amount="1" />
 	<wod id="1329" n="Basic" g="Ingredient" t="Fish" cash="1000" gold="0" friends="0" goldNoFriends="0" releaseDate="0" world="0" events="0" xp="0" level="27" category="meat" amount="1" />
-	<wod id="1330" n="Basic" g="Ingredient" t="Milk" cash="250" gold="0" friends="0" goldNoFriends="0" releaseDate="0" world="0" events="0" xp="0" level="18" category="meat" amount="1" />
+	<wod id="1330" n="Basic" g="Ingredient" t="Milk" cash="250" gold="0" friends="0" goldNoFriends="0" releaseDate="0" world="0" events="0" xp="0" level="8" category="meat" amount="1" />
 	<wod id="1331" n="Basic" g="Ingredient" t="Cookies" cash="200" gold="0" friends="0" goldNoFriends="0" releaseDate="0" world="0" events="0" xp="0" level="18" category="other" amount="1" />
 	<wod id="1332" n="Basic" g="Ingredient" t="Quark" cash="350" gold="0" friends="0" goldNoFriends="0" releaseDate="0" world="0" events="0" xp="0" level="18" category="meat" amount="1" />
 	<wod id="1333" n="Basic" g="Ingredient" t="Bakingmix" cash="300" gold="0" friends="0" goldNoFriends="0" releaseDate="0" world="0" events="3" xp="0" level="1" category="other" amount="1" />
@@ -884,6 +884,7 @@
 	<wod id="1351" n="Basic" g="Ingredient" t="Passionfruit" cash="2000" gold="0" friends="0" goldNoFriends="0" releaseDate="0" world="0" events="0" xp="0" level="23" category="fruits" amount="1" />
 	<wod id="1352" n="Basic" g="Ingredient" t="Pumpkin" cash="1031" gold="0" friends="0" goldNoFriends="0" releaseDate="0" world="0" events="0" xp="0" level="18" category="vegatables" amount="1" />
 	<wod id="1353" n="Basic" g="Ingredient" t="Banana" cash="950" gold="0" friends="0" goldNoFriends="0" releaseDate="0" world="0" events="0" xp="0" level="40" category="fruits" amount="1" />
+	<wod id="1354" n="Basic" g="Ingredient" t="Maplesyrup" cash="750" gold="0" friends="0" goldNoFriends="0" releaseDate="0" world="0" events="0" xp="0" level="8" category="other" amount="1" />
 	<wod id="1501" n="Cafe" g="Background" t="Village" />
 	<wod id="1502" n="Marketplace" g="Background" t="Normal" />
 	<wod id="1503" n="Static" g="Background" t="Villagewinter" />
