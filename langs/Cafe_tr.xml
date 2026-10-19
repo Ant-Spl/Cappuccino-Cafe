@@ -2139,6 +2139,11 @@
 		<text id="preparestep_icecream_chocolate" name="melt chocolate" />
 		<text id="preparestep_icecream_cherries" name="wash cherries" />
 		<text id="preparestep_icecream_cookfest" name="use fast ingredients" />
+		<text id="preparestep_bananasplit_cookfest" name="use fast ingredients" />
+		<text id="preparestep_steak_cookfest" name="use fast ingredients" />
+		<text id="preparestep_ricepudding_cookfest" name="use fast ingredients" />
+		<text id="preparestep_maplepancakes_cookfest" name="use fast ingredients" />
+		<text id="preparestep_maplepancakes_maplesyrup" name="taste maple syrup" />
 	</preparestep>
 	<preparestep_fancy>
 		<text id="preparestep_duckalcitrus_cinnamon" name="Tarçın serp" />
@@ -2454,6 +2459,10 @@
 		<text id="preparestep_whitechocpizza_eventspice" name="spread event spice" />
 		<text id="preparestep_icecream_vanilla" name="make vanilla extract" />
 		<text id="preparestep_icecream_eventspice" name="spread event spice" />
+		<text id="preparestep_bananasplit_eventspice" name="spread event spice" />
+		<text id="preparestep_steak_eventspice" name="spread event spice" />
+		<text id="preparestep_ricepudding_eventspice" name="spread event spice" />
+		<text id="preparestep_maplepancakes_eventspice" name="spread event spice" />
 	</preparestep_fancy>
 	<recipe>
 		<text id="recipe_bananasplit" name="Banana split" />
