@@ -1705,6 +1705,7 @@
 		<text id="preparestep_maplepancakes_eggs" name="Eier trennen" />
 		<text id="preparestep_maplepancakes_flour" name="Mehl sieben" />
 		<text id="preparestep_maplepancakes_maple" name="Ahornsirup probieren" />
+		<text id="preparestep_maplepancakes_maplesyrup" name="Ahornsirup probieren" />
 		<text id="preparestep_maplepancakes_milk" name="Milch abmessen" />
 		<text id="preparestep_marblecake_butter" name="Butter schmelzen" />
 		<text id="preparestep_marblecake_chocolate" name="Schokolade schmelzen" />
@@ -2143,11 +2144,10 @@
 		<text id="preparestep_fruitsalad_cookfest" name="schnelle Zutaten benutzen" />
 		<text id="preparestep_whitechocpizza_cookfest" name="schnelle Zutaten benutzen" />
 		<text id="preparestep_icecream_cookfest" name="schnelle Zutaten benutzen" />
-		<text id="preparestep_bananasplit_cookfest" name="use fast ingredients" />
-		<text id="preparestep_steak_cookfest" name="use fast ingredients" />
-		<text id="preparestep_ricepudding_cookfest" name="use fast ingredients" />
-		<text id="preparestep_maplepancakes_cookfest" name="use fast ingredients" />
-		<text id="preparestep_maplepancakes_maplesyrup" name="taste maple syrup" />
+		<text id="preparestep_bananasplit_cookfest" name="schnelle Zutaten benutzen" />
+		<text id="preparestep_steak_cookfest" name="schnelle Zutaten benutzen" />
+		<text id="preparestep_ricepudding_cookfest" name="schnelle Zutaten benutzen" />
+		<text id="preparestep_maplepancakes_cookfest" name="schnelle Zutaten benutzen" />
 	</preparestep>
 	<preparestep_fancy>
 		<text id="preparestep_duckalcitrus_cinnamon" name="Zimt aufstreuen" />
@@ -2463,10 +2463,10 @@
 		<text id="preparestep_fruitsalad_eventspice" name="Event Gewürz verteilen" />
 		<text id="preparestep_whitechocpizza_eventspice" name="Event Gewürz verteilen" />
 		<text id="preparestep_icecream_eventspice" name="Event Gewürz verteilen" />
-		<text id="preparestep_bananasplit_eventspice" name="spread event spice" />
-		<text id="preparestep_steak_eventspice" name="spread event spice" />
-		<text id="preparestep_ricepudding_eventspice" name="spread event spice" />
-		<text id="preparestep_maplepancakes_eventspice" name="spread event spice" />
+		<text id="preparestep_bananasplit_eventspice" name="Event Gewürz verteilen" />
+		<text id="preparestep_steak_eventspice" name="Event Gewürz verteilen" />
+		<text id="preparestep_ricepudding_eventspice" name="Event Gewürz verteilen" />
+		<text id="preparestep_maplepancakes_eventspice" name="Event Gewürz verteilen" />
 		<text id="preparestep_spookyfondue_eventspice" name="Event Gewürz erschreckend verteilen" />
 	</preparestep_fancy>
 	<recipe>
