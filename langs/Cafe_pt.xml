@@ -709,6 +709,9 @@ Se você estocá-la, as porções existentes serão perdidas!" />
 		<text id="coop_title_65" name="FIM DE SEMANA VEGETARIANO" />
 		<text id="coop_desc_short_65" name="Fresco e vegetariano!" />
 		<text id="coop_desc_long_65" name="Fresco, saboroso, 100% vegetariano. Vamos trabalhar!" />
+		<text id="coop_title_66" name="OMELETES SEM FIM - LITE!" />
+		<text id="coop_desc_short_66" name="Não precisa de tantos ovos, por favor!" />
+		<text id="coop_desc_long_66" name="Fazer omeletes é divertido! Mas, quebrar ovos sem parar pode ser difícil para iniciantes. Teste um pouco da grande carga de trabalho e veja se você está preparado(a)." />
 	</coopmission>
 	<dialogs>
 		<text id="dialogwin_achievement_title" name="Conquistas" />
