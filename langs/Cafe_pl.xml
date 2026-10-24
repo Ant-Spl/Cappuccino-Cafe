@@ -707,6 +707,9 @@
 		<text id="coop_title_65" name="VEGGIE WEEKEND" />
 		<text id="coop_desc_short_65" name="Fresh and vegetarian!" />
 		<text id="coop_desc_long_65" name="Fresh, Tasty, 100% Vegetarian. Lets get to work!" />
+		<text id="coop_title_66" name="OMELETTES TO THE MAX - LITE!" />
+		<text id="coop_desc_short_66" name="Not so many eggs, please!" />
+		<text id="coop_desc_long_66" name="Making Omelettes is fun! But, the constant egg-cracking can be tough for starters. Take a glimpse of the massive workload and see if you&apos;re up to the task." />
 	</coopmission>
 	<dialogs>
 		<text id="dialogwin_achievement_title" name="Osiągnięca" />
