@@ -1,120 +1,120 @@
 <?xml version="1.0" encoding="utf-8"?>
 <cafe>
 	<achievement>
-		<text id="Basic_Achievement_Boughtdeco" name="koupené dekorace" />
-		<text id="Basic_Achievement_Boughtingredients" name="koupené suroviny" />
-		<text id="Basic_Achievement_Cookingcount" name="usilovný fritovač" />
-		<text id="Basic_Achievement_Coopcount" name="muffin multitask" />
-		<text id="Basic_Achievement_Coopgoldcount" name="snaživý kuchař" />
-		<text id="Basic_Achievement_Curiercount" name="doručeno kurýrem" />
-		<text id="Basic_Achievement_Differentdishes" name="virtuos v ochutnávání" />
-		<text id="Basic_Achievement_Earnedchips" name="výdělek" />
-		<text id="Basic_Achievement_Fancycount" name="skvělý kolega" />
-		<text id="Basic_Achievement_Firenpc" name="vyhození číšníci" />
-		<text id="Basic_Achievement_Instantcount" name="netrpělivý usazeč" />
-		<text id="Basic_Achievement_Jobclean" name="rychlý odklízeč" />
-		<text id="Basic_Achievement_Jobserve" name="rychlý přidělovač" />
-		<text id="Basic_Achievement_Masteies" name="rychlý kráječ" />
-		<text id="Basic_Achievement_Masteriesgold" name="zlatý kráječ" />
+		<text id="Basic_Achievement_Boughtdeco" name="Koupené dekorace" />
+		<text id="Basic_Achievement_Boughtingredients" name="Koupené suroviny" />
+		<text id="Basic_Achievement_Cookingcount" name="Usilovný fritovač" />
+		<text id="Basic_Achievement_Coopcount" name="Muffin multitask" />
+		<text id="Basic_Achievement_Coopgoldcount" name="Snaživý kuchař" />
+		<text id="Basic_Achievement_Curiercount" name="Doručeno kurýrem" />
+		<text id="Basic_Achievement_Differentdishes" name="Virtuos v ochutnávání" />
+		<text id="Basic_Achievement_Earnedchips" name="Výdělek" />
+		<text id="Basic_Achievement_Fancycount" name="Skvělý kolega" />
+		<text id="Basic_Achievement_Firenpc" name="Vyhození číšníci" />
+		<text id="Basic_Achievement_Instantcount" name="Netrpělivý usazeč" />
+		<text id="Basic_Achievement_Jobclean" name="Rychlý odklízeč" />
+		<text id="Basic_Achievement_Jobserve" name="Rychlý přidělovač" />
+		<text id="Basic_Achievement_Masteies" name="Rychlý kráječ" />
+		<text id="Basic_Achievement_Masteriesgold" name="Zlatý kráječ" />
 		<text id="Basic_Achievement_Muffinmancash" name="Bohatý muffin" />
 		<text id="Basic_Achievement_Muffinmangold" name="Zlatý muffin" />
-		<text id="Basic_Achievement_Overcookedfoods" name="zkažené porce" />
-		<text id="Basic_Achievement_Servingcountmeals" name="šťavnaté pařené buchty" />
-		<text id="Basic_Achievement_Servingcountsalads" name="čerstvý uchutnavač" />
-		<text id="Basic_Achievement_Servingcountsnacks" name="haptický jedohubkovač" />
-		<text id="Basic_Achievement_Servingcountsoups" name="laxní kuchař polévky" />
-		<text id="Basic_Achievement_Servingcountsweets" name="zaměstnaný pekař" />
-		<text id="Basic_Achievement_Servingcountvegans" name="zakvitlý květák" />
-		<text id="Basic_Achievement_Servingscount" name="vyrobené porce" />
-		<text id="Basic_Achievement_Solditems" name="prodaný nábytek a dekorace" />
-		<text id="Basic_Achievement_Spentchips" name="utracené kavárenské dolary" />
-		<text id="Basic_Achievement_Spentgold" name="utracené zlato" />
+		<text id="Basic_Achievement_Overcookedfoods" name="Zkažené porce" />
+		<text id="Basic_Achievement_Servingcountmeals" name="Šťavnaté pařené buchty" />
+		<text id="Basic_Achievement_Servingcountsalads" name="Čerstvý ochutnávač" />
+		<text id="Basic_Achievement_Servingcountsnacks" name="Haptický jedohubkovač" />
+		<text id="Basic_Achievement_Servingcountsoups" name="Laxní kuchař polévky" />
+		<text id="Basic_Achievement_Servingcountsweets" name="Zaměstnaný pekař" />
+		<text id="Basic_Achievement_Servingcountvegans" name="Zakvitlý květák" />
+		<text id="Basic_Achievement_Servingscount" name="Vyrobené porce" />
+		<text id="Basic_Achievement_Solditems" name="Prodaný nábytek a dekorace" />
+		<text id="Basic_Achievement_Spentchips" name="Utracené kavárenské dolary" />
+		<text id="Basic_Achievement_Spentgold" name="Utracené zlato" />
 		<text id="Basic_Achievement_Wheeloffortune" name="Točící se dobrota" />
-		<text id="Social_Achievement_Friendscount" name="pozvaní přátelé" />
+		<text id="Social_Achievement_Friendscount" name="Pozvaní přátelé" />
 	</achievement>
 	<alerts>
 		<text id="alert_addcash_copy" name="Tady si můžeš koupit nebo vydělat zlato/kavárenské dolary." />
-		<text id="alert_addcash_title" name="platby" />
+		<text id="alert_addcash_title" name="Platby" />
 		<text id="alert_addFriend_copy" name="Chceš si {0} přidat jako přítele?" />
 		<text id="alert_addFriend_denied_copy" name="{0} bohužel odmítnul tvoji žádost." />
-		<text id="alert_addFriend_denied_title" name="žádost odmítnuta" />
-		<text id="alert_addFriend_title" name="žádost o přátelství" />
-		<text id="alert_addgold_copy" name="Aby jsi tady mohl nakupovat, musíš se nejdřív zaregistrovat!" />
-		<text id="alert_addgold_title" name="registrovat" />
+		<text id="alert_addFriend_denied_title" name="Žádost odmítnuta" />
+		<text id="alert_addFriend_title" name="Žádost o přátelství" />
+		<text id="alert_addgold_copy" name="Abys tady mohl nakupovat, musíš se nejdřív zaregistrovat!" />
+		<text id="alert_addgold_title" name="Registrovat" />
 		<text id="alert_avatarcustom_copy" name="Počas práce se nemůžeš převlékat!" />
 		<text id="alert_buytiles_copy" name="1. Vyber si jednu dlaždici z\n\n2. Kliknutím na tlačítko myši si vyber požadovaný předmět do kavárny.\n\n3. Pustit" />
 		<text id="alert_buytiles_title" name="Umístit dlaždice?" />
 		<text id="alert_changePasswordFaild_copy" name="Tvé nové heslo musí být delší než 2 znaky a staré heslo musí být správně zadáno!" />
-		<text id="alert_changePasswordFaild_title" name="zadání hesla" />
-		<text id="alert_clearstove_cancelButton" name="ponechat" />
-		<text id="alert_clearstove_okButton" name="odstranit" />
+		<text id="alert_changePasswordFaild_title" name="Zadání hesla" />
+		<text id="alert_clearstove_cancelButton" name="Ponechat" />
+		<text id="alert_clearstove_okButton" name="Odstranit" />
 		<text id="alert_clearstove_title" name="Na tomto pultu se právě servíruje jídlo. Chceš si ponechat jídlo?" />
 		<text id="alert_counter_outofreach_copy" name="Pult není dostupný. Zkus něco přemístit!" />
 		<text id="alert_counter_outofreach_title" name="Pozor!" />
 		<text id="alert_dekoshop_humanwaiter_copy" name="Dokud u tebe v kavárně pracují i jiní hráči, nemůžeš nic měnit v režimu Přestavba." />
 		<text id="alert_dekoshop_humanwaiter_title" name="Nejde to!" />
-		<text id="alert_dekoshop_kickplayer_copy" name="U tebe v kavárně jsou i jiní hráči.Chceš je vyhodit a vyměnit v  menu Přestavba?" />
+		<text id="alert_dekoshop_kickplayer_copy" name="U tebe v kavárně jsou i jiní hráči. Chceš je vyhodit a přepnout do režimu Přestavba?" />
 		<text id="alert_dekoshop_kickplayer_title" name="Pozor!" />
 		<text id="alert_FancyCooking_copy" name="Chceš okořenit jídlo zábavnou přísadou a získat tak {0} XP a {1} porcí navíc?" />
-		<text id="alert_FancyCooking_title" name="zábavné přísady" />
-		<text id="alert_fancyinfo_copy" name="Jestli okořeníš jídlo odpovídající zábavnou přísadou, můžeš dostat až o 20% víc XP za porci!" />
+		<text id="alert_FancyCooking_title" name="Zábavné přísady" />
+		<text id="alert_fancyinfo_copy" name="Jestli okořeníš jídlo odpovídající zábavnou přísadou, můžeš dostat až o 20 % víc XP a porcí! Zábavné přísady navíc nezabírají žádný prostor v lednici!" />
 		<text id="alert_fancyinfo_title" name="Zábavné přísady!" />
-		<text id="alert_giftboxfull_copy" name="Tvoje schránka na dárky je plná! Nemůžeš přijat žádné další dárky od přátel!" />
+		<text id="alert_giftboxfull_copy" name="Tvoje schránka na dárky je plná! Nemůžeš přijmout žádné další dárky od přátel!" />
 		<text id="alert_giftboxfull_title" name="Už nemáš místo!" />
-		<text id="alert_guestchangepassword_copy" name="Heslo si může změnit jenom registrovaný hráč!" />
-		<text id="alert_guestchangepassword_title" name="nejdřív registrovat" />
-		<text id="alert_guestcoop_copy" name="Aby jsi mohl spolupracovat, musíš se nejdřív zaregistrovat!" />
-		<text id="alert_guestinvitefriend_copy" name="Jenom jako registrovaný hráč můžeš zvát další přátele." />
-		<text id="alert_guestinvitefriend_title" name="nejdřív zaregistrovat" />
+		<text id="alert_guestchangepassword_copy" name="Heslo si může změnit pouze registrovaný hráč!" />
+		<text id="alert_guestchangepassword_title" name="Nejdřív registrovat" />
+		<text id="alert_guestcoop_copy" name="Abys mohl spolupracovat, musíš se nejdřív zaregistrovat!" />
+		<text id="alert_guestinvitefriend_copy" name="Jen jako registrovaný hráč můžeš zvát další přátele." />
+		<text id="alert_guestinvitefriend_title" name="Nejdřív zaregistrovat" />
 		<text id="alert_guestlogout_copy" name="Zaregistruj se, aby byl uložen stav tvé hry!" />
 		<text id="alert_guestlogout_title" name="Registrovat" />
 		<text id="alert_help_copy" name="Nejdřív si musíš pomoct sám..." />
-		<text id="alert_help_title" name="pomoc" />
-		<text id="alert_invitefriend_confirmed_copy" name="Tvoje pozvánka pro {0} byla odesláná!" />
+		<text id="alert_help_title" name="Pomoc" />
+		<text id="alert_invitefriend_confirmed_copy" name="Tvoje pozvánka pro {0} byla odeslána!" />
 		<text id="alert_invitefriend_confirmed_title" name="byl pozvaný!" />
-		<text id="alert_invitefriend_copy" name="Zadej jméno a e-mailovú adresu svého přítela a pozvi ho." />
+		<text id="alert_invitefriend_copy" name="Zadej jméno a e-mailovou adresu svého přítele a pozvi jej." />
 		<text id="alert_invitefriend_mail" name="E-mailová adresa přítele:" />
 		<text id="alert_invitefriend_myname" name="Tvoje jméno:" />
 		<text id="alert_invitefriend_name" name="Jméno přítele:" />
-		<text id="alert_invitefriend_title" name="pozvat přítele" />
-		<text id="alert_jobhelp_copy1" name="1.vzít jídlo z pultu\n2.obsloužit čekajícího hosta" />
-		<text id="alert_jobhelp_copy2" name="1.vzít talíř ze stolu \n2.přinést k pultu" />
-		<text id="alert_jobhelp_header1" name="obsluhovat hosty" />
-		<text id="alert_jobhelp_header2" name="odklidit talíře" />
-		<text id="alert_jobhelp_title" name="tvé úkoly" />
-		<text id="alert_jobrefill_copy" name="Aby si mohl pracovat, musíš se nejdřív zaregistrovat." />
-		<text id="alert_jobrefill_title" name="registrovat" />
-		<text id="alert_lostpassword_copy" name="Zadej e-mailovú adresu a my ti pošleme heslo." />
-		<text id="alert_lostpassword_title" name="zapomenuté heslo" />
+		<text id="alert_invitefriend_title" name="Pozvat přítele" />
+		<text id="alert_jobhelp_copy1" name="1. Vzít jídlo z pultu\n2. Obsloužit čekajícího hosta" />
+		<text id="alert_jobhelp_copy2" name="1. Vzít talíř ze stolu \n2. Přinést k pultu" />
+		<text id="alert_jobhelp_header1" name="Obsluhovat hosty" />
+		<text id="alert_jobhelp_header2" name="Odklízet talíře" />
+		<text id="alert_jobhelp_title" name="Tvé úkoly" />
+		<text id="alert_jobrefill_copy" name="Abys mohl pracovat, musíš se nejdřív zaregistrovat." />
+		<text id="alert_jobrefill_title" name="Registrovat" />
+		<text id="alert_lostpassword_copy" name="Zadej e-mailovou adresu a my ti pošleme heslo." />
+		<text id="alert_lostpassword_title" name="Zapomenuté heslo" />
 		<text id="alert_marketplace_jobcancled_copy" name="{0} tvoji nabídku práce bohužel odmítnul." />
-		<text id="alert_marketplace_jobcancled_title" name="práce odmítnuta" />
+		<text id="alert_marketplace_jobcancled_title" name="Práce odmítnuta" />
 		<text id="alert_marketplace_jobempty_copy" name="Vyčerpal jsi dnešní pracovné povolení." />
 		<text id="alert_marketplace_jobempty_title" name="Pracovné povolení vypršelo!" />
 		<text id="alert_marketplace_jobhired_copy" name="{0} přijal tvoji nabídku práce!" />
-		<text id="alert_marketplace_jobhired_title" name="práce přijata" />
+		<text id="alert_marketplace_jobhired_title" name="Práce přijata" />
 		<text id="alert_marketplace_job_copy" name="{0} (level {1}) ti nabídnul práci číšníka. Chceš nabídku přijmout?" />
 		<text id="alert_marketplace_job_title" name="Nabídka práce!" />
-		<text id="alert_marketplace_noticeboard_copy" name="Přihlaš se jako uchazeč o práci, nebo jestli jsi tak už udělal, můžeš tady doplnit své pracovné povolení." />
-		<text id="alert_marketplace_noticeboard_title" name="pracovní povolení" />
+		<text id="alert_marketplace_noticeboard_copy" name="Přihlaš se jako uchazeč o práci, nebo jestli jsi tak už udělal, můžeš tady doplnit své pracovní povolení." />
+		<text id="alert_marketplace_noticeboard_title" name="Pracovní povolení" />
 		<text id="alert_marketplace_playerjobempty_copy" name="Hráč již dnes pracoval dost." />
-		<text id="alert_marketplace_playerjobempty_title" name="práce odmítnuta" />
+		<text id="alert_marketplace_playerjobempty_title" name="Práce odmítnuta" />
 		<text id="alert_marketplace_playerleaved_copy" name="Hráč opustil trh." />
 		<text id="alert_marketplace_playerleaved_title" name="Ups" />
 		<text id="alert_nofreecounter_copy" name="Nemáš žádný volný pult." />
 		<text id="alert_nofreecounter_title" name="Ups!" />
-		<text id="alert_nofridge_copy" name="V kavárně ještě nemáš žádnou lednici. Rozhlídni se v režimu Přestavba a vyber si lednici do kavárny." />
+		<text id="alert_nofridge_copy" name="V kavárně ještě nemáš žádnou lednici. Rozhlédni se v režimu Přestavba a jednu si do kavárny vyber." />
 		<text id="alert_nofridge_title" name="Žádná lednice?" />
 		<text id="alert_nojobpermission_copy" name="Jestli se chceš přihlásit jako uchazeč o práci, potřebuješ povolení k práci!" />
 		<text id="alert_nojobpermission_title" name="Pozor!" />
-		<text id="alert_register_agb_copy" name="Bez Všeobecných obchodních podmínek to nejde. Jednoduše přečíst a potvrdit tlačítkem vlevo! Pak můžeš začít." />
+		<text id="alert_register_agb_copy" name="Bez Všeobecných obchodních podmínek to nejde. Přečti si je a potvrď tlačítkem vlevo! Pak můžeš začít." />
 		<text id="alert_register_email_copy" name="E-mailová adresa nesmí být prázdná a nesmí obsahovat zvláštní znaky." />
 		<text id="alert_register_password_copy" name="Heslo nesmí být prázdné a nesmí obsahovat zvláštní znaky." />
-		<text id="alert_register_title" name="chyba v registraci" />
+		<text id="alert_register_title" name="Chyba v registraci" />
 		<text id="alert_seekingjob_copy" name="Abys mohl pracovat, musíš se nejdřív zaregistrovat." />
-		<text id="alert_seekingjob_title" name="registrovat" />
-		<text id="alert_selldeco_copy" name="Opravdu chceš tento předmět prodat za {0}?" />
+		<text id="alert_seekingjob_title" name="Registrovat" />
+		<text id="alert_selldeco_copy" name="Opravdu chceš tento předmět prodat za {0} za kus?" />
 		<text id="alert_selldeco_title" name="Prodat?" />
-		<text id="alert_sellitem_copy" name="Opravdu chceš tento předmět prodat za {0}?" />
+		<text id="alert_sellitem_copy" name="Opravdu chceš tento předmět prodat za {0} za kus?" />
 		<text id="alert_sellitem_title" name="Prodat?" />
 		<text id="alert_smoothiemaker_full_copy" name="Ve Tvém výrobníku ledové tříště jsou ještě drinky! Podávej je hostům, pak můžeš namíchat nové!" />
 		<text id="alert_smoothiemaker_outofreach_copy" name="Tvůj výrobník ledové tříště není k dispozici. Zkus něco přestavět!" />
@@ -122,8 +122,8 @@
 		<text id="alert_stafffire_copy" name="Chceš svého věrného číšníka opravdu propustit?" />
 		<text id="alert_stafffire_title" name="Propustit číšníka?" />
 		<text id="alert_staffhire_copy" name="Dej svému novému číšníkovi jméno." />
-		<text id="alert_staffhire_title" name="nově přijmout" />
-		<text id="alert_storefull_copy" name="Tvá lednice je plná! Aby jsi měl opět místo, musíš prodat přísady!" />
+		<text id="alert_staffhire_title" name="Přijmout číšníka" />
+		<text id="alert_storefull_copy" name="Tvá lednice je plná! Abys měl opět místo, musíš prodat přísady!" />
 		<text id="alert_storefull_title" name="Plná lednice!" />
 		<text id="alert_stove_outofreach_copy" name="Sporák není dostupný. Zkus něco přemístit!" />
 		<text id="alert_stove_outofreach_title" name="Pozor!" />
@@ -168,7 +168,7 @@
 		<text id="cookstep_pizzasalad1" name="Příprava pizzy" />
 		<text id="cookstep_pizzasalad2" name="Příprava salátu" />
 		<text id="cookstep_tripleomelette1" name="Šlehání vajec" />
-		<text id="cookstep_tripleomelette2" name="Vmíchávání ingrediencí" />
+		<text id="cookstep_tripleomelette2" name="Vmíchávání přísad" />
 		<text id="cookstep_chocolatewaffles1" name="Rozpouštění čokolády" />
 		<text id="cookstep_chocolatewaffles2" name="Zdobení Vaflí" />
 		<text id="cookstep_spanishomelette1" name="Šlehání vajec" />
@@ -179,7 +179,7 @@
 		<text id="cookstep_applepie2" name="Pečení koláče" />
 		<text id="cookstep_ramen1" name="Vaření špaget" />
 		<text id="cookstep_ramen2" name="Přidávání koření" />
-		<text id="cookstep_corncake1" name="Míchání ingrediencí" />
+		<text id="cookstep_corncake1" name="Míchání přísad" />
 		<text id="cookstep_corncake2" name="Pečení dortu" />
 		<text id="cookstep_feijoada1" name="Krájení vepřového masa" />
 		<text id="cookstep_feijoada2" name="Zdobení plátky pomeranče" />
@@ -201,7 +201,7 @@
 		<text id="cookstep_cappuccino2" name="Napěňování mléka" />
 		<text id="cookstep_duckalcitrus1" name="Pečení kachny" />
 		<text id="cookstep_duckalcitrus2" name="Potírání citrusovou glazurou" />
-		<text id="cookstep_ducktatters1" name="Opékání ingrediencí" />
+		<text id="cookstep_ducktatters1" name="Opékání přísad" />
 		<text id="cookstep_ducktatters2" name="Promíchání pokrmu" />
 		<text id="cookstep_langos1" name="Příprava omáčky" />
 		<text id="cookstep_langos2" name="Chlazení omáčky" />
@@ -225,7 +225,7 @@
 		<text id="cookstep_ratatouille2" name="Vrstvení zeleniny" />
 		<text id="cookstep_hotcherryricepudding1" name="Vaření rýže" />
 		<text id="cookstep_hotcherryricepudding2" name="Přidávání třešničky" />
-		<text id="cookstep_coconutcake1" name="Míchání ingrediencí" />
+		<text id="cookstep_coconutcake1" name="Míchání přísad" />
 		<text id="cookstep_coconutcake2" name="Pečení dortu" />
 		<text id="cookstep_paodequeijo1" name="Tvarování těsta" />
 		<text id="cookstep_paodequeijo2" name="Pečení chleba" />
@@ -237,286 +237,286 @@
 		<text id="cookstep_butterchicken2" name="Pozvolné vaření kari omáčky" />
 		<text id="cookstep_chickenbiryani1" name="Vmíchání koření" />
 		<text id="cookstep_chickenbiryani2" name="Ochucování rýže" />
-		<text id="cookstep_cottagepotatoes1" name="Preparing potatoes" />
-		<text id="cookstep_cottagepotatoes2" name="Spreading cottage" />
-		<text id="cookstep_cuzcuzcomovo1" name="Steaming cornmeal" />
-		<text id="cookstep_cuzcuzcomovo2" name="Frying eggs" />
-		<text id="cookstep_malaichickennaan1" name="Prepping batter" />
-		<text id="cookstep_malaichickennaan2" name="Folding naan" />
+		<text id="cookstep_cottagepotatoes1" name="Příprava brambor" />
+		<text id="cookstep_cottagepotatoes2" name="Roztírání tvarohu" />
+		<text id="cookstep_cuzcuzcomovo1" name="Vaření kukuřice v páře" />
+		<text id="cookstep_cuzcuzcomovo2" name="Smažení vajec" />
+		<text id="cookstep_malaichickennaan1" name="Příprava těsta" />
+		<text id="cookstep_malaichickennaan2" name="Překládání naanu" />
 		<text id="cookstep_veganplate1" name="Vaření rýže" />
-		<text id="cookstep_veganplate2" name="Spreading rice" />
-		<text id="cookstep_neapolitancake1" name="Melting ingredients" />
+		<text id="cookstep_veganplate2" name="Rozprostírání rýže" />
+		<text id="cookstep_neapolitancake1" name="Rozpouštění přísad" />
 		<text id="cookstep_neapolitancake2" name="Pečení dortu" />
-		<text id="cookstep_strawberrycheesecake1" name="Míchání ingrediencí" />
-		<text id="cookstep_strawberrycheesecake2" name="Pečení dortu" />
-		<text id="cookstep_combomeal1" name="Frying burger meat" />
-		<text id="cookstep_combomeal2" name="Frying fries somehow" />
-		<text id="cookstep_zcordonbleu1" name="Preparing chicken" />
-		<text id="cookstep_zcordonbleu2" name="Adding lemon slices" />
-		<text id="cookstep_brazilianpastel1" name="Frying pastels" />
-		<text id="cookstep_brazilianpastel2" name="Almost there" />
-		<text id="cookstep_lechonkawali1" name="Preparing pork belly" />
-		<text id="cookstep_lechonkawali2" name="Frying until crispy" />
-		<text id="cookstep_sweetpizza1" name="Spreading chocolate" />
-		<text id="cookstep_sweetpizza2" name="Baking sweet pizza" />
-		<text id="cookstep_shakshuka1" name="Melting tomatoes" />
-		<text id="cookstep_shakshuka2" name="Simmering sauce" />
-		<text id="cookstep_matildacake1" name="Mixing chocolate" />
+		<text id="cookstep_strawberrycheesecake1" name="Míchání přísad" />
+		<text id="cookstep_strawberrycheesecake2" name="Pečení koláče" />
+		<text id="cookstep_combomeal1" name="Smažení masa" />
+		<text id="cookstep_combomeal2" name="Smažení hranolků" />
+		<text id="cookstep_zcordonbleu1" name="Příprava kuřete" />
+		<text id="cookstep_zcordonbleu2" name="Přidávání citronových plátků" />
+		<text id="cookstep_brazilianpastel1" name="Smažení pastelů" />
+		<text id="cookstep_brazilianpastel2" name="Téměř hotovo" />
+		<text id="cookstep_lechonkawali1" name="Příprava bůčku" />
+		<text id="cookstep_lechonkawali2" name="Smažení do zlatova" />
+		<text id="cookstep_sweetpizza1" name="Roztírání čokolády" />
+		<text id="cookstep_sweetpizza2" name="Pečení sladké pizzy" />
+		<text id="cookstep_shakshuka1" name="Dušení rajčat" />
+		<text id="cookstep_shakshuka2" name="Pozvolné vaření omáčky" />
+		<text id="cookstep_matildacake1" name="Míchání čokolády" />
 		<text id="cookstep_matildacake2" name="Pečení dortu" />
-		<text id="cookstep_birthdaycake1" name="Singing happy birthday" />
-		<text id="cookstep_birthdaycake2" name="Frosting cake" />
-		<text id="cookstep_chickennuggets1" name="Frying nuggets" />
-		<text id="cookstep_chickennuggets2" name="Frying more nuggets" />
-		<text id="cookstep_lavenderlemoncake1" name="Mixing ingredients" />
-		<text id="cookstep_lavenderlemoncake2" name="Baking until golden" />
-		<text id="cookstep_potatosoup1" name="Boiling potatoes" />
-		<text id="cookstep_potatosoup2" name="Mixing soup" />
-		<text id="cookstep_chocochipcake1" name="Mixing ingredients" />
-		<text id="cookstep_chocochipcake2" name="Baking cake" />
-		<text id="cookstep_cakewithtoy1" name="Mixing ingredients" />
-		<text id="cookstep_cakewithtoy2" name="Ordering toys" />
-		<text id="cookstep_goldencake1" name="Mixing golden batter" />
-		<text id="cookstep_goldencake2" name="Regretting expenses" />
-		<text id="cookstep_tofusandwich1" name="Spreading sauce" />
-		<text id="cookstep_tofusandwich2" name="Stacking sandwich" />
-		<text id="cookstep_tofupizza1" name="Heating sauce" />
-		<text id="cookstep_tofupizza2" name="Baking pizza" />
-		<text id="cookstep_orangecheesecake1" name="Mixing citrus filling" />
-		<text id="cookstep_orangecheesecake2" name="Baking cheesecake" />
-		<text id="cookstep_goulash1" name="Searing meat" />
-		<text id="cookstep_goulash2" name="Simmering goulash" />
-		<text id="cookstep_extravagantmeal1" name="Heating oranges" />
-		<text id="cookstep_extravagantmeal2" name="Frying eggs" />
-		<text id="cookstep_trendymeal1" name="Heating lemons" />
-		<text id="cookstep_trendymeal2" name="Frying eggs" />
-		<text id="cookstep_instantnoodles1" name="Boiling noodles" />
-		<text id="cookstep_instantnoodles2" name="Shapeshifting noodles" />
-		<text id="cookstep_sausagesoup1" name="Searing sausages" />
-		<text id="cookstep_sausagesoup2" name="Simmering soup" />
-		<text id="cookstep_lemoncheesecake1" name="Heating lemons" />
-		<text id="cookstep_lemoncheesecake2" name="Baking cheesecake" />
-		<text id="cookstep_cheeseburger1" name="opéct sekanou" />
-		<text id="cookstep_cheeseburger2" name="obložit burger" />
-		<text id="cookstep_cheesedish1" name="nachystat sýr" />
-		<text id="cookstep_cheesedish2" name="nastrouhat sýr" />
-		<text id="cookstep_cheesefondue1" name="upéct chléb" />
-		<text id="cookstep_cheesefondue2" name="ohřát sýr" />
+		<text id="cookstep_birthdaycake1" name="Zpívání narozeninové písně" />
+		<text id="cookstep_birthdaycake2" name="Zdobení dortu" />
+		<text id="cookstep_chickennuggets1" name="Smažení nuggetů" />
+		<text id="cookstep_chickennuggets2" name="Smažení dalších nuggetů" />
+		<text id="cookstep_lavenderlemoncake1" name="Míchání přísad" />
+		<text id="cookstep_lavenderlemoncake2" name="Pečení do zlatova" />
+		<text id="cookstep_potatosoup1" name="Vaření brambor" />
+		<text id="cookstep_potatosoup2" name="Míchání polévky" />
+		<text id="cookstep_chocochipcake1" name="Míchání přísad" />
+		<text id="cookstep_chocochipcake2" name="Pečení dortu" />
+		<text id="cookstep_cakewithtoy1" name="Míchání přísad" />
+		<text id="cookstep_cakewithtoy2" name="Objednávání hraček" />
+		<text id="cookstep_goldencake1" name="Míchání zlatého těsta" />
+		<text id="cookstep_goldencake2" name="Litování výdajů" />
+		<text id="cookstep_tofusandwich1" name="Roztírání omáčky" />
+		<text id="cookstep_tofusandwich2" name="Skládání sendviče" />
+		<text id="cookstep_tofupizza1" name="Ohřívání omáčky" />
+		<text id="cookstep_tofupizza2" name="Pečení pizzy" />
+		<text id="cookstep_orangecheesecake1" name="Míchání citrusové náplně" />
+		<text id="cookstep_orangecheesecake2" name="Pečení koláče" />
+		<text id="cookstep_goulash1" name="Opékání masa" />
+		<text id="cookstep_goulash2" name="Pozvolné vaření guláše" />
+		<text id="cookstep_extravagantmeal1" name="Ohřívání pomerančů" />
+		<text id="cookstep_extravagantmeal2" name="Smažení vajec" />
+		<text id="cookstep_trendymeal1" name="Ohřívání citronů" />
+		<text id="cookstep_trendymeal2" name="Smažení vajec" />
+		<text id="cookstep_instantnoodles1" name="Vaření nudlí" />
+		<text id="cookstep_instantnoodles2" name="Tvarování nudlí" />
+		<text id="cookstep_sausagesoup1" name="Opékání párků" />
+		<text id="cookstep_sausagesoup2" name="Pozvolné vaření polévky" />
+		<text id="cookstep_lemoncheesecake1" name="Ohřívání citronů" />
+		<text id="cookstep_lemoncheesecake2" name="Pečení koláče" />
+		<text id="cookstep_cheeseburger1" name="Opékání mletého masa" />
+		<text id="cookstep_cheeseburger2" name="Skládání burgeru" />
+		<text id="cookstep_cheesedish1" name="Příprava sýra" />
+		<text id="cookstep_cheesedish2" name="Strouhání sýra" />
+		<text id="cookstep_cheesefondue1" name="Pečení chleba" />
+		<text id="cookstep_cheesefondue2" name="Ohřívání sýra" />
 		<text id="cookstep_cherriecake1" name="míchat přísady" />
-		<text id="cookstep_cherriecake2" name="upéct koláč" />
-		<text id="cookstep_cherrycompote1" name="uvařit třešně" />
-		<text id="cookstep_cherrycompote2" name="nechat vychladnout" />
-		<text id="cookstep_chickenburger1" name="usmažit kuře" />
-		<text id="cookstep_chickenburger2" name="obložit burger" />
-		<text id="cookstep_chickensalad1" name="opéct kuře" />
-		<text id="cookstep_chickensalad2" name="připravit salát" />
-		<text id="cookstep_chickensoup1" name="opéct slaninu" />
-		<text id="cookstep_chickensoup2" name="uvařit polévku" />
-		<text id="cookstep_chiliconcarne1" name="opéct sekanou" />
-		<text id="cookstep_chiliconcarne2" name="vařit chilli" />
-		<text id="cookstep_chocmousse1" name="míchaní přísad" />
-		<text id="cookstep_chocmousse2" name="vychladit pěnu" />
-		<text id="cookstep_chocolatecake1" name="míchat přísady" />
-		<text id="cookstep_chocolatecake2" name="péct" />
-		<text id="cookstep_chocolatecheesecake1" name="rozpustit čokoládu" />
-		<text id="cookstep_chocolatecheesecake2" name="upéct koláč" />
-		<text id="cookstep_chocolatefondue1" name="rozpustit čokoládu" />
-		<text id="cookstep_chocolatefondue2" name="zamíchat smetanu" />
-		<text id="cookstep_christmasturkey1" name="udusit zeleninu" />
-		<text id="cookstep_christmasturkey2" name="upéct krocana" />
-		<text id="cookstep_cookieplate1" name="vykrajovat těsto" />
-		<text id="cookstep_cookieplate2" name="upéct sušenky" />
-		<text id="cookstep_cornonthecob1" name="uvařit kukuřici" />
-		<text id="cookstep_cornonthecob2" name="připravit salát" />
-		<text id="cookstep_curry1" name="opéct přísady" />
-		<text id="cookstep_curry2" name="přidat kokosový ořech" />
-		<text id="cookstep_duckalorange1" name="naplnit kachnu" />
-		<text id="cookstep_duckalorange2" name="upéct kachnu" />
-		<text id="cookstep_easterdish1" name="rozpustit čokoládu" />
-		<text id="cookstep_easterdish2" name="uvařit vejce" />
-		<text id="cookstep_englishbreakfast1" name="uvařit fazole" />
-		<text id="cookstep_englishbreakfast2" name="opéct párky" />
-		<text id="cookstep_fishandchips1" name="fritovat" />
-		<text id="cookstep_fishandchips2" name="šťouchat hrách" />
-		<text id="cookstep_friedpotatoes1" name="uvařit brambory" />
-		<text id="cookstep_friedpotatoes2" name="upéct brambory" />
-		<text id="cookstep_fruitpudding1" name="nechat odležet těsto" />
-		<text id="cookstep_fruitpudding2" name="péct" />
-		<text id="cookstep_fruitsalad1" name="krájet ovoce" />
-		<text id="cookstep_fruitsalad2" name="přidat dresing" />
-		<text id="cookstep_greensalad1" name="namíchat dresing" />
-		<text id="cookstep_greensalad2" name="nechat odstát salát" />
-		<text id="cookstep_gumbo1" name="udusit přísady" />
-		<text id="cookstep_gumbo2" name="přidat rýži" />
-		<text id="cookstep_hamburger1" name="opéct burger" />
-		<text id="cookstep_hamburger2" name="nachystat burger" />
-		<text id="cookstep_hotcherrywaffles1" name="uvařit třešně" />
-		<text id="cookstep_hotcherrywaffles2" name="upéct vafle" />
-		<text id="cookstep_jamspongepudding1" name="smíchat přísady" />
-		<text id="cookstep_jamspongepudding2" name="péct" />
-		<text id="cookstep_lasagne1" name="opéct sekanou" />
-		<text id="cookstep_lasagne2" name="upéct lasagne" />
-		<text id="cookstep_macncheese1" name="plnit nádobu na kynutí" />
-		<text id="cookstep_macncheese2" name="péct" />
-		<text id="cookstep_maplepancakes1" name="mísit těsto" />
-		<text id="cookstep_maplepancakes2" name="upéct lívance" />
-		<text id="cookstep_marblecake1" name="naplnit formu" />
-		<text id="cookstep_marblecake2" name="péct" />
-		<text id="cookstep_mexicansalad1" name="uvařit fazole" />
-		<text id="cookstep_mexicansalad2" name="smíchat přísady" />
-		<text id="cookstep_minestrone1" name="udusit zeleninu" />
-		<text id="cookstep_minestrone2" name="přidat nudle" />
-		<text id="cookstep_mixedsalad1" name="namíchat dresing" />
-		<text id="cookstep_mixedsalad2" name="nechat odstát salát" />
-		<text id="cookstep_nasigoreng1" name="uvařit kuře" />
-		<text id="cookstep_nasigoreng2" name="udusit zeleninu" />
-		<text id="cookstep_newyorkcheesecake1" name="promíchat nádivku" />
-		<text id="cookstep_newyorkcheesecake2" name="upéct koláč" />
-		<text id="cookstep_noodlesalad1" name="míchat majonézu" />
-		<text id="cookstep_noodlesalad2" name="smíchat přísady" />
-		<text id="cookstep_omelette1" name="kořenit vejce" />
-		<text id="cookstep_omelette2" name="srazit vejce" />
-		<text id="cookstep_onionsoup1" name="udusit cibuli" />
-		<text id="cookstep_onionsoup2" name="zapéct sýr" />
-		<text id="cookstep_goldenomelette1" name="Season eggs" />
-		<text id="cookstep_goldenomelette2" name="Fold eggs" />
-		<text id="cookstep_peasoup1" name="podusit cibuli" />
-		<text id="cookstep_peasoup2" name="uvařit polévku" />
-		<text id="cookstep_pizza1" name="obložit pizzu" />
-		<text id="cookstep_pizza2" name="upéct pizzu" />
-		<text id="cookstep_pizzahawaii1" name="obložit pizzu" />
-		<text id="cookstep_pizzahawaii2" name="upéct pizzu" />
-		<text id="cookstep_pizzatonno1" name="obložit pizzu" />
-		<text id="cookstep_pizzatonno2" name="upéct pizzu" />
-		<text id="cookstep_porkroastwithcrackling1" name="okořenit maso" />
-		<text id="cookstep_porkroastwithcrackling2" name="opékat" />
-		<text id="cookstep_potatosalad1" name="uvařit brambory" />
-		<text id="cookstep_potatosalad2" name="míchat majonézu" />
-		<text id="cookstep_redberrycompote1" name="zavařit ovocí" />
-		<text id="cookstep_redberrycompote2" name="osladit" />
-		<text id="cookstep_ricepudding1" name="uvařit mléčnou rýži" />
-		<text id="cookstep_ricepudding2" name="uvařit jablečnou kaši" />
-		<text id="cookstep_roastchicken1" name="naplnit kuře" />
-		<text id="cookstep_roastchicken2" name="opékat" />
-		<text id="cookstep_sandwich1" name="namazat chléb" />
-		<text id="cookstep_sandwich2" name="obložit toast" />
-		<text id="cookstep_scouse1" name="uvařit maso" />
-		<text id="cookstep_scouse2" name="přidat červenou řepu" />
-		<text id="cookstep_spagetti1" name="opéct sekanou" />
-		<text id="cookstep_spagetti2" name="uvařit omáčku" />
-		<text id="cookstep_spareribs1" name="naložit maso" />
-		<text id="cookstep_spareribs2" name="opéct maso" />
-		<text id="cookstep_steak1" name="opéct maso" />
-		<text id="cookstep_steak2" name="připravit salát" />
-		<text id="cookstep_steakkidneypie1" name="uvařit nádivku" />
-		<text id="cookstep_steakkidneypie2" name="péct" />
-		<text id="cookstep_stew1" name="opéct rybu" />
-		<text id="cookstep_stew2" name="smažit" />
-		<text id="cookstep_stewedrhubarb1" name="uvařit rebarboru" />
-		<text id="cookstep_stewedrhubarb2" name="nechat vychladnout" />
-		<text id="cookstep_strawberrycake1" name="péct formu" />
-		<text id="cookstep_strawberrycake2" name="obložit koláč" />
-		<text id="cookstep_strawberrymousse1" name="rozmačkat jahody" />
-		<text id="cookstep_strawberrymousse2" name="vyšlehat pěnu" />
-		<text id="cookstep_stuffedpeppers1" name="plnit papriku" />
-		<text id="cookstep_stuffedpeppers2" name="péct papriku" />
-		<text id="cookstep_sundayfeast1" name="naložit maso" />
-		<text id="cookstep_sundayfeast2" name="upéct maso" />
-		<text id="cookstep_sushi1" name="rozdělit přísady" />
-		<text id="cookstep_sushi2" name="srolovat" />
-		<text id="cookstep_toadinhole1" name="mísit těsto" />
-		<text id="cookstep_toadinhole2" name="péct" />
-		<text id="cookstep_toast1" name="obložit toast" />
-		<text id="cookstep_toast2" name="opéct toast" />
-		<text id="cookstep_tofuburger1" name="opéct tofu" />
-		<text id="cookstep_tofuburger2" name="obložit burger" />
-		<text id="cookstep_tomatosoup1" name="opéct cibuli" />
-		<text id="cookstep_tomatosoup2" name="uvařit rajčata" />
-		<text id="cookstep_trifle1" name="uvařit puding" />
-		<text id="cookstep_trifle2" name="vrstvit trifle" />
-		<text id="cookstep_veganstirfry1" name="udusit zeleninu" />
-		<text id="cookstep_veganstirfry2" name="uvařit rýži" />
-		<text id="cookstep_vegetablesoup1" name="opéct cibuli" />
-		<text id="cookstep_vegetablesoup2" name="uvařit polévku" />
-		<text id="cookstep_veggiecurry1" name="uvařit rýži" />
-		<text id="cookstep_veggiecurry2" name="smažit kari" />
-		<text id="cookstep_veggielasagne1" name="vrstvit lasagne" />
-		<text id="cookstep_veggielasagne2" name="upéct lasagne" />
-		<text id="cookstep_whitechoccheesecake1" name="míchat přísady" />
-		<text id="cookstep_whitechoccheesecake2" name="upéct koláč" />
-		<text id="cookstep_whitechocmousse1" name="rozpustit čokoládu" />
-		<text id="cookstep_whitechocmousse2" name="vychladit pěnu" />
-		<text id="cookstep_coxinha1" name="Míchání ingrediencí" />
-		<text id="cookstep_coxinha2" name="Frying coxinhas" />
-		<text id="cookstep_pinksoup1" name="Blending vegetables" />
-		<text id="cookstep_pinksoup2" name="Simmering pink soup" />
-		<text id="cookstep_borschtsch1" name="Cooking beetroot" />
-		<text id="cookstep_borschtsch2" name="Finishing borschtsch" />
-		<text id="cookstep_strawberrysalad1" name="Mixing ingredients" />
-		<text id="cookstep_strawberrysalad2" name="Stacking salad" />
-		<text id="cookstep_fishnoodlesalad1" name="Boiling noodles" />
-		<text id="cookstep_fishnoodlesalad2" name="Adding fish bits" />
-		<text id="cookstep_croissant1" name="Mixing dough" />
-		<text id="cookstep_croissant2" name="Baking" />
-		<text id="cookstep_vegetariansushi1" name="Cutting vegetables" />
-		<text id="cookstep_vegetariansushi2" name="Building sushi" />
-		<text id="cookstep_passionfruitmousse1" name="Melting chocolate" />
-		<text id="cookstep_passionfruitmousse2" name="Mixing mousse" />
-		<text id="cookstep_passionfruitfondue1" name="Melting chocolate" />
-		<text id="cookstep_passionfruitfondue2" name="Mixing passion fruit" />
-		<text id="cookstep_passionfruitjuice1" name="Mixing juice" />
-		<text id="cookstep_passionfruitjuice2" name="Adding sugar" />
-		<text id="cookstep_passionfruitcheesecake1" name="Mixing ingredients" />
-		<text id="cookstep_passionfruitcheesecake2" name="Baking" />
-		<text id="cookstep_pietray1" name="Mixing ingredients" />
-		<text id="cookstep_pietray2" name="Baking" />
-		<text id="cookstep_meatstuffedpeppers1" name="Preparing peppers" />
-		<text id="cookstep_meatstuffedpeppers2" name="Stuffing peppers" />
-		<text id="cookstep_gourmetcheesedish1" name="Cutting cheese" />
-		<text id="cookstep_gourmetcheesedish2" name="Arranging cheese board" />
-		<text id="cookstep_bluecheesefondue1" name="Melting cheese" />
-		<text id="cookstep_bluecheesefondue2" name="Mixing fondue" />
-		<text id="cookstep_pumpkinpie1" name="Mixing ingredients" />
-		<text id="cookstep_pumpkinpie2" name="Baking" />
-		<text id="cookstep_pumpkincake1" name="mixing ingredients" />
-		<text id="cookstep_pumpkincake2" name="baking" />
-		<text id="cookstep_sugarglazeroastchicken1" name="seasoning chicken" />
-		<text id="cookstep_sugarglazeroastchicken2" name="glazing" />
-		<text id="cookstep_pumpkinsoup1" name="mixing ingredients" />
-		<text id="cookstep_pumpkinsoup2" name="boiling" />
-		<text id="cookstep_pumpkinfondue1" name="melting cheese" />
-		<text id="cookstep_pumpkinfondue2" name="mixing ingredients" />
-		<text id="cookstep_krabbypatty1" name="frying pineapple patty" />
-		<text id="cookstep_krabbypatty2" name="melting cheese" />
-		<text id="cookstep_pumpkinspicelatte1" name="mixing ingredients" />
-		<text id="cookstep_pumpkinspicelatte2" name="pouring drinks" />
-		<text id="cookstep_spookymousse1" name="haunting chocolate" />
-		<text id="cookstep_spookymousse2" name="mixing spirits" />
-		<text id="cookstep_fallchips1" name="Peeling potatoes" />
-		<text id="cookstep_fallchips2" name="Frying" />
-		<text id="cookstep_orangecompote1" name="Melting oranges" />
-		<text id="cookstep_orangecompote2" name="Stewing" />
-		<text id="cookstep_citruscompote1" name="Melting citrus" />
-		<text id="cookstep_citruscompote2" name="Stewing" />
-		<text id="cookstep_pierogi1" name="prepping dough" />
-		<text id="cookstep_pierogi2" name="folding" />
-		<text id="cookstep_fourcheesepizza1" name="Melting cheese" />
-		<text id="cookstep_fourcheesepizza2" name="Melting more cheese" />
-		<text id="cookstep_superchocolatecake1" name="Mixing ingredients" />
-		<text id="cookstep_superchocolatecake2" name="Baking" />
-		<text id="cookstep_chickencurry1" name="Dissolving spices" />
-		<text id="cookstep_chickencurry2" name="Cooking rice" />
-		<text id="cookstep_spookyfondue1" name="Melting cheese" />
-		<text id="cookstep_spookyfondue2" name="Mixing concoction" />
-		<text id="cookstep_simplefruitsalad1" name="Washing fruit" />
-		<text id="cookstep_simplefruitsalad2" name="Building salads" />
-		<text id="cookstep_whitechocpizza1" name="Melting chocolate" />
-		<text id="cookstep_whitechocpizza2" name="Adding fruit" />
-		<text id="cookstep_icecream1" name="Mixing ingredients" />
-		<text id="cookstep_icecream2" name="Cooling" />
+		<text id="cookstep_cherriecake2" name="Pečení koláče" />
+		<text id="cookstep_cherrycompote1" name="Vaření třešní" />
+		<text id="cookstep_cherrycompote2" name="Chladnutí" />
+		<text id="cookstep_chickenburger1" name="Smažení kuřete" />
+		<text id="cookstep_chickenburger2" name="Skládání burgeru" />
+		<text id="cookstep_chickensalad1" name="Opékání kuřete" />
+		<text id="cookstep_chickensalad2" name="Příprava salátu" />
+		<text id="cookstep_chickensoup1" name="Opékání slaniny" />
+		<text id="cookstep_chickensoup2" name="Vaření polévky" />
+		<text id="cookstep_chiliconcarne1" name="Opékání mletého masa" />
+		<text id="cookstep_chiliconcarne2" name="Vaření chilli" />
+		<text id="cookstep_chocmousse1" name="Míchání přísad" />
+		<text id="cookstep_chocmousse2" name="Chlazení pěny" />
+		<text id="cookstep_chocolatecake1" name="Míchání přísad" />
+		<text id="cookstep_chocolatecake2" name="Pečení dortu" />
+		<text id="cookstep_chocolatecheesecake1" name="Rozpouštění čokolády" />
+		<text id="cookstep_chocolatecheesecake2" name="Pečení koláče" />
+		<text id="cookstep_chocolatefondue1" name="Rozpouštění čokolády" />
+		<text id="cookstep_chocolatefondue2" name="Míchání smetany" />
+		<text id="cookstep_christmasturkey1" name="Vaření zeleniny v páře" />
+		<text id="cookstep_christmasturkey2" name="Pečení krocanu" />
+		<text id="cookstep_cookieplate1" name="Vykrajování těsta" />
+		<text id="cookstep_cookieplate2" name="Pečení sušenek" />
+		<text id="cookstep_cornonthecob1" name="Vaření kukuřice" />
+		<text id="cookstep_cornonthecob2" name="Příprava salátu" />
+		<text id="cookstep_curry1" name="Opékání přísad" />
+		<text id="cookstep_curry2" name="Přidání kokosového ořechu" />
+		<text id="cookstep_duckalorange1" name="Plnění kachny" />
+		<text id="cookstep_duckalorange2" name="Pečení kachny" />
+		<text id="cookstep_easterdish1" name="Rozpouštění čokolády" />
+		<text id="cookstep_easterdish2" name="Vaření vajec" />
+		<text id="cookstep_englishbreakfast1" name="Vaření fazolí" />
+		<text id="cookstep_englishbreakfast2" name="Opékání párků" />
+		<text id="cookstep_fishandchips1" name="Smažení" />
+		<text id="cookstep_fishandchips2" name="Šťouchání hrachu" />
+		<text id="cookstep_friedpotatoes1" name="Vaření brambor" />
+		<text id="cookstep_friedpotatoes2" name="Opékání brambor" />
+		<text id="cookstep_fruitpudding1" name="Odležení těsta" />
+		<text id="cookstep_fruitpudding2" name="Pečení" />
+		<text id="cookstep_fruitsalad1" name="Krájení ovoce" />
+		<text id="cookstep_fruitsalad2" name="Přidání dresingu" />
+		<text id="cookstep_greensalad1" name="Míchání dresingu" />
+		<text id="cookstep_greensalad2" name="Marinování salátu" />
+		<text id="cookstep_gumbo1" name="Dušení cibule" />
+		<text id="cookstep_gumbo2" name="Přidání rýže" />
+		<text id="cookstep_hamburger1" name="Opékání burgeru" />
+		<text id="cookstep_hamburger2" name="Skládání burgeru" />
+		<text id="cookstep_hotcherrywaffles1" name="Vaření třešní" />
+		<text id="cookstep_hotcherrywaffles2" name="Pečení vaflí" />
+		<text id="cookstep_jamspongepudding1" name="Míchání přísad" />
+		<text id="cookstep_jamspongepudding2" name="Pečení" />
+		<text id="cookstep_lasagne1" name="Opékání mletého masa" />
+		<text id="cookstep_lasagne2" name="Pečení lasagní" />
+		<text id="cookstep_macncheese1" name="Plnění zapékací mísy" />
+		<text id="cookstep_macncheese2" name="Pečení" />
+		<text id="cookstep_maplepancakes1" name="Míchání těsta" />
+		<text id="cookstep_maplepancakes2" name="Smažení lívanců" />
+		<text id="cookstep_marblecake1" name="Plnění formy" />
+		<text id="cookstep_marblecake2" name="Pečení" />
+		<text id="cookstep_mexicansalad1" name="Vaření fazolí" />
+		<text id="cookstep_mexicansalad2" name="Míchání přísad" />
+		<text id="cookstep_minestrone1" name="Vaření zeleniny v páře" />
+		<text id="cookstep_minestrone2" name="Přidávání těstovin" />
+		<text id="cookstep_mixedsalad1" name="Míchání dresingu" />
+		<text id="cookstep_mixedsalad2" name="Marinování salátu" />
+		<text id="cookstep_nasigoreng1" name="Vaření kuřete" />
+		<text id="cookstep_nasigoreng2" name="Vaření zeleniny v páře" />
+		<text id="cookstep_newyorkcheesecake1" name="Míchání náplně" />
+		<text id="cookstep_newyorkcheesecake2" name="Pečení koláče" />
+		<text id="cookstep_noodlesalad1" name="Míchání majonézy" />
+		<text id="cookstep_noodlesalad2" name="Míchání přísad" />
+		<text id="cookstep_omelette1" name="Kořenění vajec" />
+		<text id="cookstep_omelette2" name="Překládání omelety" />
+		<text id="cookstep_onionsoup1" name="Opékání cibule" />
+		<text id="cookstep_onionsoup2" name="Zapékání sýra" />
+		<text id="cookstep_goldenomelette1" name="Kořenění vajec" />
+		<text id="cookstep_goldenomelette2" name="Překládání omelety" />
+		<text id="cookstep_peasoup1" name="Opékání cibule" />
+		<text id="cookstep_peasoup2" name="Vaření polévky" />
+		<text id="cookstep_pizza1" name="Obkládání pizzy" />
+		<text id="cookstep_pizza2" name="Pečení pizzy" />
+		<text id="cookstep_pizzahawaii1" name="Obkládání pizzy" />
+		<text id="cookstep_pizzahawaii2" name="Pečení pizzy" />
+		<text id="cookstep_pizzatonno1" name="Obkládání pizzy" />
+		<text id="cookstep_pizzatonno2" name="Pečení pizzy" />
+		<text id="cookstep_porkroastwithcrackling1" name="Kořenění masa" />
+		<text id="cookstep_porkroastwithcrackling2" name="Pečení" />
+		<text id="cookstep_potatosalad1" name="Vaření brambor" />
+		<text id="cookstep_potatosalad2" name="Míchání majonézy" />
+		<text id="cookstep_redberrycompote1" name="Dušení ovoce" />
+		<text id="cookstep_redberrycompote2" name="Oslazení" />
+		<text id="cookstep_ricepudding1" name="Vaření mléčné rýže" />
+		<text id="cookstep_ricepudding2" name="Příprava jablečné kaše" />
+		<text id="cookstep_roastchicken1" name="Plnění kuřete" />
+		<text id="cookstep_roastchicken2" name="Pečení" />
+		<text id="cookstep_sandwich1" name="Mazání chleba" />
+		<text id="cookstep_sandwich2" name="Obkládání toastu" />
+		<text id="cookstep_scouse1" name="Vaření masa" />
+		<text id="cookstep_scouse2" name="Přidání červené řepy" />
+		<text id="cookstep_spagetti1" name="Opékání mletého masa" />
+		<text id="cookstep_spagetti2" name="Vaření omáčky" />
+		<text id="cookstep_spareribs1" name="Marinování masa" />
+		<text id="cookstep_spareribs2" name="Opékání masa do zlatova" />
+		<text id="cookstep_steak1" name="Opékání masa do zlatova" />
+		<text id="cookstep_steak2" name="Příprava salátu" />
+		<text id="cookstep_steakkidneypie1" name="Vaření náplně" />
+		<text id="cookstep_steakkidneypie2" name="Pečení" />
+		<text id="cookstep_stew1" name="Opékání masa do zlatova" />
+		<text id="cookstep_stew2" name="Dušení" />
+		<text id="cookstep_stewedrhubarb1" name="Vaření rebarbory" />
+		<text id="cookstep_stewedrhubarb2" name="Chladnutí" />
+		<text id="cookstep_strawberrycake1" name="Pečení korpusu" />
+		<text id="cookstep_strawberrycake2" name="Zdobení koláče" />
+		<text id="cookstep_strawberrymousse1" name="Rozmixování jahod" />
+		<text id="cookstep_strawberrymousse2" name="Šlehání pěny" />
+		<text id="cookstep_stuffedpeppers1" name="Plnění paprik" />
+		<text id="cookstep_stuffedpeppers2" name="Pečení paprik" />
+		<text id="cookstep_sundayfeast1" name="Marinování masa" />
+		<text id="cookstep_sundayfeast2" name="Opékání masa do zlatova" />
+		<text id="cookstep_sushi1" name="Rozprostírání přísad" />
+		<text id="cookstep_sushi2" name="Rolování" />
+		<text id="cookstep_toadinhole1" name="Míchání těsta" />
+		<text id="cookstep_toadinhole2" name="Pečení" />
+		<text id="cookstep_toast1" name="Obkládání toastu" />
+		<text id="cookstep_toast2" name="Opékání toastu" />
+		<text id="cookstep_tofuburger1" name="Opékání tofu" />
+		<text id="cookstep_tofuburger2" name="Skládání burgeru" />
+		<text id="cookstep_tomatosoup1" name="Opékání cibule" />
+		<text id="cookstep_tomatosoup2" name="Vaření rajčat" />
+		<text id="cookstep_trifle1" name="Vaření pudinku" />
+		<text id="cookstep_trifle2" name="Vrstvení triflu" />
+		<text id="cookstep_veganstirfry1" name="Vaření zeleniny v páře" />
+		<text id="cookstep_veganstirfry2" name="Vaření rýže" />
+		<text id="cookstep_vegetablesoup1" name="Opékání cibule" />
+		<text id="cookstep_vegetablesoup2" name="Vaření polévky" />
+		<text id="cookstep_veggiecurry1" name="Vaření rýže" />
+		<text id="cookstep_veggiecurry2" name="Dušení kari" />
+		<text id="cookstep_veggielasagne1" name="Vrstvení lasagní" />
+		<text id="cookstep_veggielasagne2" name="Pečení lasagní" />
+		<text id="cookstep_whitechoccheesecake1" name="Míchání přísad" />
+		<text id="cookstep_whitechoccheesecake2" name="Pečení koláče" />
+		<text id="cookstep_whitechocmousse1" name="Rozpouštění čokolády" />
+		<text id="cookstep_whitechocmousse2" name="Chlazení pěny" />
+		<text id="cookstep_coxinha1" name="Míchání přísad" />
+		<text id="cookstep_coxinha2" name="Smažení coxinhas" />
+		<text id="cookstep_pinksoup1" name="Mixování zeleniny" />
+		<text id="cookstep_pinksoup2" name="Příprava studeného boršče" />
+		<text id="cookstep_borschtsch1" name="Vaření červené řepy" />
+		<text id="cookstep_borschtsch2" name="Dokončení boršče" />
+		<text id="cookstep_strawberrysalad1" name="Míchání přísad" />
+		<text id="cookstep_strawberrysalad2" name="Vrstvení salátu" />
+		<text id="cookstep_fishnoodlesalad1" name="Vaření nudlí" />
+		<text id="cookstep_fishnoodlesalad2" name="Přidávání rybích kousků" />
+		<text id="cookstep_croissant1" name="Míchání těsta" />
+		<text id="cookstep_croissant2" name="Pečení" />
+		<text id="cookstep_vegetariansushi1" name="Krájení zeleniny" />
+		<text id="cookstep_vegetariansushi2" name="Skládání sushi" />
+		<text id="cookstep_passionfruitmousse1" name="Rozpouštění čokolády" />
+		<text id="cookstep_passionfruitmousse2" name="Míchání pěny" />
+		<text id="cookstep_passionfruitfondue1" name="Rozpouštění čokolády" />
+		<text id="cookstep_passionfruitfondue2" name="Míchání marakuji" />
+		<text id="cookstep_passionfruitjuice1" name="Míchání džusu" />
+		<text id="cookstep_passionfruitjuice2" name="Přidání cukru" />
+		<text id="cookstep_passionfruitcheesecake1" name="Míchání přísad" />
+		<text id="cookstep_passionfruitcheesecake2" name="Pečení" />
+		<text id="cookstep_pietray1" name="Míchání přísad" />
+		<text id="cookstep_pietray2" name="Pečení" />
+		<text id="cookstep_meatstuffedpeppers1" name="Příprava paprik" />
+		<text id="cookstep_meatstuffedpeppers2" name="Plnění paprik" />
+		<text id="cookstep_gourmetcheesedish1" name="Krájení sýra" />
+		<text id="cookstep_gourmetcheesedish2" name="Aranžování sýrového prkénka" />
+		<text id="cookstep_bluecheesefondue1" name="Rozpouštění sýra" />
+		<text id="cookstep_bluecheesefondue2" name="Míchání fondue" />
+		<text id="cookstep_pumpkinpie1" name="Míchání přísad" />
+		<text id="cookstep_pumpkinpie2" name="Pečení" />
+		<text id="cookstep_pumpkincake1" name="Míchání přísad" />
+		<text id="cookstep_pumpkincake2" name="Pečení" />
+		<text id="cookstep_sugarglazeroastchicken1" name="Kořenění kuřete" />
+		<text id="cookstep_sugarglazeroastchicken2" name="Glazování" />
+		<text id="cookstep_pumpkinsoup1" name="Míchání přísad" />
+		<text id="cookstep_pumpkinsoup2" name="Vaření" />
+		<text id="cookstep_pumpkinfondue1" name="Rozpouštění sýra" />
+		<text id="cookstep_pumpkinfondue2" name="Míchání přísad" />
+		<text id="cookstep_krabbypatty1" name="Smažení ananasové placky" />
+		<text id="cookstep_krabbypatty2" name="Rozpouštění sýra" />
+		<text id="cookstep_pumpkinspicelatte1" name="Míchání přísad" />
+		<text id="cookstep_pumpkinspicelatte2" name="Nalévání nápojů" />
+		<text id="cookstep_spookymousse1" name="Strašení čokolády" />
+		<text id="cookstep_spookymousse2" name="Míchání duchů" />
+		<text id="cookstep_fallchips1" name="Škrábání brambor" />
+		<text id="cookstep_fallchips2" name="Smažení" />
+		<text id="cookstep_orangecompote1" name="Rozvařování pomerančů" />
+		<text id="cookstep_orangecompote2" name="Dušení" />
+		<text id="cookstep_citruscompote1" name="Rozvařování citrusů" />
+		<text id="cookstep_citruscompote2" name="Dušení" />
+		<text id="cookstep_pierogi1" name="Příprava těsta" />
+		<text id="cookstep_pierogi2" name="Skládání" />
+		<text id="cookstep_fourcheesepizza1" name="Rozpouštění sýra" />
+		<text id="cookstep_fourcheesepizza2" name="Rozpouštění dalšího sýra" />
+		<text id="cookstep_superchocolatecake1" name="Míchání přísad" />
+		<text id="cookstep_superchocolatecake2" name="Pečení" />
+		<text id="cookstep_chickencurry1" name="Rozmíchání koření" />
+		<text id="cookstep_chickencurry2" name="Vaření rýže" />
+		<text id="cookstep_spookyfondue1" name="Rozpouštění sýra" />
+		<text id="cookstep_spookyfondue2" name="Míchání lektvaru" />
+		<text id="cookstep_simplefruitsalad1" name="Mytí ovoce" />
+		<text id="cookstep_simplefruitsalad2" name="Sestavování salátů" />
+		<text id="cookstep_whitechocpizza1" name="Rozpouštění čokolády" />
+		<text id="cookstep_whitechocpizza2" name="Přidávání ovoce" />
+		<text id="cookstep_icecream1" name="Míchání přísad" />
+		<text id="cookstep_icecream2" name="Chlazení" />
 	</cookstep>
 	<coopmission>
 		<text id="coop_desc_long_1" name="Pořádáme kurz vaření, kde se naučíš připravit ještě lepší jídlo. Chceš se zapojit?" />
-		<text id="coop_desc_long_10" name="Tvoje rodina přijede na návštěvu a Ty máš čestnú úlohu připravit vánoční večeři. Nechte si chutnat!" />
+		<text id="coop_desc_long_10" name="Tvoje rodina přijede na návštěvu a Ty máš čestnou úlohu připravit vánoční večeři. Nechte si chutnat!" />
 		<text id="coop_desc_long_11" name="Kuchařská bitva je naplánovaná a my potřebujeme velké množství koláčů! Upeč pro nás tolik koláčů, kolik jen můžeš..." />
 		<text id="coop_desc_long_12" name="Pro městskou jídelnu potřebujeme pár druhů polévek. Můžeš jich uvařit několik takových, které budou chutnat všem?" />
 		<text id="coop_desc_long_13" name="Pro asijský tématický večer potřebujeme ještě pár typických asijských jídel. Umíš pár receptů?" />
@@ -525,20 +525,20 @@
 		<text id="coop_desc_long_2" name="Plánuji párty v mexickém stylu a potřebuji k tomu i mexické jídlo. Můžeš mi s tím pomoct?" />
 		<text id="coop_desc_long_3" name="Čekám návštěvu sportovního družstva z Hamburku a chci, aby se měli jako doma. Proto potřebuji někoho, kdo umí vařit jídla jako z Hamburku. Pomůžeš?" />
 		<text id="coop_desc_long_4" name="Pořádám velkou párty a potřebuji ještě hodně jídla, aby byli hosté spokojení. Slyšel jsem, že tvůj catering je skvělý. Můžeš mi pomoct?" />
-		<text id="coop_desc_long_5" name="Lyžařský park ve městě pořádá lyřažskú párty a potřebuje velké množství chutného jídla. Můžeš pomoct?" />
-		<text id="coop_desc_long_6" name="Můj šéf dnes přijde na večeři a já chci udělat dojem štyřchodovým menu..Můžeš to vzít do svých rukou?" />
-		<text id="coop_desc_long_7" name="Ve školní jídelně hořelo a děti nedostali jídlo! Můžeš nám pomoct připravit něco chutné k zakousnutí?" />
-		<text id="coop_desc_long_8" name="Můj nejlepší přítel slaví narozeniny a zapomněl se postarat o jídlo. Přijde hodně hladových lidí...Můžeš nám pomoct?" />
-		<text id="coop_desc_long_9" name="J tady italská vesnická slavnost. Jediné, co ještě chybí, je jídlo. Jak to vypadá s tvým kuchařským uměním?" />
+		<text id="coop_desc_long_5" name="Lyžařský park ve městě pořádá lyžařskou párty a potřebuje velké množství chutného jídla. Můžeš pomoct?" />
+		<text id="coop_desc_long_6" name="Můj šéf dnes přijde na večeři a já chci udělat dojem čtyřchodovým menu. Můžeš to vzít do svých rukou?" />
+		<text id="coop_desc_long_7" name="Ve školní jídelně hořelo a děti nedostaly jídlo! Můžeš nám pomoct připravit něco chutného k zakousnutí?" />
+		<text id="coop_desc_long_8" name="Můj nejlepší přítel slaví narozeniny a zapomněl se postarat o jídlo. Přijde hodně hladových lidí... Můžeš nám pomoct?" />
+		<text id="coop_desc_long_9" name="Je tady italská vesnická slavnost. Jediné, co ještě chybí, je jídlo. Jak to vypadá s tvým kuchařským uměním?" />
 		<text id="coop_desc_short_1" name="Staň se nejlepším ve vaření boloňských špaget!" />
 		<text id="coop_desc_short_10" name="Jíst až do prasknutí kalhot!" />
 		<text id="coop_desc_short_11" name="Každý zásah se počítá!" />
 		<text id="coop_desc_short_12" name="Není nad polévku!" />
 		<text id="coop_desc_short_13" name="Bez rýže to nejde!" />
 		<text id="coop_desc_short_14" name="Maso a brambory máme rádi!" />
-		<text id="coop_desc_short_15" name="Všechno pro Brity z celeho světa!" />
+		<text id="coop_desc_short_15" name="Všechno pro Brity z celého světa!" />
 		<text id="coop_desc_short_2" name="Mexická fiesta se vším, co k tomu patří!" />
-		<text id="coop_desc_short_3" name="Labkaus pro hosty z Hamburku!" />
+		<text id="coop_desc_short_3" name="Labskaus pro hosty z Hamburku!" />
 		<text id="coop_desc_short_4" name="Toast Hawaii na zahradní oslavu!" />
 		<text id="coop_desc_short_5" name="Skvělá čokoláda a sýr!" />
 		<text id="coop_desc_short_6" name="Nejlepší čokoládová pěna!" />
@@ -549,170 +549,170 @@
 		<text id="coop_title_10" name="JSOU VÁNOCE!" />
 		<text id="coop_title_11" name="KUCHAŘSKÁ BITVA!" />
 		<text id="coop_title_12" name="POLÉVKOVÉ VARIACE" />
-		<text id="coop_title_13" name="VŠECHNO ASIJSKÝ" />
-		<text id="coop_title_14" name="BUDE TO OPRAVDU VÝDATNÉ!" />
+		<text id="coop_title_13" name="VŠECHNO ASIJSKÉ" />
+		<text id="coop_title_14" name="BUDE TO OPRAVDU VYDATNÉ!" />
 		<text id="coop_title_15" name="HODNĚ BRITSKÉ!" />
 		<text id="coop_title_2" name="MEXICKÝ VEČER" />
 		<text id="coop_title_3" name="NÁVŠTĚVA Z HAMBURKU" />
 		<text id="coop_title_4" name="ZAHRADNÍ OSLAVA" />
 		<text id="coop_title_5" name="LYŽAŘSKÁ PÁRTY" />
 		<text id="coop_title_6" name="SLAVNOSTNÍ VEČEŘE" />
-		<text id="coop_title_7" name="ŠKOLSKÁ JÍDELNA" />
+		<text id="coop_title_7" name="ŠKOLNÍ JÍDELNA" />
 		<text id="coop_title_8" name="OSLAVA NAROZENIN" />
 		<text id="coop_title_9" name="ITALSKÝ BUFET" />
-		<text id="coop_title_16" name="MORNING RUSH!" />
-		<text id="coop_desc_short_16" name="Start the day right!" />
-		<text id="coop_desc_long_16" name="Chef cupcakekittycat8 will host a big breakfast at the Marketplace. Can you provide some of what will be served?" />
-		<text id="coop_title_17" name="POST-LUNCH DESSERTS" />
-		<text id="coop_desc_short_17" name="Craving sweets are we?" />
-		<text id="coop_desc_long_17" name="Chef Gabriel served a salty lunch and the costumers are craving many sweets! Help out and sweeten the day!" />
-		<text id="coop_title_18" name="FOOD CRITIC VISIT!" />
-		<text id="coop_desc_short_18" name="Cook to impress!" />
-		<text id="coop_desc_long_18" name="Chef cupcakekittycat8 invited a food critic to visit your Café and he has a refined taste! It is time to cook!" />
+		<text id="coop_title_16" name="RANNÍ ŠPIČKA!" />
+		<text id="coop_desc_short_16" name="Začni den správně!" />
+		<text id="coop_desc_long_16" name="Šéfkuchařka cupcakekittycat8 uspořádá velkou snídani na trhu. Můžeš poskytnout něco z toho, co se bude podávat?" />
+		<text id="coop_title_17" name="ODPOLEDNÍ DEZERTY" />
+		<text id="coop_desc_short_17" name="Honí nás mlsná, že?" />
+		<text id="coop_desc_long_17" name="Šéfkuchař Gabriel podával slaný oběd a zákazníci mají chuť na spoustu sladkostí! Pomoz a oslaď jim den!" />
+		<text id="coop_title_18" name="NÁVŠTĚVA GASTROKRITIKA!" />
+		<text id="coop_desc_short_18" name="Vař na jedničku!" />
+		<text id="coop_desc_long_18" name="Šéfkuchařka cupcakekittycat8 pozvala gastrokritika se vskutku vytříbeným vkusem do tvé kavárny! Je čas vařit!" />
 		<text id="coop_title_19" name="LAN PARTY!" />
-		<text id="coop_desc_short_19" name="Fast food for fast games!" />
-		<text id="coop_desc_long_19" name="Chef Surfguiger5 decided to join a LAN party and was tasked with bringing the food. The attendees want a lot, though! Help out!" />
-		<text id="coop_title_20" name="LATE NIGHT DRIVE THRU" />
-		<text id="coop_desc_short_20" name="A quick dinner for a long day!" />
-		<text id="coop_desc_long_20" name="Chef Patawka opened a drive-thru and is willing to share profits with anyone that helps provide food for it. Participate!" />
-		<text id="coop_title_21" name="FIT FOOD ONLY!" />
-		<text id="coop_desc_short_21" name="It&apos;s time to eat well!" />
-		<text id="coop_desc_long_21" name="Chef Surfguiger5 learned about the craze of Triple Omelettes and is concerned about weight gain. Cook healthy food to prove that your Café is healthy too!" />
-		<text id="coop_title_22" name="HOTEL BRUNCH" />
-		<text id="coop_desc_short_22" name="Want a quick bite?" />
-		<text id="coop_desc_long_22" name="Chef Surfguiger5 was asked by the local hotel to provide food for a brunch. However, the stoves broke and it&apos;s up to you to help! Profits will be shared." />
-		<text id="coop_title_23" name="BRAZILIAN WAY" />
-		<text id="coop_desc_short_23" name="Enjoy what Brazil has to offer!" />
-		<text id="coop_desc_long_23" name="Chef Surfguiger5 wants everyone to taste Brazilian food. Cook it!" />
-		<text id="coop_title_24" name="THE CARB COUNTER" />
-		<text id="coop_desc_short_24" name="An energy refill!" />
-		<text id="coop_desc_long_24" name="The local gym asked chef Artemis to supply dishes rich in carbs to keep the clients energized. Help out to earn your share too!" />
-		<text id="coop_title_25" name="WEDDING TASTING" />
-		<text id="coop_desc_short_25" name="A marriage is coming!" />
-		<text id="coop_desc_long_25" name="Chef Kvmxl said that the Café Lady and the Muffin Man are getting married! It was said that they will pay nicely for any Café that has their favorite food. Are the rumors true?" />
-		<text id="coop_title_26" name="DINNER BUFFET" />
-		<text id="coop_desc_short_26" name="Eat up!" />
-		<text id="coop_desc_long_26" name="Chef Cupcakekittycat8 wants a dinner with plenty of food. Help out!" />
-		<text id="coop_title_27" name="OISH-SOME" />
-		<text id="coop_desc_short_27" name="So great!" />
-		<text id="coop_desc_long_27" name="Chef Nao wants to serve food for an anime convention happening at the Café next door. Give a hand!" />
-		<text id="coop_title_28" name="COCOANFESSION" />
-		<text id="coop_desc_short_28" name="The true love is Chocolate!" />
-		<text id="coop_desc_long_28" name="Chef Nao wants to popularize chocolate dishes around the neighborhood and will pay for it. Why not participate?" />
-		<text id="coop_title_31" name="CURRY FESTIVAL" />
-		<text id="coop_desc_short_31" name="There&apos;s an option for everyone!" />
-		<text id="coop_desc_long_31" name="A local Indian festival wants to hand out as much curry as possible to guests. Can you help?" />
-		<text id="coop_title_29" name="CURRY FESTIVAL" />
-		<text id="coop_desc_short_29" name="There&apos;s an option for everyone!" />
-		<text id="coop_desc_long_29" name="A local Indian festival wants to hand out as much curry as possible to guests. Can you help?" />
-		<text id="coop_title_32" name="BRAZIL AND PORTUGAL" />
-		<text id="coop_desc_short_32" name="Shorten the distance with food!" />
-		<text id="coop_desc_long_32" name="An international event is happening but Brazilian and Portugese visitors are homesick. Make traditional food to make them happy!" />
-		<text id="coop_title_33" name="DEV&apos;S CHOICE!" />
-		<text id="coop_desc_short_33" name="Fuel for more development!" />
-		<text id="coop_desc_long_33" name="Chef Gab needs very large amounts of his favorite food to be cooked to stress test the servers! Help out!" />
-		<text id="coop_title_34" name="MOUSSE BATTLE!" />
-		<text id="coop_desc_short_34" name="Which one is the best?" />
-		<text id="coop_desc_long_34" name="Chefs all around the world are battling to see which mousse is the best. Play for all teams and see what&apos;s up!" />
-		<text id="coop_title_35" name="FAMILY FEAST" />
-		<text id="coop_desc_short_35" name="So many guests!" />
-		<text id="coop_desc_long_35" name="Your whole family, their friends, your friends and their families are ALL coming to your Café to celebrate your business. Do them proud!" />
-		<text id="coop_title_36" name="WE NEED LOTS OF EGGS!" />
-		<text id="coop_desc_short_36" name="Did they actually come first?" />
-		<text id="coop_desc_long_36" name="Chef Myleeek is conducting research on who came first: the chicken or the egg? Cook dishes with eggs to provide data!" />
-		<text id="coop_title_37" name="A GRATE MISTAKE!" />
-		<text id="coop_desc_short_37" name="The cheese rules all!" />
-		<text id="coop_desc_long_37" name="Chef Cupcakekittycat8 was hired to provide dishes for the birthday of a famous Mouse. Sadly, she used tofu instead of cheese and the mice are furious! Can you make food with cheese to help?" />
+		<text id="coop_desc_short_19" name="Rychlé občerstvení pro rychlé hry!" />
+		<text id="coop_desc_long_19" name="Šéfkuchařka Surfguiger5 se rozhodla zúčastnit LAN party a dostala za úkol zajistit jídlo. Účastníci toho ale chtějí spoustu! Pomoz!" />
+		<text id="coop_title_20" name="NOČNÍ DRIVE THRU" />
+		<text id="coop_desc_short_20" name="Rychlá večeře po dlouhém dni!" />
+		<text id="coop_desc_long_20" name="Šéfkuchařka Patawka otevřela okénko pro auta a je ochotná se podělit o zisk s každým, kdo jí pomůže zajistit jídlo. Zapoj se!" />
+		<text id="coop_title_21" name="JEN ZDRAVÉ JÍDLO!" />
+		<text id="coop_desc_short_21" name="Je čas jíst zdravě!" />
+		<text id="coop_desc_long_21" name="Šéfkuchařka Surfguiger5 se dozvěděla o šílenství kolem „trojitých omelet“ a má obavy z přibírání na váze. Připravuj zdravá jídla a dokaž tak, že i tvá kavárna je zdravá!" />
+		<text id="coop_title_22" name="HOTELOVÝ BRUNCH" />
+		<text id="coop_desc_short_22" name="Chceš něco rychlého na zub?" />
+		<text id="coop_desc_long_22" name="Místní hotel požádal šéfkuchařku Surfguiger5 o zajištění jídla na brunch. Sporáky se však rozbily a je na tobě, abys pomohl! Zisk se rozdělí." />
+		<text id="coop_title_23" name="BRAZILSKÝ STYL" />
+		<text id="coop_desc_short_23" name="Vychutnej si to nejlepší z Brazílie!" />
+		<text id="coop_desc_long_23" name="Šéfkuchařka Surfguiger5 chce, aby všichni ochutnali brazilské jídlo. Uvař ho!" />
+		<text id="coop_title_24" name="POČITADLO SACHARIDŮ" />
+		<text id="coop_desc_short_24" name="Rychlá vzpruha!" />
+		<text id="coop_desc_long_24" name="Místní posilovna požádala šéfkuchařku Artemis o dodání pokrmů bohatých na sacharidy, aby klienti měli dost energie. Pomoz a získej svůj podíl!" />
+		<text id="coop_title_25" name="SVATEBNÍ OCHUTNÁVKA" />
+		<text id="coop_desc_short_25" name="Chystá se svatba!" />
+		<text id="coop_desc_long_25" name="Šéfkuchař Kvmxl prozradil, že paní z kavárny a muffinový muž se berou! Říká se, že štědře zaplatí každé kavárně, která pro ně připraví jejich oblíbené jídlo. Jsou tyhle zvěsti pravdivé?" />
+		<text id="coop_title_26" name="VEČERNÍ RAUT" />
+		<text id="coop_desc_short_26" name="Dobrou chuť!" />
+		<text id="coop_desc_long_26" name="Šéfkuchařka Cupcakekittycat8 by chtěla večeři se spoustou jídla. Pomoz!" />
+		<text id="coop_title_27" name="LAHOD-NÉ" />
+		<text id="coop_desc_short_27" name="Naprosto skvělé!" />
+		<text id="coop_desc_long_27" name="Šéfkuchařka Nao chce podávat jídlo na anime sraz, který probíhá v kavárně vedle. Přilož ruku k dílu!" />
+		<text id="coop_title_28" name="ČOKOLÁDOVÉ VYZNÁNÍ" />
+		<text id="coop_desc_short_28" name="Jedinou pravou láskou je čokoláda!" />
+		<text id="coop_desc_long_28" name="Šéfkuchařka Nao chce v sousedství proslavit čokoládové pokrmy a dobře za to zaplatí. Proč se nepřidat?" />
+		<text id="coop_title_31" name="FESTIVAL KARI" />
+		<text id="coop_desc_short_31" name="Pro každého něco!" />
+		<text id="coop_desc_long_31" name="Místní indický festival chce hostům rozdat co nejvíc kari. Můžeš pomoct?" />
+		<text id="coop_title_29" name="FESTIVAL KARI" />
+		<text id="coop_desc_short_29" name="Pro každého něco!" />
+		<text id="coop_desc_long_29" name="Místní indický festival chce hostům rozdat co nejvíc kari. Můžeš pomoct?" />
+		<text id="coop_title_32" name="BRAZÍLIE A PORTUGALSKO" />
+		<text id="coop_desc_short_32" name="Zkrať vzdálenost jídlem!" />
+		<text id="coop_desc_long_32" name="Koná se mezinárodní akce, ale brazilští a portugalští návštěvníci mají stesk po domově. Připrav tradiční jídlo, abys jim udělal radost!" />
+		<text id="coop_title_33" name="VOLBA VÝVOJÁŘŮ!" />
+		<text id="coop_desc_short_33" name="Palivo pro další vývoj!" />
+		<text id="coop_desc_long_33" name="Šéfkuchař Gab potřebuje uvařit obrovské množství svého oblíbeného jídla, aby mohl provést zátěžový test serverů! Pomoz!" />
+		<text id="coop_title_34" name="BITVA PĚN!" />
+		<text id="coop_desc_short_34" name="Která je ta nejlepší?" />
+		<text id="coop_desc_long_34" name="Kuchaři z celého světa spolu bojují, aby zjistili, která pěna je nejlepší. Hraj za všechny týmy a uvidíš, co se bude dít!" />
+		<text id="coop_title_35" name="RODINNÁ HOSTINA" />
+		<text id="coop_desc_short_35" name="Tolik hostů!" />
+		<text id="coop_desc_long_35" name="Celá tvá rodina, jejich přátelé, tví přátelé a jejich rodiny - ti všichni přicházejí do tvé kavárny oslavit tvůj úspěšný podnik. Ukaž se v tom nejlepším světle!" />
+		<text id="coop_title_36" name="POTŘEBUJEME SPOUSTU VAJEC!" />
+		<text id="coop_desc_short_36" name="Byla vážně dřív?" />
+		<text id="coop_desc_long_36" name="Šéfkuchař Myleeek zkoumá, co bylo dřív: slepice, nebo vejce? Vař pokrmy s vejci a dodej mu potřebná data!" />
+		<text id="coop_title_37" name="STRAŠNÝ SÝROVÝ OMYL!" />
+		<text id="coop_desc_short_37" name="Sýr vládne všem!" />
+		<text id="coop_desc_long_37" name="Šéfkuchařka Cupcakekittycat8 měla na starosti jídlo na narozeniny slavné myši. Bohužel použila tofu místo sýra a myši zuří! Můžeš pomoct a připravit jídlo se sýrem?" />
 		<text id="coop_title_38" name="BURGER FESTIVAL" />
-		<text id="coop_desc_short_38" name="A classic taste for a gathering!" />
-		<text id="coop_desc_long_38" name="Chef Franskmayn is going to serve burgers at the Marketplace. Provide some portions to get a share of the revenue!" />
-		<text id="coop_title_39" name="SWEET LIKE A STRAWBERRY!" />
-		<text id="coop_desc_short_39" name="A bountiful harvest!" />
-		<text id="coop_desc_long_39" name="The strawberry harvest was excellent and chef Gabriel wants to share the sweetness with everyone. Let&apos;s make some berry-licious dishes!" />
-		<text id="coop_title_40" name="OMELETTES TO THE MAX!" />
-		<text id="coop_desc_short_40" name="You just can&apos;t have enough!" />
-		<text id="coop_desc_long_40" name="Chef Xara wants everyone to know the joys of preparing and serving large amounts of Omelettes. Are you up to the challenge?" />
-		<text id="coop_title_41" name="BALATON PARTY" />
-		<text id="coop_desc_short_41" name="Let&apos;s eat by the lake!" />
-		<text id="coop_desc_long_41" name="Chef Flinsical is hosting a leisure session around Lake Balaton. Help out with food and refreshments for this scenic event!" />
-		<text id="coop_title_42" name="GRILL, FRY AND SLICE" />
-		<text id="coop_desc_short_42" name="Save the festival!" />
-		<text id="coop_desc_long_42" name="Chef EarthHunt3r was hired to work for a very important Food Festival. However, his kitchen equipment broke! Help him out and save the festival!" />
-		<text id="coop_title_43" name="CAKES FOR A DIVA!" />
-		<text id="coop_desc_short_43" name="She wants everything!" />
-		<text id="coop_desc_long_43" name="Patixa is in town and she wants the best selection of cakes to celebrate her toy line. Provide the cakes fast and get rewarded!" />
-		<text id="coop_title_44" name="FIRST DAY IN THE KITCHEN!" />
-		<text id="coop_desc_short_44" name="Let&apos;s work!" />
-		<text id="coop_desc_long_44" name="It&apos;s opening day and the Café is busier than expected. Luckily, you don&apos;t need much experience to give people what they want. Recruit fellow chefs and show that the secret ingredient is teamwork!" />
-		<text id="coop_title_45" name="A PASSION FOR A FRUIT" />
-		<text id="coop_desc_short_45" name="It&apos;s the latest sensation!" />
-		<text id="coop_desc_long_45" name="It&apos;s said that passion fruit provides relaxation and can help you clear your mind. This information is trending and customers all over the neighborhood want to taste passion fruit dishes. Don&apos;t waste time and cash in this craze!" />
-		<text id="coop_title_46" name="CAKE IT EASY" />
-		<text id="coop_desc_short_46" name="Relax with cakes!" />
-		<text id="coop_desc_long_46" name="Chef EarthHunt3r wants to calm down a heated situation with delicious cakes. Help out!" />
-		<text id="coop_title_47" name="ARE YOU A CHICKEN?" />
-		<text id="coop_desc_short_47" name="Bawk bawk bawk!" />
-		<text id="coop_desc_long_47" name="Chef Monchi wants to know if you&apos;re brave enough to accept his challenge. Will you chicken out?" />
-		<text id="coop_title_48" name="COOKING ACADEMY" />
-		<text id="coop_desc_short_48" name="Let&apos;s graduate!" />
-		<text id="coop_desc_long_48" name="Chef EarthHunt3r wants to graduate and the Academy wants lots of dishes. Help him out and you can earn a degree too!" />
-		<text id="coop_title_49" name="PIZZA FOR EVERYBODY!" />
-		<text id="coop_desc_short_49" name="It&apos;s just the best!" />
-		<text id="coop_desc_long_49" name="Chef YunaStellaris wants to please everyone with various types of pizza. Can you master all types and help her out?" />
-		<text id="coop_title_50" name="RUSH B" />
-		<text id="coop_desc_short_50" name="Run!" />
-		<text id="coop_desc_long_50" name="Chef YunaStellaris is promoting a massive run to a very specific location where an &quot;explosion&quot; of flavor awaits. Help out and show your skills." />
-		<text id="coop_title_51" name="DORM LIFE" />
-		<text id="coop_desc_short_51" name="Hang on!" />
-		<text id="coop_desc_long_51" name="Chef Khush wants everyone to experience the college dorm diet. Give it a try!" />
-		<text id="coop_title_52" name="INTERNATIONAL FEAST!" />
+		<text id="coop_desc_short_38" name="Klasická chuť pro dobrou sešlost!" />
+		<text id="coop_desc_long_38" name="Šéfkuchař Franskmayn bude na trhu podávat burgery. Připrav nějaké porce a získej svůj podíl ze zisku!" />
+		<text id="coop_title_39" name="SLADKÉ JAKO JAHODA!" />
+		<text id="coop_desc_short_39" name="Bohatá úroda!" />
+		<text id="coop_desc_long_39" name="Jahodová úroda byla skvělá a šéfkuchař Gabriel se chce o tu sladkost podělit s každým. Pojď ukuchtit nějaké jahodně lahodné dobroty!" />
+		<text id="coop_title_40" name="OMELETY NA MAX!" />
+		<text id="coop_desc_short_40" name="Prostě jich nemůžeš mít dost!" />
+		<text id="coop_desc_long_40" name="Šéfkuchařka Xara chce, aby všichni poznali radost z přípravy a podávání obrovského množství omelet. Jsi na tuto výzvu připraven?" />
+		<text id="coop_title_41" name="PÁRTY U BALATONU" />
+		<text id="coop_desc_short_41" name="Pojďme se najíst u jezera!" />
+		<text id="coop_desc_long_41" name="Šéfkuchař Flinsical pořádá pohodové setkání u jezera Balaton. Pomoz s jídlem a občerstvením pro tuto malebnou akci!" />
+		<text id="coop_title_42" name="GRILUJ, SMAŽ A KRÁJEJ!" />
+		<text id="coop_desc_short_42" name="Zachraň festival!" />
+		<text id="coop_desc_long_42" name="Šéfkuchař EarthHunt3r měl vařit na velmi důležitém festivalu jídla. Rozbilo se mu však kuchyňské vybavení! Pomoz mu a zachraň festival!" />
+		<text id="coop_title_43" name="DORTOVÉ HODY PRO DIVU!" />
+		<text id="coop_desc_short_43" name="Chce úplně všechno!" />
+		<text id="coop_desc_long_43" name="Patixa je ve městě a chce ten nejlepší výběr dortů na oslavu své kolekce hraček. Dostaň rychle dorty na stůl a získej odměnu!" />
+		<text id="coop_title_44" name="PRVNÍ DEN V KUCHYNI!" />
+		<text id="coop_desc_short_44" name="Jdeme na to!" />
+		<text id="coop_desc_long_44" name="Dnes otvíráš a kavárna je mnohem rušnější, než se čekalo. Naštěstí nepotřebuješ moc zkušeností, abys lidem dal to, co chtějí. Rekrutuj kolegy kuchaře a ukažte, že tajnou přísadou je týmová spolupráce!" />
+		<text id="coop_title_45" name="VÁŠEŇ PRO OVOCE" />
+		<text id="coop_desc_short_45" name="Je to nejnovější hit!" />
+		<text id="coop_desc_long_45" name="Říká se, že marakuja přináší uvolnění a pomáhá pročistit mysl. Tahle informace je teď velkým trendem a zákazníci po celém sousedství chtějí ochutnat pokrmy z marakuji. Neotálej a vytěž z tohohle šílenství maximum!" />
+		<text id="coop_title_46" name="SLADKÁ POHODA" />
+		<text id="coop_desc_short_46" name="Oslaď si život a hoď se do klidu!" />
+		<text id="coop_desc_long_46" name="Šéfkuchař EarthHunt3r chce pomocí lahodných dortů uklidnit vyhrocenou situaci. Pomoz mu!" />
+		<text id="coop_title_47" name="DĚLÁŠ MRTVÉ KUŘE?" />
+		<text id="coop_desc_short_47" name="Kvok, kvok, kvok!" />
+		<text id="coop_desc_long_47" name="Šéfkuchař Monchi chce vědět, jestli máš dost odvahy přijmout jeho výzvu. Nebo budeš dělat mrtvé kuře?" />
+		<text id="coop_title_48" name="KUCHAŘSKÁ AKADEMIE" />
+		<text id="coop_desc_short_48" name="Čas na promoci!" />
+		<text id="coop_desc_long_48" name="Šéfkuchař EarthHunt3r chce úspěšně dokončit studia a akademie požaduje spoustu pokrmů. Pomoz mu a taky získej titul!" />
+		<text id="coop_title_49" name="PIZZA PRO KAŽDÉHO!" />
+		<text id="coop_desc_short_49" name="Prostě to nejlepší!" />
+		<text id="coop_desc_long_49" name="Šéfkuchařka YunaStellaris chce potěšit všechny různými druhy pizzy. Dokážeš je všechny zvládnout a pomoct jí?" />
+		<text id="coop_title_50" name="ŠUP NA B" />
+		<text id="coop_desc_short_50" name="Běžte!" />
+		<text id="coop_desc_long_50" name="Šéfkuchařka YunaStellaris pořádá hromadný sprint na velmi specifické místo, kde na tebe čeká opravdová chuťová „bomba“. Pomoz a ukaž své kuchařské umění!" />
+		<text id="coop_title_51" name="ŽIVOT NA KOLEJI" />
+		<text id="coop_desc_short_51" name="Hlavu vzhůru!" />
+		<text id="coop_desc_long_51" name="Šéfkuchař Khush chce, aby si každý zkusil jídelníček vysokoškolské koleje. Zkus to!" />
+		<text id="coop_title_52" name="MEZINÁRODNÍ HOSTINA!" />
 		<text id="coop_desc_short_52" name="Hello, hola, olá!" />
-		<text id="coop_desc_long_52" name="Chef Doc is organizing a feast for various world representatives. Help out and earn something!" />
-		<text id="coop_title_53" name="FONDUE FRENZY" />
-		<text id="coop_desc_short_53" name="Variety is key!" />
-		<text id="coop_desc_long_53" name="Chef DRealize wants to promote fondues as the latest culinary trend. Don&apos;t waste time and make some!" />
+		<text id="coop_desc_long_52" name="Šéfkuchař Doc organizuje hostinu pro různé světové zástupce. Pomoz mu a něco si vydělej!" />
+		<text id="coop_title_53" name="FONDUE ŠÍLENSTVÍ" />
+		<text id="coop_desc_short_53" name="Pestrost je základ!" />
+		<text id="coop_desc_long_53" name="Šéfkuchař DRealize chce propagovat fondue jako nejnovější kulinářský trend. Neotálej a nějaké uvař!" />
 		<text id="coop_title_54" name="1337" />
-		<text id="coop_desc_short_54" name="Feeling old yet?" />
-		<text id="coop_desc_long_54" name="Chef YunaStellaris fondly remembers the old Café days... Relive this memory together!" />
-		<text id="coop_title_55" name="IT&apos;S GETTING JUICY" />
-		<text id="coop_desc_short_55" name="Fill the glasses!" />
-		<text id="coop_desc_long_55" name="Chef Joey proposes this mission to you. Are you ready?" />
-		<text id="coop_title_56" name="IT&apos;S GETTING VERY JUICY!" />
-		<text id="coop_desc_short_56" name="Even more juice!" />
-		<text id="coop_desc_long_56" name="Chef YunaStellaris proposes this mission to you. Are you ready?" />
-		<text id="coop_title_57" name="A BUNNY&apos;S BUFFET!" />
-		<text id="coop_desc_short_57" name="Carrots, berries and greens!" />
-		<text id="coop_desc_long_57" name="Chef YunaStellaris proposes this mission to you. Are you ready?" />
-		<text id="coop_title_58" name="DOLLY&apos;S MEMORIES" />
-		<text id="coop_desc_short_58" name="A taste of the past!" />
-		<text id="coop_desc_long_58" name="Chef EarthHunt3r proposes this mission to you. Are you ready?" />
-		<text id="coop_title_59" name="NETFLIX &amp; FISH" />
-		<text id="coop_desc_short_59" name="Fish night is on!" />
-		<text id="coop_desc_long_59" name="Chef Mignon proposes this mission to you. Are you ready?" />
-		<text id="coop_title_60" name="WILD AND CRAZY" />
-		<text id="coop_desc_short_60" name="Are you feeling it now?" />
-		<text id="coop_desc_long_60" name="Chef Celeste proposes this mission to you. Are you ready?" />
-		<text id="coop_title_61" name="SWEET LIKE A STRAWBERRY 2!" />
-		<text id="coop_desc_short_61" name="The harvest got even better!" />
-		<text id="coop_desc_long_61" name="Last time, the strawberry harvest was excellent. Somehow, this year&apos;s crop is even bigger! Chefs Lily_007 and Nightfall need your help turning all those strawberries into delicious dishes." />
-		<text id="coop_title_62" name="HEAVY ROAST &amp; DESSERT" />
-		<text id="coop_desc_short_62" name="A feast worth the wait!" />
-		<text id="coop_desc_long_62" name="It’s a roast-a-thon! Bring on the crackling, pile up the chicken, and save room for something sweet." />
-		<text id="coop_title_63" name="SUNDAY BRUNCH BASH" />
-		<text id="coop_desc_short_63" name="Sunday crowd incoming!" />
-		<text id="coop_desc_long_63" name="Brunch is officially ON! The café is packed, the orders are flying in, and your team has one goal: feed the HUNGRY Sunday crowd!" />
-		<text id="coop_title_64" name="ULTIMATE DESSERT FESTIVAL" />
-		<text id="coop_desc_short_64" name="Save room for dessert!" />
-		<text id="coop_desc_long_64" name="Warning: Serious sweet tooth ahead! The café has been transformed into a dessert lover’s dream, and customers are coming in by the hundreds!" />
-		<text id="coop_title_65" name="VEGGIE WEEKEND" />
-		<text id="coop_desc_short_65" name="Fresh and vegetarian!" />
-		<text id="coop_desc_long_65" name="Fresh, Tasty, 100% Vegetarian. Lets get to work!" />
-		<text id="coop_title_66" name="OMELETTES TO THE MAX - LITE!" />
-		<text id="coop_desc_short_66" name="Not so many eggs, please!" />
-		<text id="coop_desc_long_66" name="Making Omelettes is fun! But, the constant egg-cracking can be tough for starters. Take a glimpse of the massive workload and see if you&apos;re up to the task." />
-		<text id="coop_title_30" name="A MOUSE IN THE KITCHEN!" />
-		<text id="coop_desc_short_30" name="Don&apos;t let anyone see it!" />
-		<text id="coop_desc_long_30" name="A mouse was spotted in your Café and it wants fancy food to be served or it will ruin your business! Why does this feel familiar?" />
+		<text id="coop_desc_short_54" name="Už se cítíš starý?" />
+		<text id="coop_desc_long_54" name="Šéfkuchařka YunaStellaris s láskou vzpomíná na staré dobré časy v kavárně... Oživte si tyhle vzpomínky společně!" />
+		<text id="coop_title_55" name="ZAČÍNÁ TO BÝT ŠŤAVNATÉ!" />
+		<text id="coop_desc_short_55" name="Naplň sklenice!" />
+		<text id="coop_desc_long_55" name="Šéfkuchař Joey ti navrhuje tuto misi. Jsi připraven?" />
+		<text id="coop_title_56" name="JE TO JEŠTĚ ŠŤAVNATĚJŠÍ!" />
+		<text id="coop_desc_short_56" name="Ještě víc šťávy!" />
+		<text id="coop_desc_long_56" name="Šéfkuchařka YunaStellaris ti navrhuje tuto misi. Jsi připraven?" />
+		<text id="coop_title_57" name="ZAJÍČKŮV RAUT!" />
+		<text id="coop_desc_short_57" name="Mrkvička, lesní plody a zelené dobroty!" />
+		<text id="coop_desc_long_57" name="Šéfkuchařka YunaStellaris ti navrhuje tuto misi. Jsi připraven?" />
+		<text id="coop_title_58" name="VZPOMÍNKY DOLLY" />
+		<text id="coop_desc_short_58" name="Chuť minulosti!" />
+		<text id="coop_desc_long_58" name="Šéfkuchař EarthHunt3r ti navrhuje tuto misi. Jsi připraven?" />
+		<text id="coop_title_59" name="NETFLIX A RYBY" />
+		<text id="coop_desc_short_59" name="Rybí noc je tu!" />
+		<text id="coop_desc_long_59" name="Šéfkuchařka Mignon ti navrhuje tuto misi. Jsi připraven?" />
+		<text id="coop_title_60" name="DIVOKÉ A BLÁZNIVÉ" />
+		<text id="coop_desc_short_60" name="Už to cítíš?" />
+		<text id="coop_desc_long_60" name="Šéfkuchař Celeste ti navrhuje tuto misi. Jsi připraven?" />
+		<text id="coop_title_61" name="SLADKÉ JAKO JAHODA 2!" />
+		<text id="coop_desc_short_61" name="Sklizeň je ještě lepší!" />
+		<text id="coop_desc_long_61" name="Minulá sklizeň jahod byla vynikající. Letošní sklizeň je z nějakého důvodu ještě větší! Šéfkuchaři Lily_007 a Nightfall potřebují tvou pomoc s přeměnou všech těch jahod v lahodné pokrmy." />
+		<text id="coop_title_62" name="POCTIVÁ PEČENĚ A DEZERT" />
+		<text id="coop_desc_short_62" name="Hody, na které se vyplatilo počkat!" />
+		<text id="coop_desc_long_62" name="Je tu pořádná pečenářská jízda! Servíruj křupavou kůrčičku, nalož plné talíře kuřecího a nech si místo na něco sladkého." />
+		<text id="coop_title_63" name="NEDĚLNÍ BRUNCHOVÁ JÍZDA" />
+		<text id="coop_desc_short_63" name="Nedělní dav se blíží!" />
+		<text id="coop_desc_long_63" name="Brunch je oficiálně TU! Kavárna praská ve švech, objednávky se jen hrnou a tvůj tým má jediný cíl: nakrmit HLADOVÝ nedělní dav!" />
+		<text id="coop_title_64" name="ULTIMÁTNÍ FESTIVAL DEZERTŮ" />
+		<text id="coop_desc_short_64" name="Nech si místo na dezert!" />
+		<text id="coop_desc_long_64" name="Pozor: tohle bude ráj pro mlsné jazýčky! Kavárna se proměnila v sen každého milovníka dezertů a zákazníci se jen hrnou po stovkách!" />
+		<text id="coop_title_65" name="VEGGIE VÍKEND" />
+		<text id="coop_desc_short_65" name="Čerstvé a 100% bez masa!" />
+		<text id="coop_desc_long_65" name="Čerstvé, chutné a 100% vegetariánské. Jdeme do toho!" />
+		<text id="coop_title_66" name="OMELETY NA MAX - LITE!" />
+		<text id="coop_desc_short_66" name="Prosím, tolik vajec ne!" />
+		<text id="coop_desc_long_66" name="Dělat omelety je zábava! Neustálé rozbíjení vajec ale může být pro začátečníky drsné. Nakoukni pod pokličku téhle pořádné fušky a ukaž, co v tobě je." />
+		<text id="coop_title_30" name="MYŠ V KUCHYNI!" />
+		<text id="coop_desc_short_30" name="Ať ji nikdo nevidí!" />
+		<text id="coop_desc_long_30" name="V kavárně se objevila myš a dožaduje se luxusního jídla, jinak ti zruinuje podnik! Proč je mi to nějak povědomé?" />
 	</coopmission>
 	<dialogs>
 		<text id="dialogwin_achievement_title" name="vyznamenání" />
@@ -1148,18 +1148,18 @@
 		<text id="featureDialog_9_text_1" name="V týmu budeš silnější! Vyskoušej nové typy spolupráce!" />
 		<text id="featureDialog_9_text_2" name="Připrav se na pořádnu dávku vyděšení s novou halloweenskou úpravou!" />
 		<text id="featureDialog_title" name="nové vlastnosti" />
-		<text id="limitedfeatureDialog_12_copy_0" name="Koupit halloweenské dekorace!\nDostupné jenom omezenou dobu!" />
+		<text id="limitedfeatureDialog_12_copy_0" name="Kup halloweenské dekorace!\nDostupné jenom omezenou dobu!" />
 		<text id="limitedfeatureDialog_12_copy_1" name="JEŠTĚ 4 DNY!" />
-		<text id="limitedfeatureDialog_13_copy_0" name="Koupit halloweenské dekorace!\nDostupné jenom omezenou dobu!" />
+		<text id="limitedfeatureDialog_13_copy_0" name="Kup halloweenské dekorace!\nDostupné jenom omezenou dobu!" />
 		<text id="limitedfeatureDialog_13_copy_1" name="JEŠTĚ 3 DNY!" />
-		<text id="limitedfeatureDialog_14_copy_0" name="Koupit halloweenské dekorace!\nDostupné jenom omezenou dobu!" />
+		<text id="limitedfeatureDialog_14_copy_0" name="Kup halloweenské dekorace!\nDostupné jenom omezenou dobu!" />
 		<text id="limitedfeatureDialog_14_copy_1" name="JEŠTĚ 2 DNY!" />
-		<text id="limitedfeatureDialog_15_copy_0" name="Koupit halloweenské dekorace!\nDostupné jenom omezenou dobu!" />
+		<text id="limitedfeatureDialog_15_copy_0" name="Kup halloweenské dekorace!\nDostupné jenom omezenou dobu!" />
 		<text id="limitedfeatureDialog_15_copy_1" name="UŽ JENOM DNES!" />
-		<text id="limitedfeatureDialog_2_copy_0" name="Koupit halloweenské dekorace!\nDostupné jenom omezenou dobu!" />
+		<text id="limitedfeatureDialog_2_copy_0" name="Kup halloweenské dekorace!\nDostupné jenom omezenou dobu!" />
 		<text id="limitedfeatureDialog_3_copy_0" name="Blíží se konec zimy! Zimní dekorace budou k dostáni už jen krátky čas!" />
 		<text id="limitedfeatureDialog_5_copy_0" name="Nakup velikonočné dekorace teď hned! Dostupné jenom omezený čas!" />
-		<text id="limitedfeatureDialog_time" name="JEŠTĚ {0} DNY!" />
+		<text id="limitedfeatureDialog_time" name="ZBÝVÁ DNÍ: {0}" />
 		<text id="limitedfeatureDialog_time_single" name="UŽ JENOM DNES!" />
 		<text id="limitedfeatureDialog_title" name="Dávej pozor!" />
 	</feature>
