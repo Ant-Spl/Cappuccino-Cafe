@@ -1296,18 +1296,18 @@
 		<text id="panelwin_social_welcome_mycafe" name="Willkommen" />
 		<text id="panelwin_social_writeable" name="Nur registrierte Spieler ab Level 1 dürfen den Chat benutzen." />
 		<text id="capp_cooking_confirm_cancel" name="Cancel" />
-		<text id="capp_dekoshop_buy_multiple_copy" name="Purchase directly into your furniture inventory." />
-		<text id="capp_dekoshop_buy_multiple_title" name="Buy multiple" />
-		<text id="capp_dekoshop_buy_multiple_tooltip" name="Buy multiple into storage" />
-		<text id="capp_dekoshop_buy_multiple_unavailable_copy" name="Not enough currency or storage capacity for this purchase." />
-		<text id="capp_dekoshop_buy_multiple_unavailable_title" name="Cannot buy more" />
-		<text id="capp_dekoshop_exclusive_tooltip" name="Cappuccino Exclusive Item" />
-		<text id="capp_discarddish_confirm_button" name="Throw away" />
-		<text id="capp_discarddish_confirm_copy" name="Throw away “{0}”? This cannot be undone." />
-		<text id="capp_discarddish_confirm_title" name="Throw this dish away?" />
-		<text id="capp_instantcook_confirm_copy" name="Spend {1} gold to finish cooking “{0}” now?" />
-		<text id="capp_instantcook_confirm_title" name="Instant cooking" />
-		<text id="capp_instantcook_confirm_tooltip" name="Finish cooking now" />
+		<text id="capp_dekoshop_buy_multiple_copy" name="Direkt ins Inventar kaufen." />
+		<text id="capp_dekoshop_buy_multiple_title" name="Viele kaufen" />
+		<text id="capp_dekoshop_buy_multiple_tooltip" name="Viele ins Inventar kaufen" />
+		<text id="capp_dekoshop_buy_multiple_unavailable_copy" name="Nicht genügeng Geld oder Inventarplatz für diesen Kauf." />
+		<text id="capp_dekoshop_buy_multiple_unavailable_title" name="Es können nicht mehr gekauft werden" />
+		<text id="capp_dekoshop_exclusive_tooltip" name="Cappuccino Exklusiver Gegenstand" />
+		<text id="capp_discarddish_confirm_button" name="Wegschmeissen" />
+		<text id="capp_discarddish_confirm_copy" name="“{0}” wegschmeissen? Das kann nicht rückgängig gemacht werden." />
+		<text id="capp_discarddish_confirm_title" name="Dieses Gericht wegschmeissen?" />
+		<text id="capp_instantcook_confirm_copy" name="{1} Gold ausgeben um "{0}" sofort fertig zu kochen?" />
+		<text id="capp_instantcook_confirm_title" name="Sofort kochen" />
+		<text id="capp_instantcook_confirm_tooltip" name="Jetzt sofort kochen" />
 		<text id="panelwin_deco_sort_default" name="Sortieren: Default" />
 		<text id="panelwin_deco_sort_newest" name="Neuste Veröffentlichung" />
 		<text id="panelwin_deco_sort_cash_asc" name="Preis (Cash): niedrig nach hoch" />
