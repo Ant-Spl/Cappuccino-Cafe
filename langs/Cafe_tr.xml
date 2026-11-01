@@ -513,6 +513,8 @@
 		<text id="cookstep_whitechocpizza2" name="Adding fruit" />
 		<text id="cookstep_icecream1" name="Mixing ingredients" />
 		<text id="cookstep_icecream2" name="Cooling" />
+		<text id="cookstep_cookieswithmilk1" name="Heating milk" />
+		<text id="cookstep_cookieswithmilk2" name="Organizing cookies" />
 	</cookstep>
 	<coopmission>
 		<text id="coop_title_1" name="AŞÇILIK KURSU" />
@@ -2147,6 +2149,9 @@
 		<text id="preparestep_ricepudding_cookfest" name="use fast ingredients" />
 		<text id="preparestep_maplepancakes_cookfest" name="use fast ingredients" />
 		<text id="preparestep_maplepancakes_maplesyrup" name="taste maple syrup" />
+		<text id="preparestep_cookieswithmilk_milk" name="Heat milk" />
+		<text id="preparestep_cookieswithmilk_cookies" name="Organize cookies" />
+		<text id="preparestep_cookieswithmilk_cookfest" name="use magic ingredients" />
 	</preparestep>
 	<preparestep_fancy>
 		<text id="preparestep_duckalcitrus_cinnamon" name="Tarçın serp" />
@@ -2466,6 +2471,8 @@
 		<text id="preparestep_steak_eventspice" name="spread event spice" />
 		<text id="preparestep_ricepudding_eventspice" name="spread event spice" />
 		<text id="preparestep_maplepancakes_eventspice" name="spread event spice" />
+		<text id="preparestep_cookieswithmilk_cinnamon" name="Sprinkle cinnamon" />
+		<text id="preparestep_cookieswithmilk_eventspice" name="spread event spice" />
 	</preparestep_fancy>
 	<recipe>
 		<text id="recipe_bananasplit" name="Banana split" />
@@ -2645,6 +2652,7 @@
 		<text id="recipe_simplefruitsalad" name="Simple Fruit Salad" />
 		<text id="recipe_whitechocpizza" name="White Choc Pizza" />
 		<text id="recipe_icecream" name="Ice Cream" />
+		<text id="recipe_cookieswithmilk" name="Cookies with Milk" />
 	</recipe>
 	<recipes_fastfood>
 		<text id="recipe_smoothiemaker_tomatojuice" name="Domates suyu" />
