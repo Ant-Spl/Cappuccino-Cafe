@@ -1121,6 +1121,10 @@
 	<wod id="1535" n="Static" g="Background" t="Halloweenrain" />
 	<wod id="1536" n="Marketplace" g="Background" t="Halloween" />
 	<wod id="1537" n="Marketplace" g="Background" t="Halloweenrain" />
+	<wod id="1538" n="Cafe" g="Background" t="Villagefallsnow"/>
+	<wod id="1539" n="Static" g="Background" t="Villagefallnightsnow"/>
+	<wod id="1540" n="Marketplace" g="Background" t="Fallsnow"/>
+	<wod id="1541" n="Marketplace" g="Background" t="Fallnightsnow"/>
 	<wod id="2297" n="Basic" g="Dish" t="Pumpkinpie" events="0" xp="1692" incomePerServing="2" servings="1950" duration="900" level="18" dishcategory="0" requirements="1352+1#1325+1#1311+1#1330+1#1308+1#1404+1" />
 	<wod id="2298" n="Basic" g="Dish" t="Pumpkincake" events="0" xp="2026" incomePerServing="3" servings="1300" duration="540" level="54" dishcategory="0" requirements="1352+1#1312+1#1325+1#1311+1#1308+1#1409+1" />
 	<wod id="2299" n="Basic" g="Dish" t="Sugarglazeroastchicken" events="0" xp="6996" incomePerServing="3" servings="2900" duration="3000" level="56" dishcategory="1" requirements="1306+1#1325+3#1322+2#1318+1#1313+2#1406+1" />
@@ -1145,4 +1149,5 @@
 	<wod id="2318" n="Basic" g="Dish" t="Steak" events="0" xp="4652" incomePerServing="1" servings="3450" duration="1560" level="49" dishcategory="1" requirements="1337+1#1314+1#1315+1#1322+1#1327+1#1406+1" />
 	<wod id="2319" n="Basic" g="Dish" t="Ricepudding" events="0" xp="2852" incomePerServing="1" servings="1825" duration="840" level="50" dishcategory="0" requirements="1345+1#1308+1#1330+1#1324+1#1409+1" />
 	<wod id="2320" n="Basic" g="Dish" t="Maplepancakes" events="0" xp="62" incomePerServing="13" servings="160" duration="30" level="8" dishcategory="0" requirements="1354+1#1311+1#1312+1#1330+1#1408+1" />
+	<wod id="2321" n="Basic" g="Dish" t="Cookieswithmilk" events="3" xp="3" incomePerServing="70" servings="8" duration="1" level="18" dishcategory="0" requirements="1330+1#1331+1#1409+1"/>
 </wodIds>
