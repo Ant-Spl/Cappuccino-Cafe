@@ -513,8 +513,8 @@
 		<text id="cookstep_whitechocpizza2" name="Früchte hinzufügen" />
 		<text id="cookstep_icecream1" name="Zutaten mischen" />
 		<text id="cookstep_icecream2" name="Kühlen" />
-		<text id="cookstep_cookieswithmilk1" name="Heating milk" />
-		<text id="cookstep_cookieswithmilk2" name="Organizing cookies" />
+		<text id="cookstep_cookieswithmilk1" name="Milch erhitzen" />
+		<text id="cookstep_cookieswithmilk2" name="Kekse sortieren" />
 	</cookstep>
 	<coopmission>
 		<text id="coop_desc_long_1" name="Wir veranstalten einen Kochkurs, um einige Gerichte zu perfektionieren. Möchtest du mitmachen?" />
@@ -1307,7 +1307,7 @@
 		<text id="capp_discarddish_confirm_button" name="Wegschmeissen" />
 		<text id="capp_discarddish_confirm_copy" name="“{0}” wegschmeissen? Das kann nicht rückgängig gemacht werden." />
 		<text id="capp_discarddish_confirm_title" name="Dieses Gericht wegschmeissen?" />
-		<text id="capp_instantcook_confirm_copy" name="{1} Gold ausgeben um" />
+		<text id="capp_instantcook_confirm_copy" name="{1} Gold ausgeben um “{0}” sofort fertig zu kochen?" />
 		<text id="capp_instantcook_confirm_title" name="Sofort kochen" />
 		<text id="capp_instantcook_confirm_tooltip" name="Jetzt sofort kochen" />
 		<text id="panelwin_deco_sort_default" name="Sortieren: Default" />
@@ -1637,7 +1637,7 @@
 		<text id="preparestep_chocolatecake_eggs" name="Eier trennen" />
 		<text id="preparestep_chocolatecake_flour" name="Mehl sieben" />
 		<text id="preparestep_chocolatecheesecake_chocolate" name="Schokolade hacken" />
-		<text id="preparestep_chocolatecheesecake_cookies" name="Kekse zerkrümleln" />
+		<text id="preparestep_chocolatecheesecake_cookies" name="Kekse zerkrümeln" />
 		<text id="preparestep_chocolatecheesecake_milk" name="Milch abmessen" />
 		<text id="preparestep_chocolatecheesecake_quark" name="Quark verrühren" />
 		<text id="preparestep_chocolatefondue_chocolate" name="Schokolade probieren" />
@@ -1997,6 +1997,8 @@
 		<text id="preparestep_icecream_sugar" name="Zucker hinzufügen" />
 		<text id="preparestep_icecream_chocolate" name="Schokolade schmelzen" />
 		<text id="preparestep_icecream_cherries" name="Kirschen waschen" />
+		<text id="preparestep_cookieswithmilk_milk" name="Milch erhitzen" />
+		<text id="preparestep_cookieswithmilk_cookies" name="Kekse sortieren" />
 		<text id="preparestep_greensalad_cookfest" name="schnelle Zutaten benutzen" />
 		<text id="preparestep_omelette_cookfest" name="schnelle Zutaten benutzen" />
 		<text id="preparestep_tomatosoup_cookfest" name="schnelle Zutaten benutzen" />
@@ -2153,9 +2155,7 @@
 		<text id="preparestep_steak_cookfest" name="schnelle Zutaten benutzen" />
 		<text id="preparestep_ricepudding_cookfest" name="schnelle Zutaten benutzen" />
 		<text id="preparestep_maplepancakes_cookfest" name="schnelle Zutaten benutzen" />
-		<text id="preparestep_cookieswithmilk_milk" name="Heat milk" />
-		<text id="preparestep_cookieswithmilk_cookies" name="Organize cookies" />
-		<text id="preparestep_cookieswithmilk_cookfest" name="use magic ingredients" />
+		<text id="preparestep_cookieswithmilk_cookfest" name="magische Zutat benutzen" />
 	</preparestep>
 	<preparestep_fancy>
 		<text id="preparestep_duckalcitrus_cinnamon" name="Zimt aufstreuen" />
@@ -2319,6 +2319,7 @@
 		<text id="preparestep_simplefruitsalad_vanilla" name="Vanille ausschaben" />
 		<text id="preparestep_whitechocpizza_nutmeg" name="Muskatnuss hobeln" />
 		<text id="preparestep_icecream_vanilla" name="Vanilleextrakt herstellen" />
+		<text id="preparestep_cookieswithmilk_cinnamon" name="Zimt verteilen" />
 		<text id="preparestep_greensalad_eventspice" name="Event Gewürz verteilen" />
 		<text id="preparestep_omelette_eventspice" name="Event Gewürz verteilen" />
 		<text id="preparestep_tomatosoup_eventspice" name="Event Gewürz verteilen" />
@@ -2475,8 +2476,7 @@
 		<text id="preparestep_steak_eventspice" name="Event Gewürz verteilen" />
 		<text id="preparestep_ricepudding_eventspice" name="Event Gewürz verteilen" />
 		<text id="preparestep_maplepancakes_eventspice" name="Event Gewürz verteilen" />
-		<text id="preparestep_cookieswithmilk_cinnamon" name="Sprinkle cinnamon" />
-		<text id="preparestep_cookieswithmilk_eventspice" name="spread event spice" />
+		<text id="preparestep_cookieswithmilk_eventspice" name="Event Gewürz verteilen" />
 		<text id="preparestep_spookyfondue_eventspice" name="Event Gewürz erschreckend verteilen" />
 	</preparestep_fancy>
 	<recipe>
@@ -2657,7 +2657,7 @@
 		<text id="recipe_simplefruitsalad" name="Einfacher Obstsalat" />
 		<text id="recipe_whitechocpizza" name="White Choc Pizza" />
 		<text id="recipe_icecream" name="Eiscreme" />
-		<text id="recipe_cookieswithmilk" name="Cookies with Milk" />
+		<text id="recipe_cookieswithmilk" name="Kekse mit Milch" />
 	</recipe>
 	<recipes_fastfood>
 		<text id="recipe_smoothiemaker_greensmoothie" name="Grüner Smoothie" />
