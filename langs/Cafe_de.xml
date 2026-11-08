@@ -515,6 +515,10 @@
 		<text id="cookstep_icecream2" name="Kühlen" />
 		<text id="cookstep_cookieswithmilk1" name="Milch erhitzen" />
 		<text id="cookstep_cookieswithmilk2" name="Kekse sortieren" />
+		<text id="cookstep_bananasmoothie1" name="Mixing ingredients" />
+		<text id="cookstep_bananasmoothie2" name="Pouring smoothies" />
+		<text id="cookstep_fourseasonspizza1" name="Heating sauce" />
+		<text id="cookstep_fourseasonspizza2" name="Covering pizza" />
 	</cookstep>
 	<coopmission>
 		<text id="coop_desc_long_1" name="Wir veranstalten einen Kochkurs, um einige Gerichte zu perfektionieren. Möchtest du mitmachen?" />
@@ -2156,6 +2160,15 @@
 		<text id="preparestep_ricepudding_cookfest" name="schnelle Zutaten benutzen" />
 		<text id="preparestep_maplepancakes_cookfest" name="schnelle Zutaten benutzen" />
 		<text id="preparestep_cookieswithmilk_cookfest" name="magische Zutat benutzen" />
+		<text id="preparestep_bananasmoothie_banana" name="peel bananas" />
+		<text id="preparestep_bananasmoothie_milk" name="add milk" />
+		<text id="preparestep_bananasmoothie_cookfest" name="use fast ingredients" />
+		<text id="preparestep_fourseasonspizza_flour" name="make dough" />
+		<text id="preparestep_fourseasonspizza_cheese" name="grate cheese" />
+		<text id="preparestep_fourseasonspizza_pinapple" name="cut pineapple" />
+		<text id="preparestep_fourseasonspizza_sausages" name="slice sausages" />
+		<text id="preparestep_fourseasonspizza_tomato" name="slice tomatoes" />
+		<text id="preparestep_fourseasonspizza_cookfest" name="use fast ingredients" />
 	</preparestep>
 	<preparestep_fancy>
 		<text id="preparestep_duckalcitrus_cinnamon" name="Zimt aufstreuen" />
@@ -2477,6 +2490,10 @@
 		<text id="preparestep_ricepudding_eventspice" name="Event Gewürz verteilen" />
 		<text id="preparestep_maplepancakes_eventspice" name="Event Gewürz verteilen" />
 		<text id="preparestep_cookieswithmilk_eventspice" name="Event Gewürz verteilen" />
+		<text id="preparestep_bananasmoothie_vanilla" name="add vanilla extract" />
+		<text id="preparestep_bananasmoothie_eventspice" name="spread event spice" />
+		<text id="preparestep_fourseasonspizza_chili" name="chop chili" />
+		<text id="preparestep_fourseasonspizza_eventspice" name="spread event spice" />
 		<text id="preparestep_spookyfondue_eventspice" name="Event Gewürz erschreckend verteilen" />
 	</preparestep_fancy>
 	<recipe>
@@ -2658,6 +2675,8 @@
 		<text id="recipe_whitechocpizza" name="White Choc Pizza" />
 		<text id="recipe_icecream" name="Eiscreme" />
 		<text id="recipe_cookieswithmilk" name="Kekse mit Milch" />
+		<text id="recipe_bananasmoothie" name="Banana Smoothie" />
+		<text id="recipe_fourseasonspizza" name="4 Seasons Pizza" />
 	</recipe>
 	<recipes_fastfood>
 		<text id="recipe_smoothiemaker_greensmoothie" name="Grüner Smoothie" />
