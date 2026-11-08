@@ -517,6 +517,10 @@ Se você estocá-la, as porções existentes serão perdidas!" />
 		<text id="cookstep_icecream2" name="Resfriando" />
 		<text id="cookstep_cookieswithmilk1" name="Esquentando leite" />
 		<text id="cookstep_cookieswithmilk2" name="Arrumando biscoitos" />
+			<text id="cookstep_bananasmoothie1" name="Misturando ingredientes" />
+		<text id="cookstep_bananasmoothie2" name="Servindo vitaminas" />
+		<text id="cookstep_fourseasonspizza1" name="Aquecendo molho" />
+		<text id="cookstep_fourseasonspizza2" name="Cobrindo pizza" />
 	</cookstep>
 	<coopmission>
 		<text id="coop_desc_long_1" name="Nós oferemos um curso de culinária para aperfeiçoar alguns pratos. Você gostaria de participar?" />
@@ -2177,6 +2181,15 @@ Apenas disponível por tempo limitado!" />
 		<text id="preparestep_cookieswithmilk_milk" name="Esquentar leite" />
 		<text id="preparestep_cookieswithmilk_cookies" name="Arrumar biscoitos" />
 		<text id="preparestep_cookieswithmilk_cookfest" name="usar ingredientes mágicos" />
+			<text id="preparestep_bananasmoothie_banana" name="descascar bananas" />
+		<text id="preparestep_bananasmoothie_milk" name="adicionar leite" />
+		<text id="preparestep_bananasmoothie_cookfest" name="usar ingredientes rápidos" />
+		<text id="preparestep_fourseasonspizza_flour" name="preparar massa" />
+		<text id="preparestep_fourseasonspizza_cheese" name="ralar queijo" />
+		<text id="preparestep_fourseasonspizza_pinapple" name="cortar abacaxi" />
+		<text id="preparestep_fourseasonspizza_sausages" name="fatiar linguiças" />
+		<text id="preparestep_fourseasonspizza_tomato" name="fatiar tomates" />
+		<text id="preparestep_fourseasonspizza_cookfest" name="usar ingredientes rápidos" />
 	</preparestep>
 	<preparestep_fancy>
 		<text id="preparestep_duckalcitrus_cinnamon" name="moer canela" />
@@ -2499,6 +2512,10 @@ Apenas disponível por tempo limitado!" />
 		<text id="preparestep_maplepancakes_eventspice" name="espalhar tempero de evento" />
 		<text id="preparestep_cookieswithmilk_cinnamon" name="Polvilhar canela" />
 		<text id="preparestep_cookieswithmilk_eventspice" name="espalhar tempero de evento" />
+			<text id="preparestep_bananasmoothie_vanilla" name="adicionar extrato de baunilha" />
+		<text id="preparestep_bananasmoothie_eventspice" name="espalhar tempero de evento" />
+		<text id="preparestep_fourseasonspizza_chili" name="picar pimenta" />
+		<text id="preparestep_fourseasonspizza_eventspice" name="espalhar tempero de evento" />
 	</preparestep_fancy>
 	<recipe>
 		<text id="recipe_bananasplit" name="Banana Split" />
@@ -2679,6 +2696,8 @@ Apenas disponível por tempo limitado!" />
 		<text id="recipe_whitechocpizza" name="Pizza de Chocolate Branco" />
 		<text id="recipe_icecream" name="Sorvete" />
 		<text id="recipe_cookieswithmilk" name="Leite com Biscoitos" />
+			<text id="recipe_bananasmoothie" name="Vitamina de Banana" />
+		<text id="recipe_fourseasonspizza" name="Pizza 4 Estações" />
 	</recipe>
 	<recipes_fastfood>
 		<text id="recipe_smoothiemaker_greensmoothie" name="Batida Verde" />
