@@ -301,4 +301,40 @@
   <text id="waiters" name="Waiters" />
   <text id="instantCookings" name="Instant cookings" />
   <text id="masteryCompletionProgress" name="熟练等级 progress:" />
+  <text id="applyFancyBoost" name="应用 Fancy（XP 和份数 +20%）" />
+  <text id="recommendVeryLong" name="推荐超长时间菜品（超过48小时）？" />
+  <text id="filterCategory" name="按类别筛选" />
+  <text id="allCategories" name="所有类别" />
+  <text id="viewDisplay" name="显示方式" />
+  <text id="listView" name="列表" />
+  <text id="gridView" name="网格" />
+  <text id="gameOrder" name="游戏食谱顺序（部分已核对）" />
+  <text id="coopEligibleOnly" name="只显示队伍能完成烹饪要求的合作任务" />
+  <text id="coopSortLabel" name="合作任务排序" />
+  <text id="coopSortNumber" name="合作任务编号" />
+  <text id="coopSortMaxLevel" name="菜品所需最高等级" />
+  <text id="coopSortGoldXpMin" name="金牌XP/分钟" />
+  <text id="myDexCoopTitle" name="最适合升级的合作任务" />
+  <text id="coopGoldOnlyNote" name="金牌奖励XP ÷ 金牌时限；不含烹饪XP。" />
+  <text id="coopScopeLabel" name="队伍可烹饪范围" />
+  <text id="coopCanCookAll" name="队伍能制作全部所需菜品" />
+  <text id="coopCanCookSome" name="队伍至少能制作一道所需菜品" />
+  <text id="highestRequiredLevel" name="所需最高等级" />
+  <text id="goldXpMin" name="金牌XP/分钟" />
+  <text id="noEligibleCoops" name="该队伍没有合适的合作任务。" />
+  <text id="teamEstimatedXpMin" name="队伍预计XP/分钟" />
+  <text id="personalEstimatedXpMin" name="厨师预计XP/分钟" />
+  <text id="coopEstimateDisclaimer" name="根据分配的烹饪时间和预计奖牌计算；实际进度可能不同。" />
+  <text id="playCafe" name="游玩 Cappuccino Café" />
+  <text id="category0" name="甜点" />
+  <text id="category1" name="主菜" />
+  <text id="category2" name="汤" />
+  <text id="category3" name="沙拉" />
+  <text id="category4" name="素食" />
+  <text id="category5" name="小吃" />
+  <text id="fullTagOver48h" name="超长时间（48小时以上）" />
+  <text id="bestOver48h" name="48小时以上最佳" />
+  <text id="over48hWord" name="超过48小时" />
+  <text id="over48hPlan" name="48小时以上方案" />
+  <text id="over48hNote" name="原始烹饪时间超过48小时。" />
 </dishdex>

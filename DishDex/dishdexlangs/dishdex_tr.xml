@@ -301,4 +301,40 @@
   <text id="waiters" name="Waiters" />
   <text id="instantCookings" name="Instant cookings" />
   <text id="masteryCompletionProgress" name="Ustalık-Derecesi progress:" />
+  <text id="applyFancyBoost" name="Fancy uygula (+%20 XP ve porsiyon)" />
+  <text id="recommendVeryLong" name="Çok uzun yemekler (48 saatten fazla) önerilsin mi?" />
+  <text id="filterCategory" name="Kategoriye göre filtrele" />
+  <text id="allCategories" name="Tüm kategoriler" />
+  <text id="viewDisplay" name="Görünüm" />
+  <text id="listView" name="Liste" />
+  <text id="gridView" name="Izgara" />
+  <text id="gameOrder" name="Oyunun yemek kitabı sırası (kısmen doğrulandı)" />
+  <text id="coopEligibleOnly" name="Yalnızca ekibimin pişirebileceği kooperatifler" />
+  <text id="coopSortLabel" name="Kooperatifleri sırala" />
+  <text id="coopSortNumber" name="Kooperatif numarası" />
+  <text id="coopSortMaxLevel" name="Gereken en yüksek yemek seviyesi" />
+  <text id="coopSortGoldXpMin" name="Altın XP/dk" />
+  <text id="myDexCoopTitle" name="Seviye atlamak için en iyi kooperatifler" />
+  <text id="coopGoldOnlyNote" name="Altın ödül XP&#x27;si ÷ altın süresi; pişirme XP&#x27;si hariç." />
+  <text id="coopScopeLabel" name="Ekip kapasitesi" />
+  <text id="coopCanCookAll" name="Ekip tüm gerekli yemekleri pişirebilir" />
+  <text id="coopCanCookSome" name="Ekip en az bir gerekli yemeği pişirebilir" />
+  <text id="highestRequiredLevel" name="Gereken en yüksek seviye" />
+  <text id="goldXpMin" name="Altın XP/dk" />
+  <text id="noEligibleCoops" name="Bu ekibe uygun kooperatif yok." />
+  <text id="teamEstimatedXpMin" name="Tahmini ekip XP/dk" />
+  <text id="personalEstimatedXpMin" name="Tahmini şef XP/dk" />
+  <text id="coopEstimateDisclaimer" name="Tahminler atanan pişirme süresine ve beklenen madalyaya dayanır; gerçek ilerleme değişebilir." />
+  <text id="playCafe" name="Cappuccino Café oyna" />
+  <text id="category0" name="Tatlı" />
+  <text id="category1" name="Ana yemek" />
+  <text id="category2" name="Çorba" />
+  <text id="category3" name="Salata" />
+  <text id="category4" name="Vejetaryen" />
+  <text id="category5" name="Atıştırmalık" />
+  <text id="fullTagOver48h" name="Çok uzun (48 saati aşan)" />
+  <text id="bestOver48h" name="48 saatin üstünde en iyi" />
+  <text id="over48hWord" name="48 saatin üstünde" />
+  <text id="over48hPlan" name="48+ saat planı" />
+  <text id="over48hNote" name="Özgün pişirme süresi 48 saatten uzundur." />
 </dishdex>

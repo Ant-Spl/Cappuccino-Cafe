@@ -301,4 +301,40 @@
   <text id="waiters" name="Camareros" />
   <text id="instantCookings" name="Cocciones instantáneas" />
   <text id="masteryCompletionProgress" name="Nivel de maestría progress:" />
+  <text id="applyFancyBoost" name="Aplicar Fancy (+20 % de XP y porciones)" />
+  <text id="recommendVeryLong" name="¿Recomendar platos muy largos (más de 48 h)?" />
+  <text id="filterCategory" name="Filtrar por categoría" />
+  <text id="allCategories" name="Todas las categorías" />
+  <text id="viewDisplay" name="Vista" />
+  <text id="listView" name="Lista" />
+  <text id="gridView" name="Cuadrícula" />
+  <text id="gameOrder" name="Orden del recetario del juego (verificación parcial)" />
+  <text id="coopEligibleOnly" name="Solo cooperativas que mi equipo puede cocinar" />
+  <text id="coopSortLabel" name="Ordenar cooperativas" />
+  <text id="coopSortNumber" name="Número de cooperativa" />
+  <text id="coopSortMaxLevel" name="Nivel más alto requerido por los platos" />
+  <text id="coopSortGoldXpMin" name="XP/min de oro" />
+  <text id="myDexCoopTitle" name="Mejores cooperativas para subir de nivel" />
+  <text id="coopGoldOnlyNote" name="XP de la recompensa de oro ÷ plazo de oro; no incluye XP por cocinar." />
+  <text id="coopScopeLabel" name="Cobertura del equipo" />
+  <text id="coopCanCookAll" name="El equipo puede cocinar todos los platos" />
+  <text id="coopCanCookSome" name="El equipo puede cocinar al menos un plato" />
+  <text id="highestRequiredLevel" name="Nivel más alto requerido" />
+  <text id="goldXpMin" name="XP/min de oro" />
+  <text id="noEligibleCoops" name="No hay cooperativas compatibles con este equipo." />
+  <text id="teamEstimatedXpMin" name="XP/min estimados del equipo" />
+  <text id="personalEstimatedXpMin" name="XP/min estimados por chef" />
+  <text id="coopEstimateDisclaimer" name="Las estimaciones usan tiempos asignados y la medalla prevista; el progreso real puede variar." />
+  <text id="playCafe" name="Jugar a Cappuccino Café" />
+  <text id="category0" name="Postre" />
+  <text id="category1" name="Plato principal" />
+  <text id="category2" name="Sopa" />
+  <text id="category3" name="Ensalada" />
+  <text id="category4" name="Vegetariano" />
+  <text id="category5" name="Aperitivo" />
+  <text id="fullTagOver48h" name="Muy largo (48 h+)" />
+  <text id="bestOver48h" name="Mejor de más de 48 h" />
+  <text id="over48hWord" name="de más de 48 h" />
+  <text id="over48hPlan" name="Plan de 48 h+" />
+  <text id="over48hNote" name="Tiempo de preparación original superior a 48 horas." />
 </dishdex>

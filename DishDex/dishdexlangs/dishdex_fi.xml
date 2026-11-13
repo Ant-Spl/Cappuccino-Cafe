@@ -301,4 +301,40 @@
   <text id="waiters" name="Tarjoilijat" />
   <text id="instantCookings" name="Pikakokkaukset" />
   <text id="masteryCompletionProgress" name="Tähtitaso progress:" />
+  <text id="applyFancyBoost" name="Käytä Fancy-bonusta (+20 % XP:tä ja annoksia)" />
+  <text id="recommendVeryLong" name="Suositellaanko erittäin pitkiä ruokia (yli 48 h)?" />
+  <text id="filterCategory" name="Suodata luokan mukaan" />
+  <text id="allCategories" name="Kaikki luokat" />
+  <text id="viewDisplay" name="Näkymä" />
+  <text id="listView" name="Luettelo" />
+  <text id="gridView" name="Ruudukko" />
+  <text id="gameOrder" name="Pelin keittokirjan järjestys (osittain tarkistettu)" />
+  <text id="coopEligibleOnly" name="Vain yhteistyötehtävät, joihin tiimini pystyy" />
+  <text id="coopSortLabel" name="Lajittele yhteistyötehtävät" />
+  <text id="coopSortNumber" name="Yhteistyötehtävän numero" />
+  <text id="coopSortMaxLevel" name="Ruoan korkein vaadittu taso" />
+  <text id="coopSortGoldXpMin" name="Kulta-XP/min" />
+  <text id="myDexCoopTitle" name="Parhaat yhteistyötehtävät tason nostoon" />
+  <text id="coopGoldOnlyNote" name="Kultapalkinnon XP ÷ kultaraja; valmistuksen XP ei mukana." />
+  <text id="coopScopeLabel" name="Tiimin osaaminen" />
+  <text id="coopCanCookAll" name="Tiimi pystyy valmistamaan kaikki ruoat" />
+  <text id="coopCanCookSome" name="Tiimi pystyy valmistamaan ainakin yhden ruoan" />
+  <text id="highestRequiredLevel" name="Korkein vaadittu taso" />
+  <text id="goldXpMin" name="Kulta-XP/min" />
+  <text id="noEligibleCoops" name="Ei sopivia yhteistyötehtäviä tälle tiimille." />
+  <text id="teamEstimatedXpMin" name="Tiimin arvioitu XP/min" />
+  <text id="personalEstimatedXpMin" name="Kokin arvioitu XP/min" />
+  <text id="coopEstimateDisclaimer" name="Arviot perustuvat jaettuihin valmistusaikoihin ja ennustettuun mitaliin; todellinen edistyminen voi poiketa." />
+  <text id="playCafe" name="Pelaa Cappuccino Caféa" />
+  <text id="category0" name="Jälkiruoka" />
+  <text id="category1" name="Pääruoka" />
+  <text id="category2" name="Keitto" />
+  <text id="category3" name="Salaatti" />
+  <text id="category4" name="Kasvisruoka" />
+  <text id="category5" name="Välipala" />
+  <text id="fullTagOver48h" name="Erittäin pitkä (48 h+)" />
+  <text id="bestOver48h" name="Paras yli 48 h" />
+  <text id="over48hWord" name="yli 48 h" />
+  <text id="over48hPlan" name="48 h+ -suunnitelma" />
+  <text id="over48hNote" name="Alkuperäinen valmistusaika yli 48 tuntia." />
 </dishdex>

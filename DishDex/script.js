@@ -42,6 +42,15 @@ const STORAGE_KEY = 'dishDexUserDataV1';
 const MASTERY_VIEW_STORAGE_KEY = 'dishDexMasteryViewMode';
 const MASTERY_SORT_STORAGE_KEY = 'dishDexMasterySortMode';
 const FULL_USE_MASTERIES_STORAGE_KEY = 'dishDexFullUseMasteries';
+const MYDEX_USE_MASTERIES_STORAGE_KEY = 'dishDexMyDexUseMasteries';
+const FANCY_STORAGE_KEY = 'dishDexFancyBoost';
+const FULL_SORT_STORAGE_KEY = 'dishDexFullSort';
+const FULL_CATEGORY_STORAGE_KEY = 'dishDexFullCategory';
+const VERY_LONG_STORAGE_KEY = 'dishDexRecommendVeryLong';
+const GRID_STORAGE_PREFIX = 'dishDexGridView-';
+const COOP_SORT_STORAGE_KEY = 'dishDexCoopSort';
+const COOP_ELIGIBILITY_STORAGE_KEY = 'dishDexCoopEligibility';
+const MYDEX_COOP_SCOPE_STORAGE_KEY = 'dishDexMyDexCoopScope';
 const MAX_COOP_TEAMS = 10;
 const MAX_COOP_MEMBERS = 5;
 const COOP_GOLD_LEVEL_REDUCTION_TIERS = [
@@ -70,19 +79,15 @@ let activeCoopGoldMasteryMemberIndex = null;
 let coopGoldMasterySearchTerm = '';
 let activeCoopManualAssignmentMemberSlot = null;
 
-const SPECIAL_DISH_KEYS = [];
+const SPECIAL_DISH_KEYS = ['Superchocolatecake'];
+const HOLIDAY_EVENT_TYPES = { 2: 'Halloween', 3: 'Christmas', 5: 'Easter' };
+const VERY_LONG_DISH_MINUTES = 48 * 60;
 const SPECIAL_INGREDIENT_KEYS = [
   'Orange',
   'Cocktailcherry',
   'Goldeneggs'
 ];
 
-const HOLIDAY_DISH_KEYS = [
-  'Christmasturkey',
-  'Easterdish',
-  'Fruitpudding',
-  'Spookymousse'
-];
 
 const CATEGORY_NAMES = {
   en: {
@@ -107,6 +112,11 @@ const CATEGORY_NAMES = {
 const SUPPORTED_LANGUAGE_CODES = [
   'cs', 'da', 'de', 'el', 'en', 'es', 'fi', 'fr', 'hu', 'it', 'ja', 'ko', 'nl', 'pl', 'pt', 'ru', 'sv', 'tr', 'zh_CN', 'zh_TW'
 ];
+
+const NEW_UI_FALLBACK = {
+  en: {applyFancyBoost: 'Apply Fancy (+20% XP and portions)', recommendVeryLong: 'Recommend very long dishes (over 48h)?', filterCategory: 'Filter by category', allCategories: 'All categories', viewDisplay: 'Display', listView: 'List', gridView: 'Grid', gameOrder: 'Game cookbook order (partially verified)', coopEligibleOnly: 'Only co-ops my team can cook', coopSortLabel: 'Sort co-ops', coopSortNumber: 'Co-op number', coopSortMaxLevel: 'Highest required dish level', coopSortGoldXpMin: 'Gold XP/min', myDexCoopTitle: 'Best co-ops for leveling', coopGoldOnlyNote: 'Gold reward XP ÷ Gold deadline; cooking XP excluded.', coopScopeLabel: 'Team coverage', coopCanCookAll: 'Team can cook every required dish', coopCanCookSome: 'Team can cook at least one required dish', highestRequiredLevel: 'Highest required level', goldXpMin: 'Gold XP/min', noEligibleCoops: 'No compatible co-ops for the selected team.', teamEstimatedXpMin: 'Estimated team XP/min', personalEstimatedXpMin: 'Estimated chef XP/min', coopEstimateDisclaimer: 'Estimates use assigned cooking time and predicted medal; actual game progress may differ.', playCafe: 'Play Cappuccino Café', category0: 'Dessert', category1: 'Main dish', category2: 'Soup', category3: 'Salad', category4: 'Vegetarian', category5: 'Snack', fullTagOver48h: 'Very long (48h+)', bestOver48h: 'Best 48h+', over48hWord: 'over 48h', over48hPlan: '48h+ plan', over48hNote: 'Original cooking duration over 48 hours.'},
+  pt: {applyFancyBoost: 'Aplicar Fancy (+20% de XP e porções)', recommendVeryLong: 'Recomendar pratos muito demorados (mais de 48h)?', filterCategory: 'Filtrar por categoria', allCategories: 'Todas as categorias', viewDisplay: 'Visualização', listView: 'Lista', gridView: 'Grade', gameOrder: 'Ordem do livro de receitas (parcialmente verificada)', coopEligibleOnly: 'Apenas Co-Ops que minha equipe consegue cozinhar', coopSortLabel: 'Ordenar Co-Ops', coopSortNumber: 'Número da Co-Op', coopSortMaxLevel: 'Maior nível exigido pelos pratos', coopSortGoldXpMin: 'XP/min de ouro', myDexCoopTitle: 'Melhores Co-Ops para subir de nível', coopGoldOnlyNote: 'XP da recompensa de ouro ÷ prazo para ouro; XP do preparo não incluído.', coopScopeLabel: 'Capacidade da equipe', coopCanCookAll: 'Equipe consegue cozinhar todos os pratos', coopCanCookSome: 'Equipe consegue cozinhar ao menos um prato', highestRequiredLevel: 'Maior nível exigido', goldXpMin: 'XP/min de ouro', noEligibleCoops: 'Nenhuma Co-Op compatível com a equipe escolhida.', teamEstimatedXpMin: 'XP/min estimado da equipe', personalEstimatedXpMin: 'XP/min estimado do chef', coopEstimateDisclaimer: 'Estimativas usam o tempo de preparo atribuído e a medalha prevista; o progresso real pode ser diferente.', playCafe: 'Jogar Cappuccino Café', category0: 'Sobremesa', category1: 'Prato principal', category2: 'Sopa', category3: 'Salada', category4: 'Vegetariano', category5: 'Lanche', fullTagOver48h: 'Muito demorado (48h+)', bestOver48h: 'Melhor acima de 48h', over48hWord: 'acima de 48h', over48hPlan: 'Plano 48h+', over48hNote: 'Tempo original de preparo acima de 48 horas.'},
+};
 
 const CAFE_LANGUAGE_CODES = new Set(SUPPORTED_LANGUAGE_CODES);
 
@@ -898,7 +908,7 @@ function setupLanguage() {
       setStatus(t('dataLoaded'), 'ok');
       updateDataSummary();
       syncProfileInputs();
-      syncMyDexInputs(false);
+      syncMyDexInputs(true);
       syncMyTimeInputs(false);
       renderCoopTeamEditor();
       renderMyDex();
@@ -993,7 +1003,19 @@ function setupNavigation() {
   });
 
   window.addEventListener('hashchange', handleHashNavigation);
-  document.getElementById('fullSortSelect').addEventListener('change', renderFullDishDex);
+  const fullSort = document.getElementById('fullSortSelect');
+  fullSort.value = localStorage.getItem(FULL_SORT_STORAGE_KEY) || 'level-asc';
+  fullSort.addEventListener('change', () => {
+    localStorage.setItem(FULL_SORT_STORAGE_KEY, fullSort.value);
+    renderFullDishDex();
+  });
+  const categoryFilter = document.getElementById('fullCategoryFilter');
+  if (categoryFilter) {
+    categoryFilter.addEventListener('change', () => {
+      localStorage.setItem(FULL_CATEGORY_STORAGE_KEY, categoryFilter.value);
+      renderFullDishDex();
+    });
+  }
 
   const fullUseMasteriesToggle = document.getElementById('fullUseMasteriesToggle');
   if (fullUseMasteriesToggle) {
@@ -1197,18 +1219,30 @@ function populateSortSelect() {
   const select = document.getElementById('fullSortSelect');
   if (!select) return;
 
-  const previousValue = select.value || 'level-asc';
+  const previousValue = select.value || localStorage.getItem(FULL_SORT_STORAGE_KEY) || 'level-asc';
   select.innerHTML = SORT_OPTIONS.map(([value, labelKey]) => {
     return `<option value="${escapeHtml(value)}">${escapeHtml(t(labelKey))}</option>`;
   }).join('');
 
   select.value = SORT_OPTIONS.some(option => option[0] === previousValue) ? previousValue : 'level-asc';
+  populateCategoryFilter();
+}
+
+function populateCategoryFilter() {
+  const select = document.getElementById('fullCategoryFilter');
+  if (!select) return;
+  const previous = select.value || localStorage.getItem(FULL_CATEGORY_STORAGE_KEY) || 'all';
+  select.innerHTML = `<option value="all">${escapeHtml(t('allCategories'))}</option>` +
+    Object.keys(CATEGORY_NAMES.en).map(key => `<option value="${key}">${escapeHtml(getCategoryName(key))}</option>`).join('');
+  select.value = previous === 'all' || Object.hasOwn(CATEGORY_NAMES.en, previous) ? previous : 'all';
 }
 
 function t(key) {
   return uiTranslations[currentLanguage]?.[key]
+    || NEW_UI_FALLBACK[currentLanguage]?.[key]
     || I18N[currentLanguage]?.[key]
     || uiTranslations.en?.[key]
+    || NEW_UI_FALLBACK.en[key]
     || I18N.en[key]
     || key;
 }
@@ -1224,15 +1258,21 @@ function showScreen(screenId) {
 }
 
 function getTimeBuckets() {
-  return [
+  const buckets = [
     { key: 'active', recommendationLabel: t('bestActive'), positionLabel: t('activeWord'), planLabel: t('activePlan'), note: t('activeNote'), matches: record => record.duration <= 10 },
     { key: 'fast', recommendationLabel: t('bestFast'), positionLabel: t('fastWord'), planLabel: t('fastPlan'), note: t('fastNote'), matches: record => record.duration >= 11 && record.duration <= 60 },
     { key: 'short', recommendationLabel: t('bestShort'), positionLabel: t('shortWord'), planLabel: t('shortPlan'), note: t('shortNote'), matches: record => record.duration >= 61 && record.duration <= 180 },
     { key: 'medium', recommendationLabel: t('bestMedium'), positionLabel: t('mediumWord'), planLabel: t('mediumPlan'), note: t('mediumNote'), matches: record => record.duration >= 181 && record.duration <= 360 },
     { key: 'long', recommendationLabel: t('bestLong'), positionLabel: t('longWord'), planLabel: t('longPlan'), note: t('longNote'), matches: record => record.duration >= 361 && record.duration <= 720 },
     { key: 'veryLong', recommendationLabel: t('bestVeryLong'), positionLabel: t('veryLongWord'), planLabel: t('veryLongPlan'), note: t('veryLongNote'), matches: record => record.duration >= 721 && record.duration <= 1380 },
-    { key: 'dayOff', recommendationLabel: t('bestDayOff'), positionLabel: t('dayOffWord'), planLabel: t('dayOffPlan'), note: t('dayOffNote'), matches: record => record.duration >= 1381 }
+    { key: 'dayOff', recommendationLabel: t('bestDayOff'), positionLabel: t('dayOffWord'), planLabel: t('dayOffPlan'), note: t('dayOffNote'), matches: record => record.duration >= 1381 && getBaseDuration(record) <= VERY_LONG_DISH_MINUTES }
   ];
+  if (shouldRecommendVeryLong()) buckets.push({
+    key: 'over48h', recommendationLabel: t('bestOver48h'), positionLabel: t('over48hWord'),
+    planLabel: t('over48hPlan'), note: t('over48hNote'),
+    matches: record => getBaseDuration(record) > VERY_LONG_DISH_MINUTES
+  });
+  return buckets;
 }
 
 async function loadLevelLimits() {
@@ -1340,7 +1380,7 @@ async function loadDishRecords(languageCode) {
       rawRequirements: requirements,
       requirementItems: parseDishRequirementItems(requirements),
       events: Number(getAttr(node, 'events') || 0),
-      dishType: getDishType(dishKey, requirements, ingredientKeyById),
+      dishType: getDishType(dishKey, requirements, ingredientKeyById, Number(getAttr(node, 'events') || 0)),
       imageUrl: PATHS.imageBase + dishKey + '.png'
     };
   });
@@ -1398,6 +1438,7 @@ async function loadCoopRecords(languageCode) {
         requirements,
         requirementText,
         minDishLevel: levels.length ? Math.min(...levels) : 0,
+        maxRequiredDishLevel: levels.length ? Math.max(...levels) : 0,
         totalStoveMinutes,
         iconUrl: `${PATHS.coopIconBase}${coopNumber}.png`
       };
@@ -1407,7 +1448,7 @@ async function loadCoopRecords(languageCode) {
 }
 
 function getCategoryName(categoryId) {
-  return CATEGORY_NAMES[currentLanguage]?.[String(categoryId)] || CATEGORY_NAMES.en[String(categoryId)] || String(categoryId);
+  return uiTranslations[currentLanguage]?.['category' + String(categoryId)] || NEW_UI_FALLBACK[currentLanguage]?.['category' + String(categoryId)] || CATEGORY_NAMES[currentLanguage]?.[String(categoryId)] || CATEGORY_NAMES.en[String(categoryId)] || String(categoryId);
 }
 
 function bindInputs() {
@@ -1423,6 +1464,10 @@ function bindInputs() {
     element.addEventListener('input', handleMyTimeInputChange);
     element.addEventListener('change', handleMyTimeInputChange);
   });
+
+  setupRecommendationControls();
+  setupGridViews();
+  setupCoopDiscoveryControls();
 
   const clearMyTimeTargetButton = document.getElementById('clearMyTimeTarget');
   if (clearMyTimeTargetButton) clearMyTimeTargetButton.addEventListener('click', clearMyTimeTarget);
@@ -1460,7 +1505,7 @@ function handleProfileLevelChange() {
   userData.myTime.playerLevel = level;
   saveUserData();
   syncProfileInputs(false);
-  syncMyDexInputs(false);
+  syncMyDexInputs(true);
   syncMyTimeInputs(false);
   setProfileStatus(t('profileSaved'));
   renderMyDex();
@@ -1478,7 +1523,7 @@ function handleProfileInputChange() {
   userData.myTime = normalizeMyTimeSettings(userData.myTime, userData.level);
   userData.myTime.playerLevel = userData.level;
   saveUserData();
-  syncMyDexInputs(false);
+  syncMyDexInputs(true);
   syncMyTimeInputs(false);
   setProfileStatus(t('profileSaved'));
   renderMyDex();
@@ -1494,26 +1539,28 @@ function renderMyDex() {
 
   const settings = getSettings();
   const availableDishes = allDishRecords
-    .map(applyMasteryToRecord)
+    .map(record => getDisplayDishRecord(record, getMyDexUseMasteriesSetting(), getFancyBoostSetting()))
     .filter(record => record.level <= settings.playerLevel);
 
   const regularCandidates = availableDishes.filter(record => {
     if (record.dishType === 'Special') return settings.includeSpecialDishes;
-    if (record.dishType === 'Holiday') return shouldIncludeHolidayDish(record.dishKey, settings.holidayMode);
+    if (record.dishType === 'Holiday') return shouldIncludeHolidayDish(record, settings.holidayMode);
     return true;
   });
 
   const specialDishes = availableDishes.filter(record => record.dishType === 'Special');
   const holidayDishes = availableDishes.filter(record => record.dishType === 'Holiday');
 
-  renderBestSummary(regularCandidates);
-  renderRecommendedMasteries(regularCandidates);
-  renderBestXp(buildBucketRecommendations(regularCandidates, 'metricXpMin', record => record.xpPerMin, 'xp'));
-  renderBestProfit(buildBucketRecommendations(regularCandidates, 'metricProfitMin', record => record.profitPerMin, 'profit'));
-  renderBestPortions(buildBucketRecommendations(regularCandidates, 'metricPortionMin', record => record.servingsPerMin, 'portions'));
-  renderPlans(settings, buildXpPlans(regularCandidates));
+  const recommendedCandidates = regularCandidates.filter(recommendationDurationEligible);
+  renderBestSummary(recommendedCandidates);
+  renderRecommendedMasteries(recommendedCandidates);
+  renderBestXp(buildBucketRecommendations(recommendedCandidates, 'metricXpMin', record => record.xpPerMin, 'xp'));
+  renderBestProfit(buildBucketRecommendations(recommendedCandidates, 'metricProfitMin', record => record.profitPerMin, 'profit'));
+  renderBestPortions(buildBucketRecommendations(recommendedCandidates, 'metricPortionMin', record => record.servingsPerMin, 'portions'));
+  renderPlans(settings, buildXpPlans(recommendedCandidates));
   renderDishCards('specialDishesBody', specialDishes, 'Special');
   renderDishCards('holidayDishesBody', holidayDishes, 'Holiday');
+  renderMyDexCoopSuggestions();
 }
 
 function renderBestSummary(records) {
@@ -1540,12 +1587,12 @@ function renderBestSummary(records) {
 
 function renderRecommendedMasteries(records) {
   const items = [
-    [t('bestSummaryXpMin'), findBestDish(records, record => record.xpPerMin), 3, 'best-xp-1'],
-    [t('bestSummaryRawXp'), findBestDish(records, record => record.xp), 2, 'best-xp-3'],
-    [t('bestSummaryProfitMin'), findBestDish(records, record => record.profitPerMin), 3, 'best-profit-1'],
-    [t('bestSummaryRawProfit'), findBestDish(records, record => record.profit), 1, 'best-profit-3'],
-    [t('bestSummaryPortionMin'), findBestDish(records, record => record.servingsPerMin), 3, 'best-portions-1'],
-    [t('bestSummaryRawPortion'), findBestDish(records, record => record.servings), 1, 'best-portions-3']
+    [t('bestSummaryXpMin'), findBestDish(records, record => record.xpPerMin, record => getMasteryLevel(record.dishId) < 3), 3, 'best-xp-1'],
+    [t('bestSummaryRawXp'), findBestDish(records, record => record.xp, record => getMasteryLevel(record.dishId) < 2), 2, 'best-xp-3'],
+    [t('bestSummaryProfitMin'), findBestDish(records, record => record.profitPerMin, record => getMasteryLevel(record.dishId) < 3), 3, 'best-profit-1'],
+    [t('bestSummaryRawProfit'), findBestDish(records, record => record.profit, record => getMasteryLevel(record.dishId) < 1), 1, 'best-profit-3'],
+    [t('bestSummaryPortionMin'), findBestDish(records, record => record.servingsPerMin, record => getMasteryLevel(record.dishId) < 3), 3, 'best-portions-1'],
+    [t('bestSummaryRawPortion'), findBestDish(records, record => record.servings, record => getMasteryLevel(record.dishId) < 1), 1, 'best-portions-3']
   ];
 
   const body = document.getElementById('recommendedMasteriesBody');
@@ -1560,20 +1607,6 @@ function renderRecommendedMasteries(records) {
   body.innerHTML = validItems.map(([label, record, targetLevel, rowClass]) => {
     const currentLevel = getMasteryLevel(record.dishId);
     const requirement = getMasteryCountByLevel(record.dishId, getBaseDuration(record), targetLevel);
-
-    if (currentLevel >= targetLevel) {
-      return `
-        <tr class="${rowClass}">
-          <td>${imageHtml(record)}</td>
-          <td>${escapeHtml(label)}</td>
-          <td class="dish-name">${escapeHtml(record.dishName)}</td>
-          <td>${masteryStarsReadOnlyHtml(record)}</td>
-          <td>${escapeHtml(starTitle(targetLevel))}</td>
-          <td class="note-cell">${escapeHtml(t('alreadyMasteredBest'))}</td>
-          <td>${number(requirement)} ${escapeHtml(t('dishesRequired'))}</td>
-        </tr>
-      `;
-    }
 
     return `
       <tr class="${rowClass}">
@@ -1822,7 +1855,7 @@ function renderDishCards(containerId, records, fallbackType) {
   container.innerHTML = records.map(record => {
     let typeLabel = dishTypeLabel(fallbackType);
     if (fallbackType === 'Holiday') {
-      typeLabel = isHolidayDishActive(record.dishKey, new Date()) ? t('holidayActive') : t('holidayInactive');
+      typeLabel = isHolidayDishActive(record, new Date()) ? t('holidayActive') : t('holidayInactive');
     }
     const ingredientLine = getSettings().showIngredients
       ? `<p class="dish-card-ingredients"><strong>${escapeHtml(t('ingredientDetails'))}:</strong> ${escapeHtml(record.requirements || '—')} · <strong>${escapeHtml(t('ingredientCost'))}:</strong> ${valueWithIconHtml('cash', record.ingredientCost)}</p>`
@@ -2662,7 +2695,11 @@ function renderCoopPlanner() {
   if (!body) return;
 
   const search = normalizeSearch(document.getElementById('coopSearch')?.value || '');
+  const eligibilityOnly = Boolean(document.getElementById('coopTeamEligibleOnly')?.checked);
+  const sortMode = document.getElementById('coopSortSelect')?.value || 'number';
+  renderMyDexCoopSuggestions();
   const records = allCoopRecords.filter(coop => {
+    if (eligibilityOnly && !getCoopTeamCoverage(coop).all) return false;
     if (!search) return true;
     const haystack = [
       coop.coopNumber,
@@ -2678,7 +2715,11 @@ function renderCoopPlanner() {
     body.innerHTML = emptyRow(6, t('noCoopsAvailable'));
     return;
   }
-
+  records.sort((a, b) => {
+    if (sortMode === 'maxLevel') return a.maxRequiredDishLevel - b.maxRequiredDishLevel || a.coopNumber - b.coopNumber;
+    if (sortMode === 'goldXpMin') return getCoopGoldXpMin(b) - getCoopGoldXpMin(a) || a.coopNumber - b.coopNumber;
+    return a.coopNumber - b.coopNumber;
+  });
   body.innerHTML = records.map(coop => coopRowHtml(coop)).join('');
 }
 
@@ -2812,6 +2853,7 @@ function coopTeamPreviewHtml(coop) {
           </div>
           <h5>${escapeHtml(t('predictedRewards'))}</h5>
           ${predictedRewardsHtml(coop, plan)}
+          ${coopXpRateEstimatesHtml(coop, plan)}
         </div>
       </div>
       ${assignmentPlanHtml(coop, plan)}
@@ -2871,6 +2913,8 @@ function renderCoopPlanPreview(coopNumber, shouldScroll = true) {
         <div><strong>${escapeHtml(t('goldDeadline'))}</strong><span>${escapeHtml(formatDuration(coop.goldDeadline))}</span></div>
         <div><strong>${escapeHtml(t('silverDeadline'))}</strong><span>${escapeHtml(formatDuration(coop.silverDeadline))}</span></div>
         <div><strong>${escapeHtml(t('minimumDishLevel'))}</strong><span>${number(coop.minDishLevel)}</span></div>
+        <div><strong>${escapeHtml(t('highestRequiredLevel'))}</strong><span>${number(coop.maxRequiredDishLevel)}</span></div>
+        <div><strong>${escapeHtml(t('goldXpMin'))}</strong><span>${decimal(getCoopGoldXpMin(coop))}</span></div>
         <div><strong>${escapeHtml(t('totalStoveHours'))}</strong><span>${escapeHtml(formatDuration(coop.totalStoveMinutes))}</span></div>
       </div>
       <div class="coop-detail-grid">
@@ -2930,16 +2974,17 @@ function getMyTimeMatchingRecords() {
 
   const playerLevel = clampNumber(Number(settings.playerLevel || userData.level || 1), 0, 999);
   const records = settings.useMasteries
-    ? allDishRecords.map(applyMasteryToRecord)
-    : allDishRecords.map(record => ({ ...record }));
+    ? allDishRecords.map(record => getDisplayDishRecord(record, true, getFancyBoostSetting()))
+    : allDishRecords.map(record => getDisplayDishRecord(record, false, getFancyBoostSetting()));
 
   const matches = records
     .filter(record => record.level <= playerLevel)
     .filter(record => Number(record.duration || 0) >= windowInfo.min && Number(record.duration || 0) <= windowInfo.max);
 
   const bestCandidates = matches.filter(record => {
+    if (!recommendationDurationEligible(record)) return false;
     if (record.dishType === 'Special') return false;
-    if (record.dishType === 'Holiday') return isHolidayDishActive(record.dishKey, new Date());
+    if (record.dishType === 'Holiday') return isHolidayDishActive(record, new Date());
     return true;
   });
 
@@ -3002,7 +3047,8 @@ function renderFullDishDex() {
   if (!allDishRecords.length) return;
   const body = document.getElementById('fullDishDexBody');
   const sortMode = document.getElementById('fullSortSelect').value;
-  const rows = getSortedFullDishDex(sortMode, getFullUseMasteriesSetting());
+  const category = document.getElementById('fullCategoryFilter')?.value || 'all';
+  const rows = getSortedFullDishDex(sortMode, getFullUseMasteriesSetting()).filter(record => category === 'all' || String(record.categoryId) === category);
 
   if (rows.length === 0) {
     body.innerHTML = emptyRow(11, t('noDishesAvailable'));
@@ -3127,7 +3173,7 @@ function renderMasteriesCookbook(records) {
 }
 
 function masteryCookbookCardHtml(record, index) {
-  const positionClass = ['book-slot-left-top', 'book-slot-left-bottom', 'book-slot-right-top', 'book-slot-right-bottom'][index] || '';
+  const positionClass = ['book-slot-left-top', 'book-slot-right-top', 'book-slot-left-bottom', 'book-slot-right-bottom'][index] || '';
 
   return `
     <article class="cookbook-dish-card ${positionClass}">
@@ -3153,10 +3199,47 @@ function getMasteryViewMode() {
 function getMasterySortMode() {
   const select = document.getElementById('masterySortSelect');
   const value = select ? select.value : (localStorage.getItem(MASTERY_SORT_STORAGE_KEY) || 'level-asc');
-  return ['level-asc', 'level-desc'].includes(value) ? value : 'level-asc';
+  return ['level-asc', 'level-desc', 'game-order'].includes(value) ? value : 'level-asc';
+}
+
+// Verified against screenshots: only these positions are authoritative.
+// Dishes not visible in screenshots still fall back to level/source order.
+const COOKBOOK_VERIFIED_SEQUENCE = [
+  'Greensalad', 'Tomatosoup', 'Omelette', 'Brigadeiro',
+  'Chocmousse', 'Instantnoodles', 'Spagetti', 'Hamburger',
+  'TripleOmelette', 'Cappuccino', 'Cheesedish', 'Pizzasalad',
+  'Mixedsalad', 'Chocolatewaffles', 'Toast', 'Noodlesalad'
+];
+const COOKBOOK_VERIFIED_CURRY_SEQUENCE = ['Chickencurry', 'Veggiecurry', 'Curry', 'Chickenbiryani'];
+function getScreenshotCookbookOrder(records) {
+  const early = new Map(COOKBOOK_VERIFIED_SEQUENCE.map((key, i) => [normalizeItemKey(key), i]));
+  const curries = new Map(COOKBOOK_VERIFIED_CURRY_SEQUENCE.map((key, i) => [normalizeItemKey(key), i]));
+  return [...records].sort((a, b) => {
+    // Seasonal dishes appear after ordinary recipes in the game's cookbook.
+    const holidayA = a.dishType === 'Holiday';
+    const holidayB = b.dishType === 'Holiday';
+    if (holidayA !== holidayB) return holidayA ? 1 : -1;
+    const firstA = early.get(normalizeItemKey(a.dishKey));
+    const firstB = early.get(normalizeItemKey(b.dishKey));
+    if (firstA !== undefined || firstB !== undefined) {
+      if (firstA === undefined) return 1;
+      if (firstB === undefined) return -1;
+      return firstA - firstB;
+    }
+    const curryA = curries.get(normalizeItemKey(a.dishKey));
+    const curryB = curries.get(normalizeItemKey(b.dishKey));
+    if (curryA !== undefined || curryB !== undefined) {
+      if (curryA !== undefined && curryB !== undefined) return curryA - curryB;
+      if (curryA !== undefined) return Number(b.level) < 36 ? 1 : -1;
+      return Number(a.level) < 36 ? -1 : 1;
+    }
+    if (Number(a.level) !== Number(b.level)) return Number(a.level) - Number(b.level);
+    return standardDishSort(a, b);
+  });
 }
 
 function getSortedMasteryRecords(records, sortMode = 'level-asc') {
+  if (sortMode === 'game-order') return getScreenshotCookbookOrder(records);
   const rows = [...records];
   const direction = sortMode === 'level-desc' ? 'desc' : 'asc';
 
@@ -3170,7 +3253,7 @@ function getSortedMasteryRecords(records, sortMode = 'level-asc') {
 }
 
 function getCookbookOrderedRecords(records) {
-  return getSortedMasteryRecords(records, 'level-asc');
+  return getSortedMasteryRecords(records, 'game-order');
 }
 
 function getHorizontalReaderRecords(records) {
@@ -3257,9 +3340,7 @@ function effectCheckHtml(currentLevel, requiredLevel) {
 }
 
 function getSortedFullDishDex(sortMode, useRegisteredMasteries = true) {
-  const rows = useRegisteredMasteries
-    ? allDishRecords.map(applyMasteryToRecord)
-    : [...allDishRecords];
+  const rows = allDishRecords.map(record => getDisplayDishRecord(record, useRegisteredMasteries, getFancyBoostSetting()));
   const numericSort = (key, direction) => {
     rows.sort((a, b) => {
       const diff = Number(a[key] || 0) - Number(b[key] || 0);
@@ -3368,6 +3449,31 @@ function applyMasteryToRecord(record) {
     profitPerMin: duration > 0 ? profit / duration : 0,
     servingsPerMin: duration > 0 ? servings / duration : 0
   };
+}
+
+function getDisplayDishRecord(record, useMasteries = true, useFancy = false) {
+  const mastered = useMasteries ? applyMasteryToRecord(record) : { ...record };
+  if (!useFancy) return mastered;
+  // Fancy adds 20% of the post-mastery values; the extra bonus rounds down.
+  const xp = mastered.xp + Math.floor(mastered.xp * 0.20);
+  const servings = mastered.servings + Math.floor(mastered.servings * 0.20);
+  const revenue = mastered.incomePerServing * servings;
+  const profit = revenue - mastered.ingredientCost;
+  return {
+    ...mastered, xp, servings, revenue, profit,
+    fancyBonusXp: xp - mastered.xp,
+    fancyBonusServings: servings - mastered.servings,
+    xpPerMin: mastered.duration > 0 ? xp / mastered.duration : 0,
+    servingsPerMin: mastered.duration > 0 ? servings / mastered.duration : 0,
+    profitPerMin: mastered.duration > 0 ? profit / mastered.duration : 0
+  };
+}
+
+function getFancyBoostSetting() { return localStorage.getItem(FANCY_STORAGE_KEY) === 'true'; }
+function getMyDexUseMasteriesSetting() { return localStorage.getItem(MYDEX_USE_MASTERIES_STORAGE_KEY) !== 'false'; }
+function shouldRecommendVeryLong() { return localStorage.getItem(VERY_LONG_STORAGE_KEY) === 'true'; }
+function recommendationDurationEligible(record) {
+  return shouldRecommendVeryLong() || getBaseDuration(record) <= VERY_LONG_DISH_MINUTES;
 }
 
 function getMasteredDuration(baseDuration, masteryLevel) {
@@ -3889,6 +3995,10 @@ function syncMyDexInputs(updateStoves = true) {
   }
   const includeSpecialDishesToggle = document.getElementById('includeSpecialDishesToggle');
   if (includeSpecialDishesToggle) includeSpecialDishesToggle.checked = Boolean(userData.includeSpecialDishes);
+  const myDexMasteries = document.getElementById('myDexUseMasteriesToggle');
+  if (myDexMasteries) myDexMasteries.checked = getMyDexUseMasteriesSetting();
+  const veryLong = document.getElementById('recommendVeryLongToggle');
+  if (veryLong) veryLong.checked = shouldRecommendVeryLong();
   const showIngredientsToggle = document.getElementById('showIngredientsToggle');
   if (showIngredientsToggle) showIngredientsToggle.checked = Boolean(userData.showIngredients);
 }
@@ -3937,7 +4047,7 @@ function handleMyTimeInputChange() {
     userData.level = myTimeLevel;
     userData.availableStoves = getDefaultStovesForLevel(myTimeLevel);
     syncProfileInputs(false);
-    syncMyDexInputs(false);
+    syncMyDexInputs(true);
     renderCoopTeamEditor();
     renderCoopPlanner();
   }
@@ -4135,6 +4245,210 @@ function deleteUserData() {
 
 
 /* Hidden Dish Calculator (#dishcalculator) */
+// Shared, persisted preference controls (no changes to the player's export format).
+function setupRecommendationControls() {
+  const fancyToggles = Array.from(document.querySelectorAll('.fancy-boost-toggle'));
+  function updateFancyCheckboxes() {
+    fancyToggles.forEach(input => { input.checked = getFancyBoostSetting(); });
+  }
+  updateFancyCheckboxes();
+  fancyToggles.forEach(input => input.addEventListener('change', () => {
+    localStorage.setItem(FANCY_STORAGE_KEY, input.checked ? 'true' : 'false');
+    updateFancyCheckboxes();
+    renderMyDex(); renderMyTime(); renderFullDishDex();
+  }));
+  const myDexMasteries = document.getElementById('myDexUseMasteriesToggle');
+  if (myDexMasteries) {
+    myDexMasteries.checked = getMyDexUseMasteriesSetting();
+    myDexMasteries.addEventListener('change', () => {
+      localStorage.setItem(MYDEX_USE_MASTERIES_STORAGE_KEY, myDexMasteries.checked ? 'true' : 'false');
+      renderMyDex();
+    });
+  }
+  const veryLongToggles = Array.from(document.querySelectorAll('.recommend-very-long-toggle'));
+  const syncVeryLongToggles = () => veryLongToggles.forEach(toggle => { toggle.checked = shouldRecommendVeryLong(); });
+  syncVeryLongToggles();
+  veryLongToggles.forEach(toggle => toggle.addEventListener('change', () => {
+    localStorage.setItem(VERY_LONG_STORAGE_KEY, toggle.checked ? 'true' : 'false');
+    syncVeryLongToggles();
+    renderMyDex(); renderMyTime();
+  }));
+}
+
+const GRID_TABLES = {
+  myDexScreen: ['bestSummaryBody', 'recommendedMasteriesBody', 'bestXpBody', 'bestProfitBody', 'bestPortionsBody', 'xpPlansBody'],
+  myTimeScreen: ['myTimeBestBody', 'myTimeAllBody'],
+  fullDishDexScreen: ['fullDishDexBody']
+};
+
+function setupGridViews() {
+  Object.entries(GRID_TABLES).forEach(([screenId, ids]) => {
+    const scope = document.querySelector(`[data-grid-scope="${screenId}"]`);
+    if (!scope) return;
+    const saved = localStorage.getItem(GRID_STORAGE_PREFIX + screenId);
+    const view = saved === 'grid' ? 'grid' : 'list';
+    scope.querySelectorAll('[data-view]').forEach(button => {
+      button.addEventListener('click', () => {
+        localStorage.setItem(GRID_STORAGE_PREFIX + screenId, button.dataset.view);
+        applyGridView(screenId);
+      });
+    });
+    ids.forEach(id => {
+      const body = document.getElementById(id);
+      if (!body) return;
+      new MutationObserver(() => {
+        if (localStorage.getItem(GRID_STORAGE_PREFIX + screenId) === 'grid') buildTableCards(id);
+      }).observe(body, { childList: true });
+    });
+    applyGridView(screenId, view);
+  });
+}
+
+function applyGridView(screenId, initialView = null) {
+  const view = initialView || localStorage.getItem(GRID_STORAGE_PREFIX + screenId) || 'list';
+  const scope = document.querySelector(`[data-grid-scope="${screenId}"]`);
+  scope?.querySelectorAll('[data-view]').forEach(button => {
+    const selected = button.dataset.view === view;
+    button.classList.toggle('selected', selected);
+    button.setAttribute('aria-pressed', selected ? 'true' : 'false');
+  });
+  (GRID_TABLES[screenId] || []).forEach(id => {
+    const tableBody = document.getElementById(id);
+    const wrap = tableBody?.closest('.table-wrap');
+    if (!wrap) return;
+    wrap.classList.toggle('dish-grid-mode', view === 'grid');
+    if (view === 'grid') buildTableCards(id);
+  });
+}
+
+function buildTableCards(bodyId) {
+  const body = document.getElementById(bodyId);
+  const table = body?.closest('table');
+  const wrap = table?.closest('.table-wrap');
+  if (!body || !table || !wrap) return;
+  let cards = wrap.querySelector('.dish-dynamic-grid');
+  if (!cards) {
+    cards = document.createElement('div');
+    cards.className = 'dish-dynamic-grid';
+    cards.setAttribute('aria-live', 'polite');
+    wrap.appendChild(cards);
+  }
+  const headerCells = [...table.querySelectorAll('thead tr:first-child th')];
+  const headingOverrides = {
+    bestSummaryBody: { 4: 'XP/min', 5: t('profit') + '/min' },
+    bestXpBody: { 4: 'XP/min' },
+    bestProfitBody: { 4: t('profit') + '/min' },
+    myTimeBestBody: { 4: 'XP/min', 5: t('profit') + '/min' },
+    myTimeAllBody: { 3: 'XP/min', 4: t('profit') + '/min' },
+    fullDishDexBody: { 3: 'XP/min', 4: t('profit') + '/min' }
+  }[bodyId] || {};
+  const headings = headerCells.map((cell, index) => {
+    if (headingOverrides[index]) return headingOverrides[index];
+    return (cell.textContent || '').trim();
+  });
+  const isSummary = ['bestSummaryBody', 'myTimeBestBody', 'bestXpBody', 'bestProfitBody', 'bestPortionsBody', 'recommendedMasteriesBody', 'xpPlansBody'].includes(bodyId);
+  const titleIndex = isSummary ? 2 : 1;
+  let output = '';
+  for (const row of body.querySelectorAll(':scope > tr')) {
+    const cells = [...row.querySelectorAll(':scope > td')];
+    if (row.classList.contains('ingredient-detail-row')) {
+      if (output) output = output.replace(/<\/article>$/, `<div class="dish-grid-extra">${cells[0]?.innerHTML || ''}</div></article>`);
+      continue;
+    }
+    if (cells.length <= 1) {
+      output += `<article class="dish-grid-empty">${escapeHtml(row.textContent.trim())}</article>`;
+      continue;
+    }
+    const title = cells[titleIndex]?.innerHTML || '';
+    const image = cells[0]?.innerHTML || '';
+    const stats = cells.map((cell, index) => {
+      if (index === 0 || index === titleIndex) return '';
+      const content = cell.innerHTML.trim();
+      if (!content) return '';
+      return `<div class="dish-grid-stat"><span>${escapeHtml(headings[index] || '')}</span><div>${content}</div></div>`;
+    }).filter(Boolean).join('');
+    output += `<article class="dish-grid-card ${escapeHtml(row.className || '')}"><div class="dish-grid-heading">${image}<strong>${title}</strong></div><div class="dish-grid-stats">${stats}</div></article>`;
+  }
+  cards.innerHTML = output || `<div class="dish-grid-empty">${escapeHtml(t('noDishesAvailable'))}</div>`;
+}
+
+function getCoopGoldXpMin(coop, playerLevel = userData.level) {
+  const deadline = Number(coop.goldDeadline || 0);
+  return deadline > 0 ? getCoopRewardAtLevel(coop, 4, playerLevel).xp / deadline : 0;
+}
+
+function getCoopTeamCoverage(coop) {
+  const members = getValidCoopTeamMembers();
+  if (!members.length || !coop.requirements?.length) return { all: false, some: false };
+  const supported = coop.requirements.filter(req => req.dish && members.some(member => Number(member.level) >= Number(req.dish.level) && Number(member.stoves) > 0));
+  return { all: supported.length === coop.requirements.length, some: supported.length > 0 };
+}
+
+function setupCoopDiscoveryControls() {
+  const filter = document.getElementById('coopTeamEligibleOnly');
+  if (filter) {
+    filter.checked = localStorage.getItem(COOP_ELIGIBILITY_STORAGE_KEY) === 'true';
+    filter.addEventListener('change', () => {
+      localStorage.setItem(COOP_ELIGIBILITY_STORAGE_KEY, filter.checked ? 'true' : 'false');
+      renderCoopPlanner();
+    });
+  }
+  const sort = document.getElementById('coopSortSelect');
+  if (sort) {
+    sort.value = localStorage.getItem(COOP_SORT_STORAGE_KEY) || 'number';
+    sort.addEventListener('change', () => {
+      localStorage.setItem(COOP_SORT_STORAGE_KEY, sort.value);
+      renderCoopPlanner();
+    });
+  }
+  const scope = document.getElementById('myDexCoopScope');
+  if (scope) {
+    scope.value = localStorage.getItem(MYDEX_COOP_SCOPE_STORAGE_KEY) || 'all';
+    scope.addEventListener('change', () => {
+      localStorage.setItem(MYDEX_COOP_SCOPE_STORAGE_KEY, scope.value);
+      renderMyDexCoopSuggestions();
+    });
+  }
+}
+
+function renderMyDexCoopSuggestions() {
+  const container = document.getElementById('myDexCoopSuggestions');
+  if (!container) return;
+  if (!allCoopRecords.length) {
+    container.textContent = t('noCoopsAvailable');
+    return;
+  }
+  const scope = document.getElementById('myDexCoopScope')?.value || 'all';
+  const recommended = allCoopRecords.filter(coop => getCoopTeamCoverage(coop)[scope])
+    .sort((a, b) => getCoopGoldXpMin(b) - getCoopGoldXpMin(a) || a.coopNumber - b.coopNumber).slice(0, 5);
+  container.innerHTML = recommended.length ? recommended.map(coop => `
+    <article class="coop-suggestion-card">
+      <div class="coop-suggestion-heading">${coopIconHtml(coop)}<strong>${escapeHtml(coop.title)}</strong></div>
+      <p>Co-Op ${number(coop.coopNumber)} · ${escapeHtml(t('highestRequiredLevel'))}: ${number(coop.maxRequiredDishLevel)}</p>
+      <p><strong>${escapeHtml(t('goldXpMin'))}: ${decimal(getCoopGoldXpMin(coop))}</strong> · ${escapeHtml(t('goldDeadline'))}: ${escapeHtml(formatDuration(coop.goldDeadline))}</p>
+      <button class="plan-button" type="button" data-mydex-coop="${number(coop.coopNumber)}">${escapeHtml(t('planCoop'))}</button>
+    </article>`).join('') : `<p class="hint">${escapeHtml(t('noEligibleCoops'))}</p>`;
+  container.querySelectorAll('[data-mydex-coop]').forEach(button => button.addEventListener('click', () => {
+    const coopNumber = Number(button.dataset.mydexCoop);
+    navigateToScreen('coopPlannerScreen');
+    renderCoopPlanPreview(coopNumber);
+  }));
+}
+
+function coopXpRateEstimatesHtml(coop, plan) {
+  if (plan.status === 'impossible' || !Number.isFinite(plan.estimatedMinutes) || plan.estimatedMinutes <= 0) return '';
+  const multiplier = getStatusMultiplier(plan.status);
+  if (!multiplier) return '';
+  const members = plan.members.filter(member => member.assignedCount > 0 && member.estimatedMinutes > 0);
+  const teamXp = members.reduce((sum, member) => sum + getCoopRewardAtLevel(coop, multiplier, member.level).xp, 0);
+  const rate = teamXp / plan.estimatedMinutes;
+  return `<div class="coop-rate-panel">
+    <p><strong>${escapeHtml(t('teamEstimatedXpMin'))}:</strong> ${decimal(rate)} <small>(${escapeHtml(statusLabel(plan.status))})</small></p>
+    ${members.map(member => `<p><strong>${escapeHtml(member.name)} — ${escapeHtml(t('personalEstimatedXpMin'))}:</strong> ${decimal(getCoopRewardAtLevel(coop, multiplier, member.level).xp / member.estimatedMinutes)}</p>`).join('')}
+    <small>${escapeHtml(t('coopEstimateDisclaimer'))}</small>
+  </div>`;
+}
+
 function setupDishCalculator() {
   const screen = document.getElementById('dishCalculatorScreen');
   if (!screen || screen.dataset.bound === 'true') return;
@@ -5110,10 +5424,10 @@ function hasSpecialIngredient(requirements, ingredientKeyById) {
   });
 }
 
-function getDishType(dishKey, requirements, ingredientKeyById) {
-  const key = String(dishKey || '').toLowerCase();
-  if (HOLIDAY_DISH_KEYS.map(item => item.toLowerCase()).includes(key)) return 'Holiday';
-  if (SPECIAL_DISH_KEYS.map(item => item.toLowerCase()).includes(key)) return 'Special';
+function getDishType(dishKey, requirements, ingredientKeyById, events = 0) {
+  const key = normalizeItemKey(dishKey);
+  if (Number(events) > 0) return 'Holiday';
+  if (SPECIAL_DISH_KEYS.some(item => normalizeItemKey(item) === key)) return 'Special';
   if (hasSpecialIngredient(requirements, ingredientKeyById)) return 'Special';
   return 'Regular';
 }
@@ -5124,48 +5438,50 @@ function dishTypeLabel(type) {
   return t('regular');
 }
 
+function getHolidayType(recordOrKey) {
+  if (typeof recordOrKey === 'object' && recordOrKey) {
+    return HOLIDAY_EVENT_TYPES[Number(recordOrKey.events)] || null;
+  }
+  const record = allDishRecords.find(item => normalizeItemKey(item.dishKey) === normalizeItemKey(recordOrKey));
+  return record ? (HOLIDAY_EVENT_TYPES[Number(record.events)] || null) : null;
+}
+
 function fullDishNameHtml(record) {
   const baseName = escapeHtml(record.dishName);
   const tag = fullDishTypeTag(record);
-  if (!tag) return baseName;
-  return `${baseName} <span class="dish-type-tag">(${escapeHtml(tag)})</span>`;
+  return tag ? `${baseName} <span class="dish-type-tag">(${escapeHtml(tag)})</span>` : baseName;
 }
 
 function fullDishTypeTag(record) {
-  const key = String(record?.dishKey || '').toLowerCase();
   if (record?.dishType === 'Special') return t('fullTagSpecial');
-  if (key === 'christmasturkey') return t('fullTagChristmas');
-  if (key === 'easterdish' || key === 'fruitpudding') return t('fullTagEaster');
-  if (key === 'spookymousse') return t('fullTagHalloween');
+  const eventType = getHolidayType(record);
+  if (eventType === 'Christmas') return t('fullTagChristmas');
+  if (eventType === 'Easter') return t('fullTagEaster');
+  if (eventType === 'Halloween') return t('fullTagHalloween');
+  if (record?.dishType === 'Holiday') return t('holiday');
+  if (getBaseDuration(record) > VERY_LONG_DISH_MINUTES) return t('fullTagOver48h');
   return '';
 }
 
-
-function shouldIncludeHolidayDish(dishKey, mode) {
+function shouldIncludeHolidayDish(recordOrKey, mode) {
   if (mode === 'Include') return true;
   if (mode === 'Exclude') return false;
-  return isHolidayDishActive(dishKey, new Date());
+  return isHolidayDishActive(recordOrKey, new Date());
 }
 
-function isHolidayDishActive(dishKey, date) {
-  const key = String(dishKey || '').toLowerCase();
+function isHolidayDishActive(recordOrKey, date) {
+  const eventType = getHolidayType(recordOrKey);
   const current = stripTime(date);
   const year = current.getFullYear();
   const month = current.getMonth() + 1;
   const day = current.getDate();
 
-  if (key === 'christmasturkey') return month === 12 || (month === 1 && day <= 6);
-
-  // Halloween dishes are active throughout October and through All Souls' Day.
-  if (key === 'spookymousse') return month === 10 || (month === 11 && day <= 2);
-
-  if (key === 'easterdish' || key === 'fruitpudding') {
+  if (eventType === 'Christmas') return month === 12 || (month === 1 && day <= 6);
+  if (eventType === 'Halloween') return month === 10 || (month === 11 && day <= 2);
+  if (eventType === 'Easter') {
     const easter = calculateEasterDate(year);
-    const start = addDays(easter, -14);
-    const end = addDays(easter, 7);
-    return current >= start && current <= end;
+    return current >= addDays(easter, -14) && current <= addDays(easter, 7);
   }
-
   return false;
 }
 

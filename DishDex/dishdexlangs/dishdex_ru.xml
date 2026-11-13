@@ -301,4 +301,40 @@
   <text id="waiters" name="Waiters" />
   <text id="instantCookings" name="Instant cookings" />
   <text id="masteryCompletionProgress" name="Уровень мастерства progress:" />
+  <text id="applyFancyBoost" name="Применить Fancy (+20% к опыту и порциям)" />
+  <text id="recommendVeryLong" name="Рекомендовать очень долгие блюда (более 48 ч)?" />
+  <text id="filterCategory" name="Фильтр по категории" />
+  <text id="allCategories" name="Все категории" />
+  <text id="viewDisplay" name="Вид" />
+  <text id="listView" name="Список" />
+  <text id="gridView" name="Сетка" />
+  <text id="gameOrder" name="Порядок из книги рецептов игры (проверен частично)" />
+  <text id="coopEligibleOnly" name="Только кооперативы, доступные моей команде" />
+  <text id="coopSortLabel" name="Сортировка кооперативов" />
+  <text id="coopSortNumber" name="Номер кооператива" />
+  <text id="coopSortMaxLevel" name="Максимальный необходимый уровень блюда" />
+  <text id="coopSortGoldXpMin" name="Опыт/мин за золото" />
+  <text id="myDexCoopTitle" name="Лучшие кооперативы для повышения уровня" />
+  <text id="coopGoldOnlyNote" name="Опыт за золотую награду ÷ срок золота; опыт за готовку не учитывается." />
+  <text id="coopScopeLabel" name="Возможности команды" />
+  <text id="coopCanCookAll" name="Команда может приготовить все блюда" />
+  <text id="coopCanCookSome" name="Команда может приготовить хотя бы одно блюдо" />
+  <text id="highestRequiredLevel" name="Максимальный требуемый уровень" />
+  <text id="goldXpMin" name="Опыт/мин за золото" />
+  <text id="noEligibleCoops" name="Нет подходящих кооперативов для этой команды." />
+  <text id="teamEstimatedXpMin" name="Расчётный опыт команды/мин" />
+  <text id="personalEstimatedXpMin" name="Расчётный опыт повара/мин" />
+  <text id="coopEstimateDisclaimer" name="Расчёт основан на распределённом времени готовки и ожидаемой медали; реальный прогресс может отличаться." />
+  <text id="playCafe" name="Играть в Cappuccino Café" />
+  <text id="category0" name="Десерт" />
+  <text id="category1" name="Основное блюдо" />
+  <text id="category2" name="Суп" />
+  <text id="category3" name="Салат" />
+  <text id="category4" name="Вегетарианское" />
+  <text id="category5" name="Закуска" />
+  <text id="fullTagOver48h" name="Очень долго (48 ч+)" />
+  <text id="bestOver48h" name="Лучшие свыше 48 ч" />
+  <text id="over48hWord" name="свыше 48 ч" />
+  <text id="over48hPlan" name="План на 48 ч+" />
+  <text id="over48hNote" name="Исходное время приготовления больше 48 часов." />
 </dishdex>

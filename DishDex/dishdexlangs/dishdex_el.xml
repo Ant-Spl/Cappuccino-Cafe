@@ -301,4 +301,40 @@
   <text id="waiters" name="Waiters" />
   <text id="instantCookings" name="Instant cookings" />
   <text id="masteryCompletionProgress" name="Επίπεδο μαεστρείας progress:" />
+  <text id="applyFancyBoost" name="Εφαρμογή Fancy (+20% XP και μερίδες)" />
+  <text id="recommendVeryLong" name="Να προτείνονται πολύ χρονοβόρα πιάτα (πάνω από 48 ώρες);" />
+  <text id="filterCategory" name="Φιλτράρισμα ανά κατηγορία" />
+  <text id="allCategories" name="Όλες οι κατηγορίες" />
+  <text id="viewDisplay" name="Προβολή" />
+  <text id="listView" name="Λίστα" />
+  <text id="gridView" name="Πλέγμα" />
+  <text id="gameOrder" name="Σειρά στο βιβλίο συνταγών (μερικώς επιβεβαιωμένη)" />
+  <text id="coopEligibleOnly" name="Μόνο συνεργασίες που μπορεί να μαγειρέψει η ομάδα" />
+  <text id="coopSortLabel" name="Ταξινόμηση συνεργασιών" />
+  <text id="coopSortNumber" name="Αριθμός συνεργασίας" />
+  <text id="coopSortMaxLevel" name="Υψηλότερο απαιτούμενο επίπεδο πιάτου" />
+  <text id="coopSortGoldXpMin" name="XP/λεπτό για χρυσό" />
+  <text id="myDexCoopTitle" name="Καλύτερες συνεργασίες για άνοδο επιπέδου" />
+  <text id="coopGoldOnlyNote" name="XP χρυσής ανταμοιβής ÷ προθεσμία χρυσού· χωρίς XP μαγειρέματος." />
+  <text id="coopScopeLabel" name="Δυνατότητες ομάδας" />
+  <text id="coopCanCookAll" name="Η ομάδα μπορεί να φτιάξει όλα τα πιάτα" />
+  <text id="coopCanCookSome" name="Η ομάδα μπορεί να φτιάξει τουλάχιστον ένα πιάτο" />
+  <text id="highestRequiredLevel" name="Υψηλότερο απαιτούμενο επίπεδο" />
+  <text id="goldXpMin" name="XP/λεπτό για χρυσό" />
+  <text id="noEligibleCoops" name="Δεν υπάρχουν κατάλληλες συνεργασίες για αυτή την ομάδα." />
+  <text id="teamEstimatedXpMin" name="Εκτιμώμενο XP/λεπτό ομάδας" />
+  <text id="personalEstimatedXpMin" name="Εκτιμώμενο XP/λεπτό μάγειρα" />
+  <text id="coopEstimateDisclaimer" name="Οι εκτιμήσεις βασίζονται στον χρόνο μαγειρέματος και στο προβλεπόμενο μετάλλιο· η πραγματική πρόοδος μπορεί να διαφέρει." />
+  <text id="playCafe" name="Παίξε Cappuccino Café" />
+  <text id="category0" name="Επιδόρπιο" />
+  <text id="category1" name="Κυρίως πιάτο" />
+  <text id="category2" name="Σούπα" />
+  <text id="category3" name="Σαλάτα" />
+  <text id="category4" name="Χορτοφαγικό" />
+  <text id="category5" name="Σνακ" />
+  <text id="fullTagOver48h" name="Πολύ μεγάλο (48+ ώρες)" />
+  <text id="bestOver48h" name="Καλύτερο άνω των 48 ωρών" />
+  <text id="over48hWord" name="άνω των 48 ωρών" />
+  <text id="over48hPlan" name="Πλάνο 48+ ωρών" />
+  <text id="over48hNote" name="Αρχικός χρόνος μαγειρέματος πάνω από 48 ώρες." />
 </dishdex>

@@ -301,4 +301,40 @@
   <text id="waiters" name="Waiters" />
   <text id="instantCookings" name="Instant cookings" />
   <text id="masteryCompletionProgress" name="Csillag szint progress:" />
+  <text id="applyFancyBoost" name="Fancy alkalmazása (+20% XP és adag)" />
+  <text id="recommendVeryLong" name="Nagyon hosszú ételek ajánlása (48 órán túl)?" />
+  <text id="filterCategory" name="Szűrés kategória szerint" />
+  <text id="allCategories" name="Összes kategória" />
+  <text id="viewDisplay" name="Nézet" />
+  <text id="listView" name="Lista" />
+  <text id="gridView" name="Rács" />
+  <text id="gameOrder" name="A játék szakácskönyvének sorrendje (részben ellenőrzött)" />
+  <text id="coopEligibleOnly" name="Csak a csapat által elkészíthető kooperációk" />
+  <text id="coopSortLabel" name="Kooperációk rendezése" />
+  <text id="coopSortNumber" name="Kooperáció száma" />
+  <text id="coopSortMaxLevel" name="Legmagasabb szükséges ételszint" />
+  <text id="coopSortGoldXpMin" name="Arany XP/perc" />
+  <text id="myDexCoopTitle" name="Legjobb kooperációk szintlépéshez" />
+  <text id="coopGoldOnlyNote" name="Aranyjutalom XP ÷ arany határideje; főzési XP nélkül." />
+  <text id="coopScopeLabel" name="Csapat képességei" />
+  <text id="coopCanCookAll" name="A csapat minden szükséges ételt elkészíthet" />
+  <text id="coopCanCookSome" name="A csapat legalább egy ételt elkészíthet" />
+  <text id="highestRequiredLevel" name="Legmagasabb szükséges szint" />
+  <text id="goldXpMin" name="Arany XP/perc" />
+  <text id="noEligibleCoops" name="Nincs megfelelő kooperáció ehhez a csapathoz." />
+  <text id="teamEstimatedXpMin" name="Becsült csapat XP/perc" />
+  <text id="personalEstimatedXpMin" name="Becsült szakács XP/perc" />
+  <text id="coopEstimateDisclaimer" name="A becslés a kiosztott főzési időn és a várható érmen alapul; a tényleges haladás eltérhet." />
+  <text id="playCafe" name="Cappuccino Café játék" />
+  <text id="category0" name="Desszert" />
+  <text id="category1" name="Főétel" />
+  <text id="category2" name="Leves" />
+  <text id="category3" name="Saláta" />
+  <text id="category4" name="Vegetáriánus" />
+  <text id="category5" name="Harapnivaló" />
+  <text id="fullTagOver48h" name="Nagyon hosszú (48 óra+)" />
+  <text id="bestOver48h" name="Legjobb 48 óra felett" />
+  <text id="over48hWord" name="48 óra felett" />
+  <text id="over48hPlan" name="48 órás terv" />
+  <text id="over48hNote" name="Az eredeti főzési idő több mint 48 óra." />
 </dishdex>

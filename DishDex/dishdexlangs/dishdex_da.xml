@@ -301,4 +301,40 @@
   <text id="waiters" name="Tjenere" />
   <text id="instantCookings" name="Øjeblikkelig madlavning" />
   <text id="masteryCompletionProgress" name="Stjerne-Niveau progress:" />
+  <text id="applyFancyBoost" name="Anvend Fancy (+20 % XP og portioner)" />
+  <text id="recommendVeryLong" name="Anbefal meget lange retter (over 48 timer)?" />
+  <text id="filterCategory" name="Filtrér efter kategori" />
+  <text id="allCategories" name="Alle kategorier" />
+  <text id="viewDisplay" name="Visning" />
+  <text id="listView" name="Liste" />
+  <text id="gridView" name="Gitter" />
+  <text id="gameOrder" name="Rækkefølge i spillets kogebog (delvist bekræftet)" />
+  <text id="coopEligibleOnly" name="Kun co-ops, som mit hold kan lave" />
+  <text id="coopSortLabel" name="Sortér co-ops" />
+  <text id="coopSortNumber" name="Co-op-nummer" />
+  <text id="coopSortMaxLevel" name="Højeste krævede ret-niveau" />
+  <text id="coopSortGoldXpMin" name="Guld-XP/min" />
+  <text id="myDexCoopTitle" name="Bedste co-ops til at stige i niveau" />
+  <text id="coopGoldOnlyNote" name="XP fra guldbelønning ÷ guldfrist; madlavnings-XP tælles ikke med." />
+  <text id="coopScopeLabel" name="Holdets muligheder" />
+  <text id="coopCanCookAll" name="Holdet kan lave alle påkrævede retter" />
+  <text id="coopCanCookSome" name="Holdet kan lave mindst én ret" />
+  <text id="highestRequiredLevel" name="Højeste krævede niveau" />
+  <text id="goldXpMin" name="Guld-XP/min" />
+  <text id="noEligibleCoops" name="Ingen passende co-ops til dette hold." />
+  <text id="teamEstimatedXpMin" name="Anslået hold-XP/min" />
+  <text id="personalEstimatedXpMin" name="Anslået kokke-XP/min" />
+  <text id="coopEstimateDisclaimer" name="Skøn bygger på tildelt tilberedningstid og forventet medalje; faktisk fremgang kan variere." />
+  <text id="playCafe" name="Spil Cappuccino Café" />
+  <text id="category0" name="Dessert" />
+  <text id="category1" name="Hovedret" />
+  <text id="category2" name="Suppe" />
+  <text id="category3" name="Salat" />
+  <text id="category4" name="Vegetarisk" />
+  <text id="category5" name="Snack" />
+  <text id="fullTagOver48h" name="Meget lang (48 timer+)" />
+  <text id="bestOver48h" name="Bedst over 48 timer" />
+  <text id="over48hWord" name="over 48 timer" />
+  <text id="over48hPlan" name="48-timersplan" />
+  <text id="over48hNote" name="Oprindelig tilberedningstid over 48 timer." />
 </dishdex>

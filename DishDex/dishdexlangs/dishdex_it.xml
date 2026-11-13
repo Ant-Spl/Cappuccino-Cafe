@@ -300,4 +300,40 @@
   <text id="waiters" name="Camerieri" />
   <text id="instantCookings" name="Instant cooking disp." />
   <text id="masteryCompletionProgress" name="Progresso nell&#x27;ottenimento delle stelle:" />
+  <text id="applyFancyBoost" name="Applica Fancy (+20% XP e porzioni)" />
+  <text id="recommendVeryLong" name="Consigliare piatti molto lunghi (oltre 48 ore)?" />
+  <text id="filterCategory" name="Filtra per categoria" />
+  <text id="allCategories" name="Tutte le categorie" />
+  <text id="viewDisplay" name="Visualizzazione" />
+  <text id="listView" name="Elenco" />
+  <text id="gridView" name="Griglia" />
+  <text id="gameOrder" name="Ordine del ricettario del gioco (verificato in parte)" />
+  <text id="coopEligibleOnly" name="Solo coop cucinabili dalla mia squadra" />
+  <text id="coopSortLabel" name="Ordina le coop" />
+  <text id="coopSortNumber" name="Numero coop" />
+  <text id="coopSortMaxLevel" name="Livello più alto richiesto dai piatti" />
+  <text id="coopSortGoldXpMin" name="XP/min oro" />
+  <text id="myDexCoopTitle" name="Migliori coop per salire di livello" />
+  <text id="coopGoldOnlyNote" name="XP premio oro ÷ scadenza oro; esclusi gli XP della cucina." />
+  <text id="coopScopeLabel" name="Copertura della squadra" />
+  <text id="coopCanCookAll" name="La squadra può cucinare tutti i piatti" />
+  <text id="coopCanCookSome" name="La squadra può cucinare almeno un piatto" />
+  <text id="highestRequiredLevel" name="Livello massimo richiesto" />
+  <text id="goldXpMin" name="XP/min oro" />
+  <text id="noEligibleCoops" name="Nessuna coop compatibile con questa squadra." />
+  <text id="teamEstimatedXpMin" name="XP/min stimati della squadra" />
+  <text id="personalEstimatedXpMin" name="XP/min stimati del cuoco" />
+  <text id="coopEstimateDisclaimer" name="Le stime usano i tempi di cottura assegnati e la medaglia prevista; i progressi reali possono variare." />
+  <text id="playCafe" name="Gioca a Cappuccino Café" />
+  <text id="category0" name="Dolce" />
+  <text id="category1" name="Piatto principale" />
+  <text id="category2" name="Zuppa" />
+  <text id="category3" name="Insalata" />
+  <text id="category4" name="Vegetariano" />
+  <text id="category5" name="Spuntino" />
+  <text id="fullTagOver48h" name="Molto lungo (48 ore+)" />
+  <text id="bestOver48h" name="Migliore oltre 48 ore" />
+  <text id="over48hWord" name="oltre 48 ore" />
+  <text id="over48hPlan" name="Piano 48 ore+" />
+  <text id="over48hNote" name="Durata di cottura originale superiore a 48 ore." />
 </dishdex>

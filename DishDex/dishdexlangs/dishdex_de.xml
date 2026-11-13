@@ -301,4 +301,40 @@
   <text id="waiters" name="Kellner" />
   <text id="instantCookings" name="Sofortkochungen" />
   <text id="masteryCompletionProgress" name="Sterne-Level-Fortschritt:" />
+  <text id="applyFancyBoost" name="Fancy anwenden (+20 % XP und Portionen)" />
+  <text id="recommendVeryLong" name="Sehr lange Gerichte (über 48 Std.) empfehlen?" />
+  <text id="filterCategory" name="Nach Kategorie filtern" />
+  <text id="allCategories" name="Alle Kategorien" />
+  <text id="viewDisplay" name="Ansicht" />
+  <text id="listView" name="Liste" />
+  <text id="gridView" name="Raster" />
+  <text id="gameOrder" name="Reihenfolge im Spielkochbuch (teilweise geprüft)" />
+  <text id="coopEligibleOnly" name="Nur Co-ops, die mein Team kochen kann" />
+  <text id="coopSortLabel" name="Co-ops sortieren" />
+  <text id="coopSortNumber" name="Co-op-Nummer" />
+  <text id="coopSortMaxLevel" name="Höchste benötigte Gerichtsstufe" />
+  <text id="coopSortGoldXpMin" name="Gold-XP/Min." />
+  <text id="myDexCoopTitle" name="Beste Co-ops zum Leveln" />
+  <text id="coopGoldOnlyNote" name="Gold-Belohnungs-XP ÷ Gold-Frist; Koch-XP nicht enthalten." />
+  <text id="coopScopeLabel" name="Team-Abdeckung" />
+  <text id="coopCanCookAll" name="Team kann alle benötigten Gerichte kochen" />
+  <text id="coopCanCookSome" name="Team kann mindestens ein Gericht kochen" />
+  <text id="highestRequiredLevel" name="Höchste benötigte Stufe" />
+  <text id="goldXpMin" name="Gold-XP/Min." />
+  <text id="noEligibleCoops" name="Keine passenden Co-ops für dieses Team." />
+  <text id="teamEstimatedXpMin" name="Geschätzte Team-XP/Min." />
+  <text id="personalEstimatedXpMin" name="Geschätzte Koch-XP/Min." />
+  <text id="coopEstimateDisclaimer" name="Schätzungen basieren auf zugewiesener Kochzeit und erwarteter Medaille; tatsächlicher Fortschritt kann abweichen." />
+  <text id="playCafe" name="Cappuccino Café spielen" />
+  <text id="category0" name="Dessert" />
+  <text id="category1" name="Hauptgericht" />
+  <text id="category2" name="Suppe" />
+  <text id="category3" name="Salat" />
+  <text id="category4" name="Vegetarisch" />
+  <text id="category5" name="Snack" />
+  <text id="fullTagOver48h" name="Sehr lang (48 Std.+)" />
+  <text id="bestOver48h" name="Beste über 48 Std." />
+  <text id="over48hWord" name="über 48 Std." />
+  <text id="over48hPlan" name="48-Std.-Plan" />
+  <text id="over48hNote" name="Ursprüngliche Kochdauer über 48 Stunden." />
 </dishdex>

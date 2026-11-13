@@ -301,4 +301,40 @@
   <text id="waiters" name="Waiters" />
   <text id="instantCookings" name="Instant cookings" />
   <text id="masteryCompletionProgress" name="별 레벨 progress:" />
+  <text id="applyFancyBoost" name="Fancy 적용 (XP와 제공량 +20%)" />
+  <text id="recommendVeryLong" name="매우 오래 걸리는 요리(48시간 초과)를 추천할까요?" />
+  <text id="filterCategory" name="카테고리별 필터" />
+  <text id="allCategories" name="모든 카테고리" />
+  <text id="viewDisplay" name="보기" />
+  <text id="listView" name="목록" />
+  <text id="gridView" name="격자" />
+  <text id="gameOrder" name="게임 요리책 순서(일부만 확인됨)" />
+  <text id="coopEligibleOnly" name="팀이 요리할 수 있는 협동 미션만" />
+  <text id="coopSortLabel" name="협동 미션 정렬" />
+  <text id="coopSortNumber" name="협동 미션 번호" />
+  <text id="coopSortMaxLevel" name="필요한 요리의 최고 레벨" />
+  <text id="coopSortGoldXpMin" name="골드 XP/분" />
+  <text id="myDexCoopTitle" name="레벨업에 좋은 협동 미션" />
+  <text id="coopGoldOnlyNote" name="골드 보상 XP ÷ 골드 마감 시간. 요리 XP는 제외합니다." />
+  <text id="coopScopeLabel" name="팀의 요리 가능 범위" />
+  <text id="coopCanCookAll" name="필요한 모든 요리를 만들 수 있음" />
+  <text id="coopCanCookSome" name="필요한 요리를 하나 이상 만들 수 있음" />
+  <text id="highestRequiredLevel" name="필요한 최고 레벨" />
+  <text id="goldXpMin" name="골드 XP/분" />
+  <text id="noEligibleCoops" name="이 팀에 적합한 협동 미션이 없습니다." />
+  <text id="teamEstimatedXpMin" name="팀 예상 XP/분" />
+  <text id="personalEstimatedXpMin" name="셰프 예상 XP/분" />
+  <text id="coopEstimateDisclaimer" name="배정된 요리 시간과 예상 메달을 기준으로 계산한 값이며 실제 진행과 다를 수 있습니다." />
+  <text id="playCafe" name="Cappuccino Café 플레이" />
+  <text id="category0" name="디저트" />
+  <text id="category1" name="메인 요리" />
+  <text id="category2" name="수프" />
+  <text id="category3" name="샐러드" />
+  <text id="category4" name="채식" />
+  <text id="category5" name="간식" />
+  <text id="fullTagOver48h" name="매우 오래 걸림(48시간 초과)" />
+  <text id="bestOver48h" name="48시간 초과 추천" />
+  <text id="over48hWord" name="48시간 초과" />
+  <text id="over48hPlan" name="48시간 초과 계획" />
+  <text id="over48hNote" name="기본 요리 시간이 48시간을 초과합니다." />
 </dishdex>

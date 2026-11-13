@@ -8,7 +8,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css?v=20260822-dishcalculator-v3-langstrings">
+  <link rel="stylesheet" href="style.css?v=20261113-dishdex-community-update-1">
 </head>
 <body class="dark-theme">
   <main class="page">
@@ -111,6 +111,7 @@
             <span class="mode-description" data-i18n="myMasteriesDescription">Register your dish mastery stars and apply them to MyDex.</span>
           </button>
         </div>
+        <a class="cafe-shortcut" href="https://cappuccino.gabrb.net/cafe/game" target="_blank" rel="noopener noreferrer" data-i18n="playCafe">Play Cappuccino Café</a>
       </section>
     </section>
 
@@ -126,6 +127,7 @@
         </div>
       </header>
 
+      <div class="view-switch-toolbar"><span data-i18n="viewDisplay">Display</span><div class="view-switch" data-grid-scope="myDexScreen"><button type="button" class="view-button" data-view="list" data-i18n="listView">List</button><button type="button" class="view-button" data-view="grid" data-i18n="gridView">Grid</button></div></div>
       <section class="panel inputs-panel">
         <h2 data-i18n="myDexSettings">MyDex Settings</h2>
         <div class="input-grid">
@@ -150,6 +152,18 @@
             </select>
           </label>
           <label class="inline-toggle setting-toggle">
+            <input id="myDexUseMasteriesToggle" type="checkbox" checked>
+            <span data-i18n="useRegisteredMasteries">Use my registered masteries</span>
+          </label>
+          <label class="inline-toggle setting-toggle">
+            <input id="myDexFancyToggle" class="fancy-boost-toggle" type="checkbox">
+            <span data-i18n="applyFancyBoost">Apply Fancy (+20% XP &amp; portions)</span>
+          </label>
+          <label class="inline-toggle setting-toggle">
+            <input id="recommendVeryLongToggle" class="recommend-very-long-toggle" type="checkbox">
+            <span data-i18n="recommendVeryLong">Recommend very long dishes (over 48h)?</span>
+          </label>
+          <label class="inline-toggle setting-toggle">
             <input id="includeSpecialDishesToggle" type="checkbox">
             <span data-i18n="includeSpecialDishes">Include special dishes?</span>
           </label>
@@ -161,6 +175,13 @@
         <p class="hint" data-i18n="myDexHint">Insert your data for personalized recommendations.</p>
       </section>
 
+      <section class="panel" id="myDexCoopSuggestionsPanel">
+        <h2 data-i18n="myDexCoopTitle">Best Co-ops for leveling</h2>
+        <p class="section-note" data-i18n="coopGoldOnlyNote">Ranked by Gold reward XP divided by the Gold deadline; cooking XP is excluded.</p>
+        <label><span data-i18n="coopScopeLabel">Team coverage</span>
+        <select id="myDexCoopScope"><option value="all" data-i18n="coopCanCookAll">Team can cook all dishes</option><option value="some" data-i18n="coopCanCookSome">Team can cook some dishes</option></select></label>
+        <div id="myDexCoopSuggestions" class="coop-suggestion-grid"></div>
+      </section>
       <section class="panel">
         <h2 data-i18n="bestSummaryTitle">Best of Summary</h2>
         <div class="table-wrap">
@@ -314,6 +335,7 @@
         </div>
       </header>
 
+      <div class="view-switch-toolbar"><span data-i18n="viewDisplay">Display</span><div class="view-switch" data-grid-scope="myTimeScreen"><button type="button" class="view-button" data-view="list" data-i18n="listView">List</button><button type="button" class="view-button" data-view="grid" data-i18n="gridView">Grid</button></div></div>
       <section class="panel inputs-panel my-time-panel">
         <h2 data-i18n="myTimeSettings">My Time Settings</h2>
         <p class="section-note" data-i18n="myTimeQuestion">How long do you want to cook for?</p>
@@ -372,6 +394,14 @@
           <label class="inline-toggle setting-toggle my-time-toggle compact-masteries-toggle">
             <input id="myTimeUseMasteriesToggle" type="checkbox" checked>
             <span data-i18n="useRegisteredMasteries">Use my registered masteries</span>
+          </label>
+          <label class="inline-toggle setting-toggle my-time-toggle compact-masteries-toggle">
+            <input id="myTimeFancyToggle" class="fancy-boost-toggle" type="checkbox">
+            <span data-i18n="applyFancyBoost">Apply Fancy (+20% XP &amp; portions)</span>
+          </label>
+          <label class="inline-toggle setting-toggle my-time-toggle compact-masteries-toggle">
+            <input id="myTimeRecommendVeryLongToggle" class="recommend-very-long-toggle" type="checkbox">
+            <span data-i18n="recommendVeryLong">Recommend very long dishes (over 48h)?</span>
           </label>
         </div>
         <p id="myTimeWindowSummary" class="hint my-time-window-summary"></p>
@@ -434,6 +464,7 @@
           </div>
         </div>
       </header>
+      <div class="view-switch-toolbar"><span data-i18n="viewDisplay">Display</span><div class="view-switch" data-grid-scope="fullDishDexScreen"><button type="button" class="view-button" data-view="list" data-i18n="listView">List</button><button type="button" class="view-button" data-view="grid" data-i18n="gridView">Grid</button></div></div>
       <section class="panel">
         <h2 data-i18n="sortFullDishDex">Sort Full DishDex</h2>
         <div class="sort-grid full-dishdex-options">
@@ -444,6 +475,14 @@
           <label class="full-mastery-toggle" for="fullUseMasteriesToggle">
             <input id="fullUseMasteriesToggle" type="checkbox" checked>
             <span data-i18n="useRegisteredMasteries">Use my registered masteries</span>
+          </label>
+          <label class="full-mastery-toggle">
+            <input id="fullFancyToggle" class="fancy-boost-toggle" type="checkbox">
+            <span data-i18n="applyFancyBoost">Apply Fancy (+20% XP &amp; portions)</span>
+          </label>
+          <label>
+            <span data-i18n="filterCategory">Category filter</span>
+            <select id="fullCategoryFilter"></select>
           </label>
         </div>
       </section>
@@ -541,6 +580,10 @@
           <span data-i18n="coopSearch">Search co-op</span>
           <input id="coopSearch" type="search" autocomplete="off" placeholder="Search co-op...">
         </label>
+        <div class="coop-filter-toolbar">
+          <label class="inline-toggle setting-toggle"><input id="coopTeamEligibleOnly" type="checkbox"><span data-i18n="coopEligibleOnly">Only co-ops my team can cook</span></label>
+          <label><span data-i18n="coopSortLabel">Sort co-ops</span><select id="coopSortSelect"><option value="number" data-i18n="coopSortNumber">Co-op number</option><option value="maxLevel" data-i18n="coopSortMaxLevel">Highest required dish level</option><option value="goldXpMin" data-i18n="coopSortGoldXpMin">Gold XP/min</option></select></label>
+        </div>
         <div class="table-wrap coop-list-scroll">
           <table class="coop-table">
             <thead>
@@ -667,6 +710,7 @@
             <select id="masterySortSelect">
               <option value="level-asc" data-i18n="sortLevelAsc">Level: low to high</option>
               <option value="level-desc" data-i18n="sortLevelDesc">Level: high to low</option>
+              <option value="game-order" data-i18n="gameOrder">Game cookbook order (partially verified)</option>
             </select>
           </label>
 
@@ -876,6 +920,6 @@
 
   </main>
 
-  <script src="script.js?v=20260823-dishcalculator-v6-xpboost-levelinput" defer></script>
+  <script src="script.js?v=20261113-dishdex-community-update-1" defer></script>
 </body>
 </html>

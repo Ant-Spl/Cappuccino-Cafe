@@ -301,4 +301,40 @@
   <text id="waiters" name="Waiters" />
   <text id="instantCookings" name="Instant cookings" />
   <text id="masteryCompletionProgress" name="Mastery-Level progress:" />
+  <text id="applyFancyBoost" name="Fancy toepassen (+20% XP en porties)" />
+  <text id="recommendVeryLong" name="Zeer lange gerechten (meer dan 48 uur) aanbevelen?" />
+  <text id="filterCategory" name="Filter op categorie" />
+  <text id="allCategories" name="Alle categorieën" />
+  <text id="viewDisplay" name="Weergave" />
+  <text id="listView" name="Lijst" />
+  <text id="gridView" name="Raster" />
+  <text id="gameOrder" name="Volgorde in het spelkookboek (deels gecontroleerd)" />
+  <text id="coopEligibleOnly" name="Alleen co-ops die mijn team kan koken" />
+  <text id="coopSortLabel" name="Co-ops sorteren" />
+  <text id="coopSortNumber" name="Co-opnummer" />
+  <text id="coopSortMaxLevel" name="Hoogste vereiste gerechtniveau" />
+  <text id="coopSortGoldXpMin" name="Goud-XP/min" />
+  <text id="myDexCoopTitle" name="Beste co-ops om te levelen" />
+  <text id="coopGoldOnlyNote" name="Gouden belonings-XP ÷ gouden deadline; kook-XP telt niet mee." />
+  <text id="coopScopeLabel" name="Teammogelijkheden" />
+  <text id="coopCanCookAll" name="Team kan alle benodigde gerechten koken" />
+  <text id="coopCanCookSome" name="Team kan minstens één gerecht koken" />
+  <text id="highestRequiredLevel" name="Hoogste vereiste niveau" />
+  <text id="goldXpMin" name="Goud-XP/min" />
+  <text id="noEligibleCoops" name="Geen geschikte co-ops voor dit team." />
+  <text id="teamEstimatedXpMin" name="Geschatte team-XP/min" />
+  <text id="personalEstimatedXpMin" name="Geschatte kok-XP/min" />
+  <text id="coopEstimateDisclaimer" name="Schattingen zijn gebaseerd op toegewezen kooktijd en verwachte medaille; werkelijke voortgang kan afwijken." />
+  <text id="playCafe" name="Speel Cappuccino Café" />
+  <text id="category0" name="Dessert" />
+  <text id="category1" name="Hoofdgerecht" />
+  <text id="category2" name="Soep" />
+  <text id="category3" name="Salade" />
+  <text id="category4" name="Vegetarisch" />
+  <text id="category5" name="Snack" />
+  <text id="fullTagOver48h" name="Zeer lang (48 uur+)" />
+  <text id="bestOver48h" name="Beste boven 48 uur" />
+  <text id="over48hWord" name="langer dan 48 uur" />
+  <text id="over48hPlan" name="Plan voor 48 uur+" />
+  <text id="over48hNote" name="Oorspronkelijke bereidingstijd langer dan 48 uur." />
 </dishdex>

@@ -301,4 +301,40 @@
   <text id="waiters" name="Číšníci" />
   <text id="instantCookings" name="Okamžitá vaření" />
   <text id="masteryCompletionProgress" name="hvězdičkový level progress:" />
+  <text id="applyFancyBoost" name="Použít Fancy (+20 % ZK a porcí)" />
+  <text id="recommendVeryLong" name="Doporučovat velmi dlouhá jídla (nad 48 h)?" />
+  <text id="filterCategory" name="Filtrovat podle kategorie" />
+  <text id="allCategories" name="Všechny kategorie" />
+  <text id="viewDisplay" name="Zobrazení" />
+  <text id="listView" name="Seznam" />
+  <text id="gridView" name="Mřížka" />
+  <text id="gameOrder" name="Pořadí v herní kuchařce (částečně ověřeno)" />
+  <text id="coopEligibleOnly" name="Jen kooperace, které tým zvládne uvařit" />
+  <text id="coopSortLabel" name="Řadit kooperace" />
+  <text id="coopSortNumber" name="Číslo kooperace" />
+  <text id="coopSortMaxLevel" name="Nejvyšší požadovaná úroveň jídla" />
+  <text id="coopSortGoldXpMin" name="ZK/min za zlato" />
+  <text id="myDexCoopTitle" name="Nejlepší kooperace pro postup" />
+  <text id="coopGoldOnlyNote" name="ZK ze zlaté odměny ÷ zlatý limit; bez ZK za vaření." />
+  <text id="coopScopeLabel" name="Možnosti týmu" />
+  <text id="coopCanCookAll" name="Tým zvládne všechna požadovaná jídla" />
+  <text id="coopCanCookSome" name="Tým zvládne alespoň jedno jídlo" />
+  <text id="highestRequiredLevel" name="Nejvyšší požadovaná úroveň" />
+  <text id="goldXpMin" name="ZK/min za zlato" />
+  <text id="noEligibleCoops" name="Pro tento tým nejsou vhodné kooperace." />
+  <text id="teamEstimatedXpMin" name="Odhad ZK/min týmu" />
+  <text id="personalEstimatedXpMin" name="Odhad ZK/min kuchaře" />
+  <text id="coopEstimateDisclaimer" name="Odhady vycházejí z přidělené doby vaření a předpokládané medaile; skutečný postup se může lišit." />
+  <text id="playCafe" name="Hrát Cappuccino Café" />
+  <text id="category0" name="Dezert" />
+  <text id="category1" name="Hlavní chod" />
+  <text id="category2" name="Polévka" />
+  <text id="category3" name="Salát" />
+  <text id="category4" name="Vegetariánské" />
+  <text id="category5" name="Svačina" />
+  <text id="fullTagOver48h" name="Velmi dlouhé (48 h+)" />
+  <text id="bestOver48h" name="Nejlepší nad 48 h" />
+  <text id="over48hWord" name="nad 48 h" />
+  <text id="over48hPlan" name="Plán 48 h+" />
+  <text id="over48hNote" name="Původní doba vaření přesahuje 48 hodin." />
 </dishdex>

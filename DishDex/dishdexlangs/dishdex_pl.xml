@@ -301,4 +301,40 @@
   <text id="waiters" name="Waiters" />
   <text id="instantCookings" name="Instant cookings" />
   <text id="masteryCompletionProgress" name="Poziom gwiazdek progress:" />
+  <text id="applyFancyBoost" name="Zastosuj Fancy (+20% PD i porcji)" />
+  <text id="recommendVeryLong" name="Polecać bardzo długie potrawy (ponad 48 godz.)?" />
+  <text id="filterCategory" name="Filtruj według kategorii" />
+  <text id="allCategories" name="Wszystkie kategorie" />
+  <text id="viewDisplay" name="Widok" />
+  <text id="listView" name="Lista" />
+  <text id="gridView" name="Siatka" />
+  <text id="gameOrder" name="Kolejność w książce kucharskiej gry (częściowo sprawdzona)" />
+  <text id="coopEligibleOnly" name="Tylko kooperacje możliwe dla mojej drużyny" />
+  <text id="coopSortLabel" name="Sortuj kooperacje" />
+  <text id="coopSortNumber" name="Numer kooperacji" />
+  <text id="coopSortMaxLevel" name="Najwyższy wymagany poziom potrawy" />
+  <text id="coopSortGoldXpMin" name="PD/min za złoto" />
+  <text id="myDexCoopTitle" name="Najlepsze kooperacje do zdobywania poziomów" />
+  <text id="coopGoldOnlyNote" name="PD z nagrody za złoto ÷ czas na złoto; bez PD za gotowanie." />
+  <text id="coopScopeLabel" name="Możliwości drużyny" />
+  <text id="coopCanCookAll" name="Drużyna może ugotować wszystkie potrawy" />
+  <text id="coopCanCookSome" name="Drużyna może ugotować co najmniej jedną potrawę" />
+  <text id="highestRequiredLevel" name="Najwyższy wymagany poziom" />
+  <text id="goldXpMin" name="PD/min za złoto" />
+  <text id="noEligibleCoops" name="Brak pasujących kooperacji dla tej drużyny." />
+  <text id="teamEstimatedXpMin" name="Szacowane PD/min drużyny" />
+  <text id="personalEstimatedXpMin" name="Szacowane PD/min kucharza" />
+  <text id="coopEstimateDisclaimer" name="Szacunki opierają się na przydzielonym czasie gotowania i przewidywanym medalu; rzeczywisty postęp może być inny." />
+  <text id="playCafe" name="Zagraj w Cappuccino Café" />
+  <text id="category0" name="Deser" />
+  <text id="category1" name="Danie główne" />
+  <text id="category2" name="Zupa" />
+  <text id="category3" name="Sałatka" />
+  <text id="category4" name="Wegetariańskie" />
+  <text id="category5" name="Przekąska" />
+  <text id="fullTagOver48h" name="Bardzo długie (48 godz.+)" />
+  <text id="bestOver48h" name="Najlepsze ponad 48 godz." />
+  <text id="over48hWord" name="ponad 48 godz." />
+  <text id="over48hPlan" name="Plan 48 godz.+" />
+  <text id="over48hNote" name="Pierwotny czas gotowania przekracza 48 godzin." />
 </dishdex>

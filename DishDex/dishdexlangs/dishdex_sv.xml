@@ -301,4 +301,40 @@
   <text id="waiters" name="Waiters" />
   <text id="instantCookings" name="Instant cookings" />
   <text id="masteryCompletionProgress" name="Bemästringsnivå progress:" />
+  <text id="applyFancyBoost" name="Använd Fancy (+20 % XP och portioner)" />
+  <text id="recommendVeryLong" name="Rekommendera mycket långa rätter (över 48 timmar)?" />
+  <text id="filterCategory" name="Filtrera efter kategori" />
+  <text id="allCategories" name="Alla kategorier" />
+  <text id="viewDisplay" name="Visning" />
+  <text id="listView" name="Lista" />
+  <text id="gridView" name="Rutnät" />
+  <text id="gameOrder" name="Ordning i spelets kokbok (delvis verifierad)" />
+  <text id="coopEligibleOnly" name="Bara co-ops som mitt lag kan laga" />
+  <text id="coopSortLabel" name="Sortera co-ops" />
+  <text id="coopSortNumber" name="Co-op-nummer" />
+  <text id="coopSortMaxLevel" name="Högsta nivå som krävs för en rätt" />
+  <text id="coopSortGoldXpMin" name="Guld-XP/min" />
+  <text id="myDexCoopTitle" name="Bästa co-ops för att gå upp i nivå" />
+  <text id="coopGoldOnlyNote" name="XP från guldbelöningen ÷ guldgränsen; matlagnings-XP ingår inte." />
+  <text id="coopScopeLabel" name="Lagets möjligheter" />
+  <text id="coopCanCookAll" name="Laget kan laga alla rätter" />
+  <text id="coopCanCookSome" name="Laget kan laga minst en rätt" />
+  <text id="highestRequiredLevel" name="Högsta nivå som krävs" />
+  <text id="goldXpMin" name="Guld-XP/min" />
+  <text id="noEligibleCoops" name="Inga passande co-ops för detta lag." />
+  <text id="teamEstimatedXpMin" name="Uppskattad lag-XP/min" />
+  <text id="personalEstimatedXpMin" name="Uppskattad kock-XP/min" />
+  <text id="coopEstimateDisclaimer" name="Uppskattningar baseras på tilldelad tillagningstid och förväntad medalj; verkliga framsteg kan skilja sig." />
+  <text id="playCafe" name="Spela Cappuccino Café" />
+  <text id="category0" name="Dessert" />
+  <text id="category1" name="Huvudrätt" />
+  <text id="category2" name="Soppa" />
+  <text id="category3" name="Sallad" />
+  <text id="category4" name="Vegetariskt" />
+  <text id="category5" name="Mellanmål" />
+  <text id="fullTagOver48h" name="Mycket lång (48 timmar+)" />
+  <text id="bestOver48h" name="Bäst över 48 timmar" />
+  <text id="over48hWord" name="över 48 timmar" />
+  <text id="over48hPlan" name="48-timmarsplan" />
+  <text id="over48hNote" name="Ursprunglig tillagningstid över 48 timmar." />
 </dishdex>

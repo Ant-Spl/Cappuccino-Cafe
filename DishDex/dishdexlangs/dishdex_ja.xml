@@ -301,4 +301,40 @@
   <text id="waiters" name="Waiters" />
   <text id="instantCookings" name="Instant cookings" />
   <text id="masteryCompletionProgress" name="マスタリーレベル progress:" />
+  <text id="applyFancyBoost" name="Fancyを適用（XP・提供数+20%）" />
+  <text id="recommendVeryLong" name="非常に時間のかかる料理（48時間超）をおすすめに含めますか？" />
+  <text id="filterCategory" name="カテゴリで絞り込む" />
+  <text id="allCategories" name="すべてのカテゴリ" />
+  <text id="viewDisplay" name="表示" />
+  <text id="listView" name="リスト" />
+  <text id="gridView" name="グリッド" />
+  <text id="gameOrder" name="ゲームのレシピ帳順（部分的に確認済み）" />
+  <text id="coopEligibleOnly" name="チームで調理できる協力ミッションのみ" />
+  <text id="coopSortLabel" name="協力ミッションを並べ替え" />
+  <text id="coopSortNumber" name="ミッション番号" />
+  <text id="coopSortMaxLevel" name="必要な料理レベルの最大値" />
+  <text id="coopSortGoldXpMin" name="ゴールドXP/分" />
+  <text id="myDexCoopTitle" name="レベル上げに最適な協力ミッション" />
+  <text id="coopGoldOnlyNote" name="ゴールド報酬XP÷ゴールド期限。調理XPは含みません。" />
+  <text id="coopScopeLabel" name="チームの対応範囲" />
+  <text id="coopCanCookAll" name="すべての必要料理を調理できる" />
+  <text id="coopCanCookSome" name="必要料理を1品以上調理できる" />
+  <text id="highestRequiredLevel" name="必要レベルの最大値" />
+  <text id="goldXpMin" name="ゴールドXP/分" />
+  <text id="noEligibleCoops" name="このチームに対応するミッションはありません。" />
+  <text id="teamEstimatedXpMin" name="チームの推定XP/分" />
+  <text id="personalEstimatedXpMin" name="シェフの推定XP/分" />
+  <text id="coopEstimateDisclaimer" name="割り当てた調理時間と予想メダルに基づく推定値です。実際の進捗は異なる場合があります。" />
+  <text id="playCafe" name="Cappuccino Caféをプレイ" />
+  <text id="category0" name="デザート" />
+  <text id="category1" name="メイン料理" />
+  <text id="category2" name="スープ" />
+  <text id="category3" name="サラダ" />
+  <text id="category4" name="ベジタリアン" />
+  <text id="category5" name="軽食" />
+  <text id="fullTagOver48h" name="非常に長い（48時間超）" />
+  <text id="bestOver48h" name="48時間超のおすすめ" />
+  <text id="over48hWord" name="48時間超" />
+  <text id="over48hPlan" name="48時間超のプラン" />
+  <text id="over48hNote" name="元の調理時間が48時間を超える料理。" />
 </dishdex>
