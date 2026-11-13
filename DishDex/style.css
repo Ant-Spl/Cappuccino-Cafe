@@ -3872,3 +3872,31 @@ body.dark-theme .coop-suggestion-card .plan-button { color: #063d1b; }
 
 /* A missing picture should still be legible over its light placeholder. */
 body.dark-theme #fullDishDexScreen .dish-grid-card .missing-img { color: #3b2618; }
+
+
+/* Community revision 4: compact player-facing copy and optional MyDex sections. */
+.cafe-shortcut-icon { width: 23px; height: 23px; object-fit: contain; flex: 0 0 auto; }
+.mydex-extra-heading { display: flex; justify-content: space-between; align-items: center; gap: 12px; flex-wrap: wrap; margin-bottom: 10px; }
+.mydex-extra-heading h2 { margin: 0; }
+.mydex-extra-toggle { border: 1px solid var(--border); background: rgba(145, 107, 65, .13); border-radius: 10px; padding: 7px 14px; color: var(--text); font: inherit; font-size: .88rem; font-weight: 800; cursor: pointer; }
+.mydex-extra-toggle:hover { background: rgba(145, 107, 65, .23); }
+.mydex-extra-toggle:focus-visible { outline: 3px solid #d9b572; outline-offset: 2px; }
+.mydex-extra-content[hidden] { display: none !important; }
+.mydex-extra-content > .section-note { margin-top: 0; }
+.assignment-cook-meta { display: flex; flex-wrap: wrap; gap: 4px 6px; align-items: center; min-width: 0; }
+.assignment-card-heading .assignment-cook-meta > span { white-space: normal; }
+.assignment-card-heading .assignment-meta-divider { display: inline; opacity: .72; }
+.assignment-card-heading .assignment-inline-xp-rate { display: inline-flex; align-items: center; gap: 1px; font-size: .9rem; font-weight: 900; color: var(--text); }
+.assignment-xp-icon { width: 19px; height: 19px; object-fit: contain; vertical-align: middle; }
+body.dark-theme .assignment-card-heading .assignment-inline-xp-rate { color: #fff4e8; }
+
+/* Full DishDex list only: reuse the muted grid palette in dark mode. Light mode stays unchanged. */
+body.dark-theme #fullDishDexScreen .full-table tbody tr.category-dessert td:not(:first-child) { background: #48313d; }
+body.dark-theme #fullDishDexScreen .full-table tbody tr.category-main td:not(:first-child) { background: #4a382a; }
+body.dark-theme #fullDishDexScreen .full-table tbody tr.category-soup td:not(:first-child) { background: #48372f; }
+body.dark-theme #fullDishDexScreen .full-table tbody tr.category-salad td:not(:first-child) { background: #2f4738; }
+body.dark-theme #fullDishDexScreen .full-table tbody tr.category-vegetarian td:not(:first-child) { background: #35503a; }
+body.dark-theme #fullDishDexScreen .full-table tbody tr.category-snack td:not(:first-child) { background: #4b3335; }
+body.dark-theme #fullDishDexScreen .full-table tbody tr[class*="category-"] td:not(:first-child) { color: #fff4e8; border-color: rgba(233, 194, 151, .27); }
+body.dark-theme #fullDishDexScreen .full-table tbody tr[class*="category-"] td:not(:first-child) .dish-type-tag,
+body.dark-theme #fullDishDexScreen .full-table tbody tr[class*="category-"] td:not(:first-child) .metric-stack small { color: #ead0b6; }

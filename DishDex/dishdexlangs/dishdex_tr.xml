@@ -4,7 +4,9 @@
   <text id="activeNote" name="En iyi XP/min: 10 dakika veya daha az." />
   <text id="activePlan" name="Aktif" />
   <text id="activeWord" name="aktif" />
+  <text id="allCategories" name="Tüm kategoriler" />
   <text id="alreadyMasteredBest" name="✓ En iyi yemek — Ustalık-Derecesi!" />
+  <text id="applyFancyBoost" name="Fancy uygulansın mı?" />
   <text id="assignedDishes" name="Atanan yemekler" />
   <text id="assignmentComingSoon" name="Atama: Sonraki aşama." />
   <text id="assignmentCopied" name="Atama kopyalandı!" />
@@ -23,6 +25,7 @@
   <text id="bestFast" name="En iyi hızlı" />
   <text id="bestLong" name="En iyi uzun" />
   <text id="bestMedium" name="En iyi orta" />
+  <text id="bestOver48h" name="48 saatin üstünde en iyi" />
   <text id="bestPortionsTitle" name="En iyi yemekler (Porsiyonlar)" />
   <text id="bestProfitTitle" name="En iyi Yemekler (Kâr)" />
   <text id="bestShort" name="En iyi kısa" />
@@ -40,6 +43,12 @@
   <text id="cannotCookDish" name="Pişirilemez" />
   <text id="cashReward" name="Cash" />
   <text id="category" name="Kategori" />
+  <text id="category0" name="Tatlı" />
+  <text id="category1" name="Ana yemek" />
+  <text id="category2" name="Çorba" />
+  <text id="category3" name="Salata" />
+  <text id="category4" name="Vejetaryen" />
+  <text id="category5" name="Atıştırmalık" />
   <text id="chef" name="Şef" />
   <text id="chefCookTime" name="Cook süre" />
   <text id="chefFallback" name="Şef" />
@@ -49,10 +58,17 @@
   <text id="clearChef" name="Clear chef" />
   <text id="clearCookTime" name="Clear cook süre" />
   <text id="clearMargin" name="Clear margin" />
+  <text id="compactView" name="Kompakt görünüm" />
   <text id="completeDishList" name="Tam yemek liste" />
   <text id="confirmDelete" name="Sil local data: Profil, Ustalıklar, Co-Op Takım." />
   <text id="confirmDeleteTeam" name="Sil Takım?" />
   <text id="contributionWarning" name="Şef: ≥ 1 gerekli yemek = rewards." />
+  <text id="cookableDishes" name="Pişirebildiğin yemekler" />
+  <text id="coopCanCookAll" name="Ekip tüm gerekli yemekleri pişirebilir" />
+  <text id="coopCanCookSome" name="Ekip en az bir gerekli yemeği pişirebilir" />
+  <text id="coopEligibleOnly" name="Yalnızca ekibimin pişirebileceği kooperatifler" />
+  <text id="coopEstimateDisclaimer" name="Tahminler atanan pişirme süresine ve beklenen madalyaya dayanır; gerçek ilerleme değişebilir." />
+  <text id="coopGoldOnlyNote" name="Altın ödül XP'si ÷ altın süresi; pişirme XP'si hariç." />
   <text id="coopListNote" name="Co-Op: Göz at + plan." />
   <text id="coopListTitle" name="Co-Op Planner" />
   <text id="coopNumber" name="Co-Op" />
@@ -60,14 +76,21 @@
   <text id="coopPlannerEyebrow" name="Takım cooking" />
   <text id="coopPlannerTitle" name="Co-Op Planner" />
   <text id="coopRequirements" name="Gerekli yemekler" />
+  <text id="coopScopeLabel" name="Ekip kapasitesi" />
   <text id="coopSearch" name="Ara co-op" />
   <text id="coopSearchPlaceholder" name="Ara co-op..." />
   <text id="coopShortDescription" name="Açıklama" />
+  <text id="coopSortGoldXpMin" name="Altın XP/dk" />
+  <text id="coopSortLabel" name="Kooperatifleri sırala" />
+  <text id="coopSortMaxLevel" name="Gereken en yüksek yemek seviyesi" />
+  <text id="coopSortNumber" name="Kooperatif numarası" />
   <text id="coopTeamNote" name="Max 5 Şef; save up to 10 Takım." />
   <text id="coopTeamTitle" name="Co-Op Takım" />
+  <text id="coopsToLevelUp" name="Seviye atlamak için gereken altın co-op sayısı" />
   <text id="copyAssignment" name="Kopyala atama" />
   <text id="cost" name="Maliyet" />
   <text id="couldNotLoadData" name="Café verisi yüklenemedi." />
+  <text id="counters" name="Counters" />
   <text id="currentMastery" name="Mevcut Ustalık-Derecesi" />
   <text id="darkTheme" name="Koyu tema" />
   <text id="dataDeleted" name="Profil, Ustalıklar, Co-Op Takım: sil." />
@@ -84,7 +107,6 @@
   <text id="dishesNeeded" name="Yemekler Needed" />
   <text id="dishesReady" name="yemekler ready" />
   <text id="dishesRequired" name="yemekler gerekli" />
-  <text id="masteryTotalForGold" name="Total: {0} yemekler → Altın" />
   <text id="downloadData" name="İndir data" />
   <text id="duration" name="Süre" />
   <text id="editGoldMasteries" name="Altın Ustalıklar: edit" />
@@ -92,34 +114,46 @@
   <text id="effects" name="Effects" />
   <text id="estimatedWithTeam" name="Takım: estimate" />
   <text id="exclude" name="Hariç tut" />
+  <text id="fashionDexDescription" name="Open Cappucciyok Fashion FashionDex." />
   <text id="fastNote" name="En iyi XP/min: 11 dakika – 1 saat." />
   <text id="fastPlan" name="Hızlı" />
   <text id="fastWord" name="hızlı" />
+  <text id="filterCategory" name="Kategoriye göre filtrele" />
+  <text id="fridges" name="Fridges" />
   <text id="fullDishDexDescription" name="DishDex: Tam information." />
   <text id="fullDishDexTitle" name="Full DishDex" />
   <text id="fullTagChristmas" name="Yokel" />
   <text id="fullTagEaster" name="Paskalya" />
+  <text id="fullTagOver48h" name="Çok uzun (48 saati aşan)" />
   <text id="fullTagSpecial" name="Özel" />
+  <text id="gameOrder" name="Oyunun yemek kitabı sırası (kısmen doğrulandı)" />
   <text id="gold" name="Altın" />
   <text id="goldDeadline" name="Altın deadline" />
   <text id="goldMasteries" name="Altın masteries" />
   <text id="goldMasteriesNote" name="Altın Ustalık-Derecesi = shorter cooking time." />
   <text id="goldReward" name="Altın" />
+  <text id="goldXpMin" name="Altın XP/dk" />
+  <text id="gridView" name="Izgara" />
+  <text id="hideSection" name="Gizle" />
+  <text id="highestRequiredLevel" name="Gereken en yüksek seviye" />
   <text id="holiday" name="Tatil" />
   <text id="holidayActive" name="Tatil: Active" />
   <text id="holidayDishes" name="Tatil yemekleri" />
-  <text id="holidayDishesNote" name="Tatil yemekleri: separate. Auto = Noel + Paskalya." />
+  <text id="holidayDishesNote" name="Bu yemeklerin ilgili bayramlarda otomatik olarak eklenmesi için Otomatik modu aç." />
   <text id="holidayInactive" name="Tatil: Inaktif" />
+  <text id="holidayMasteryCompletionProgress" name="Ustalık ilerlemesi (bayram yemekleri):" />
   <text id="holidayMode" name="Tatil yemekleri dahil edilsin mi?" />
-  <text id="includeSpecialDishes" name="Özel yemekler dahil edilsin mi?" />
   <text id="hoursShort" name="h" />
   <text id="image" name="Görsel" />
   <text id="impossibleMissingUnlock" name="İmkansız: Yemek unlock missing" />
   <text id="include" name="Dahil et" />
+  <text id="includeSpecialDishes" name="Özel yemekler dahil edilsin mi?" />
   <text id="ingredientCost" name="Malzeme maliyeti" />
   <text id="ingredientDetails" name="Malzemeler" />
+  <text id="instantCookings" name="Instant cookings" />
   <text id="languageLabel" name="🌐 Dil" />
   <text id="level" name="Seviye" />
+  <text id="listView" name="Liste" />
   <text id="loadData" name="Yükle data" />
   <text id="loadTeam" name="Yükle team" />
   <text id="loadingXml" name="Yükleing Café XML..." />
@@ -139,9 +173,11 @@
   <text id="masteriesEyebrow" name="Yemek perks" />
   <text id="mastery" name="Ustalık-Derecesi" />
   <text id="masteryBookPage" name="Page" />
+  <text id="masteryCompletionProgress" name="Ustalık-Derecesi progress:" />
   <text id="masteryCookbook" name="Cook Book (Legacy)" />
   <text id="masteryListHorizontal" name="List (horizontal reader)" />
   <text id="masteryListVertical" name="List (vertical reader)" />
+  <text id="masteryTotalForGold" name="Total: {0} yemekler → Altın" />
   <text id="masteryView" name="View" />
   <text id="maxMembers" name="Max members" />
   <text id="maxRewardsYourLevel" name="Max rewards (seviye)" />
@@ -153,6 +189,7 @@
   <text id="metricXpMin" name="XP/min" />
   <text id="minimumDishLevel" name="Minimum yemek level" />
   <text id="minutesShort" name="min" />
+  <text id="myDexCoopTitle" name="Seviye atlamak için en iyi kooperatifler" />
   <text id="myDexDescription" name="MyDex: Seviye, XP, mevcut süre." />
   <text id="myDexHint" name="Data → Öneri." />
   <text id="myDexSettings" name="MyDex Settings" />
@@ -185,6 +222,7 @@
   <text id="noDishMatchesPlan" name="Yok yemek matches plan." />
   <text id="noDishesAvailable" name="Yok yemekler" />
   <text id="noEligibleChef" name="Yok Şef: gerekli yemekler." />
+  <text id="noEligibleCoops" name="Bu ekibe uygun kooperatif yok." />
   <text id="noGoldMasteriesSelected" name="Yok Altın Ustalıklar selected." />
   <text id="noMasteryRows" name="Yok yemekler in search." />
   <text id="noPortionRecommendations" name="Yok Öneri: Porsiyonlar." />
@@ -196,9 +234,14 @@
   <text id="noXpRecommendations" name="Yok Öneri: XP." />
   <text id="notDoable" name="Yapılamaz" />
   <text id="note" name="Yokte" />
+  <text id="over48hNote" name="Özgün pişirme süresi 48 saatten uzundur." />
+  <text id="over48hPlan" name="48+ saat planı" />
+  <text id="over48hWord" name="48 saatin üstünde" />
+  <text id="personalEstimatedXpMin" name="Tahmini şef XP/dk" />
   <text id="personalRecommendations" name="Personal recommendations" />
   <text id="plan" name="Plan" />
   <text id="planCoop" name="Planla!" />
+  <text id="playCafe" name="Cappuccino Café oyna!" />
   <text id="playerLevel" name="Player Seviye" />
   <text id="playerLevelShort" name="Player level" />
   <text id="portions" name="Porsiyonlar" />
@@ -207,15 +250,17 @@
   <text id="predictedRewards" name="Takım ödüller at predicted status" />
   <text id="predictedStatus" name="Predicted Status" />
   <text id="previousPage" name="← Önceki" />
+  <text id="profileLevelUnlocksTitle" name="Seviye {0} unlocks:" />
   <text id="profileSaved" name="Profil kaydedildi locally." />
   <text id="profileSettingsNote" name="Seviye → Mevcut ocaklar. MyDex: edit later." />
   <text id="profileSettingsTitle" name="Şef profili" />
   <text id="profit" name="Kâr" />
   <text id="profitLower" name="kâr" />
   <text id="profitMin" name="Kâr/min" />
+  <text id="recommendVeryLong" name="Çok uzun yemekler (48 saatten fazla) önerilsin mi?" />
   <text id="recommendation" name="Öneri" />
-  <text id="recommendedMasteriesNote" name="En iyi Ustalıklar based on En iyiler özeti." />
-  <text id="recommendedMasteriesTitle" name="Önerilen Ustalıklar" />
+  <text id="recommendedMasteriesNote" name="Bir sonraki ustalık seviyen için en iyi yemekler!" />
+  <text id="recommendedMasteriesTitle" name="Önerilen sonraki ustalık seviyeleri" />
   <text id="recommendedStar" name="Önerilen Yıldız" />
   <text id="regular" name="Yokrmal" />
   <text id="requirement" name="Gereksinim" />
@@ -235,6 +280,7 @@
   <text id="shortPlan" name="Kısa" />
   <text id="shortWord" name="kısa" />
   <text id="showIngredients" name="Malzemeler gösterilsin mi?" />
+  <text id="showSection" name="Göster" />
   <text id="silver" name="Gümüş" />
   <text id="silverDeadline" name="Gümüş deadline" />
   <text id="sortBy" name="Sırala" />
@@ -266,10 +312,12 @@
   <text id="targetShort" name="Hedef" />
   <text id="targetTime" name="Hedef süre" />
   <text id="teamDeleted" name="Takım deleted." />
+  <text id="teamEstimatedXpMin" name="Tahmini ekip XP/dk" />
   <text id="teamLimitReached" name="Max 10 Takım." />
   <text id="teamName" name="Takım name" />
   <text id="teamRewardsGold" name="Takım: rewards if Altın" />
   <text id="teamSaved" name="Takım kaydedildi locally." />
+  <text id="toFashionDex" name="To FashionDex" />
   <text id="totalCookTime" name="Total Cook Süre" />
   <text id="totalStoveHours" name="Total stove-saat" />
   <text id="type" name="Type" />
@@ -280,6 +328,8 @@
   <text id="veryLongNote" name="En iyi XP/min: 12 h 1 min – 23 h." />
   <text id="veryLongPlan" name="Çok uzun" />
   <text id="veryLongWord" name="çok uzun" />
+  <text id="viewDisplay" name="Görünüm" />
+  <text id="waiters" name="Waiters" />
   <text id="workload" name="İş yükü" />
   <text id="workloadEqual" name="Eşit" />
   <text id="workloadHigh" name="Yüksek" />
@@ -292,52 +342,4 @@
   <text id="xpPlansNote" name="Level-up plans: needs + availability." />
   <text id="xpPlansTitle" name="XP Needed Plans" />
   <text id="xpUpper" name="XP" />
-  <text id="toFashionDex" name="To FashionDex" />
-  <text id="fashionDexDescription" name="Open Cappucciyok Fashion FashionDex." />
-  <text id="profileLevelUnlocksTitle" name="Seviye {0} unlocks:" />
-  <text id="fridges" name="Fridges" />
-  <text id="counters" name="Counters" />
-  <text id="waiters" name="Waiters" />
-  <text id="instantCookings" name="Instant cookings" />
-  <text id="masteryCompletionProgress" name="Ustalık-Derecesi progress:" />
-  <text id="applyFancyBoost" name="Fancy uygulansın mı?" />
-  <text id="recommendVeryLong" name="Çok uzun yemekler (48 saatten fazla) önerilsin mi?" />
-  <text id="filterCategory" name="Kategoriye göre filtrele" />
-  <text id="allCategories" name="Tüm kategoriler" />
-  <text id="viewDisplay" name="Görünüm" />
-  <text id="listView" name="Liste" />
-  <text id="gridView" name="Izgara" />
-  <text id="compactView" name="Kompakt görünüm" />
-  <text id="gameOrder" name="Oyunun yemek kitabı sırası (kısmen doğrulandı)" />
-  <text id="coopEligibleOnly" name="Yalnızca ekibimin pişirebileceği kooperatifler" />
-  <text id="coopSortLabel" name="Kooperatifleri sırala" />
-  <text id="coopSortNumber" name="Kooperatif numarası" />
-  <text id="coopSortMaxLevel" name="Gereken en yüksek yemek seviyesi" />
-  <text id="coopSortGoldXpMin" name="Altın XP/dk" />
-  <text id="myDexCoopTitle" name="Seviye atlamak için en iyi kooperatifler" />
-  <text id="coopGoldOnlyNote" name="Altın ödül XP'si ÷ altın süresi; pişirme XP'si hariç." />
-  <text id="coopScopeLabel" name="Ekip kapasitesi" />
-  <text id="coopCanCookAll" name="Ekip tüm gerekli yemekleri pişirebilir" />
-  <text id="coopCanCookSome" name="Ekip en az bir gerekli yemeği pişirebilir" />
-  <text id="highestRequiredLevel" name="Gereken en yüksek seviye" />
-  <text id="goldXpMin" name="Altın XP/dk" />
-  <text id="noEligibleCoops" name="Bu ekibe uygun kooperatif yok." />
-  <text id="teamEstimatedXpMin" name="Tahmini ekip XP/dk" />
-  <text id="personalEstimatedXpMin" name="Tahmini şef XP/dk" />
-  <text id="coopEstimateDisclaimer" name="Tahminler atanan pişirme süresine ve beklenen madalyaya dayanır; gerçek ilerleme değişebilir." />
-  <text id="playCafe" name="Cappuccino Café oyna" />
-  <text id="category0" name="Tatlı" />
-  <text id="category1" name="Ana yemek" />
-  <text id="category2" name="Çorba" />
-  <text id="category3" name="Salata" />
-  <text id="category4" name="Vejetaryen" />
-  <text id="category5" name="Atıştırmalık" />
-  <text id="fullTagOver48h" name="Çok uzun (48 saati aşan)" />
-  <text id="bestOver48h" name="48 saatin üstünde en iyi" />
-  <text id="over48hWord" name="48 saatin üstünde" />
-  <text id="over48hPlan" name="48+ saat planı" />
-  <text id="over48hNote" name="Özgün pişirme süresi 48 saatten uzundur." />
-  <text id="holidayMasteryCompletionProgress" name="Ustalık ilerlemesi (bayram yemekleri):" />
-  <text id="coopsToLevelUp" name="Seviye atlamak için gereken altın co-op sayısı" />
-  <text id="cookableDishes" name="Pişirebildiğin yemekler" />
 </dishdex>

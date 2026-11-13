@@ -4,7 +4,9 @@
   <text id="activeNote" name="Лучшее XP/min: 10 мин или меньше." />
   <text id="activePlan" name="Активно" />
   <text id="activeWord" name="активно" />
+  <text id="allCategories" name="Все категории" />
   <text id="alreadyMasteredBest" name="✓ Лучшее блюдо — Уровень мастерства!" />
+  <text id="applyFancyBoost" name="Применить Fancy?" />
   <text id="assignedDishes" name="Назначенные блюда" />
   <text id="assignmentComingSoon" name="Назначение: Далее этап." />
   <text id="assignmentCopied" name="Назначение скопировано!" />
@@ -23,6 +25,7 @@
   <text id="bestFast" name="Лучшее быстро" />
   <text id="bestLong" name="Лучшее долго" />
   <text id="bestMedium" name="Лучшее средне" />
+  <text id="bestOver48h" name="Лучшие свыше 48 ч" />
   <text id="bestPortionsTitle" name="Лучшее блюда (Порции)" />
   <text id="bestProfitTitle" name="Лучшее Блюда (Прибыль)" />
   <text id="bestShort" name="Лучшее коротко" />
@@ -40,6 +43,12 @@
   <text id="cannotCookDish" name="Нельзя приготовить" />
   <text id="cashReward" name="Cash" />
   <text id="category" name="Категория" />
+  <text id="category0" name="Десерт" />
+  <text id="category1" name="Основное блюдо" />
+  <text id="category2" name="Суп" />
+  <text id="category3" name="Салат" />
+  <text id="category4" name="Вегетарианское" />
+  <text id="category5" name="Закуска" />
   <text id="chef" name="Шеф" />
   <text id="chefCookTime" name="Cook время" />
   <text id="chefFallback" name="Шеф" />
@@ -49,10 +58,17 @@
   <text id="clearChef" name="Clear chef" />
   <text id="clearCookTime" name="Clear cook время" />
   <text id="clearMargin" name="Clear margin" />
+  <text id="compactView" name="Компактный вид" />
   <text id="completeDishList" name="Полный блюдо список" />
   <text id="confirmDelete" name="Удалить local data: Профиль, Мастерства, Co-Op Команда." />
   <text id="confirmDeleteTeam" name="Удалить Команда?" />
   <text id="contributionWarning" name="Шеф: ≥ 1 требуемые блюдо = rewards." />
+  <text id="cookableDishes" name="Блюда, которые вы можете приготовить" />
+  <text id="coopCanCookAll" name="Команда может приготовить все блюда" />
+  <text id="coopCanCookSome" name="Команда может приготовить хотя бы одно блюдо" />
+  <text id="coopEligibleOnly" name="Только кооперативы, доступные моей команде" />
+  <text id="coopEstimateDisclaimer" name="Расчёт основан на распределённом времени готовки и ожидаемой медали; реальный прогресс может отличаться." />
+  <text id="coopGoldOnlyNote" name="Опыт за золотую награду ÷ срок золота; опыт за готовку не учитывается." />
   <text id="coopListNote" name="Co-Op: Просмотр + план." />
   <text id="coopListTitle" name="Co-Op Планner" />
   <text id="coopNumber" name="Co-Op" />
@@ -60,14 +76,21 @@
   <text id="coopPlannerEyebrow" name="Команда cooking" />
   <text id="coopPlannerTitle" name="Co-Op Планner" />
   <text id="coopRequirements" name="Требуемые блюда" />
+  <text id="coopScopeLabel" name="Возможности команды" />
   <text id="coopSearch" name="Поиск co-op" />
   <text id="coopSearchPlaceholder" name="Поиск co-op..." />
   <text id="coopShortDescription" name="Описание" />
+  <text id="coopSortGoldXpMin" name="Опыт/мин за золото" />
+  <text id="coopSortLabel" name="Сортировка кооперативов" />
+  <text id="coopSortMaxLevel" name="Максимальный необходимый уровень блюда" />
+  <text id="coopSortNumber" name="Номер кооператива" />
   <text id="coopTeamNote" name="Max 5 Шеф; save up to 10 Команда." />
   <text id="coopTeamTitle" name="Co-Op Команда" />
+  <text id="coopsToLevelUp" name="Совместных заданий на золото до следующего уровня" />
   <text id="copyAssignment" name="Копировать назначение" />
   <text id="cost" name="Стоимость" />
   <text id="couldNotLoadData" name="Не удалось загрузить данные Café." />
+  <text id="counters" name="Counters" />
   <text id="currentMastery" name="Текущее Уровень мастерства" />
   <text id="darkTheme" name="Тёмная тема" />
   <text id="dataDeleted" name="Профиль, Мастерства, Co-Op Команда: удалить." />
@@ -84,7 +107,6 @@
   <text id="dishesNeeded" name="Блюда Needed" />
   <text id="dishesReady" name="блюда ready" />
   <text id="dishesRequired" name="блюда требуемые" />
-  <text id="masteryTotalForGold" name="Total: {0} блюда → Золото" />
   <text id="downloadData" name="Скачать data" />
   <text id="duration" name="Длительность" />
   <text id="editGoldMasteries" name="Золото Мастерства: edit" />
@@ -92,34 +114,46 @@
   <text id="effects" name="Effects" />
   <text id="estimatedWithTeam" name="Команда: estimate" />
   <text id="exclude" name="Исключить" />
+  <text id="fashionDexDescription" name="Open Cappucciнет Fashion FashionDex." />
   <text id="fastNote" name="Лучшее XP/min: 11 мин – 1 ч." />
   <text id="fastPlan" name="Быстро" />
   <text id="fastWord" name="быстро" />
+  <text id="filterCategory" name="Фильтр по категории" />
+  <text id="fridges" name="Fridges" />
   <text id="fullDishDexDescription" name="DishDex: Полный information." />
   <text id="fullDishDexTitle" name="Full DishDex" />
   <text id="fullTagChristmas" name="Рождество" />
   <text id="fullTagEaster" name="Пасха" />
+  <text id="fullTagOver48h" name="Очень долго (48 ч+)" />
   <text id="fullTagSpecial" name="Особое" />
+  <text id="gameOrder" name="Порядок из книги рецептов игры (проверен частично)" />
   <text id="gold" name="Золото" />
   <text id="goldDeadline" name="Золото deadline" />
   <text id="goldMasteries" name="Золото masteries" />
   <text id="goldMasteriesNote" name="Золото Уровень мастерства = shorter cooking time." />
   <text id="goldReward" name="Золото" />
+  <text id="goldXpMin" name="Опыт/мин за золото" />
+  <text id="gridView" name="Сетка" />
+  <text id="hideSection" name="Скрыть" />
+  <text id="highestRequiredLevel" name="Максимальный требуемый уровень" />
   <text id="holiday" name="Праздничное" />
   <text id="holidayActive" name="Праздничное: Active" />
   <text id="holidayDishes" name="Праздничные блюда" />
-  <text id="holidayDishesNote" name="Праздничные блюда: separate. Auto = Рождество + Пасха." />
+  <text id="holidayDishesNote" name="Включите автоматический режим, чтобы эти блюда появлялись в соответствующие праздники." />
   <text id="holidayInactive" name="Праздничное: Inактивно" />
+  <text id="holidayMasteryCompletionProgress" name="Прогресс мастерства (праздничные блюда):" />
   <text id="holidayMode" name="Включать праздничные блюда?" />
-  <text id="includeSpecialDishes" name="Включать особые блюда?" />
   <text id="hoursShort" name="h" />
   <text id="image" name="Изображение" />
   <text id="impossibleMissingUnlock" name="Невозможно: Блюдо unlock missing" />
   <text id="include" name="Включить" />
+  <text id="includeSpecialDishes" name="Включать особые блюда?" />
   <text id="ingredientCost" name="Стоимость ингредиентов" />
   <text id="ingredientDetails" name="Ингредиенты" />
+  <text id="instantCookings" name="Instant cookings" />
   <text id="languageLabel" name="🌐 Язык" />
   <text id="level" name="Уровень" />
+  <text id="listView" name="Список" />
   <text id="loadData" name="Загрузить data" />
   <text id="loadTeam" name="Загрузить team" />
   <text id="loadingXml" name="Загрузитьing Café XML..." />
@@ -139,9 +173,11 @@
   <text id="masteriesEyebrow" name="Блюдо perks" />
   <text id="mastery" name="Уровень мастерства" />
   <text id="masteryBookPage" name="Page" />
+  <text id="masteryCompletionProgress" name="Уровень мастерства progress:" />
   <text id="masteryCookbook" name="Cook Book (Legacy)" />
   <text id="masteryListHorizontal" name="List (horizontal reader)" />
   <text id="masteryListVertical" name="List (vertical reader)" />
+  <text id="masteryTotalForGold" name="Total: {0} блюда → Золото" />
   <text id="masteryView" name="View" />
   <text id="maxMembers" name="Max members" />
   <text id="maxRewardsYourLevel" name="Max rewards (уровень)" />
@@ -153,6 +189,7 @@
   <text id="metricXpMin" name="XP/min" />
   <text id="minimumDishLevel" name="Минимум блюдо level" />
   <text id="minutesShort" name="min" />
+  <text id="myDexCoopTitle" name="Лучшие кооперативы для повышения уровня" />
   <text id="myDexDescription" name="MyDex: Уровень, XP, доступно время." />
   <text id="myDexHint" name="Data → Рекомендация." />
   <text id="myDexSettings" name="MyDex Settings" />
@@ -185,6 +222,7 @@
   <text id="noDishMatchesPlan" name="Нет блюдо matches plan." />
   <text id="noDishesAvailable" name="Нет блюда" />
   <text id="noEligibleChef" name="Нет Шеф: требуемые блюда." />
+  <text id="noEligibleCoops" name="Нет подходящих кооперативов для этой команды." />
   <text id="noGoldMasteriesSelected" name="Нет Золото Мастерства selected." />
   <text id="noMasteryRows" name="Нет блюда in search." />
   <text id="noPortionRecommendations" name="Нет Рекомендация: Порции." />
@@ -196,9 +234,14 @@
   <text id="noXpRecommendations" name="Нет Рекомендация: XP." />
   <text id="notDoable" name="Невыполнимо" />
   <text id="note" name="Нетte" />
+  <text id="over48hNote" name="Исходное время приготовления больше 48 часов." />
+  <text id="over48hPlan" name="План на 48 ч+" />
+  <text id="over48hWord" name="свыше 48 ч" />
+  <text id="personalEstimatedXpMin" name="Расчётный опыт повара/мин" />
   <text id="personalRecommendations" name="Personal recommendations" />
   <text id="plan" name="План" />
   <text id="planCoop" name="Планировать!" />
+  <text id="playCafe" name="Играть в Cappuccino Café!" />
   <text id="playerLevel" name="Player Уровень" />
   <text id="playerLevelShort" name="Player level" />
   <text id="portions" name="Порции" />
@@ -207,15 +250,17 @@
   <text id="predictedRewards" name="Команда награды at predicted status" />
   <text id="predictedStatus" name="Predicted Status" />
   <text id="previousPage" name="← Назад" />
+  <text id="profileLevelUnlocksTitle" name="Уровень {0} unlocks:" />
   <text id="profileSaved" name="Профиль сохранено locally." />
   <text id="profileSettingsNote" name="Уровень → Доступные плиты. MyDex: edit later." />
   <text id="profileSettingsTitle" name="Профиль шефа" />
   <text id="profit" name="Прибыль" />
   <text id="profitLower" name="прибыль" />
   <text id="profitMin" name="Прибыль/min" />
+  <text id="recommendVeryLong" name="Рекомендовать очень долгие блюда (более 48 ч)?" />
   <text id="recommendation" name="Рекомендация" />
-  <text id="recommendedMasteriesNote" name="Лучшее Мастерства based on Сводка лучших." />
-  <text id="recommendedMasteriesTitle" name="Рекомендуемое Мастерства" />
+  <text id="recommendedMasteriesNote" name="Лучшие блюда для следующего уровня мастерства!" />
+  <text id="recommendedMasteriesTitle" name="Следующие рекомендуемые уровни мастерства" />
   <text id="recommendedStar" name="Рекомендуемое Звезда" />
   <text id="regular" name="Обычное" />
   <text id="requirement" name="Требование" />
@@ -235,6 +280,7 @@
   <text id="shortPlan" name="Коротко" />
   <text id="shortWord" name="коротко" />
   <text id="showIngredients" name="Показывать ингредиенты?" />
+  <text id="showSection" name="Показать" />
   <text id="silver" name="Серебро" />
   <text id="silverDeadline" name="Серебро deadline" />
   <text id="sortBy" name="Сортировать по" />
@@ -266,10 +312,12 @@
   <text id="targetShort" name="Цель" />
   <text id="targetTime" name="Цель время" />
   <text id="teamDeleted" name="Команда deleted." />
+  <text id="teamEstimatedXpMin" name="Расчётный опыт команды/мин" />
   <text id="teamLimitReached" name="Max 10 Команда." />
   <text id="teamName" name="Команда name" />
   <text id="teamRewardsGold" name="Команда: rewards if Золото" />
   <text id="teamSaved" name="Команда сохранено locally." />
+  <text id="toFashionDex" name="To FashionDex" />
   <text id="totalCookTime" name="Total Cook Время" />
   <text id="totalStoveHours" name="Total stove-ч" />
   <text id="type" name="Type" />
@@ -280,6 +328,8 @@
   <text id="veryLongNote" name="Лучшее XP/min: 12 h 1 min – 23 h." />
   <text id="veryLongPlan" name="Очень долго" />
   <text id="veryLongWord" name="очень долго" />
+  <text id="viewDisplay" name="Вид" />
+  <text id="waiters" name="Waiters" />
   <text id="workload" name="Нагрузка" />
   <text id="workloadEqual" name="Равная" />
   <text id="workloadHigh" name="Высокая" />
@@ -292,52 +342,4 @@
   <text id="xpPlansNote" name="Level-up plans: needs + availability." />
   <text id="xpPlansTitle" name="XP Needed Планs" />
   <text id="xpUpper" name="XP" />
-  <text id="toFashionDex" name="To FashionDex" />
-  <text id="fashionDexDescription" name="Open Cappucciнет Fashion FashionDex." />
-  <text id="profileLevelUnlocksTitle" name="Уровень {0} unlocks:" />
-  <text id="fridges" name="Fridges" />
-  <text id="counters" name="Counters" />
-  <text id="waiters" name="Waiters" />
-  <text id="instantCookings" name="Instant cookings" />
-  <text id="masteryCompletionProgress" name="Уровень мастерства progress:" />
-  <text id="applyFancyBoost" name="Применить Fancy?" />
-  <text id="recommendVeryLong" name="Рекомендовать очень долгие блюда (более 48 ч)?" />
-  <text id="filterCategory" name="Фильтр по категории" />
-  <text id="allCategories" name="Все категории" />
-  <text id="viewDisplay" name="Вид" />
-  <text id="listView" name="Список" />
-  <text id="gridView" name="Сетка" />
-  <text id="compactView" name="Компактный вид" />
-  <text id="gameOrder" name="Порядок из книги рецептов игры (проверен частично)" />
-  <text id="coopEligibleOnly" name="Только кооперативы, доступные моей команде" />
-  <text id="coopSortLabel" name="Сортировка кооперативов" />
-  <text id="coopSortNumber" name="Номер кооператива" />
-  <text id="coopSortMaxLevel" name="Максимальный необходимый уровень блюда" />
-  <text id="coopSortGoldXpMin" name="Опыт/мин за золото" />
-  <text id="myDexCoopTitle" name="Лучшие кооперативы для повышения уровня" />
-  <text id="coopGoldOnlyNote" name="Опыт за золотую награду ÷ срок золота; опыт за готовку не учитывается." />
-  <text id="coopScopeLabel" name="Возможности команды" />
-  <text id="coopCanCookAll" name="Команда может приготовить все блюда" />
-  <text id="coopCanCookSome" name="Команда может приготовить хотя бы одно блюдо" />
-  <text id="highestRequiredLevel" name="Максимальный требуемый уровень" />
-  <text id="goldXpMin" name="Опыт/мин за золото" />
-  <text id="noEligibleCoops" name="Нет подходящих кооперативов для этой команды." />
-  <text id="teamEstimatedXpMin" name="Расчётный опыт команды/мин" />
-  <text id="personalEstimatedXpMin" name="Расчётный опыт повара/мин" />
-  <text id="coopEstimateDisclaimer" name="Расчёт основан на распределённом времени готовки и ожидаемой медали; реальный прогресс может отличаться." />
-  <text id="playCafe" name="Играть в Cappuccino Café" />
-  <text id="category0" name="Десерт" />
-  <text id="category1" name="Основное блюдо" />
-  <text id="category2" name="Суп" />
-  <text id="category3" name="Салат" />
-  <text id="category4" name="Вегетарианское" />
-  <text id="category5" name="Закуска" />
-  <text id="fullTagOver48h" name="Очень долго (48 ч+)" />
-  <text id="bestOver48h" name="Лучшие свыше 48 ч" />
-  <text id="over48hWord" name="свыше 48 ч" />
-  <text id="over48hPlan" name="План на 48 ч+" />
-  <text id="over48hNote" name="Исходное время приготовления больше 48 часов." />
-  <text id="holidayMasteryCompletionProgress" name="Прогресс мастерства (праздничные блюда):" />
-  <text id="coopsToLevelUp" name="Совместных заданий на золото до следующего уровня" />
-  <text id="cookableDishes" name="Блюда, которые вы можете приготовить" />
 </dishdex>

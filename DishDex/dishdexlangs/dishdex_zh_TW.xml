@@ -4,7 +4,9 @@
   <text id="activeNote" name="最佳 XP/min: 10 分鐘 或更少." />
   <text id="activePlan" name="活躍" />
   <text id="activeWord" name="活躍" />
+  <text id="allCategories" name="所有類別" />
   <text id="alreadyMasteredBest" name="✓ 最佳 菜品 — 星等!" />
+  <text id="applyFancyBoost" name="套用 Fancy？" />
   <text id="assignedDishes" name="已分配 菜品" />
   <text id="assignmentComingSoon" name="分配: 下一頁 階段." />
   <text id="assignmentCopied" name="分配 已複製!" />
@@ -23,6 +25,7 @@
   <text id="bestFast" name="最佳 快速" />
   <text id="bestLong" name="最佳 長" />
   <text id="bestMedium" name="最佳 中等" />
+  <text id="bestOver48h" name="48小時以上最佳" />
   <text id="bestPortionsTitle" name="最佳 菜品 (份數)" />
   <text id="bestProfitTitle" name="最佳 菜品 (利潤)" />
   <text id="bestShort" name="最佳 短" />
@@ -40,6 +43,12 @@
   <text id="cannotCookDish" name="無法烹飪" />
   <text id="cashReward" name="Cash" />
   <text id="category" name="類別" />
+  <text id="category0" name="甜點" />
+  <text id="category1" name="主菜" />
+  <text id="category2" name="湯品" />
+  <text id="category3" name="沙拉" />
+  <text id="category4" name="素食" />
+  <text id="category5" name="點心" />
   <text id="chef" name="廚師" />
   <text id="chefCookTime" name="Cook 時間" />
   <text id="chefFallback" name="廚師" />
@@ -49,10 +58,17 @@
   <text id="clearChef" name="Clear chef" />
   <text id="clearCookTime" name="Clear cook 時間" />
   <text id="clearMargin" name="Clear margin" />
+  <text id="compactView" name="精簡檢視" />
   <text id="completeDishList" name="完整 菜品 列表" />
   <text id="confirmDelete" name="刪除 local data: 資料, 熟練度, Co-Op 隊伍." />
   <text id="confirmDeleteTeam" name="刪除 隊伍?" />
   <text id="contributionWarning" name="廚師: ≥ 1 需要 菜品 = rewards." />
+  <text id="cookableDishes" name="你可以烹飪的料理" />
+  <text id="coopCanCookAll" name="隊伍能製作全部所需料理" />
+  <text id="coopCanCookSome" name="隊伍至少能製作一道所需料理" />
+  <text id="coopEligibleOnly" name="只顯示隊伍能完成烹飪要求的合作任務" />
+  <text id="coopEstimateDisclaimer" name="依分配的烹飪時間與預估獎牌計算；實際進度可能不同。" />
+  <text id="coopGoldOnlyNote" name="金牌獎勵XP ÷ 金牌時限；不含烹飪XP。" />
   <text id="coopListNote" name="Co-Op: 瀏覽 + 計畫." />
   <text id="coopListTitle" name="Co-Op 計畫ner" />
   <text id="coopNumber" name="Co-Op" />
@@ -60,14 +76,21 @@
   <text id="coopPlannerEyebrow" name="隊伍 cooking" />
   <text id="coopPlannerTitle" name="Co-Op 計畫ner" />
   <text id="coopRequirements" name="需要 菜品" />
+  <text id="coopScopeLabel" name="隊伍可烹飪範圍" />
   <text id="coopSearch" name="搜尋 co-op" />
   <text id="coopSearchPlaceholder" name="搜尋 co-op..." />
   <text id="coopShortDescription" name="描述" />
+  <text id="coopSortGoldXpMin" name="金牌XP/分鐘" />
+  <text id="coopSortLabel" name="合作任務排序" />
+  <text id="coopSortMaxLevel" name="料理所需最高等級" />
+  <text id="coopSortNumber" name="合作任務編號" />
   <text id="coopTeamNote" name="Max 5 廚師; save up to 10 隊伍." />
   <text id="coopTeamTitle" name="Co-Op 隊伍" />
+  <text id="coopsToLevelUp" name="升級所需的金牌合作次數" />
   <text id="copyAssignment" name="複製 分配" />
   <text id="cost" name="成本" />
   <text id="couldNotLoadData" name="無法載入 Café 資料." />
+  <text id="counters" name="Counters" />
   <text id="currentMastery" name="目前 星等" />
   <text id="darkTheme" name="深色主題" />
   <text id="dataDeleted" name="資料, 熟練度, Co-Op 隊伍: 刪除." />
@@ -84,7 +107,6 @@
   <text id="dishesNeeded" name="菜品 Needed" />
   <text id="dishesReady" name="菜品 ready" />
   <text id="dishesRequired" name="菜品 需要" />
-  <text id="masteryTotalForGold" name="Total: {0} 菜品 → 金幣" />
   <text id="downloadData" name="下載 data" />
   <text id="duration" name="時長" />
   <text id="editGoldMasteries" name="金幣 熟練度: edit" />
@@ -92,34 +114,46 @@
   <text id="effects" name="Effects" />
   <text id="estimatedWithTeam" name="隊伍: estimate" />
   <text id="exclude" name="排除" />
+  <text id="fashionDexDescription" name="Open Cappucci無 Fashion FashionDex." />
   <text id="fastNote" name="最佳 XP/min: 11 分鐘 – 1 小時." />
   <text id="fastPlan" name="快速" />
   <text id="fastWord" name="快速" />
+  <text id="filterCategory" name="依類別篩選" />
+  <text id="fridges" name="Fridges" />
   <text id="fullDishDexDescription" name="DishDex: 完整 information." />
   <text id="fullDishDexTitle" name="Full DishDex" />
   <text id="fullTagChristmas" name="聖誕節" />
   <text id="fullTagEaster" name="復活節" />
+  <text id="fullTagOver48h" name="超長時間（48小時以上）" />
   <text id="fullTagSpecial" name="特殊" />
+  <text id="gameOrder" name="遊戲食譜順序（部分已核對）" />
   <text id="gold" name="金幣" />
   <text id="goldDeadline" name="金幣 deadline" />
   <text id="goldMasteries" name="金幣 masteries" />
   <text id="goldMasteriesNote" name="金幣 星等 = shorter cooking time." />
   <text id="goldReward" name="金幣" />
+  <text id="goldXpMin" name="金牌XP/分鐘" />
+  <text id="gridView" name="網格" />
+  <text id="hideSection" name="隱藏" />
+  <text id="highestRequiredLevel" name="所需最高等級" />
   <text id="holiday" name="節日" />
   <text id="holidayActive" name="節日: Active" />
   <text id="holidayDishes" name="節日菜品" />
-  <text id="holidayDishesNote" name="節日菜品: separate. Auto = 聖誕節 + 復活節." />
+  <text id="holidayDishesNote" name="開啟自動模式後，節日菜品會在對應活動期間自動顯示。" />
   <text id="holidayInactive" name="節日: In活躍" />
+  <text id="holidayMasteryCompletionProgress" name="精通完成進度（節慶料理）：" />
   <text id="holidayMode" name="包含節日食物？" />
-  <text id="includeSpecialDishes" name="包含特殊菜品？" />
   <text id="hoursShort" name="h" />
   <text id="image" name="圖片" />
   <text id="impossibleMissingUnlock" name="不可能: 菜品 unlock missing" />
   <text id="include" name="包含" />
+  <text id="includeSpecialDishes" name="包含特殊菜品？" />
   <text id="ingredientCost" name="食材成本" />
   <text id="ingredientDetails" name="食材" />
+  <text id="instantCookings" name="Instant cookings" />
   <text id="languageLabel" name="🌐 語言" />
   <text id="level" name="等級" />
+  <text id="listView" name="清單" />
   <text id="loadData" name="載入 data" />
   <text id="loadTeam" name="載入 team" />
   <text id="loadingXml" name="載入ing Café XML..." />
@@ -139,9 +173,11 @@
   <text id="masteriesEyebrow" name="菜品 perks" />
   <text id="mastery" name="星等" />
   <text id="masteryBookPage" name="Page" />
+  <text id="masteryCompletionProgress" name="星等 progress:" />
   <text id="masteryCookbook" name="Cook Book (Legacy)" />
   <text id="masteryListHorizontal" name="List (horizontal reader)" />
   <text id="masteryListVertical" name="List (vertical reader)" />
+  <text id="masteryTotalForGold" name="Total: {0} 菜品 → 金幣" />
   <text id="masteryView" name="View" />
   <text id="maxMembers" name="Max members" />
   <text id="maxRewardsYourLevel" name="Max rewards (等級)" />
@@ -153,6 +189,7 @@
   <text id="metricXpMin" name="XP/min" />
   <text id="minimumDishLevel" name="最低 菜品 level" />
   <text id="minutesShort" name="min" />
+  <text id="myDexCoopTitle" name="最適合升級的合作任務" />
   <text id="myDexDescription" name="MyDex: 等級, XP, 可用 時間." />
   <text id="myDexHint" name="Data → 推薦." />
   <text id="myDexSettings" name="MyDex Settings" />
@@ -185,6 +222,7 @@
   <text id="noDishMatchesPlan" name="無 菜品 matches plan." />
   <text id="noDishesAvailable" name="無 菜品" />
   <text id="noEligibleChef" name="無 廚師: 需要 菜品." />
+  <text id="noEligibleCoops" name="此隊伍沒有合適的合作任務。" />
   <text id="noGoldMasteriesSelected" name="無 金幣 熟練度 selected." />
   <text id="noMasteryRows" name="無 菜品 in search." />
   <text id="noPortionRecommendations" name="無 推薦: 份數." />
@@ -196,9 +234,14 @@
   <text id="noXpRecommendations" name="無 推薦: XP." />
   <text id="notDoable" name="不可完成" />
   <text id="note" name="無te" />
+  <text id="over48hNote" name="原始烹飪時間超過48小時。" />
+  <text id="over48hPlan" name="48小時以上方案" />
+  <text id="over48hWord" name="超過48小時" />
+  <text id="personalEstimatedXpMin" name="廚師預估XP/分鐘" />
   <text id="personalRecommendations" name="Personal recommendations" />
   <text id="plan" name="計畫" />
   <text id="planCoop" name="計畫！" />
+  <text id="playCafe" name="遊玩 Cappuccino Café!" />
   <text id="playerLevel" name="Player 等級" />
   <text id="playerLevelShort" name="Player level" />
   <text id="portions" name="份數" />
@@ -207,15 +250,17 @@
   <text id="predictedRewards" name="隊伍 獎勵 at predicted status" />
   <text id="predictedStatus" name="Predicted Status" />
   <text id="previousPage" name="← 上一頁" />
+  <text id="profileLevelUnlocksTitle" name="等級 {0} unlocks:" />
   <text id="profileSaved" name="資料 已儲存 locally." />
   <text id="profileSettingsNote" name="等級 → 可用爐灶. MyDex: edit later." />
   <text id="profileSettingsTitle" name="廚師資料" />
   <text id="profit" name="利潤" />
   <text id="profitLower" name="利潤" />
   <text id="profitMin" name="利潤/min" />
+  <text id="recommendVeryLong" name="推薦超長時間料理（超過48小時）？" />
   <text id="recommendation" name="推薦" />
-  <text id="recommendedMasteriesNote" name="最佳 熟練度 based on 最佳彙總." />
-  <text id="recommendedMasteriesTitle" name="推薦 熟練度" />
+  <text id="recommendedMasteriesNote" name="最適合提升下一級熟練度的菜品！" />
+  <text id="recommendedMasteriesTitle" name="下一步推薦熟練度" />
   <text id="recommendedStar" name="推薦 星級" />
   <text id="regular" name="普通" />
   <text id="requirement" name="需求" />
@@ -235,6 +280,7 @@
   <text id="shortPlan" name="短" />
   <text id="shortWord" name="短" />
   <text id="showIngredients" name="顯示食材？" />
+  <text id="showSection" name="顯示" />
   <text id="silver" name="銀牌" />
   <text id="silverDeadline" name="銀牌 deadline" />
   <text id="sortBy" name="排序方式" />
@@ -266,10 +312,12 @@
   <text id="targetShort" name="目標" />
   <text id="targetTime" name="目標 時間" />
   <text id="teamDeleted" name="隊伍 deleted." />
+  <text id="teamEstimatedXpMin" name="隊伍預估XP/分鐘" />
   <text id="teamLimitReached" name="Max 10 隊伍." />
   <text id="teamName" name="隊伍 name" />
   <text id="teamRewardsGold" name="隊伍: rewards if 金幣" />
   <text id="teamSaved" name="隊伍 已儲存 locally." />
+  <text id="toFashionDex" name="To FashionDex" />
   <text id="totalCookTime" name="Total Cook 時間" />
   <text id="totalStoveHours" name="Total stove-小時" />
   <text id="type" name="Type" />
@@ -280,6 +328,8 @@
   <text id="veryLongNote" name="最佳 XP/min: 12 h 1 min – 23 h." />
   <text id="veryLongPlan" name="很長" />
   <text id="veryLongWord" name="很長" />
+  <text id="viewDisplay" name="顯示方式" />
+  <text id="waiters" name="Waiters" />
   <text id="workload" name="工作量" />
   <text id="workloadEqual" name="相同" />
   <text id="workloadHigh" name="高" />
@@ -292,52 +342,4 @@
   <text id="xpPlansNote" name="Level-up plans: needs + availability." />
   <text id="xpPlansTitle" name="XP Needed 計畫s" />
   <text id="xpUpper" name="XP" />
-  <text id="toFashionDex" name="To FashionDex" />
-  <text id="fashionDexDescription" name="Open Cappucci無 Fashion FashionDex." />
-  <text id="profileLevelUnlocksTitle" name="等級 {0} unlocks:" />
-  <text id="fridges" name="Fridges" />
-  <text id="counters" name="Counters" />
-  <text id="waiters" name="Waiters" />
-  <text id="instantCookings" name="Instant cookings" />
-  <text id="masteryCompletionProgress" name="星等 progress:" />
-  <text id="applyFancyBoost" name="套用 Fancy？" />
-  <text id="recommendVeryLong" name="推薦超長時間料理（超過48小時）？" />
-  <text id="filterCategory" name="依類別篩選" />
-  <text id="allCategories" name="所有類別" />
-  <text id="viewDisplay" name="顯示方式" />
-  <text id="listView" name="清單" />
-  <text id="gridView" name="網格" />
-  <text id="compactView" name="精簡檢視" />
-  <text id="gameOrder" name="遊戲食譜順序（部分已核對）" />
-  <text id="coopEligibleOnly" name="只顯示隊伍能完成烹飪要求的合作任務" />
-  <text id="coopSortLabel" name="合作任務排序" />
-  <text id="coopSortNumber" name="合作任務編號" />
-  <text id="coopSortMaxLevel" name="料理所需最高等級" />
-  <text id="coopSortGoldXpMin" name="金牌XP/分鐘" />
-  <text id="myDexCoopTitle" name="最適合升級的合作任務" />
-  <text id="coopGoldOnlyNote" name="金牌獎勵XP ÷ 金牌時限；不含烹飪XP。" />
-  <text id="coopScopeLabel" name="隊伍可烹飪範圍" />
-  <text id="coopCanCookAll" name="隊伍能製作全部所需料理" />
-  <text id="coopCanCookSome" name="隊伍至少能製作一道所需料理" />
-  <text id="highestRequiredLevel" name="所需最高等級" />
-  <text id="goldXpMin" name="金牌XP/分鐘" />
-  <text id="noEligibleCoops" name="此隊伍沒有合適的合作任務。" />
-  <text id="teamEstimatedXpMin" name="隊伍預估XP/分鐘" />
-  <text id="personalEstimatedXpMin" name="廚師預估XP/分鐘" />
-  <text id="coopEstimateDisclaimer" name="依分配的烹飪時間與預估獎牌計算；實際進度可能不同。" />
-  <text id="playCafe" name="遊玩 Cappuccino Café" />
-  <text id="category0" name="甜點" />
-  <text id="category1" name="主菜" />
-  <text id="category2" name="湯品" />
-  <text id="category3" name="沙拉" />
-  <text id="category4" name="素食" />
-  <text id="category5" name="點心" />
-  <text id="fullTagOver48h" name="超長時間（48小時以上）" />
-  <text id="bestOver48h" name="48小時以上最佳" />
-  <text id="over48hWord" name="超過48小時" />
-  <text id="over48hPlan" name="48小時以上方案" />
-  <text id="over48hNote" name="原始烹飪時間超過48小時。" />
-  <text id="holidayMasteryCompletionProgress" name="精通完成進度（節慶料理）：" />
-  <text id="coopsToLevelUp" name="升級所需的金牌合作次數" />
-  <text id="cookableDishes" name="你可以烹飪的料理" />
 </dishdex>

@@ -4,7 +4,9 @@
   <text id="activeNote" name="Beste XP/min: 10 minuten of minder." />
   <text id="activePlan" name="Actief" />
   <text id="activeWord" name="actief" />
+  <text id="allCategories" name="Alle categorieën" />
   <text id="alreadyMasteredBest" name="✓ Beste gerecht — Mastery-Level!" />
+  <text id="applyFancyBoost" name="Fancy toepassen?" />
   <text id="assignedDishes" name="Toegewezen gerechten" />
   <text id="assignmentComingSoon" name="Toewijzing: Volgende fase." />
   <text id="assignmentCopied" name="Toewijzing gekopieerd!" />
@@ -23,6 +25,7 @@
   <text id="bestFast" name="Beste snel" />
   <text id="bestLong" name="Beste lang" />
   <text id="bestMedium" name="Beste gemiddeld" />
+  <text id="bestOver48h" name="Beste boven 48 uur" />
   <text id="bestPortionsTitle" name="Beste gerechten (Porties)" />
   <text id="bestProfitTitle" name="Beste Gerechten (Winst)" />
   <text id="bestShort" name="Beste kort" />
@@ -40,6 +43,12 @@
   <text id="cannotCookDish" name="Kan niet koken" />
   <text id="cashReward" name="Cash" />
   <text id="category" name="Categorie" />
+  <text id="category0" name="Dessert" />
+  <text id="category1" name="Hoofdgerecht" />
+  <text id="category2" name="Soep" />
+  <text id="category3" name="Salade" />
+  <text id="category4" name="Vegetarisch" />
+  <text id="category5" name="Snack" />
   <text id="chef" name="Chef" />
   <text id="chefCookTime" name="Cook tijd" />
   <text id="chefFallback" name="Chef" />
@@ -49,10 +58,17 @@
   <text id="clearChef" name="Clear chef" />
   <text id="clearCookTime" name="Clear cook tijd" />
   <text id="clearMargin" name="Clear margin" />
+  <text id="compactView" name="Compacte weergave" />
   <text id="completeDishList" name="Volledige gerecht lijst" />
   <text id="confirmDelete" name="Verwijderen local data: Profiel, Meesterschappen, Co-Op Team." />
   <text id="confirmDeleteTeam" name="Verwijderen Team?" />
   <text id="contributionWarning" name="Chef: ≥ 1 vereiste gerecht = rewards." />
+  <text id="cookableDishes" name="Gerechten die je kunt bereiden" />
+  <text id="coopCanCookAll" name="Team kan alle benodigde gerechten koken" />
+  <text id="coopCanCookSome" name="Team kan minstens één gerecht koken" />
+  <text id="coopEligibleOnly" name="Alleen co-ops die mijn team kan koken" />
+  <text id="coopEstimateDisclaimer" name="Schattingen zijn gebaseerd op toegewezen kooktijd en verwachte medaille; werkelijke voortgang kan afwijken." />
+  <text id="coopGoldOnlyNote" name="Gouden belonings-XP ÷ gouden deadline; kook-XP telt niet mee." />
   <text id="coopListNote" name="Co-Op: Bladeren + plan." />
   <text id="coopListTitle" name="Co-Op Planner" />
   <text id="coopNumber" name="Co-Op" />
@@ -60,14 +76,21 @@
   <text id="coopPlannerEyebrow" name="Team cooking" />
   <text id="coopPlannerTitle" name="Co-Op Planner" />
   <text id="coopRequirements" name="Vereiste gerechten" />
+  <text id="coopScopeLabel" name="Teammogelijkheden" />
   <text id="coopSearch" name="Zoeken co-op" />
   <text id="coopSearchPlaceholder" name="Zoeken co-op..." />
   <text id="coopShortDescription" name="Beschrijving" />
+  <text id="coopSortGoldXpMin" name="Goud-XP/min" />
+  <text id="coopSortLabel" name="Co-ops sorteren" />
+  <text id="coopSortMaxLevel" name="Hoogste vereiste gerechtniveau" />
+  <text id="coopSortNumber" name="Co-opnummer" />
   <text id="coopTeamNote" name="Max 5 Chef; save up to 10 Team." />
   <text id="coopTeamTitle" name="Co-Op Team" />
+  <text id="coopsToLevelUp" name="Co-ops met goud tot het volgende niveau" />
   <text id="copyAssignment" name="Kopiëren toewijzing" />
   <text id="cost" name="Kosten" />
   <text id="couldNotLoadData" name="Kon Cafégegevens niet laden." />
+  <text id="counters" name="Counters" />
   <text id="currentMastery" name="Huidig Mastery-Level" />
   <text id="darkTheme" name="Donker thema" />
   <text id="dataDeleted" name="Profiel, Meesterschappen, Co-Op Team: verwijderen." />
@@ -84,7 +107,6 @@
   <text id="dishesNeeded" name="Gerechten Needed" />
   <text id="dishesReady" name="gerechten ready" />
   <text id="dishesRequired" name="gerechten vereiste" />
-  <text id="masteryTotalForGold" name="Total: {0} gerechten → Goud" />
   <text id="downloadData" name="Downloaden data" />
   <text id="duration" name="Duur" />
   <text id="editGoldMasteries" name="Goud Meesterschappen: edit" />
@@ -92,34 +114,46 @@
   <text id="effects" name="Effects" />
   <text id="estimatedWithTeam" name="Team: estimate" />
   <text id="exclude" name="Uitsluiten" />
+  <text id="fashionDexDescription" name="Open Cappuccigeen Fashion FashionDex." />
   <text id="fastNote" name="Beste XP/min: 11 minuten – 1 uur." />
   <text id="fastPlan" name="Snel" />
   <text id="fastWord" name="snel" />
+  <text id="filterCategory" name="Filter op categorie" />
+  <text id="fridges" name="Fridges" />
   <text id="fullDishDexDescription" name="DishDex: Volledige information." />
   <text id="fullDishDexTitle" name="Full DishDex" />
   <text id="fullTagChristmas" name="Kerstmis" />
   <text id="fullTagEaster" name="Pasen" />
+  <text id="fullTagOver48h" name="Zeer lang (48 uur+)" />
   <text id="fullTagSpecial" name="Speciaal" />
+  <text id="gameOrder" name="Volgorde in het spelkookboek (deels gecontroleerd)" />
   <text id="gold" name="Goud" />
   <text id="goldDeadline" name="Goud deadline" />
   <text id="goldMasteries" name="Goud masteries" />
   <text id="goldMasteriesNote" name="Goud Mastery-Level = shorter cooking time." />
   <text id="goldReward" name="Goud" />
+  <text id="goldXpMin" name="Goud-XP/min" />
+  <text id="gridView" name="Raster" />
+  <text id="hideSection" name="Verbergen" />
+  <text id="highestRequiredLevel" name="Hoogste vereiste niveau" />
   <text id="holiday" name="Feestdag" />
   <text id="holidayActive" name="Feestdag: Active" />
   <text id="holidayDishes" name="Feestgerechten" />
-  <text id="holidayDishesNote" name="Feestgerechten: separate. Auto = Kerstmis + Pasen." />
+  <text id="holidayDishesNote" name="Schakel Auto in om deze gerechten tijdens de juiste feestdagen automatisch mee te nemen." />
   <text id="holidayInactive" name="Feestdag: Inactief" />
+  <text id="holidayMasteryCompletionProgress" name="Voortgang van meesterschap (feestgerechten):" />
   <text id="holidayMode" name="Feestgerechten meenemen?" />
-  <text id="includeSpecialDishes" name="Speciaale gerechten meenemen?" />
   <text id="hoursShort" name="h" />
   <text id="image" name="Afbeelding" />
   <text id="impossibleMissingUnlock" name="Onmogelijk: Gerecht unlock missing" />
   <text id="include" name="Meenemen" />
+  <text id="includeSpecialDishes" name="Speciaale gerechten meenemen?" />
   <text id="ingredientCost" name="Ingrediëntkosten" />
   <text id="ingredientDetails" name="Ingrediënten" />
+  <text id="instantCookings" name="Instant cookings" />
   <text id="languageLabel" name="🌐 Taal" />
   <text id="level" name="Level" />
+  <text id="listView" name="Lijst" />
   <text id="loadData" name="Laden data" />
   <text id="loadTeam" name="Laden team" />
   <text id="loadingXml" name="Ladening Café XML..." />
@@ -139,9 +173,11 @@
   <text id="masteriesEyebrow" name="Gerecht perks" />
   <text id="mastery" name="Mastery-Level" />
   <text id="masteryBookPage" name="Page" />
+  <text id="masteryCompletionProgress" name="Mastery-Level progress:" />
   <text id="masteryCookbook" name="Cook Book (Legacy)" />
   <text id="masteryListHorizontal" name="List (horizontal reader)" />
   <text id="masteryListVertical" name="List (vertical reader)" />
+  <text id="masteryTotalForGold" name="Total: {0} gerechten → Goud" />
   <text id="masteryView" name="View" />
   <text id="maxMembers" name="Max members" />
   <text id="maxRewardsYourLevel" name="Max rewards (level)" />
@@ -153,6 +189,7 @@
   <text id="metricXpMin" name="XP/min" />
   <text id="minimumDishLevel" name="Minimum gerecht level" />
   <text id="minutesShort" name="min" />
+  <text id="myDexCoopTitle" name="Beste co-ops om te levelen" />
   <text id="myDexDescription" name="MyDex: Level, XP, beschikbaar tijd." />
   <text id="myDexHint" name="Data → Aanbeveling." />
   <text id="myDexSettings" name="MyDex Settings" />
@@ -185,6 +222,7 @@
   <text id="noDishMatchesPlan" name="Geen gerecht matches plan." />
   <text id="noDishesAvailable" name="Geen gerechten" />
   <text id="noEligibleChef" name="Geen Chef: vereiste gerechten." />
+  <text id="noEligibleCoops" name="Geen geschikte co-ops voor dit team." />
   <text id="noGoldMasteriesSelected" name="Geen Goud Meesterschappen selected." />
   <text id="noMasteryRows" name="Geen gerechten in search." />
   <text id="noPortionRecommendations" name="Geen Aanbeveling: Porties." />
@@ -196,9 +234,14 @@
   <text id="noXpRecommendations" name="Geen Aanbeveling: XP." />
   <text id="notDoable" name="Niet haalbaar" />
   <text id="note" name="Geente" />
+  <text id="over48hNote" name="Oorspronkelijke bereidingstijd langer dan 48 uur." />
+  <text id="over48hPlan" name="Plan voor 48 uur+" />
+  <text id="over48hWord" name="langer dan 48 uur" />
+  <text id="personalEstimatedXpMin" name="Geschatte kok-XP/min" />
   <text id="personalRecommendations" name="Personal recommendations" />
   <text id="plan" name="Plan" />
   <text id="planCoop" name="Plannen!" />
+  <text id="playCafe" name="Speel Cappuccino Café!" />
   <text id="playerLevel" name="Player Level" />
   <text id="playerLevelShort" name="Player level" />
   <text id="portions" name="Porties" />
@@ -207,15 +250,17 @@
   <text id="predictedRewards" name="Team beloningen at predicted status" />
   <text id="predictedStatus" name="Predicted Status" />
   <text id="previousPage" name="← Vorige" />
+  <text id="profileLevelUnlocksTitle" name="Level {0} unlocks:" />
   <text id="profileSaved" name="Profiel opgeslagen locally." />
   <text id="profileSettingsNote" name="Level → Beschikbare fornuizen. MyDex: edit later." />
   <text id="profileSettingsTitle" name="Chefprofiel" />
   <text id="profit" name="Winst" />
   <text id="profitLower" name="winst" />
   <text id="profitMin" name="Winst/min" />
+  <text id="recommendVeryLong" name="Zeer lange gerechten (meer dan 48 uur) aanbevelen?" />
   <text id="recommendation" name="Aanbeveling" />
-  <text id="recommendedMasteriesNote" name="Beste Meesterschappen based on Overzicht van beste." />
-  <text id="recommendedMasteriesTitle" name="Aanbevolen Meesterschappen" />
+  <text id="recommendedMasteriesNote" name="De beste gerechten voor je volgende meesterschapsniveau!" />
+  <text id="recommendedMasteriesTitle" name="Aanbevolen volgende meesterschapsniveaus" />
   <text id="recommendedStar" name="Aanbevolen Ster" />
   <text id="regular" name="Geenrmaal" />
   <text id="requirement" name="Vereiste" />
@@ -235,6 +280,7 @@
   <text id="shortPlan" name="Kort" />
   <text id="shortWord" name="kort" />
   <text id="showIngredients" name="Ingrediënten tonen?" />
+  <text id="showSection" name="Tonen" />
   <text id="silver" name="Zilver" />
   <text id="silverDeadline" name="Zilver deadline" />
   <text id="sortBy" name="Sortereneren op" />
@@ -266,10 +312,12 @@
   <text id="targetShort" name="Doel" />
   <text id="targetTime" name="Doel tijd" />
   <text id="teamDeleted" name="Team deleted." />
+  <text id="teamEstimatedXpMin" name="Geschatte team-XP/min" />
   <text id="teamLimitReached" name="Max 10 Team." />
   <text id="teamName" name="Team name" />
   <text id="teamRewardsGold" name="Team: rewards if Goud" />
   <text id="teamSaved" name="Team opgeslagen locally." />
+  <text id="toFashionDex" name="To FashionDex" />
   <text id="totalCookTime" name="Total Cook Tijd" />
   <text id="totalStoveHours" name="Total stove-uren" />
   <text id="type" name="Type" />
@@ -280,6 +328,8 @@
   <text id="veryLongNote" name="Beste XP/min: 12 h 1 min – 23 h." />
   <text id="veryLongPlan" name="Zeer lang" />
   <text id="veryLongWord" name="zeer lang" />
+  <text id="viewDisplay" name="Weergave" />
+  <text id="waiters" name="Waiters" />
   <text id="workload" name="Werklast" />
   <text id="workloadEqual" name="Gelijk" />
   <text id="workloadHigh" name="Hoog" />
@@ -292,52 +342,4 @@
   <text id="xpPlansNote" name="Level-up plans: needs + availability." />
   <text id="xpPlansTitle" name="XP Needed Plans" />
   <text id="xpUpper" name="XP" />
-  <text id="toFashionDex" name="To FashionDex" />
-  <text id="fashionDexDescription" name="Open Cappuccigeen Fashion FashionDex." />
-  <text id="profileLevelUnlocksTitle" name="Level {0} unlocks:" />
-  <text id="fridges" name="Fridges" />
-  <text id="counters" name="Counters" />
-  <text id="waiters" name="Waiters" />
-  <text id="instantCookings" name="Instant cookings" />
-  <text id="masteryCompletionProgress" name="Mastery-Level progress:" />
-  <text id="applyFancyBoost" name="Fancy toepassen?" />
-  <text id="recommendVeryLong" name="Zeer lange gerechten (meer dan 48 uur) aanbevelen?" />
-  <text id="filterCategory" name="Filter op categorie" />
-  <text id="allCategories" name="Alle categorieën" />
-  <text id="viewDisplay" name="Weergave" />
-  <text id="listView" name="Lijst" />
-  <text id="gridView" name="Raster" />
-  <text id="compactView" name="Compacte weergave" />
-  <text id="gameOrder" name="Volgorde in het spelkookboek (deels gecontroleerd)" />
-  <text id="coopEligibleOnly" name="Alleen co-ops die mijn team kan koken" />
-  <text id="coopSortLabel" name="Co-ops sorteren" />
-  <text id="coopSortNumber" name="Co-opnummer" />
-  <text id="coopSortMaxLevel" name="Hoogste vereiste gerechtniveau" />
-  <text id="coopSortGoldXpMin" name="Goud-XP/min" />
-  <text id="myDexCoopTitle" name="Beste co-ops om te levelen" />
-  <text id="coopGoldOnlyNote" name="Gouden belonings-XP ÷ gouden deadline; kook-XP telt niet mee." />
-  <text id="coopScopeLabel" name="Teammogelijkheden" />
-  <text id="coopCanCookAll" name="Team kan alle benodigde gerechten koken" />
-  <text id="coopCanCookSome" name="Team kan minstens één gerecht koken" />
-  <text id="highestRequiredLevel" name="Hoogste vereiste niveau" />
-  <text id="goldXpMin" name="Goud-XP/min" />
-  <text id="noEligibleCoops" name="Geen geschikte co-ops voor dit team." />
-  <text id="teamEstimatedXpMin" name="Geschatte team-XP/min" />
-  <text id="personalEstimatedXpMin" name="Geschatte kok-XP/min" />
-  <text id="coopEstimateDisclaimer" name="Schattingen zijn gebaseerd op toegewezen kooktijd en verwachte medaille; werkelijke voortgang kan afwijken." />
-  <text id="playCafe" name="Speel Cappuccino Café" />
-  <text id="category0" name="Dessert" />
-  <text id="category1" name="Hoofdgerecht" />
-  <text id="category2" name="Soep" />
-  <text id="category3" name="Salade" />
-  <text id="category4" name="Vegetarisch" />
-  <text id="category5" name="Snack" />
-  <text id="fullTagOver48h" name="Zeer lang (48 uur+)" />
-  <text id="bestOver48h" name="Beste boven 48 uur" />
-  <text id="over48hWord" name="langer dan 48 uur" />
-  <text id="over48hPlan" name="Plan voor 48 uur+" />
-  <text id="over48hNote" name="Oorspronkelijke bereidingstijd langer dan 48 uur." />
-  <text id="holidayMasteryCompletionProgress" name="Voortgang van meesterschap (feestgerechten):" />
-  <text id="coopsToLevelUp" name="Co-ops met goud tot het volgende niveau" />
-  <text id="cookableDishes" name="Gerechten die je kunt bereiden" />
 </dishdex>

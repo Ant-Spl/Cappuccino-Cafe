@@ -4,7 +4,9 @@
   <text id="activeNote" name="Best XP/min for 10 minutes or less." />
   <text id="activePlan" name="Active-time" />
   <text id="activeWord" name="active" />
+  <text id="allCategories" name="All categories" />
   <text id="alreadyMasteredBest" name="You already mastered the best dish for this! Nice!" />
+  <text id="applyFancyBoost" name="Apply Fancy?" />
   <text id="assignedDishes" name="Assigned dishes" />
   <text id="assignmentComingSoon" name="Dish assignment comes in the next phase." />
   <text id="assignmentCopied" name="Assignment copied!" />
@@ -23,6 +25,7 @@
   <text id="bestFast" name="Best fast" />
   <text id="bestLong" name="Best long" />
   <text id="bestMedium" name="Best medium" />
+  <text id="bestOver48h" name="Best 48h+" />
   <text id="bestPortionsTitle" name="Best dishes (Portions)" />
   <text id="bestProfitTitle" name="Best Dishes (Profit)" />
   <text id="bestShort" name="Best short" />
@@ -40,6 +43,12 @@
   <text id="cannotCookDish" name="Cannot cook" />
   <text id="cashReward" name="Cash" />
   <text id="category" name="Category" />
+  <text id="category0" name="Dessert" />
+  <text id="category1" name="Main dish" />
+  <text id="category2" name="Soup" />
+  <text id="category3" name="Salad" />
+  <text id="category4" name="Vegetarian" />
+  <text id="category5" name="Snack" />
   <text id="chef" name="Chef" />
   <text id="chefCookTime" name="Cook time" />
   <text id="chefFallback" name="Chef" />
@@ -49,10 +58,17 @@
   <text id="clearChef" name="Clear chef" />
   <text id="clearCookTime" name="Clear cook time" />
   <text id="clearMargin" name="Clear margin" />
+  <text id="compactView" name="Compact view" />
   <text id="completeDishList" name="Complete dish list" />
   <text id="confirmDelete" name="Are you sure? This will delete your saved profile, masteries and Co-Op teams." />
   <text id="confirmDeleteTeam" name="Delete this saved team?" />
   <text id="contributionWarning" name="Each chef must cook at least one required dish to receive rewards." />
+  <text id="cookableDishes" name="Dishes you can cook" />
+  <text id="coopCanCookAll" name="Team can cook every required dish" />
+  <text id="coopCanCookSome" name="Team can cook at least one required dish" />
+  <text id="coopEligibleOnly" name="Only co-ops my team can cook" />
+  <text id="coopEstimateDisclaimer" name="Estimates use assigned cooking time and predicted medal; actual game progress may differ." />
+  <text id="coopGoldOnlyNote" name="Gold reward XP ÷ Gold deadline; cooking XP excluded." />
   <text id="coopListNote" name="Browse and plan your next Co-Op here!" />
   <text id="coopListTitle" name="Co-Op Planner" />
   <text id="coopNumber" name="Co-Op" />
@@ -60,14 +76,21 @@
   <text id="coopPlannerEyebrow" name="Team cooking" />
   <text id="coopPlannerTitle" name="Co-Op Planner" />
   <text id="coopRequirements" name="Required dishes" />
+  <text id="coopScopeLabel" name="Team coverage" />
   <text id="coopSearch" name="Search co-op" />
   <text id="coopSearchPlaceholder" name="Search co-op..." />
   <text id="coopShortDescription" name="Description" />
+  <text id="coopSortGoldXpMin" name="Gold XP/min" />
+  <text id="coopSortLabel" name="Sort co-ops" />
+  <text id="coopSortMaxLevel" name="Highest required dish level" />
+  <text id="coopSortNumber" name="Co-op number" />
   <text id="coopTeamNote" name="Register up to five chefs and save up to ten teams." />
   <text id="coopTeamTitle" name="Co-Op Team" />
+  <text id="coopsToLevelUp" name="Gold completions to level up" />
   <text id="copyAssignment" name="Copy assignment" />
   <text id="cost" name="Cost" />
   <text id="couldNotLoadData" name="Could not load Café data." />
+  <text id="counters" name="Counters" />
   <text id="currentMastery" name="Current Mastery" />
   <text id="darkTheme" name="Dark Theme" />
   <text id="dataDeleted" name="Saved profile, masteries and Co-Op teams deleted." />
@@ -84,7 +107,6 @@
   <text id="dishesNeeded" name="Dishes Needed" />
   <text id="dishesReady" name="dishes ready" />
   <text id="dishesRequired" name="dishes required" />
-  <text id="masteryTotalForGold" name="Total: {0} dishes required for Gold" />
   <text id="downloadData" name="Download data" />
   <text id="duration" name="Duration" />
   <text id="editGoldMasteries" name="Edit gold masteries" />
@@ -92,34 +114,46 @@
   <text id="effects" name="Effects" />
   <text id="estimatedWithTeam" name="Estimated with this team" />
   <text id="exclude" name="Exclude" />
+  <text id="fashionDexDescription" name="Open Cappuccino Fashion FashionDex." />
   <text id="fastNote" name="Best XP/min between 11 minutes and 1 hour." />
   <text id="fastPlan" name="Fast-time" />
   <text id="fastWord" name="fast" />
+  <text id="filterCategory" name="Filter by category" />
+  <text id="fridges" name="Fridges" />
   <text id="fullDishDexDescription" name="Access the complete DishDex with all information." />
   <text id="fullDishDexTitle" name="Full DishDex" />
   <text id="fullTagChristmas" name="Christmas" />
   <text id="fullTagEaster" name="Easter" />
+  <text id="fullTagOver48h" name="Very long (48h+)" />
   <text id="fullTagSpecial" name="Special" />
+  <text id="gameOrder" name="Game cookbook order (partially verified)" />
   <text id="gold" name="Gold" />
   <text id="goldDeadline" name="Gold deadline" />
   <text id="goldMasteries" name="Gold masteries" />
   <text id="goldMasteriesNote" name="Only Gold mastery matters here because it reduces cooking time." />
   <text id="goldReward" name="Gold" />
+  <text id="goldXpMin" name="Gold XP/min" />
+  <text id="gridView" name="Grid" />
+  <text id="hideSection" name="Hide" />
+  <text id="highestRequiredLevel" name="Highest required level" />
   <text id="holiday" name="Holiday" />
   <text id="holidayActive" name="Holiday: Active" />
   <text id="holidayDishes" name="Holiday Dishes" />
-  <text id="holidayDishesNote" name="Holiday dishes are shown separately. Auto mode uses Christmas and Easter seasons." />
+  <text id="holidayDishesNote" name="Enable Auto mode to include these automatically." />
   <text id="holidayInactive" name="Holiday: Inactive" />
+  <text id="holidayMasteryCompletionProgress" name="Mastery completion progress (holiday):" />
   <text id="holidayMode" name="Include holiday foods?" />
-  <text id="includeSpecialDishes" name="Include special dishes?" />
   <text id="hoursShort" name="h" />
   <text id="image" name="Image" />
   <text id="impossibleMissingUnlock" name="Impossible: missing dish unlock" />
   <text id="include" name="Include" />
+  <text id="includeSpecialDishes" name="Include special dishes?" />
   <text id="ingredientCost" name="Ingredient cost" />
   <text id="ingredientDetails" name="Ingredients" />
+  <text id="instantCookings" name="Instant cookings" />
   <text id="languageLabel" name="🌐 Language" />
   <text id="level" name="Level" />
+  <text id="listView" name="List" />
   <text id="loadData" name="Load data" />
   <text id="loadTeam" name="Load team" />
   <text id="loadingXml" name="Loading Café XML..." />
@@ -139,9 +173,11 @@
   <text id="masteriesEyebrow" name="Dish perks" />
   <text id="mastery" name="Mastery" />
   <text id="masteryBookPage" name="Page" />
+  <text id="masteryCompletionProgress" name="Mastery completion progress:" />
   <text id="masteryCookbook" name="Cook Book (Legacy)" />
   <text id="masteryListHorizontal" name="List (horizontal reader)" />
   <text id="masteryListVertical" name="List (vertical reader)" />
+  <text id="masteryTotalForGold" name="Total: {0} dishes required for Gold" />
   <text id="masteryView" name="View" />
   <text id="maxMembers" name="Max members" />
   <text id="maxRewardsYourLevel" name="Max Rewards (your level)" />
@@ -153,6 +189,7 @@
   <text id="metricXpMin" name="XP/min" />
   <text id="minimumDishLevel" name="Minimum dish level" />
   <text id="minutesShort" name="min" />
+  <text id="myDexCoopTitle" name="Best co-ops for leveling" />
   <text id="myDexDescription" name="Access your personal DishDex based on your level, XP and available time." />
   <text id="myDexHint" name="Insert your data for personalized recommendations." />
   <text id="myDexSettings" name="MyDex Settings" />
@@ -185,6 +222,7 @@
   <text id="noDishMatchesPlan" name="No dish matches this plan." />
   <text id="noDishesAvailable" name="No dishes available." />
   <text id="noEligibleChef" name="No eligible chef can cook one or more required dishes." />
+  <text id="noEligibleCoops" name="No compatible co-ops for the selected team." />
   <text id="noGoldMasteriesSelected" name="No Gold masteries selected yet." />
   <text id="noMasteryRows" name="No dishes match this search." />
   <text id="noPortionRecommendations" name="No portion recommendations available for this level/settings." />
@@ -196,9 +234,14 @@
   <text id="noXpRecommendations" name="No XP recommendations available for this level/settings." />
   <text id="notDoable" name="Not doable" />
   <text id="note" name="Note" />
+  <text id="over48hNote" name="Original cooking duration over 48 hours." />
+  <text id="over48hPlan" name="48h+ plan" />
+  <text id="over48hWord" name="over 48h" />
+  <text id="personalEstimatedXpMin" name="Estimated chef XP/min" />
   <text id="personalRecommendations" name="Personal recommendations" />
   <text id="plan" name="Plan" />
   <text id="planCoop" name="Plan!" />
+  <text id="playCafe" name="Play Cappuccino Café!" />
   <text id="playerLevel" name="Player Level" />
   <text id="playerLevelShort" name="Player level" />
   <text id="portions" name="Portions" />
@@ -207,15 +250,17 @@
   <text id="predictedRewards" name="Team rewards at predicted status" />
   <text id="predictedStatus" name="Predicted Status" />
   <text id="previousPage" name="← Previous" />
+  <text id="profileLevelUnlocksTitle" name="Level {0} unlocks:" />
   <text id="profileSaved" name="Profile saved locally." />
   <text id="profileSettingsNote" name="Your level helps the tool set your current available number of stoves. You can change this in MyDex later." />
   <text id="profileSettingsTitle" name="Chef Profile" />
   <text id="profit" name="Profit" />
   <text id="profitLower" name="profit" />
   <text id="profitMin" name="Profit/min" />
+  <text id="recommendVeryLong" name="Recommend very long dishes (over 48h)?" />
   <text id="recommendation" name="Recommendation" />
-  <text id="recommendedMasteriesNote" name="Best mastery targets based on your Best of Summary dishes." />
-  <text id="recommendedMasteriesTitle" name="Recommended Masteries" />
+  <text id="recommendedMasteriesNote" name="Best dishes for your next mastery!" />
+  <text id="recommendedMasteriesTitle" name="Recommended Next Masteries" />
   <text id="recommendedStar" name="Recommended Star" />
   <text id="regular" name="Regular" />
   <text id="requirement" name="Requirement" />
@@ -235,6 +280,7 @@
   <text id="shortPlan" name="Short-time" />
   <text id="shortWord" name="short" />
   <text id="showIngredients" name="Show ingredients?" />
+  <text id="showSection" name="Show" />
   <text id="silver" name="Silver" />
   <text id="silverDeadline" name="Silver deadline" />
   <text id="sortBy" name="Sort by" />
@@ -266,10 +312,12 @@
   <text id="targetShort" name="Target" />
   <text id="targetTime" name="Target time" />
   <text id="teamDeleted" name="Team deleted." />
+  <text id="teamEstimatedXpMin" name="Estimated team XP/min" />
   <text id="teamLimitReached" name="You can save up to 10 teams." />
   <text id="teamName" name="Team name" />
   <text id="teamRewardsGold" name="Team rewards if Gold" />
   <text id="teamSaved" name="Team saved locally." />
+  <text id="toFashionDex" name="To FashionDex" />
   <text id="totalCookTime" name="Total Cook Time" />
   <text id="totalStoveHours" name="Total stove-hours" />
   <text id="type" name="Type" />
@@ -280,6 +328,8 @@
   <text id="veryLongNote" name="Best XP/min between 12 h 1 min and 23 h." />
   <text id="veryLongPlan" name="Very long" />
   <text id="veryLongWord" name="very long" />
+  <text id="viewDisplay" name="Display" />
+  <text id="waiters" name="Waiters" />
   <text id="workload" name="Workload" />
   <text id="workloadEqual" name="Equal" />
   <text id="workloadHigh" name="High" />
@@ -292,52 +342,4 @@
   <text id="xpPlansNote" name="Best level up plans to base your needs and availability." />
   <text id="xpPlansTitle" name="XP Needed Plans" />
   <text id="xpUpper" name="XP" />
-  <text id="toFashionDex" name="To FashionDex" />
-  <text id="fashionDexDescription" name="Open Cappuccino Fashion FashionDex." />
-  <text id="profileLevelUnlocksTitle" name="Level {0} unlocks:" />
-  <text id="fridges" name="Fridges" />
-  <text id="counters" name="Counters" />
-  <text id="waiters" name="Waiters" />
-  <text id="instantCookings" name="Instant cookings" />
-  <text id="masteryCompletionProgress" name="Mastery completion progress:" />
-  <text id="applyFancyBoost" name="Apply Fancy?" />
-  <text id="recommendVeryLong" name="Recommend very long dishes (over 48h)?" />
-  <text id="filterCategory" name="Filter by category" />
-  <text id="allCategories" name="All categories" />
-  <text id="viewDisplay" name="Display" />
-  <text id="listView" name="List" />
-  <text id="gridView" name="Grid" />
-  <text id="compactView" name="Compact view" />
-  <text id="gameOrder" name="Game cookbook order (partially verified)" />
-  <text id="coopEligibleOnly" name="Only co-ops my team can cook" />
-  <text id="coopSortLabel" name="Sort co-ops" />
-  <text id="coopSortNumber" name="Co-op number" />
-  <text id="coopSortMaxLevel" name="Highest required dish level" />
-  <text id="coopSortGoldXpMin" name="Gold XP/min" />
-  <text id="myDexCoopTitle" name="Best co-ops for leveling" />
-  <text id="coopGoldOnlyNote" name="Gold reward XP ÷ Gold deadline; cooking XP excluded." />
-  <text id="coopScopeLabel" name="Team coverage" />
-  <text id="coopCanCookAll" name="Team can cook every required dish" />
-  <text id="coopCanCookSome" name="Team can cook at least one required dish" />
-  <text id="highestRequiredLevel" name="Highest required level" />
-  <text id="goldXpMin" name="Gold XP/min" />
-  <text id="noEligibleCoops" name="No compatible co-ops for the selected team." />
-  <text id="teamEstimatedXpMin" name="Estimated team XP/min" />
-  <text id="personalEstimatedXpMin" name="Estimated chef XP/min" />
-  <text id="coopEstimateDisclaimer" name="Estimates use assigned cooking time and predicted medal; actual game progress may differ." />
-  <text id="playCafe" name="Play Cappuccino Café" />
-  <text id="category0" name="Dessert" />
-  <text id="category1" name="Main dish" />
-  <text id="category2" name="Soup" />
-  <text id="category3" name="Salad" />
-  <text id="category4" name="Vegetarian" />
-  <text id="category5" name="Snack" />
-  <text id="fullTagOver48h" name="Very long (48h+)" />
-  <text id="bestOver48h" name="Best 48h+" />
-  <text id="over48hWord" name="over 48h" />
-  <text id="over48hPlan" name="48h+ plan" />
-  <text id="over48hNote" name="Original cooking duration over 48 hours." />
-  <text id="holidayMasteryCompletionProgress" name="Mastery completion progress (holiday):" />
-  <text id="coopsToLevelUp" name="Gold completions to level up" />
-  <text id="cookableDishes" name="Dishes you can cook" />
 </dishdex>

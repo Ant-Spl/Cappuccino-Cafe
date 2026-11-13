@@ -4,7 +4,9 @@
   <text id="activeNote" name="Bästa XP/min: 10 minuter eller mindre." />
   <text id="activePlan" name="Aktiv" />
   <text id="activeWord" name="aktiv" />
+  <text id="allCategories" name="Alla kategorier" />
   <text id="alreadyMasteredBest" name="✓ Bästa rätt — Bemästringsnivå!" />
+  <text id="applyFancyBoost" name="Använd Fancy?" />
   <text id="assignedDishes" name="Tilldelade rätter" />
   <text id="assignmentComingSoon" name="Tilldelning: Nästa fas." />
   <text id="assignmentCopied" name="Tilldelning kopierad!" />
@@ -23,6 +25,7 @@
   <text id="bestFast" name="Bästa snabb" />
   <text id="bestLong" name="Bästa lång" />
   <text id="bestMedium" name="Bästa medel" />
+  <text id="bestOver48h" name="Bäst över 48 timmar" />
   <text id="bestPortionsTitle" name="Bästa rätter (Portioner)" />
   <text id="bestProfitTitle" name="Bästa Rätter (Vinst)" />
   <text id="bestShort" name="Bästa kort" />
@@ -40,6 +43,12 @@
   <text id="cannotCookDish" name="Kan inte laga" />
   <text id="cashReward" name="Cash" />
   <text id="category" name="Kategori" />
+  <text id="category0" name="Dessert" />
+  <text id="category1" name="Huvudrätt" />
+  <text id="category2" name="Soppa" />
+  <text id="category3" name="Sallad" />
+  <text id="category4" name="Vegetariskt" />
+  <text id="category5" name="Mellanmål" />
   <text id="chef" name="Kock" />
   <text id="chefCookTime" name="Cook tid" />
   <text id="chefFallback" name="Kock" />
@@ -49,10 +58,17 @@
   <text id="clearChef" name="Clear chef" />
   <text id="clearCookTime" name="Clear cook tid" />
   <text id="clearMargin" name="Clear margin" />
+  <text id="compactView" name="Kompakt vy" />
   <text id="completeDishList" name="Komplett rätt lista" />
   <text id="confirmDelete" name="Radera local data: Profil, Bemästringar, Co-Op Lag." />
   <text id="confirmDeleteTeam" name="Radera Lag?" />
   <text id="contributionWarning" name="Kock: ≥ 1 krävda rätt = rewards." />
+  <text id="cookableDishes" name="Rätter du kan laga" />
+  <text id="coopCanCookAll" name="Laget kan laga alla rätter" />
+  <text id="coopCanCookSome" name="Laget kan laga minst en rätt" />
+  <text id="coopEligibleOnly" name="Bara co-ops som mitt lag kan laga" />
+  <text id="coopEstimateDisclaimer" name="Uppskattningar baseras på tilldelad tillagningstid och förväntad medalj; verkliga framsteg kan skilja sig." />
+  <text id="coopGoldOnlyNote" name="XP från guldbelöningen ÷ guldgränsen; matlagnings-XP ingår inte." />
   <text id="coopListNote" name="Co-Op: Bläddra + plan." />
   <text id="coopListTitle" name="Co-Op Planner" />
   <text id="coopNumber" name="Co-Op" />
@@ -60,14 +76,21 @@
   <text id="coopPlannerEyebrow" name="Lag cooking" />
   <text id="coopPlannerTitle" name="Co-Op Planner" />
   <text id="coopRequirements" name="Krävda rätter" />
+  <text id="coopScopeLabel" name="Lagets möjligheter" />
   <text id="coopSearch" name="Sök co-op" />
   <text id="coopSearchPlaceholder" name="Sök co-op..." />
   <text id="coopShortDescription" name="Beskrivning" />
+  <text id="coopSortGoldXpMin" name="Guld-XP/min" />
+  <text id="coopSortLabel" name="Sortera co-ops" />
+  <text id="coopSortMaxLevel" name="Högsta nivå som krävs för en rätt" />
+  <text id="coopSortNumber" name="Co-op-nummer" />
   <text id="coopTeamNote" name="Max 5 Kock; save up to 10 Lag." />
   <text id="coopTeamTitle" name="Co-Op Lag" />
+  <text id="coopsToLevelUp" name="Co-ops med guld till nästa nivå" />
   <text id="copyAssignment" name="Kopiera tilldelning" />
   <text id="cost" name="Kostnad" />
   <text id="couldNotLoadData" name="Kunde inte ladda Café-data." />
+  <text id="counters" name="Counters" />
   <text id="currentMastery" name="Nuvarande Bemästringsnivå" />
   <text id="darkTheme" name="Mörkt tema" />
   <text id="dataDeleted" name="Profil, Bemästringar, Co-Op Lag: radera." />
@@ -84,7 +107,6 @@
   <text id="dishesNeeded" name="Rätter Needed" />
   <text id="dishesReady" name="rätter ready" />
   <text id="dishesRequired" name="rätter krävda" />
-  <text id="masteryTotalForGold" name="Total: {0} rätter → Guld" />
   <text id="downloadData" name="Ladda ner data" />
   <text id="duration" name="Tid" />
   <text id="editGoldMasteries" name="Guld Bemästringar: edit" />
@@ -92,34 +114,46 @@
   <text id="effects" name="Effects" />
   <text id="estimatedWithTeam" name="Lag: estimate" />
   <text id="exclude" name="Exkludera" />
+  <text id="fashionDexDescription" name="Open Cappucciinga Fashion FashionDex." />
   <text id="fastNote" name="Bästa XP/min: 11 minuter – 1 timme." />
   <text id="fastPlan" name="Snabb" />
   <text id="fastWord" name="snabb" />
+  <text id="filterCategory" name="Filtrera efter kategori" />
+  <text id="fridges" name="Fridges" />
   <text id="fullDishDexDescription" name="DishDex: Komplett information." />
   <text id="fullDishDexTitle" name="Full DishDex" />
   <text id="fullTagChristmas" name="Jul" />
   <text id="fullTagEaster" name="Påsk" />
+  <text id="fullTagOver48h" name="Mycket lång (48 timmar+)" />
   <text id="fullTagSpecial" name="Special" />
+  <text id="gameOrder" name="Ordning i spelets kokbok (delvis verifierad)" />
   <text id="gold" name="Guld" />
   <text id="goldDeadline" name="Guld deadline" />
   <text id="goldMasteries" name="Guld masteries" />
   <text id="goldMasteriesNote" name="Guld Bemästringsnivå = shorter cooking time." />
   <text id="goldReward" name="Guld" />
+  <text id="goldXpMin" name="Guld-XP/min" />
+  <text id="gridView" name="Rutnät" />
+  <text id="hideSection" name="Dölj" />
+  <text id="highestRequiredLevel" name="Högsta nivå som krävs" />
   <text id="holiday" name="Högtid" />
   <text id="holidayActive" name="Högtid: Active" />
   <text id="holidayDishes" name="Högtidsrätter" />
-  <text id="holidayDishesNote" name="Högtidsrätter: separate. Auto = Jul + Påsk." />
+  <text id="holidayDishesNote" name="Aktivera Auto för att ta med dessa rätter automatiskt under rätt högtider." />
   <text id="holidayInactive" name="Högtid: Inaktiv" />
+  <text id="holidayMasteryCompletionProgress" name="Framsteg i mästerskap (högtidsrätter):" />
   <text id="holidayMode" name="Inkludera högtidsmat?" />
-  <text id="includeSpecialDishes" name="Inkludera specialrätter?" />
   <text id="hoursShort" name="h" />
   <text id="image" name="Bild" />
   <text id="impossibleMissingUnlock" name="Omöjligt: Rätt unlock missing" />
   <text id="include" name="Inkludera" />
+  <text id="includeSpecialDishes" name="Inkludera specialrätter?" />
   <text id="ingredientCost" name="Ingredienskostnad" />
   <text id="ingredientDetails" name="Ingredienser" />
+  <text id="instantCookings" name="Instant cookings" />
   <text id="languageLabel" name="🌐 Språk" />
   <text id="level" name="Nivå" />
+  <text id="listView" name="Lista" />
   <text id="loadData" name="Ladda data" />
   <text id="loadTeam" name="Ladda team" />
   <text id="loadingXml" name="Laddaing Café XML..." />
@@ -139,9 +173,11 @@
   <text id="masteriesEyebrow" name="Rätt perks" />
   <text id="mastery" name="Bemästringsnivå" />
   <text id="masteryBookPage" name="Page" />
+  <text id="masteryCompletionProgress" name="Bemästringsnivå progress:" />
   <text id="masteryCookbook" name="Cook Book (Legacy)" />
   <text id="masteryListHorizontal" name="List (horizontal reader)" />
   <text id="masteryListVertical" name="List (vertical reader)" />
+  <text id="masteryTotalForGold" name="Total: {0} rätter → Guld" />
   <text id="masteryView" name="View" />
   <text id="maxMembers" name="Max members" />
   <text id="maxRewardsYourLevel" name="Max rewards (nivå)" />
@@ -153,6 +189,7 @@
   <text id="metricXpMin" name="XP/min" />
   <text id="minimumDishLevel" name="Minimum rätt level" />
   <text id="minutesShort" name="min" />
+  <text id="myDexCoopTitle" name="Bästa co-ops för att gå upp i nivå" />
   <text id="myDexDescription" name="MyDex: Nivå, XP, tillgänglig tid." />
   <text id="myDexHint" name="Data → Rekommendation." />
   <text id="myDexSettings" name="MyDex Settings" />
@@ -185,6 +222,7 @@
   <text id="noDishMatchesPlan" name="Inga rätt matches plan." />
   <text id="noDishesAvailable" name="Inga rätter" />
   <text id="noEligibleChef" name="Inga Kock: krävda rätter." />
+  <text id="noEligibleCoops" name="Inga passande co-ops för detta lag." />
   <text id="noGoldMasteriesSelected" name="Inga Guld Bemästringar selected." />
   <text id="noMasteryRows" name="Inga rätter in search." />
   <text id="noPortionRecommendations" name="Inga Rekommendation: Portioner." />
@@ -196,9 +234,14 @@
   <text id="noXpRecommendations" name="Inga Rekommendation: XP." />
   <text id="notDoable" name="Inte möjligt" />
   <text id="note" name="Ingate" />
+  <text id="over48hNote" name="Ursprunglig tillagningstid över 48 timmar." />
+  <text id="over48hPlan" name="48-timmarsplan" />
+  <text id="over48hWord" name="över 48 timmar" />
+  <text id="personalEstimatedXpMin" name="Uppskattad kock-XP/min" />
   <text id="personalRecommendations" name="Personal recommendations" />
   <text id="plan" name="Plan" />
   <text id="planCoop" name="Planera!" />
+  <text id="playCafe" name="Spela Cappuccino Café!" />
   <text id="playerLevel" name="Player Nivå" />
   <text id="playerLevelShort" name="Player level" />
   <text id="portions" name="Portioner" />
@@ -207,15 +250,17 @@
   <text id="predictedRewards" name="Lag belöningar at predicted status" />
   <text id="predictedStatus" name="Predicted Status" />
   <text id="previousPage" name="← Föregående" />
+  <text id="profileLevelUnlocksTitle" name="Nivå {0} unlocks:" />
   <text id="profileSaved" name="Profil sparad locally." />
   <text id="profileSettingsNote" name="Nivå → Tillgängliga spisar. MyDex: edit later." />
   <text id="profileSettingsTitle" name="Kockprofil" />
   <text id="profit" name="Vinst" />
   <text id="profitLower" name="vinst" />
   <text id="profitMin" name="Vinst/min" />
+  <text id="recommendVeryLong" name="Rekommendera mycket långa rätter (över 48 timmar)?" />
   <text id="recommendation" name="Rekommendation" />
-  <text id="recommendedMasteriesNote" name="Bästa Bemästringar based on Sammanfattning av bästa." />
-  <text id="recommendedMasteriesTitle" name="Rekommenderad Bemästringar" />
+  <text id="recommendedMasteriesNote" name="De bästa rätterna för din nästa mästerskapsnivå!" />
+  <text id="recommendedMasteriesTitle" name="Rekommenderade nästa mästerskapsnivåer" />
   <text id="recommendedStar" name="Rekommenderad Stjärna" />
   <text id="regular" name="Vanlig" />
   <text id="requirement" name="Krav" />
@@ -235,6 +280,7 @@
   <text id="shortPlan" name="Kort" />
   <text id="shortWord" name="kort" />
   <text id="showIngredients" name="Visa ingredienser?" />
+  <text id="showSection" name="Visa" />
   <text id="silver" name="Silver" />
   <text id="silverDeadline" name="Silver deadline" />
   <text id="sortBy" name="Sorteraera efter" />
@@ -266,10 +312,12 @@
   <text id="targetShort" name="Mål" />
   <text id="targetTime" name="Mål tid" />
   <text id="teamDeleted" name="Lag deleted." />
+  <text id="teamEstimatedXpMin" name="Uppskattad lag-XP/min" />
   <text id="teamLimitReached" name="Max 10 Lag." />
   <text id="teamName" name="Lag name" />
   <text id="teamRewardsGold" name="Lag: rewards if Guld" />
   <text id="teamSaved" name="Lag sparad locally." />
+  <text id="toFashionDex" name="To FashionDex" />
   <text id="totalCookTime" name="Total Cook Tid" />
   <text id="totalStoveHours" name="Total stove-timmar" />
   <text id="type" name="Type" />
@@ -280,6 +328,8 @@
   <text id="veryLongNote" name="Bästa XP/min: 12 h 1 min – 23 h." />
   <text id="veryLongPlan" name="Mycket lång" />
   <text id="veryLongWord" name="mycket lång" />
+  <text id="viewDisplay" name="Visning" />
+  <text id="waiters" name="Waiters" />
   <text id="workload" name="Arbetsbörda" />
   <text id="workloadEqual" name="Jämn" />
   <text id="workloadHigh" name="Hög" />
@@ -292,52 +342,4 @@
   <text id="xpPlansNote" name="Level-up plans: needs + availability." />
   <text id="xpPlansTitle" name="XP Needed Plans" />
   <text id="xpUpper" name="XP" />
-  <text id="toFashionDex" name="To FashionDex" />
-  <text id="fashionDexDescription" name="Open Cappucciinga Fashion FashionDex." />
-  <text id="profileLevelUnlocksTitle" name="Nivå {0} unlocks:" />
-  <text id="fridges" name="Fridges" />
-  <text id="counters" name="Counters" />
-  <text id="waiters" name="Waiters" />
-  <text id="instantCookings" name="Instant cookings" />
-  <text id="masteryCompletionProgress" name="Bemästringsnivå progress:" />
-  <text id="applyFancyBoost" name="Använd Fancy?" />
-  <text id="recommendVeryLong" name="Rekommendera mycket långa rätter (över 48 timmar)?" />
-  <text id="filterCategory" name="Filtrera efter kategori" />
-  <text id="allCategories" name="Alla kategorier" />
-  <text id="viewDisplay" name="Visning" />
-  <text id="listView" name="Lista" />
-  <text id="gridView" name="Rutnät" />
-  <text id="compactView" name="Kompakt vy" />
-  <text id="gameOrder" name="Ordning i spelets kokbok (delvis verifierad)" />
-  <text id="coopEligibleOnly" name="Bara co-ops som mitt lag kan laga" />
-  <text id="coopSortLabel" name="Sortera co-ops" />
-  <text id="coopSortNumber" name="Co-op-nummer" />
-  <text id="coopSortMaxLevel" name="Högsta nivå som krävs för en rätt" />
-  <text id="coopSortGoldXpMin" name="Guld-XP/min" />
-  <text id="myDexCoopTitle" name="Bästa co-ops för att gå upp i nivå" />
-  <text id="coopGoldOnlyNote" name="XP från guldbelöningen ÷ guldgränsen; matlagnings-XP ingår inte." />
-  <text id="coopScopeLabel" name="Lagets möjligheter" />
-  <text id="coopCanCookAll" name="Laget kan laga alla rätter" />
-  <text id="coopCanCookSome" name="Laget kan laga minst en rätt" />
-  <text id="highestRequiredLevel" name="Högsta nivå som krävs" />
-  <text id="goldXpMin" name="Guld-XP/min" />
-  <text id="noEligibleCoops" name="Inga passande co-ops för detta lag." />
-  <text id="teamEstimatedXpMin" name="Uppskattad lag-XP/min" />
-  <text id="personalEstimatedXpMin" name="Uppskattad kock-XP/min" />
-  <text id="coopEstimateDisclaimer" name="Uppskattningar baseras på tilldelad tillagningstid och förväntad medalj; verkliga framsteg kan skilja sig." />
-  <text id="playCafe" name="Spela Cappuccino Café" />
-  <text id="category0" name="Dessert" />
-  <text id="category1" name="Huvudrätt" />
-  <text id="category2" name="Soppa" />
-  <text id="category3" name="Sallad" />
-  <text id="category4" name="Vegetariskt" />
-  <text id="category5" name="Mellanmål" />
-  <text id="fullTagOver48h" name="Mycket lång (48 timmar+)" />
-  <text id="bestOver48h" name="Bäst över 48 timmar" />
-  <text id="over48hWord" name="över 48 timmar" />
-  <text id="over48hPlan" name="48-timmarsplan" />
-  <text id="over48hNote" name="Ursprunglig tillagningstid över 48 timmar." />
-  <text id="holidayMasteryCompletionProgress" name="Framsteg i mästerskap (högtidsrätter):" />
-  <text id="coopsToLevelUp" name="Co-ops med guld till nästa nivå" />
-  <text id="cookableDishes" name="Rätter du kan laga" />
 </dishdex>

@@ -4,7 +4,9 @@
   <text id="activeNote" name="Paras XP/min: 10 minuuttia tai vähemmän." />
   <text id="activePlan" name="Aktiivinen" />
   <text id="activeWord" name="aktiivinen" />
+  <text id="allCategories" name="Kaikki luokat" />
   <text id="alreadyMasteredBest" name="✓ Paras ruoka — Tähtitaso!" />
+  <text id="applyFancyBoost" name="Käytä Fancyä?" />
   <text id="assignedDishes" name="Määrätyt ruoat" />
   <text id="assignmentComingSoon" name="Jako: Seuraava vaihe." />
   <text id="assignmentCopied" name="Jako kopioitu!" />
@@ -23,6 +25,7 @@
   <text id="bestFast" name="Paras eipea" />
   <text id="bestLong" name="Paras pitkä" />
   <text id="bestMedium" name="Paras keskipitkä" />
+  <text id="bestOver48h" name="Paras yli 48 h" />
   <text id="bestPortionsTitle" name="Paras ruoat (Aneikset)" />
   <text id="bestProfitTitle" name="Paras Ruoat (Voitto)" />
   <text id="bestShort" name="Paras lyhyt" />
@@ -40,6 +43,12 @@
   <text id="cannotCookDish" name="Ei voi kokata" />
   <text id="cashReward" name="Raha" />
   <text id="category" name="Kategoria" />
+  <text id="category0" name="Jälkiruoka" />
+  <text id="category1" name="Pääruoka" />
+  <text id="category2" name="Keitto" />
+  <text id="category3" name="Salaatti" />
+  <text id="category4" name="Kasvisruoka" />
+  <text id="category5" name="Välipala" />
   <text id="chef" name="Kokki" />
   <text id="chefCookTime" name="Cook time" />
   <text id="chefFallback" name="Kokki" />
@@ -49,10 +58,17 @@
   <text id="clearChef" name="Clear chef" />
   <text id="clearCookTime" name="Clear cook time" />
   <text id="clearMargin" name="Clear margin" />
+  <text id="compactView" name="Tiivis näkymä" />
   <text id="completeDishList" name="Täydellinen ruokalistaa" />
   <text id="confirmDelete" name="Delete local data: Profile, Masteries, Co-Op Team." />
   <text id="confirmDeleteTeam" name="Delete Team?" />
   <text id="contributionWarning" name="Jokaisen kokin täytyy valmistaa vähintään yksi vaadittu ruoka saadakseen palkintoja." />
+  <text id="cookableDishes" name="Ruoat, joita voit valmistaa" />
+  <text id="coopCanCookAll" name="Tiimi pystyy valmistamaan kaikki ruoat" />
+  <text id="coopCanCookSome" name="Tiimi pystyy valmistamaan ainakin yhden ruoan" />
+  <text id="coopEligibleOnly" name="Vain yhteistyötehtävät, joihin tiimini pystyy" />
+  <text id="coopEstimateDisclaimer" name="Arviot perustuvat jaettuihin valmistusaikoihin ja ennustettuun mitaliin; todellinen edistyminen voi poiketa." />
+  <text id="coopGoldOnlyNote" name="Kultapalkinnon XP ÷ kultaraja; valmistuksen XP ei mukana." />
   <text id="coopListNote" name="Co-Op: Selaa + suunnitelma." />
   <text id="coopListTitle" name="Co-Op Suunnitelmaner" />
   <text id="coopNumber" name="Co-Op" />
@@ -60,14 +76,21 @@
   <text id="coopPlannerEyebrow" name="Team cooking" />
   <text id="coopPlannerTitle" name="Co-Op Suunnitelmaner" />
   <text id="coopRequirements" name="Vaaditut ruoat" />
+  <text id="coopScopeLabel" name="Tiimin osaaminen" />
   <text id="coopSearch" name="Etsi Co-Op" />
   <text id="coopSearchPlaceholder" name="Etsi Co-Op..." />
   <text id="coopShortDescription" name="Kuvaus" />
+  <text id="coopSortGoldXpMin" name="Kulta-XP/min" />
+  <text id="coopSortLabel" name="Lajittele yhteistyötehtävät" />
+  <text id="coopSortMaxLevel" name="Ruoan korkein vaadittu taso" />
+  <text id="coopSortNumber" name="Yhteistyötehtävän numero" />
   <text id="coopTeamNote" name="Max 5 Kokki; save up to 10 Team." />
   <text id="coopTeamTitle" name="Co-Op Team" />
+  <text id="coopsToLevelUp" name="Kultatason co-op-suorituksia seuraavaan tasoon" />
   <text id="copyAssignment" name="Copy jako" />
   <text id="cost" name="Hinta" />
   <text id="couldNotLoadData" name="Café-dataa ei voitu ladata." />
+  <text id="counters" name="Tiskit" />
   <text id="currentMastery" name="Nykyinen mestaruus" />
   <text id="darkTheme" name="Tumma teema" />
   <text id="dataDeleted" name="Profile, Masteries, Co-Op Team: deleted." />
@@ -84,7 +107,6 @@
   <text id="dishesNeeded" name="Ruoat Needed" />
   <text id="dishesReady" name="ruoat ready" />
   <text id="dishesRequired" name="ruoat vaaditut" />
-  <text id="masteryTotalForGold" name="Total: {0} ruoat → Kulta" />
   <text id="downloadData" name="Lataa data" />
   <text id="duration" name="Kesto" />
   <text id="editGoldMasteries" name="Kulta Masteries: edit" />
@@ -92,34 +114,46 @@
   <text id="effects" name="Vaikutukset" />
   <text id="estimatedWithTeam" name="Team: estimate" />
   <text id="exclude" name="Exclude" />
+  <text id="fashionDexDescription" name="Open Cappucciei Fashion FashionDex." />
   <text id="fastNote" name="Paras XP/min: 11 minuuttia – 1 tunti." />
   <text id="fastPlan" name="Nopea" />
   <text id="fastWord" name="nopea" />
+  <text id="filterCategory" name="Suodata luokan mukaan" />
+  <text id="fridges" name="Jääkaapit" />
   <text id="fullDishDexDescription" name="Avaa täydellinen DishDex kaikilla tiedoilla." />
   <text id="fullDishDexTitle" name="Full DishDex" />
   <text id="fullTagChristmas" name="Joulu" />
   <text id="fullTagEaster" name="Pääsiäinen" />
+  <text id="fullTagOver48h" name="Erittäin pitkä (48 h+)" />
   <text id="fullTagSpecial" name="Erikoinen" />
+  <text id="gameOrder" name="Pelin keittokirjan järjestys (osittain tarkistettu)" />
   <text id="gold" name="Kulta" />
   <text id="goldDeadline" name="Kultaraja" />
   <text id="goldMasteries" name="Kultamestaruudet" />
   <text id="goldMasteriesNote" name="Kulta Tähtitaso = shorter cooking time." />
   <text id="goldReward" name="Kulta" />
+  <text id="goldXpMin" name="Kulta-XP/min" />
+  <text id="gridView" name="Ruudukko" />
+  <text id="hideSection" name="Piilota" />
+  <text id="highestRequiredLevel" name="Korkein vaadittu taso" />
   <text id="holiday" name="Juhla" />
   <text id="holidayActive" name="Juhla: Aktiivinen" />
   <text id="holidayDishes" name="Juhlaruoat" />
-  <text id="holidayDishesNote" name="Juhlaruoat: separate. Auto = Joulu + Pääsiäinen." />
+  <text id="holidayDishesNote" name="Ota automaattinen tila käyttöön, jotta nämä ruoat lisätään oikeaan juhla-aikaan." />
   <text id="holidayInactive" name="Juhla: Ei aktiivinen" />
+  <text id="holidayMasteryCompletionProgress" name="Mestaruuden edistyminen (juhlaruoat):" />
   <text id="holidayMode" name="Sisällytä juhlaruoat?" />
-  <text id="includeSpecialDishes" name="Sisällytä erikoisruoat?" />
   <text id="hoursShort" name="h" />
   <text id="image" name="Kuva" />
   <text id="impossibleMissingUnlock" name="Mahdoton: Ruoka unlock missing" />
   <text id="include" name="Include" />
+  <text id="includeSpecialDishes" name="Sisällytä erikoisruoat?" />
   <text id="ingredientCost" name="Ainesten hinta" />
   <text id="ingredientDetails" name="Ainekset" />
+  <text id="instantCookings" name="Pikakokkaukset" />
   <text id="languageLabel" name="🌐 Kieli" />
   <text id="level" name="Taso" />
+  <text id="listView" name="Luettelo" />
   <text id="loadData" name="Lataa data" />
   <text id="loadTeam" name="Lataa tiimi" />
   <text id="loadingXml" name="Loading Café XML..." />
@@ -139,9 +173,11 @@
   <text id="masteriesEyebrow" name="Ruoka perks" />
   <text id="mastery" name="Tähtitaso" />
   <text id="masteryBookPage" name="Sivu" />
+  <text id="masteryCompletionProgress" name="Tähtitaso progress:" />
   <text id="masteryCookbook" name="Cook Book (Legacy)" />
   <text id="masteryListHorizontal" name="List (horizontal reader)" />
   <text id="masteryListVertical" name="List (vertical reader)" />
+  <text id="masteryTotalForGold" name="Total: {0} ruoat → Kulta" />
   <text id="masteryView" name="Näkymä" />
   <text id="maxMembers" name="Maks. jäsenet" />
   <text id="maxRewardsYourLevel" name="Max rewards (taso)" />
@@ -153,6 +189,7 @@
   <text id="metricXpMin" name="XP/min" />
   <text id="minimumDishLevel" name="Minimi ruoka level" />
   <text id="minutesShort" name="min" />
+  <text id="myDexCoopTitle" name="Parhaat yhteistyötehtävät tason nostoon" />
   <text id="myDexDescription" name="Avaa henkilökohtainen DishDex tasosi, XP:n ja käytettävissä olevan aikasi mukaan." />
   <text id="myDexHint" name="Syötä tietosi henkilökohtaisia suosituksia varten." />
   <text id="myDexSettings" name="MyDex Settings" />
@@ -185,6 +222,7 @@
   <text id="noDishMatchesPlan" name="Ei ruoka matches plan." />
   <text id="noDishesAvailable" name="Ei ruoat" />
   <text id="noEligibleChef" name="Ei Kokki: vaaditut ruoat." />
+  <text id="noEligibleCoops" name="Ei sopivia yhteistyötehtäviä tälle tiimille." />
   <text id="noGoldMasteriesSelected" name="Ei Kulta Masteries selected." />
   <text id="noMasteryRows" name="Ei ruoat in search." />
   <text id="noPortionRecommendations" name="Ei Suositus: Annokset." />
@@ -196,9 +234,14 @@
   <text id="noXpRecommendations" name="Ei Suositus: XP." />
   <text id="notDoable" name="Ei onnistu" />
   <text id="note" name="Huomio" />
+  <text id="over48hNote" name="Alkuperäinen valmistusaika yli 48 tuntia." />
+  <text id="over48hPlan" name="48 h+ -suunnitelma" />
+  <text id="over48hWord" name="yli 48 h" />
+  <text id="personalEstimatedXpMin" name="Kokin arvioitu XP/min" />
   <text id="personalRecommendations" name="Personal recommendations" />
   <text id="plan" name="Suunnitelma" />
   <text id="planCoop" name="Suunnittele!" />
+  <text id="playCafe" name="Pelaa Cappuccino Caféa!" />
   <text id="playerLevel" name="Pelaajan taso" />
   <text id="playerLevelShort" name="Player level" />
   <text id="portions" name="Aneikset" />
@@ -207,15 +250,17 @@
   <text id="predictedRewards" name="Tiimin palkineit at predicted status" />
   <text id="predictedStatus" name="Predicted Status" />
   <text id="previousPage" name="← Edellinen" />
+  <text id="profileLevelUnlocksTitle" name="Taso {0} unlocks:" />
   <text id="profileSaved" name="Profiili tallennettu paikallisesti." />
   <text id="profileSettingsNote" name="Tasosi auttaa työkalua asettamaan nykyisen käytettävissä olevien liesien määrän. Voit muuttaa tätä myöhemmin MyDexissä." />
   <text id="profileSettingsTitle" name="Kokin profiili" />
   <text id="profit" name="Voitto" />
   <text id="profitLower" name="voitto" />
   <text id="profitMin" name="Voitto/min" />
+  <text id="recommendVeryLong" name="Suositellaanko erittäin pitkiä ruokia (yli 48 h)?" />
   <text id="recommendation" name="Suositus" />
-  <text id="recommendedMasteriesNote" name="Paras Masteries based on Parhaiden yhteenveto." />
-  <text id="recommendedMasteriesTitle" name="Suositellut mestaruudet" />
+  <text id="recommendedMasteriesNote" name="Parhaat ruoat seuraavaa mestaruustasoasi varten!" />
+  <text id="recommendedMasteriesTitle" name="Suositellut seuraavat mestaruustasot" />
   <text id="recommendedStar" name="Suositeltu tähti" />
   <text id="regular" name="Tavallinen" />
   <text id="requirement" name="Vaatimus" />
@@ -235,6 +280,7 @@
   <text id="shortPlan" name="Lyhyt" />
   <text id="shortWord" name="lyhyt" />
   <text id="showIngredients" name="Näytä ainekset?" />
+  <text id="showSection" name="Näytä" />
   <text id="silver" name="Hopea" />
   <text id="silverDeadline" name="Hopearaja" />
   <text id="sortBy" name="Lajittele" />
@@ -266,10 +312,12 @@
   <text id="targetShort" name="Tavoite" />
   <text id="targetTime" name="Tavoiteaika" />
   <text id="teamDeleted" name="Tiimi poistettu." />
+  <text id="teamEstimatedXpMin" name="Tiimin arvioitu XP/min" />
   <text id="teamLimitReached" name="Max 10 Team." />
   <text id="teamName" name="Tiimin nimi" />
   <text id="teamRewardsGold" name="Team: rewards if Kulta" />
   <text id="teamSaved" name="Tiimi tallennettu paikallisesti." />
+  <text id="toFashionDex" name="To FashionDex" />
   <text id="totalCookTime" name="Kokonaiskokkausaika" />
   <text id="totalStoveHours" name="Liesitunnit yhteensä" />
   <text id="type" name="Tyyppi" />
@@ -280,6 +328,8 @@
   <text id="veryLongNote" name="Paras XP/min: 12 h 1 min – 23 h." />
   <text id="veryLongPlan" name="Erittäin pitkä" />
   <text id="veryLongWord" name="erittäin pitkä" />
+  <text id="viewDisplay" name="Näkymä" />
+  <text id="waiters" name="Tarjoilijat" />
   <text id="workload" name="Työmäärä" />
   <text id="workloadEqual" name="Tasainen" />
   <text id="workloadHigh" name="Korkea" />
@@ -292,52 +342,4 @@
   <text id="xpPlansNote" name="Parhaat level-up-suunnitelmat tarpeidesi ja aikasi mukaan." />
   <text id="xpPlansTitle" name="XP Needed Suunnitelmas" />
   <text id="xpUpper" name="XP" />
-  <text id="toFashionDex" name="To FashionDex" />
-  <text id="fashionDexDescription" name="Open Cappucciei Fashion FashionDex." />
-  <text id="profileLevelUnlocksTitle" name="Taso {0} unlocks:" />
-  <text id="fridges" name="Jääkaapit" />
-  <text id="counters" name="Tiskit" />
-  <text id="waiters" name="Tarjoilijat" />
-  <text id="instantCookings" name="Pikakokkaukset" />
-  <text id="masteryCompletionProgress" name="Tähtitaso progress:" />
-  <text id="applyFancyBoost" name="Käytä Fancyä?" />
-  <text id="recommendVeryLong" name="Suositellaanko erittäin pitkiä ruokia (yli 48 h)?" />
-  <text id="filterCategory" name="Suodata luokan mukaan" />
-  <text id="allCategories" name="Kaikki luokat" />
-  <text id="viewDisplay" name="Näkymä" />
-  <text id="listView" name="Luettelo" />
-  <text id="gridView" name="Ruudukko" />
-  <text id="compactView" name="Tiivis näkymä" />
-  <text id="gameOrder" name="Pelin keittokirjan järjestys (osittain tarkistettu)" />
-  <text id="coopEligibleOnly" name="Vain yhteistyötehtävät, joihin tiimini pystyy" />
-  <text id="coopSortLabel" name="Lajittele yhteistyötehtävät" />
-  <text id="coopSortNumber" name="Yhteistyötehtävän numero" />
-  <text id="coopSortMaxLevel" name="Ruoan korkein vaadittu taso" />
-  <text id="coopSortGoldXpMin" name="Kulta-XP/min" />
-  <text id="myDexCoopTitle" name="Parhaat yhteistyötehtävät tason nostoon" />
-  <text id="coopGoldOnlyNote" name="Kultapalkinnon XP ÷ kultaraja; valmistuksen XP ei mukana." />
-  <text id="coopScopeLabel" name="Tiimin osaaminen" />
-  <text id="coopCanCookAll" name="Tiimi pystyy valmistamaan kaikki ruoat" />
-  <text id="coopCanCookSome" name="Tiimi pystyy valmistamaan ainakin yhden ruoan" />
-  <text id="highestRequiredLevel" name="Korkein vaadittu taso" />
-  <text id="goldXpMin" name="Kulta-XP/min" />
-  <text id="noEligibleCoops" name="Ei sopivia yhteistyötehtäviä tälle tiimille." />
-  <text id="teamEstimatedXpMin" name="Tiimin arvioitu XP/min" />
-  <text id="personalEstimatedXpMin" name="Kokin arvioitu XP/min" />
-  <text id="coopEstimateDisclaimer" name="Arviot perustuvat jaettuihin valmistusaikoihin ja ennustettuun mitaliin; todellinen edistyminen voi poiketa." />
-  <text id="playCafe" name="Pelaa Cappuccino Caféa" />
-  <text id="category0" name="Jälkiruoka" />
-  <text id="category1" name="Pääruoka" />
-  <text id="category2" name="Keitto" />
-  <text id="category3" name="Salaatti" />
-  <text id="category4" name="Kasvisruoka" />
-  <text id="category5" name="Välipala" />
-  <text id="fullTagOver48h" name="Erittäin pitkä (48 h+)" />
-  <text id="bestOver48h" name="Paras yli 48 h" />
-  <text id="over48hWord" name="yli 48 h" />
-  <text id="over48hPlan" name="48 h+ -suunnitelma" />
-  <text id="over48hNote" name="Alkuperäinen valmistusaika yli 48 tuntia." />
-  <text id="holidayMasteryCompletionProgress" name="Mestaruuden edistyminen (juhlaruoat):" />
-  <text id="coopsToLevelUp" name="Kultatason co-op-suorituksia seuraavaan tasoon" />
-  <text id="cookableDishes" name="Ruoat, joita voit valmistaa" />
 </dishdex>

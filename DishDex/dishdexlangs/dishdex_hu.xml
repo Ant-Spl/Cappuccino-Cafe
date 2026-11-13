@@ -4,7 +4,9 @@
   <text id="activeNote" name="Legjobb XP/min: 10 perc vagy kevesebb." />
   <text id="activePlan" name="Aktív" />
   <text id="activeWord" name="aktív" />
+  <text id="allCategories" name="Összes kategória" />
   <text id="alreadyMasteredBest" name="✓ Legjobb étel — Csillag szint!" />
+  <text id="applyFancyBoost" name="Fancy alkalmazása?" />
   <text id="assignedDishes" name="Kiosztott ételek" />
   <text id="assignmentComingSoon" name="Kiosztás: Következő fázis." />
   <text id="assignmentCopied" name="Kiosztás másolva!" />
@@ -23,6 +25,7 @@
   <text id="bestFast" name="Legjobb gyors" />
   <text id="bestLong" name="Legjobb hosszú" />
   <text id="bestMedium" name="Legjobb közepes" />
+  <text id="bestOver48h" name="Legjobb 48 óra felett" />
   <text id="bestPortionsTitle" name="Legjobb ételek (Adagok)" />
   <text id="bestProfitTitle" name="Legjobb Ételek (Profit)" />
   <text id="bestShort" name="Legjobb rövid" />
@@ -40,6 +43,12 @@
   <text id="cannotCookDish" name="Nem főzhető" />
   <text id="cashReward" name="Cash" />
   <text id="category" name="Kategória" />
+  <text id="category0" name="Desszert" />
+  <text id="category1" name="Főétel" />
+  <text id="category2" name="Leves" />
+  <text id="category3" name="Saláta" />
+  <text id="category4" name="Vegetáriánus" />
+  <text id="category5" name="Harapnivaló" />
   <text id="chef" name="Séf" />
   <text id="chefCookTime" name="Cook idő" />
   <text id="chefFallback" name="Séf" />
@@ -49,10 +58,17 @@
   <text id="clearChef" name="Clear chef" />
   <text id="clearCookTime" name="Clear cook idő" />
   <text id="clearMargin" name="Clear margin" />
+  <text id="compactView" name="Kompakt nézet" />
   <text id="completeDishList" name="Teljes étel lista" />
   <text id="confirmDelete" name="Törlés local data: Profil, Mesterfokok, Co-Op Csapat." />
   <text id="confirmDeleteTeam" name="Törlés Csapat?" />
   <text id="contributionWarning" name="Séf: ≥ 1 szükséges étel = rewards." />
+  <text id="cookableDishes" name="Elkészíthető ételek" />
+  <text id="coopCanCookAll" name="A csapat minden szükséges ételt elkészíthet" />
+  <text id="coopCanCookSome" name="A csapat legalább egy ételt elkészíthet" />
+  <text id="coopEligibleOnly" name="Csak a csapat által elkészíthető kooperációk" />
+  <text id="coopEstimateDisclaimer" name="A becslés a kiosztott főzési időn és a várható érmen alapul; a tényleges haladás eltérhet." />
+  <text id="coopGoldOnlyNote" name="Aranyjutalom XP ÷ arany határideje; főzési XP nélkül." />
   <text id="coopListNote" name="Co-Op: Böngészés + terv." />
   <text id="coopListTitle" name="Co-Op Tervner" />
   <text id="coopNumber" name="Co-Op" />
@@ -60,14 +76,21 @@
   <text id="coopPlannerEyebrow" name="Csapat cooking" />
   <text id="coopPlannerTitle" name="Co-Op Tervner" />
   <text id="coopRequirements" name="Szükséges ételek" />
+  <text id="coopScopeLabel" name="Csapat képességei" />
   <text id="coopSearch" name="Keresés co-op" />
   <text id="coopSearchPlaceholder" name="Keresés co-op..." />
   <text id="coopShortDescription" name="Leírás" />
+  <text id="coopSortGoldXpMin" name="Arany XP/perc" />
+  <text id="coopSortLabel" name="Kooperációk rendezése" />
+  <text id="coopSortMaxLevel" name="Legmagasabb szükséges ételszint" />
+  <text id="coopSortNumber" name="Kooperáció száma" />
   <text id="coopTeamNote" name="Max 5 Séf; save up to 10 Csapat." />
   <text id="coopTeamTitle" name="Co-Op Csapat" />
+  <text id="coopsToLevelUp" name="Arany fokozatú kooperációk a következő szintig" />
   <text id="copyAssignment" name="Másolás kiosztás" />
   <text id="cost" name="Költség" />
   <text id="couldNotLoadData" name="Nem sikerült betölteni a Café adatokat." />
+  <text id="counters" name="Counters" />
   <text id="currentMastery" name="Jelenlegi Csillag szint" />
   <text id="darkTheme" name="Sötét téma" />
   <text id="dataDeleted" name="Profil, Mesterfokok, Co-Op Csapat: törlés." />
@@ -84,7 +107,6 @@
   <text id="dishesNeeded" name="Ételek Needed" />
   <text id="dishesReady" name="ételek ready" />
   <text id="dishesRequired" name="ételek szükséges" />
-  <text id="masteryTotalForGold" name="Total: {0} ételek → Arany" />
   <text id="downloadData" name="Letöltés data" />
   <text id="duration" name="Időtartam" />
   <text id="editGoldMasteries" name="Arany Mesterfokok: edit" />
@@ -92,34 +114,46 @@
   <text id="effects" name="Effects" />
   <text id="estimatedWithTeam" name="Csapat: estimate" />
   <text id="exclude" name="Kizárás" />
+  <text id="fashionDexDescription" name="Open Cappuccinincs Fashion FashionDex." />
   <text id="fastNote" name="Legjobb XP/min: 11 perc – 1 óra." />
   <text id="fastPlan" name="Gyors" />
   <text id="fastWord" name="gyors" />
+  <text id="filterCategory" name="Szűrés kategória szerint" />
+  <text id="fridges" name="Fridges" />
   <text id="fullDishDexDescription" name="DishDex: Teljes information." />
   <text id="fullDishDexTitle" name="Full DishDex" />
   <text id="fullTagChristmas" name="Karácsony" />
   <text id="fullTagEaster" name="Húsvét" />
+  <text id="fullTagOver48h" name="Nagyon hosszú (48 óra+)" />
   <text id="fullTagSpecial" name="Speciális" />
+  <text id="gameOrder" name="A játék szakácskönyvének sorrendje (részben ellenőrzött)" />
   <text id="gold" name="Arany" />
   <text id="goldDeadline" name="Arany deadline" />
   <text id="goldMasteries" name="Arany masteries" />
   <text id="goldMasteriesNote" name="Arany Csillag szint = shorter cooking time." />
   <text id="goldReward" name="Arany" />
+  <text id="goldXpMin" name="Arany XP/perc" />
+  <text id="gridView" name="Rács" />
+  <text id="hideSection" name="Elrejtés" />
+  <text id="highestRequiredLevel" name="Legmagasabb szükséges szint" />
   <text id="holiday" name="Ünnepi" />
   <text id="holidayActive" name="Ünnepi: Active" />
   <text id="holidayDishes" name="Ünnepi ételek" />
-  <text id="holidayDishesNote" name="Ünnepi ételek: separate. Auto = Karácsony + Húsvét." />
+  <text id="holidayDishesNote" name="Kapcsold be az automatikus módot, hogy ezek az ételek az ünnepi időszakban megjelenjenek." />
   <text id="holidayInactive" name="Ünnepi: Inaktív" />
+  <text id="holidayMasteryCompletionProgress" name="Mesterszint teljesítése (ünnepi ételek):" />
   <text id="holidayMode" name="Ünnepi ételek is?" />
-  <text id="includeSpecialDishes" name="Speciális ételek is?" />
   <text id="hoursShort" name="h" />
   <text id="image" name="Kép" />
   <text id="impossibleMissingUnlock" name="Lehetetlen: Étel unlock missing" />
   <text id="include" name="Benne legyen" />
+  <text id="includeSpecialDishes" name="Speciális ételek is?" />
   <text id="ingredientCost" name="Hozzávalók költsége" />
   <text id="ingredientDetails" name="Hozzávalók" />
+  <text id="instantCookings" name="Instant cookings" />
   <text id="languageLabel" name="🌐 Nyelv" />
   <text id="level" name="Szint" />
+  <text id="listView" name="Lista" />
   <text id="loadData" name="Betöltés data" />
   <text id="loadTeam" name="Betöltés team" />
   <text id="loadingXml" name="Betöltésing Café XML..." />
@@ -139,9 +173,11 @@
   <text id="masteriesEyebrow" name="Étel perks" />
   <text id="mastery" name="Csillag szint" />
   <text id="masteryBookPage" name="Page" />
+  <text id="masteryCompletionProgress" name="Csillag szint progress:" />
   <text id="masteryCookbook" name="Cook Book (Legacy)" />
   <text id="masteryListHorizontal" name="List (horizontal reader)" />
   <text id="masteryListVertical" name="List (vertical reader)" />
+  <text id="masteryTotalForGold" name="Total: {0} ételek → Arany" />
   <text id="masteryView" name="View" />
   <text id="maxMembers" name="Max members" />
   <text id="maxRewardsYourLevel" name="Max rewards (szint)" />
@@ -153,6 +189,7 @@
   <text id="metricXpMin" name="XP/min" />
   <text id="minimumDishLevel" name="Minimum étel level" />
   <text id="minutesShort" name="min" />
+  <text id="myDexCoopTitle" name="Legjobb kooperációk szintlépéshez" />
   <text id="myDexDescription" name="MyDex: Szint, XP, elérhető idő." />
   <text id="myDexHint" name="Data → Ajánlás." />
   <text id="myDexSettings" name="MyDex Settings" />
@@ -185,6 +222,7 @@
   <text id="noDishMatchesPlan" name="Nincs étel matches plan." />
   <text id="noDishesAvailable" name="Nincs ételek" />
   <text id="noEligibleChef" name="Nincs Séf: szükséges ételek." />
+  <text id="noEligibleCoops" name="Nincs megfelelő kooperáció ehhez a csapathoz." />
   <text id="noGoldMasteriesSelected" name="Nincs Arany Mesterfokok selected." />
   <text id="noMasteryRows" name="Nincs ételek in search." />
   <text id="noPortionRecommendations" name="Nincs Ajánlás: Adagok." />
@@ -196,9 +234,14 @@
   <text id="noXpRecommendations" name="Nincs Ajánlás: XP." />
   <text id="notDoable" name="Nem teljesíthető" />
   <text id="note" name="Nincste" />
+  <text id="over48hNote" name="Az eredeti főzési idő több mint 48 óra." />
+  <text id="over48hPlan" name="48 órás terv" />
+  <text id="over48hWord" name="48 óra felett" />
+  <text id="personalEstimatedXpMin" name="Becsült szakács XP/perc" />
   <text id="personalRecommendations" name="Personal recommendations" />
   <text id="plan" name="Terv" />
   <text id="planCoop" name="Tervezés!" />
+  <text id="playCafe" name="Cappuccino Café játék!" />
   <text id="playerLevel" name="Player Szint" />
   <text id="playerLevelShort" name="Player level" />
   <text id="portions" name="Adagok" />
@@ -207,15 +250,17 @@
   <text id="predictedRewards" name="Csapat jutalmak at predicted status" />
   <text id="predictedStatus" name="Predicted Status" />
   <text id="previousPage" name="← Előző" />
+  <text id="profileLevelUnlocksTitle" name="Szint {0} unlocks:" />
   <text id="profileSaved" name="Profil mentve locally." />
   <text id="profileSettingsNote" name="Szint → Elérhető tűzhelyek. MyDex: edit later." />
   <text id="profileSettingsTitle" name="Séf profil" />
   <text id="profit" name="Profit" />
   <text id="profitLower" name="profit" />
   <text id="profitMin" name="Profit/min" />
+  <text id="recommendVeryLong" name="Nagyon hosszú ételek ajánlása (48 órán túl)?" />
   <text id="recommendation" name="Ajánlás" />
-  <text id="recommendedMasteriesNote" name="Legjobb Mesterfokok based on Legjobbak összegzése." />
-  <text id="recommendedMasteriesTitle" name="Ajánlott Mesterfokok" />
+  <text id="recommendedMasteriesNote" name="A legjobb ételek a következő mesterszintedhez!" />
+  <text id="recommendedMasteriesTitle" name="Ajánlott következő mesterszintek" />
   <text id="recommendedStar" name="Ajánlott Csillag" />
   <text id="regular" name="Nincsrmál" />
   <text id="requirement" name="Követelmény" />
@@ -235,6 +280,7 @@
   <text id="shortPlan" name="Rövid" />
   <text id="shortWord" name="rövid" />
   <text id="showIngredients" name="Hozzávalók mutatása?" />
+  <text id="showSection" name="Megjelenítés" />
   <text id="silver" name="Ezüst" />
   <text id="silverDeadline" name="Ezüst deadline" />
   <text id="sortBy" name="Rendezés" />
@@ -266,10 +312,12 @@
   <text id="targetShort" name="Cél" />
   <text id="targetTime" name="Cél idő" />
   <text id="teamDeleted" name="Csapat deleted." />
+  <text id="teamEstimatedXpMin" name="Becsült csapat XP/perc" />
   <text id="teamLimitReached" name="Max 10 Csapat." />
   <text id="teamName" name="Csapat name" />
   <text id="teamRewardsGold" name="Csapat: rewards if Arany" />
   <text id="teamSaved" name="Csapat mentve locally." />
+  <text id="toFashionDex" name="To FashionDex" />
   <text id="totalCookTime" name="Total Cook Idő" />
   <text id="totalStoveHours" name="Total stove-óra" />
   <text id="type" name="Type" />
@@ -280,6 +328,8 @@
   <text id="veryLongNote" name="Legjobb XP/min: 12 h 1 min – 23 h." />
   <text id="veryLongPlan" name="Nagyon hosszú" />
   <text id="veryLongWord" name="nagyon hosszú" />
+  <text id="viewDisplay" name="Nézet" />
+  <text id="waiters" name="Waiters" />
   <text id="workload" name="Terhelés" />
   <text id="workloadEqual" name="Egyenlő" />
   <text id="workloadHigh" name="Magas" />
@@ -292,52 +342,4 @@
   <text id="xpPlansNote" name="Level-up plans: needs + availability." />
   <text id="xpPlansTitle" name="XP Needed Tervs" />
   <text id="xpUpper" name="XP" />
-  <text id="toFashionDex" name="To FashionDex" />
-  <text id="fashionDexDescription" name="Open Cappuccinincs Fashion FashionDex." />
-  <text id="profileLevelUnlocksTitle" name="Szint {0} unlocks:" />
-  <text id="fridges" name="Fridges" />
-  <text id="counters" name="Counters" />
-  <text id="waiters" name="Waiters" />
-  <text id="instantCookings" name="Instant cookings" />
-  <text id="masteryCompletionProgress" name="Csillag szint progress:" />
-  <text id="applyFancyBoost" name="Fancy alkalmazása?" />
-  <text id="recommendVeryLong" name="Nagyon hosszú ételek ajánlása (48 órán túl)?" />
-  <text id="filterCategory" name="Szűrés kategória szerint" />
-  <text id="allCategories" name="Összes kategória" />
-  <text id="viewDisplay" name="Nézet" />
-  <text id="listView" name="Lista" />
-  <text id="gridView" name="Rács" />
-  <text id="compactView" name="Kompakt nézet" />
-  <text id="gameOrder" name="A játék szakácskönyvének sorrendje (részben ellenőrzött)" />
-  <text id="coopEligibleOnly" name="Csak a csapat által elkészíthető kooperációk" />
-  <text id="coopSortLabel" name="Kooperációk rendezése" />
-  <text id="coopSortNumber" name="Kooperáció száma" />
-  <text id="coopSortMaxLevel" name="Legmagasabb szükséges ételszint" />
-  <text id="coopSortGoldXpMin" name="Arany XP/perc" />
-  <text id="myDexCoopTitle" name="Legjobb kooperációk szintlépéshez" />
-  <text id="coopGoldOnlyNote" name="Aranyjutalom XP ÷ arany határideje; főzési XP nélkül." />
-  <text id="coopScopeLabel" name="Csapat képességei" />
-  <text id="coopCanCookAll" name="A csapat minden szükséges ételt elkészíthet" />
-  <text id="coopCanCookSome" name="A csapat legalább egy ételt elkészíthet" />
-  <text id="highestRequiredLevel" name="Legmagasabb szükséges szint" />
-  <text id="goldXpMin" name="Arany XP/perc" />
-  <text id="noEligibleCoops" name="Nincs megfelelő kooperáció ehhez a csapathoz." />
-  <text id="teamEstimatedXpMin" name="Becsült csapat XP/perc" />
-  <text id="personalEstimatedXpMin" name="Becsült szakács XP/perc" />
-  <text id="coopEstimateDisclaimer" name="A becslés a kiosztott főzési időn és a várható érmen alapul; a tényleges haladás eltérhet." />
-  <text id="playCafe" name="Cappuccino Café játék" />
-  <text id="category0" name="Desszert" />
-  <text id="category1" name="Főétel" />
-  <text id="category2" name="Leves" />
-  <text id="category3" name="Saláta" />
-  <text id="category4" name="Vegetáriánus" />
-  <text id="category5" name="Harapnivaló" />
-  <text id="fullTagOver48h" name="Nagyon hosszú (48 óra+)" />
-  <text id="bestOver48h" name="Legjobb 48 óra felett" />
-  <text id="over48hWord" name="48 óra felett" />
-  <text id="over48hPlan" name="48 órás terv" />
-  <text id="over48hNote" name="Az eredeti főzési idő több mint 48 óra." />
-  <text id="holidayMasteryCompletionProgress" name="Mesterszint teljesítése (ünnepi ételek):" />
-  <text id="coopsToLevelUp" name="Arany fokozatú kooperációk a következő szintig" />
-  <text id="cookableDishes" name="Elkészíthető ételek" />
 </dishdex>

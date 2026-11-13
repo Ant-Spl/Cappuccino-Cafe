@@ -4,7 +4,9 @@
   <text id="activeNote" name="最高 XP/min: 10 分 以下." />
   <text id="activePlan" name="アクティブ" />
   <text id="activeWord" name="アクティブ" />
+  <text id="allCategories" name="すべてのカテゴリ" />
   <text id="alreadyMasteredBest" name="✓ 最高 料理 — マスタリーレベル!" />
+  <text id="applyFancyBoost" name="Fancyを適用しますか？" />
   <text id="assignedDishes" name="割り当て済み 料理" />
   <text id="assignmentComingSoon" name="割り当て: 次へ 段階." />
   <text id="assignmentCopied" name="割り当て コピー済み!" />
@@ -23,6 +25,7 @@
   <text id="bestFast" name="最高 速い" />
   <text id="bestLong" name="最高 長い" />
   <text id="bestMedium" name="最高 中" />
+  <text id="bestOver48h" name="48時間超のおすすめ" />
   <text id="bestPortionsTitle" name="最高 料理 (皿数)" />
   <text id="bestProfitTitle" name="最高 料理 (利益)" />
   <text id="bestShort" name="最高 短い" />
@@ -40,6 +43,12 @@
   <text id="cannotCookDish" name="調理不可" />
   <text id="cashReward" name="Cash" />
   <text id="category" name="カテゴリ" />
+  <text id="category0" name="デザート" />
+  <text id="category1" name="メイン料理" />
+  <text id="category2" name="スープ" />
+  <text id="category3" name="サラダ" />
+  <text id="category4" name="ベジタリアン" />
+  <text id="category5" name="軽食" />
   <text id="chef" name="シェフ" />
   <text id="chefCookTime" name="Cook 時間" />
   <text id="chefFallback" name="シェフ" />
@@ -49,10 +58,17 @@
   <text id="clearChef" name="Clear chef" />
   <text id="clearCookTime" name="Clear cook 時間" />
   <text id="clearMargin" name="Clear margin" />
+  <text id="compactView" name="コンパクト表示" />
   <text id="completeDishList" name="完全 料理 一覧" />
   <text id="confirmDelete" name="削除 local data: プロフィール, マスタリー, Co-Op チーム." />
   <text id="confirmDeleteTeam" name="削除 チーム?" />
   <text id="contributionWarning" name="シェフ: ≥ 1 必要 料理 = rewards." />
+  <text id="cookableDishes" name="調理できる料理" />
+  <text id="coopCanCookAll" name="すべての必要料理を調理できる" />
+  <text id="coopCanCookSome" name="必要料理を1品以上調理できる" />
+  <text id="coopEligibleOnly" name="チームで調理できる協力ミッションのみ" />
+  <text id="coopEstimateDisclaimer" name="割り当てた調理時間と予想メダルに基づく推定値です。実際の進捗は異なる場合があります。" />
+  <text id="coopGoldOnlyNote" name="ゴールド報酬XP÷ゴールド期限。調理XPは含みません。" />
   <text id="coopListNote" name="Co-Op: 参照 + 計画." />
   <text id="coopListTitle" name="Co-Op 計画ner" />
   <text id="coopNumber" name="Co-Op" />
@@ -60,14 +76,21 @@
   <text id="coopPlannerEyebrow" name="チーム cooking" />
   <text id="coopPlannerTitle" name="Co-Op 計画ner" />
   <text id="coopRequirements" name="必要 料理" />
+  <text id="coopScopeLabel" name="チームの対応範囲" />
   <text id="coopSearch" name="検索 co-op" />
   <text id="coopSearchPlaceholder" name="検索 co-op..." />
   <text id="coopShortDescription" name="説明" />
+  <text id="coopSortGoldXpMin" name="ゴールドXP/分" />
+  <text id="coopSortLabel" name="協力ミッションを並べ替え" />
+  <text id="coopSortMaxLevel" name="必要な料理レベルの最大値" />
+  <text id="coopSortNumber" name="ミッション番号" />
   <text id="coopTeamNote" name="Max 5 シェフ; save up to 10 チーム." />
   <text id="coopTeamTitle" name="Co-Op チーム" />
+  <text id="coopsToLevelUp" name="レベルアップに必要なゴールド達成回数" />
   <text id="copyAssignment" name="コピー 割り当て" />
   <text id="cost" name="コスト" />
   <text id="couldNotLoadData" name="Caféデータを読み込めませんでした." />
+  <text id="counters" name="Counters" />
   <text id="currentMastery" name="現在 マスタリーレベル" />
   <text id="darkTheme" name="ダークテーマ" />
   <text id="dataDeleted" name="プロフィール, マスタリー, Co-Op チーム: 削除." />
@@ -84,7 +107,6 @@
   <text id="dishesNeeded" name="料理 Needed" />
   <text id="dishesReady" name="料理 ready" />
   <text id="dishesRequired" name="料理 必要" />
-  <text id="masteryTotalForGold" name="Total: {0} 料理 → カフェゴールド" />
   <text id="downloadData" name="ダウンロード data" />
   <text id="duration" name="時間" />
   <text id="editGoldMasteries" name="カフェゴールド マスタリー: edit" />
@@ -92,34 +114,46 @@
   <text id="effects" name="Effects" />
   <text id="estimatedWithTeam" name="チーム: estimate" />
   <text id="exclude" name="除外" />
+  <text id="fashionDexDescription" name="Open Cappucciなし Fashion FashionDex." />
   <text id="fastNote" name="最高 XP/min: 11 分 – 1 時間." />
   <text id="fastPlan" name="速い" />
   <text id="fastWord" name="速い" />
+  <text id="filterCategory" name="カテゴリで絞り込む" />
+  <text id="fridges" name="Fridges" />
   <text id="fullDishDexDescription" name="DishDex: 完全 information." />
   <text id="fullDishDexTitle" name="Full DishDex" />
   <text id="fullTagChristmas" name="クリスマス" />
   <text id="fullTagEaster" name="イースター" />
+  <text id="fullTagOver48h" name="非常に長い（48時間超）" />
   <text id="fullTagSpecial" name="特別" />
+  <text id="gameOrder" name="ゲームのレシピ帳順（部分的に確認済み）" />
   <text id="gold" name="カフェゴールド" />
   <text id="goldDeadline" name="カフェゴールド deadline" />
   <text id="goldMasteries" name="カフェゴールド masteries" />
   <text id="goldMasteriesNote" name="カフェゴールド マスタリーレベル = shorter cooking time." />
   <text id="goldReward" name="カフェゴールド" />
+  <text id="goldXpMin" name="ゴールドXP/分" />
+  <text id="gridView" name="グリッド" />
+  <text id="hideSection" name="非表示" />
+  <text id="highestRequiredLevel" name="必要レベルの最大値" />
   <text id="holiday" name="祝日" />
   <text id="holidayActive" name="祝日: Active" />
   <text id="holidayDishes" name="祝日料理" />
-  <text id="holidayDishesNote" name="祝日料理: separate. Auto = クリスマス + イースター." />
+  <text id="holidayDishesNote" name="自動モードを有効にすると、イベント期間中に対象の料理が自動的に表示されます。" />
   <text id="holidayInactive" name="祝日: Inアクティブ" />
+  <text id="holidayMasteryCompletionProgress" name="マスタリー達成率（季節限定料理）：" />
   <text id="holidayMode" name="祝日料理を含める？" />
-  <text id="includeSpecialDishes" name="特別料理を含める？" />
   <text id="hoursShort" name="h" />
   <text id="image" name="画像" />
   <text id="impossibleMissingUnlock" name="不可能: 料理 unlock missing" />
   <text id="include" name="含める" />
+  <text id="includeSpecialDishes" name="特別料理を含める？" />
   <text id="ingredientCost" name="材料コスト" />
   <text id="ingredientDetails" name="材料" />
+  <text id="instantCookings" name="Instant cookings" />
   <text id="languageLabel" name="🌐 言語" />
   <text id="level" name="レベル" />
+  <text id="listView" name="リスト" />
   <text id="loadData" name="読み込み data" />
   <text id="loadTeam" name="読み込み team" />
   <text id="loadingXml" name="読み込みing Café XML..." />
@@ -139,9 +173,11 @@
   <text id="masteriesEyebrow" name="料理 perks" />
   <text id="mastery" name="マスタリーレベル" />
   <text id="masteryBookPage" name="Page" />
+  <text id="masteryCompletionProgress" name="マスタリーレベル progress:" />
   <text id="masteryCookbook" name="Cook Book (Legacy)" />
   <text id="masteryListHorizontal" name="List (horizontal reader)" />
   <text id="masteryListVertical" name="List (vertical reader)" />
+  <text id="masteryTotalForGold" name="Total: {0} 料理 → カフェゴールド" />
   <text id="masteryView" name="View" />
   <text id="maxMembers" name="Max members" />
   <text id="maxRewardsYourLevel" name="Max rewards (レベル)" />
@@ -153,6 +189,7 @@
   <text id="metricXpMin" name="XP/min" />
   <text id="minimumDishLevel" name="最小 料理 level" />
   <text id="minutesShort" name="min" />
+  <text id="myDexCoopTitle" name="レベル上げに最適な協力ミッション" />
   <text id="myDexDescription" name="MyDex: レベル, XP, 利用可能 時間." />
   <text id="myDexHint" name="Data → おすすめ." />
   <text id="myDexSettings" name="MyDex Settings" />
@@ -185,6 +222,7 @@
   <text id="noDishMatchesPlan" name="なし 料理 matches plan." />
   <text id="noDishesAvailable" name="なし 料理" />
   <text id="noEligibleChef" name="なし シェフ: 必要 料理." />
+  <text id="noEligibleCoops" name="このチームに対応するミッションはありません。" />
   <text id="noGoldMasteriesSelected" name="なし カフェゴールド マスタリー selected." />
   <text id="noMasteryRows" name="なし 料理 in search." />
   <text id="noPortionRecommendations" name="なし おすすめ: 皿数." />
@@ -196,9 +234,14 @@
   <text id="noXpRecommendations" name="なし おすすめ: XP." />
   <text id="notDoable" name="実行不可" />
   <text id="note" name="なしte" />
+  <text id="over48hNote" name="元の調理時間が48時間を超える料理。" />
+  <text id="over48hPlan" name="48時間超のプラン" />
+  <text id="over48hWord" name="48時間超" />
+  <text id="personalEstimatedXpMin" name="シェフの推定XP/分" />
   <text id="personalRecommendations" name="Personal recommendations" />
   <text id="plan" name="計画" />
   <text id="planCoop" name="計画！" />
+  <text id="playCafe" name="Cappuccino Caféをプレイ!" />
   <text id="playerLevel" name="Player レベル" />
   <text id="playerLevelShort" name="Player level" />
   <text id="portions" name="皿数" />
@@ -207,15 +250,17 @@
   <text id="predictedRewards" name="チーム 報酬 at predicted status" />
   <text id="predictedStatus" name="Predicted Status" />
   <text id="previousPage" name="← 前へ" />
+  <text id="profileLevelUnlocksTitle" name="レベル {0} unlocks:" />
   <text id="profileSaved" name="プロフィール 保存済み locally." />
   <text id="profileSettingsNote" name="レベル → 利用可能なコンロ. MyDex: edit later." />
   <text id="profileSettingsTitle" name="シェフプロフィール" />
   <text id="profit" name="利益" />
   <text id="profitLower" name="利益" />
   <text id="profitMin" name="利益/min" />
+  <text id="recommendVeryLong" name="非常に時間のかかる料理（48時間超）をおすすめに含めますか？" />
   <text id="recommendation" name="おすすめ" />
-  <text id="recommendedMasteriesNote" name="最高 マスタリー based on ベスト概要." />
-  <text id="recommendedMasteriesTitle" name="おすすめ マスタリー" />
+  <text id="recommendedMasteriesNote" name="次のマスタリーにおすすめの料理！" />
+  <text id="recommendedMasteriesTitle" name="次におすすめのマスタリー" />
   <text id="recommendedStar" name="おすすめ 星" />
   <text id="regular" name="通常" />
   <text id="requirement" name="条件" />
@@ -235,6 +280,7 @@
   <text id="shortPlan" name="短い" />
   <text id="shortWord" name="短い" />
   <text id="showIngredients" name="材料を表示？" />
+  <text id="showSection" name="表示" />
   <text id="silver" name="シルバー" />
   <text id="silverDeadline" name="シルバー deadline" />
   <text id="sortBy" name="並べ替え" />
@@ -266,10 +312,12 @@
   <text id="targetShort" name="目標" />
   <text id="targetTime" name="目標 時間" />
   <text id="teamDeleted" name="チーム deleted." />
+  <text id="teamEstimatedXpMin" name="チームの推定XP/分" />
   <text id="teamLimitReached" name="Max 10 チーム." />
   <text id="teamName" name="チーム name" />
   <text id="teamRewardsGold" name="チーム: rewards if カフェゴールド" />
   <text id="teamSaved" name="チーム 保存済み locally." />
+  <text id="toFashionDex" name="To FashionDex" />
   <text id="totalCookTime" name="Total Cook 時間" />
   <text id="totalStoveHours" name="Total stove-時間" />
   <text id="type" name="Type" />
@@ -280,6 +328,8 @@
   <text id="veryLongNote" name="最高 XP/min: 12 h 1 min – 23 h." />
   <text id="veryLongPlan" name="とても長い" />
   <text id="veryLongWord" name="とても長い" />
+  <text id="viewDisplay" name="表示" />
+  <text id="waiters" name="Waiters" />
   <text id="workload" name="作業量" />
   <text id="workloadEqual" name="均等" />
   <text id="workloadHigh" name="高" />
@@ -292,52 +342,4 @@
   <text id="xpPlansNote" name="Level-up plans: needs + availability." />
   <text id="xpPlansTitle" name="XP Needed 計画s" />
   <text id="xpUpper" name="XP" />
-  <text id="toFashionDex" name="To FashionDex" />
-  <text id="fashionDexDescription" name="Open Cappucciなし Fashion FashionDex." />
-  <text id="profileLevelUnlocksTitle" name="レベル {0} unlocks:" />
-  <text id="fridges" name="Fridges" />
-  <text id="counters" name="Counters" />
-  <text id="waiters" name="Waiters" />
-  <text id="instantCookings" name="Instant cookings" />
-  <text id="masteryCompletionProgress" name="マスタリーレベル progress:" />
-  <text id="applyFancyBoost" name="Fancyを適用しますか？" />
-  <text id="recommendVeryLong" name="非常に時間のかかる料理（48時間超）をおすすめに含めますか？" />
-  <text id="filterCategory" name="カテゴリで絞り込む" />
-  <text id="allCategories" name="すべてのカテゴリ" />
-  <text id="viewDisplay" name="表示" />
-  <text id="listView" name="リスト" />
-  <text id="gridView" name="グリッド" />
-  <text id="compactView" name="コンパクト表示" />
-  <text id="gameOrder" name="ゲームのレシピ帳順（部分的に確認済み）" />
-  <text id="coopEligibleOnly" name="チームで調理できる協力ミッションのみ" />
-  <text id="coopSortLabel" name="協力ミッションを並べ替え" />
-  <text id="coopSortNumber" name="ミッション番号" />
-  <text id="coopSortMaxLevel" name="必要な料理レベルの最大値" />
-  <text id="coopSortGoldXpMin" name="ゴールドXP/分" />
-  <text id="myDexCoopTitle" name="レベル上げに最適な協力ミッション" />
-  <text id="coopGoldOnlyNote" name="ゴールド報酬XP÷ゴールド期限。調理XPは含みません。" />
-  <text id="coopScopeLabel" name="チームの対応範囲" />
-  <text id="coopCanCookAll" name="すべての必要料理を調理できる" />
-  <text id="coopCanCookSome" name="必要料理を1品以上調理できる" />
-  <text id="highestRequiredLevel" name="必要レベルの最大値" />
-  <text id="goldXpMin" name="ゴールドXP/分" />
-  <text id="noEligibleCoops" name="このチームに対応するミッションはありません。" />
-  <text id="teamEstimatedXpMin" name="チームの推定XP/分" />
-  <text id="personalEstimatedXpMin" name="シェフの推定XP/分" />
-  <text id="coopEstimateDisclaimer" name="割り当てた調理時間と予想メダルに基づく推定値です。実際の進捗は異なる場合があります。" />
-  <text id="playCafe" name="Cappuccino Caféをプレイ" />
-  <text id="category0" name="デザート" />
-  <text id="category1" name="メイン料理" />
-  <text id="category2" name="スープ" />
-  <text id="category3" name="サラダ" />
-  <text id="category4" name="ベジタリアン" />
-  <text id="category5" name="軽食" />
-  <text id="fullTagOver48h" name="非常に長い（48時間超）" />
-  <text id="bestOver48h" name="48時間超のおすすめ" />
-  <text id="over48hWord" name="48時間超" />
-  <text id="over48hPlan" name="48時間超のプラン" />
-  <text id="over48hNote" name="元の調理時間が48時間を超える料理。" />
-  <text id="holidayMasteryCompletionProgress" name="マスタリー達成率（季節限定料理）：" />
-  <text id="coopsToLevelUp" name="レベルアップに必要なゴールド達成回数" />
-  <text id="cookableDishes" name="調理できる料理" />
 </dishdex>

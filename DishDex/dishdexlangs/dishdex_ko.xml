@@ -4,7 +4,9 @@
   <text id="activeNote" name="최고 XP/min: 10 분 이하." />
   <text id="activePlan" name="활성" />
   <text id="activeWord" name="활성" />
+  <text id="allCategories" name="모든 카테고리" />
   <text id="alreadyMasteredBest" name="✓ 최고 요리 — 별 레벨!" />
+  <text id="applyFancyBoost" name="Fancy를 적용할까요?" />
   <text id="assignedDishes" name="배정된 요리" />
   <text id="assignmentComingSoon" name="배정: 다음 단계." />
   <text id="assignmentCopied" name="배정 복사됨!" />
@@ -23,6 +25,7 @@
   <text id="bestFast" name="최고 빠름" />
   <text id="bestLong" name="최고 김" />
   <text id="bestMedium" name="최고 중간" />
+  <text id="bestOver48h" name="48시간 초과 추천" />
   <text id="bestPortionsTitle" name="최고 요리 (인분)" />
   <text id="bestProfitTitle" name="최고 요리 (이익)" />
   <text id="bestShort" name="최고 짧음" />
@@ -40,6 +43,12 @@
   <text id="cannotCookDish" name="요리 불가" />
   <text id="cashReward" name="Cash" />
   <text id="category" name="카테고리" />
+  <text id="category0" name="디저트" />
+  <text id="category1" name="메인 요리" />
+  <text id="category2" name="수프" />
+  <text id="category3" name="샐러드" />
+  <text id="category4" name="채식" />
+  <text id="category5" name="간식" />
   <text id="chef" name="셰프" />
   <text id="chefCookTime" name="Cook 시간" />
   <text id="chefFallback" name="셰프" />
@@ -49,10 +58,17 @@
   <text id="clearChef" name="Clear chef" />
   <text id="clearCookTime" name="Clear cook 시간" />
   <text id="clearMargin" name="Clear margin" />
+  <text id="compactView" name="간단히 보기" />
   <text id="completeDishList" name="전체 요리 목록" />
   <text id="confirmDelete" name="삭제 local data: 프로필, 숙련도, Co-Op 팀." />
   <text id="confirmDeleteTeam" name="삭제 팀?" />
   <text id="contributionWarning" name="셰프: ≥ 1 필요 요리 = rewards." />
+  <text id="cookableDishes" name="조리할 수 있는 요리" />
+  <text id="coopCanCookAll" name="필요한 모든 요리를 만들 수 있음" />
+  <text id="coopCanCookSome" name="필요한 요리를 하나 이상 만들 수 있음" />
+  <text id="coopEligibleOnly" name="팀이 요리할 수 있는 협동 미션만" />
+  <text id="coopEstimateDisclaimer" name="배정된 요리 시간과 예상 메달을 기준으로 계산한 값이며 실제 진행과 다를 수 있습니다." />
+  <text id="coopGoldOnlyNote" name="골드 보상 XP ÷ 골드 마감 시간. 요리 XP는 제외합니다." />
   <text id="coopListNote" name="Co-Op: 둘러보기 + 계획." />
   <text id="coopListTitle" name="Co-Op 계획ner" />
   <text id="coopNumber" name="Co-Op" />
@@ -60,14 +76,21 @@
   <text id="coopPlannerEyebrow" name="팀 cooking" />
   <text id="coopPlannerTitle" name="Co-Op 계획ner" />
   <text id="coopRequirements" name="필요 요리" />
+  <text id="coopScopeLabel" name="팀의 요리 가능 범위" />
   <text id="coopSearch" name="검색 co-op" />
   <text id="coopSearchPlaceholder" name="검색 co-op..." />
   <text id="coopShortDescription" name="설명" />
+  <text id="coopSortGoldXpMin" name="골드 XP/분" />
+  <text id="coopSortLabel" name="협동 미션 정렬" />
+  <text id="coopSortMaxLevel" name="필요한 요리의 최고 레벨" />
+  <text id="coopSortNumber" name="협동 미션 번호" />
   <text id="coopTeamNote" name="Max 5 셰프; save up to 10 팀." />
   <text id="coopTeamTitle" name="Co-Op 팀" />
+  <text id="coopsToLevelUp" name="레벨업까지 필요한 골드 완료 횟수" />
   <text id="copyAssignment" name="복사 배정" />
   <text id="cost" name="비용" />
   <text id="couldNotLoadData" name="Café 데이터를 불러올 수 없음." />
+  <text id="counters" name="Counters" />
   <text id="currentMastery" name="현재 별 레벨" />
   <text id="darkTheme" name="어두운 테마" />
   <text id="dataDeleted" name="프로필, 숙련도, Co-Op 팀: 삭제." />
@@ -84,7 +107,6 @@
   <text id="dishesNeeded" name="요리 Needed" />
   <text id="dishesReady" name="요리 ready" />
   <text id="dishesRequired" name="요리 필요" />
-  <text id="masteryTotalForGold" name="Total: {0} 요리 → 금" />
   <text id="downloadData" name="다운로드 data" />
   <text id="duration" name="시간" />
   <text id="editGoldMasteries" name="금 숙련도: edit" />
@@ -92,34 +114,46 @@
   <text id="effects" name="Effects" />
   <text id="estimatedWithTeam" name="팀: estimate" />
   <text id="exclude" name="제외" />
+  <text id="fashionDexDescription" name="Open Cappucci없음 Fashion FashionDex." />
   <text id="fastNote" name="최고 XP/min: 11 분 – 1 시간." />
   <text id="fastPlan" name="빠름" />
   <text id="fastWord" name="빠름" />
+  <text id="filterCategory" name="카테고리별 필터" />
+  <text id="fridges" name="Fridges" />
   <text id="fullDishDexDescription" name="DishDex: 전체 information." />
   <text id="fullDishDexTitle" name="Full DishDex" />
   <text id="fullTagChristmas" name="크리스마스" />
   <text id="fullTagEaster" name="부활절" />
+  <text id="fullTagOver48h" name="매우 오래 걸림(48시간 초과)" />
   <text id="fullTagSpecial" name="특별" />
+  <text id="gameOrder" name="게임 요리책 순서(일부만 확인됨)" />
   <text id="gold" name="금" />
   <text id="goldDeadline" name="금 deadline" />
   <text id="goldMasteries" name="금 masteries" />
   <text id="goldMasteriesNote" name="금 별 레벨 = shorter cooking time." />
   <text id="goldReward" name="금" />
+  <text id="goldXpMin" name="골드 XP/분" />
+  <text id="gridView" name="격자" />
+  <text id="hideSection" name="숨기기" />
+  <text id="highestRequiredLevel" name="필요한 최고 레벨" />
   <text id="holiday" name="이벤트" />
   <text id="holidayActive" name="이벤트: Active" />
   <text id="holidayDishes" name="이벤트 요리" />
-  <text id="holidayDishesNote" name="이벤트 요리: separate. Auto = 크리스마스 + 부활절." />
+  <text id="holidayDishesNote" name="자동 모드를 켜면 해당 이벤트 기간에 요리가 자동으로 포함됩니다." />
   <text id="holidayInactive" name="이벤트: In활성" />
+  <text id="holidayMasteryCompletionProgress" name="마스터리 달성 진행도(시즌 요리):" />
   <text id="holidayMode" name="이벤트 음식 포함?" />
-  <text id="includeSpecialDishes" name="특별 요리 포함?" />
   <text id="hoursShort" name="h" />
   <text id="image" name="이미지" />
   <text id="impossibleMissingUnlock" name="불가능: 요리 unlock missing" />
   <text id="include" name="포함" />
+  <text id="includeSpecialDishes" name="특별 요리 포함?" />
   <text id="ingredientCost" name="재료 비용" />
   <text id="ingredientDetails" name="재료" />
+  <text id="instantCookings" name="Instant cookings" />
   <text id="languageLabel" name="🌐 언어" />
   <text id="level" name="레벨" />
+  <text id="listView" name="목록" />
   <text id="loadData" name="불러오기 data" />
   <text id="loadTeam" name="불러오기 team" />
   <text id="loadingXml" name="불러오기ing Café XML..." />
@@ -139,9 +173,11 @@
   <text id="masteriesEyebrow" name="요리 perks" />
   <text id="mastery" name="별 레벨" />
   <text id="masteryBookPage" name="Page" />
+  <text id="masteryCompletionProgress" name="별 레벨 progress:" />
   <text id="masteryCookbook" name="Cook Book (Legacy)" />
   <text id="masteryListHorizontal" name="List (horizontal reader)" />
   <text id="masteryListVertical" name="List (vertical reader)" />
+  <text id="masteryTotalForGold" name="Total: {0} 요리 → 금" />
   <text id="masteryView" name="View" />
   <text id="maxMembers" name="Max members" />
   <text id="maxRewardsYourLevel" name="Max rewards (레벨)" />
@@ -153,6 +189,7 @@
   <text id="metricXpMin" name="XP/min" />
   <text id="minimumDishLevel" name="최소 요리 level" />
   <text id="minutesShort" name="min" />
+  <text id="myDexCoopTitle" name="레벨업에 좋은 협동 미션" />
   <text id="myDexDescription" name="MyDex: 레벨, XP, 사용 가능 시간." />
   <text id="myDexHint" name="Data → 추천." />
   <text id="myDexSettings" name="MyDex Settings" />
@@ -185,6 +222,7 @@
   <text id="noDishMatchesPlan" name="없음 요리 matches plan." />
   <text id="noDishesAvailable" name="없음 요리" />
   <text id="noEligibleChef" name="없음 셰프: 필요 요리." />
+  <text id="noEligibleCoops" name="이 팀에 적합한 협동 미션이 없습니다." />
   <text id="noGoldMasteriesSelected" name="없음 금 숙련도 selected." />
   <text id="noMasteryRows" name="없음 요리 in search." />
   <text id="noPortionRecommendations" name="없음 추천: 인분." />
@@ -196,9 +234,14 @@
   <text id="noXpRecommendations" name="없음 추천: XP." />
   <text id="notDoable" name="불가" />
   <text id="note" name="없음te" />
+  <text id="over48hNote" name="기본 요리 시간이 48시간을 초과합니다." />
+  <text id="over48hPlan" name="48시간 초과 계획" />
+  <text id="over48hWord" name="48시간 초과" />
+  <text id="personalEstimatedXpMin" name="셰프 예상 XP/분" />
   <text id="personalRecommendations" name="Personal recommendations" />
   <text id="plan" name="계획" />
   <text id="planCoop" name="계획!" />
+  <text id="playCafe" name="Cappuccino Café 플레이!" />
   <text id="playerLevel" name="Player 레벨" />
   <text id="playerLevelShort" name="Player level" />
   <text id="portions" name="인분" />
@@ -207,15 +250,17 @@
   <text id="predictedRewards" name="팀 보상 at predicted status" />
   <text id="predictedStatus" name="Predicted Status" />
   <text id="previousPage" name="← 이전" />
+  <text id="profileLevelUnlocksTitle" name="레벨 {0} unlocks:" />
   <text id="profileSaved" name="프로필 저장됨 locally." />
   <text id="profileSettingsNote" name="레벨 → 사용 가능한 스토브. MyDex: edit later." />
   <text id="profileSettingsTitle" name="셰프 프로필" />
   <text id="profit" name="이익" />
   <text id="profitLower" name="이익" />
   <text id="profitMin" name="이익/min" />
+  <text id="recommendVeryLong" name="매우 오래 걸리는 요리(48시간 초과)를 추천할까요?" />
   <text id="recommendation" name="추천" />
-  <text id="recommendedMasteriesNote" name="최고 숙련도 based on 최고 요약." />
-  <text id="recommendedMasteriesTitle" name="추천 숙련도" />
+  <text id="recommendedMasteriesNote" name="다음 숙련도 달성에 추천하는 요리!" />
+  <text id="recommendedMasteriesTitle" name="다음 추천 숙련도" />
   <text id="recommendedStar" name="추천 별" />
   <text id="regular" name="일반" />
   <text id="requirement" name="요구 조건" />
@@ -235,6 +280,7 @@
   <text id="shortPlan" name="짧음" />
   <text id="shortWord" name="짧음" />
   <text id="showIngredients" name="재료 표시?" />
+  <text id="showSection" name="표시" />
   <text id="silver" name="실버" />
   <text id="silverDeadline" name="실버 deadline" />
   <text id="sortBy" name="정렬 기준" />
@@ -266,10 +312,12 @@
   <text id="targetShort" name="목표" />
   <text id="targetTime" name="목표 시간" />
   <text id="teamDeleted" name="팀 deleted." />
+  <text id="teamEstimatedXpMin" name="팀 예상 XP/분" />
   <text id="teamLimitReached" name="Max 10 팀." />
   <text id="teamName" name="팀 name" />
   <text id="teamRewardsGold" name="팀: rewards if 금" />
   <text id="teamSaved" name="팀 저장됨 locally." />
+  <text id="toFashionDex" name="To FashionDex" />
   <text id="totalCookTime" name="Total Cook 시간" />
   <text id="totalStoveHours" name="Total stove-시간" />
   <text id="type" name="Type" />
@@ -280,6 +328,8 @@
   <text id="veryLongNote" name="최고 XP/min: 12 h 1 min – 23 h." />
   <text id="veryLongPlan" name="매우 김" />
   <text id="veryLongWord" name="매우 김" />
+  <text id="viewDisplay" name="보기" />
+  <text id="waiters" name="Waiters" />
   <text id="workload" name="작업량" />
   <text id="workloadEqual" name="동일" />
   <text id="workloadHigh" name="높음" />
@@ -292,52 +342,4 @@
   <text id="xpPlansNote" name="Level-up plans: needs + availability." />
   <text id="xpPlansTitle" name="XP Needed 계획s" />
   <text id="xpUpper" name="XP" />
-  <text id="toFashionDex" name="To FashionDex" />
-  <text id="fashionDexDescription" name="Open Cappucci없음 Fashion FashionDex." />
-  <text id="profileLevelUnlocksTitle" name="레벨 {0} unlocks:" />
-  <text id="fridges" name="Fridges" />
-  <text id="counters" name="Counters" />
-  <text id="waiters" name="Waiters" />
-  <text id="instantCookings" name="Instant cookings" />
-  <text id="masteryCompletionProgress" name="별 레벨 progress:" />
-  <text id="applyFancyBoost" name="Fancy를 적용할까요?" />
-  <text id="recommendVeryLong" name="매우 오래 걸리는 요리(48시간 초과)를 추천할까요?" />
-  <text id="filterCategory" name="카테고리별 필터" />
-  <text id="allCategories" name="모든 카테고리" />
-  <text id="viewDisplay" name="보기" />
-  <text id="listView" name="목록" />
-  <text id="gridView" name="격자" />
-  <text id="compactView" name="간단히 보기" />
-  <text id="gameOrder" name="게임 요리책 순서(일부만 확인됨)" />
-  <text id="coopEligibleOnly" name="팀이 요리할 수 있는 협동 미션만" />
-  <text id="coopSortLabel" name="협동 미션 정렬" />
-  <text id="coopSortNumber" name="협동 미션 번호" />
-  <text id="coopSortMaxLevel" name="필요한 요리의 최고 레벨" />
-  <text id="coopSortGoldXpMin" name="골드 XP/분" />
-  <text id="myDexCoopTitle" name="레벨업에 좋은 협동 미션" />
-  <text id="coopGoldOnlyNote" name="골드 보상 XP ÷ 골드 마감 시간. 요리 XP는 제외합니다." />
-  <text id="coopScopeLabel" name="팀의 요리 가능 범위" />
-  <text id="coopCanCookAll" name="필요한 모든 요리를 만들 수 있음" />
-  <text id="coopCanCookSome" name="필요한 요리를 하나 이상 만들 수 있음" />
-  <text id="highestRequiredLevel" name="필요한 최고 레벨" />
-  <text id="goldXpMin" name="골드 XP/분" />
-  <text id="noEligibleCoops" name="이 팀에 적합한 협동 미션이 없습니다." />
-  <text id="teamEstimatedXpMin" name="팀 예상 XP/분" />
-  <text id="personalEstimatedXpMin" name="셰프 예상 XP/분" />
-  <text id="coopEstimateDisclaimer" name="배정된 요리 시간과 예상 메달을 기준으로 계산한 값이며 실제 진행과 다를 수 있습니다." />
-  <text id="playCafe" name="Cappuccino Café 플레이" />
-  <text id="category0" name="디저트" />
-  <text id="category1" name="메인 요리" />
-  <text id="category2" name="수프" />
-  <text id="category3" name="샐러드" />
-  <text id="category4" name="채식" />
-  <text id="category5" name="간식" />
-  <text id="fullTagOver48h" name="매우 오래 걸림(48시간 초과)" />
-  <text id="bestOver48h" name="48시간 초과 추천" />
-  <text id="over48hWord" name="48시간 초과" />
-  <text id="over48hPlan" name="48시간 초과 계획" />
-  <text id="over48hNote" name="기본 요리 시간이 48시간을 초과합니다." />
-  <text id="holidayMasteryCompletionProgress" name="마스터리 달성 진행도(시즌 요리):" />
-  <text id="coopsToLevelUp" name="레벨업까지 필요한 골드 완료 횟수" />
-  <text id="cookableDishes" name="조리할 수 있는 요리" />
 </dishdex>

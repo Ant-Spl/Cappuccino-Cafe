@@ -4,7 +4,9 @@
   <text id="activeNote" name="Nejlepší XP/min: 10 minut nebo méně." />
   <text id="activePlan" name="Aktivní" />
   <text id="activeWord" name="aktivní" />
+  <text id="allCategories" name="Všechny kategorie" />
   <text id="alreadyMasteredBest" name="✓ Nejlepší jídlo — hvězdičkový level!" />
+  <text id="applyFancyBoost" name="Použít Fancy?" />
   <text id="assignedDishes" name="Přiřazená jídla" />
   <text id="assignmentComingSoon" name="Přiřazení: Další fáze." />
   <text id="assignmentCopied" name="Přiřazení zkopírováno!" />
@@ -23,6 +25,7 @@
   <text id="bestFast" name="Nejlepší rychlé" />
   <text id="bestLong" name="Nejlepší dlouhé" />
   <text id="bestMedium" name="Nejlepší střední" />
+  <text id="bestOver48h" name="Nejlepší nad 48 h" />
   <text id="bestPortionsTitle" name="Nejlepší jídla (Porce)" />
   <text id="bestProfitTitle" name="Nejlepší Jídla (Zisk)" />
   <text id="bestShort" name="Nejlepší krátké" />
@@ -40,6 +43,12 @@
   <text id="cannotCookDish" name="Nelze vařit" />
   <text id="cashReward" name="Hotovost" />
   <text id="category" name="Kategorie" />
+  <text id="category0" name="Dezert" />
+  <text id="category1" name="Hlavní chod" />
+  <text id="category2" name="Polévka" />
+  <text id="category3" name="Salát" />
+  <text id="category4" name="Vegetariánské" />
+  <text id="category5" name="Svačina" />
   <text id="chef" name="Šéf" />
   <text id="chefCookTime" name="Cook time" />
   <text id="chefFallback" name="Šéf" />
@@ -49,10 +58,17 @@
   <text id="clearChef" name="Clear chef" />
   <text id="clearCookTime" name="Clear cook time" />
   <text id="clearMargin" name="Clear margin" />
+  <text id="compactView" name="Kompaktní zobrazení" />
   <text id="completeDishList" name="Kompletní seznam jídel" />
   <text id="confirmDelete" name="Delete local data: Profile, Masteries, Co-Op Team." />
   <text id="confirmDeleteTeam" name="Delete Team?" />
   <text id="contributionWarning" name="Každý šéf musí uvařit alespoň jedno požadované jídlo, aby získal odměny." />
+  <text id="cookableDishes" name="Jídla, která můžete uvařit" />
+  <text id="coopCanCookAll" name="Tým zvládne všechna požadovaná jídla" />
+  <text id="coopCanCookSome" name="Tým zvládne alespoň jedno jídlo" />
+  <text id="coopEligibleOnly" name="Jen kooperace, které tým zvládne uvařit" />
+  <text id="coopEstimateDisclaimer" name="Odhady vycházejí z přidělené doby vaření a předpokládané medaile; skutečný postup se může lišit." />
+  <text id="coopGoldOnlyNote" name="ZK ze zlaté odměny ÷ zlatý limit; bez ZK za vaření." />
   <text id="coopListNote" name="Co-Op: Procházet + plán." />
   <text id="coopListTitle" name="Co-Op Plánner" />
   <text id="coopNumber" name="Co-Op" />
@@ -60,14 +76,21 @@
   <text id="coopPlannerEyebrow" name="Team cooking" />
   <text id="coopPlannerTitle" name="Co-Op Plánner" />
   <text id="coopRequirements" name="Požadovaná jídla" />
+  <text id="coopScopeLabel" name="Možnosti týmu" />
   <text id="coopSearch" name="Hledat Co-Op" />
   <text id="coopSearchPlaceholder" name="Hledat Co-Op..." />
   <text id="coopShortDescription" name="Popis" />
+  <text id="coopSortGoldXpMin" name="ZK/min za zlato" />
+  <text id="coopSortLabel" name="Řadit kooperace" />
+  <text id="coopSortMaxLevel" name="Nejvyšší požadovaná úroveň jídla" />
+  <text id="coopSortNumber" name="Číslo kooperace" />
   <text id="coopTeamNote" name="Max 5 Šéf; save up to 10 Team." />
   <text id="coopTeamTitle" name="Co-Op Team" />
+  <text id="coopsToLevelUp" name="Kooperací se zlatem do další úrovně" />
   <text id="copyAssignment" name="Copy přiřazení" />
   <text id="cost" name="Cena" />
   <text id="couldNotLoadData" name="Nepodařilo se načíst data Café." />
+  <text id="counters" name="Pulty" />
   <text id="currentMastery" name="Aktuální mistrovství" />
   <text id="darkTheme" name="Tmavé téma" />
   <text id="dataDeleted" name="Profile, Masteries, Co-Op Team: deleted." />
@@ -84,7 +107,6 @@
   <text id="dishesNeeded" name="Jídla Needed" />
   <text id="dishesReady" name="jídla ready" />
   <text id="dishesRequired" name="jídla požadovaná" />
-  <text id="masteryTotalForGold" name="Total: {0} jídla → Zlato" />
   <text id="downloadData" name="Stáhžádnéut data" />
   <text id="duration" name="Trvání" />
   <text id="editGoldMasteries" name="Zlato Masteries: edit" />
@@ -92,34 +114,46 @@
   <text id="effects" name="Efekty" />
   <text id="estimatedWithTeam" name="Team: estimate" />
   <text id="exclude" name="Exclude" />
+  <text id="fashionDexDescription" name="Open Cappuccižádné Fashion FashionDex." />
   <text id="fastNote" name="Nejlepší XP/min: 11 minut – 1 hodina." />
   <text id="fastPlan" name="Rychlé" />
   <text id="fastWord" name="rychlé" />
+  <text id="filterCategory" name="Filtrovat podle kategorie" />
+  <text id="fridges" name="Lednice" />
   <text id="fullDishDexDescription" name="Otevřete kompletní DishDex se všemi informacemi." />
   <text id="fullDishDexTitle" name="Full DishDex" />
   <text id="fullTagChristmas" name="Vážádnéce" />
   <text id="fullTagEaster" name="Velikožádnéce" />
+  <text id="fullTagOver48h" name="Velmi dlouhé (48 h+)" />
   <text id="fullTagSpecial" name="Speciální" />
+  <text id="gameOrder" name="Pořadí v herní kuchařce (částečně ověřeno)" />
   <text id="gold" name="Zlato" />
   <text id="goldDeadline" name="Termín na zlato" />
   <text id="goldMasteries" name="Zlatá mistrovství" />
   <text id="goldMasteriesNote" name="Zlato hvězdičkový level = shorter cooking time." />
   <text id="goldReward" name="Zlato" />
+  <text id="goldXpMin" name="ZK/min za zlato" />
+  <text id="gridView" name="Mřížka" />
+  <text id="hideSection" name="Skrýt" />
+  <text id="highestRequiredLevel" name="Nejvyšší požadovaná úroveň" />
   <text id="holiday" name="Svátek" />
   <text id="holidayActive" name="Svátek: Aktivní" />
   <text id="holidayDishes" name="Sváteční jídla" />
-  <text id="holidayDishesNote" name="Sváteční jídla: separate. Auto = Vánoce + Velikonoce." />
+  <text id="holidayDishesNote" name="Zapni automatický režim, aby se tyto pokrmy zobrazovaly během příslušných svátků." />
   <text id="holidayInactive" name="Svátek: Neaktivní" />
+  <text id="holidayMasteryCompletionProgress" name="Postup v mistrovství (sváteční jídla):" />
   <text id="holidayMode" name="Zahržádnéut sváteční jídla?" />
-  <text id="includeSpecialDishes" name="Zahržádnéut speciální jídla?" />
   <text id="hoursShort" name="h" />
   <text id="image" name="Obrázek" />
   <text id="impossibleMissingUnlock" name="Nemožné: Jídlo unlock missing" />
   <text id="include" name="Include" />
+  <text id="includeSpecialDishes" name="Zahržádnéut speciální jídla?" />
   <text id="ingredientCost" name="Cena ingrediencí" />
   <text id="ingredientDetails" name="Ingredience" />
+  <text id="instantCookings" name="Okamžitá vaření" />
   <text id="languageLabel" name="🌐 Jazyk" />
   <text id="level" name="Level" />
+  <text id="listView" name="Seznam" />
   <text id="loadData" name="Načíst data" />
   <text id="loadTeam" name="Načíst tým" />
   <text id="loadingXml" name="Loading Café XML..." />
@@ -139,9 +173,11 @@
   <text id="masteriesEyebrow" name="Jídlo perks" />
   <text id="mastery" name="hvězdičkový level" />
   <text id="masteryBookPage" name="Strana" />
+  <text id="masteryCompletionProgress" name="hvězdičkový level progress:" />
   <text id="masteryCookbook" name="Cook Book (Legacy)" />
   <text id="masteryListHorizontal" name="List (horizontal reader)" />
   <text id="masteryListVertical" name="List (vertical reader)" />
+  <text id="masteryTotalForGold" name="Total: {0} jídla → Zlato" />
   <text id="masteryView" name="Zobrazení" />
   <text id="maxMembers" name="Max. členů" />
   <text id="maxRewardsYourLevel" name="Max rewards (level)" />
@@ -153,6 +189,7 @@
   <text id="metricXpMin" name="XP/min" />
   <text id="minimumDishLevel" name="Minimum jídlo level" />
   <text id="minutesShort" name="min" />
+  <text id="myDexCoopTitle" name="Nejlepší kooperace pro postup" />
   <text id="myDexDescription" name="Otevřete svůj osobní DishDex podle levelu, XP a dostupného času." />
   <text id="myDexHint" name="Zadejte data pro osobní doporučení." />
   <text id="myDexSettings" name="MyDex Settings" />
@@ -185,6 +222,7 @@
   <text id="noDishMatchesPlan" name="Žádné jídlo matches plan." />
   <text id="noDishesAvailable" name="Žádné jídla" />
   <text id="noEligibleChef" name="Žádné Šéf: požadovaná jídla." />
+  <text id="noEligibleCoops" name="Pro tento tým nejsou vhodné kooperace." />
   <text id="noGoldMasteriesSelected" name="Žádné Zlato Masteries selected." />
   <text id="noMasteryRows" name="Žádné jídla in search." />
   <text id="noPortionRecommendations" name="Žádné Doporučení: Porce." />
@@ -196,9 +234,14 @@
   <text id="noXpRecommendations" name="Žádné Doporučení: XP." />
   <text id="notDoable" name="Nelze splnit" />
   <text id="note" name="Poznámka" />
+  <text id="over48hNote" name="Původní doba vaření přesahuje 48 hodin." />
+  <text id="over48hPlan" name="Plán 48 h+" />
+  <text id="over48hWord" name="nad 48 h" />
+  <text id="personalEstimatedXpMin" name="Odhad ZK/min kuchaře" />
   <text id="personalRecommendations" name="Personal recommendations" />
   <text id="plan" name="Plán" />
   <text id="planCoop" name="Plážádnévat!" />
+  <text id="playCafe" name="Hrát Cappuccino Café!" />
   <text id="playerLevel" name="Level hráče" />
   <text id="playerLevelShort" name="Player level" />
   <text id="portions" name="Porce" />
@@ -207,15 +250,17 @@
   <text id="predictedRewards" name="Odměny týmu at predicted status" />
   <text id="predictedStatus" name="Predicted Status" />
   <text id="previousPage" name="← Předchozí" />
+  <text id="profileLevelUnlocksTitle" name="Level {0} unlocks:" />
   <text id="profileSaved" name="Profil uložen lokálně." />
   <text id="profileSettingsNote" name="Váš level pomůže nástroji nastavit aktuální počet dostupných sporáků. Později to můžete změnit v MyDex." />
   <text id="profileSettingsTitle" name="Profil šéfa" />
   <text id="profit" name="Zisk" />
   <text id="profitLower" name="zisk" />
   <text id="profitMin" name="Zisk/min" />
+  <text id="recommendVeryLong" name="Doporučovat velmi dlouhá jídla (nad 48 h)?" />
   <text id="recommendation" name="Doporučení" />
-  <text id="recommendedMasteriesNote" name="Nejlepší Masteries based on Souhrn nejlepších." />
-  <text id="recommendedMasteriesTitle" name="Doporučená mistrovství" />
+  <text id="recommendedMasteriesNote" name="Nejlepší pokrmy pro tvou další úroveň mistrovství!" />
+  <text id="recommendedMasteriesTitle" name="Doporučené další úrovně mistrovství" />
   <text id="recommendedStar" name="Doporučená hvězda" />
   <text id="regular" name="Běžné" />
   <text id="requirement" name="Požadavek" />
@@ -235,6 +280,7 @@
   <text id="shortPlan" name="Krátké" />
   <text id="shortWord" name="krátké" />
   <text id="showIngredients" name="Zobrazit ingredience?" />
+  <text id="showSection" name="Zobrazit" />
   <text id="silver" name="Stříbro" />
   <text id="silverDeadline" name="Termín na stříbro" />
   <text id="sortBy" name="Seřadit podle" />
@@ -266,10 +312,12 @@
   <text id="targetShort" name="Cíl" />
   <text id="targetTime" name="Cílový čas" />
   <text id="teamDeleted" name="Tým smazán." />
+  <text id="teamEstimatedXpMin" name="Odhad ZK/min týmu" />
   <text id="teamLimitReached" name="Max 10 Team." />
   <text id="teamName" name="Název týmu" />
   <text id="teamRewardsGold" name="Team: rewards if Zlato" />
   <text id="teamSaved" name="Tým uložen lokálně." />
+  <text id="toFashionDex" name="To FashionDex" />
   <text id="totalCookTime" name="Celkový čas vaření" />
   <text id="totalStoveHours" name="Celkové sporákohodiny" />
   <text id="type" name="Typ" />
@@ -280,6 +328,8 @@
   <text id="veryLongNote" name="Nejlepší XP/min: 12 h 1 min – 23 h." />
   <text id="veryLongPlan" name="Velmi dlouhé" />
   <text id="veryLongWord" name="velmi dlouhé" />
+  <text id="viewDisplay" name="Zobrazení" />
+  <text id="waiters" name="Číšníci" />
   <text id="workload" name="Zátěž" />
   <text id="workloadEqual" name="Stejná" />
   <text id="workloadHigh" name="Vysoká" />
@@ -292,52 +342,4 @@
   <text id="xpPlansNote" name="Nejlepší plány na levelování podle vašich potřeb a dostupnosti." />
   <text id="xpPlansTitle" name="XP Needed Pláns" />
   <text id="xpUpper" name="XP" />
-  <text id="toFashionDex" name="To FashionDex" />
-  <text id="fashionDexDescription" name="Open Cappuccižádné Fashion FashionDex." />
-  <text id="profileLevelUnlocksTitle" name="Level {0} unlocks:" />
-  <text id="fridges" name="Lednice" />
-  <text id="counters" name="Pulty" />
-  <text id="waiters" name="Číšníci" />
-  <text id="instantCookings" name="Okamžitá vaření" />
-  <text id="masteryCompletionProgress" name="hvězdičkový level progress:" />
-  <text id="applyFancyBoost" name="Použít Fancy?" />
-  <text id="recommendVeryLong" name="Doporučovat velmi dlouhá jídla (nad 48 h)?" />
-  <text id="filterCategory" name="Filtrovat podle kategorie" />
-  <text id="allCategories" name="Všechny kategorie" />
-  <text id="viewDisplay" name="Zobrazení" />
-  <text id="listView" name="Seznam" />
-  <text id="gridView" name="Mřížka" />
-  <text id="compactView" name="Kompaktní zobrazení" />
-  <text id="gameOrder" name="Pořadí v herní kuchařce (částečně ověřeno)" />
-  <text id="coopEligibleOnly" name="Jen kooperace, které tým zvládne uvařit" />
-  <text id="coopSortLabel" name="Řadit kooperace" />
-  <text id="coopSortNumber" name="Číslo kooperace" />
-  <text id="coopSortMaxLevel" name="Nejvyšší požadovaná úroveň jídla" />
-  <text id="coopSortGoldXpMin" name="ZK/min za zlato" />
-  <text id="myDexCoopTitle" name="Nejlepší kooperace pro postup" />
-  <text id="coopGoldOnlyNote" name="ZK ze zlaté odměny ÷ zlatý limit; bez ZK za vaření." />
-  <text id="coopScopeLabel" name="Možnosti týmu" />
-  <text id="coopCanCookAll" name="Tým zvládne všechna požadovaná jídla" />
-  <text id="coopCanCookSome" name="Tým zvládne alespoň jedno jídlo" />
-  <text id="highestRequiredLevel" name="Nejvyšší požadovaná úroveň" />
-  <text id="goldXpMin" name="ZK/min za zlato" />
-  <text id="noEligibleCoops" name="Pro tento tým nejsou vhodné kooperace." />
-  <text id="teamEstimatedXpMin" name="Odhad ZK/min týmu" />
-  <text id="personalEstimatedXpMin" name="Odhad ZK/min kuchaře" />
-  <text id="coopEstimateDisclaimer" name="Odhady vycházejí z přidělené doby vaření a předpokládané medaile; skutečný postup se může lišit." />
-  <text id="playCafe" name="Hrát Cappuccino Café" />
-  <text id="category0" name="Dezert" />
-  <text id="category1" name="Hlavní chod" />
-  <text id="category2" name="Polévka" />
-  <text id="category3" name="Salát" />
-  <text id="category4" name="Vegetariánské" />
-  <text id="category5" name="Svačina" />
-  <text id="fullTagOver48h" name="Velmi dlouhé (48 h+)" />
-  <text id="bestOver48h" name="Nejlepší nad 48 h" />
-  <text id="over48hWord" name="nad 48 h" />
-  <text id="over48hPlan" name="Plán 48 h+" />
-  <text id="over48hNote" name="Původní doba vaření přesahuje 48 hodin." />
-  <text id="holidayMasteryCompletionProgress" name="Postup v mistrovství (sváteční jídla):" />
-  <text id="coopsToLevelUp" name="Kooperací se zlatem do další úrovně" />
-  <text id="cookableDishes" name="Jídla, která můžete uvařit" />
 </dishdex>

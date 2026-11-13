@@ -8,7 +8,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css?v=20261113-dishdex-community-update-3">
+  <link rel="stylesheet" href="style.css?v=20261113-dishdex-community-update-4">
 </head>
 <body class="dark-theme">
   <main class="page">
@@ -111,7 +111,7 @@
             <span class="mode-description" data-i18n="myMasteriesDescription">Register your dish mastery stars and apply them to MyDex.</span>
           </button>
         </div>
-        <a class="cafe-shortcut" href="https://cappuccino.gabrb.net/cafe/game" target="_blank" rel="noopener noreferrer" data-i18n="playCafe">Play Cappuccino Café</a>
+        <a class="cafe-shortcut" href="https://cappuccino.gabrb.net/cafe/game" target="_blank" rel="noopener noreferrer"><img src="cappred.png" alt="" class="cafe-shortcut-icon" onerror="this.style.display='none'"><span data-i18n="playCafe">Play Cappuccino Café!</span></a>
       </section>
     </section>
 
@@ -176,7 +176,6 @@
 
       <section class="panel" id="myDexCoopSuggestionsPanel">
         <h2 data-i18n="myDexCoopTitle">Best Co-ops for leveling</h2>
-        <p class="section-note" data-i18n="coopGoldOnlyNote">Ranked by Gold reward XP divided by the Gold deadline; cooking XP is excluded.</p>
         <div id="myDexCoopSuggestions" class="coop-suggestion-grid"></div>
       </section>
       <section class="panel">
@@ -202,8 +201,8 @@
       </section>
 
       <section class="panel">
-        <h2 data-i18n="recommendedMasteriesTitle">Recommended Masteries</h2>
-        <p class="section-note" data-i18n="recommendedMasteriesNote">Best mastery targets based on your Best of Summary dishes.</p>
+        <h2 data-i18n="recommendedMasteriesTitle">Recommended Next Masteries</h2>
+        <p class="section-note" data-i18n="recommendedMasteriesNote">Best dishes for your next mastery!</p>
         <div class="table-wrap">
           <table>
             <thead>
@@ -307,15 +306,24 @@
       </section>
 
       <section class="split-panels">
-        <section class="panel">
-          <h2 data-i18n="specialDishes">Special Dishes</h2>
-          <p class="section-note" data-i18n="specialDishesNote">Special dishes are shown separately.</p>
-          <div id="specialDishesBody" class="dish-card-grid"></div>
+        <section class="panel mydex-extra-panel">
+          <div class="mydex-extra-heading">
+            <h2 data-i18n="specialDishes">Special Dishes</h2>
+            <button type="button" class="mydex-extra-toggle" data-mydex-extra-toggle="special" aria-controls="myDexSpecialContent" aria-expanded="false"><span data-mydex-toggle-label>Show</span></button>
+          </div>
+          <div id="myDexSpecialContent" class="mydex-extra-content" hidden>
+            <div id="specialDishesBody" class="dish-card-grid"></div>
+          </div>
         </section>
-        <section class="panel">
-          <h2 data-i18n="holidayDishes">Holiday Dishes</h2>
-          <p class="section-note" data-i18n="holidayDishesNote">Holiday dishes are shown separately. Auto mode uses Christmas, Easter, and Halloween seasons.</p>
-          <div id="holidayDishesBody" class="dish-card-grid"></div>
+        <section class="panel mydex-extra-panel">
+          <div class="mydex-extra-heading">
+            <h2 data-i18n="holidayDishes">Holiday Dishes</h2>
+            <button type="button" class="mydex-extra-toggle" data-mydex-extra-toggle="holiday" aria-controls="myDexHolidayContent" aria-expanded="false"><span data-mydex-toggle-label>Show</span></button>
+          </div>
+          <div id="myDexHolidayContent" class="mydex-extra-content" hidden>
+            <p class="section-note" data-i18n="holidayDishesNote">Enable Auto mode to include these automatically.</p>
+            <div id="holidayDishesBody" class="dish-card-grid"></div>
+          </div>
         </section>
       </section>
     </section>
@@ -940,6 +948,6 @@
 
   </main>
 
-  <script src="script.js?v=20261113-dishdex-community-update-3" defer></script>
+  <script src="script.js?v=20261113-dishdex-community-update-4" defer></script>
 </body>
 </html>
