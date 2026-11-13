@@ -1908,7 +1908,7 @@ function renderDishCards(containerId, records, fallbackType) {
       ? `<p class="dish-card-ingredients"><strong>${escapeHtml(t('ingredientDetails'))}:</strong> ${escapeHtml(record.requirements || '—')} · <strong>${escapeHtml(t('ingredientCost'))}:</strong> ${valueWithIconHtml('cash', record.ingredientCost)}</p>`
       : '';
     return `
-      <article class="dish-card">
+      <article class="dish-card ${categoryClass(record.categoryId)}">
         <div>${imageHtml(record)}</div>
         <div>
           <h3>${escapeHtml(record.dishName)}</h3>
@@ -3173,7 +3173,7 @@ function renderMasteries() {
 
   body.innerHTML = records.map(record => {
     return `
-      <tr>
+      <tr class="${categoryClass(record.categoryId)}">
         <td>${imageHtml(record)}</td>
         <td class="dish-name">${escapeHtml(record.dishName)}</td>
         <td>${masteryStarsHtml(record)}</td>

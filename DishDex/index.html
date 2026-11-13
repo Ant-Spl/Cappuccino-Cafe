@@ -5,10 +5,11 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Cappuccino Café DishDex</title>
+  <link rel="icon" type="image/png" href="cappred.png?v=20261113-favicon">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css?v=20261113-dishdex-community-update-4">
+  <link rel="stylesheet" href="style.css?v=20261113-dishdex-community-update-5">
 </head>
 <body class="dark-theme">
   <main class="page">
@@ -156,7 +157,7 @@
           </label>
           <label class="inline-toggle setting-toggle">
             <input id="myDexFancyToggle" class="fancy-boost-toggle" type="checkbox">
-            <span data-i18n="applyFancyBoost">Apply Fancy?</span>
+            <span class="fancy-sparkle" aria-hidden="true">✨</span> <span data-i18n="applyFancyBoost">Apply Fancy?</span>
           </label>
           <label class="inline-toggle setting-toggle">
             <input id="recommendVeryLongToggle" class="recommend-very-long-toggle" type="checkbox">
@@ -305,7 +306,7 @@
         </div>
       </section>
 
-      <section class="split-panels">
+      <section class="split-panels mydex-extra-stack">
         <section class="panel mydex-extra-panel">
           <div class="mydex-extra-heading">
             <h2 data-i18n="specialDishes">Special Dishes</h2>
@@ -401,7 +402,7 @@
           </label>
           <label class="inline-toggle setting-toggle my-time-toggle compact-masteries-toggle">
             <input id="myTimeFancyToggle" class="fancy-boost-toggle" type="checkbox">
-            <span data-i18n="applyFancyBoost">Apply Fancy?</span>
+            <span class="fancy-sparkle" aria-hidden="true">✨</span> <span data-i18n="applyFancyBoost">Apply Fancy?</span>
           </label>
           <label class="inline-toggle setting-toggle my-time-toggle compact-masteries-toggle">
             <input id="myTimeRecommendVeryLongToggle" class="recommend-very-long-toggle" type="checkbox">
@@ -483,7 +484,7 @@
           <div class="full-fancy-compact-controls">
             <label class="full-mastery-toggle">
               <input id="fullFancyToggle" class="fancy-boost-toggle" type="checkbox">
-              <span data-i18n="applyFancyBoost">Apply Fancy?</span>
+              <span class="fancy-sparkle" aria-hidden="true">✨</span> <span data-i18n="applyFancyBoost">Apply Fancy?</span>
             </label>
             <label id="fullCompactViewSetting" class="full-mastery-toggle compact-view-setting hidden">
               <input id="fullCompactViewToggle" type="checkbox">
@@ -948,6 +949,6 @@
 
   </main>
 
-  <script src="script.js?v=20261113-dishdex-community-update-4" defer></script>
+  <script src="script.js?v=20261113-dishdex-community-update-5" defer></script>
 </body>
 </html>

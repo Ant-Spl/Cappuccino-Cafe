@@ -3900,3 +3900,127 @@ body.dark-theme #fullDishDexScreen .full-table tbody tr.category-snack td:not(:f
 body.dark-theme #fullDishDexScreen .full-table tbody tr[class*="category-"] td:not(:first-child) { color: #fff4e8; border-color: rgba(233, 194, 151, .27); }
 body.dark-theme #fullDishDexScreen .full-table tbody tr[class*="category-"] td:not(:first-child) .dish-type-tag,
 body.dark-theme #fullDishDexScreen .full-table tbody tr[class*="category-"] td:not(:first-child) .metric-stack small { color: #ead0b6; }
+
+
+/* Community revision 5: muted list palette in dark mode, responsive homepage, stacked extras. */
+/* Keep holiday and special controls on separate rows; expanding one cannot stretch the other. */
+#myDexScreen .mydex-extra-stack {
+  grid-template-columns: minmax(0, 1fr);
+  gap: 0;
+}
+#myDexScreen .mydex-extra-stack .dish-card-grid {
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 310px), 1fr));
+}
+#myDexScreen .mydex-extra-stack .mydex-extra-panel { min-width: 0; }
+
+/* The sparkle is decorative, and the translated label remains unchanged. */
+.fancy-sparkle { display: inline-block; font-size: 1em; line-height: 1; flex: 0 0 auto; margin-right: -6px; }
+
+/* Home: three compact columns fit a typical 1366x768 laptop better than six tall, narrow cards. */
+@media (max-width: 1440px) and (min-width: 841px) {
+  #welcomeScreen .six-mode-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+}
+@media (max-width: 840px) and (min-width: 561px) {
+  #welcomeScreen .six-mode-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+@media (max-width: 560px) {
+  #welcomeScreen .six-mode-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; }
+  #welcomeScreen .mode-card { padding: 10px 7px; }
+  #welcomeScreen .mode-description { font-size: .8rem; }
+}
+@media (max-width: 360px) {
+  #welcomeScreen .six-mode-grid { grid-template-columns: minmax(0, 1fr); }
+}
+@media (max-width: 1440px) {
+  #welcomeScreen .mode-grid { gap: 12px; }
+  #welcomeScreen .mode-card {
+    padding: 12px 15px;
+    min-height: 0;
+    gap: 6px;
+    align-content: center;
+  }
+  #welcomeScreen .mode-icon { width: 65px; height: 65px; margin-bottom: 1px; }
+  #welcomeScreen .mode-title { font-size: clamp(1rem, 1.6vw, 1.2rem); line-height: 1.16; }
+  #welcomeScreen .mode-description { font-size: .86rem; line-height: 1.25; }
+}
+@media (max-height: 820px) {
+  #welcomeScreen .welcome-hero { min-height: 0; margin-bottom: 12px; }
+  #welcomeScreen .welcome-panel { padding: 14px 16px; }
+  #welcomeScreen .theme-toggle-row { margin-bottom: 12px; }
+  .page:has(> #welcomeScreen:not(.hidden)) { padding-top: 12px; }
+  #welcomeScreen .cafe-shortcut { margin-top: 10px; padding: 7px 12px; }
+}
+
+/* Harmonize dark-mode list rows with Full DishDex's six muted category colors. */
+body.dark-theme .table-wrap table tbody tr.category-dessert > td:not(:first-child) { background: #48313d; }
+body.dark-theme .table-wrap table tbody tr.category-main > td:not(:first-child) { background: #4a382a; }
+body.dark-theme .table-wrap table tbody tr.category-soup > td:not(:first-child) { background: #48372f; }
+body.dark-theme .table-wrap table tbody tr.category-salad > td:not(:first-child) { background: #2f4738; }
+body.dark-theme .table-wrap table tbody tr.category-vegetarian > td:not(:first-child) { background: #35503a; }
+body.dark-theme .table-wrap table tbody tr.category-snack > td:not(:first-child) { background: #4b3335; }
+
+/* Preserve the XP / profit / portion rankings with dark, progressively stronger tones. */
+body.dark-theme .table-wrap table tbody tr.best-xp-1 > td:not(:first-child) { background: #253442; }
+body.dark-theme .table-wrap table tbody tr.best-xp-2 > td:not(:first-child) { background: #283949; }
+body.dark-theme .table-wrap table tbody tr.best-xp-3 > td:not(:first-child) { background: #2b3e50; }
+body.dark-theme .table-wrap table tbody tr.best-xp-4 > td:not(:first-child) { background: #2e4457; }
+body.dark-theme .table-wrap table tbody tr.best-xp-5 > td:not(:first-child) { background: #32495e; }
+body.dark-theme .table-wrap table tbody tr.best-xp-6 > td:not(:first-child) { background: #354e65; }
+body.dark-theme .table-wrap table tbody tr.best-xp-7 > td:not(:first-child) { background: #38536c; }
+body.dark-theme .table-wrap table tbody tr.best-profit-1 > td:not(:first-child) { background: #24392b; }
+body.dark-theme .table-wrap table tbody tr.best-profit-2 > td:not(:first-child) { background: #283f2f; }
+body.dark-theme .table-wrap table tbody tr.best-profit-3 > td:not(:first-child) { background: #2b4533; }
+body.dark-theme .table-wrap table tbody tr.best-profit-4 > td:not(:first-child) { background: #2f4a37; }
+body.dark-theme .table-wrap table tbody tr.best-profit-5 > td:not(:first-child) { background: #33503b; }
+body.dark-theme .table-wrap table tbody tr.best-profit-6 > td:not(:first-child) { background: #36563f; }
+body.dark-theme .table-wrap table tbody tr.best-profit-7 > td:not(:first-child) { background: #3a5c43; }
+body.dark-theme .table-wrap table tbody tr.best-portions-1 > td:not(:first-child) { background: #372b21; }
+body.dark-theme .table-wrap table tbody tr.best-portions-2 > td:not(:first-child) { background: #3e2f23; }
+body.dark-theme .table-wrap table tbody tr.best-portions-3 > td:not(:first-child) { background: #443425; }
+body.dark-theme .table-wrap table tbody tr.best-portions-4 > td:not(:first-child) { background: #4a3827; }
+body.dark-theme .table-wrap table tbody tr.best-portions-5 > td:not(:first-child) { background: #513c29; }
+body.dark-theme .table-wrap table tbody tr.best-portions-6 > td:not(:first-child) { background: #58412b; }
+body.dark-theme .table-wrap table tbody tr.best-portions-7 > td:not(:first-child) { background: #5e452d; }
+
+/* Time-bucket recommendations retain their warm-to-cool progression. */
+body.dark-theme .table-wrap table tbody tr.row-active > td:not(:first-child) { background: #49372d; }
+body.dark-theme .table-wrap table tbody tr.row-fast > td:not(:first-child) { background: #513c2c; }
+body.dark-theme .table-wrap table tbody tr.row-short > td:not(:first-child) { background: #5b402e; }
+body.dark-theme .table-wrap table tbody tr.row-medium > td:not(:first-child) { background: #324a39; }
+body.dark-theme .table-wrap table tbody tr.row-long > td:not(:first-child) { background: #314354; }
+body.dark-theme .table-wrap table tbody tr.row-veryLong > td:not(:first-child) { background: #35485d; }
+body.dark-theme .table-wrap table tbody tr.row-dayOff > td:not(:first-child) { background: #3a4e65; }
+
+/* Treat the first (image) column as a consistent dark anchor, like the grid view. */
+body.dark-theme .table-wrap table tbody tr:is([class*="best-"], [class*="category-"], [class*="row-"]) > td:first-child:not([colspan]) {
+  background: #281e18;
+}
+body.dark-theme .table-wrap table tbody tr:is([class*="best-"], [class*="category-"], [class*="row-"]) > td:not(:first-child) {
+  color: #fff4e8;
+  border-color: rgba(233, 194, 151, .25);
+}
+body.dark-theme .table-wrap table tbody tr:is([class*="best-"], [class*="category-"], [class*="row-"]) > td:not(:first-child) :is(.dish-type-tag, .metric-stack small) {
+  color: #ead0b6;
+}
+/* Ingredient detail rows have a dedicated light surface and must stay readable. */
+body.dark-theme .table-wrap table tbody tr.ingredient-detail-row td {
+  background: rgba(255, 248, 230, .94) !important;
+  color: #3b2618 !important;
+}
+
+@media (min-width: 841px) and (max-width: 1100px) {
+  #welcomeScreen .hero { grid-template-columns: minmax(0, 1fr) auto; }
+  #welcomeScreen .theme-toggle-row,
+  #welcomeScreen .home-controls { flex-direction: row; align-items: center; }
+  #welcomeScreen .status-card { min-width: 0; }
+}
+
+/* MyDex special/holiday list cards use the same muted category palette in dark mode. */
+body.dark-theme #myDexScreen .dish-card.category-dessert { background: #48313d; }
+body.dark-theme #myDexScreen .dish-card.category-main { background: #4a382a; }
+body.dark-theme #myDexScreen .dish-card.category-soup { background: #48372f; }
+body.dark-theme #myDexScreen .dish-card.category-salad { background: #2f4738; }
+body.dark-theme #myDexScreen .dish-card.category-vegetarian { background: #35503a; }
+body.dark-theme #myDexScreen .dish-card.category-snack { background: #4b3335; }
+body.dark-theme #myDexScreen .dish-card[class*="category-"] { border-color: rgba(233, 194, 151, .34); color: #fff4e8; }
+body.dark-theme #myDexScreen .dish-card[class*="category-"] p { color: #ead0b6; }
