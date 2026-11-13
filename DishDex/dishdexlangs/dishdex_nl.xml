@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Provisional DishDex UI translation pass; review/polish with human translators when possible. -->
+<?xml version='1.0' encoding='utf-8'?>
 <dishdex lang="nl">
   <text id="actions" name="Acties" />
   <text id="activeNote" name="Beste XP/min: 10 minuten of minder." />
@@ -308,6 +307,7 @@
   <text id="viewDisplay" name="Weergave" />
   <text id="listView" name="Lijst" />
   <text id="gridView" name="Raster" />
+  <text id="compactView" name="Compacte weergave" />
   <text id="gameOrder" name="Volgorde in het spelkookboek (deels gecontroleerd)" />
   <text id="coopEligibleOnly" name="Alleen co-ops die mijn team kan koken" />
   <text id="coopSortLabel" name="Co-ops sorteren" />

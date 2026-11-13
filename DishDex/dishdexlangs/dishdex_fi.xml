@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Provisional DishDex UI translation pass; review/polish with human translators when possible. -->
+<?xml version='1.0' encoding='utf-8'?>
 <dishdex lang="fi">
   <text id="actions" name="Toimineit" />
   <text id="activeNote" name="Paras XP/min: 10 minuuttia tai vähemmän." />
@@ -308,6 +307,7 @@
   <text id="viewDisplay" name="Näkymä" />
   <text id="listView" name="Luettelo" />
   <text id="gridView" name="Ruudukko" />
+  <text id="compactView" name="Tiivis näkymä" />
   <text id="gameOrder" name="Pelin keittokirjan järjestys (osittain tarkistettu)" />
   <text id="coopEligibleOnly" name="Vain yhteistyötehtävät, joihin tiimini pystyy" />
   <text id="coopSortLabel" name="Lajittele yhteistyötehtävät" />

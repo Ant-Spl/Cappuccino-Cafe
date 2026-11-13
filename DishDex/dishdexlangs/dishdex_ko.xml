@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Provisional DishDex UI translation pass; review/polish with human translators when possible. -->
+<?xml version='1.0' encoding='utf-8'?>
 <dishdex lang="ko">
   <text id="actions" name="작업" />
   <text id="activeNote" name="최고 XP/min: 10 분 이하." />
@@ -308,6 +307,7 @@
   <text id="viewDisplay" name="보기" />
   <text id="listView" name="목록" />
   <text id="gridView" name="격자" />
+  <text id="compactView" name="간단히 보기" />
   <text id="gameOrder" name="게임 요리책 순서(일부만 확인됨)" />
   <text id="coopEligibleOnly" name="팀이 요리할 수 있는 협동 미션만" />
   <text id="coopSortLabel" name="협동 미션 정렬" />

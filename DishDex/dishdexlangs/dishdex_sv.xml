@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Provisional DishDex UI translation pass; review/polish with human translators when possible. -->
+<?xml version='1.0' encoding='utf-8'?>
 <dishdex lang="sv">
   <text id="actions" name="Åtgärder" />
   <text id="activeNote" name="Bästa XP/min: 10 minuter eller mindre." />
@@ -308,6 +307,7 @@
   <text id="viewDisplay" name="Visning" />
   <text id="listView" name="Lista" />
   <text id="gridView" name="Rutnät" />
+  <text id="compactView" name="Kompakt vy" />
   <text id="gameOrder" name="Ordning i spelets kokbok (delvis verifierad)" />
   <text id="coopEligibleOnly" name="Bara co-ops som mitt lag kan laga" />
   <text id="coopSortLabel" name="Sortera co-ops" />

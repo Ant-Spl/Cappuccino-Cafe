@@ -8,7 +8,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css?v=20261113-dishdex-community-update-2">
+  <link rel="stylesheet" href="style.css?v=20261113-dishdex-community-update-3">
 </head>
 <body class="dark-theme">
   <main class="page">
@@ -127,7 +127,6 @@
         </div>
       </header>
 
-      <div class="view-switch-toolbar"><span data-i18n="viewDisplay">Display</span><div class="view-switch" data-grid-scope="myDexScreen"><button type="button" class="view-button" data-view="list" data-i18n="listView">List</button><button type="button" class="view-button" data-view="grid" data-i18n="gridView">Grid</button></div></div>
       <section class="panel inputs-panel">
         <h2 data-i18n="myDexSettings">MyDex Settings</h2>
         <div class="input-grid">
@@ -333,7 +332,6 @@
         </div>
       </header>
 
-      <div class="view-switch-toolbar"><span data-i18n="viewDisplay">Display</span><div class="view-switch" data-grid-scope="myTimeScreen"><button type="button" class="view-button" data-view="list" data-i18n="listView">List</button><button type="button" class="view-button" data-view="grid" data-i18n="gridView">Grid</button></div></div>
       <section class="panel inputs-panel my-time-panel">
         <h2 data-i18n="myTimeSettings">My Time Settings</h2>
         <p class="section-note" data-i18n="myTimeQuestion">How long do you want to cook for?</p>
@@ -474,10 +472,16 @@
             <input id="fullUseMasteriesToggle" type="checkbox" checked>
             <span data-i18n="useRegisteredMasteries">Use my registered masteries</span>
           </label>
-          <label class="full-mastery-toggle">
-            <input id="fullFancyToggle" class="fancy-boost-toggle" type="checkbox">
-            <span data-i18n="applyFancyBoost">Apply Fancy?</span>
-          </label>
+          <div class="full-fancy-compact-controls">
+            <label class="full-mastery-toggle">
+              <input id="fullFancyToggle" class="fancy-boost-toggle" type="checkbox">
+              <span data-i18n="applyFancyBoost">Apply Fancy?</span>
+            </label>
+            <label id="fullCompactViewSetting" class="full-mastery-toggle compact-view-setting hidden">
+              <input id="fullCompactViewToggle" type="checkbox">
+              <span data-i18n="compactView">Compact view</span>
+            </label>
+          </div>
           <label>
             <span data-i18n="filterCategory">Category filter</span>
             <select id="fullCategoryFilter"></select>
@@ -936,6 +940,6 @@
 
   </main>
 
-  <script src="script.js?v=20261113-dishdex-community-update-2" defer></script>
+  <script src="script.js?v=20261113-dishdex-community-update-3" defer></script>
 </body>
 </html>

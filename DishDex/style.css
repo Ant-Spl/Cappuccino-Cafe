@@ -3808,3 +3808,67 @@ body.dark-theme .assignment-card .assignment-xp-rate { color: #fff4e8; }
   .mastery-completion-header { flex-wrap: wrap; }
   .dish-dynamic-grid { grid-template-columns: repeat(auto-fit, minmax(min(100%, 240px), 1fr)); }
 }
+
+/* Community revision 3: focus grid mode on Full DishDex and preserve category colors. */
+.full-fancy-compact-controls {
+  display: flex;
+  align-items: end;
+  gap: 10px;
+  flex-wrap: wrap;
+  min-width: 0;
+}
+.full-fancy-compact-controls .full-mastery-toggle { min-width: 0; }
+.full-fancy-compact-controls .compact-view-setting { white-space: nowrap; }
+.full-dishdex-options { grid-template-columns: minmax(240px, 420px) minmax(250px, 1fr); }
+
+/* Light theme: the same category palette as the color-coded list. */
+#fullDishDexScreen .dish-grid-card { color: #3b2618; border-color: rgba(90, 63, 43, .30); }
+#fullDishDexScreen .dish-grid-card :is(strong, span, p, div, small) { color: inherit; }
+#fullDishDexScreen .dish-grid-card .dish-grid-stat { background: rgba(255, 255, 255, .34); }
+#fullDishDexScreen .dish-grid-card .dish-grid-stat > span,
+#fullDishDexScreen .dish-grid-card .dish-type-tag { color: #6b4b36; }
+#fullDishDexScreen .dish-grid-card.category-dessert { background: #ead1dc; }
+#fullDishDexScreen .dish-grid-card.category-main { background: #fce5cd; }
+#fullDishDexScreen .dish-grid-card.category-soup { background: #ead7c2; }
+#fullDishDexScreen .dish-grid-card.category-salad { background: #d9ead3; }
+#fullDishDexScreen .dish-grid-card.category-vegetarian { background: #b6d7a8; }
+#fullDishDexScreen .dish-grid-card.category-snack { background: #f4cccc; }
+
+/* Dark theme: muted category tones with light, readable text. */
+body.dark-theme #fullDishDexScreen .dish-grid-card { color: #fff4e8; border-color: rgba(235, 204, 171, .35); }
+body.dark-theme #fullDishDexScreen .dish-grid-card :is(strong, span, p, div, small) { color: #fff4e8; }
+body.dark-theme #fullDishDexScreen .dish-grid-card .dish-grid-stat { background: rgba(255, 255, 255, .085); }
+body.dark-theme #fullDishDexScreen .dish-grid-card .dish-grid-stat > span,
+body.dark-theme #fullDishDexScreen .dish-grid-card .dish-type-tag,
+body.dark-theme #fullDishDexScreen .dish-grid-card .metric-stack small { color: #ead0b6; }
+body.dark-theme #fullDishDexScreen .dish-grid-card.category-dessert { background: #48313d; }
+body.dark-theme #fullDishDexScreen .dish-grid-card.category-main { background: #4a382a; }
+body.dark-theme #fullDishDexScreen .dish-grid-card.category-soup { background: #48372f; }
+body.dark-theme #fullDishDexScreen .dish-grid-card.category-salad { background: #2f4738; }
+body.dark-theme #fullDishDexScreen .dish-grid-card.category-vegetarian { background: #35503a; }
+body.dark-theme #fullDishDexScreen .dish-grid-card.category-snack { background: #4b3335; }
+
+/* Compact view: only image, name, level, total XP per cook. */
+#fullDishDexScreen .dish-dynamic-grid.compact-dish-grid {
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, 208px), 1fr));
+  gap: 10px;
+}
+#fullDishDexScreen .dish-grid-card-compact { padding: 12px; }
+#fullDishDexScreen .dish-grid-card-compact .dish-grid-heading { min-height: 56px; margin-bottom: 8px; gap: 9px; }
+#fullDishDexScreen .dish-grid-card-compact .dish-grid-heading strong { font-size: .93rem; line-height: 1.25; }
+#fullDishDexScreen .dish-grid-compact-stats { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 6px 10px; border-top: 1px solid rgba(128, 103, 76, .23); padding-top: 8px; font-size: .88rem; }
+#fullDishDexScreen .dish-grid-compact-stats > span { display: inline-flex; gap: 4px; align-items: center; white-space: nowrap; }
+#fullDishDexScreen .dish-grid-compact-stats b { opacity: .8; }
+
+/* Leveling recommendations should feel native to dark mode, not like white tiles. */
+body.dark-theme .coop-suggestion-card { background: #35281f; border-color: #856243; color: #fff0db; }
+body.dark-theme .coop-suggestion-card :is(strong, span, p, div, small) { color: #fff0db; }
+body.dark-theme .coop-suggestion-card .coop-level-count strong { color: #aceda8; }
+body.dark-theme .coop-suggestion-card .plan-button { color: #063d1b; }
+@media (max-width: 720px) {
+  .full-dishdex-options { grid-template-columns: 1fr; }
+  .full-fancy-compact-controls { flex-wrap: wrap; }
+}
+
+/* A missing picture should still be legible over its light placeholder. */
+body.dark-theme #fullDishDexScreen .dish-grid-card .missing-img { color: #3b2618; }

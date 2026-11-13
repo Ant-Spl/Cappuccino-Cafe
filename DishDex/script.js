@@ -49,6 +49,7 @@ const FULL_SORT_STORAGE_KEY = 'dishDexFullSort';
 const FULL_CATEGORY_STORAGE_KEY = 'dishDexFullCategory';
 const VERY_LONG_STORAGE_KEY = 'dishDexRecommendVeryLong';
 const GRID_STORAGE_PREFIX = 'dishDexGridView-';
+const FULL_COMPACT_STORAGE_KEY = 'dishDexFullCompactView';
 const COOP_SORT_STORAGE_KEY = 'dishDexCoopSort';
 const COOP_ELIGIBILITY_STORAGE_KEY = 'dishDexCoopEligibility';
 const MAX_COOP_TEAMS = 10;
@@ -114,8 +115,8 @@ const SUPPORTED_LANGUAGE_CODES = [
 ];
 
 const NEW_UI_FALLBACK = {
-  en: {holidayMasteryCompletionProgress: 'Mastery completion progress (holiday):', coopsToLevelUp: 'Gold completions to level up', cookableDishes: 'Dishes you can cook', applyFancyBoost: 'Apply Fancy?', recommendVeryLong: 'Recommend very long dishes (over 48h)?', filterCategory: 'Filter by category', allCategories: 'All categories', viewDisplay: 'Display', listView: 'List', gridView: 'Grid', gameOrder: 'Game cookbook order (partially verified)', coopEligibleOnly: 'Only co-ops my team can cook', coopSortLabel: 'Sort co-ops', coopSortNumber: 'Co-op number', coopSortMaxLevel: 'Highest required dish level', coopSortGoldXpMin: 'Gold XP/min', myDexCoopTitle: 'Best co-ops for leveling', coopGoldOnlyNote: 'Gold reward XP ÷ Gold deadline; cooking XP excluded.', coopScopeLabel: 'Team coverage', coopCanCookAll: 'Team can cook every required dish', coopCanCookSome: 'Team can cook at least one required dish', highestRequiredLevel: 'Highest required level', goldXpMin: 'Gold XP/min', noEligibleCoops: 'No compatible co-ops for the selected team.', teamEstimatedXpMin: 'Estimated team XP/min', personalEstimatedXpMin: 'Estimated chef XP/min', coopEstimateDisclaimer: 'Estimates use assigned cooking time and predicted medal; actual game progress may differ.', playCafe: 'Play Cappuccino Café', category0: 'Dessert', category1: 'Main dish', category2: 'Soup', category3: 'Salad', category4: 'Vegetarian', category5: 'Snack', fullTagOver48h: 'Very long (48h+)', bestOver48h: 'Best 48h+', over48hWord: 'over 48h', over48hPlan: '48h+ plan', over48hNote: 'Original cooking duration over 48 hours.'},
-  pt: {holidayMasteryCompletionProgress: 'Progresso de maestrias (festivos):', coopsToLevelUp: 'Conclusões com ouro para subir de nível', cookableDishes: 'Pratos que você pode preparar', applyFancyBoost: 'Aplicar Fancy?', recommendVeryLong: 'Recomendar pratos muito demorados (mais de 48h)?', filterCategory: 'Filtrar por categoria', allCategories: 'Todas as categorias', viewDisplay: 'Visualização', listView: 'Lista', gridView: 'Grade', gameOrder: 'Ordem do livro de receitas (parcialmente verificada)', coopEligibleOnly: 'Apenas Co-Ops que minha equipe consegue cozinhar', coopSortLabel: 'Ordenar Co-Ops', coopSortNumber: 'Número da Co-Op', coopSortMaxLevel: 'Maior nível exigido pelos pratos', coopSortGoldXpMin: 'XP/min de ouro', myDexCoopTitle: 'Melhores Co-Ops para subir de nível', coopGoldOnlyNote: 'XP da recompensa de ouro ÷ prazo para ouro; XP do preparo não incluído.', coopScopeLabel: 'Capacidade da equipe', coopCanCookAll: 'Equipe consegue cozinhar todos os pratos', coopCanCookSome: 'Equipe consegue cozinhar ao menos um prato', highestRequiredLevel: 'Maior nível exigido', goldXpMin: 'XP/min de ouro', noEligibleCoops: 'Nenhuma Co-Op compatível com a equipe escolhida.', teamEstimatedXpMin: 'XP/min estimado da equipe', personalEstimatedXpMin: 'XP/min estimado do chef', coopEstimateDisclaimer: 'Estimativas usam o tempo de preparo atribuído e a medalha prevista; o progresso real pode ser diferente.', playCafe: 'Jogar Cappuccino Café', category0: 'Sobremesa', category1: 'Prato principal', category2: 'Sopa', category3: 'Salada', category4: 'Vegetariano', category5: 'Lanche', fullTagOver48h: 'Muito demorado (48h+)', bestOver48h: 'Melhor acima de 48h', over48hWord: 'acima de 48h', over48hPlan: 'Plano 48h+', over48hNote: 'Tempo original de preparo acima de 48 horas.'},
+  en: {holidayMasteryCompletionProgress: 'Mastery completion progress (holiday):', coopsToLevelUp: 'Gold completions to level up', cookableDishes: 'Dishes you can cook', applyFancyBoost: 'Apply Fancy?', recommendVeryLong: 'Recommend very long dishes (over 48h)?', filterCategory: 'Filter by category', allCategories: 'All categories', viewDisplay: 'Display', listView: 'List', gridView: 'Grid', compactView: 'Compact view', gameOrder: 'Game cookbook order (partially verified)', coopEligibleOnly: 'Only co-ops my team can cook', coopSortLabel: 'Sort co-ops', coopSortNumber: 'Co-op number', coopSortMaxLevel: 'Highest required dish level', coopSortGoldXpMin: 'Gold XP/min', myDexCoopTitle: 'Best co-ops for leveling', coopGoldOnlyNote: 'Gold reward XP ÷ Gold deadline; cooking XP excluded.', coopScopeLabel: 'Team coverage', coopCanCookAll: 'Team can cook every required dish', coopCanCookSome: 'Team can cook at least one required dish', highestRequiredLevel: 'Highest required level', goldXpMin: 'Gold XP/min', noEligibleCoops: 'No compatible co-ops for the selected team.', teamEstimatedXpMin: 'Estimated team XP/min', personalEstimatedXpMin: 'Estimated chef XP/min', coopEstimateDisclaimer: 'Estimates use assigned cooking time and predicted medal; actual game progress may differ.', playCafe: 'Play Cappuccino Café', category0: 'Dessert', category1: 'Main dish', category2: 'Soup', category3: 'Salad', category4: 'Vegetarian', category5: 'Snack', fullTagOver48h: 'Very long (48h+)', bestOver48h: 'Best 48h+', over48hWord: 'over 48h', over48hPlan: '48h+ plan', over48hNote: 'Original cooking duration over 48 hours.'},
+  pt: {holidayMasteryCompletionProgress: 'Progresso de maestrias (festivos):', coopsToLevelUp: 'Conclusões com ouro para subir de nível', cookableDishes: 'Pratos que você pode preparar', applyFancyBoost: 'Aplicar Fancy?', recommendVeryLong: 'Recomendar pratos muito demorados (mais de 48h)?', filterCategory: 'Filtrar por categoria', allCategories: 'Todas as categorias', viewDisplay: 'Visualização', listView: 'Lista', gridView: 'Grade', compactView: 'Visualização compacta', gameOrder: 'Ordem do livro de receitas (parcialmente verificada)', coopEligibleOnly: 'Apenas Co-Ops que minha equipe consegue cozinhar', coopSortLabel: 'Ordenar Co-Ops', coopSortNumber: 'Número da Co-Op', coopSortMaxLevel: 'Maior nível exigido pelos pratos', coopSortGoldXpMin: 'XP/min de ouro', myDexCoopTitle: 'Melhores Co-Ops para subir de nível', coopGoldOnlyNote: 'XP da recompensa de ouro ÷ prazo para ouro; XP do preparo não incluído.', coopScopeLabel: 'Capacidade da equipe', coopCanCookAll: 'Equipe consegue cozinhar todos os pratos', coopCanCookSome: 'Equipe consegue cozinhar ao menos um prato', highestRequiredLevel: 'Maior nível exigido', goldXpMin: 'XP/min de ouro', noEligibleCoops: 'Nenhuma Co-Op compatível com a equipe escolhida.', teamEstimatedXpMin: 'XP/min estimado da equipe', personalEstimatedXpMin: 'XP/min estimado do chef', coopEstimateDisclaimer: 'Estimativas usam o tempo de preparo atribuído e a medalha prevista; o progresso real pode ser diferente.', playCafe: 'Jogar Cappuccino Café', category0: 'Sobremesa', category1: 'Prato principal', category2: 'Sopa', category3: 'Salada', category4: 'Vegetariano', category5: 'Lanche', fullTagOver48h: 'Muito demorado (48h+)', bestOver48h: 'Melhor acima de 48h', over48hWord: 'acima de 48h', over48hPlan: 'Plano 48h+', over48hNote: 'Tempo original de preparo acima de 48 horas.'},
 };
 
 const CAFE_LANGUAGE_CODES = new Set(SUPPORTED_LANGUAGE_CODES);
@@ -4305,12 +4306,26 @@ function setupRecommendationControls() {
 }
 
 const GRID_TABLES = {
-  myDexScreen: ['bestSummaryBody', 'recommendedMasteriesBody', 'bestXpBody', 'bestProfitBody', 'bestPortionsBody', 'xpPlansBody'],
-  myTimeScreen: ['myTimeBestBody', 'myTimeAllBody'],
   fullDishDexScreen: ['fullDishDexBody']
 };
 
+function getFullCompactViewSetting() {
+  return localStorage.getItem(FULL_COMPACT_STORAGE_KEY) === 'true';
+}
+
 function setupGridViews() {
+  const compactToggle = document.getElementById('fullCompactViewToggle');
+  if (compactToggle) {
+    compactToggle.checked = getFullCompactViewSetting();
+    compactToggle.addEventListener('change', () => {
+      localStorage.setItem(FULL_COMPACT_STORAGE_KEY, compactToggle.checked ? 'true' : 'false');
+      applyGridView('fullDishDexScreen');
+    });
+  }
+  // Only Full DishDex offers a grid. MyDex and My Time always use their color-coded lists.
+  for (const screenId of ['myDexScreen', 'myTimeScreen']) {
+    localStorage.removeItem(GRID_STORAGE_PREFIX + screenId);
+  }
   Object.entries(GRID_TABLES).forEach(([screenId, ids]) => {
     const scope = document.querySelector(`[data-grid-scope="${screenId}"]`);
     if (!scope) return;
@@ -4341,6 +4356,7 @@ function applyGridView(screenId, initialView = null) {
     button.classList.toggle('selected', selected);
     button.setAttribute('aria-pressed', selected ? 'true' : 'false');
   });
+  document.getElementById('fullCompactViewSetting')?.classList.toggle('hidden', !(screenId === 'fullDishDexScreen' && view === 'grid'));
   (GRID_TABLES[screenId] || []).forEach(id => {
     const tableBody = document.getElementById(id);
     const wrap = tableBody?.closest('.table-wrap');
@@ -4375,6 +4391,8 @@ function buildTableCards(bodyId) {
     if (headingOverrides[index]) return headingOverrides[index];
     return (cell.textContent || '').trim();
   });
+  const compact = bodyId === 'fullDishDexBody' && getFullCompactViewSetting();
+  cards.classList.toggle('compact-dish-grid', compact);
   const isSummary = ['bestSummaryBody', 'myTimeBestBody', 'bestXpBody', 'bestProfitBody', 'bestPortionsBody', 'recommendedMasteriesBody', 'xpPlansBody'].includes(bodyId);
   const titleIndex = isSummary ? 2 : 1;
   let output = '';
@@ -4390,6 +4408,16 @@ function buildTableCards(bodyId) {
     }
     const title = cells[titleIndex]?.innerHTML || '';
     const image = cells[0]?.innerHTML || '';
+    if (compact) {
+      // Raw XP is the total per cook (with active mastery/Fancy choices), not XP/min.
+      const rawXp = cells[3]?.querySelector('.metric-stack > span')?.innerHTML || cells[3]?.innerHTML || '';
+      const level = cells[2]?.innerHTML || '';
+      output += `<article class="dish-grid-card dish-grid-card-compact ${escapeHtml(row.className || '')}">
+        <div class="dish-grid-heading">${image}<strong>${title}</strong></div>
+        <div class="dish-grid-compact-stats"><span><b>${escapeHtml(t('level'))}</b> ${level}</span><span><b>XP</b> ${rawXp}</span></div>
+      </article>`;
+      continue;
+    }
     const stats = cells.map((cell, index) => {
       if (index === 0 || index === titleIndex) return '';
       const content = cell.innerHTML.trim();

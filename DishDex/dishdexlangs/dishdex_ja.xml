@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Provisional DishDex UI translation pass; review/polish with human translators when possible. -->
+<?xml version='1.0' encoding='utf-8'?>
 <dishdex lang="ja">
   <text id="actions" name="操作" />
   <text id="activeNote" name="最高 XP/min: 10 分 以下." />
@@ -308,6 +307,7 @@
   <text id="viewDisplay" name="表示" />
   <text id="listView" name="リスト" />
   <text id="gridView" name="グリッド" />
+  <text id="compactView" name="コンパクト表示" />
   <text id="gameOrder" name="ゲームのレシピ帳順（部分的に確認済み）" />
   <text id="coopEligibleOnly" name="チームで調理できる協力ミッションのみ" />
   <text id="coopSortLabel" name="協力ミッションを並べ替え" />

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <dishdex lang="en">
   <text id="actions" name="Actions" />
   <text id="activeNote" name="Best XP/min for 10 minutes or less." />
@@ -307,6 +307,7 @@
   <text id="viewDisplay" name="Display" />
   <text id="listView" name="List" />
   <text id="gridView" name="Grid" />
+  <text id="compactView" name="Compact view" />
   <text id="gameOrder" name="Game cookbook order (partially verified)" />
   <text id="coopEligibleOnly" name="Only co-ops my team can cook" />
   <text id="coopSortLabel" name="Sort co-ops" />

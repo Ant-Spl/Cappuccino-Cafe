@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Provisional DishDex UI translation pass; review/polish with human translators when possible. -->
+<?xml version='1.0' encoding='utf-8'?>
 <dishdex lang="el">
   <text id="actions" name="Ενέργειες" />
   <text id="activeNote" name="Καλύτερο XP/min: 10 λεπτά ή λιγότερο." />
@@ -308,6 +307,7 @@
   <text id="viewDisplay" name="Προβολή" />
   <text id="listView" name="Λίστα" />
   <text id="gridView" name="Πλέγμα" />
+  <text id="compactView" name="Συμπαγής προβολή" />
   <text id="gameOrder" name="Σειρά στο βιβλίο συνταγών (μερικώς επιβεβαιωμένη)" />
   <text id="coopEligibleOnly" name="Μόνο συνεργασίες που μπορεί να μαγειρέψει η ομάδα" />
   <text id="coopSortLabel" name="Ταξινόμηση συνεργασιών" />

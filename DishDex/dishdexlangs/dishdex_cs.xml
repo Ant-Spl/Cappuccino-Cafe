@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Provisional DishDex UI translation pass; review/polish with human translators when possible. -->
+<?xml version='1.0' encoding='utf-8'?>
 <dishdex lang="cs">
   <text id="actions" name="Akce" />
   <text id="activeNote" name="Nejlepší XP/min: 10 minut nebo méně." />
@@ -308,6 +307,7 @@
   <text id="viewDisplay" name="Zobrazení" />
   <text id="listView" name="Seznam" />
   <text id="gridView" name="Mřížka" />
+  <text id="compactView" name="Kompaktní zobrazení" />
   <text id="gameOrder" name="Pořadí v herní kuchařce (částečně ověřeno)" />
   <text id="coopEligibleOnly" name="Jen kooperace, které tým zvládne uvařit" />
   <text id="coopSortLabel" name="Řadit kooperace" />

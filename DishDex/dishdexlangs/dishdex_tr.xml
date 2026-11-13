@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Provisional DishDex UI translation pass; review/polish with human translators when possible. -->
+<?xml version='1.0' encoding='utf-8'?>
 <dishdex lang="tr">
   <text id="actions" name="İşlemler" />
   <text id="activeNote" name="En iyi XP/min: 10 dakika veya daha az." />
@@ -308,6 +307,7 @@
   <text id="viewDisplay" name="Görünüm" />
   <text id="listView" name="Liste" />
   <text id="gridView" name="Izgara" />
+  <text id="compactView" name="Kompakt görünüm" />
   <text id="gameOrder" name="Oyunun yemek kitabı sırası (kısmen doğrulandı)" />
   <text id="coopEligibleOnly" name="Yalnızca ekibimin pişirebileceği kooperatifler" />
   <text id="coopSortLabel" name="Kooperatifleri sırala" />
@@ -315,7 +315,7 @@
   <text id="coopSortMaxLevel" name="Gereken en yüksek yemek seviyesi" />
   <text id="coopSortGoldXpMin" name="Altın XP/dk" />
   <text id="myDexCoopTitle" name="Seviye atlamak için en iyi kooperatifler" />
-  <text id="coopGoldOnlyNote" name="Altın ödül XP&#x27;si ÷ altın süresi; pişirme XP&#x27;si hariç." />
+  <text id="coopGoldOnlyNote" name="Altın ödül XP'si ÷ altın süresi; pişirme XP'si hariç." />
   <text id="coopScopeLabel" name="Ekip kapasitesi" />
   <text id="coopCanCookAll" name="Ekip tüm gerekli yemekleri pişirebilir" />
   <text id="coopCanCookSome" name="Ekip en az bir gerekli yemeği pişirebilir" />

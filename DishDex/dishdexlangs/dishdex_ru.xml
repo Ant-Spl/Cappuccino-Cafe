@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Provisional DishDex UI translation pass; review/polish with human translators when possible. -->
+<?xml version='1.0' encoding='utf-8'?>
 <dishdex lang="ru">
   <text id="actions" name="Действия" />
   <text id="activeNote" name="Лучшее XP/min: 10 мин или меньше." />
@@ -308,6 +307,7 @@
   <text id="viewDisplay" name="Вид" />
   <text id="listView" name="Список" />
   <text id="gridView" name="Сетка" />
+  <text id="compactView" name="Компактный вид" />
   <text id="gameOrder" name="Порядок из книги рецептов игры (проверен частично)" />
   <text id="coopEligibleOnly" name="Только кооперативы, доступные моей команде" />
   <text id="coopSortLabel" name="Сортировка кооперативов" />

@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Provisional DishDex UI translation pass; review/polish with human translators when possible. -->
+<?xml version='1.0' encoding='utf-8'?>
 <dishdex lang="da">
   <text id="actions" name="Handlinger" />
   <text id="activeNote" name="Bedste XP/min: 10 minutter eller mindre." />
@@ -308,6 +307,7 @@
   <text id="viewDisplay" name="Visning" />
   <text id="listView" name="Liste" />
   <text id="gridView" name="Gitter" />
+  <text id="compactView" name="Kompakt visning" />
   <text id="gameOrder" name="Rækkefølge i spillets kogebog (delvist bekræftet)" />
   <text id="coopEligibleOnly" name="Kun co-ops, som mit hold kan lave" />
   <text id="coopSortLabel" name="Sortér co-ops" />

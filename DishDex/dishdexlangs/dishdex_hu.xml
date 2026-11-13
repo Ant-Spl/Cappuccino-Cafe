@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Provisional DishDex UI translation pass; review/polish with human translators when possible. -->
+<?xml version='1.0' encoding='utf-8'?>
 <dishdex lang="hu">
   <text id="actions" name="Műveletek" />
   <text id="activeNote" name="Legjobb XP/min: 10 perc vagy kevesebb." />
@@ -308,6 +307,7 @@
   <text id="viewDisplay" name="Nézet" />
   <text id="listView" name="Lista" />
   <text id="gridView" name="Rács" />
+  <text id="compactView" name="Kompakt nézet" />
   <text id="gameOrder" name="A játék szakácskönyvének sorrendje (részben ellenőrzött)" />
   <text id="coopEligibleOnly" name="Csak a csapat által elkészíthető kooperációk" />
   <text id="coopSortLabel" name="Kooperációk rendezése" />

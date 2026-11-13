@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Provisional DishDex UI translation pass; review/polish with human translators when possible. -->
+<?xml version='1.0' encoding='utf-8'?>
 <dishdex lang="fr">
   <text id="actions" name="Actions" />
   <text id="activeNote" name="Meilleur XP/min: 10 minutes ou moins." />
@@ -308,6 +307,7 @@
   <text id="viewDisplay" name="Affichage" />
   <text id="listView" name="Liste" />
   <text id="gridView" name="Grille" />
+  <text id="compactView" name="Vue compacte" />
   <text id="gameOrder" name="Ordre du livre de recettes (partiellement vérifié)" />
   <text id="coopEligibleOnly" name="Uniquement les coops réalisables par mon équipe" />
   <text id="coopSortLabel" name="Trier les coops" />

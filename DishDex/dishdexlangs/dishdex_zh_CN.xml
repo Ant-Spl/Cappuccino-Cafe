@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Provisional DishDex UI translation pass; review/polish with human translators when possible. -->
+<?xml version='1.0' encoding='utf-8'?>
 <dishdex lang="zh_CN">
   <text id="actions" name="操作" />
   <text id="activeNote" name="最佳 XP/min: 10 分钟 或更少." />
@@ -308,6 +307,7 @@
   <text id="viewDisplay" name="显示方式" />
   <text id="listView" name="列表" />
   <text id="gridView" name="网格" />
+  <text id="compactView" name="紧凑视图" />
   <text id="gameOrder" name="游戏食谱顺序（部分已核对）" />
   <text id="coopEligibleOnly" name="只显示队伍能完成烹饪要求的合作任务" />
   <text id="coopSortLabel" name="合作任务排序" />
