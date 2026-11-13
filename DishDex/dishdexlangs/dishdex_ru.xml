@@ -16,6 +16,7 @@
   <text id="availableDishDex" name="Доступно DishDex" />
   <text id="availableDishDexNote" name="Полный блюдо список: XP, прибыль, Порции, Время, Категория, Требования." />
   <text id="availableStoves" name="Доступные плиты" />
+  <text id="avoidDuplicateSuggestions" name="Избегать повторяющихся советов?" />
   <text id="backButton" name="← Назад" />
   <text id="baseRewards" name="Базовые награды" />
   <text id="batches" name="Партии" />
@@ -66,15 +67,25 @@
   <text id="cookableDishes" name="Блюда, которые вы можете приготовить" />
   <text id="coopCanCookAll" name="Команда может приготовить все блюда" />
   <text id="coopCanCookSome" name="Команда может приготовить хотя бы одно блюдо" />
+  <text id="coopCompletionsToLevel" name="Прохождений до нового уровня" />
   <text id="coopEligibleOnly" name="Только кооперативы, доступные моей команде" />
   <text id="coopEstimateDisclaimer" name="Расчёт основан на распределённом времени готовки и ожидаемой медали; реальный прогресс может отличаться." />
   <text id="coopGoldOnlyNote" name="Опыт за золотую награду ÷ срок золота; опыт за готовку не учитывается." />
+  <text id="coopIncludeChallenges" name="Включить испытания?" />
   <text id="coopListNote" name="Co-Op: Просмотр + план." />
   <text id="coopListTitle" name="Co-Op Планner" />
   <text id="coopNumber" name="Co-Op" />
+  <text id="coopNumberLabel" name="Кооператив № " />
   <text id="coopPlannerDescription" name="Co-Op: Просмотр + план." />
   <text id="coopPlannerEyebrow" name="Команда cooking" />
   <text id="coopPlannerTitle" name="Co-Op Планner" />
+  <text id="coopRateEstimateTooltip" name="Оценка XP/мин при завершении на золото" />
+  <text id="coopRecommendCash" name="Больше всего денег" />
+  <text id="coopRecommendGold" name="Больше всего золота" />
+  <text id="coopRecommendLongest" name="Самые долгие" />
+  <text id="coopRecommendQuickest" name="Самые быстрые" />
+  <text id="coopRecommendSort" name="Сортировка рекомендаций" />
+  <text id="coopRecommendXp" name="Больше всего XP" />
   <text id="coopRequirements" name="Требуемые блюда" />
   <text id="coopScopeLabel" name="Возможности команды" />
   <text id="coopSearch" name="Поиск co-op" />
@@ -189,7 +200,7 @@
   <text id="metricXpMin" name="XP/min" />
   <text id="minimumDishLevel" name="Минимум блюдо level" />
   <text id="minutesShort" name="min" />
-  <text id="myDexCoopTitle" name="Лучшие кооперативы для повышения уровня" />
+  <text id="myDexCoopTitle" name="Рекомендуемые кооперативы" />
   <text id="myDexDescription" name="MyDex: Уровень, XP, доступно время." />
   <text id="myDexHint" name="Data → Рекомендация." />
   <text id="myDexSettings" name="MyDex Settings" />

@@ -4177,3 +4177,32 @@ body.dark-theme #myDexScreen .dish-card[class*="category-"] p { color: #ead0b6; 
   #welcomeScreen .mode-icon { width: 62px; height: 62px; }
   #welcomeScreen .cafe-shortcut { margin-top: 9px; padding: 7px 12px; }
 }
+
+/* Community revision 6: recommendation controls, compact readable co-op cards, dark labels. */
+.coop-recommend-controls { display:flex; flex-wrap:wrap; align-items:end; gap:12px 18px; margin:14px 0 6px; }
+.coop-recommend-sort { min-width: 205px; display:flex; flex-direction:column; gap:5px; font-size:.9rem; font-weight:800; }
+.coop-recommend-sort select { width:100%; padding:9px 12px; border:2px solid var(--border); border-radius:10px; color:var(--text); background:var(--plain-cell); font:inherit; font-weight:800; }
+.coop-recommend-challenge { padding:9px 12px; }
+.coop-suggestion-card { gap:0; }
+.coop-suggestion-card p { margin:0; line-height:1.45; }
+.coop-suggestion-card .coop-suggestion-heading { margin-bottom:12px; }
+.coop-suggestion-card .coop-suggestion-number { font-weight:800; margin-bottom:2px; }
+.coop-suggestion-card .coop-suggestion-coverage { margin-bottom:15px; }
+.coop-suggestion-card .coop-suggestion-xp { display:flex; align-items:center; gap:5px; margin-bottom:3px; }
+.coop-suggestion-card .coop-suggestion-xp strong { display:inline-flex; align-items:center; gap:2px; }
+.coop-suggestion-card .inline-stat-icon { display:inline-block; width:19px; height:19px; object-fit:contain; }
+.coop-suggestion-card .coop-suggestion-deadline { margin-bottom:14px; }
+.coop-suggestion-card .coop-level-count { margin:0 0 14px; }
+.coop-suggestion-card .plan-button { margin-top:auto; }
+.coop-rate-help { font:800 .77rem/1.1 "Nunito", sans-serif; width:19px; height:19px; padding:0; border:1px solid currentColor; border-radius:50%; background:transparent; color:inherit; cursor:help; }
+.coop-rate-help:focus-visible { outline:2px solid #a6dabb; outline-offset:3px; }
+/* In My Time, the dark category rows require lighter Special/Holiday tags. */
+body.dark-theme #myTimeScreen tbody tr .dish-type-tag,
+body.dark-theme #myDexScreen .dish-card .dish-card-type-label { color: #f1d1a8 !important; }
+body.dark-theme #myTimeScreen tbody tr .dish-type-tag { text-shadow:none; }
+@media (max-width:640px) { .coop-recommend-sort { width:100%; } .coop-recommend-controls { align-items:stretch; } }
+
+.coop-rate-help-wrap { position:relative; display:inline-flex; align-items:center; }
+.coop-rate-tooltip { position:absolute; z-index:12; bottom:calc(100% + 8px); right:-14px; width:min(240px, 72vw); padding:9px 11px; border:1px solid var(--border); border-radius:8px; background:#fff9df; color:#3b2618 !important; font-size:.78rem; font-weight:700; line-height:1.35; box-shadow:0 5px 18px #150b0588; }
+.coop-rate-tooltip[hidden] {display:none !important;}
+body.dark-theme .coop-suggestion-card .coop-rate-tooltip {background:#f5e2bc; color:#3b2618 !important;}

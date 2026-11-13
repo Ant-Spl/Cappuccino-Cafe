@@ -9,7 +9,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css?v=20261113-dishdex-community-update-5-3">
+  <link rel="stylesheet" href="style.css?v=20261113-dishdex-community-update-6">
 </head>
 <body class="dark-theme">
   <main class="page">
@@ -176,7 +176,22 @@
       </section>
 
       <section class="panel" id="myDexCoopSuggestionsPanel">
-        <h2 data-i18n="myDexCoopTitle">Best Co-ops for leveling</h2>
+        <h2 data-i18n="myDexCoopTitle">Recommended Co-Ops</h2>
+        <div class="coop-recommend-controls">
+          <label class="coop-recommend-sort"><span data-i18n="coopRecommendSort">Sort recommendations</span>
+            <select id="myDexCoopRecommendSort">
+              <option value="xp" data-i18n="coopRecommendXp">Best XP</option>
+              <option value="gold" data-i18n="coopRecommendGold">Best Gold</option>
+              <option value="cash" data-i18n="coopRecommendCash">Best Cash</option>
+              <option value="quickest" data-i18n="coopRecommendQuickest">Quickest</option>
+              <option value="longest" data-i18n="coopRecommendLongest">Longest</option>
+            </select>
+          </label>
+          <label class="inline-toggle setting-toggle coop-recommend-challenge">
+            <input id="myDexIncludeChallengeCoops" type="checkbox">
+            <span data-i18n="coopIncludeChallenges">Include challenge Co-Ops?</span>
+          </label>
+        </div>
         <div id="myDexCoopSuggestions" class="coop-suggestion-grid"></div>
       </section>
       <section class="panel">
@@ -407,6 +422,10 @@
           <label class="inline-toggle setting-toggle my-time-toggle compact-masteries-toggle">
             <input id="myTimeRecommendVeryLongToggle" class="recommend-very-long-toggle" type="checkbox">
             <span data-i18n="recommendVeryLong">Recommend very long dishes (over 48h)?</span>
+          </label>
+          <label class="inline-toggle setting-toggle my-time-toggle compact-masteries-toggle">
+            <input id="myTimeAvoidDuplicatesToggle" type="checkbox">
+            <span data-i18n="avoidDuplicateSuggestions">Avoid duplicate suggestions?</span>
           </label>
         </div>
         <p id="myTimeWindowSummary" class="hint my-time-window-summary"></p>
@@ -949,6 +968,6 @@
 
   </main>
 
-  <script src="script.js?v=20261113-dishdex-community-update-5" defer></script>
+  <script src="script.js?v=20261113-dishdex-community-update-6" defer></script>
 </body>
 </html>

@@ -16,6 +16,7 @@
   <text id="availableDishDex" name="Elérhető DishDex" />
   <text id="availableDishDexNote" name="Teljes étel lista: XP, profit, Adagok, Idő, Kategória, Követelmények." />
   <text id="availableStoves" name="Elérhető tűzhelyek" />
+  <text id="avoidDuplicateSuggestions" name="Ismétlődő ajánlások elkerülése?" />
   <text id="backButton" name="← Vissza" />
   <text id="baseRewards" name="Alap jutalmak" />
   <text id="batches" name="Adagok" />
@@ -66,15 +67,25 @@
   <text id="cookableDishes" name="Elkészíthető ételek" />
   <text id="coopCanCookAll" name="A csapat minden szükséges ételt elkészíthet" />
   <text id="coopCanCookSome" name="A csapat legalább egy ételt elkészíthet" />
+  <text id="coopCompletionsToLevel" name="Teljesítések a szintlépéshez" />
   <text id="coopEligibleOnly" name="Csak a csapat által elkészíthető kooperációk" />
   <text id="coopEstimateDisclaimer" name="A becslés a kiosztott főzési időn és a várható érmen alapul; a tényleges haladás eltérhet." />
   <text id="coopGoldOnlyNote" name="Aranyjutalom XP ÷ arany határideje; főzési XP nélkül." />
+  <text id="coopIncludeChallenges" name="Kihívás Co-Opok megjelenítése?" />
   <text id="coopListNote" name="Co-Op: Böngészés + terv." />
   <text id="coopListTitle" name="Co-Op Tervner" />
   <text id="coopNumber" name="Co-Op" />
+  <text id="coopNumberLabel" name="Co-Op sz. " />
   <text id="coopPlannerDescription" name="Co-Op: Böngészés + terv." />
   <text id="coopPlannerEyebrow" name="Csapat cooking" />
   <text id="coopPlannerTitle" name="Co-Op Tervner" />
+  <text id="coopRateEstimateTooltip" name="Becsült XP/perc arany teljesítés esetén" />
+  <text id="coopRecommendCash" name="Legtöbb pénz" />
+  <text id="coopRecommendGold" name="Legtöbb arany" />
+  <text id="coopRecommendLongest" name="Leghosszabb" />
+  <text id="coopRecommendQuickest" name="Leggyorsabb" />
+  <text id="coopRecommendSort" name="Ajánlások rendezése" />
+  <text id="coopRecommendXp" name="Legjobb XP" />
   <text id="coopRequirements" name="Szükséges ételek" />
   <text id="coopScopeLabel" name="Csapat képességei" />
   <text id="coopSearch" name="Keresés co-op" />
@@ -189,7 +200,7 @@
   <text id="metricXpMin" name="XP/min" />
   <text id="minimumDishLevel" name="Minimum étel level" />
   <text id="minutesShort" name="min" />
-  <text id="myDexCoopTitle" name="Legjobb kooperációk szintlépéshez" />
+  <text id="myDexCoopTitle" name="Ajánlott Co-Opok" />
   <text id="myDexDescription" name="MyDex: Szint, XP, elérhető idő." />
   <text id="myDexHint" name="Data → Ajánlás." />
   <text id="myDexSettings" name="MyDex Settings" />

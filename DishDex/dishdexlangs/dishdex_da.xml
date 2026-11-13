@@ -16,6 +16,7 @@
   <text id="availableDishDex" name="Tilgængelige DishDex" />
   <text id="availableDishDexNote" name="Komplet ret liste: XP, profit, Portioner, Tid, Kategori, Krav." />
   <text id="availableStoves" name="Tilgængelige komfurer" />
+  <text id="avoidDuplicateSuggestions" name="Undgå gentagne forslag?" />
   <text id="backButton" name="← Tilbage" />
   <text id="baseRewards" name="Basisbelønninger" />
   <text id="batches" name="Portioner" />
@@ -66,15 +67,25 @@
   <text id="cookableDishes" name="Retter, du kan lave" />
   <text id="coopCanCookAll" name="Holdet kan lave alle påkrævede retter" />
   <text id="coopCanCookSome" name="Holdet kan lave mindst én ret" />
+  <text id="coopCompletionsToLevel" name="Gennemførelser til næste niveau" />
   <text id="coopEligibleOnly" name="Kun co-ops, som mit hold kan lave" />
   <text id="coopEstimateDisclaimer" name="Skøn bygger på tildelt tilberedningstid og forventet medalje; faktisk fremgang kan variere." />
   <text id="coopGoldOnlyNote" name="XP fra guldbelønning ÷ guldfrist; madlavnings-XP tælles ikke med." />
+  <text id="coopIncludeChallenges" name="Medtag udfordrings-Co-Ops?" />
   <text id="coopListNote" name="Co-Op: Gennemse + plan." />
   <text id="coopListTitle" name="Co-Op Planner" />
   <text id="coopNumber" name="Co-Op" />
+  <text id="coopNumberLabel" name="Co-Op nr. " />
   <text id="coopPlannerDescription" name="Co-Op: Gennemse + plan." />
   <text id="coopPlannerEyebrow" name="Team cooking" />
   <text id="coopPlannerTitle" name="Co-Op Planner" />
+  <text id="coopRateEstimateTooltip" name="Anslået XP/min ved guldgennemførelse" />
+  <text id="coopRecommendCash" name="Flest penge" />
+  <text id="coopRecommendGold" name="Mest guld" />
+  <text id="coopRecommendLongest" name="Længste" />
+  <text id="coopRecommendQuickest" name="Hurtigste" />
+  <text id="coopRecommendSort" name="Sortér anbefalinger" />
+  <text id="coopRecommendXp" name="Bedste XP" />
   <text id="coopRequirements" name="Krævede retter" />
   <text id="coopScopeLabel" name="Holdets muligheder" />
   <text id="coopSearch" name="Søg Co-Op" />
@@ -189,7 +200,7 @@
   <text id="metricXpMin" name="XP/min" />
   <text id="minimumDishLevel" name="Minimum ret level" />
   <text id="minutesShort" name="min" />
-  <text id="myDexCoopTitle" name="Bedste co-ops til at stige i niveau" />
+  <text id="myDexCoopTitle" name="Anbefalede Co-Ops" />
   <text id="myDexDescription" name="Åbn din personlige DishDex baseret på dit level, XP og din tilgængelige tid." />
   <text id="myDexHint" name="Indtast dine data for personlige anbefalinger." />
   <text id="myDexSettings" name="MyDex Settings" />

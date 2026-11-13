@@ -16,6 +16,7 @@
   <text id="availableDishDex" name="사용 가능 DishDex" />
   <text id="availableDishDexNote" name="전체 요리 목록: XP, 이익, 인분, 시간, 카테고리, 요구 조건." />
   <text id="availableStoves" name="사용 가능한 스토브" />
+  <text id="avoidDuplicateSuggestions" name="중복 추천 방지?" />
   <text id="backButton" name="← 뒤로" />
   <text id="baseRewards" name="기본 보상" />
   <text id="batches" name="배치" />
@@ -66,15 +67,25 @@
   <text id="cookableDishes" name="조리할 수 있는 요리" />
   <text id="coopCanCookAll" name="필요한 모든 요리를 만들 수 있음" />
   <text id="coopCanCookSome" name="필요한 요리를 하나 이상 만들 수 있음" />
+  <text id="coopCompletionsToLevel" name="레벨업까지 필요한 완료 횟수" />
   <text id="coopEligibleOnly" name="팀이 요리할 수 있는 협동 미션만" />
   <text id="coopEstimateDisclaimer" name="배정된 요리 시간과 예상 메달을 기준으로 계산한 값이며 실제 진행과 다를 수 있습니다." />
   <text id="coopGoldOnlyNote" name="골드 보상 XP ÷ 골드 마감 시간. 요리 XP는 제외합니다." />
+  <text id="coopIncludeChallenges" name="도전 협동 퀘스트 포함?" />
   <text id="coopListNote" name="Co-Op: 둘러보기 + 계획." />
   <text id="coopListTitle" name="Co-Op 계획ner" />
   <text id="coopNumber" name="Co-Op" />
+  <text id="coopNumberLabel" name="협동 퀘스트 번호 " />
   <text id="coopPlannerDescription" name="Co-Op: 둘러보기 + 계획." />
   <text id="coopPlannerEyebrow" name="팀 cooking" />
   <text id="coopPlannerTitle" name="Co-Op 계획ner" />
+  <text id="coopRateEstimateTooltip" name="골드 달성 시 예상 XP/분" />
+  <text id="coopRecommendCash" name="현금 높은 순" />
+  <text id="coopRecommendGold" name="골드 높은 순" />
+  <text id="coopRecommendLongest" name="가장 오래 걸리는 순" />
+  <text id="coopRecommendQuickest" name="가장 빠른 순" />
+  <text id="coopRecommendSort" name="추천 정렬" />
+  <text id="coopRecommendXp" name="XP 높은 순" />
   <text id="coopRequirements" name="필요 요리" />
   <text id="coopScopeLabel" name="팀의 요리 가능 범위" />
   <text id="coopSearch" name="검색 co-op" />
@@ -189,7 +200,7 @@
   <text id="metricXpMin" name="XP/min" />
   <text id="minimumDishLevel" name="최소 요리 level" />
   <text id="minutesShort" name="min" />
-  <text id="myDexCoopTitle" name="레벨업에 좋은 협동 미션" />
+  <text id="myDexCoopTitle" name="추천 협동 퀘스트" />
   <text id="myDexDescription" name="MyDex: 레벨, XP, 사용 가능 시간." />
   <text id="myDexHint" name="Data → 추천." />
   <text id="myDexSettings" name="MyDex Settings" />

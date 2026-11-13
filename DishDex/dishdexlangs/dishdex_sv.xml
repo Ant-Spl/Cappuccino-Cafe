@@ -16,6 +16,7 @@
   <text id="availableDishDex" name="Tillgänglig DishDex" />
   <text id="availableDishDexNote" name="Komplett rätt lista: XP, vinst, Portioner, Tid, Kategori, Krav." />
   <text id="availableStoves" name="Tillgängliga spisar" />
+  <text id="avoidDuplicateSuggestions" name="Undvik upprepade förslag?" />
   <text id="backButton" name="← Tillbaka" />
   <text id="baseRewards" name="Basbelöningar" />
   <text id="batches" name="Omgångar" />
@@ -66,15 +67,25 @@
   <text id="cookableDishes" name="Rätter du kan laga" />
   <text id="coopCanCookAll" name="Laget kan laga alla rätter" />
   <text id="coopCanCookSome" name="Laget kan laga minst en rätt" />
+  <text id="coopCompletionsToLevel" name="Avslut till nästa nivå" />
   <text id="coopEligibleOnly" name="Bara co-ops som mitt lag kan laga" />
   <text id="coopEstimateDisclaimer" name="Uppskattningar baseras på tilldelad tillagningstid och förväntad medalj; verkliga framsteg kan skilja sig." />
   <text id="coopGoldOnlyNote" name="XP från guldbelöningen ÷ guldgränsen; matlagnings-XP ingår inte." />
+  <text id="coopIncludeChallenges" name="Inkludera utmanings-Co-Ops?" />
   <text id="coopListNote" name="Co-Op: Bläddra + plan." />
   <text id="coopListTitle" name="Co-Op Planner" />
   <text id="coopNumber" name="Co-Op" />
+  <text id="coopNumberLabel" name="Co-Op nr " />
   <text id="coopPlannerDescription" name="Co-Op: Bläddra + plan." />
   <text id="coopPlannerEyebrow" name="Lag cooking" />
   <text id="coopPlannerTitle" name="Co-Op Planner" />
+  <text id="coopRateEstimateTooltip" name="Uppskattad XP/min vid guldavslut" />
+  <text id="coopRecommendCash" name="Mest pengar" />
+  <text id="coopRecommendGold" name="Mest guld" />
+  <text id="coopRecommendLongest" name="Längsta" />
+  <text id="coopRecommendQuickest" name="Snabbaste" />
+  <text id="coopRecommendSort" name="Sortera rekommendationer" />
+  <text id="coopRecommendXp" name="Bästa XP" />
   <text id="coopRequirements" name="Krävda rätter" />
   <text id="coopScopeLabel" name="Lagets möjligheter" />
   <text id="coopSearch" name="Sök co-op" />
@@ -189,7 +200,7 @@
   <text id="metricXpMin" name="XP/min" />
   <text id="minimumDishLevel" name="Minimum rätt level" />
   <text id="minutesShort" name="min" />
-  <text id="myDexCoopTitle" name="Bästa co-ops för att gå upp i nivå" />
+  <text id="myDexCoopTitle" name="Rekommenderade Co-Ops" />
   <text id="myDexDescription" name="MyDex: Nivå, XP, tillgänglig tid." />
   <text id="myDexHint" name="Data → Rekommendation." />
   <text id="myDexSettings" name="MyDex Settings" />

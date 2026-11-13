@@ -16,6 +16,7 @@
   <text id="availableDishDex" name="Beschikbaar DishDex" />
   <text id="availableDishDexNote" name="Volledige gerecht lijst: XP, winst, Porties, Tijd, Categorie, Vereisten." />
   <text id="availableStoves" name="Beschikbare voornuizen" />
+  <text id="avoidDuplicateSuggestions" name="Dubbele suggesties vermijden?" />
   <text id="backButton" name="← Terug" />
   <text id="baseRewards" name="Basisbeloningen" />
   <text id="batches" name="Batches" />
@@ -66,15 +67,25 @@
   <text id="cookableDishes" name="Gerechten die je kunt bereiden" />
   <text id="coopCanCookAll" name="Team kan alle benodigde gerechten koken" />
   <text id="coopCanCookSome" name="Team kan minstens één gerecht koken" />
+  <text id="coopCompletionsToLevel" name="Voltooiingen tot het volgende level" />
   <text id="coopEligibleOnly" name="Alleen co-ops die mijn team kan koken" />
   <text id="coopEstimateDisclaimer" name="Schattingen zijn gebaseerd op toegewezen kooktijd en verwachte medaille; werkelijke voortgang kan afwijken." />
   <text id="coopGoldOnlyNote" name="Gouden belonings-XP ÷ gouden deadline; kook-XP telt niet mee." />
+  <text id="coopIncludeChallenges" name="Uitdagings-Co-Ops opnemen?" />
   <text id="coopListNote" name="Co-Op: Bladeren + plan." />
   <text id="coopListTitle" name="Co-Op Planner" />
   <text id="coopNumber" name="Co-Op" />
+  <text id="coopNumberLabel" name="Co-Op nr. " />
   <text id="coopPlannerDescription" name="Co-Op: Bladeren + plan." />
   <text id="coopPlannerEyebrow" name="Team cooking" />
   <text id="coopPlannerTitle" name="Co-Op Planner" />
+  <text id="coopRateEstimateTooltip" name="Geschatte XP/min bij gouden voltooiing" />
+  <text id="coopRecommendCash" name="Meeste geld" />
+  <text id="coopRecommendGold" name="Meeste goud" />
+  <text id="coopRecommendLongest" name="Langste" />
+  <text id="coopRecommendQuickest" name="Snelste" />
+  <text id="coopRecommendSort" name="Aanbevelingen sorteren" />
+  <text id="coopRecommendXp" name="Beste XP" />
   <text id="coopRequirements" name="Vereiste gerechten" />
   <text id="coopScopeLabel" name="Teammogelijkheden" />
   <text id="coopSearch" name="Zoeken co-op" />
@@ -189,7 +200,7 @@
   <text id="metricXpMin" name="XP/min" />
   <text id="minimumDishLevel" name="Minimum gerecht level" />
   <text id="minutesShort" name="min" />
-  <text id="myDexCoopTitle" name="Beste co-ops om te levelen" />
+  <text id="myDexCoopTitle" name="Aanbevolen Co-Ops" />
   <text id="myDexDescription" name="MyDex: Level, XP, beschikbaar tijd." />
   <text id="myDexHint" name="Data → Aanbeveling." />
   <text id="myDexSettings" name="MyDex Settings" />

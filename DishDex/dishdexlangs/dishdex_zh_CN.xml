@@ -16,6 +16,7 @@
   <text id="availableDishDex" name="可用 DishDex" />
   <text id="availableDishDexNote" name="完整 菜品 列表: XP, 利润, 份数, 时间, 类别, 需求." />
   <text id="availableStoves" name="可用炉灶" />
+  <text id="avoidDuplicateSuggestions" name="避免重复推荐？" />
   <text id="backButton" name="← 返回" />
   <text id="baseRewards" name="基础奖励" />
   <text id="batches" name="批次" />
@@ -66,15 +67,25 @@
   <text id="cookableDishes" name="你可以烹饪的菜品" />
   <text id="coopCanCookAll" name="队伍能制作全部所需菜品" />
   <text id="coopCanCookSome" name="队伍至少能制作一道所需菜品" />
+  <text id="coopCompletionsToLevel" name="升级所需完成次数" />
   <text id="coopEligibleOnly" name="只显示队伍能完成烹饪要求的合作任务" />
   <text id="coopEstimateDisclaimer" name="根据分配的烹饪时间和预计奖牌计算；实际进度可能不同。" />
   <text id="coopGoldOnlyNote" name="金牌奖励XP ÷ 金牌时限；不含烹饪XP。" />
+  <text id="coopIncludeChallenges" name="包含挑战合作任务？" />
   <text id="coopListNote" name="Co-Op: 浏览 + 计划." />
   <text id="coopListTitle" name="Co-Op 计划ner" />
   <text id="coopNumber" name="Co-Op" />
+  <text id="coopNumberLabel" name="合作任务第 " />
   <text id="coopPlannerDescription" name="Co-Op: 浏览 + 计划." />
   <text id="coopPlannerEyebrow" name="队伍 cooking" />
   <text id="coopPlannerTitle" name="Co-Op 计划ner" />
+  <text id="coopRateEstimateTooltip" name="获得金牌时的预计经验值/分钟" />
+  <text id="coopRecommendCash" name="最多现金" />
+  <text id="coopRecommendGold" name="最多金币" />
+  <text id="coopRecommendLongest" name="耗时最长" />
+  <text id="coopRecommendQuickest" name="最快完成" />
+  <text id="coopRecommendSort" name="排序推荐" />
+  <text id="coopRecommendXp" name="最高经验值" />
   <text id="coopRequirements" name="需要 菜品" />
   <text id="coopScopeLabel" name="队伍可烹饪范围" />
   <text id="coopSearch" name="搜索 co-op" />
@@ -189,7 +200,7 @@
   <text id="metricXpMin" name="XP/min" />
   <text id="minimumDishLevel" name="最低 菜品 level" />
   <text id="minutesShort" name="min" />
-  <text id="myDexCoopTitle" name="最适合升级的合作任务" />
+  <text id="myDexCoopTitle" name="推荐合作任务" />
   <text id="myDexDescription" name="MyDex: 等级, XP, 可用 时间." />
   <text id="myDexHint" name="Data → 推荐." />
   <text id="myDexSettings" name="MyDex Settings" />

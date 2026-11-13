@@ -16,6 +16,7 @@
   <text id="availableDishDex" name="Dostupné DishDex" />
   <text id="availableDishDexNote" name="Kompletní jídlo seznam: XP, zisk, Porce, Čas, Kategorie, Požadavky." />
   <text id="availableStoves" name="Dostupné sporáky" />
+  <text id="avoidDuplicateSuggestions" name="Vyhnout se duplicitním tipům?" />
   <text id="backButton" name="← Zpět" />
   <text id="baseRewards" name="Základní odměny" />
   <text id="batches" name="Dávky" />
@@ -66,15 +67,25 @@
   <text id="cookableDishes" name="Jídla, která můžete uvařit" />
   <text id="coopCanCookAll" name="Tým zvládne všechna požadovaná jídla" />
   <text id="coopCanCookSome" name="Tým zvládne alespoň jedno jídlo" />
+  <text id="coopCompletionsToLevel" name="Dokončení do další úrovně" />
   <text id="coopEligibleOnly" name="Jen kooperace, které tým zvládne uvařit" />
   <text id="coopEstimateDisclaimer" name="Odhady vycházejí z přidělené doby vaření a předpokládané medaile; skutečný postup se může lišit." />
   <text id="coopGoldOnlyNote" name="ZK ze zlaté odměny ÷ zlatý limit; bez ZK za vaření." />
+  <text id="coopIncludeChallenges" name="Zahrnout výzvové Co-Opy?" />
   <text id="coopListNote" name="Co-Op: Procházet + plán." />
   <text id="coopListTitle" name="Co-Op Plánner" />
   <text id="coopNumber" name="Co-Op" />
+  <text id="coopNumberLabel" name="Co-Op č. " />
   <text id="coopPlannerDescription" name="Co-Op: Procházet + plán." />
   <text id="coopPlannerEyebrow" name="Team cooking" />
   <text id="coopPlannerTitle" name="Co-Op Plánner" />
+  <text id="coopRateEstimateTooltip" name="Odhad XP/min při zlatém dokončení" />
+  <text id="coopRecommendCash" name="Nejvíce peněz" />
+  <text id="coopRecommendGold" name="Nejvíce zlata" />
+  <text id="coopRecommendLongest" name="Nejdelší" />
+  <text id="coopRecommendQuickest" name="Nejrychlejší" />
+  <text id="coopRecommendSort" name="Seřadit doporučení" />
+  <text id="coopRecommendXp" name="Nejvíce XP" />
   <text id="coopRequirements" name="Požadovaná jídla" />
   <text id="coopScopeLabel" name="Možnosti týmu" />
   <text id="coopSearch" name="Hledat Co-Op" />
@@ -189,7 +200,7 @@
   <text id="metricXpMin" name="XP/min" />
   <text id="minimumDishLevel" name="Minimum jídlo level" />
   <text id="minutesShort" name="min" />
-  <text id="myDexCoopTitle" name="Nejlepší kooperace pro postup" />
+  <text id="myDexCoopTitle" name="Doporučené Co-Opy" />
   <text id="myDexDescription" name="Otevřete svůj osobní DishDex podle levelu, XP a dostupného času." />
   <text id="myDexHint" name="Zadejte data pro osobní doporučení." />
   <text id="myDexSettings" name="MyDex Settings" />

@@ -16,6 +16,7 @@
   <text id="availableDishDex" name="Disponible DishDex" />
   <text id="availableDishDexNote" name="Complet plat liste: XP, profit, Portions, Temps, Catégorie, Conditions." />
   <text id="availableStoves" name="Fourneaux disponibles" />
+  <text id="avoidDuplicateSuggestions" name="Éviter les suggestions en double ?" />
   <text id="backButton" name="← Retour" />
   <text id="baseRewards" name="Récompenses de base" />
   <text id="batches" name="Lots" />
@@ -66,15 +67,25 @@
   <text id="cookableDishes" name="Plats que vous pouvez préparer" />
   <text id="coopCanCookAll" name="L’équipe peut préparer tous les plats" />
   <text id="coopCanCookSome" name="L’équipe peut préparer au moins un plat" />
+  <text id="coopCompletionsToLevel" name="Réussites pour passer au niveau suivant" />
   <text id="coopEligibleOnly" name="Uniquement les coops réalisables par mon équipe" />
   <text id="coopEstimateDisclaimer" name="Estimations fondées sur les temps de cuisson attribués et la médaille prévue ; la progression réelle peut varier." />
   <text id="coopGoldOnlyNote" name="XP de la récompense Or ÷ délai Or ; XP de cuisson exclue." />
+  <text id="coopIncludeChallenges" name="Inclure les Co-Ops défi ?" />
   <text id="coopListNote" name="Co-Op: Parcourir + plan." />
   <text id="coopListTitle" name="Co-Op Planner" />
   <text id="coopNumber" name="Co-Op" />
+  <text id="coopNumberLabel" name="Co-Op nº " />
   <text id="coopPlannerDescription" name="Co-Op: Parcourir + plan." />
   <text id="coopPlannerEyebrow" name="Équipe cooking" />
   <text id="coopPlannerTitle" name="Co-Op Planner" />
+  <text id="coopRateEstimateTooltip" name="XP/min estimé pour une réussite en or" />
+  <text id="coopRecommendCash" name="Plus d’argent" />
+  <text id="coopRecommendGold" name="Plus d’or" />
+  <text id="coopRecommendLongest" name="Les plus longues" />
+  <text id="coopRecommendQuickest" name="Les plus rapides" />
+  <text id="coopRecommendSort" name="Trier les recommandations" />
+  <text id="coopRecommendXp" name="Meilleur XP" />
   <text id="coopRequirements" name="Requis plats" />
   <text id="coopScopeLabel" name="Capacités de l’équipe" />
   <text id="coopSearch" name="Rechercher co-op" />
@@ -189,7 +200,7 @@
   <text id="metricXpMin" name="XP/min" />
   <text id="minimumDishLevel" name="Minimum plat level" />
   <text id="minutesShort" name="min" />
-  <text id="myDexCoopTitle" name="Meilleures coops pour progresser" />
+  <text id="myDexCoopTitle" name="Co-Ops recommandées" />
   <text id="myDexDescription" name="Accédez à votre DishDex personnel selon votre niveau, votre XP et votre temps disponible." />
   <text id="myDexHint" name="Entrez vos données pour obtenir des recommandations personnalisées." />
   <text id="myDexSettings" name="MyDex Settings" />

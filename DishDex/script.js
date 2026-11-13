@@ -54,6 +54,13 @@ const MYDEX_SPECIAL_VISIBLE_KEY = 'dishDexMyDexSpecialVisible';
 const MYDEX_HOLIDAY_VISIBLE_KEY = 'dishDexMyDexHolidayVisible';
 const COOP_SORT_STORAGE_KEY = 'dishDexCoopSort';
 const COOP_ELIGIBILITY_STORAGE_KEY = 'dishDexCoopEligibility';
+const MYDEX_COOP_RECOMMEND_SORT_KEY = 'dishDexMyDexCoopRecommendSort';
+const MYDEX_CHALLENGE_COOPS_KEY = 'dishDexMyDexIncludeChallengeCoops';
+const MYTIME_AVOID_DUPLICATES_KEY = 'dishDexMyTimeAvoidDuplicates';
+const CHALLENGE_COOP_NAMES = [
+  'omelettes to the max', 'omelettes to the max lite', 'grill fry and slice',
+  'its getting juicy', 'its getting very juicy'
+];
 const MAX_COOP_TEAMS = 10;
 const MAX_COOP_MEMBERS = 5;
 const COOP_GOLD_LEVEL_REDUCTION_TIERS = [
@@ -117,8 +124,8 @@ const SUPPORTED_LANGUAGE_CODES = [
 ];
 
 const NEW_UI_FALLBACK = {
-  en: {showSection: 'Show', hideSection: 'Hide', holidayMasteryCompletionProgress: 'Mastery completion progress (holiday):', coopsToLevelUp: 'Gold completions to level up', cookableDishes: 'Dishes you can cook', applyFancyBoost: 'Apply Fancy?', recommendVeryLong: 'Recommend very long dishes (over 48h)?', filterCategory: 'Filter by category', allCategories: 'All categories', viewDisplay: 'Display', listView: 'List', gridView: 'Grid', compactView: 'Compact view', gameOrder: 'Game cookbook order (partially verified)', coopEligibleOnly: 'Only co-ops my team can cook', coopSortLabel: 'Sort co-ops', coopSortNumber: 'Co-op number', coopSortMaxLevel: 'Highest required dish level', coopSortGoldXpMin: 'Gold XP/min', myDexCoopTitle: 'Best co-ops for leveling', coopGoldOnlyNote: 'Gold reward XP ÷ Gold deadline; cooking XP excluded.', coopScopeLabel: 'Team coverage', coopCanCookAll: 'Team can cook every required dish', coopCanCookSome: 'Team can cook at least one required dish', highestRequiredLevel: 'Highest required level', goldXpMin: 'Gold XP/min', noEligibleCoops: 'No compatible co-ops for the selected team.', teamEstimatedXpMin: 'Estimated team XP/min', personalEstimatedXpMin: 'Estimated chef XP/min', coopEstimateDisclaimer: 'Estimates use assigned cooking time and predicted medal; actual game progress may differ.', playCafe: 'Play Cappuccino Café!', category0: 'Dessert', category1: 'Main dish', category2: 'Soup', category3: 'Salad', category4: 'Vegetarian', category5: 'Snack', fullTagOver48h: 'Very long (48h+)', bestOver48h: 'Best 48h+', over48hWord: 'over 48h', over48hPlan: '48h+ plan', over48hNote: 'Original cooking duration over 48 hours.'},
-  pt: {showSection: 'Mostrar', hideSection: 'Ocultar', holidayMasteryCompletionProgress: 'Progresso de maestrias (festivos):', coopsToLevelUp: 'Conclusões com ouro para subir de nível', cookableDishes: 'Pratos que você pode preparar', applyFancyBoost: 'Aplicar Fancy?', recommendVeryLong: 'Recomendar pratos muito demorados (mais de 48h)?', filterCategory: 'Filtrar por categoria', allCategories: 'Todas as categorias', viewDisplay: 'Visualização', listView: 'Lista', gridView: 'Grade', compactView: 'Visualização compacta', gameOrder: 'Ordem do livro de receitas (parcialmente verificada)', coopEligibleOnly: 'Apenas Co-Ops que minha equipe consegue cozinhar', coopSortLabel: 'Ordenar Co-Ops', coopSortNumber: 'Número da Co-Op', coopSortMaxLevel: 'Maior nível exigido pelos pratos', coopSortGoldXpMin: 'XP/min de ouro', myDexCoopTitle: 'Melhores Co-Ops para subir de nível', coopGoldOnlyNote: 'XP da recompensa de ouro ÷ prazo para ouro; XP do preparo não incluído.', coopScopeLabel: 'Capacidade da equipe', coopCanCookAll: 'Equipe consegue cozinhar todos os pratos', coopCanCookSome: 'Equipe consegue cozinhar ao menos um prato', highestRequiredLevel: 'Maior nível exigido', goldXpMin: 'XP/min de ouro', noEligibleCoops: 'Nenhuma Co-Op compatível com a equipe escolhida.', teamEstimatedXpMin: 'XP/min estimado da equipe', personalEstimatedXpMin: 'XP/min estimado do chef', coopEstimateDisclaimer: 'Estimativas usam o tempo de preparo atribuído e a medalha prevista; o progresso real pode ser diferente.', playCafe: 'Jogar Cappuccino Café!', category0: 'Sobremesa', category1: 'Prato principal', category2: 'Sopa', category3: 'Salada', category4: 'Vegetariano', category5: 'Lanche', fullTagOver48h: 'Muito demorado (48h+)', bestOver48h: 'Melhor acima de 48h', over48hWord: 'acima de 48h', over48hPlan: 'Plano 48h+', over48hNote: 'Tempo original de preparo acima de 48 horas.'},
+  en: {coopRecommendSort: 'Sort recommendations', coopRecommendXp: 'Best XP', coopRecommendGold: 'Best Gold', coopRecommendCash: 'Best Cash', coopRecommendQuickest: 'Quickest', coopRecommendLongest: 'Longest', coopIncludeChallenges: 'Include challenge Co-Ops?', coopNumberLabel: 'Co-Op nº', coopRateEstimateTooltip: 'XP/min estimate based on Gold status completion', coopCompletionsToLevel: 'Completions to level up', avoidDuplicateSuggestions: 'Avoid duplicate suggestions?', showSection: 'Show', hideSection: 'Hide', holidayMasteryCompletionProgress: 'Mastery completion progress (holiday):', coopsToLevelUp: 'Gold completions to level up', cookableDishes: 'Dishes you can cook', applyFancyBoost: 'Apply Fancy?', recommendVeryLong: 'Recommend very long dishes (over 48h)?', filterCategory: 'Filter by category', allCategories: 'All categories', viewDisplay: 'Display', listView: 'List', gridView: 'Grid', compactView: 'Compact view', gameOrder: 'Game cookbook order (partially verified)', coopEligibleOnly: 'Only co-ops my team can cook', coopSortLabel: 'Sort co-ops', coopSortNumber: 'Co-op number', coopSortMaxLevel: 'Highest required dish level', coopSortGoldXpMin: 'Gold XP/min', myDexCoopTitle: 'Recommended Co-Ops', coopGoldOnlyNote: 'Gold reward XP ÷ Gold deadline; cooking XP excluded.', coopScopeLabel: 'Team coverage', coopCanCookAll: 'Team can cook every required dish', coopCanCookSome: 'Team can cook at least one required dish', highestRequiredLevel: 'Highest required level', goldXpMin: 'Gold XP/min', noEligibleCoops: 'No compatible co-ops for the selected team.', teamEstimatedXpMin: 'Estimated team XP/min', personalEstimatedXpMin: 'Estimated chef XP/min', coopEstimateDisclaimer: 'Estimates use assigned cooking time and predicted medal; actual game progress may differ.', playCafe: 'Play Cappuccino Café!', category0: 'Dessert', category1: 'Main dish', category2: 'Soup', category3: 'Salad', category4: 'Vegetarian', category5: 'Snack', fullTagOver48h: 'Very long (48h+)', bestOver48h: 'Best 48h+', over48hWord: 'over 48h', over48hPlan: '48h+ plan', over48hNote: 'Original cooking duration over 48 hours.'},
+  pt: {coopRecommendSort: 'Ordenar recomendações', coopRecommendXp: 'Melhor XP', coopRecommendGold: 'Mais ouro', coopRecommendCash: 'Mais dinheiro', coopRecommendQuickest: 'Mais rápidas', coopRecommendLongest: 'Mais demoradas', coopIncludeChallenges: 'Incluir Co-Ops de desafio?', coopNumberLabel: 'Co-Op nº', coopRateEstimateTooltip: 'Estimativa de XP/min com conclusão em ouro', coopCompletionsToLevel: 'Conclusões para subir de nível', avoidDuplicateSuggestions: 'Evitar sugestões repetidas?', showSection: 'Mostrar', hideSection: 'Ocultar', holidayMasteryCompletionProgress: 'Progresso de maestrias (festivos):', coopsToLevelUp: 'Conclusões com ouro para subir de nível', cookableDishes: 'Pratos que você pode preparar', applyFancyBoost: 'Aplicar Fancy?', recommendVeryLong: 'Recomendar pratos muito demorados (mais de 48h)?', filterCategory: 'Filtrar por categoria', allCategories: 'Todas as categorias', viewDisplay: 'Visualização', listView: 'Lista', gridView: 'Grade', compactView: 'Visualização compacta', gameOrder: 'Ordem do livro de receitas (parcialmente verificada)', coopEligibleOnly: 'Apenas Co-Ops que minha equipe consegue cozinhar', coopSortLabel: 'Ordenar Co-Ops', coopSortNumber: 'Número da Co-Op', coopSortMaxLevel: 'Maior nível exigido pelos pratos', coopSortGoldXpMin: 'XP/min de ouro', myDexCoopTitle: 'Co-Ops recomendadas', coopGoldOnlyNote: 'XP da recompensa de ouro ÷ prazo para ouro; XP do preparo não incluído.', coopScopeLabel: 'Capacidade da equipe', coopCanCookAll: 'Equipe consegue cozinhar todos os pratos', coopCanCookSome: 'Equipe consegue cozinhar ao menos um prato', highestRequiredLevel: 'Maior nível exigido', goldXpMin: 'XP/min de ouro', noEligibleCoops: 'Nenhuma Co-Op compatível com a equipe escolhida.', teamEstimatedXpMin: 'XP/min estimado da equipe', personalEstimatedXpMin: 'XP/min estimado do chef', coopEstimateDisclaimer: 'Estimativas usam o tempo de preparo atribuído e a medalha prevista; o progresso real pode ser diferente.', playCafe: 'Jogar Cappuccino Café!', category0: 'Sobremesa', category1: 'Prato principal', category2: 'Sopa', category3: 'Salada', category4: 'Vegetariano', category5: 'Lanche', fullTagOver48h: 'Muito demorado (48h+)', bestOver48h: 'Melhor acima de 48h', over48hWord: 'acima de 48h', over48hPlan: 'Plano 48h+', over48hNote: 'Tempo original de preparo acima de 48 horas.'},
 };
 
 const CAFE_LANGUAGE_CODES = new Set(SUPPORTED_LANGUAGE_CODES);
@@ -1415,6 +1422,17 @@ async function loadCoopRecords(languageCode) {
   const cafeLanguageXml = parseNormalOrLooseXml(languageResult.text, 'Cafe language XML');
   const textNodes = Array.from(cafeLanguageXml.getElementsByTagName('text'));
   const coopTextByNumber = buildCoopTextMap(textNodes);
+  let englishCoopTextByNumber = coopTextByNumber;
+  if (languageCode !== 'en') {
+    try {
+      const englishXmlResponse = await fetchFirstWorkingLanguageFile(PATHS.languageFiles.en);
+      const englishXml = parseNormalOrLooseXml(englishXmlResponse.text, 'English Café language XML');
+      englishCoopTextByNumber = buildCoopTextMap(Array.from(englishXml.getElementsByTagName('text')));
+    } catch (error) {
+      // Localized names remain usable if the English language file is unavailable.
+      englishCoopTextByNumber = coopTextByNumber;
+    }
+  }
   const dishById = new Map(allDishRecords.map(record => [String(record.dishId), record]));
 
   return Array.from(cafeItemsXml.getElementsByTagName('wod'))
@@ -1438,6 +1456,8 @@ async function loadCoopRecords(languageCode) {
         coopNumber,
         sourceIndex,
         title: text.title || `Co-Op ${coopNumber}`,
+        englishTitle: englishCoopTextByNumber[String(coopNumber)]?.title || text.title || '',
+        eventCode: Number(getAttr(node, 'events') || 0),
         shortDescription: text.shortDescription || '',
         longDescription: text.longDescription || '',
         maxMembers: Number(getAttr(node, 'maxMember') || 0),
@@ -1472,7 +1492,7 @@ function bindInputs() {
     element.addEventListener('change', handleMyDexInputChange);
   });
 
-  ['myTimePlayerLevel', 'myTimeHours', 'myTimeMinutes', 'myTimeMarginPlusHours', 'myTimeMarginPlusMinutes', 'myTimeMarginMinusHours', 'myTimeMarginMinusMinutes', 'myTimeUseMasteriesToggle'].forEach(id => {
+  ['myTimePlayerLevel', 'myTimeHours', 'myTimeMinutes', 'myTimeMarginPlusHours', 'myTimeMarginPlusMinutes', 'myTimeMarginMinusHours', 'myTimeMarginMinusMinutes', 'myTimeUseMasteriesToggle', 'myTimeAvoidDuplicatesToggle'].forEach(id => {
     const element = document.getElementById(id);
     if (!element) return;
     element.addEventListener('input', handleMyTimeInputChange);
@@ -1483,6 +1503,7 @@ function bindInputs() {
   setupMyDexExtraSections();
   setupGridViews();
   setupCoopDiscoveryControls();
+  setupMyDexCoopRecommendationControls();
 
   const clearMyTimeTargetButton = document.getElementById('clearMyTimeTarget');
   if (clearMyTimeTargetButton) clearMyTimeTargetButton.addEventListener('click', clearMyTimeTarget);
@@ -1912,7 +1933,7 @@ function renderDishCards(containerId, records, fallbackType) {
         <div>${imageHtml(record)}</div>
         <div>
           <h3>${escapeHtml(record.dishName)}</h3>
-          <p>${escapeHtml(typeLabel)} · ${t('level')} ${number(record.level)} · ${valueWithIconHtml('xp', record.xp)} · ${escapeHtml(record.durationText)}</p>
+          <p><span class="dish-card-type-label">${escapeHtml(typeLabel)}</span> · ${t('level')} ${number(record.level)} · ${valueWithIconHtml('xp', record.xp)} · ${escapeHtml(record.durationText)}</p>
           <p>${valueWithIconHtml('cash', record.profit)} · ${decimalWithIconHtml('xp', record.xpPerMin)}/min</p>
           ${ingredientLine}
         </div>
@@ -3056,6 +3077,12 @@ function getMyTimeMatchingRecords() {
   return { matches, bestCandidates, windowInfo };
 }
 
+function bestMyTimePair(records, perMinuteMetric, rawMetric, perMinuteLabel, rawLabel, rateClass, rawClass, avoidDuplicates) {
+  const first = findBestDish(records, perMinuteMetric);
+  const second = findBestDish(records, rawMetric, record => !avoidDuplicates || !first || record.dishId !== first.dishId);
+  return [[t(perMinuteLabel), first, rateClass], [t(rawLabel), second, rawClass]].filter(item => item[1]);
+}
+
 function renderMyTime() {
   const bestBody = document.getElementById('myTimeBestBody');
   const allBody = document.getElementById('myTimeAllBody');
@@ -3069,14 +3096,12 @@ function renderMyTime() {
     return;
   }
 
+  const avoidDuplicates = Boolean(document.getElementById('myTimeAvoidDuplicatesToggle')?.checked);
   const bestItems = [
-    [t('bestSummaryXpMin'), findBestDish(bestCandidates, record => record.xpPerMin), 'best-xp-1'],
-    [t('bestSummaryRawXp'), findBestDish(bestCandidates, record => record.xp), 'best-xp-3'],
-    [t('bestSummaryProfitMin'), findBestDish(bestCandidates, record => record.profitPerMin), 'best-profit-1'],
-    [t('bestSummaryRawProfit'), findBestDish(bestCandidates, record => record.profit), 'best-profit-3'],
-    [t('bestSummaryPortionMin'), findBestDish(bestCandidates, record => record.servingsPerMin), 'best-portions-1'],
-    [t('bestSummaryRawPortion'), findBestDish(bestCandidates, record => record.servings), 'best-portions-3']
-  ].filter(item => item[1]);
+    ...bestMyTimePair(bestCandidates, record => record.xpPerMin, record => record.xp, 'bestSummaryXpMin', 'bestSummaryRawXp', 'best-xp-1', 'best-xp-3', avoidDuplicates),
+    ...bestMyTimePair(bestCandidates, record => record.profitPerMin, record => record.profit, 'bestSummaryProfitMin', 'bestSummaryRawProfit', 'best-profit-1', 'best-profit-3', avoidDuplicates),
+    ...bestMyTimePair(bestCandidates, record => record.servingsPerMin, record => record.servings, 'bestSummaryPortionMin', 'bestSummaryRawPortion', 'best-portions-1', 'best-portions-3', avoidDuplicates)
+  ];
 
   bestBody.innerHTML = bestItems.length
     ? bestItems.map(([label, record, rowClass]) => summaryRowHtml(label, record, rowClass)).join('')
@@ -4092,6 +4117,8 @@ function syncMyTimeInputs(clearSummary = true) {
 
   const toggle = document.getElementById('myTimeUseMasteriesToggle');
   if (toggle) toggle.checked = Boolean(settings.useMasteries);
+  const duplicatesToggle = document.getElementById('myTimeAvoidDuplicatesToggle');
+  if (duplicatesToggle) duplicatesToggle.checked = localStorage.getItem(MYTIME_AVOID_DUPLICATES_KEY) === 'true';
   if (clearSummary) updateMyTimeWindowSummary();
 }
 
@@ -4110,6 +4137,8 @@ function readMyTimeSettingsFromInputs() {
 
 function handleMyTimeInputChange() {
   userData.myTime = readMyTimeSettingsFromInputs();
+  const duplicatesToggle = document.getElementById('myTimeAvoidDuplicatesToggle');
+  if (duplicatesToggle) localStorage.setItem(MYTIME_AVOID_DUPLICATES_KEY, String(duplicatesToggle.checked));
 
   const myTimeLevel = clampNumber(Number(userData.myTime.playerLevel || 1), 0, 999);
   if (myTimeLevel !== Number(userData.level || 1)) {
@@ -4505,6 +4534,69 @@ function getPlayerCookableDishCount(coop, playerLevel = userData.level) {
   return { cookable, total: requirements.length };
 }
 
+function isCoopRecommendationInSeason(coop, date = new Date()) {
+  // The game's Christmas co-op runs December 1 through 31, not through January 6.
+  if (Number(coop.eventCode) === 3) return date.getMonth() === 11;
+  // Don't automatically recommend unfamiliar timed events outside their known season.
+  if (Number(coop.eventCode) !== 0) return false;
+  return true;
+}
+
+function isChallengeCoop(coop) {
+  if (Number(coop.coopNumber) === 42) return true; // Grill, Fry and Slice!
+  const simplify = value => String(value || '').toLowerCase()
+    .normalize('NFD').replace(/[\u0300-\u036f]/g, '')
+    .replace(/[’']/g, '').replace(/[^a-z0-9]+/g, ' ').trim();
+  const titles = [coop.title, coop.englishTitle].map(simplify);
+  return titles.some(title => CHALLENGE_COOP_NAMES.some(name => title.includes(name)));
+}
+
+function setupMyDexCoopRecommendationControls() {
+  const select = document.getElementById('myDexCoopRecommendSort');
+  const challenge = document.getElementById('myDexIncludeChallengeCoops');
+  if (select) {
+    const saved = localStorage.getItem(MYDEX_COOP_RECOMMEND_SORT_KEY) || 'xp';
+    select.value = ['xp', 'gold', 'cash', 'quickest', 'longest'].includes(saved) ? saved : 'xp';
+    select.addEventListener('change', () => {
+      localStorage.setItem(MYDEX_COOP_RECOMMEND_SORT_KEY, select.value);
+      renderMyDexCoopSuggestions();
+    });
+  }
+  if (challenge) {
+    challenge.checked = localStorage.getItem(MYDEX_CHALLENGE_COOPS_KEY) === 'true';
+    challenge.addEventListener('change', () => {
+      localStorage.setItem(MYDEX_CHALLENGE_COOPS_KEY, String(challenge.checked));
+      renderMyDexCoopSuggestions();
+    });
+  }
+}
+
+function coopRecommendationMetric(item, mode) {
+  if (mode === 'gold') return item.goldReward.gold;
+  if (mode === 'cash') return item.goldReward.cash;
+  if (mode === 'quickest' || mode === 'longest') return item.coop.goldDeadline;
+  return item.goldXpMin;
+}
+
+function getRecommendedCoops(date = new Date()) {
+  const level = clampNumber(Number(userData.level || 1), 0, 999);
+  const mode = document.getElementById('myDexCoopRecommendSort')?.value || 'xp';
+  const includeChallenge = Boolean(document.getElementById('myDexIncludeChallengeCoops')?.checked);
+  return allCoopRecords.map(coop => ({
+    coop,
+    coverage: getPlayerCookableDishCount(coop, level),
+    goldReward: getCoopRewardAtLevel(coop, 4, level),
+    goldXpMin: getCoopGoldXpMin(coop, level)
+  })).filter(item => item.coverage.cookable > 0 && item.goldReward.xp > 0
+      && isCoopRecommendationInSeason(item.coop, date)
+      && (includeChallenge || !isChallengeCoop(item.coop)))
+    .sort((a, b) => b.coverage.cookable - a.coverage.cookable
+      || (b.coverage.cookable / Math.max(1, b.coverage.total)) - (a.coverage.cookable / Math.max(1, a.coverage.total))
+      || (mode === 'quickest' ? coopRecommendationMetric(a, mode) - coopRecommendationMetric(b, mode)
+        : coopRecommendationMetric(b, mode) - coopRecommendationMetric(a, mode))
+      || a.coop.coopNumber - b.coop.coopNumber).slice(0, 5);
+}
+
 function renderMyDexCoopSuggestions() {
   const container = document.getElementById('myDexCoopSuggestions');
   if (!container) return;
@@ -4512,28 +4604,32 @@ function renderMyDexCoopSuggestions() {
     container.textContent = t('noCoopsAvailable');
     return;
   }
-  const level = clampNumber(Number(userData.level || 1), 0, 999);
   const xpNeeded = Math.max(0, Number(userData.xpNeeded || 0));
-  // Current-player dish unlocks only. Team eligibility remains a separate Planner filter.
-  const recommended = allCoopRecords.map(coop => ({
-    coop,
-    coverage: getPlayerCookableDishCount(coop, level),
-    goldReward: getCoopRewardAtLevel(coop, 4, level).xp
-  })).filter(item => item.coverage.cookable > 0 && item.goldReward > 0)
-    .sort((a, b) => b.coverage.cookable - a.coverage.cookable
-      || (b.coverage.cookable / Math.max(1, b.coverage.total)) - (a.coverage.cookable / Math.max(1, a.coverage.total))
-      || getCoopGoldXpMin(b.coop, level) - getCoopGoldXpMin(a.coop, level)
-      || a.coop.coopNumber - b.coop.coopNumber).slice(0, 5);
-  container.innerHTML = recommended.length ? recommended.map(({coop, coverage, goldReward}) => {
-    const completions = xpNeeded > 0 ? Math.ceil(xpNeeded / goldReward) : 0;
+  const recommended = getRecommendedCoops();
+  const xpLabel = escapeHtml(t('coopRateEstimateTooltip'));
+  container.innerHTML = recommended.length ? recommended.map(({coop, coverage, goldReward, goldXpMin}) => {
+    const completions = xpNeeded > 0 ? Math.ceil(xpNeeded / goldReward.xp) : 0;
     return `<article class="coop-suggestion-card">
       <div class="coop-suggestion-heading">${coopIconHtml(coop)}<strong>${escapeHtml(coop.title)}</strong></div>
-      <p>Co-Op ${number(coop.coopNumber)} · ${escapeHtml(t('cookableDishes'))}: ${number(coverage.cookable)} / ${number(coverage.total)}</p>
-      <p><strong>${escapeHtml(t('goldXpMin'))}: ${decimal(getCoopGoldXpMin(coop, level))}</strong> · ${escapeHtml(t('goldDeadline'))}: ${escapeHtml(formatDuration(coop.goldDeadline))}</p>
-      ${completions ? `<p class="coop-level-count"><strong>${escapeHtml(t('coopsToLevelUp'))}: ${number(completions)}×</strong></p>` : ''}
+      <p class="coop-suggestion-number">${escapeHtml(t('coopNumberLabel'))}${number(coop.coopNumber)}</p>
+      <p class="coop-suggestion-coverage">${escapeHtml(t('cookableDishes'))}: ${number(coverage.cookable)} / ${number(coverage.total)}</p>
+      <p class="coop-suggestion-xp"><strong><img src="xp.png" class="inline-stat-icon" alt="XP">/min: ${decimal(goldXpMin)}</strong>
+        <span class="coop-rate-help-wrap"><button class="coop-rate-help" type="button" aria-label="${xpLabel}" title="${xpLabel}" aria-expanded="false">?</button><span class="coop-rate-tooltip" role="tooltip" hidden>${xpLabel}</span></span></p>
+      <p class="coop-suggestion-deadline">${escapeHtml(t('goldDeadline'))}: ${escapeHtml(formatDuration(coop.goldDeadline))}</p>
+      ${completions ? `<p class="coop-level-count"><strong>${escapeHtml(t('coopCompletionsToLevel'))}: ${number(completions)}×</strong></p>` : ''}
       <button class="plan-button" type="button" data-mydex-coop="${number(coop.coopNumber)}">${escapeHtml(t('planCoop'))}</button>
     </article>`;
   }).join('') : `<p class="hint">${escapeHtml(t('noEligibleCoops'))}</p>`;
+  container.querySelectorAll('.coop-rate-help').forEach(button => button.addEventListener('click', () => {
+    const tooltip = button.nextElementSibling;
+    const opening = tooltip.hidden;
+    container.querySelectorAll('.coop-rate-tooltip').forEach(item => {
+      item.hidden = true;
+      item.previousElementSibling?.setAttribute('aria-expanded', 'false');
+    });
+    tooltip.hidden = !opening;
+    button.setAttribute('aria-expanded', String(opening));
+  }));
   container.querySelectorAll('[data-mydex-coop]').forEach(button => button.addEventListener('click', () => {
     const coopNumber = Number(button.dataset.mydexCoop);
     navigateToScreen('coopPlannerScreen');

@@ -16,6 +16,7 @@
   <text id="availableDishDex" name="Διαθέσιμο DishDex" />
   <text id="availableDishDexNote" name="Πλήρης πιάτο λίστα: XP, κέρδος, Μερίδες, Χρόνος, Κατηγορία, Απαιτήσεις." />
   <text id="availableStoves" name="Διαθέσιμες κουζίνες" />
+  <text id="avoidDuplicateSuggestions" name="Αποφυγή διπλών προτάσεων;" />
   <text id="backButton" name="← Πίσω" />
   <text id="baseRewards" name="Βασικές ανταμοιβές" />
   <text id="batches" name="Παρτίδες" />
@@ -66,15 +67,25 @@
   <text id="cookableDishes" name="Πιάτα που μπορείς να μαγειρέψεις" />
   <text id="coopCanCookAll" name="Η ομάδα μπορεί να φτιάξει όλα τα πιάτα" />
   <text id="coopCanCookSome" name="Η ομάδα μπορεί να φτιάξει τουλάχιστον ένα πιάτο" />
+  <text id="coopCompletionsToLevel" name="Ολοκληρώσεις για άνοδο επιπέδου" />
   <text id="coopEligibleOnly" name="Μόνο συνεργασίες που μπορεί να μαγειρέψει η ομάδα" />
   <text id="coopEstimateDisclaimer" name="Οι εκτιμήσεις βασίζονται στον χρόνο μαγειρέματος και στο προβλεπόμενο μετάλλιο· η πραγματική πρόοδος μπορεί να διαφέρει." />
   <text id="coopGoldOnlyNote" name="XP χρυσής ανταμοιβής ÷ προθεσμία χρυσού· χωρίς XP μαγειρέματος." />
+  <text id="coopIncludeChallenges" name="Να περιλαμβάνονται Co-Op πρόκλησης;" />
   <text id="coopListNote" name="Co-Op: Περιήγηση + πλάνο." />
   <text id="coopListTitle" name="Co-Op Πλάνοner" />
   <text id="coopNumber" name="Co-Op" />
+  <text id="coopNumberLabel" name="Co-Op αρ. " />
   <text id="coopPlannerDescription" name="Co-Op: Περιήγηση + πλάνο." />
   <text id="coopPlannerEyebrow" name="Ομάδα cooking" />
   <text id="coopPlannerTitle" name="Co-Op Πλάνοner" />
+  <text id="coopRateEstimateTooltip" name="Εκτίμηση XP/λεπτό για ολοκλήρωση με χρυσό" />
+  <text id="coopRecommendCash" name="Περισσότερα χρήματα" />
+  <text id="coopRecommendGold" name="Περισσότερος χρυσός" />
+  <text id="coopRecommendLongest" name="Μεγαλύτερης διάρκειας" />
+  <text id="coopRecommendQuickest" name="Γρηγορότερα" />
+  <text id="coopRecommendSort" name="Ταξινόμηση προτάσεων" />
+  <text id="coopRecommendXp" name="Καλύτερα XP" />
   <text id="coopRequirements" name="Απαιτούμενα πιάτα" />
   <text id="coopScopeLabel" name="Δυνατότητες ομάδας" />
   <text id="coopSearch" name="Αναζήτηση co-op" />
@@ -189,7 +200,7 @@
   <text id="metricXpMin" name="XP/min" />
   <text id="minimumDishLevel" name="Ελάχιστο πιάτο level" />
   <text id="minutesShort" name="min" />
-  <text id="myDexCoopTitle" name="Καλύτερες συνεργασίες για άνοδο επιπέδου" />
+  <text id="myDexCoopTitle" name="Προτεινόμενα Co-Op" />
   <text id="myDexDescription" name="MyDex: Επίπεδο, XP, διαθέσιμο χρόνος." />
   <text id="myDexHint" name="Data → Πρόταση." />
   <text id="myDexSettings" name="MyDex Settings" />

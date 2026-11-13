@@ -16,6 +16,7 @@
   <text id="availableDishDex" name="Saatavilla DishDex" />
   <text id="availableDishDexNote" name="Täydellinen ruoka lista: XP, voitto, Annokset, Aika, Kategoria, Vaatimukset." />
   <text id="availableStoves" name="Käytettävissä olevat liedet" />
+  <text id="avoidDuplicateSuggestions" name="Vältä samoja suosituksia?" />
   <text id="backButton" name="← Takaisin" />
   <text id="baseRewards" name="Peruspalkineit" />
   <text id="batches" name="Erät" />
@@ -66,15 +67,25 @@
   <text id="cookableDishes" name="Ruoat, joita voit valmistaa" />
   <text id="coopCanCookAll" name="Tiimi pystyy valmistamaan kaikki ruoat" />
   <text id="coopCanCookSome" name="Tiimi pystyy valmistamaan ainakin yhden ruoan" />
+  <text id="coopCompletionsToLevel" name="Suorituksia seuraavalle tasolle" />
   <text id="coopEligibleOnly" name="Vain yhteistyötehtävät, joihin tiimini pystyy" />
   <text id="coopEstimateDisclaimer" name="Arviot perustuvat jaettuihin valmistusaikoihin ja ennustettuun mitaliin; todellinen edistyminen voi poiketa." />
   <text id="coopGoldOnlyNote" name="Kultapalkinnon XP ÷ kultaraja; valmistuksen XP ei mukana." />
+  <text id="coopIncludeChallenges" name="Näytä myös haaste-Co-Opit?" />
   <text id="coopListNote" name="Co-Op: Selaa + suunnitelma." />
   <text id="coopListTitle" name="Co-Op Suunnitelmaner" />
   <text id="coopNumber" name="Co-Op" />
+  <text id="coopNumberLabel" name="Co-Op nro " />
   <text id="coopPlannerDescription" name="Co-Op: Selaa + suunnitelma." />
   <text id="coopPlannerEyebrow" name="Team cooking" />
   <text id="coopPlannerTitle" name="Co-Op Suunnitelmaner" />
+  <text id="coopRateEstimateTooltip" name="Arvioitu XP/min kultasuorituksella" />
+  <text id="coopRecommendCash" name="Eniten rahaa" />
+  <text id="coopRecommendGold" name="Eniten kultaa" />
+  <text id="coopRecommendLongest" name="Pisimmät" />
+  <text id="coopRecommendQuickest" name="Nopeimmat" />
+  <text id="coopRecommendSort" name="Järjestä suositukset" />
+  <text id="coopRecommendXp" name="Paras XP" />
   <text id="coopRequirements" name="Vaaditut ruoat" />
   <text id="coopScopeLabel" name="Tiimin osaaminen" />
   <text id="coopSearch" name="Etsi Co-Op" />
@@ -189,7 +200,7 @@
   <text id="metricXpMin" name="XP/min" />
   <text id="minimumDishLevel" name="Minimi ruoka level" />
   <text id="minutesShort" name="min" />
-  <text id="myDexCoopTitle" name="Parhaat yhteistyötehtävät tason nostoon" />
+  <text id="myDexCoopTitle" name="Suositellut Co-Opit" />
   <text id="myDexDescription" name="Avaa henkilökohtainen DishDex tasosi, XP:n ja käytettävissä olevan aikasi mukaan." />
   <text id="myDexHint" name="Syötä tietosi henkilökohtaisia suosituksia varten." />
   <text id="myDexSettings" name="MyDex Settings" />

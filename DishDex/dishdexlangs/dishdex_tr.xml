@@ -16,6 +16,7 @@
   <text id="availableDishDex" name="Mevcut DishDex" />
   <text id="availableDishDexNote" name="Tam yemek liste: XP, kâr, Porsiyonlar, Süre, Kategori, Gereksinimler." />
   <text id="availableStoves" name="Mevcut ocaklar" />
+  <text id="avoidDuplicateSuggestions" name="Yinelenen önerileri önle?" />
   <text id="backButton" name="← Geri" />
   <text id="baseRewards" name="Temel ödüller" />
   <text id="batches" name="Partiler" />
@@ -66,15 +67,25 @@
   <text id="cookableDishes" name="Pişirebildiğin yemekler" />
   <text id="coopCanCookAll" name="Ekip tüm gerekli yemekleri pişirebilir" />
   <text id="coopCanCookSome" name="Ekip en az bir gerekli yemeği pişirebilir" />
+  <text id="coopCompletionsToLevel" name="Seviye atlamak için gereken tamamlamalar" />
   <text id="coopEligibleOnly" name="Yalnızca ekibimin pişirebileceği kooperatifler" />
   <text id="coopEstimateDisclaimer" name="Tahminler atanan pişirme süresine ve beklenen madalyaya dayanır; gerçek ilerleme değişebilir." />
   <text id="coopGoldOnlyNote" name="Altın ödül XP'si ÷ altın süresi; pişirme XP'si hariç." />
+  <text id="coopIncludeChallenges" name="Meydan okuma Co-Op’larını dahil et?" />
   <text id="coopListNote" name="Co-Op: Göz at + plan." />
   <text id="coopListTitle" name="Co-Op Planner" />
   <text id="coopNumber" name="Co-Op" />
+  <text id="coopNumberLabel" name="Co-Op No. " />
   <text id="coopPlannerDescription" name="Co-Op: Göz at + plan." />
   <text id="coopPlannerEyebrow" name="Takım cooking" />
   <text id="coopPlannerTitle" name="Co-Op Planner" />
+  <text id="coopRateEstimateTooltip" name="Altın tamamlama için tahmini XP/dk" />
+  <text id="coopRecommendCash" name="En çok para" />
+  <text id="coopRecommendGold" name="En çok altın" />
+  <text id="coopRecommendLongest" name="En uzun" />
+  <text id="coopRecommendQuickest" name="En hızlı" />
+  <text id="coopRecommendSort" name="Önerileri sırala" />
+  <text id="coopRecommendXp" name="En iyi XP" />
   <text id="coopRequirements" name="Gerekli yemekler" />
   <text id="coopScopeLabel" name="Ekip kapasitesi" />
   <text id="coopSearch" name="Ara co-op" />
@@ -189,7 +200,7 @@
   <text id="metricXpMin" name="XP/min" />
   <text id="minimumDishLevel" name="Minimum yemek level" />
   <text id="minutesShort" name="min" />
-  <text id="myDexCoopTitle" name="Seviye atlamak için en iyi kooperatifler" />
+  <text id="myDexCoopTitle" name="Önerilen Co-Op’lar" />
   <text id="myDexDescription" name="MyDex: Seviye, XP, mevcut süre." />
   <text id="myDexHint" name="Data → Öneri." />
   <text id="myDexSettings" name="MyDex Settings" />

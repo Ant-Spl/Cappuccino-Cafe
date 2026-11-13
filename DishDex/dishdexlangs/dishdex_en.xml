@@ -16,6 +16,7 @@
   <text id="availableDishDex" name="Available DishDex" />
   <text id="availableDishDexNote" name="Complete dish list with XP, profit, portions, time, category and requirements." />
   <text id="availableStoves" name="Available Stoves" />
+  <text id="avoidDuplicateSuggestions" name="Avoid duplicate suggestions?" />
   <text id="backButton" name="← Back" />
   <text id="baseRewards" name="Base rewards" />
   <text id="batches" name="Batches" />
@@ -66,15 +67,25 @@
   <text id="cookableDishes" name="Dishes you can cook" />
   <text id="coopCanCookAll" name="Team can cook every required dish" />
   <text id="coopCanCookSome" name="Team can cook at least one required dish" />
+  <text id="coopCompletionsToLevel" name="Completions to level up" />
   <text id="coopEligibleOnly" name="Only co-ops my team can cook" />
   <text id="coopEstimateDisclaimer" name="Estimates use assigned cooking time and predicted medal; actual game progress may differ." />
   <text id="coopGoldOnlyNote" name="Gold reward XP ÷ Gold deadline; cooking XP excluded." />
+  <text id="coopIncludeChallenges" name="Include challenge Co-Ops?" />
   <text id="coopListNote" name="Browse and plan your next Co-Op here!" />
   <text id="coopListTitle" name="Co-Op Planner" />
   <text id="coopNumber" name="Co-Op" />
+  <text id="coopNumberLabel" name="Co-Op nº" />
   <text id="coopPlannerDescription" name="Browse and plan your next Co-Op here." />
   <text id="coopPlannerEyebrow" name="Team cooking" />
   <text id="coopPlannerTitle" name="Co-Op Planner" />
+  <text id="coopRateEstimateTooltip" name="XP/min estimate based on Gold status completion" />
+  <text id="coopRecommendCash" name="Best Cash" />
+  <text id="coopRecommendGold" name="Best Gold" />
+  <text id="coopRecommendLongest" name="Longest" />
+  <text id="coopRecommendQuickest" name="Quickest" />
+  <text id="coopRecommendSort" name="Sort recommendations" />
+  <text id="coopRecommendXp" name="Best XP" />
   <text id="coopRequirements" name="Required dishes" />
   <text id="coopScopeLabel" name="Team coverage" />
   <text id="coopSearch" name="Search co-op" />
@@ -189,7 +200,7 @@
   <text id="metricXpMin" name="XP/min" />
   <text id="minimumDishLevel" name="Minimum dish level" />
   <text id="minutesShort" name="min" />
-  <text id="myDexCoopTitle" name="Best co-ops for leveling" />
+  <text id="myDexCoopTitle" name="Recommended Co-Ops" />
   <text id="myDexDescription" name="Access your personal DishDex based on your level, XP and available time." />
   <text id="myDexHint" name="Insert your data for personalized recommendations." />
   <text id="myDexSettings" name="MyDex Settings" />

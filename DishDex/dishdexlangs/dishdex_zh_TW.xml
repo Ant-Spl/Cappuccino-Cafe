@@ -16,6 +16,7 @@
   <text id="availableDishDex" name="可用 DishDex" />
   <text id="availableDishDexNote" name="完整 菜品 列表: XP, 利潤, 份數, 時間, 類別, 需求." />
   <text id="availableStoves" name="可用爐灶" />
+  <text id="avoidDuplicateSuggestions" name="避免重複推薦？" />
   <text id="backButton" name="← 返回" />
   <text id="baseRewards" name="基礎獎勵" />
   <text id="batches" name="批次" />
@@ -66,15 +67,25 @@
   <text id="cookableDishes" name="你可以烹飪的料理" />
   <text id="coopCanCookAll" name="隊伍能製作全部所需料理" />
   <text id="coopCanCookSome" name="隊伍至少能製作一道所需料理" />
+  <text id="coopCompletionsToLevel" name="升級所需完成次數" />
   <text id="coopEligibleOnly" name="只顯示隊伍能完成烹飪要求的合作任務" />
   <text id="coopEstimateDisclaimer" name="依分配的烹飪時間與預估獎牌計算；實際進度可能不同。" />
   <text id="coopGoldOnlyNote" name="金牌獎勵XP ÷ 金牌時限；不含烹飪XP。" />
+  <text id="coopIncludeChallenges" name="包含挑戰合作任務？" />
   <text id="coopListNote" name="Co-Op: 瀏覽 + 計畫." />
   <text id="coopListTitle" name="Co-Op 計畫ner" />
   <text id="coopNumber" name="Co-Op" />
+  <text id="coopNumberLabel" name="合作任務第 " />
   <text id="coopPlannerDescription" name="Co-Op: 瀏覽 + 計畫." />
   <text id="coopPlannerEyebrow" name="隊伍 cooking" />
   <text id="coopPlannerTitle" name="Co-Op 計畫ner" />
+  <text id="coopRateEstimateTooltip" name="獲得金牌時的預估經驗值/分鐘" />
+  <text id="coopRecommendCash" name="最多現金" />
+  <text id="coopRecommendGold" name="最多金幣" />
+  <text id="coopRecommendLongest" name="耗時最長" />
+  <text id="coopRecommendQuickest" name="最快完成" />
+  <text id="coopRecommendSort" name="排序推薦" />
+  <text id="coopRecommendXp" name="最高經驗值" />
   <text id="coopRequirements" name="需要 菜品" />
   <text id="coopScopeLabel" name="隊伍可烹飪範圍" />
   <text id="coopSearch" name="搜尋 co-op" />
@@ -189,7 +200,7 @@
   <text id="metricXpMin" name="XP/min" />
   <text id="minimumDishLevel" name="最低 菜品 level" />
   <text id="minutesShort" name="min" />
-  <text id="myDexCoopTitle" name="最適合升級的合作任務" />
+  <text id="myDexCoopTitle" name="推薦合作任務" />
   <text id="myDexDescription" name="MyDex: 等級, XP, 可用 時間." />
   <text id="myDexHint" name="Data → 推薦." />
   <text id="myDexSettings" name="MyDex Settings" />

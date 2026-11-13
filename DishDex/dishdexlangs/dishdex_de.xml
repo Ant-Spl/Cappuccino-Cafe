@@ -16,6 +16,7 @@
   <text id="availableDishDex" name="Verfügbares DishDex" />
   <text id="availableDishDexNote" name="Komplette Gerichtsliste: XP, Gewinn, Portionen, Zeit, Kategorie, Anforderungen." />
   <text id="availableStoves" name="Verfügbare Herde" />
+  <text id="avoidDuplicateSuggestions" name="Doppelte Vorschläge vermeiden?" />
   <text id="backButton" name="← Zurück" />
   <text id="baseRewards" name="Basisbelohnungen" />
   <text id="batches" name="Chargen" />
@@ -66,15 +67,25 @@
   <text id="cookableDishes" name="Gerichte, die du kochen kannst" />
   <text id="coopCanCookAll" name="Team kann alle benötigten Gerichte kochen" />
   <text id="coopCanCookSome" name="Team kann mindestens ein Gericht kochen" />
+  <text id="coopCompletionsToLevel" name="Abschlüsse bis zum Levelaufstieg" />
   <text id="coopEligibleOnly" name="Nur Co-ops, die mein Team kochen kann" />
   <text id="coopEstimateDisclaimer" name="Schätzungen basieren auf zugewiesener Kochzeit und erwarteter Medaille; tatsächlicher Fortschritt kann abweichen." />
   <text id="coopGoldOnlyNote" name="Gold-Belohnungs-XP ÷ Gold-Frist; Koch-XP nicht enthalten." />
+  <text id="coopIncludeChallenges" name="Herausforderungs-Co-Ops einbeziehen?" />
   <text id="coopListNote" name="Co-Op: Durchsuchen + planen." />
   <text id="coopListTitle" name="Co-Op-Planer" />
   <text id="coopNumber" name="Co-Op" />
+  <text id="coopNumberLabel" name="Co-Op Nr. " />
   <text id="coopPlannerDescription" name="Co-Op: Durchsuchen + planen." />
   <text id="coopPlannerEyebrow" name="Im Team kochen" />
   <text id="coopPlannerTitle" name="Co-Op-Planer" />
+  <text id="coopRateEstimateTooltip" name="Geschätzte XP/Min. bei Gold-Abschluss" />
+  <text id="coopRecommendCash" name="Meistes Geld" />
+  <text id="coopRecommendGold" name="Meistes Gold" />
+  <text id="coopRecommendLongest" name="Längste" />
+  <text id="coopRecommendQuickest" name="Schnellste" />
+  <text id="coopRecommendSort" name="Empfehlungen sortieren" />
+  <text id="coopRecommendXp" name="Beste XP" />
   <text id="coopRequirements" name="Erforderliche Gerichte" />
   <text id="coopScopeLabel" name="Team-Abdeckung" />
   <text id="coopSearch" name="Co-Op suchen" />
@@ -189,7 +200,7 @@
   <text id="metricXpMin" name="XP/min" />
   <text id="minimumDishLevel" name="Mindest-Kochlevel" />
   <text id="minutesShort" name="min" />
-  <text id="myDexCoopTitle" name="Beste Co-ops zum Leveln" />
+  <text id="myDexCoopTitle" name="Empfohlene Co-Ops" />
   <text id="myDexDescription" name="Öffne dein persönliches DishDex basierend auf Level, XP und verfügbarer Zeit." />
   <text id="myDexHint" name="Gib deine Daten ein, um persönliche Empfehlungen zu erhalten." />
   <text id="myDexSettings" name="MyDex-Einstellungen" />
