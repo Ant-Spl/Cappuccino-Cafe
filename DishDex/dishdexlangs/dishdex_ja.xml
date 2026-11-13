@@ -301,7 +301,7 @@
   <text id="waiters" name="Waiters" />
   <text id="instantCookings" name="Instant cookings" />
   <text id="masteryCompletionProgress" name="マスタリーレベル progress:" />
-  <text id="applyFancyBoost" name="Fancyを適用（XP・提供数+20%）" />
+  <text id="applyFancyBoost" name="Fancyを適用しますか？" />
   <text id="recommendVeryLong" name="非常に時間のかかる料理（48時間超）をおすすめに含めますか？" />
   <text id="filterCategory" name="カテゴリで絞り込む" />
   <text id="allCategories" name="すべてのカテゴリ" />
@@ -337,4 +337,7 @@
   <text id="over48hWord" name="48時間超" />
   <text id="over48hPlan" name="48時間超のプラン" />
   <text id="over48hNote" name="元の調理時間が48時間を超える料理。" />
+  <text id="holidayMasteryCompletionProgress" name="マスタリー達成率（季節限定料理）：" />
+  <text id="coopsToLevelUp" name="レベルアップに必要なゴールド達成回数" />
+  <text id="cookableDishes" name="調理できる料理" />
 </dishdex>

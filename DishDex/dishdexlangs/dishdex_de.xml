@@ -301,7 +301,7 @@
   <text id="waiters" name="Kellner" />
   <text id="instantCookings" name="Sofortkochungen" />
   <text id="masteryCompletionProgress" name="Sterne-Level-Fortschritt:" />
-  <text id="applyFancyBoost" name="Fancy anwenden (+20 % XP und Portionen)" />
+  <text id="applyFancyBoost" name="Fancy anwenden?" />
   <text id="recommendVeryLong" name="Sehr lange Gerichte (über 48 Std.) empfehlen?" />
   <text id="filterCategory" name="Nach Kategorie filtern" />
   <text id="allCategories" name="Alle Kategorien" />
@@ -337,4 +337,7 @@
   <text id="over48hWord" name="über 48 Std." />
   <text id="over48hPlan" name="48-Std.-Plan" />
   <text id="over48hNote" name="Ursprüngliche Kochdauer über 48 Stunden." />
+  <text id="holidayMasteryCompletionProgress" name="Meisterschaftsfortschritt (Feiertagsgerichte):" />
+  <text id="coopsToLevelUp" name="Gold-Abschlüsse bis zum nächsten Level" />
+  <text id="cookableDishes" name="Gerichte, die du kochen kannst" />
 </dishdex>

@@ -8,7 +8,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css?v=20261113-dishdex-community-update-1">
+  <link rel="stylesheet" href="style.css?v=20261113-dishdex-community-update-2">
 </head>
 <body class="dark-theme">
   <main class="page">
@@ -157,7 +157,7 @@
           </label>
           <label class="inline-toggle setting-toggle">
             <input id="myDexFancyToggle" class="fancy-boost-toggle" type="checkbox">
-            <span data-i18n="applyFancyBoost">Apply Fancy (+20% XP &amp; portions)</span>
+            <span data-i18n="applyFancyBoost">Apply Fancy?</span>
           </label>
           <label class="inline-toggle setting-toggle">
             <input id="recommendVeryLongToggle" class="recommend-very-long-toggle" type="checkbox">
@@ -178,8 +178,6 @@
       <section class="panel" id="myDexCoopSuggestionsPanel">
         <h2 data-i18n="myDexCoopTitle">Best Co-ops for leveling</h2>
         <p class="section-note" data-i18n="coopGoldOnlyNote">Ranked by Gold reward XP divided by the Gold deadline; cooking XP is excluded.</p>
-        <label><span data-i18n="coopScopeLabel">Team coverage</span>
-        <select id="myDexCoopScope"><option value="all" data-i18n="coopCanCookAll">Team can cook all dishes</option><option value="some" data-i18n="coopCanCookSome">Team can cook some dishes</option></select></label>
         <div id="myDexCoopSuggestions" class="coop-suggestion-grid"></div>
       </section>
       <section class="panel">
@@ -397,7 +395,7 @@
           </label>
           <label class="inline-toggle setting-toggle my-time-toggle compact-masteries-toggle">
             <input id="myTimeFancyToggle" class="fancy-boost-toggle" type="checkbox">
-            <span data-i18n="applyFancyBoost">Apply Fancy (+20% XP &amp; portions)</span>
+            <span data-i18n="applyFancyBoost">Apply Fancy?</span>
           </label>
           <label class="inline-toggle setting-toggle my-time-toggle compact-masteries-toggle">
             <input id="myTimeRecommendVeryLongToggle" class="recommend-very-long-toggle" type="checkbox">
@@ -478,7 +476,7 @@
           </label>
           <label class="full-mastery-toggle">
             <input id="fullFancyToggle" class="fancy-boost-toggle" type="checkbox">
-            <span data-i18n="applyFancyBoost">Apply Fancy (+20% XP &amp; portions)</span>
+            <span data-i18n="applyFancyBoost">Apply Fancy?</span>
           </label>
           <label>
             <span data-i18n="filterCategory">Category filter</span>
@@ -697,6 +695,15 @@
           <div class="mastery-progress-track" aria-hidden="true">
             <div id="masteryCompletionFill" class="mastery-progress-fill"></div>
           </div>
+          <div id="holidayMasteryCompletionProgress" class="holiday-mastery-progress hidden">
+            <div class="mastery-completion-header">
+              <span data-i18n="holidayMasteryCompletionProgress">Mastery completion progress (holiday):</span>
+              <strong id="holidayMasteryCompletionText">0 / 0 (0%)</strong>
+            </div>
+            <div class="mastery-progress-track" aria-hidden="true">
+              <div id="holidayMasteryCompletionFill" class="mastery-progress-fill holiday-mastery-progress-fill"></div>
+            </div>
+          </div>
         </div>
 
         <div class="mastery-toolbar">
@@ -711,6 +718,15 @@
               <option value="level-asc" data-i18n="sortLevelAsc">Level: low to high</option>
               <option value="level-desc" data-i18n="sortLevelDesc">Level: high to low</option>
               <option value="game-order" data-i18n="gameOrder">Game cookbook order (partially verified)</option>
+            </select>
+          </label>
+
+          <label class="mastery-holiday-label">
+            <span data-i18n="holidayMode">Include holiday foods?</span>
+            <select id="masteryHolidayMode">
+              <option value="Auto" data-i18n="auto" selected>Auto</option>
+              <option value="Include" data-i18n="include">Include</option>
+              <option value="Exclude" data-i18n="exclude">Exclude</option>
             </select>
           </label>
 
@@ -920,6 +936,6 @@
 
   </main>
 
-  <script src="script.js?v=20261113-dishdex-community-update-1" defer></script>
+  <script src="script.js?v=20261113-dishdex-community-update-2" defer></script>
 </body>
 </html>

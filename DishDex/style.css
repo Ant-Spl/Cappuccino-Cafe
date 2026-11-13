@@ -3771,3 +3771,40 @@ body.dark-theme #dishCalcOutput {
  .view-switch-toolbar { justify-content: center; }
  .coop-filter-toolbar { display:grid; }
 }
+
+/* Community revision 2: accessible contrast on the pale cards in dark mode. */
+body.dark-theme .dish-grid-card,
+body.dark-theme .coop-suggestion-card,
+body.dark-theme .cafe-shortcut {
+  color: #3b2618;
+  background: #fffce5;
+  border-color: #b9945c;
+}
+body.dark-theme .dish-grid-card :is(strong, span, p, div, small),
+body.dark-theme .coop-suggestion-card :is(strong, span, p, div, small),
+body.dark-theme .cafe-shortcut {
+  color: #3b2618;
+}
+body.dark-theme .dish-grid-card .dish-grid-stat { background: #f4f0d1; }
+body.dark-theme .dish-grid-card .dish-grid-stat > span { color: #75583b; }
+body.dark-theme .dish-grid-card .dish-type-tag { color: #73583f; }
+body.dark-theme .view-switch .view-button:not(.selected) { color: #3b2618; }
+body.dark-theme .view-switch { border-color: #b9945c; }
+.coop-suggestion-card { display: flex; flex-direction: column; }
+.coop-suggestion-card .plan-button { align-self: flex-start; margin-top: auto; }
+.coop-level-count { margin-top: 2px; }
+.coop-level-count strong { color: #26602d; }
+body.dark-theme .coop-suggestion-card .coop-level-count strong { color: #26602d; }
+.assignment-card { display: flex; flex-direction: column; }
+.assignment-xp-rate { margin: auto 0 0; padding-top: 13px; font-weight: 900; color: var(--text); }
+body.dark-theme .assignment-card .assignment-xp-rate { color: #fff4e8; }
+.holiday-mastery-progress { margin-top: 16px; padding-top: 14px; border-top: 1px dashed var(--border); }
+.holiday-mastery-progress-fill { background: linear-gradient(90deg, #778393, #c0c9d3, #ecf0f4); }
+.mastery-toolbar { grid-template-columns: minmax(200px, 1.35fr) repeat(3, minmax(170px, 1fr)); }
+.mastery-holiday-label { margin-bottom: 14px; }
+@media (max-width: 1060px) and (min-width: 761px) { .mastery-toolbar { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 760px) { .mastery-toolbar { grid-template-columns: 1fr; } }
+@media (max-width: 600px) {
+  .mastery-completion-header { flex-wrap: wrap; }
+  .dish-dynamic-grid { grid-template-columns: repeat(auto-fit, minmax(min(100%, 240px), 1fr)); }
+}

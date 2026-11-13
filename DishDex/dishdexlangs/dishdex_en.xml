@@ -300,7 +300,7 @@
   <text id="waiters" name="Waiters" />
   <text id="instantCookings" name="Instant cookings" />
   <text id="masteryCompletionProgress" name="Mastery completion progress:" />
-  <text id="applyFancyBoost" name="Apply Fancy (+20% XP and portions)" />
+  <text id="applyFancyBoost" name="Apply Fancy?" />
   <text id="recommendVeryLong" name="Recommend very long dishes (over 48h)?" />
   <text id="filterCategory" name="Filter by category" />
   <text id="allCategories" name="All categories" />
@@ -336,4 +336,7 @@
   <text id="over48hWord" name="over 48h" />
   <text id="over48hPlan" name="48h+ plan" />
   <text id="over48hNote" name="Original cooking duration over 48 hours." />
+  <text id="holidayMasteryCompletionProgress" name="Mastery completion progress (holiday):" />
+  <text id="coopsToLevelUp" name="Gold completions to level up" />
+  <text id="cookableDishes" name="Dishes you can cook" />
 </dishdex>

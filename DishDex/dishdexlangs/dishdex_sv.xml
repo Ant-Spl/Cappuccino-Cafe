@@ -301,7 +301,7 @@
   <text id="waiters" name="Waiters" />
   <text id="instantCookings" name="Instant cookings" />
   <text id="masteryCompletionProgress" name="Bemästringsnivå progress:" />
-  <text id="applyFancyBoost" name="Använd Fancy (+20 % XP och portioner)" />
+  <text id="applyFancyBoost" name="Använd Fancy?" />
   <text id="recommendVeryLong" name="Rekommendera mycket långa rätter (över 48 timmar)?" />
   <text id="filterCategory" name="Filtrera efter kategori" />
   <text id="allCategories" name="Alla kategorier" />
@@ -337,4 +337,7 @@
   <text id="over48hWord" name="över 48 timmar" />
   <text id="over48hPlan" name="48-timmarsplan" />
   <text id="over48hNote" name="Ursprunglig tillagningstid över 48 timmar." />
+  <text id="holidayMasteryCompletionProgress" name="Framsteg i mästerskap (högtidsrätter):" />
+  <text id="coopsToLevelUp" name="Co-ops med guld till nästa nivå" />
+  <text id="cookableDishes" name="Rätter du kan laga" />
 </dishdex>

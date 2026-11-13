@@ -301,7 +301,7 @@
   <text id="waiters" name="Waiters" />
   <text id="instantCookings" name="Instant cookings" />
   <text id="masteryCompletionProgress" name="Mastery-Level progress:" />
-  <text id="applyFancyBoost" name="Fancy toepassen (+20% XP en porties)" />
+  <text id="applyFancyBoost" name="Fancy toepassen?" />
   <text id="recommendVeryLong" name="Zeer lange gerechten (meer dan 48 uur) aanbevelen?" />
   <text id="filterCategory" name="Filter op categorie" />
   <text id="allCategories" name="Alle categorieën" />
@@ -337,4 +337,7 @@
   <text id="over48hWord" name="langer dan 48 uur" />
   <text id="over48hPlan" name="Plan voor 48 uur+" />
   <text id="over48hNote" name="Oorspronkelijke bereidingstijd langer dan 48 uur." />
+  <text id="holidayMasteryCompletionProgress" name="Voortgang van meesterschap (feestgerechten):" />
+  <text id="coopsToLevelUp" name="Co-ops met goud tot het volgende niveau" />
+  <text id="cookableDishes" name="Gerechten die je kunt bereiden" />
 </dishdex>

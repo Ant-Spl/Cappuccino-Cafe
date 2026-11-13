@@ -301,7 +301,7 @@
   <text id="waiters" name="Waiters" />
   <text id="instantCookings" name="Instant cookings" />
   <text id="masteryCompletionProgress" name="Ustalık-Derecesi progress:" />
-  <text id="applyFancyBoost" name="Fancy uygula (+%20 XP ve porsiyon)" />
+  <text id="applyFancyBoost" name="Fancy uygulansın mı?" />
   <text id="recommendVeryLong" name="Çok uzun yemekler (48 saatten fazla) önerilsin mi?" />
   <text id="filterCategory" name="Kategoriye göre filtrele" />
   <text id="allCategories" name="Tüm kategoriler" />
@@ -337,4 +337,7 @@
   <text id="over48hWord" name="48 saatin üstünde" />
   <text id="over48hPlan" name="48+ saat planı" />
   <text id="over48hNote" name="Özgün pişirme süresi 48 saatten uzundur." />
+  <text id="holidayMasteryCompletionProgress" name="Ustalık ilerlemesi (bayram yemekleri):" />
+  <text id="coopsToLevelUp" name="Seviye atlamak için gereken altın co-op sayısı" />
+  <text id="cookableDishes" name="Pişirebildiğin yemekler" />
 </dishdex>

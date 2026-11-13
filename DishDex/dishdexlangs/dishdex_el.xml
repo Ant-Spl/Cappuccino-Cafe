@@ -301,7 +301,7 @@
   <text id="waiters" name="Waiters" />
   <text id="instantCookings" name="Instant cookings" />
   <text id="masteryCompletionProgress" name="Επίπεδο μαεστρείας progress:" />
-  <text id="applyFancyBoost" name="Εφαρμογή Fancy (+20% XP και μερίδες)" />
+  <text id="applyFancyBoost" name="Εφαρμογή Fancy;" />
   <text id="recommendVeryLong" name="Να προτείνονται πολύ χρονοβόρα πιάτα (πάνω από 48 ώρες);" />
   <text id="filterCategory" name="Φιλτράρισμα ανά κατηγορία" />
   <text id="allCategories" name="Όλες οι κατηγορίες" />
@@ -337,4 +337,7 @@
   <text id="over48hWord" name="άνω των 48 ωρών" />
   <text id="over48hPlan" name="Πλάνο 48+ ωρών" />
   <text id="over48hNote" name="Αρχικός χρόνος μαγειρέματος πάνω από 48 ώρες." />
+  <text id="holidayMasteryCompletionProgress" name="Πρόοδος δεξιοτεχνίας (εορταστικά πιάτα):" />
+  <text id="coopsToLevelUp" name="Συνεργασίες με χρυσό έως το επόμενο επίπεδο" />
+  <text id="cookableDishes" name="Πιάτα που μπορείς να μαγειρέψεις" />
 </dishdex>

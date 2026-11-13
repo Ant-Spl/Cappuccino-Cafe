@@ -301,7 +301,7 @@
   <text id="waiters" name="Tarjoilijat" />
   <text id="instantCookings" name="Pikakokkaukset" />
   <text id="masteryCompletionProgress" name="Tähtitaso progress:" />
-  <text id="applyFancyBoost" name="Käytä Fancy-bonusta (+20 % XP:tä ja annoksia)" />
+  <text id="applyFancyBoost" name="Käytä Fancyä?" />
   <text id="recommendVeryLong" name="Suositellaanko erittäin pitkiä ruokia (yli 48 h)?" />
   <text id="filterCategory" name="Suodata luokan mukaan" />
   <text id="allCategories" name="Kaikki luokat" />
@@ -337,4 +337,7 @@
   <text id="over48hWord" name="yli 48 h" />
   <text id="over48hPlan" name="48 h+ -suunnitelma" />
   <text id="over48hNote" name="Alkuperäinen valmistusaika yli 48 tuntia." />
+  <text id="holidayMasteryCompletionProgress" name="Mestaruuden edistyminen (juhlaruoat):" />
+  <text id="coopsToLevelUp" name="Kultatason co-op-suorituksia seuraavaan tasoon" />
+  <text id="cookableDishes" name="Ruoat, joita voit valmistaa" />
 </dishdex>

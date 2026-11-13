@@ -301,7 +301,7 @@
   <text id="waiters" name="Číšníci" />
   <text id="instantCookings" name="Okamžitá vaření" />
   <text id="masteryCompletionProgress" name="hvězdičkový level progress:" />
-  <text id="applyFancyBoost" name="Použít Fancy (+20 % ZK a porcí)" />
+  <text id="applyFancyBoost" name="Použít Fancy?" />
   <text id="recommendVeryLong" name="Doporučovat velmi dlouhá jídla (nad 48 h)?" />
   <text id="filterCategory" name="Filtrovat podle kategorie" />
   <text id="allCategories" name="Všechny kategorie" />
@@ -337,4 +337,7 @@
   <text id="over48hWord" name="nad 48 h" />
   <text id="over48hPlan" name="Plán 48 h+" />
   <text id="over48hNote" name="Původní doba vaření přesahuje 48 hodin." />
+  <text id="holidayMasteryCompletionProgress" name="Postup v mistrovství (sváteční jídla):" />
+  <text id="coopsToLevelUp" name="Kooperací se zlatem do další úrovně" />
+  <text id="cookableDishes" name="Jídla, která můžete uvařit" />
 </dishdex>

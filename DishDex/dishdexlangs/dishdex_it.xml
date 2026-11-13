@@ -300,7 +300,7 @@
   <text id="waiters" name="Camerieri" />
   <text id="instantCookings" name="Instant cooking disp." />
   <text id="masteryCompletionProgress" name="Progresso nell&#x27;ottenimento delle stelle:" />
-  <text id="applyFancyBoost" name="Applica Fancy (+20% XP e porzioni)" />
+  <text id="applyFancyBoost" name="Applicare Fancy?" />
   <text id="recommendVeryLong" name="Consigliare piatti molto lunghi (oltre 48 ore)?" />
   <text id="filterCategory" name="Filtra per categoria" />
   <text id="allCategories" name="Tutte le categorie" />
@@ -336,4 +336,7 @@
   <text id="over48hWord" name="oltre 48 ore" />
   <text id="over48hPlan" name="Piano 48 ore+" />
   <text id="over48hNote" name="Durata di cottura originale superiore a 48 ore." />
+  <text id="holidayMasteryCompletionProgress" name="Progresso maestria (piatti delle feste):" />
+  <text id="coopsToLevelUp" name="Co-op da completare con oro per salire di livello" />
+  <text id="cookableDishes" name="Piatti che puoi cucinare" />
 </dishdex>

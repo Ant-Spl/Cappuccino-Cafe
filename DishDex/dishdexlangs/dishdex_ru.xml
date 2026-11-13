@@ -301,7 +301,7 @@
   <text id="waiters" name="Waiters" />
   <text id="instantCookings" name="Instant cookings" />
   <text id="masteryCompletionProgress" name="Уровень мастерства progress:" />
-  <text id="applyFancyBoost" name="Применить Fancy (+20% к опыту и порциям)" />
+  <text id="applyFancyBoost" name="Применить Fancy?" />
   <text id="recommendVeryLong" name="Рекомендовать очень долгие блюда (более 48 ч)?" />
   <text id="filterCategory" name="Фильтр по категории" />
   <text id="allCategories" name="Все категории" />
@@ -337,4 +337,7 @@
   <text id="over48hWord" name="свыше 48 ч" />
   <text id="over48hPlan" name="План на 48 ч+" />
   <text id="over48hNote" name="Исходное время приготовления больше 48 часов." />
+  <text id="holidayMasteryCompletionProgress" name="Прогресс мастерства (праздничные блюда):" />
+  <text id="coopsToLevelUp" name="Совместных заданий на золото до следующего уровня" />
+  <text id="cookableDishes" name="Блюда, которые вы можете приготовить" />
 </dishdex>

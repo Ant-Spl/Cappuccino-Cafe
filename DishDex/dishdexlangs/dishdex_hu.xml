@@ -301,7 +301,7 @@
   <text id="waiters" name="Waiters" />
   <text id="instantCookings" name="Instant cookings" />
   <text id="masteryCompletionProgress" name="Csillag szint progress:" />
-  <text id="applyFancyBoost" name="Fancy alkalmazása (+20% XP és adag)" />
+  <text id="applyFancyBoost" name="Fancy alkalmazása?" />
   <text id="recommendVeryLong" name="Nagyon hosszú ételek ajánlása (48 órán túl)?" />
   <text id="filterCategory" name="Szűrés kategória szerint" />
   <text id="allCategories" name="Összes kategória" />
@@ -337,4 +337,7 @@
   <text id="over48hWord" name="48 óra felett" />
   <text id="over48hPlan" name="48 órás terv" />
   <text id="over48hNote" name="Az eredeti főzési idő több mint 48 óra." />
+  <text id="holidayMasteryCompletionProgress" name="Mesterszint teljesítése (ünnepi ételek):" />
+  <text id="coopsToLevelUp" name="Arany fokozatú kooperációk a következő szintig" />
+  <text id="cookableDishes" name="Elkészíthető ételek" />
 </dishdex>

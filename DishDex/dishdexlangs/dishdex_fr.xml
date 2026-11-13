@@ -301,7 +301,7 @@
   <text id="waiters" name="Waiters" />
   <text id="instantCookings" name="Instant cookings" />
   <text id="masteryCompletionProgress" name="Niveau étoile progress:" />
-  <text id="applyFancyBoost" name="Appliquer Fancy (+20 % d’XP et de portions)" />
+  <text id="applyFancyBoost" name="Activer Fancy ?" />
   <text id="recommendVeryLong" name="Recommander les plats très longs (plus de 48 h) ?" />
   <text id="filterCategory" name="Filtrer par catégorie" />
   <text id="allCategories" name="Toutes les catégories" />
@@ -337,4 +337,7 @@
   <text id="over48hWord" name="de plus de 48 h" />
   <text id="over48hPlan" name="Plan 48 h+" />
   <text id="over48hNote" name="Durée de cuisson initiale supérieure à 48 heures." />
+  <text id="holidayMasteryCompletionProgress" name="Progression des maîtrises (plats de fête) :" />
+  <text id="coopsToLevelUp" name="Co-ops à terminer avec l’or pour passer au niveau suivant" />
+  <text id="cookableDishes" name="Plats que vous pouvez préparer" />
 </dishdex>

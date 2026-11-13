@@ -301,7 +301,7 @@
   <text id="waiters" name="Waiters" />
   <text id="instantCookings" name="Instant cookings" />
   <text id="masteryCompletionProgress" name="熟练等级 progress:" />
-  <text id="applyFancyBoost" name="应用 Fancy（XP 和份数 +20%）" />
+  <text id="applyFancyBoost" name="应用 Fancy？" />
   <text id="recommendVeryLong" name="推荐超长时间菜品（超过48小时）？" />
   <text id="filterCategory" name="按类别筛选" />
   <text id="allCategories" name="所有类别" />
@@ -337,4 +337,7 @@
   <text id="over48hWord" name="超过48小时" />
   <text id="over48hPlan" name="48小时以上方案" />
   <text id="over48hNote" name="原始烹饪时间超过48小时。" />
+  <text id="holidayMasteryCompletionProgress" name="精通完成进度（节日菜品）：" />
+  <text id="coopsToLevelUp" name="升级所需的金牌合作次数" />
+  <text id="cookableDishes" name="你可以烹饪的菜品" />
 </dishdex>

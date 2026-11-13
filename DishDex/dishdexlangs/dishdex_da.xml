@@ -301,7 +301,7 @@
   <text id="waiters" name="Tjenere" />
   <text id="instantCookings" name="Øjeblikkelig madlavning" />
   <text id="masteryCompletionProgress" name="Stjerne-Niveau progress:" />
-  <text id="applyFancyBoost" name="Anvend Fancy (+20 % XP og portioner)" />
+  <text id="applyFancyBoost" name="Anvend Fancy?" />
   <text id="recommendVeryLong" name="Anbefal meget lange retter (over 48 timer)?" />
   <text id="filterCategory" name="Filtrér efter kategori" />
   <text id="allCategories" name="Alle kategorier" />
@@ -337,4 +337,7 @@
   <text id="over48hWord" name="over 48 timer" />
   <text id="over48hPlan" name="48-timersplan" />
   <text id="over48hNote" name="Oprindelig tilberedningstid over 48 timer." />
+  <text id="holidayMasteryCompletionProgress" name="Fremskridt i mestring (højtidsretter):" />
+  <text id="coopsToLevelUp" name="Co-ops med guld til næste niveau" />
+  <text id="cookableDishes" name="Retter, du kan lave" />
 </dishdex>

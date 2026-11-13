@@ -301,7 +301,7 @@
   <text id="waiters" name="Waiters" />
   <text id="instantCookings" name="Instant cookings" />
   <text id="masteryCompletionProgress" name="별 레벨 progress:" />
-  <text id="applyFancyBoost" name="Fancy 적용 (XP와 제공량 +20%)" />
+  <text id="applyFancyBoost" name="Fancy를 적용할까요?" />
   <text id="recommendVeryLong" name="매우 오래 걸리는 요리(48시간 초과)를 추천할까요?" />
   <text id="filterCategory" name="카테고리별 필터" />
   <text id="allCategories" name="모든 카테고리" />
@@ -337,4 +337,7 @@
   <text id="over48hWord" name="48시간 초과" />
   <text id="over48hPlan" name="48시간 초과 계획" />
   <text id="over48hNote" name="기본 요리 시간이 48시간을 초과합니다." />
+  <text id="holidayMasteryCompletionProgress" name="마스터리 달성 진행도(시즌 요리):" />
+  <text id="coopsToLevelUp" name="레벨업까지 필요한 골드 완료 횟수" />
+  <text id="cookableDishes" name="조리할 수 있는 요리" />
 </dishdex>

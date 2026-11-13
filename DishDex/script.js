@@ -41,6 +41,7 @@ const PATHS = {
 const STORAGE_KEY = 'dishDexUserDataV1';
 const MASTERY_VIEW_STORAGE_KEY = 'dishDexMasteryViewMode';
 const MASTERY_SORT_STORAGE_KEY = 'dishDexMasterySortMode';
+const MASTERY_HOLIDAY_STORAGE_KEY = 'dishDexMasteryHolidayMode';
 const FULL_USE_MASTERIES_STORAGE_KEY = 'dishDexFullUseMasteries';
 const MYDEX_USE_MASTERIES_STORAGE_KEY = 'dishDexMyDexUseMasteries';
 const FANCY_STORAGE_KEY = 'dishDexFancyBoost';
@@ -50,7 +51,6 @@ const VERY_LONG_STORAGE_KEY = 'dishDexRecommendVeryLong';
 const GRID_STORAGE_PREFIX = 'dishDexGridView-';
 const COOP_SORT_STORAGE_KEY = 'dishDexCoopSort';
 const COOP_ELIGIBILITY_STORAGE_KEY = 'dishDexCoopEligibility';
-const MYDEX_COOP_SCOPE_STORAGE_KEY = 'dishDexMyDexCoopScope';
 const MAX_COOP_TEAMS = 10;
 const MAX_COOP_MEMBERS = 5;
 const COOP_GOLD_LEVEL_REDUCTION_TIERS = [
@@ -114,8 +114,8 @@ const SUPPORTED_LANGUAGE_CODES = [
 ];
 
 const NEW_UI_FALLBACK = {
-  en: {applyFancyBoost: 'Apply Fancy (+20% XP and portions)', recommendVeryLong: 'Recommend very long dishes (over 48h)?', filterCategory: 'Filter by category', allCategories: 'All categories', viewDisplay: 'Display', listView: 'List', gridView: 'Grid', gameOrder: 'Game cookbook order (partially verified)', coopEligibleOnly: 'Only co-ops my team can cook', coopSortLabel: 'Sort co-ops', coopSortNumber: 'Co-op number', coopSortMaxLevel: 'Highest required dish level', coopSortGoldXpMin: 'Gold XP/min', myDexCoopTitle: 'Best co-ops for leveling', coopGoldOnlyNote: 'Gold reward XP ÷ Gold deadline; cooking XP excluded.', coopScopeLabel: 'Team coverage', coopCanCookAll: 'Team can cook every required dish', coopCanCookSome: 'Team can cook at least one required dish', highestRequiredLevel: 'Highest required level', goldXpMin: 'Gold XP/min', noEligibleCoops: 'No compatible co-ops for the selected team.', teamEstimatedXpMin: 'Estimated team XP/min', personalEstimatedXpMin: 'Estimated chef XP/min', coopEstimateDisclaimer: 'Estimates use assigned cooking time and predicted medal; actual game progress may differ.', playCafe: 'Play Cappuccino Café', category0: 'Dessert', category1: 'Main dish', category2: 'Soup', category3: 'Salad', category4: 'Vegetarian', category5: 'Snack', fullTagOver48h: 'Very long (48h+)', bestOver48h: 'Best 48h+', over48hWord: 'over 48h', over48hPlan: '48h+ plan', over48hNote: 'Original cooking duration over 48 hours.'},
-  pt: {applyFancyBoost: 'Aplicar Fancy (+20% de XP e porções)', recommendVeryLong: 'Recomendar pratos muito demorados (mais de 48h)?', filterCategory: 'Filtrar por categoria', allCategories: 'Todas as categorias', viewDisplay: 'Visualização', listView: 'Lista', gridView: 'Grade', gameOrder: 'Ordem do livro de receitas (parcialmente verificada)', coopEligibleOnly: 'Apenas Co-Ops que minha equipe consegue cozinhar', coopSortLabel: 'Ordenar Co-Ops', coopSortNumber: 'Número da Co-Op', coopSortMaxLevel: 'Maior nível exigido pelos pratos', coopSortGoldXpMin: 'XP/min de ouro', myDexCoopTitle: 'Melhores Co-Ops para subir de nível', coopGoldOnlyNote: 'XP da recompensa de ouro ÷ prazo para ouro; XP do preparo não incluído.', coopScopeLabel: 'Capacidade da equipe', coopCanCookAll: 'Equipe consegue cozinhar todos os pratos', coopCanCookSome: 'Equipe consegue cozinhar ao menos um prato', highestRequiredLevel: 'Maior nível exigido', goldXpMin: 'XP/min de ouro', noEligibleCoops: 'Nenhuma Co-Op compatível com a equipe escolhida.', teamEstimatedXpMin: 'XP/min estimado da equipe', personalEstimatedXpMin: 'XP/min estimado do chef', coopEstimateDisclaimer: 'Estimativas usam o tempo de preparo atribuído e a medalha prevista; o progresso real pode ser diferente.', playCafe: 'Jogar Cappuccino Café', category0: 'Sobremesa', category1: 'Prato principal', category2: 'Sopa', category3: 'Salada', category4: 'Vegetariano', category5: 'Lanche', fullTagOver48h: 'Muito demorado (48h+)', bestOver48h: 'Melhor acima de 48h', over48hWord: 'acima de 48h', over48hPlan: 'Plano 48h+', over48hNote: 'Tempo original de preparo acima de 48 horas.'},
+  en: {holidayMasteryCompletionProgress: 'Mastery completion progress (holiday):', coopsToLevelUp: 'Gold completions to level up', cookableDishes: 'Dishes you can cook', applyFancyBoost: 'Apply Fancy?', recommendVeryLong: 'Recommend very long dishes (over 48h)?', filterCategory: 'Filter by category', allCategories: 'All categories', viewDisplay: 'Display', listView: 'List', gridView: 'Grid', gameOrder: 'Game cookbook order (partially verified)', coopEligibleOnly: 'Only co-ops my team can cook', coopSortLabel: 'Sort co-ops', coopSortNumber: 'Co-op number', coopSortMaxLevel: 'Highest required dish level', coopSortGoldXpMin: 'Gold XP/min', myDexCoopTitle: 'Best co-ops for leveling', coopGoldOnlyNote: 'Gold reward XP ÷ Gold deadline; cooking XP excluded.', coopScopeLabel: 'Team coverage', coopCanCookAll: 'Team can cook every required dish', coopCanCookSome: 'Team can cook at least one required dish', highestRequiredLevel: 'Highest required level', goldXpMin: 'Gold XP/min', noEligibleCoops: 'No compatible co-ops for the selected team.', teamEstimatedXpMin: 'Estimated team XP/min', personalEstimatedXpMin: 'Estimated chef XP/min', coopEstimateDisclaimer: 'Estimates use assigned cooking time and predicted medal; actual game progress may differ.', playCafe: 'Play Cappuccino Café', category0: 'Dessert', category1: 'Main dish', category2: 'Soup', category3: 'Salad', category4: 'Vegetarian', category5: 'Snack', fullTagOver48h: 'Very long (48h+)', bestOver48h: 'Best 48h+', over48hWord: 'over 48h', over48hPlan: '48h+ plan', over48hNote: 'Original cooking duration over 48 hours.'},
+  pt: {holidayMasteryCompletionProgress: 'Progresso de maestrias (festivos):', coopsToLevelUp: 'Conclusões com ouro para subir de nível', cookableDishes: 'Pratos que você pode preparar', applyFancyBoost: 'Aplicar Fancy?', recommendVeryLong: 'Recomendar pratos muito demorados (mais de 48h)?', filterCategory: 'Filtrar por categoria', allCategories: 'Todas as categorias', viewDisplay: 'Visualização', listView: 'Lista', gridView: 'Grade', gameOrder: 'Ordem do livro de receitas (parcialmente verificada)', coopEligibleOnly: 'Apenas Co-Ops que minha equipe consegue cozinhar', coopSortLabel: 'Ordenar Co-Ops', coopSortNumber: 'Número da Co-Op', coopSortMaxLevel: 'Maior nível exigido pelos pratos', coopSortGoldXpMin: 'XP/min de ouro', myDexCoopTitle: 'Melhores Co-Ops para subir de nível', coopGoldOnlyNote: 'XP da recompensa de ouro ÷ prazo para ouro; XP do preparo não incluído.', coopScopeLabel: 'Capacidade da equipe', coopCanCookAll: 'Equipe consegue cozinhar todos os pratos', coopCanCookSome: 'Equipe consegue cozinhar ao menos um prato', highestRequiredLevel: 'Maior nível exigido', goldXpMin: 'XP/min de ouro', noEligibleCoops: 'Nenhuma Co-Op compatível com a equipe escolhida.', teamEstimatedXpMin: 'XP/min estimado da equipe', personalEstimatedXpMin: 'XP/min estimado do chef', coopEstimateDisclaimer: 'Estimativas usam o tempo de preparo atribuído e a medalha prevista; o progresso real pode ser diferente.', playCafe: 'Jogar Cappuccino Café', category0: 'Sobremesa', category1: 'Prato principal', category2: 'Sopa', category3: 'Salada', category4: 'Vegetariano', category5: 'Lanche', fullTagOver48h: 'Muito demorado (48h+)', bestOver48h: 'Melhor acima de 48h', over48hWord: 'acima de 48h', over48hPlan: 'Plano 48h+', over48hNote: 'Tempo original de preparo acima de 48 horas.'},
 };
 
 const CAFE_LANGUAGE_CODES = new Set(SUPPORTED_LANGUAGE_CODES);
@@ -741,7 +741,6 @@ const SORT_OPTIONS = [
   ['level-desc', 'sortLevelDesc'],
   ['name-asc', 'sortNameAsc'],
   ['name-desc', 'sortNameDesc'],
-  ['category', 'sortCategory'],
   ['duration-asc', 'sortDurationAsc'],
   ['duration-desc', 'sortDurationDesc'],
   ['profit-asc', 'sortProfitAsc'],
@@ -1133,6 +1132,17 @@ function setupDataActions() {
     masteryViewMode.addEventListener('change', () => {
       masteryCookbookPage = 0;
       localStorage.setItem(MASTERY_VIEW_STORAGE_KEY, masteryViewMode.value);
+      renderMasteries();
+    });
+  }
+
+  const masteryHolidayMode = document.getElementById('masteryHolidayMode');
+  if (masteryHolidayMode) {
+    const saved = localStorage.getItem(MASTERY_HOLIDAY_STORAGE_KEY);
+    masteryHolidayMode.value = ['Auto', 'Include', 'Exclude'].includes(saved) ? saved : 'Auto';
+    masteryHolidayMode.addEventListener('change', () => {
+      localStorage.setItem(MASTERY_HOLIDAY_STORAGE_KEY, masteryHolidayMode.value);
+      masteryCookbookPage = 0;
       renderMasteries();
     });
   }
@@ -2582,6 +2592,13 @@ function predictedRewardsHtml(coop, plan) {
   `;
 }
 
+function assignmentPersonalXpRate(coop, plan, member) {
+  if (plan.status === 'impossible' || member.assignedCount <= 0 || !(member.estimatedMinutes > 0)) return null;
+  const multiplier = getStatusMultiplier(plan.status);
+  if (!multiplier) return null;
+  return getCoopRewardAtLevel(coop, multiplier, member.level).xp / member.estimatedMinutes;
+}
+
 function assignmentPlanHtml(coop, plan) {
   return `
     <section class="coop-assignment-section">
@@ -2597,6 +2614,9 @@ function assignmentPlanHtml(coop, plan) {
               <span>${escapeHtml(t('chefCookTime'))}: ${escapeHtml(formatDuration(member.estimatedMinutes || 0))}</span>
             </div>
             <div class="assignment-pills">${memberAssignmentsHtml(member)}</div>
+            ${assignmentPersonalXpRate(coop, plan, member) !== null
+              ? `<p class="assignment-xp-rate">(XP/min ${decimal(assignmentPersonalXpRate(coop, plan, member))})</p>`
+              : ''}
           </article>
         `).join('')}
       </div>
@@ -2853,7 +2873,6 @@ function coopTeamPreviewHtml(coop) {
           </div>
           <h5>${escapeHtml(t('predictedRewards'))}</h5>
           ${predictedRewardsHtml(coop, plan)}
-          ${coopXpRateEstimatesHtml(coop, plan)}
         </div>
       </div>
       ${assignmentPlanHtml(coop, plan)}
@@ -3080,7 +3099,9 @@ function renderMasteries() {
   const viewMode = getMasteryViewMode();
   const sortMode = getMasterySortMode();
   const search = normalizeSearch(document.getElementById('masterySearch').value);
+  const holidayMode = getMasteryHolidayMode();
   const filteredRecords = getSortedMasteryRecords(allDishRecords, sortMode).filter(record => {
+    if (record.dishType === 'Holiday' && !shouldIncludeHolidayDish(record, holidayMode)) return false;
     if (!search) return true;
     return normalizeSearch(record.dishName).includes(search) || normalizeSearch(record.dishKey).includes(search);
   });
@@ -3123,18 +3144,32 @@ function renderMasteries() {
   }).join('');
 }
 
+function getMasteryHolidayMode() {
+  const mode = document.getElementById('masteryHolidayMode')?.value || localStorage.getItem(MASTERY_HOLIDAY_STORAGE_KEY) || 'Auto';
+  return ['Auto', 'Include', 'Exclude'].includes(mode) ? mode : 'Auto';
+}
+
 function renderMasteryCompletionProgress() {
-  const text = document.getElementById('masteryCompletionText');
-  const fill = document.getElementById('masteryCompletionFill');
-  if (!text || !fill) return;
+  const regularText = document.getElementById('masteryCompletionText');
+  const regularFill = document.getElementById('masteryCompletionFill');
+  const holidayContainer = document.getElementById('holidayMasteryCompletionProgress');
+  const holidayText = document.getElementById('holidayMasteryCompletionText');
+  const holidayFill = document.getElementById('holidayMasteryCompletionFill');
+  if (!regularText || !regularFill) return;
 
-  const totalStars = allDishRecords.length * 3;
-  const earnedStars = allDishRecords.reduce((sum, record) => sum + getMasteryLevel(record.dishId), 0);
-  const percentValue = totalStars > 0 ? (earnedStars / totalStars) * 100 : 0;
-  const roundedPercent = Math.round(percentValue);
+  const updateProgress = (records, text, fill) => {
+    if (!text || !fill) return 0;
+    const totalStars = records.length * 3;
+    const earnedStars = records.reduce((sum, record) => sum + getMasteryLevel(record.dishId), 0);
+    const percentValue = totalStars > 0 ? 100 * earnedStars / totalStars : 0;
+    text.textContent = `${number(earnedStars)} / ${number(totalStars)} (${number(Math.round(percentValue))}%)`;
+    fill.style.width = `${Math.max(0, Math.min(100, percentValue))}%`;
+    return earnedStars;
+  };
 
-  text.textContent = `${number(earnedStars)} / ${number(totalStars)} (${number(roundedPercent)}%)`;
-  fill.style.width = `${Math.max(0, Math.min(100, percentValue))}%`;
+  updateProgress(allDishRecords.filter(record => record.dishType !== 'Holiday'), regularText, regularFill);
+  const holidayEarned = updateProgress(allDishRecords.filter(record => record.dishType === 'Holiday'), holidayText, holidayFill);
+  holidayContainer?.classList.toggle('hidden', holidayEarned <= 0);
 }
 
 function renderMasteriesCookbook(records) {
@@ -3354,12 +3389,6 @@ function getSortedFullDishDex(sortMode, useRegisteredMasteries = true) {
     case 'level-desc': numericSort('level', 'desc'); break;
     case 'name-asc': rows.sort((a, b) => a.dishName.localeCompare(b.dishName)); break;
     case 'name-desc': rows.sort((a, b) => b.dishName.localeCompare(a.dishName)); break;
-    case 'category':
-      rows.sort((a, b) => {
-        const categoryCompare = a.categoryName.localeCompare(b.categoryName);
-        return categoryCompare !== 0 ? categoryCompare : standardDishSort(a, b);
-      });
-      break;
     case 'duration-asc': numericSort('duration', 'asc'); break;
     case 'duration-desc': numericSort('duration', 'desc'); break;
     case 'profit-asc': numericSort('profit', 'asc'); break;
@@ -4401,14 +4430,12 @@ function setupCoopDiscoveryControls() {
       renderCoopPlanner();
     });
   }
-  const scope = document.getElementById('myDexCoopScope');
-  if (scope) {
-    scope.value = localStorage.getItem(MYDEX_COOP_SCOPE_STORAGE_KEY) || 'all';
-    scope.addEventListener('change', () => {
-      localStorage.setItem(MYDEX_COOP_SCOPE_STORAGE_KEY, scope.value);
-      renderMyDexCoopSuggestions();
-    });
-  }
+}
+
+function getPlayerCookableDishCount(coop, playerLevel = userData.level) {
+  const requirements = coop.requirements || [];
+  const cookable = requirements.filter(req => req.dish && Number(req.dish.level) <= Number(playerLevel)).length;
+  return { cookable, total: requirements.length };
 }
 
 function renderMyDexCoopSuggestions() {
@@ -4418,35 +4445,33 @@ function renderMyDexCoopSuggestions() {
     container.textContent = t('noCoopsAvailable');
     return;
   }
-  const scope = document.getElementById('myDexCoopScope')?.value || 'all';
-  const recommended = allCoopRecords.filter(coop => getCoopTeamCoverage(coop)[scope])
-    .sort((a, b) => getCoopGoldXpMin(b) - getCoopGoldXpMin(a) || a.coopNumber - b.coopNumber).slice(0, 5);
-  container.innerHTML = recommended.length ? recommended.map(coop => `
-    <article class="coop-suggestion-card">
+  const level = clampNumber(Number(userData.level || 1), 0, 999);
+  const xpNeeded = Math.max(0, Number(userData.xpNeeded || 0));
+  // Current-player dish unlocks only. Team eligibility remains a separate Planner filter.
+  const recommended = allCoopRecords.map(coop => ({
+    coop,
+    coverage: getPlayerCookableDishCount(coop, level),
+    goldReward: getCoopRewardAtLevel(coop, 4, level).xp
+  })).filter(item => item.coverage.cookable > 0 && item.goldReward > 0)
+    .sort((a, b) => b.coverage.cookable - a.coverage.cookable
+      || (b.coverage.cookable / Math.max(1, b.coverage.total)) - (a.coverage.cookable / Math.max(1, a.coverage.total))
+      || getCoopGoldXpMin(b.coop, level) - getCoopGoldXpMin(a.coop, level)
+      || a.coop.coopNumber - b.coop.coopNumber).slice(0, 5);
+  container.innerHTML = recommended.length ? recommended.map(({coop, coverage, goldReward}) => {
+    const completions = xpNeeded > 0 ? Math.ceil(xpNeeded / goldReward) : 0;
+    return `<article class="coop-suggestion-card">
       <div class="coop-suggestion-heading">${coopIconHtml(coop)}<strong>${escapeHtml(coop.title)}</strong></div>
-      <p>Co-Op ${number(coop.coopNumber)} · ${escapeHtml(t('highestRequiredLevel'))}: ${number(coop.maxRequiredDishLevel)}</p>
-      <p><strong>${escapeHtml(t('goldXpMin'))}: ${decimal(getCoopGoldXpMin(coop))}</strong> · ${escapeHtml(t('goldDeadline'))}: ${escapeHtml(formatDuration(coop.goldDeadline))}</p>
+      <p>Co-Op ${number(coop.coopNumber)} · ${escapeHtml(t('cookableDishes'))}: ${number(coverage.cookable)} / ${number(coverage.total)}</p>
+      <p><strong>${escapeHtml(t('goldXpMin'))}: ${decimal(getCoopGoldXpMin(coop, level))}</strong> · ${escapeHtml(t('goldDeadline'))}: ${escapeHtml(formatDuration(coop.goldDeadline))}</p>
+      ${completions ? `<p class="coop-level-count"><strong>${escapeHtml(t('coopsToLevelUp'))}: ${number(completions)}×</strong></p>` : ''}
       <button class="plan-button" type="button" data-mydex-coop="${number(coop.coopNumber)}">${escapeHtml(t('planCoop'))}</button>
-    </article>`).join('') : `<p class="hint">${escapeHtml(t('noEligibleCoops'))}</p>`;
+    </article>`;
+  }).join('') : `<p class="hint">${escapeHtml(t('noEligibleCoops'))}</p>`;
   container.querySelectorAll('[data-mydex-coop]').forEach(button => button.addEventListener('click', () => {
     const coopNumber = Number(button.dataset.mydexCoop);
     navigateToScreen('coopPlannerScreen');
     renderCoopPlanPreview(coopNumber);
   }));
-}
-
-function coopXpRateEstimatesHtml(coop, plan) {
-  if (plan.status === 'impossible' || !Number.isFinite(plan.estimatedMinutes) || plan.estimatedMinutes <= 0) return '';
-  const multiplier = getStatusMultiplier(plan.status);
-  if (!multiplier) return '';
-  const members = plan.members.filter(member => member.assignedCount > 0 && member.estimatedMinutes > 0);
-  const teamXp = members.reduce((sum, member) => sum + getCoopRewardAtLevel(coop, multiplier, member.level).xp, 0);
-  const rate = teamXp / plan.estimatedMinutes;
-  return `<div class="coop-rate-panel">
-    <p><strong>${escapeHtml(t('teamEstimatedXpMin'))}:</strong> ${decimal(rate)} <small>(${escapeHtml(statusLabel(plan.status))})</small></p>
-    ${members.map(member => `<p><strong>${escapeHtml(member.name)} — ${escapeHtml(t('personalEstimatedXpMin'))}:</strong> ${decimal(getCoopRewardAtLevel(coop, multiplier, member.level).xp / member.estimatedMinutes)}</p>`).join('')}
-    <small>${escapeHtml(t('coopEstimateDisclaimer'))}</small>
-  </div>`;
 }
 
 function setupDishCalculator() {

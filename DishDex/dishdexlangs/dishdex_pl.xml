@@ -301,7 +301,7 @@
   <text id="waiters" name="Waiters" />
   <text id="instantCookings" name="Instant cookings" />
   <text id="masteryCompletionProgress" name="Poziom gwiazdek progress:" />
-  <text id="applyFancyBoost" name="Zastosuj Fancy (+20% PD i porcji)" />
+  <text id="applyFancyBoost" name="Włączyć Fancy?" />
   <text id="recommendVeryLong" name="Polecać bardzo długie potrawy (ponad 48 godz.)?" />
   <text id="filterCategory" name="Filtruj według kategorii" />
   <text id="allCategories" name="Wszystkie kategorie" />
@@ -337,4 +337,7 @@
   <text id="over48hWord" name="ponad 48 godz." />
   <text id="over48hPlan" name="Plan 48 godz.+" />
   <text id="over48hNote" name="Pierwotny czas gotowania przekracza 48 godzin." />
+  <text id="holidayMasteryCompletionProgress" name="Postęp mistrzostwa (dania świąteczne):" />
+  <text id="coopsToLevelUp" name="Kooperacje ze złotem do awansu" />
+  <text id="cookableDishes" name="Dania, które możesz przygotować" />
 </dishdex>

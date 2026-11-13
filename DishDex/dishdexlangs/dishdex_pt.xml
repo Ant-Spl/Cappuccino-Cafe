@@ -300,7 +300,7 @@
   <text id="waiters" name="Garçons" />
   <text id="instantCookings" name="Preparos instantâneos" />
   <text id="masteryCompletionProgress" name="Progresso de conclusão das estrelas:" />
-  <text id="applyFancyBoost" name="Aplicar Fancy (+20% de XP e porções)" />
+  <text id="applyFancyBoost" name="Aplicar Fancy?" />
   <text id="recommendVeryLong" name="Recomendar pratos muito demorados (mais de 48h)?" />
   <text id="filterCategory" name="Filtrar por categoria" />
   <text id="allCategories" name="Todas as categorias" />
@@ -336,4 +336,7 @@
   <text id="over48hWord" name="acima de 48h" />
   <text id="over48hPlan" name="Plano 48h+" />
   <text id="over48hNote" name="Tempo original de preparo acima de 48 horas." />
+  <text id="holidayMasteryCompletionProgress" name="Progresso de maestrias (festivos):" />
+  <text id="coopsToLevelUp" name="Conclusões com ouro para subir de nível" />
+  <text id="cookableDishes" name="Pratos que você pode preparar" />
 </dishdex>
