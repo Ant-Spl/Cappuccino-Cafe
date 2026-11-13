@@ -9,7 +9,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css?v=20261113-dishdex-community-update-6">
+  <link rel="stylesheet" href="style.css?v=20261113-dishdex-community-update-6-1">
 </head>
 <body class="dark-theme">
   <main class="page">
@@ -411,22 +411,24 @@
             </div>
           </div>
 
-          <label class="inline-toggle setting-toggle my-time-toggle compact-masteries-toggle">
-            <input id="myTimeUseMasteriesToggle" type="checkbox" checked>
-            <span data-i18n="useRegisteredMasteries">Use my registered masteries</span>
-          </label>
-          <label class="inline-toggle setting-toggle my-time-toggle compact-masteries-toggle">
-            <input id="myTimeFancyToggle" class="fancy-boost-toggle" type="checkbox">
-            <span class="fancy-sparkle" aria-hidden="true">✨</span> <span data-i18n="applyFancyBoost">Apply Fancy?</span>
-          </label>
-          <label class="inline-toggle setting-toggle my-time-toggle compact-masteries-toggle">
-            <input id="myTimeRecommendVeryLongToggle" class="recommend-very-long-toggle" type="checkbox">
-            <span data-i18n="recommendVeryLong">Recommend very long dishes (over 48h)?</span>
-          </label>
-          <label class="inline-toggle setting-toggle my-time-toggle compact-masteries-toggle">
-            <input id="myTimeAvoidDuplicatesToggle" type="checkbox">
-            <span data-i18n="avoidDuplicateSuggestions">Avoid duplicate suggestions?</span>
-          </label>
+          <div class="my-time-options-row">
+            <label class="inline-toggle setting-toggle my-time-toggle compact-masteries-toggle">
+              <input id="myTimeUseMasteriesToggle" type="checkbox" checked>
+              <span data-i18n="useRegisteredMasteries">Use my registered masteries</span>
+            </label>
+            <label class="inline-toggle setting-toggle my-time-toggle compact-masteries-toggle">
+              <input id="myTimeFancyToggle" class="fancy-boost-toggle" type="checkbox">
+              <span class="fancy-sparkle" aria-hidden="true">✨</span> <span data-i18n="applyFancyBoost">Apply Fancy?</span>
+            </label>
+            <label class="inline-toggle setting-toggle my-time-toggle compact-masteries-toggle">
+              <input id="myTimeRecommendVeryLongToggle" class="recommend-very-long-toggle" type="checkbox">
+              <span data-i18n="recommendVeryLong">Recommend very long dishes (over 48h)?</span>
+            </label>
+            <label class="inline-toggle setting-toggle my-time-toggle compact-masteries-toggle">
+              <input id="myTimeAvoidDuplicatesToggle" type="checkbox">
+              <span data-i18n="avoidDuplicateSuggestions">Avoid duplicate suggestions?</span>
+            </label>
+          </div>
         </div>
         <p id="myTimeWindowSummary" class="hint my-time-window-summary"></p>
       </section>

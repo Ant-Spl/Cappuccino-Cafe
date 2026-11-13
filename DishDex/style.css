@@ -4206,3 +4206,42 @@ body.dark-theme #myTimeScreen tbody tr .dish-type-tag { text-shadow:none; }
 .coop-rate-tooltip { position:absolute; z-index:12; bottom:calc(100% + 8px); right:-14px; width:min(240px, 72vw); padding:9px 11px; border:1px solid var(--border); border-radius:8px; background:#fff9df; color:#3b2618 !important; font-size:.78rem; font-weight:700; line-height:1.35; box-shadow:0 5px 18px #150b0588; }
 .coop-rate-tooltip[hidden] {display:none !important;}
 body.dark-theme .coop-suggestion-card .coop-rate-tooltip {background:#f5e2bc; color:#3b2618 !important;}
+
+
+/* v6.1: All four My Time toggles share a wrapping row instead of the same grid cell. */
+#myTimeScreen .my-time-panel .my-time-options-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  gap: 10px 12px;
+  width: 100%;
+  min-width: 0;
+}
+
+#myTimeScreen .my-time-panel .my-time-options-row > .my-time-toggle {
+  grid-area: auto !important;
+  grid-column: auto !important;
+  grid-row: auto !important;
+  justify-self: auto !important;
+  align-self: stretch !important;
+  justify-content: flex-start !important;
+  width: auto !important;
+  max-width: 100% !important;
+  min-height: 44px !important;
+  margin: 0;
+  padding: 9px 12px !important;
+  box-sizing: border-box;
+  white-space: normal;
+}
+
+@media (min-width: 981px) {
+  #myTimeScreen .my-time-panel .my-time-options-row {
+    grid-area: toggle;
+  }
+}
+
+@media (max-width: 980px) {
+  #myTimeScreen .my-time-panel .my-time-options-row {
+    grid-column: 1 / -1;
+  }
+}
