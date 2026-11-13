@@ -4128,3 +4128,52 @@ body.dark-theme #myDexScreen .dish-card[class*="category-"] p { color: #ead0b6; 
   #welcomeScreen .mode-description { font-size: .76rem; }
   #welcomeScreen .cafe-shortcut { margin-top: 8px; padding: 6px 9px; }
 }
+
+
+/* Community revision 5.3: balanced laptop homepage, between v5.1 and v5.2.
+   Keep two rows of three, but restore comfortable touch targets, larger artwork,
+   readable descriptions, and space around the header; nothing else is affected. */
+@media (min-width: 841px) and (max-width: 1440px) and (max-height: 850px) {
+  #welcomeScreen .welcome-hero { max-width: 1120px; margin-bottom: 16px; gap: 16px; }
+  #welcomeScreen .welcome-hero .title-block { padding: 12px 16px; }
+  #welcomeScreen .title-logo { width: 72px; height: 72px; }
+  #welcomeScreen h1 { font-size: 3.1rem; }
+  #welcomeScreen .eyebrow { font-size: .8rem; margin-bottom: 3px; }
+  #welcomeScreen .subtitle { margin-top: 6px; font-size: .95rem; }
+  #welcomeScreen .status-card { min-width: 198px; padding: 10px 12px; font-size: .92rem; }
+  #welcomeScreen .status-card small { margin-top: 3px; font-size: .84rem; }
+  #welcomeScreen .data-shortcut { padding: 6px 10px; margin-top: 6px; font-size: .88rem; }
+  #welcomeScreen .data-shortcut img { width: 30px; height: 30px; }
+  #welcomeScreen .welcome-panel { max-width: 1120px; padding: 17px 18px; }
+  #welcomeScreen .theme-toggle-row { margin-bottom: 14px; }
+  #welcomeScreen .theme-toggle-row h2 { font-size: 1.4rem; margin-bottom: 2px; }
+  #welcomeScreen .section-note { font-size: .91rem; }
+  #welcomeScreen .language-select, #welcomeScreen .theme-toggle { font-size: .94rem; }
+  #welcomeScreen .language-select select { padding: 9px 10px; }
+  #welcomeScreen .mode-grid { gap: 13px; }
+  #welcomeScreen .mode-card {
+    grid-template-columns: 68px minmax(0, 1fr);
+    column-gap: 14px;
+    row-gap: 5px;
+    min-height: clamp(125px, 21vh, 145px);
+    padding: 16px;
+    border-radius: 18px;
+  }
+  #welcomeScreen .mode-icon { width: 68px; height: 68px; }
+  #welcomeScreen .mode-title { font-size: 1.15rem; line-height: 1.2; }
+  #welcomeScreen .mode-description { font-size: .87rem; line-height: 1.28; }
+  #welcomeScreen .cafe-shortcut { margin-top: 13px; padding: 9px 13px; font-size: .94rem; }
+}
+/* Preserve the no-scroll goal when usable browser height is unusually short. */
+@media (min-width: 841px) and (max-width: 1440px) and (max-height: 615px) {
+  #welcomeScreen .welcome-hero { margin-bottom: 10px; }
+  #welcomeScreen .welcome-hero .title-block { padding: 8px 12px; }
+  #welcomeScreen .title-logo { width: 60px; height: 60px; }
+  #welcomeScreen h1 { font-size: 2.7rem; }
+  #welcomeScreen .welcome-panel { padding: 12px 15px; }
+  #welcomeScreen .theme-toggle-row { margin-bottom: 10px; }
+  #welcomeScreen .mode-grid { gap: 10px; }
+  #welcomeScreen .mode-card { min-height: 117px; padding: 12px; }
+  #welcomeScreen .mode-icon { width: 62px; height: 62px; }
+  #welcomeScreen .cafe-shortcut { margin-top: 9px; padding: 7px 12px; }
+}
