@@ -4024,3 +4024,107 @@ body.dark-theme #myDexScreen .dish-card.category-vegetarian { background: #35503
 body.dark-theme #myDexScreen .dish-card.category-snack { background: #4b3335; }
 body.dark-theme #myDexScreen .dish-card[class*="category-"] { border-color: rgba(233, 194, 151, .34); color: #fff4e8; }
 body.dark-theme #myDexScreen .dish-card[class*="category-"] p { color: #ead0b6; }
+
+
+/* Community revision 5.2: genuinely compact homepage for laptop-height windows.
+   Layout changes are isolated to the welcome screen; all other screens stay intact. */
+@media (min-width: 841px) and (max-width: 1440px) and (max-height: 850px) {
+  .page:has(> #welcomeScreen:not(.hidden)) {
+    padding-top: 8px;
+    padding-bottom: 16px;
+  }
+  #welcomeScreen .welcome-hero {
+    max-width: 1020px;
+    margin: 0 auto 10px;
+    min-height: 0;
+    gap: 12px;
+  }
+  #welcomeScreen .welcome-hero .title-block {
+    padding: 8px 12px;
+    border-radius: 16px;
+  }
+  #welcomeScreen .title-row { gap: 8px; }
+  #welcomeScreen .title-logo { width: 58px; height: 58px; }
+  #welcomeScreen h1 { font-size: 2.65rem; line-height: 1; }
+  #welcomeScreen .eyebrow { font-size: .7rem; margin-bottom: 2px; }
+  #welcomeScreen .subtitle { margin-top: 3px; font-size: .85rem; }
+  #welcomeScreen .status-card { min-width: 185px; padding: 7px 10px; font-size: .85rem; }
+  #welcomeScreen .status-card small { margin-top: 1px; font-size: .78rem; }
+  #welcomeScreen .data-shortcut {
+    margin-top: 4px;
+    padding: 4px 8px;
+    border-radius: 11px;
+    gap: 7px;
+    font-size: .82rem;
+  }
+  #welcomeScreen .data-shortcut img { width: 27px; height: 27px; }
+  #welcomeScreen .welcome-panel { max-width: 1020px; padding: 11px 14px; margin-bottom: 0; }
+  #welcomeScreen .theme-toggle-row { margin-bottom: 9px; gap: 9px; }
+  #welcomeScreen .theme-toggle-row h2 { font-size: 1.18rem; margin-bottom: 1px; }
+  #welcomeScreen .section-note { font-size: .8rem; margin: 0; }
+  #welcomeScreen .home-controls { gap: 9px; }
+  #welcomeScreen .language-select, #welcomeScreen .theme-toggle { gap: 6px; font-size: .85rem; }
+  #welcomeScreen .language-select select { min-width: 132px; padding: 7px 8px; }
+  #welcomeScreen .theme-toggle input { width: 19px; height: 19px; }
+  #welcomeScreen .mode-grid { gap: 9px; }
+  #welcomeScreen .mode-card {
+    display: grid;
+    grid-template-columns: 52px minmax(0, 1fr);
+    grid-template-rows: auto auto;
+    column-gap: 10px;
+    row-gap: 2px;
+    justify-items: start;
+    align-content: center;
+    text-align: left;
+    min-height: 91px;
+    padding: 10px 12px;
+    border-radius: 16px;
+  }
+  #welcomeScreen .mode-icon {
+    grid-column: 1;
+    grid-row: 1 / 3;
+    width: 52px;
+    height: 52px;
+    margin: 0;
+    align-self: center;
+  }
+  #welcomeScreen .mode-title {
+    grid-column: 2;
+    grid-row: 1;
+    font-size: 1.02rem;
+    line-height: 1.18;
+  }
+  #welcomeScreen .mode-description {
+    grid-column: 2;
+    grid-row: 2;
+    max-width: none;
+    font-size: .76rem;
+    line-height: 1.2;
+  }
+  #welcomeScreen .cafe-shortcut { margin-top: 9px; padding: 6px 10px; font-size: .85rem; }
+}
+
+/* At tablet widths, reduce the vertical space without squeezing the text into three columns. */
+@media (min-width: 561px) and (max-width: 840px) and (max-height: 850px) {
+  .page:has(> #welcomeScreen:not(.hidden)) { padding-top: 10px; padding-bottom: 18px; }
+  #welcomeScreen .hero { grid-template-columns: minmax(0, 1fr) auto; gap: 8px; }
+  #welcomeScreen .welcome-hero { min-height: 0; margin-bottom: 10px; }
+  #welcomeScreen .welcome-hero .title-block { padding: 8px 12px; }
+  #welcomeScreen .title-logo { width: 52px; height: 52px; }
+  #welcomeScreen h1 { font-size: 2.35rem; }
+  #welcomeScreen .eyebrow { font-size: .75rem; }
+  #welcomeScreen .subtitle { margin-top: 3px; font-size: .83rem; }
+  #welcomeScreen .status-card { min-width: 0; padding: 7px 10px; font-size: .85rem; }
+  #welcomeScreen .data-shortcut { margin-top: 5px; padding: 5px 8px; }
+  #welcomeScreen .data-shortcut img { width: 28px; height: 28px; }
+  #welcomeScreen .welcome-panel { padding: 12px; }
+  #welcomeScreen .theme-toggle-row { flex-direction: row; flex-wrap: wrap; align-items: center; margin-bottom: 10px; gap: 8px; }
+  #welcomeScreen .home-controls { flex-direction: row; align-items: center; gap: 8px; }
+  #welcomeScreen .section-note { margin-bottom: 0; }
+  #welcomeScreen .mode-grid { gap: 9px; }
+  #welcomeScreen .mode-card { min-height: 105px; padding: 9px; gap: 4px; }
+  #welcomeScreen .mode-icon { width: 46px; height: 46px; margin: 0; }
+  #welcomeScreen .mode-title { font-size: 1rem; }
+  #welcomeScreen .mode-description { font-size: .76rem; }
+  #welcomeScreen .cafe-shortcut { margin-top: 8px; padding: 6px 9px; }
+}
