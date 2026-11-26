@@ -411,6 +411,12 @@
 	<wod id="9526" n="Basic" g="Deco" t="Stonewallleftfallnight" walkable="0" rotatetype="0" />
 	<wod id="9527" n="Basic" g="Deco" t="Stonewallrightfallnight" walkable="0" rotatetype="0" />
 	<wod id="9528" n="Basic" g="Deco" t="Cottoncandymachinetoughluck" walkable="0" rotatetype="3" cash="0" gold="50" friends="0" goldNoFriends="0" releaseDate="1790856000" world="0" events="0" xp="0" level="9" isCappEx="1" />
+	<wod id="9529" n="Basic" g="Deco" t="Centralwellwinter" walkable="0" rotatetype="0" />
+	<wod id="9530" n="Basic" g="Deco" t="Centralwellwinternight" walkable="0" rotatetype="0" />
+	<wod id="9531" n="Basic" g="Deco" t="Stonewallleftwinter" walkable="0" rotatetype="0" />
+	<wod id="9532" n="Basic" g="Deco" t="Stonewallrightwinter" walkable="0" rotatetype="0" />
+	<wod id="9533" n="Basic" g="Deco" t="Stonewallleftnightwinter" walkable="0" rotatetype="0" />
+	<wod id="9534" n="Basic" g="Deco" t="Stonewallrightnightwinter" walkable="0" rotatetype="0" />
 	<wod id="1" n="Static" g="Tile" t="Stonemediumgrey" walkable="1" rotatetype="0" cash="20" gold="0" friends="0" goldNoFriends="0" releaseDate="0" world="0" events="0" xp="0" level="0" />
 	<wod id="2" n="Static" g="Tile" t="Wooddarkbrown" walkable="1" rotatetype="0" cash="20" gold="0" friends="0" goldNoFriends="0" releaseDate="0" world="0" events="0" xp="0" level="1" />
 	<wod id="3" n="Static" g="Tile" t="Blank" walkable="1" rotatetype="0" />
@@ -1125,6 +1131,19 @@
 	<wod id="1539" n="Static" g="Background" t="Villagefallnightsnow"/>
 	<wod id="1540" n="Marketplace" g="Background" t="Fallsnow"/>
 	<wod id="1541" n="Marketplace" g="Background" t="Fallnightsnow"/>
+	<wod id="1542" n="Cafe" g="Background" t="Villagefallsnowblizzard"/>
+	<wod id="1543" n="Static" g="Background" t="Villagefallnightsnowblizzard"/>
+	<wod id="1544" n="Cafe" g="Background" t="Villagewinternew"/>
+	<wod id="1545" n="Static" g="Background" t="Villagewinternewnight"/>
+	<wod id="1546" n="Cafe" g="Background" t="Villagewinternewsnow"/>
+	<wod id="1547" n="Cafe" g="Background" t="Villagewinternewmorning"/>
+	<wod id="1548" n="Cafe" g="Background" t="Villagewinternewsunset"/>
+	<wod id="1549" n="Marketplace" g="Background" t="Winter"/>
+	<wod id="1550" n="Marketplace" g="Background" t="Winternight"/>
+	<wod id="1551" n="Marketplace" g="Background" t="Wintersnow"/>
+	<wod id="1552" n="Marketplace" g="Background" t="Winternightsnow"/>
+	<wod id="1553" n="Cafe" g="Background" t="Villagewintercookfest"/>
+	<wod id="1554" n="Static" g="Background" t="Villagewinternewnightcookfest"/>
 	<wod id="2297" n="Basic" g="Dish" t="Pumpkinpie" events="0" xp="1692" incomePerServing="2" servings="1950" duration="900" level="18" dishcategory="0" requirements="1352+1#1325+1#1311+1#1330+1#1308+1#1404+1" />
 	<wod id="2298" n="Basic" g="Dish" t="Pumpkincake" events="0" xp="2026" incomePerServing="3" servings="1300" duration="540" level="54" dishcategory="0" requirements="1352+1#1312+1#1325+1#1311+1#1308+1#1409+1" />
 	<wod id="2299" n="Basic" g="Dish" t="Sugarglazeroastchicken" events="0" xp="6996" incomePerServing="3" servings="2900" duration="3000" level="56" dishcategory="1" requirements="1306+1#1325+3#1322+2#1318+1#1313+2#1406+1" />
@@ -1155,4 +1174,5 @@
 	<wod id="4258" n="Basic" g="Chair" t="Softgreen" walkable="0" rotatetype="3" cash="15250" gold="0" friends="0" goldNoFriends="0" releaseDate="1794020400" world="0" events="0" xp="0" level="9" isCappEx="1" />
 	<wod id="2322" n="Basic" g="Dish" t="Bananasmoothie" events="0" xp="30" incomePerServing="11" servings="145" duration="6" level="44" dishcategory="0" requirements="1353+1#1330+1#1408+1" />
 	<wod id="2323" n="Basic" g="Dish" t="Fourseasonspizza" events="0" xp="13248" incomePerServing="1" servings="36700" duration="5760" level="33" dishcategory="5" requirements="1312+12#1305+12#1321+12#1344+12#1327+12#1402+1" />
+	<wod id="2324" n="Basic" g="Dish" t="Elegantcake" events="0" xp="6912" incomePerServing="1" servings="20000" duration="1440" level="41" dishcategory="0" requirements="1350+1#1312+1#1330+1#1325+1#1404+1" />
 </wodIds>
