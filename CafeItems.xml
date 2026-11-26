@@ -690,9 +690,9 @@
 	<wod id="2215" n="Basic" g="Dish" t="Brigadeiro" events="0" xp="41" incomePerServing="5" servings="300" duration="30" level="1" dishcategory="0" requirements="1307+1#1308+1#1408+1" />
 	<wod id="1203" n="Basic" g="Dish" t="Chocmousse" events="0" xp="291" incomePerServing="4" servings="390" duration="180" level="1" dishcategory="0" requirements="1307+1#1308+1#1311+1#1408+1" />
 	<wod id="1202" n="Basic" g="Dish" t="Spagetti" events="0" xp="738" incomePerServing="1" servings="1233" duration="540" level="1" dishcategory="1" requirements="1319+1#1316+1#1327+1#1401+1" />
-	<wod id="1230" n="Basic" g="Dish" t="Fruitpudding" events="3" xp="1166" incomePerServing="2" servings="1600" duration="840" level="1" dishcategory="0" requirements="1333+3#1409+1#1336+3" />
+	<wod id="1230" n="Basic" g="Dish" t="Fruitpudding" events="3" xp="2100" incomePerServing="2" servings="1600" duration="840" level="1" dishcategory="0" requirements="1333+3#1409+1#1336+3" />
 	<wod id="1237" n="Basic" g="Dish" t="Easterdish" events="5" xp="1166" incomePerServing="1" servings="3000" duration="840" level="1" dishcategory="0" requirements="1311+3#1307+2#1408+1" />
-	<wod id="1229" n="Basic" g="Dish" t="Christmasturkey" events="3" xp="2160" incomePerServing="1" servings="4000" duration="2160" level="1" dishcategory="1" requirements="1334+2#1335+4#1407+1" />
+	<wod id="1229" n="Basic" g="Dish" t="Christmasturkey" events="3" xp="5400" incomePerServing="1" servings="4000" duration="2160" level="1" dishcategory="1" requirements="1334+2#1335+4#1407+1" />
 	<wod id="1206" n="Basic" g="Dish" t="Hamburger" events="0" xp="105" incomePerServing="7" servings="130" duration="60" level="2" dishcategory="5" requirements="1316+1#1327+1#1312+1#1402+1" />
 	<wod id="2279" n="Basic" g="Dish" t="Instantnoodles" events="0" xp="6" incomePerServing="25" servings="15" duration="3" level="2" dishcategory="2" requirements="1319+1#1403+1" />
 	<wod id="2221" n="Basic" g="Dish" t="TripleOmelette" events="0" xp="5" incomePerServing="50" servings="30" duration="3" level="3" dishcategory="5" requirements="1311+3#1402+1" />
