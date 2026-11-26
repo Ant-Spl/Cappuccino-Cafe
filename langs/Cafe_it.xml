@@ -519,6 +519,8 @@
 		<text id="cookstep_bananasmoothie2" name="Pouring smoothies" />
 		<text id="cookstep_fourseasonspizza1" name="Heating sauce" />
 		<text id="cookstep_fourseasonspizza2" name="Covering pizza" />
+		<text id="cookstep_elegantcake1" name="Mixing ingredients" />
+		<text id="cookstep_elegantcake2" name="Baking" />
 	</cookstep>
 	<coopmission>
 		<text id="coop_title_1" name="CORSO DI CUCINA" />
@@ -2168,6 +2170,11 @@
 		<text id="preparestep_fourseasonspizza_sausages" name="slice sausages" />
 		<text id="preparestep_fourseasonspizza_tomato" name="slice tomatoes" />
 		<text id="preparestep_fourseasonspizza_cookfest" name="use fast ingredients" />
+		<text id="preparestep_elegantcake_goldeneggs" name="separate eggs" />
+		<text id="preparestep_elegantcake_flour" name="sift flour" />
+		<text id="preparestep_elegantcake_milk" name="add milk" />
+		<text id="preparestep_elegantcake_sugar" name="caramelize sugar" />
+		<text id="preparestep_elegantcake_cookfest" name="use fast ingredients" />
 	</preparestep>
 	<preparestep_fancy>
 		<text id="preparestep_duckalcitrus_cinnamon" name="Macina la cannella" />
@@ -2493,6 +2500,8 @@
 		<text id="preparestep_bananasmoothie_eventspice" name="spread event spice" />
 		<text id="preparestep_fourseasonspizza_chili" name="chop chili" />
 		<text id="preparestep_fourseasonspizza_eventspice" name="spread event spice" />
+		<text id="preparestep_elegantcake_nutmeg" name="grate nutmeg" />
+		<text id="preparestep_elegantcake_eventspice" name="spread event spice" />
 		<text id="preparestep_whitechocmousse_vanilla" name="Raschia la vaniglia" />
 	</preparestep_fancy>
 	<recipe>
@@ -2676,6 +2685,7 @@
 		<text id="recipe_cookieswithmilk" name="Cookies with Milk" />
 		<text id="recipe_bananasmoothie" name="Banana Smoothie" />
 		<text id="recipe_fourseasonspizza" name="4 Seasons Pizza" />
+		<text id="recipe_elegantcake" name="Elegant Cake" />
 	</recipe>
 	<recipes_fastfood>
 		<text id="recipe_smoothiemaker_greensmoothie" name="Smoothie verde" />
