@@ -3,7 +3,7 @@
 	<achievement>
 		<text id="Basic_Achievement_Boughtdeco" name="Bocado &amp; Sorbito" />
 		<text id="Basic_Achievement_Boughtingredients" name="Mago de la despensa" />
-		<text id="Basic_Achievement_Cookingcount" name="Bistró a reventar" />
+		<text id="Basic_Achievement_Cookingcount" name="Bistro a reventar" />
 		<text id="Basic_Achievement_Coopcount" name="Muffin de asalto" />
 		<text id="Basic_Achievement_Coopgoldcount" name="Jefe catastrófico" />
 		<text id="Basic_Achievement_Curiercount" name="Pedidos exclusivos" />
@@ -435,7 +435,7 @@
 		<text id="cookstep_veganstirfry2" name="Cocinando el arroz" />
 		<text id="cookstep_vegetablesoup1" name="Friendo las cebollas" />
 		<text id="cookstep_vegetablesoup2" name="Preparando la sopa" />
-		<text id="cookstep_veggiecurry1" name="Preparar arroz" />
+		<text id="cookstep_veggiecurry1" name="Preparando arroz" />
 		<text id="cookstep_veggiecurry2" name="Guisando el curry" />
 		<text id="cookstep_veggielasagne1" name="Apilando la lasaña" />
 		<text id="cookstep_veggielasagne2" name="Horneando la lasaña" />
@@ -477,50 +477,50 @@
 		<text id="cookstep_bluecheesefondue2" name="Removiendo la fondue" />
 		<text id="cookstep_pumpkinpie1" name="Mezclando ingredientes" />
 		<text id="cookstep_pumpkinpie2" name="Horneando" />
-		<text id="cookstep_pumpkincake1" name="mezclando ingredientes" />
-		<text id="cookstep_pumpkincake2" name="horneando" />
-		<text id="cookstep_sugarglazeroastchicken1" name="aderezando el pollo" />
-		<text id="cookstep_sugarglazeroastchicken2" name="glaseando" />
-		<text id="cookstep_pumpkinsoup1" name="mezclando ingredientes" />
-		<text id="cookstep_pumpkinsoup2" name="cociendo" />
-		<text id="cookstep_pumpkinfondue1" name="derritiendo el queso" />
-		<text id="cookstep_pumpkinfondue2" name="mezclando ingredientes" />
-		<text id="cookstep_krabbypatty1" name="friendo hamburguesa de piña" />
-		<text id="cookstep_krabbypatty2" name="derritiendo el queso" />
-		<text id="cookstep_pumpkinspicelatte1" name="mezclando ingredientes" />
-		<text id="cookstep_pumpkinspicelatte2" name="sirviendo las bebidas" />
-		<text id="cookstep_spookymousse1" name="persiguiendo el chocolate" />
-		<text id="cookstep_spookymousse2" name="mezclando espíritus" />
+		<text id="cookstep_pumpkincake1" name="Mezclando ingredientes" />
+		<text id="cookstep_pumpkincake2" name="Horneando" />
+		<text id="cookstep_sugarglazeroastchicken1" name="Aderezando el pollo" />
+		<text id="cookstep_sugarglazeroastchicken2" name="Glaseando" />
+		<text id="cookstep_pumpkinsoup1" name="Mezclando ingredientes" />
+		<text id="cookstep_pumpkinsoup2" name="Cociendo" />
+		<text id="cookstep_pumpkinfondue1" name="Cerritiendo el queso" />
+		<text id="cookstep_pumpkinfondue2" name="Cezclando ingredientes" />
+		<text id="cookstep_krabbypatty1" name="Friendo hamburguesa de piña" />
+		<text id="cookstep_krabbypatty2" name="Derritiendo el queso" />
+		<text id="cookstep_pumpkinspicelatte1" name="Mezclando ingredientes" />
+		<text id="cookstep_pumpkinspicelatte2" name="Sirviendo las bebidas" />
+		<text id="cookstep_spookymousse1" name="Persiguiendo el chocolate" />
+		<text id="cookstep_spookymousse2" name="Mezclando espíritus" />
 		<text id="cookstep_fallchips1" name="Pelando patatas" />
 		<text id="cookstep_fallchips2" name="Friendo" />
-		<text id="cookstep_orangecompote1" name="Melting oranges" />
-		<text id="cookstep_orangecompote2" name="Stewing" />
-		<text id="cookstep_citruscompote1" name="Melting citrus" />
-		<text id="cookstep_citruscompote2" name="Stewing" />
-		<text id="cookstep_pierogi1" name="prepping dough" />
-		<text id="cookstep_pierogi2" name="folding" />
-		<text id="cookstep_fourcheesepizza1" name="Melting cheese" />
-		<text id="cookstep_fourcheesepizza2" name="Melting more cheese" />
-		<text id="cookstep_superchocolatecake1" name="Mixing ingredients" />
-		<text id="cookstep_superchocolatecake2" name="Baking" />
-		<text id="cookstep_chickencurry1" name="Dissolving spices" />
-		<text id="cookstep_chickencurry2" name="Cooking rice" />
-		<text id="cookstep_spookyfondue1" name="Melting cheese" />
-		<text id="cookstep_spookyfondue2" name="Mixing concoction" />
-		<text id="cookstep_simplefruitsalad1" name="Washing fruit" />
-		<text id="cookstep_simplefruitsalad2" name="Building salads" />
-		<text id="cookstep_whitechocpizza1" name="Melting chocolate" />
-		<text id="cookstep_whitechocpizza2" name="Adding fruit" />
-		<text id="cookstep_icecream1" name="Mixing ingredients" />
-		<text id="cookstep_icecream2" name="Cooling" />
-		<text id="cookstep_cookieswithmilk1" name="Heating milk" />
-		<text id="cookstep_cookieswithmilk2" name="Organizing cookies" />
-		<text id="cookstep_bananasmoothie1" name="Mixing ingredients" />
-		<text id="cookstep_bananasmoothie2" name="Pouring smoothies" />
-		<text id="cookstep_fourseasonspizza1" name="Heating sauce" />
-		<text id="cookstep_fourseasonspizza2" name="Covering pizza" />
-		<text id="cookstep_elegantcake1" name="Mixing ingredients" />
-		<text id="cookstep_elegantcake2" name="Baking" />
+		<text id="cookstep_orangecompote1" name="Derritiendo las naranjas" />
+		<text id="cookstep_orangecompote2" name="Cociendo" />
+		<text id="cookstep_citruscompote1" name="Derritiendo cítricos" />
+		<text id="cookstep_citruscompote2" name="Cociendo" />
+		<text id="cookstep_pierogi1" name="Preparando la masa" />
+		<text id="cookstep_pierogi2" name="Plegando los pierogi" />
+		<text id="cookstep_fourcheesepizza1" name="Derritiendo el queso" />
+		<text id="cookstep_fourcheesepizza2" name="Derritiendo más queso" />
+		<text id="cookstep_superchocolatecake1" name="Mezclando ingredientes" />
+		<text id="cookstep_superchocolatecake2" name="Horneando" />
+		<text id="cookstep_chickencurry1" name="Disolviendo especias" />
+		<text id="cookstep_chickencurry2" name="Cocinando el arroz" />
+		<text id="cookstep_spookyfondue1" name="Derritiendo el queso" />
+		<text id="cookstep_spookyfondue2" name="Mezclando el brebaje" />
+		<text id="cookstep_simplefruitsalad1" name="Lavando la fruta" />
+		<text id="cookstep_simplefruitsalad2" name="Montando la ensalada" />
+		<text id="cookstep_whitechocpizza1" name="Derritiendo el chocolate" />
+		<text id="cookstep_whitechocpizza2" name="Añadiendo fruta" />
+		<text id="cookstep_icecream1" name="Mezclando ingredientes" />
+		<text id="cookstep_icecream2" name="Enfriando" />
+		<text id="cookstep_cookieswithmilk1" name="Calentando la leche" />
+		<text id="cookstep_cookieswithmilk2" name="Organizando las galletas" />
+		<text id="cookstep_bananasmoothie1" name="Mezclando ingredientes" />
+		<text id="cookstep_bananasmoothie2" name="Sirviendo el smoothie" />
+		<text id="cookstep_fourseasonspizza1" name="Cocinando la salsa" />
+		<text id="cookstep_fourseasonspizza2" name="Montando la pizza" />
+		<text id="cookstep_elegantcake1" name="Mezclando ingredientes" />
+		<text id="cookstep_elegantcake2" name="Horneando" />
 	</cookstep>
 	<coopmission>
 		<text id="coop_desc_long_1" name="Comenzaremos una clase de cocina para perfeccionar nuestros platos. ¿Quieres unirte?" />
@@ -682,42 +682,42 @@
 		<text id="coop_title_54" name="1337" />
 		<text id="coop_desc_short_54" name="¿No te sientes un poco... viejo?" />
 		<text id="coop_desc_long_54" name="Chef YunaStellaris recuerda los viejos días de Café con cariño... ¿Por qué no revivís este recuerdo juntos?" />
-		<text id="coop_title_55" name="IT&apos;S GETTING JUICY" />
-		<text id="coop_desc_short_55" name="Fill the glasses!" />
-		<text id="coop_desc_long_55" name="Chef Joey proposes this mission to you. Are you ready?" />
-		<text id="coop_title_56" name="IT&apos;S GETTING VERY JUICY!" />
-		<text id="coop_desc_short_56" name="Even more juice!" />
-		<text id="coop_desc_long_56" name="Chef YunaStellaris proposes this mission to you. Are you ready?" />
-		<text id="coop_title_57" name="A BUNNY&apos;S BUFFET!" />
-		<text id="coop_desc_short_57" name="Carrots, berries and greens!" />
-		<text id="coop_desc_long_57" name="Chef YunaStellaris proposes this mission to you. Are you ready?" />
-		<text id="coop_title_58" name="DOLLY&apos;S MEMORIES" />
-		<text id="coop_desc_short_58" name="A taste of the past!" />
-		<text id="coop_desc_long_58" name="Chef EarthHunt3r proposes this mission to you. Are you ready?" />
+		<text id="coop_title_55" name="LA COSA ESTÁ JUGOSA" />
+		<text id="coop_desc_short_55" name="¡Llena los vasos!" />
+		<text id="coop_desc_long_55" name="Chef Joey propone esta misión para ti. ¿Estás listo?" />
+		<text id="coop_title_56" name="¡LA COSA ESTÁ MUY JUGOSA!" />
+		<text id="coop_desc_short_56" name="¡Todavía más jugoso!" />
+		<text id="coop_desc_long_56" name="Chef YunaStellaris propone un reto todavía mayor. ¿Estás listo?" />
+		<text id="coop_title_57" name="¡BUFFET PARA CONEJOS!" />
+		<text id="coop_desc_short_57" name="¡Zanahorias, bayas y verduras!" />
+		<text id="coop_desc_long_57" name="Chef YunaStellaris te propone este reto conejil. ¿Podrás con ello?" />
+		<text id="coop_title_58" name="EN MEMORIA DE DOLLY" />
+		<text id="coop_desc_short_58" name="Un sabor nostálgico" />
+		<text id="coop_desc_long_58" name="Chef EarthHunt3r no se olvida de Dolly Parton. Hazle un homenaje." />
 		<text id="coop_title_59" name="NETFLIX &amp; FISH" />
-		<text id="coop_desc_short_59" name="Fish night is on!" />
-		<text id="coop_desc_long_59" name="Chef Mignon proposes this mission to you. Are you ready?" />
-		<text id="coop_title_60" name="WILD AND CRAZY" />
-		<text id="coop_desc_short_60" name="Are you feeling it now?" />
-		<text id="coop_desc_long_60" name="Chef Celeste proposes this mission to you. Are you ready?" />
-		<text id="coop_title_61" name="SWEET LIKE A STRAWBERRY 2!" />
-		<text id="coop_desc_short_61" name="The harvest got even better!" />
-		<text id="coop_desc_long_61" name="Last time, the strawberry harvest was excellent. Somehow, this year&apos;s crop is even bigger! Chefs Lily_007 and Nightfall need your help turning all those strawberries into delicious dishes." />
-		<text id="coop_title_62" name="HEAVY ROAST &amp; DESSERT" />
-		<text id="coop_desc_short_62" name="A feast worth the wait!" />
-		<text id="coop_desc_long_62" name="It’s a roast-a-thon! Bring on the crackling, pile up the chicken, and save room for something sweet." />
-		<text id="coop_title_63" name="SUNDAY BRUNCH BASH" />
-		<text id="coop_desc_short_63" name="Sunday crowd incoming!" />
-		<text id="coop_desc_long_63" name="Brunch is officially ON! The café is packed, the orders are flying in, and your team has one goal: feed the HUNGRY Sunday crowd!" />
-		<text id="coop_title_64" name="ULTIMATE DESSERT FESTIVAL" />
-		<text id="coop_desc_short_64" name="Save room for dessert!" />
-		<text id="coop_desc_long_64" name="Warning: Serious sweet tooth ahead! The café has been transformed into a dessert lover’s dream, and customers are coming in by the hundreds!" />
-		<text id="coop_title_65" name="VEGGIE WEEKEND" />
-		<text id="coop_desc_short_65" name="Fresh and vegetarian!" />
-		<text id="coop_desc_long_65" name="Fresh, Tasty, 100% Vegetarian. Lets get to work!" />
-		<text id="coop_title_66" name="OMELETTES TO THE MAX - LITE!" />
-		<text id="coop_desc_short_66" name="Not so many eggs, please!" />
-		<text id="coop_desc_long_66" name="Making Omelettes is fun! But, the constant egg-cracking can be tough for starters. Take a glimpse of the massive workload and see if you&apos;re up to the task." />
+		<text id="coop_desc_short_59" name="¡Noche de peces!" />
+		<text id="coop_desc_long_59" name="Chef Mignon tiene planes acúaticos para esta noche, ¡no te ahogues!" />
+		<text id="coop_title_60" name="SALVAJE Y LOCO" />
+		<text id="coop_desc_short_60" name="¿Lo sientes ahora?" />
+		<text id="coop_desc_long_60" name="Al Chef Celeste le va la marcha, ¿y a ti?" />
+		<text id="coop_title_61" name="¡DULZURA SABOR FRESA 2!" />
+		<text id="coop_desc_short_61" name="Una cosecha todavía mejor" />
+		<text id="coop_desc_long_61" name="La última vez la cosecha de fresas fue excelente. De alguna forma, ¡la de este año es todavía mejor! Chefs Lily_007 y Nightfall necesitan tu ayuda para convertir todas esas fresas en platos deliciosos." />
+		<text id="coop_title_62" name="ASADO CON POSTRE" />
+		<text id="coop_desc_short_62" name="¡Un festín por el que merece la pena esperar!" />
+		<text id="coop_desc_long_62" name="¡Es un asatón! Prueba la corteza, hínchate a pollo y guarda sitio para el postre." />
+		<text id="coop_title_63" name="FIESTA DE ALMUERZO DOMINICAL" />
+		<text id="coop_desc_short_63" name="¡Se viene un domingo cargado!" />
+		<text id="coop_desc_long_63" name="¡El almuerzo está listo! El café está a rebosar, las comandas vuelan y tu equipo tiene una misión: ¡alimentar a esta HAMBRIENTA muchedumbre!" />
+		<text id="coop_title_64" name="EL FESTIVAL DEL POSTRE DEFINITIVO" />
+		<text id="coop_desc_short_64" name="¡Guarda sitio para el postre!" />
+		<text id="coop_desc_long_64" name="Precaución: Golosos justo en camino. El café se ha transformado en un paraíso para los apasionados de los postres, ¡y los clientes vienen a montones!" />
+		<text id="coop_title_65" name="FINDE VEGETAL" />
+		<text id="coop_desc_short_65" name="¡Fresco y vegetariano!" />
+		<text id="coop_desc_long_65" name="Fresco, delicioso y 100% vegetariano.¡A trabajar!" />
+		<text id="coop_title_66" name="¡A TOPE CON LOS OMELETTES-LITE!" />
+		<text id="coop_desc_short_66" name="Menos huevos, ¡por favor!" />
+		<text id="coop_desc_long_66" name="Preparar omelettes es divertido pero, para los principiantes, estar rompiendo huevos constantemente puede resultar complicado. Echa un vistazo inicial a la enorme carga de trabajo y comprueba si estás a la altura del desafío." />
 		<text id="coop_title_30" name="¡RATA DE DOS PATAS!" />
 		<text id="coop_desc_short_30" name="¡No dejes que nadie lo vea!" />
 		<text id="coop_desc_long_30" name="¡Se ha visto un ratón en tu cafetería y quiere que le sirvan comida de lujo o arruinará tu negocio! ¿Por qué me suena esto?" />
@@ -1762,7 +1762,7 @@
 		<text id="preparestep_pizzatonno_tomato" name="mezclar tomates" />
 		<text id="preparestep_pizza_cheese" name="rallar queso" />
 		<text id="preparestep_pizza_flour" name="colar harina" />
-		<text id="preparestep_pizza_tomato" name="mezcla tomates" />
+		<text id="preparestep_pizza_tomato" name="mezclar tomates" />
 		<text id="preparestep_porkroastwithcrackling_carrots" name="pelar zanahorias" />
 		<text id="preparestep_porkroastwithcrackling_garlic" name="machacar ajo" />
 		<text id="preparestep_porkroastwithcrackling_meat" name="cortar carne" />
@@ -1797,7 +1797,7 @@
 		<text id="preparestep_spareribs_meat" name="cortar carne" />
 		<text id="preparestep_spareribs_oil" name="calcular aceite" />
 		<text id="preparestep_spareribs_onion" name="picar cebollas" />
-		<text id="preparestep_spareribs_tomato" name="mezcla tomates" />
+		<text id="preparestep_spareribs_tomato" name="mezclar tomates" />
 		<text id="preparestep_steakkidneypie_flour" name="colar harina" />
 		<text id="preparestep_steakkidneypie_kidney" name="cortar riñones" />
 		<text id="preparestep_steakkidneypie_meat" name="cortar carne" />
@@ -2106,76 +2106,76 @@
 		<text id="preparestep_fallchips_potato" name="pelar patatas" />
 		<text id="preparestep_fallchips_oil" name="calentar el aceite" />
 		<text id="preparestep_fallchips_cookfest" name="utilizar ingredientes rápidos" />
-		<text id="preparestep_orangecompote_orange" name="Slice oranges" />
-		<text id="preparestep_orangecompote_sugar" name="Caramelize sugar" />
-		<text id="preparestep_orangecompote_cookfest" name="Use fast ingredients" />
-		<text id="preparestep_citruscompote_citrus" name="Slice citrus fruits" />
-		<text id="preparestep_citruscompote_sugar" name="Caramelize sugar" />
-		<text id="preparestep_citruscompote_cookfest" name="Use fast ingredients" />
-		<text id="preparestep_pierogi_potato" name="peel potatoes" />
-		<text id="preparestep_pierogi_flour" name="sift flour" />
-		<text id="preparestep_pierogi_onion" name="chop onion" />
-		<text id="preparestep_pierogi_meat" name="mince meat" />
-		<text id="preparestep_pierogi_cookfest" name="use fast ingredients" />
-		<text id="preparestep_fourcheesepizza_flour" name="sift flour" />
-		<text id="preparestep_fourcheesepizza_cheese" name="cut cheese" />
-		<text id="preparestep_fourcheesepizza_cookfest" name="use fast ingredients" />
-		<text id="preparestep_superchocolatecake_flour" name="sift lots of flour" />
-		<text id="preparestep_superchocolatecake_chocolate" name="melt lots of chocolate" />
-		<text id="preparestep_superchocolatecake_sugar" name="add lots sugar" />
-		<text id="preparestep_superchocolatecake_eggs" name="crack tens of eggs" />
-		<text id="preparestep_superchocolatecake_milk" name="add lots of milk" />
-		<text id="preparestep_superchocolatecake_cookfest" name="use fast ingredients" />
-		<text id="preparestep_chickencurry_chicken" name="cut chicken" />
-		<text id="preparestep_chickencurry_curryspice" name="spread curry" />
-		<text id="preparestep_chickencurry_tomato" name="chop tomatoes" />
-		<text id="preparestep_chickencurry_onion" name="chop onions" />
-		<text id="preparestep_chickencurry_rice" name="cook rice" />
-		<text id="preparestep_chickencurry_cookfest" name="use fast ingredients" />
-		<text id="preparestep_spookyfondue_cheese" name="cut cheese" />
-		<text id="preparestep_spookyfondue_cream" name="whip cream" />
-		<text id="preparestep_spookyfondue_citrus" name="make green dye" />
-		<text id="preparestep_spookyfondue_cookfest" name="use fast ingredients" />
-		<text id="preparestep_simplefruitsalad_banana" name="slice bananas" />
-		<text id="preparestep_simplefruitsalad_apple" name="dice apples" />
-		<text id="preparestep_simplefruitsalad_cherries" name="pit cherries" />
-		<text id="preparestep_simplefruitsalad_citrus" name="slice citrus" />
-		<text id="preparestep_simplefruitsalad_cookfest" name="use fast ingredients" />
-		<text id="preparestep_fruitsalad_cookfest" name="use fast ingredients" />
-		<text id="preparestep_whitechocpizza_banana" name="slice bananas" />
-		<text id="preparestep_whitechocpizza_cherries" name="pit cherries" />
-		<text id="preparestep_whitechocpizza_flour" name="sift flour" />
-		<text id="preparestep_whitechocpizza_whitechocolat" name="melt chocolate" />
-		<text id="preparestep_whitechocpizza_strawberry" name="wash strawberries" />
-		<text id="preparestep_whitechocpizza_cookfest" name="use fast ingredients" />
-		<text id="preparestep_icecream_milk" name="add milk" />
-		<text id="preparestep_icecream_cream" name="whip cream" />
-		<text id="preparestep_icecream_sugar" name="add sugar" />
-		<text id="preparestep_icecream_chocolate" name="melt chocolate" />
-		<text id="preparestep_icecream_cherries" name="wash cherries" />
-		<text id="preparestep_icecream_cookfest" name="use fast ingredients" />
-		<text id="preparestep_bananasplit_cookfest" name="use fast ingredients" />
-		<text id="preparestep_steak_cookfest" name="use fast ingredients" />
-		<text id="preparestep_ricepudding_cookfest" name="use fast ingredients" />
-		<text id="preparestep_maplepancakes_cookfest" name="use fast ingredients" />
-		<text id="preparestep_maplepancakes_maplesyrup" name="taste maple syrup" />
-		<text id="preparestep_cookieswithmilk_milk" name="Heat milk" />
-		<text id="preparestep_cookieswithmilk_cookies" name="Organize cookies" />
-		<text id="preparestep_cookieswithmilk_cookfest" name="use magic ingredients" />
-		<text id="preparestep_bananasmoothie_banana" name="peel bananas" />
-		<text id="preparestep_bananasmoothie_milk" name="add milk" />
-		<text id="preparestep_bananasmoothie_cookfest" name="use fast ingredients" />
-		<text id="preparestep_fourseasonspizza_flour" name="make dough" />
-		<text id="preparestep_fourseasonspizza_cheese" name="grate cheese" />
-		<text id="preparestep_fourseasonspizza_pinapple" name="cut pineapple" />
-		<text id="preparestep_fourseasonspizza_sausages" name="slice sausages" />
-		<text id="preparestep_fourseasonspizza_tomato" name="slice tomatoes" />
-		<text id="preparestep_fourseasonspizza_cookfest" name="use fast ingredients" />
-		<text id="preparestep_elegantcake_goldeneggs" name="separate eggs" />
-		<text id="preparestep_elegantcake_flour" name="sift flour" />
-		<text id="preparestep_elegantcake_milk" name="add milk" />
-		<text id="preparestep_elegantcake_sugar" name="caramelize sugar" />
-		<text id="preparestep_elegantcake_cookfest" name="use fast ingredients" />
+		<text id="preparestep_orangecompote_orange" name="cortar naranjas" />
+		<text id="preparestep_orangecompote_sugar" name="caramelizar el azúcar" />
+		<text id="preparestep_orangecompote_cookfest" name="utilizar ingredientes rápidos" />
+		<text id="preparestep_citruscompote_citrus" name="cortar los cítricos" />
+		<text id="preparestep_citruscompote_sugar" name="caramelizar el azúcar" />
+		<text id="preparestep_citruscompote_cookfest" name="utilizar ingredientes rápidos" />
+		<text id="preparestep_pierogi_potato" name="pelar patatas" />
+		<text id="preparestep_pierogi_flour" name="tamizar la harina" />
+		<text id="preparestep_pierogi_onion" name="cortar la cebolla" />
+		<text id="preparestep_pierogi_meat" name="picar la carne" />
+		<text id="preparestep_pierogi_cookfest" name="utilizar ingredientes rápidos" />
+		<text id="preparestep_fourcheesepizza_flour" name="tamizar la harina" />
+		<text id="preparestep_fourcheesepizza_cheese" name="cortar el queso" />
+		<text id="preparestep_fourcheesepizza_cookfest" name="utilizar ingredientes rápidos" />
+		<text id="preparestep_superchocolatecake_flour" name="tamizar mucha harina" />
+		<text id="preparestep_superchocolatecake_chocolate" name="derretir mucho chocolate" />
+		<text id="preparestep_superchocolatecake_sugar" name="añadir mucho azúcar" />
+		<text id="preparestep_superchocolatecake_eggs" name="romper decenas de huevos" />
+		<text id="preparestep_superchocolatecake_milk" name="añadir mucha leche" />
+		<text id="preparestep_superchocolatecake_cookfest" name="utilizar ingredientes rápidos" />
+		<text id="preparestep_chickencurry_chicken" name="cortar el pollo" />
+		<text id="preparestep_chickencurry_curryspice" name="espolvorear curry" />
+		<text id="preparestep_chickencurry_tomato" name="cortar los tomates" />
+		<text id="preparestep_chickencurry_onion" name="cortar las cebollas" />
+		<text id="preparestep_chickencurry_rice" name="cocinar el arroz" />
+		<text id="preparestep_chickencurry_cookfest" name="utilizar ingredientes rápidos" />
+		<text id="preparestep_spookyfondue_cheese" name="cortar queso" />
+		<text id="preparestep_spookyfondue_cream" name="batir la crema" />
+		<text id="preparestep_spookyfondue_citrus" name="preparar el tinte verde" />
+		<text id="preparestep_spookyfondue_cookfest" name="utilizar ingredientes rápidos" />
+		<text id="preparestep_simplefruitsalad_banana" name="cortar los plátanos" />
+		<text id="preparestep_simplefruitsalad_apple" name="trocear las manzanas" />
+		<text id="preparestep_simplefruitsalad_cherries" name="deshuesar las cerezas" />
+		<text id="preparestep_simplefruitsalad_citrus" name="cortar los cítricos" />
+		<text id="preparestep_simplefruitsalad_cookfest" name="utilizar ingredientes rápidos" />
+		<text id="preparestep_fruitsalad_cookfest" name="utilizar ingredientes rápidos" />
+		<text id="preparestep_whitechocpizza_banana" name="cortar los plátanos" />
+		<text id="preparestep_whitechocpizza_cherries" name="deshuesar las cerezas" />
+		<text id="preparestep_whitechocpizza_flour" name="tamizar la harina" />
+		<text id="preparestep_whitechocpizza_whitechocolat" name="derretir el chocolate" />
+		<text id="preparestep_whitechocpizza_strawberry" name="lavar las fresas" />
+		<text id="preparestep_whitechocpizza_cookfest" name="utilizar ingredientes rápidos" />
+		<text id="preparestep_icecream_milk" name="añadir leche" />
+		<text id="preparestep_icecream_cream" name="batir la nata" />
+		<text id="preparestep_icecream_sugar" name="añadir azúcar" />
+		<text id="preparestep_icecream_chocolate" name="derretir chocolate" />
+		<text id="preparestep_icecream_cherries" name="lavar cerezas" />
+		<text id="preparestep_icecream_cookfest" name="utilizar ingredientes rápidos" />
+		<text id="preparestep_bananasplit_cookfest" name="utilizar ingredientes rápidos" />
+		<text id="preparestep_steak_cookfest" name="utilizar ingredientes rápidos" />
+		<text id="preparestep_ricepudding_cookfest" name="utilizar ingredientes rápidos" />
+		<text id="preparestep_maplepancakes_cookfest" name="utilizar ingredientes rápidos" />
+		<text id="preparestep_maplepancakes_maplesyrup" name="probar sirope de arce" />
+		<text id="preparestep_cookieswithmilk_milk" name="calentar la leche" />
+		<text id="preparestep_cookieswithmilk_cookies" name="organizar galletas" />
+		<text id="preparestep_cookieswithmilk_cookfest" name="utilizar ingredientes rápidos" />
+		<text id="preparestep_bananasmoothie_banana" name="pelar los plátanos" />
+		<text id="preparestep_bananasmoothie_milk" name="añadir la leche" />
+		<text id="preparestep_bananasmoothie_cookfest" name="utilizar ingredientes rápidos" />
+		<text id="preparestep_fourseasonspizza_flour" name="hacer la masa" />
+		<text id="preparestep_fourseasonspizza_cheese" name="gratinar el queso" />
+		<text id="preparestep_fourseasonspizza_pinapple" name="cortar la piña" />
+		<text id="preparestep_fourseasonspizza_sausages" name="trocear las salchichas" />
+		<text id="preparestep_fourseasonspizza_tomato" name="cortar los tomates" />
+		<text id="preparestep_fourseasonspizza_cookfest" name="utilizar ingredientes rápidos" />
+		<text id="preparestep_elegantcake_goldeneggs" name="separar los huevos" />
+		<text id="preparestep_elegantcake_flour" name="tamizar la harina" />
+		<text id="preparestep_elegantcake_milk" name="añadir la leche" />
+		<text id="preparestep_elegantcake_sugar" name="caramelizar el azúcar" />
+		<text id="preparestep_elegantcake_cookfest" name="utilizar ingredientes rápidos" />
 	</preparestep>
 	<preparestep_fancy>
 		<text id="preparestep_duckalcitrus_cinnamon" name="espolvorear canela" />
@@ -2359,9 +2359,9 @@
 		<text id="preparestep_passionfruitjuice_eventspice" name="añadir especias de evento" />
 		<text id="preparestep_passionfruitcheesecake_eventspice" name="añadir especias de evento" />
 		<text id="preparestep_pietray_eventspice" name="añadir especias de evento" />
-		<text id="preparestep_meatstuffedpeppers_eventspice" name="spread event spice" />
-		<text id="preparestep_gourmetcheesedish_eventspice" name="spread event spice" />
-		<text id="preparestep_bluecheesefondue_eventspice" name="spread event spice" />
+		<text id="preparestep_meatstuffedpeppers_eventspice" name="añadir especias de evento" />
+		<text id="preparestep_gourmetcheesedish_eventspice" name="añadir especias de evento" />
+		<text id="preparestep_bluecheesefondue_eventspice" name="añadir especias de evento" />
 		<text id="preparestep_cookieplate_eventspice" name="añadir especias de evento" />
 		<text id="preparestep_stewedrhubarb_eventspice" name="añadir especias de evento" />
 		<text id="preparestep_combomeal_eventspice" name="añadir especias de evento" />
@@ -2469,40 +2469,40 @@
 		<text id="preparestep_spookymousse_eventspice" name="añadir especias de evento" />
 		<text id="preparestep_fallchips_rosemary" name="añadir romero" />
 		<text id="preparestep_fallchips_eventspice" name="añadir especias de evento" />
-		<text id="preparestep_orangecompote_vanilla" name="Scrap vanilla" />
-		<text id="preparestep_orangecompote_eventspice" name="Spread event spice" />
-		<text id="preparestep_citruscompote_vanilla" name="Scrap vanilla" />
-		<text id="preparestep_citruscompote_eventspice" name="Spread event spice" />
-		<text id="preparestep_pierogi_parsley" name="chop parsley" />
-		<text id="preparestep_pierogi_eventspice" name="spread event spice" />
-		<text id="preparestep_fourcheesepizza_parsley" name="chop parsley" />
-		<text id="preparestep_fourcheesepizza_eventspice" name="spread event spice" />
-		<text id="preparestep_superchocolatecake_cinnamon" name="grate cinnamon" />
-		<text id="preparestep_superchocolatecake_eventspice" name="spread event spice" />
-		<text id="preparestep_chickencurry_coriander" name="add coriander" />
-		<text id="preparestep_chickencurry_eventspice" name="spread event spice" />
-		<text id="preparestep_spookyfondue_horseradish" name="add magical ingredient" />
-		<text id="preparestep_spookyfondue_eventspice" name="spread event spice spookily" />
-		<text id="preparestep_sweetpizza_eventspice" name="spread event spice" />
-		<text id="preparestep_simplefruitsalad_vanilla" name="scrape out vanilla" />
-		<text id="preparestep_simplefruitsalad_eventspice" name="spread event spice" />
-		<text id="preparestep_fruitsalad_eventspice" name="spread event spice" />
-		<text id="preparestep_whitechocpizza_nutmeg" name="ground nutmeg" />
-		<text id="preparestep_whitechocpizza_eventspice" name="spread event spice" />
-		<text id="preparestep_icecream_vanilla" name="make vanilla extract" />
-		<text id="preparestep_icecream_eventspice" name="spread event spice" />
-		<text id="preparestep_bananasplit_eventspice" name="spread event spice" />
-		<text id="preparestep_steak_eventspice" name="spread event spice" />
-		<text id="preparestep_ricepudding_eventspice" name="spread event spice" />
-		<text id="preparestep_maplepancakes_eventspice" name="spread event spice" />
-		<text id="preparestep_cookieswithmilk_cinnamon" name="Sprinkle cinnamon" />
-		<text id="preparestep_cookieswithmilk_eventspice" name="spread event spice" />
-		<text id="preparestep_bananasmoothie_vanilla" name="add vanilla extract" />
-		<text id="preparestep_bananasmoothie_eventspice" name="spread event spice" />
-		<text id="preparestep_fourseasonspizza_chili" name="chop chili" />
-		<text id="preparestep_fourseasonspizza_eventspice" name="spread event spice" />
-		<text id="preparestep_elegantcake_nutmeg" name="grate nutmeg" />
-		<text id="preparestep_elegantcake_eventspice" name="spread event spice" />
+		<text id="preparestep_orangecompote_vanilla" name="rallar vainilla" />
+		<text id="preparestep_orangecompote_eventspice" name="añadir especias de evento" />
+		<text id="preparestep_citruscompote_vanilla" name="rallar vainilla" />
+		<text id="preparestep_citruscompote_eventspice" name="añadir especias de evento" />
+		<text id="preparestep_pierogi_parsley" name="cortar perejil" />
+		<text id="preparestep_pierogi_eventspice" name="añadir especias de evento" />
+		<text id="preparestep_fourcheesepizza_parsley" name="cortar perejil" />
+		<text id="preparestep_fourcheesepizza_eventspice" name="añadir especias de evento" />
+		<text id="preparestep_superchocolatecake_cinnamon" name="rallar canela" />
+		<text id="preparestep_superchocolatecake_eventspice" name="añadir especias de evento" />
+		<text id="preparestep_chickencurry_coriander" name="añadir cilantro" />
+		<text id="preparestep_chickencurry_eventspice" name="añadir especias de evento" />
+		<text id="preparestep_spookyfondue_horseradish" name="añadir ingrediente mágico" />
+		<text id="preparestep_spookyfondue_eventspice" name="añadir especias de evento inquietantemente" />
+		<text id="preparestep_sweetpizza_eventspice" name="añadir especias de evento" />
+		<text id="preparestep_simplefruitsalad_vanilla" name="rallar vainilla" />
+		<text id="preparestep_simplefruitsalad_eventspice" name="añadir especias de evento" />
+		<text id="preparestep_fruitsalad_eventspice" name="añadir especias de evento" />
+		<text id="preparestep_whitechocpizza_nutmeg" name="moler nuez moscada" />
+		<text id="preparestep_whitechocpizza_eventspice" name="añadir especias de evento" />
+		<text id="preparestep_icecream_vanilla" name="añadir extracto de vainilla" />
+		<text id="preparestep_icecream_eventspice" name="añadir especias de evento" />
+		<text id="preparestep_bananasplit_eventspice" name="añadir especias de evento" />
+		<text id="preparestep_steak_eventspice" name="añadir especias de evento" />
+		<text id="preparestep_ricepudding_eventspice" name="añadir especias de evento" />
+		<text id="preparestep_maplepancakes_eventspice" name="añadir especias de evento" />
+		<text id="preparestep_cookieswithmilk_cinnamon" name="espolvorear canela" />
+		<text id="preparestep_cookieswithmilk_eventspice" name="añadir especias de evento" />
+		<text id="preparestep_bananasmoothie_vanilla" name="añadir extracto de vainilla" />
+		<text id="preparestep_bananasmoothie_eventspice" name="añadir especias de evento" />
+		<text id="preparestep_fourseasonspizza_chili" name="trocear chile" />
+		<text id="preparestep_fourseasonspizza_eventspice" name="añadir especias de evento" />
+		<text id="preparestep_elegantcake_nutmeg" name="moler nuez moscada" />
+		<text id="preparestep_elegantcake_eventspice" name="añadir especias de evento" />
 		<text id="preparestep_matildacake_vanilla" name="raspar vainilla" />
 	</preparestep_fancy>
 	<recipe>
@@ -2673,20 +2673,20 @@
 		<text id="recipe_pumpkinspicelatte" name="Latte de calabaza picante" />
 		<text id="recipe_spookymousse" name="Mousse aterradora" />
 		<text id="recipe_fallchips" name="Patatas otoñales" />
-		<text id="recipe_orangecompote" name="Orange Compote" />
-		<text id="recipe_citruscompote" name="Citrus Compote" />
+		<text id="recipe_orangecompote" name="Compota de naranja" />
+		<text id="recipe_citruscompote" name="Compota de cítricos" />
 		<text id="recipe_pierogi" name="Pierogi" />
-		<text id="recipe_fourcheesepizza" name="Four Cheese Pizza" />
-		<text id="recipe_superchocolatecake" name="Super Chocolate Cake" />
-		<text id="recipe_chickencurry" name="Chicken Curry" />
-		<text id="recipe_spookyfondue" name="Spooky Fondue" />
-		<text id="recipe_simplefruitsalad" name="Simple Fruit Salad" />
-		<text id="recipe_whitechocpizza" name="White Choc Pizza" />
-		<text id="recipe_icecream" name="Ice Cream" />
-		<text id="recipe_cookieswithmilk" name="Cookies with Milk" />
-		<text id="recipe_bananasmoothie" name="Banana Smoothie" />
-		<text id="recipe_fourseasonspizza" name="4 Seasons Pizza" />
-		<text id="recipe_elegantcake" name="Elegant Cake" />
+		<text id="recipe_fourcheesepizza" name="Pizza de cuatro quesos" />
+		<text id="recipe_superchocolatecake" name="Super tarta de chocolate" />
+		<text id="recipe_chickencurry" name="Curry de pollo" />
+		<text id="recipe_spookyfondue" name="Fondue espeluznante" />
+		<text id="recipe_simplefruitsalad" name="Ensalada de fruta simple" />
+		<text id="recipe_whitechocpizza" name="Pizza de chocolate blanco" />
+		<text id="recipe_icecream" name="Helado" />
+		<text id="recipe_cookieswithmilk" name="Leche con galletas" />
+		<text id="recipe_bananasmoothie" name="Smoothie de plátano" />
+		<text id="recipe_fourseasonspizza" name="Pizza de las 4 estaciones" />
+		<text id="recipe_elegantcake" name="Tarta elegante" />
 	</recipe>
 	<recipes_fastfood>
 		<text id="recipe_smoothiemaker_greensmoothie" name="Smoothie verde" />
